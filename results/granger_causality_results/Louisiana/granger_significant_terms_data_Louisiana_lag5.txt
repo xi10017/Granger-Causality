@@ -1,0 +1,29 @@
+=== COMPREHENSIVE GRANGER CAUSALITY ANALYSIS SUMMARY ===
+Data file: Louisiana_2010_2020.csv
+Response variable: Louisiana
+Max lag: 5
+Number of tests: 20
+Bonferroni threshold: 0.002500
+FDR correction applied (Benjamini-Hochberg method, alpha=0.05)
+Overall Granger causality F-statistic: 3.5980
+Overall Granger causality p-value: 0.000000
+Model R-squared: 0.9596
+
+=== SIGNIFICANCE SUMMARY ===
+Uncorrected significant (p < 0.05): 11 terms
+Bonferroni significant (p < 0.002500): 3 terms
+FDR significant: 9 terms
+
+=== ALL SIGNIFICANT TERMS (n=11) ===
+Term	Min_p_value	Most_Conservative_Significance
+the flu symptoms	0.000013	Bonferroni
+flu fever	0.001600	Bonferroni
+how long does the flu last	0.001634	Bonferroni
+flu a	0.002551	FDR
+cold	0.003079	FDR
+flu contagious	0.003324	FDR
+symptoms of flu	0.011186	FDR
+fever flu	0.016777	FDR
+flu cold	0.018653	FDR
+flu symptoms	0.033515	Uncorrected
+bronchitis	0.039546	Uncorrected

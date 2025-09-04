@@ -1,0 +1,19 @@
+Term,Category,Count,Mean_Pvalue,Median_Pvalue,Min_Pvalue,Max_Pvalue
+a influenza,Bonferroni,5,0.00011020000000000001,3.6e-05,2.6e-05,0.000319
+influenza a,Bonferroni,5,0.00011020000000000001,3.6e-05,2.6e-05,0.000319
+influenza b,Bonferroni,4,0.0,0.0,0.0,0.0
+influenza contagious,Bonferroni,4,0.000563,0.0004994999999999999,8.9e-05,0.001164
+influenza symptoms,Bonferroni,4,0.0007635000000000001,0.0006284999999999999,0.000563,0.001234
+rsv,Bonferroni,1,0.000171,0.000171,0.000171,0.000171
+symptoms of influenza,FDR,5,0.010276799999999999,0.00931,0.006903,0.015112
+influenza a symptoms,FDR,4,0.0086965,0.008764,0.004382,0.012876
+pneumonia,FDR,1,0.003277,0.003277,0.003277,0.003277
+rsv,Uncorrected,4,0.03816875,0.038175,0.029338,0.046987
+pneumonia,Uncorrected,1,0.020973,0.020973,0.020973,0.020973
+influenza a symptoms,Uncorrected,1,0.019382,0.019382,0.019382,0.019382
+flu symptoms,Uncorrected,1,0.0237,0.0237,0.0237,0.0237
+how long contagious,Uncorrected,1,0.028556,0.028556,0.028556,0.028556
+flu how long,Uncorrected,1,0.031767,0.031767,0.031767,0.031767
+how long flu,Uncorrected,1,0.031767,0.031767,0.031767,0.031767
+stomach flu,Uncorrected,1,0.038606,0.038606,0.038606,0.038606
+the flu,Uncorrected,1,0.040431,0.040431,0.040431,0.040431

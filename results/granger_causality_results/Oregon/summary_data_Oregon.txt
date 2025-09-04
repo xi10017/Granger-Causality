@@ -1,0 +1,57 @@
+=== GRANGER CAUSALITY SIGNIFICANT TERMS SUMMARY ===
+Data file analyzed: Oregon_2010_2020.csv
+Response variable: Oregon
+Total significant term combinations: 29
+Unique terms: 10
+Response variables analyzed: Oregon
+Max lags tested: 3, 2, 5, 4, 1
+
+the flu symptoms significant combinations:
+  Oregon_lag2: p=0.000181 (Bonferroni)
+  Oregon_lag3: p=0.000248 (Bonferroni)
+  Oregon_lag4: p=0.002576 (Uncorrected)
+  Oregon_lag5: p=0.005235 (Uncorrected)
+
+flu a significant combinations:
+  Oregon_lag1: p=0.006801 (Uncorrected)
+  Oregon_lag2: p=0.014367 (Uncorrected)
+  Oregon_lag3: p=0.006758 (Uncorrected)
+  Oregon_lag4: p=0.016423 (Uncorrected)
+  Oregon_lag5: p=0.002589 (Uncorrected)
+
+rsv significant combinations:
+  Oregon_lag1: p=0.038359 (Uncorrected)
+  Oregon_lag2: p=0.009022 (Uncorrected)
+  Oregon_lag3: p=0.017666 (Uncorrected)
+  Oregon_lag4: p=0.011171 (Uncorrected)
+  Oregon_lag5: p=0.008093 (Uncorrected)
+
+flu cold significant combinations:
+  Oregon_lag2: p=0.025961 (Uncorrected)
+  Oregon_lag3: p=0.040063 (Uncorrected)
+  Oregon_lag4: p=0.016558 (Uncorrected)
+  Oregon_lag5: p=0.017574 (Uncorrected)
+
+symptoms of flu significant combinations:
+  Oregon_lag4: p=0.018522 (Uncorrected)
+  Oregon_lag5: p=0.016956 (Uncorrected)
+
+flu contagious significant combinations:
+  Oregon_lag4: p=0.031383 (Uncorrected)
+  Oregon_lag5: p=0.021139 (Uncorrected)
+
+bronchitis significant combinations:
+  Oregon_lag1: p=0.046163 (Uncorrected)
+  Oregon_lag2: p=0.029112 (Uncorrected)
+
+the flu significant combinations:
+  Oregon_lag2: p=0.029698 (Uncorrected)
+  Oregon_lag3: p=0.039962 (Uncorrected)
+  Oregon_lag5: p=0.048466 (Uncorrected)
+
+how long flu significant combinations:
+  Oregon_lag2: p=0.047635 (Uncorrected)
+
+flu how long significant combinations:
+  Oregon_lag2: p=0.047635 (Uncorrected)
+

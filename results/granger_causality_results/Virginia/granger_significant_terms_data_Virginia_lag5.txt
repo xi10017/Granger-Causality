@@ -1,0 +1,25 @@
+=== COMPREHENSIVE GRANGER CAUSALITY ANALYSIS SUMMARY ===
+Data file: Virginia_2010_2020.csv
+Response variable: Virginia
+Max lag: 5
+Number of tests: 20
+Bonferroni threshold: 0.002500
+FDR correction applied (Benjamini-Hochberg method, alpha=0.05)
+Overall Granger causality F-statistic: 2.7810
+Overall Granger causality p-value: 0.000000
+Model R-squared: 0.9599
+
+=== SIGNIFICANCE SUMMARY ===
+Uncorrected significant (p < 0.05): 7 terms
+Bonferroni significant (p < 0.002500): 3 terms
+FDR significant: 3 terms
+
+=== ALL SIGNIFICANT TERMS (n=7) ===
+Term	Min_p_value	Most_Conservative_Significance
+is flu contagious	0.000412	Bonferroni
+sinus	0.001137	Bonferroni
+flu incubation	0.001638	Bonferroni
+rsv	0.011683	Uncorrected
+the flu	0.023644	Uncorrected
+bronchitis	0.025429	Uncorrected
+flu symptoms	0.032031	Uncorrected

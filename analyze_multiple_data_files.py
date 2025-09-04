@@ -24,6 +24,10 @@ def analyze_data_file(data_file_name):
     
     # Temporarily modify the configuration
     original_file_name = file_name
+    original_response_var = response_var
+    
+    # Extract state name from data file name (e.g., "Alabama_2010_2020.csv" -> "Alabama")
+    state_name = data_file_name.split('_')[0]
     
     # Update the configuration file
     with open('confs.py', 'r') as f:
@@ -33,6 +37,12 @@ def analyze_data_file(data_file_name):
     config_content = config_content.replace(
         f'file_name = "{original_file_name}"',
         f'file_name = "{data_file_name}"'
+    )
+    
+    # Replace the response_var line
+    config_content = config_content.replace(
+        f'response_var = "{original_response_var}"',
+        f'response_var = "{state_name}"'
     )
     
     with open('confs.py', 'w') as f:
@@ -74,6 +84,18 @@ def analyze_data_file(data_file_name):
             return False
         
         print(f"✅ Time series analysis completed for {data_file_name}")
+        
+        # Step 4: Generate comprehensive results analysis
+        print(f"Step 4: Generating comprehensive results analysis for {data_file_name}...")
+        result4 = subprocess.run([sys.executable, 'analyze_comprehensive_results.py'], 
+                               capture_output=True, text=True)
+        
+        if result4.returncode != 0:
+            print(f"❌ Comprehensive results analysis failed for {data_file_name}")
+            print(f"Error: {result4.stderr}")
+            return False
+        
+        print(f"✅ Comprehensive results analysis completed for {data_file_name}")
         print(f"✅ Complete analysis pipeline finished for {data_file_name}")
         return True
             
@@ -87,6 +109,10 @@ def analyze_data_file(data_file_name):
             f'file_name = "{data_file_name}"',
             f'file_name = "{original_file_name}"'
         )
+        config_content = config_content.replace(
+            f'response_var = "{state_name}"',
+            f'response_var = "{original_response_var}"'
+        )
         
         with open('confs.py', 'w') as f:
             f.write(config_content)
@@ -98,6 +124,7 @@ def main():
     print("1. Granger causality analysis")
     print("2. Comprehensive significant terms summary")
     print("3. Time series analysis plots")
+    print("4. Comprehensive results analysis (bar graphs and statistics)")
     
     # List of data files to analyze (you can modify this)
     data_files_to_analyze = [
@@ -183,9 +210,10 @@ def main():
         print("  - Granger causality test results and visualizations")
         print("  - Comprehensive significant terms summary")
         print("  - Time series analysis plots")
+        print("  - Comprehensive results analysis (bar graphs and statistics)")
         print(f"  - All files organized in: {result_dir}/granger_causality_results/")
     
-    print(f"\nConfiguration restored to: file_name = {file_name}")
+    print(f"\nConfiguration restored to: file_name = {file_name}, response_var = {response_var}")
 
 if __name__ == "__main__":
     main()

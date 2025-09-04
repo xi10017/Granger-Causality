@@ -1,0 +1,26 @@
+=== COMPREHENSIVE GRANGER CAUSALITY ANALYSIS SUMMARY ===
+Data file: Wyoming_2010_2020.csv
+Response variable: Wyoming
+Max lag: 5
+Number of tests: 20
+Bonferroni threshold: 0.002500
+FDR correction applied (Benjamini-Hochberg method, alpha=0.05)
+Overall Granger causality F-statistic: 0.9718
+Overall Granger causality p-value: 0.559038
+Model R-squared: 0.9041
+
+=== SIGNIFICANCE SUMMARY ===
+Uncorrected significant (p < 0.05): 8 terms
+Bonferroni significant (p < 0.002500): 0 terms
+FDR significant: 2 terms
+
+=== ALL SIGNIFICANT TERMS (n=8) ===
+Term	Min_p_value	Most_Conservative_Significance
+flu contagious	0.004580	FDR
+contagious flu	0.004580	FDR
+flu symptoms	0.009406	Uncorrected
+flu cold	0.018647	Uncorrected
+the flu	0.018718	Uncorrected
+pneumonia	0.021972	Uncorrected
+rsv	0.023155	Uncorrected
+flu a	0.029944	Uncorrected

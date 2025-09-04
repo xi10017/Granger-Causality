@@ -1,0 +1,64 @@
+=== GRANGER CAUSALITY SIGNIFICANT TERMS SUMMARY ===
+Data file analyzed: Nevada_2010_2020.csv
+Response variable: Nevada
+Total significant term combinations: 30
+Unique terms: 13
+Response variables analyzed: Nevada
+Max lags tested: 1, 3, 4, 2, 5
+
+cold significant combinations:
+  Nevada_lag1: p=0.000004 (Bonferroni)
+  Nevada_lag2: p=0.000010 (Bonferroni)
+  Nevada_lag3: p=0.000005 (Bonferroni)
+  Nevada_lag4: p=0.000000 (Bonferroni)
+  Nevada_lag5: p=0.000001 (Bonferroni)
+
+sinus significant combinations:
+  Nevada_lag1: p=0.004592 (FDR)
+  Nevada_lag2: p=0.003292 (FDR)
+  Nevada_lag3: p=0.027141 (Uncorrected)
+  Nevada_lag4: p=0.039727 (Uncorrected)
+  Nevada_lag5: p=0.008345 (Uncorrected)
+
+flu how long significant combinations:
+  Nevada_lag4: p=0.010815 (Uncorrected)
+  Nevada_lag5: p=0.011512 (Uncorrected)
+
+flu cold significant combinations:
+  Nevada_lag5: p=0.012525 (Uncorrected)
+
+bronchitis significant combinations:
+  Nevada_lag3: p=0.034409 (Uncorrected)
+  Nevada_lag4: p=0.013427 (Uncorrected)
+  Nevada_lag5: p=0.042787 (Uncorrected)
+
+how long flu significant combinations:
+  Nevada_lag4: p=0.015521 (Uncorrected)
+  Nevada_lag5: p=0.020336 (Uncorrected)
+
+stomach flu significant combinations:
+  Nevada_lag5: p=0.017200 (Uncorrected)
+
+fever flu significant combinations:
+  Nevada_lag5: p=0.017229 (Uncorrected)
+
+symptoms of flu significant combinations:
+  Nevada_lag4: p=0.021340 (Uncorrected)
+  Nevada_lag5: p=0.049752 (Uncorrected)
+
+flu a significant combinations:
+  Nevada_lag4: p=0.027764 (Uncorrected)
+  Nevada_lag5: p=0.045120 (Uncorrected)
+
+a influenza significant combinations:
+  Nevada_lag1: p=0.045188 (Uncorrected)
+  Nevada_lag2: p=0.030175 (Uncorrected)
+  Nevada_lag3: p=0.040132 (Uncorrected)
+  Nevada_lag5: p=0.045195 (Uncorrected)
+
+the flu symptoms significant combinations:
+  Nevada_lag5: p=0.045596 (Uncorrected)
+
+influenza a significant combinations:
+  Nevada_lag5: p=0.049525 (Uncorrected)
+

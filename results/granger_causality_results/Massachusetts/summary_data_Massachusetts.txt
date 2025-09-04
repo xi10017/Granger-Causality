@@ -1,0 +1,68 @@
+=== GRANGER CAUSALITY SIGNIFICANT TERMS SUMMARY ===
+Data file analyzed: Massachusetts_2010_2020.csv
+Response variable: Massachusetts
+Total significant term combinations: 36
+Unique terms: 12
+Response variables analyzed: Massachusetts
+Max lags tested: 3, 5, 2, 1, 4
+
+rsv significant combinations:
+  Massachusetts_lag1: p=0.000000 (Bonferroni)
+  Massachusetts_lag2: p=0.000382 (Bonferroni)
+  Massachusetts_lag3: p=0.010589 (FDR)
+  Massachusetts_lag4: p=0.009385 (FDR)
+  Massachusetts_lag5: p=0.008591 (FDR)
+
+the flu significant combinations:
+  Massachusetts_lag1: p=0.000000 (Bonferroni)
+  Massachusetts_lag2: p=0.000000 (Bonferroni)
+  Massachusetts_lag3: p=0.000000 (Bonferroni)
+  Massachusetts_lag4: p=0.000000 (Bonferroni)
+  Massachusetts_lag5: p=0.000000 (Bonferroni)
+
+cold significant combinations:
+  Massachusetts_lag2: p=0.027215 (Uncorrected)
+  Massachusetts_lag3: p=0.010418 (FDR)
+  Massachusetts_lag4: p=0.000353 (Bonferroni)
+  Massachusetts_lag5: p=0.000124 (Bonferroni)
+
+bronchitis significant combinations:
+  Massachusetts_lag4: p=0.005085 (FDR)
+  Massachusetts_lag5: p=0.000578 (Bonferroni)
+
+how long does flu last significant combinations:
+  Massachusetts_lag1: p=0.002436 (Bonferroni)
+  Massachusetts_lag2: p=0.003730 (FDR)
+  Massachusetts_lag3: p=0.007161 (FDR)
+  Massachusetts_lag4: p=0.001398 (Bonferroni)
+  Massachusetts_lag5: p=0.002818 (FDR)
+
+sinus significant combinations:
+  Massachusetts_lag3: p=0.040227 (Uncorrected)
+  Massachusetts_lag4: p=0.046458 (Uncorrected)
+  Massachusetts_lag5: p=0.002603 (FDR)
+
+symptoms of the flu significant combinations:
+  Massachusetts_lag2: p=0.009894 (FDR)
+  Massachusetts_lag3: p=0.015526 (Uncorrected)
+  Massachusetts_lag4: p=0.002951 (FDR)
+  Massachusetts_lag5: p=0.004720 (FDR)
+
+flu symptoms significant combinations:
+  Massachusetts_lag3: p=0.008051 (FDR)
+  Massachusetts_lag4: p=0.043801 (Uncorrected)
+
+the flu symptoms significant combinations:
+  Massachusetts_lag4: p=0.012263 (FDR)
+  Massachusetts_lag5: p=0.039245 (Uncorrected)
+
+symptoms of flu significant combinations:
+  Massachusetts_lag3: p=0.018826 (Uncorrected)
+  Massachusetts_lag4: p=0.029280 (Uncorrected)
+
+flu contagious significant combinations:
+  Massachusetts_lag5: p=0.042738 (Uncorrected)
+
+pneumonia significant combinations:
+  Massachusetts_lag2: p=0.049374 (Uncorrected)
+

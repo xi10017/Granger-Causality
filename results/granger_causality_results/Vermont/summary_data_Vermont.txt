@@ -1,0 +1,47 @@
+=== GRANGER CAUSALITY SIGNIFICANT TERMS SUMMARY ===
+Data file analyzed: Vermont_2010_2020.csv
+Response variable: Vermont
+Total significant term combinations: 23
+Unique terms: 8
+Response variables analyzed: Vermont
+Max lags tested: 5, 4, 3, 1, 2
+
+flu symptoms significant combinations:
+  Vermont_lag1: p=0.002097 (Bonferroni)
+  Vermont_lag2: p=0.000271 (Bonferroni)
+  Vermont_lag3: p=0.000685 (Bonferroni)
+  Vermont_lag4: p=0.002775 (Uncorrected)
+  Vermont_lag5: p=0.002999 (Uncorrected)
+
+flu contagious significant combinations:
+  Vermont_lag1: p=0.005982 (Uncorrected)
+  Vermont_lag2: p=0.004354 (FDR)
+  Vermont_lag3: p=0.008819 (Uncorrected)
+  Vermont_lag4: p=0.020626 (Uncorrected)
+  Vermont_lag5: p=0.027711 (Uncorrected)
+
+symptoms of flu significant combinations:
+  Vermont_lag2: p=0.009122 (Uncorrected)
+  Vermont_lag3: p=0.023133 (Uncorrected)
+  Vermont_lag4: p=0.025713 (Uncorrected)
+  Vermont_lag5: p=0.029028 (Uncorrected)
+
+flu a significant combinations:
+  Vermont_lag5: p=0.011635 (Uncorrected)
+
+the flu significant combinations:
+  Vermont_lag2: p=0.020334 (Uncorrected)
+  Vermont_lag3: p=0.029180 (Uncorrected)
+  Vermont_lag4: p=0.016250 (Uncorrected)
+
+bronchitis significant combinations:
+  Vermont_lag5: p=0.017267 (Uncorrected)
+
+rsv significant combinations:
+  Vermont_lag2: p=0.021223 (Uncorrected)
+  Vermont_lag3: p=0.026284 (Uncorrected)
+  Vermont_lag4: p=0.042308 (Uncorrected)
+
+how long does flu last significant combinations:
+  Vermont_lag1: p=0.047771 (Uncorrected)
+

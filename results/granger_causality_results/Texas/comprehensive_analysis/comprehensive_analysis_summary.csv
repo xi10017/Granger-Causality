@@ -1,0 +1,20 @@
+Term,Category,Count,Mean_Pvalue,Median_Pvalue,Min_Pvalue,Max_Pvalue
+flu type,Bonferroni,2,4.55e-05,4.55e-05,2.5e-05,6.6e-05
+flu cold,Bonferroni,1,1e-06,1e-06,1e-06,1e-06
+b flu,Bonferroni,1,0.001652,0.001652,0.001652,0.001652
+how long does the flu last,Bonferroni,1,0.001832,0.001832,0.001832,0.001832
+the flu,FDR,2,0.0045405,0.0045405,0.003801,0.00528
+flu cold,FDR,1,0.011872,0.011872,0.011872,0.011872
+b flu,FDR,1,0.007973,0.007973,0.007973,0.007973
+how long does the flu last,FDR,1,0.008885,0.008885,0.008885,0.008885
+bronchitis,FDR,1,0.014983,0.014983,0.014983,0.014983
+fever flu,Uncorrected,4,0.0212625,0.020218,0.008046,0.036568
+b flu,Uncorrected,3,0.044542000000000005,0.043969,0.041923,0.047734
+bronchitis,Uncorrected,3,0.021483333333333337,0.011639,0.009718,0.043093
+flu cold,Uncorrected,2,0.005044,0.005044,0.004097,0.005991
+flu type,Uncorrected,2,0.0067855,0.0067855,0.003061,0.01051
+how long does the flu last,Uncorrected,2,0.035874,0.035874,0.027403,0.044345
+flu incubation period,Uncorrected,2,0.0200485,0.0200485,0.018507,0.02159
+contagious flu,Uncorrected,2,0.0307395,0.0307395,0.022902,0.038577
+flu contagious,Uncorrected,2,0.0307395,0.0307395,0.022902,0.038577
+the flu,Uncorrected,1,0.022942,0.022942,0.022942,0.022942

@@ -1,0 +1,19 @@
+=== COMPREHENSIVE GRANGER CAUSALITY ANALYSIS SUMMARY ===
+Data file: Maine_2010_2020.csv
+Response variable: Maine
+Max lag: 1
+Number of tests: 20
+Bonferroni threshold: 0.002500
+FDR correction applied (Benjamini-Hochberg method, alpha=0.05)
+Overall Granger causality F-statistic: 1.7735
+Overall Granger causality p-value: 0.020847
+Model R-squared: 0.8531
+
+=== SIGNIFICANCE SUMMARY ===
+Uncorrected significant (p < 0.05): 1 terms
+Bonferroni significant (p < 0.002500): 1 terms
+FDR significant: 1 terms
+
+=== ALL SIGNIFICANT TERMS (n=1) ===
+Term	Min_p_value	Most_Conservative_Significance
+rsv	0.000510	Bonferroni

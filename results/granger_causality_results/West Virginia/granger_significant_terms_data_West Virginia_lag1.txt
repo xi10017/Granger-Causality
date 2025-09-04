@@ -1,0 +1,21 @@
+=== COMPREHENSIVE GRANGER CAUSALITY ANALYSIS SUMMARY ===
+Data file: West Virginia_2010_2020.csv
+Response variable: West Virginia
+Max lag: 1
+Number of tests: 20
+Bonferroni threshold: 0.002500
+FDR correction applied (Benjamini-Hochberg method, alpha=0.05)
+Overall Granger causality F-statistic: 2.1915
+Overall Granger causality p-value: 0.002218
+Model R-squared: 0.8972
+
+=== SIGNIFICANCE SUMMARY ===
+Uncorrected significant (p < 0.05): 3 terms
+Bonferroni significant (p < 0.002500): 1 terms
+FDR significant: 1 terms
+
+=== ALL SIGNIFICANT TERMS (n=3) ===
+Term	Min_p_value	Most_Conservative_Significance
+rsv	0.000317	Bonferroni
+the flu	0.009816	Uncorrected
+flu symptoms	0.049264	Uncorrected

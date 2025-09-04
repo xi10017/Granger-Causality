@@ -1,0 +1,98 @@
+=== GRANGER CAUSALITY SIGNIFICANT TERMS SUMMARY ===
+Data file analyzed: Georgia_2010_2020.csv
+Response variable: Georgia
+Total significant term combinations: 58
+Unique terms: 16
+Response variables analyzed: Georgia
+Max lags tested: 2, 3, 5, 4, 1
+
+cold significant combinations:
+  Georgia_lag1: p=0.000000 (Bonferroni)
+  Georgia_lag2: p=0.000000 (Bonferroni)
+  Georgia_lag3: p=0.000000 (Bonferroni)
+  Georgia_lag4: p=0.000000 (Bonferroni)
+  Georgia_lag5: p=0.000000 (Bonferroni)
+
+flu type significant combinations:
+  Georgia_lag1: p=0.001363 (Bonferroni)
+  Georgia_lag2: p=0.000000 (Bonferroni)
+  Georgia_lag3: p=0.000000 (Bonferroni)
+  Georgia_lag4: p=0.000001 (Bonferroni)
+  Georgia_lag5: p=0.000007 (Bonferroni)
+
+flu symptoms significant combinations:
+  Georgia_lag1: p=0.000494 (Bonferroni)
+  Georgia_lag2: p=0.000113 (Bonferroni)
+  Georgia_lag3: p=0.000023 (Bonferroni)
+  Georgia_lag4: p=0.000250 (Bonferroni)
+  Georgia_lag5: p=0.000813 (Bonferroni)
+
+is flu contagious significant combinations:
+  Georgia_lag2: p=0.000312 (Bonferroni)
+  Georgia_lag3: p=0.000088 (Bonferroni)
+  Georgia_lag4: p=0.000195 (Bonferroni)
+  Georgia_lag5: p=0.000184 (Bonferroni)
+
+rsv significant combinations:
+  Georgia_lag1: p=0.000213 (Bonferroni)
+
+fever flu significant combinations:
+  Georgia_lag1: p=0.000537 (Bonferroni)
+  Georgia_lag3: p=0.027049 (FDR)
+  Georgia_lag5: p=0.031203 (Uncorrected)
+
+flu fever significant combinations:
+  Georgia_lag1: p=0.000537 (Bonferroni)
+  Georgia_lag3: p=0.027049 (FDR)
+  Georgia_lag5: p=0.031203 (Uncorrected)
+
+how long does flu last significant combinations:
+  Georgia_lag2: p=0.004071 (FDR)
+  Georgia_lag3: p=0.008788 (FDR)
+  Georgia_lag4: p=0.002243 (Bonferroni)
+  Georgia_lag5: p=0.000676 (Bonferroni)
+
+symptoms of flu significant combinations:
+  Georgia_lag1: p=0.011400 (FDR)
+  Georgia_lag2: p=0.001431 (Bonferroni)
+  Georgia_lag3: p=0.009562 (FDR)
+  Georgia_lag4: p=0.010061 (FDR)
+  Georgia_lag5: p=0.047287 (Uncorrected)
+
+flu cold significant combinations:
+  Georgia_lag2: p=0.014076 (FDR)
+  Georgia_lag3: p=0.006818 (FDR)
+  Georgia_lag4: p=0.002949 (FDR)
+  Georgia_lag5: p=0.003606 (FDR)
+
+flu virus significant combinations:
+  Georgia_lag1: p=0.045183 (Uncorrected)
+  Georgia_lag2: p=0.030557 (Uncorrected)
+  Georgia_lag3: p=0.017108 (FDR)
+  Georgia_lag4: p=0.008086 (FDR)
+  Georgia_lag5: p=0.003863 (FDR)
+
+bronchitis significant combinations:
+  Georgia_lag1: p=0.006439 (FDR)
+
+the flu symptoms significant combinations:
+  Georgia_lag3: p=0.021658 (FDR)
+  Georgia_lag4: p=0.008538 (FDR)
+  Georgia_lag5: p=0.012758 (FDR)
+
+the flu significant combinations:
+  Georgia_lag2: p=0.008665 (FDR)
+  Georgia_lag3: p=0.030932 (FDR)
+  Georgia_lag4: p=0.014875 (FDR)
+  Georgia_lag5: p=0.010138 (FDR)
+
+pneumonia significant combinations:
+  Georgia_lag1: p=0.008909 (FDR)
+
+flu a significant combinations:
+  Georgia_lag1: p=0.032502 (Uncorrected)
+  Georgia_lag2: p=0.047996 (Uncorrected)
+  Georgia_lag3: p=0.029945 (FDR)
+  Georgia_lag4: p=0.014454 (FDR)
+  Georgia_lag5: p=0.025551 (Uncorrected)
+

@@ -1,0 +1,9 @@
+Term,Category,Count,Mean_Pvalue,Median_Pvalue,Min_Pvalue,Max_Pvalue
+influenza a,Bonferroni,5,0.0,0.0,0.0,0.0
+how long flu,Bonferroni,5,0.0,0.0,0.0,0.0
+flu how long,Bonferroni,5,0.0,0.0,0.0,0.0
+flu a,Bonferroni,3,0.0005283333333333333,0.000555,0.000395,0.000635
+rsv,Uncorrected,5,0.0227912,0.022375,0.013741,0.033171
+how long does flu last,Uncorrected,2,0.036892999999999995,0.036892999999999995,0.025303,0.048483
+pneumonia,Uncorrected,2,0.0418305,0.0418305,0.038208,0.045453
+the flu,Uncorrected,1,0.039441,0.039441,0.039441,0.039441

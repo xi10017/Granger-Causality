@@ -1,0 +1,30 @@
+=== COMPREHENSIVE GRANGER CAUSALITY ANALYSIS SUMMARY ===
+Data file: Nebraska_2010_2020.csv
+Response variable: Nebraska
+Max lag: 4
+Number of tests: 20
+Bonferroni threshold: 0.002500
+FDR correction applied (Benjamini-Hochberg method, alpha=0.05)
+Overall Granger causality F-statistic: 2.0139
+Overall Granger causality p-value: 0.000005
+Model R-squared: 0.8612
+
+=== SIGNIFICANCE SUMMARY ===
+Uncorrected significant (p < 0.05): 12 terms
+Bonferroni significant (p < 0.002500): 1 terms
+FDR significant: 8 terms
+
+=== ALL SIGNIFICANT TERMS (n=12) ===
+Term	Min_p_value	Most_Conservative_Significance
+influenza a	0.002413	Bonferroni
+flu contagious	0.005676	FDR
+contagious flu	0.005676	FDR
+the flu	0.010333	FDR
+influenza b	0.010737	FDR
+stomach flu	0.014790	FDR
+flu how long	0.016929	FDR
+how long flu	0.016929	FDR
+a influenza	0.025690	Uncorrected
+flu symptoms	0.028479	Uncorrected
+the flu symptoms	0.036024	Uncorrected
+bronchitis	0.044352	Uncorrected

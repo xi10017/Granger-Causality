@@ -1,0 +1,23 @@
+=== COMPREHENSIVE GRANGER CAUSALITY ANALYSIS SUMMARY ===
+Data file: Utah_2010_2020.csv
+Response variable: Utah
+Max lag: 3
+Number of tests: 20
+Bonferroni threshold: 0.002500
+FDR correction applied (Benjamini-Hochberg method, alpha=0.05)
+Overall Granger causality F-statistic: 2.0034
+Overall Granger causality p-value: 0.000041
+Model R-squared: 0.8953
+
+=== SIGNIFICANCE SUMMARY ===
+Uncorrected significant (p < 0.05): 5 terms
+Bonferroni significant (p < 0.002500): 3 terms
+FDR significant: 3 terms
+
+=== ALL SIGNIFICANT TERMS (n=5) ===
+Term	Min_p_value	Most_Conservative_Significance
+cold	0.000633	Bonferroni
+how long does flu last	0.001480	Bonferroni
+flu a	0.002458	Bonferroni
+flu fever	0.013355	Uncorrected
+the flu	0.020984	Uncorrected

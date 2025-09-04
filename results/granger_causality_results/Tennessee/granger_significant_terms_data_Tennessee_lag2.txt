@@ -1,0 +1,26 @@
+=== COMPREHENSIVE GRANGER CAUSALITY ANALYSIS SUMMARY ===
+Data file: Tennessee_2010_2020.csv
+Response variable: Tennessee
+Max lag: 2
+Number of tests: 20
+Bonferroni threshold: 0.002500
+FDR correction applied (Benjamini-Hochberg method, alpha=0.05)
+Overall Granger causality F-statistic: 4.6288
+Overall Granger causality p-value: 0.000000
+Model R-squared: 0.9109
+
+=== SIGNIFICANCE SUMMARY ===
+Uncorrected significant (p < 0.05): 8 terms
+Bonferroni significant (p < 0.002500): 5 terms
+FDR significant: 6 terms
+
+=== ALL SIGNIFICANT TERMS (n=8) ===
+Term	Min_p_value	Most_Conservative_Significance
+flu contagious	0.000026	Bonferroni
+contagious flu	0.000026	Bonferroni
+how long does flu last	0.000334	Bonferroni
+flu symptoms	0.001620	Bonferroni
+flu cold	0.002144	Bonferroni
+the flu symptoms	0.002658	FDR
+type a flu	0.022543	Uncorrected
+strep	0.036662	Uncorrected

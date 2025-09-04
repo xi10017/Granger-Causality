@@ -1,0 +1,22 @@
+=== COMPREHENSIVE GRANGER CAUSALITY ANALYSIS SUMMARY ===
+Data file: Arizona_2010_2020.csv
+Response variable: Arizona
+Max lag: 5
+Number of tests: 20
+Bonferroni threshold: 0.002500
+FDR correction applied (Benjamini-Hochberg method, alpha=0.05)
+Overall Granger causality F-statistic: 1.9266
+Overall Granger causality p-value: 0.000005
+Model R-squared: 0.9342
+
+=== SIGNIFICANCE SUMMARY ===
+Uncorrected significant (p < 0.05): 4 terms
+Bonferroni significant (p < 0.002500): 2 terms
+FDR significant: 2 terms
+
+=== ALL SIGNIFICANT TERMS (n=4) ===
+Term	Min_p_value	Most_Conservative_Significance
+cold	0.000025	Bonferroni
+flu how long	0.002057	Bonferroni
+the flu	0.019757	Uncorrected
+flu cold	0.036859	Uncorrected

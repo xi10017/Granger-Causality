@@ -1,0 +1,27 @@
+=== COMPREHENSIVE GRANGER CAUSALITY ANALYSIS SUMMARY ===
+Data file: Maryland_2010_2020.csv
+Response variable: Maryland
+Max lag: 4
+Number of tests: 20
+Bonferroni threshold: 0.002500
+FDR correction applied (Benjamini-Hochberg method, alpha=0.05)
+Overall Granger causality F-statistic: 2.1345
+Overall Granger causality p-value: 0.000001
+Model R-squared: 0.8100
+
+=== SIGNIFICANCE SUMMARY ===
+Uncorrected significant (p < 0.05): 9 terms
+Bonferroni significant (p < 0.002500): 2 terms
+FDR significant: 6 terms
+
+=== ALL SIGNIFICANT TERMS (n=9) ===
+Term	Min_p_value	Most_Conservative_Significance
+flu how long	0.000014	Bonferroni
+symptoms of flu	0.000181	Bonferroni
+contagious flu	0.002676	FDR
+flu virus	0.010099	FDR
+flu contagious	0.010996	FDR
+the flu symptoms	0.011704	FDR
+how long flu	0.019252	Uncorrected
+flu test	0.020118	Uncorrected
+flu symptoms	0.032032	Uncorrected

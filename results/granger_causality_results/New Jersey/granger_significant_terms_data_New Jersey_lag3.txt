@@ -1,0 +1,25 @@
+=== COMPREHENSIVE GRANGER CAUSALITY ANALYSIS SUMMARY ===
+Data file: New Jersey_2010_2020.csv
+Response variable: New Jersey
+Max lag: 3
+Number of tests: 20
+Bonferroni threshold: 0.002500
+FDR correction applied (Benjamini-Hochberg method, alpha=0.05)
+Overall Granger causality F-statistic: 4.7812
+Overall Granger causality p-value: 0.000000
+Model R-squared: 0.9498
+
+=== SIGNIFICANCE SUMMARY ===
+Uncorrected significant (p < 0.05): 7 terms
+Bonferroni significant (p < 0.002500): 3 terms
+FDR significant: 3 terms
+
+=== ALL SIGNIFICANT TERMS (n=7) ===
+Term	Min_p_value	Most_Conservative_Significance
+the flu	0.000000	Bonferroni
+flu symptoms	0.000351	Bonferroni
+stomach flu	0.001056	Bonferroni
+flu a	0.031449	Uncorrected
+the flu symptoms	0.041683	Uncorrected
+how long flu	0.042907	Uncorrected
+sinus	0.047563	Uncorrected

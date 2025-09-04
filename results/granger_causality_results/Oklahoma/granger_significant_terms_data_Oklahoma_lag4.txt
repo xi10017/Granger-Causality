@@ -1,0 +1,30 @@
+=== COMPREHENSIVE GRANGER CAUSALITY ANALYSIS SUMMARY ===
+Data file: Oklahoma_2010_2020.csv
+Response variable: Oklahoma
+Max lag: 4
+Number of tests: 20
+Bonferroni threshold: 0.002500
+FDR correction applied (Benjamini-Hochberg method, alpha=0.05)
+Overall Granger causality F-statistic: 3.0958
+Overall Granger causality p-value: 0.000000
+Model R-squared: 0.9234
+
+=== SIGNIFICANCE SUMMARY ===
+Uncorrected significant (p < 0.05): 12 terms
+Bonferroni significant (p < 0.002500): 3 terms
+FDR significant: 5 terms
+
+=== ALL SIGNIFICANT TERMS (n=12) ===
+Term	Min_p_value	Most_Conservative_Significance
+type a flu	0.000207	Bonferroni
+flu type a	0.000207	Bonferroni
+how long flu	0.000818	Bonferroni
+flu contagious	0.002528	FDR
+the flu	0.008476	FDR
+flu a	0.017566	Uncorrected
+pneumonia	0.030010	Uncorrected
+the flu symptoms	0.032345	Uncorrected
+fever flu	0.035268	Uncorrected
+flu symptoms	0.044263	Uncorrected
+stomach flu	0.045697	Uncorrected
+how long contagious	0.047948	Uncorrected

@@ -1,0 +1,27 @@
+=== COMPREHENSIVE GRANGER CAUSALITY ANALYSIS SUMMARY ===
+Data file: Indiana_2010_2020.csv
+Response variable: Indiana
+Max lag: 4
+Number of tests: 20
+Bonferroni threshold: 0.002500
+FDR correction applied (Benjamini-Hochberg method, alpha=0.05)
+Overall Granger causality F-statistic: 2.2601
+Overall Granger causality p-value: 0.000000
+Model R-squared: 0.8939
+
+=== SIGNIFICANCE SUMMARY ===
+Uncorrected significant (p < 0.05): 9 terms
+Bonferroni significant (p < 0.002500): 2 terms
+FDR significant: 3 terms
+
+=== ALL SIGNIFICANT TERMS (n=9) ===
+Term	Min_p_value	Most_Conservative_Significance
+influenza a	0.000783	Bonferroni
+sinus	0.001322	Bonferroni
+strep	0.006880	FDR
+flu symptoms	0.012032	Uncorrected
+a influenza	0.017335	Uncorrected
+how long flu	0.041778	Uncorrected
+flu how long	0.041778	Uncorrected
+flu fever	0.044338	Uncorrected
+fever flu	0.044338	Uncorrected

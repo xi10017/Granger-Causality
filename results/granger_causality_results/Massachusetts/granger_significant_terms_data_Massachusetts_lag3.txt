@@ -1,0 +1,26 @@
+=== COMPREHENSIVE GRANGER CAUSALITY ANALYSIS SUMMARY ===
+Data file: Massachusetts_2010_2020.csv
+Response variable: Massachusetts
+Max lag: 3
+Number of tests: 20
+Bonferroni threshold: 0.002500
+FDR correction applied (Benjamini-Hochberg method, alpha=0.05)
+Overall Granger causality F-statistic: 5.3234
+Overall Granger causality p-value: 0.000000
+Model R-squared: 0.9436
+
+=== SIGNIFICANCE SUMMARY ===
+Uncorrected significant (p < 0.05): 8 terms
+Bonferroni significant (p < 0.002500): 1 terms
+FDR significant: 5 terms
+
+=== ALL SIGNIFICANT TERMS (n=8) ===
+Term	Min_p_value	Most_Conservative_Significance
+the flu	0.000000	Bonferroni
+how long does flu last	0.007161	FDR
+flu symptoms	0.008051	FDR
+cold	0.010418	FDR
+rsv	0.010589	FDR
+symptoms of the flu	0.015526	Uncorrected
+symptoms of flu	0.018826	Uncorrected
+sinus	0.040227	Uncorrected

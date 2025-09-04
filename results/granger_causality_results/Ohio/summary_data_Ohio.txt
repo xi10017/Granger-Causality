@@ -1,0 +1,74 @@
+=== GRANGER CAUSALITY SIGNIFICANT TERMS SUMMARY ===
+Data file analyzed: Ohio_2010_2020.csv
+Response variable: Ohio
+Total significant term combinations: 40
+Unique terms: 13
+Response variables analyzed: Ohio
+Max lags tested: 5, 4, 1, 3, 2
+
+influenza a significant combinations:
+  Ohio_lag1: p=0.000025 (Bonferroni)
+  Ohio_lag2: p=0.000000 (Bonferroni)
+  Ohio_lag3: p=0.000000 (Bonferroni)
+  Ohio_lag4: p=0.000001 (Bonferroni)
+  Ohio_lag5: p=0.000000 (Bonferroni)
+
+a influenza significant combinations:
+  Ohio_lag1: p=0.000025 (Bonferroni)
+  Ohio_lag2: p=0.000000 (Bonferroni)
+  Ohio_lag3: p=0.000000 (Bonferroni)
+  Ohio_lag4: p=0.000001 (Bonferroni)
+  Ohio_lag5: p=0.000000 (Bonferroni)
+
+the flu symptoms significant combinations:
+  Ohio_lag1: p=0.000537 (Bonferroni)
+  Ohio_lag2: p=0.002637 (FDR)
+  Ohio_lag3: p=0.001298 (Bonferroni)
+  Ohio_lag4: p=0.006656 (FDR)
+  Ohio_lag5: p=0.005062 (FDR)
+
+flu symptoms significant combinations:
+  Ohio_lag1: p=0.014770 (FDR)
+  Ohio_lag2: p=0.000821 (Bonferroni)
+  Ohio_lag3: p=0.004761 (FDR)
+  Ohio_lag4: p=0.004358 (FDR)
+  Ohio_lag5: p=0.018540 (Uncorrected)
+
+contagious flu significant combinations:
+  Ohio_lag1: p=0.004481 (FDR)
+  Ohio_lag2: p=0.001131 (Bonferroni)
+  Ohio_lag3: p=0.001459 (Bonferroni)
+  Ohio_lag4: p=0.001087 (Bonferroni)
+  Ohio_lag5: p=0.001063 (Bonferroni)
+
+how long does flu last significant combinations:
+  Ohio_lag2: p=0.016178 (Uncorrected)
+  Ohio_lag3: p=0.004100 (FDR)
+  Ohio_lag4: p=0.022536 (Uncorrected)
+  Ohio_lag5: p=0.002831 (FDR)
+
+rsv significant combinations:
+  Ohio_lag1: p=0.003739 (FDR)
+
+how long flu significant combinations:
+  Ohio_lag4: p=0.013424 (FDR)
+  Ohio_lag5: p=0.006962 (FDR)
+
+the flu significant combinations:
+  Ohio_lag3: p=0.009650 (FDR)
+  Ohio_lag5: p=0.022738 (Uncorrected)
+
+flu a symptoms significant combinations:
+  Ohio_lag1: p=0.019423 (Uncorrected)
+  Ohio_lag2: p=0.021155 (Uncorrected)
+  Ohio_lag3: p=0.045658 (Uncorrected)
+
+flu cold significant combinations:
+  Ohio_lag2: p=0.027710 (Uncorrected)
+
+bronchitis significant combinations:
+  Ohio_lag1: p=0.038953 (Uncorrected)
+
+symptoms of flu significant combinations:
+  Ohio_lag5: p=0.046874 (Uncorrected)
+

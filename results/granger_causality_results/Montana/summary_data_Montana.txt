@@ -1,0 +1,52 @@
+=== GRANGER CAUSALITY SIGNIFICANT TERMS SUMMARY ===
+Data file analyzed: Montana_2010_2020.csv
+Response variable: Montana
+Total significant term combinations: 28
+Unique terms: 8
+Response variables analyzed: Montana
+Max lags tested: 5, 3, 2, 4, 1
+
+influenza a significant combinations:
+  Montana_lag1: p=0.000000 (Bonferroni)
+  Montana_lag2: p=0.000000 (Bonferroni)
+  Montana_lag3: p=0.000000 (Bonferroni)
+  Montana_lag4: p=0.000000 (Bonferroni)
+  Montana_lag5: p=0.000000 (Bonferroni)
+
+how long flu significant combinations:
+  Montana_lag1: p=0.000000 (Bonferroni)
+  Montana_lag2: p=0.000000 (Bonferroni)
+  Montana_lag3: p=0.000000 (Bonferroni)
+  Montana_lag4: p=0.000000 (Bonferroni)
+  Montana_lag5: p=0.000000 (Bonferroni)
+
+flu how long significant combinations:
+  Montana_lag1: p=0.000000 (Bonferroni)
+  Montana_lag2: p=0.000000 (Bonferroni)
+  Montana_lag3: p=0.000000 (Bonferroni)
+  Montana_lag4: p=0.000000 (Bonferroni)
+  Montana_lag5: p=0.000000 (Bonferroni)
+
+flu a significant combinations:
+  Montana_lag3: p=0.000555 (Bonferroni)
+  Montana_lag4: p=0.000635 (Bonferroni)
+  Montana_lag5: p=0.000395 (Bonferroni)
+
+rsv significant combinations:
+  Montana_lag1: p=0.016496 (Uncorrected)
+  Montana_lag2: p=0.022375 (Uncorrected)
+  Montana_lag3: p=0.033171 (Uncorrected)
+  Montana_lag4: p=0.013741 (Uncorrected)
+  Montana_lag5: p=0.028173 (Uncorrected)
+
+how long does flu last significant combinations:
+  Montana_lag3: p=0.025303 (Uncorrected)
+  Montana_lag4: p=0.048483 (Uncorrected)
+
+pneumonia significant combinations:
+  Montana_lag4: p=0.045453 (Uncorrected)
+  Montana_lag5: p=0.038208 (Uncorrected)
+
+the flu significant combinations:
+  Montana_lag1: p=0.039441 (Uncorrected)
+

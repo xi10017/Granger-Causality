@@ -1,0 +1,44 @@
+=== GRANGER CAUSALITY SIGNIFICANT TERMS SUMMARY ===
+Data file analyzed: Wyoming_2010_2020.csv
+Response variable: Wyoming
+Total significant term combinations: 20
+Unique terms: 8
+Response variables analyzed: Wyoming
+Max lags tested: 1, 4, 3, 2, 5
+
+flu contagious significant combinations:
+  Wyoming_lag4: p=0.004081 (FDR)
+  Wyoming_lag5: p=0.004580 (FDR)
+
+contagious flu significant combinations:
+  Wyoming_lag4: p=0.004081 (FDR)
+  Wyoming_lag5: p=0.004580 (FDR)
+
+the flu significant combinations:
+  Wyoming_lag2: p=0.039810 (Uncorrected)
+  Wyoming_lag3: p=0.007167 (Uncorrected)
+  Wyoming_lag4: p=0.020563 (Uncorrected)
+  Wyoming_lag5: p=0.018718 (Uncorrected)
+
+flu symptoms significant combinations:
+  Wyoming_lag1: p=0.033259 (Uncorrected)
+  Wyoming_lag2: p=0.018064 (Uncorrected)
+  Wyoming_lag3: p=0.043724 (Uncorrected)
+  Wyoming_lag4: p=0.022850 (Uncorrected)
+  Wyoming_lag5: p=0.009406 (Uncorrected)
+
+pneumonia significant combinations:
+  Wyoming_lag4: p=0.011964 (Uncorrected)
+  Wyoming_lag5: p=0.021972 (Uncorrected)
+
+flu cold significant combinations:
+  Wyoming_lag5: p=0.018647 (Uncorrected)
+
+rsv significant combinations:
+  Wyoming_lag4: p=0.027196 (Uncorrected)
+  Wyoming_lag5: p=0.023155 (Uncorrected)
+
+flu a significant combinations:
+  Wyoming_lag4: p=0.024440 (Uncorrected)
+  Wyoming_lag5: p=0.029944 (Uncorrected)
+

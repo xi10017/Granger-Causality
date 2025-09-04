@@ -1,0 +1,25 @@
+=== COMPREHENSIVE GRANGER CAUSALITY ANALYSIS SUMMARY ===
+Data file: Alaska_2010_2020.csv
+Response variable: Alaska
+Max lag: 4
+Number of tests: 20
+Bonferroni threshold: 0.002500
+FDR correction applied (Benjamini-Hochberg method, alpha=0.05)
+Overall Granger causality F-statistic: 1.7591
+Overall Granger causality p-value: 0.000219
+Model R-squared: 0.8080
+
+=== SIGNIFICANCE SUMMARY ===
+Uncorrected significant (p < 0.05): 7 terms
+Bonferroni significant (p < 0.002500): 3 terms
+FDR significant: 6 terms
+
+=== ALL SIGNIFICANT TERMS (n=7) ===
+Term	Min_p_value	Most_Conservative_Significance
+stomach flu	0.000006	Bonferroni
+flu contagious	0.000708	Bonferroni
+contagious flu	0.000708	Bonferroni
+rsv	0.009938	FDR
+sinus	0.011494	FDR
+flu a	0.011725	FDR
+influenza a	0.021547	Uncorrected

@@ -1,0 +1,66 @@
+=== GRANGER CAUSALITY SIGNIFICANT TERMS SUMMARY ===
+Data file analyzed: California_2010_2020.csv
+Response variable: California
+Total significant term combinations: 34
+Unique terms: 12
+Response variables analyzed: California
+Max lags tested: 3, 2, 1, 5, 4
+
+stomach flu significant combinations:
+  California_lag2: p=0.000035 (Bonferroni)
+  California_lag3: p=0.001866 (Bonferroni)
+  California_lag4: p=0.005001 (FDR)
+  California_lag5: p=0.011994 (Uncorrected)
+
+how long contagious significant combinations:
+  California_lag2: p=0.000169 (Bonferroni)
+  California_lag3: p=0.000317 (Bonferroni)
+  California_lag4: p=0.002497 (Bonferroni)
+  California_lag5: p=0.015694 (Uncorrected)
+
+rsv significant combinations:
+  California_lag1: p=0.000207 (Bonferroni)
+  California_lag2: p=0.000429 (Bonferroni)
+  California_lag3: p=0.002321 (Bonferroni)
+  California_lag4: p=0.023491 (Uncorrected)
+  California_lag5: p=0.032035 (Uncorrected)
+
+robitussin significant combinations:
+  California_lag1: p=0.011834 (Uncorrected)
+  California_lag3: p=0.001513 (Bonferroni)
+  California_lag4: p=0.003637 (FDR)
+  California_lag5: p=0.002424 (Bonferroni)
+
+how long does the flu last significant combinations:
+  California_lag4: p=0.003449 (FDR)
+  California_lag5: p=0.004994 (FDR)
+
+stomach flu symptoms significant combinations:
+  California_lag2: p=0.009386 (FDR)
+  California_lag3: p=0.013021 (Uncorrected)
+  California_lag4: p=0.022751 (Uncorrected)
+  California_lag5: p=0.032243 (Uncorrected)
+
+flu fever significant combinations:
+  California_lag2: p=0.034731 (Uncorrected)
+  California_lag3: p=0.021404 (Uncorrected)
+
+fever flu significant combinations:
+  California_lag2: p=0.034731 (Uncorrected)
+  California_lag3: p=0.021404 (Uncorrected)
+
+bronchitis significant combinations:
+  California_lag2: p=0.022393 (Uncorrected)
+
+sinus significant combinations:
+  California_lag1: p=0.022622 (Uncorrected)
+  California_lag3: p=0.034757 (Uncorrected)
+  California_lag4: p=0.029183 (Uncorrected)
+
+cold symptoms significant combinations:
+  California_lag4: p=0.024401 (Uncorrected)
+  California_lag5: p=0.041033 (Uncorrected)
+
+symptoms of pneumonia significant combinations:
+  California_lag1: p=0.024723 (Uncorrected)
+

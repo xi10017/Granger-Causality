@@ -1,0 +1,74 @@
+=== GRANGER CAUSALITY SIGNIFICANT TERMS SUMMARY ===
+Data file analyzed: Maryland_2010_2020.csv
+Response variable: Maryland
+Total significant term combinations: 40
+Unique terms: 13
+Response variables analyzed: Maryland
+Max lags tested: 3, 1, 5, 4, 2
+
+flu how long significant combinations:
+  Maryland_lag2: p=0.000201 (Bonferroni)
+  Maryland_lag3: p=0.000062 (Bonferroni)
+  Maryland_lag4: p=0.000014 (Bonferroni)
+  Maryland_lag5: p=0.000003 (Bonferroni)
+
+symptoms of flu significant combinations:
+  Maryland_lag2: p=0.001279 (Bonferroni)
+  Maryland_lag3: p=0.000124 (Bonferroni)
+  Maryland_lag4: p=0.000181 (Bonferroni)
+  Maryland_lag5: p=0.000042 (Bonferroni)
+
+contagious flu significant combinations:
+  Maryland_lag2: p=0.004538 (FDR)
+  Maryland_lag3: p=0.001558 (Bonferroni)
+  Maryland_lag4: p=0.002676 (FDR)
+  Maryland_lag5: p=0.026500 (Uncorrected)
+
+the flu symptoms significant combinations:
+  Maryland_lag1: p=0.004552 (Uncorrected)
+  Maryland_lag2: p=0.003489 (FDR)
+  Maryland_lag3: p=0.025769 (Uncorrected)
+  Maryland_lag4: p=0.011704 (FDR)
+  Maryland_lag5: p=0.034903 (Uncorrected)
+
+how long does the flu last significant combinations:
+  Maryland_lag5: p=0.005822 (FDR)
+
+flu virus significant combinations:
+  Maryland_lag2: p=0.018893 (Uncorrected)
+  Maryland_lag3: p=0.011790 (Uncorrected)
+  Maryland_lag4: p=0.010099 (FDR)
+  Maryland_lag5: p=0.011908 (Uncorrected)
+
+flu contagious significant combinations:
+  Maryland_lag2: p=0.046900 (Uncorrected)
+  Maryland_lag3: p=0.025867 (Uncorrected)
+  Maryland_lag4: p=0.010996 (FDR)
+  Maryland_lag5: p=0.038162 (Uncorrected)
+
+flu symptoms significant combinations:
+  Maryland_lag2: p=0.038082 (Uncorrected)
+  Maryland_lag3: p=0.018087 (Uncorrected)
+  Maryland_lag4: p=0.032032 (Uncorrected)
+  Maryland_lag5: p=0.042783 (Uncorrected)
+
+how long flu significant combinations:
+  Maryland_lag2: p=0.029326 (Uncorrected)
+  Maryland_lag3: p=0.029112 (Uncorrected)
+  Maryland_lag4: p=0.019252 (Uncorrected)
+  Maryland_lag5: p=0.029256 (Uncorrected)
+
+flu test significant combinations:
+  Maryland_lag3: p=0.036733 (Uncorrected)
+  Maryland_lag4: p=0.020118 (Uncorrected)
+  Maryland_lag5: p=0.030957 (Uncorrected)
+
+flu fever significant combinations:
+  Maryland_lag5: p=0.025569 (Uncorrected)
+
+flu cold significant combinations:
+  Maryland_lag5: p=0.029624 (Uncorrected)
+
+fever flu significant combinations:
+  Maryland_lag5: p=0.044789 (Uncorrected)
+

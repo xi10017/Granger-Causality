@@ -1,0 +1,30 @@
+=== COMPREHENSIVE GRANGER CAUSALITY ANALYSIS SUMMARY ===
+Data file: Mississippi_2010_2020.csv
+Response variable: Mississippi
+Max lag: 3
+Number of tests: 20
+Bonferroni threshold: 0.002500
+FDR correction applied (Benjamini-Hochberg method, alpha=0.05)
+Overall Granger causality F-statistic: 4.1572
+Overall Granger causality p-value: 0.000000
+Model R-squared: 0.9275
+
+=== SIGNIFICANCE SUMMARY ===
+Uncorrected significant (p < 0.05): 12 terms
+Bonferroni significant (p < 0.002500): 5 terms
+FDR significant: 10 terms
+
+=== ALL SIGNIFICANT TERMS (n=12) ===
+Term	Min_p_value	Most_Conservative_Significance
+cold	0.000000	Bonferroni
+influenza a	0.000003	Bonferroni
+type a flu	0.000056	Bonferroni
+flu symptoms	0.000099	Bonferroni
+flu type	0.002078	Bonferroni
+flu fever	0.010487	FDR
+fever flu	0.010487	FDR
+oscillococcinum	0.012436	FDR
+symptoms of flu	0.012531	FDR
+flu cold	0.019357	FDR
+how long flu	0.031630	Uncorrected
+flu type a	0.038165	Uncorrected

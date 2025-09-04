@@ -1,0 +1,28 @@
+=== COMPREHENSIVE GRANGER CAUSALITY ANALYSIS SUMMARY ===
+Data file: Minnesota_2010_2020.csv
+Response variable: Minnesota
+Max lag: 4
+Number of tests: 20
+Bonferroni threshold: 0.002500
+FDR correction applied (Benjamini-Hochberg method, alpha=0.05)
+Overall Granger causality F-statistic: 4.2996
+Overall Granger causality p-value: 0.000000
+Model R-squared: 0.8816
+
+=== SIGNIFICANCE SUMMARY ===
+Uncorrected significant (p < 0.05): 10 terms
+Bonferroni significant (p < 0.002500): 5 terms
+FDR significant: 6 terms
+
+=== ALL SIGNIFICANT TERMS (n=10) ===
+Term	Min_p_value	Most_Conservative_Significance
+influenza b	0.000000	Bonferroni
+influenza a	0.000141	Bonferroni
+a influenza	0.000141	Bonferroni
+influenza symptoms	0.000614	Bonferroni
+influenza contagious	0.001164	Bonferroni
+symptoms of influenza	0.007466	FDR
+influenza a symptoms	0.019382	Uncorrected
+flu how long	0.031767	Uncorrected
+how long flu	0.031767	Uncorrected
+rsv	0.046987	Uncorrected

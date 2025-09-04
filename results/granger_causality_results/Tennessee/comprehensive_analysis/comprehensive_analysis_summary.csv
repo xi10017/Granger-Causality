@@ -1,0 +1,17 @@
+Term,Category,Count,Mean_Pvalue,Median_Pvalue,Min_Pvalue,Max_Pvalue
+flu contagious,Bonferroni,5,0.0002094,5.1e-05,7e-06,0.000606
+contagious flu,Bonferroni,5,0.0002094,5.1e-05,7e-06,0.000606
+how long does flu last,Bonferroni,5,0.00039500000000000006,0.000258,0.000105,0.001121
+flu symptoms,Bonferroni,4,0.000691,0.000495,0.000154,0.00162
+rsv,Bonferroni,1,6e-05,6e-05,6e-05,6e-05
+flu cold,Bonferroni,1,0.002144,0.002144,0.002144,0.002144
+the flu symptoms,FDR,5,0.0093772,0.00822,0.002658,0.015365
+flu cold,FDR,4,0.00777125,0.006254,0.003554,0.015023
+flu type,FDR,2,0.012683,0.012683,0.006417,0.018949
+b flu,FDR,1,0.006208,0.006208,0.006208,0.006208
+symptoms of the flu,FDR,1,0.00799,0.00799,0.00799,0.00799
+symptoms of flu,FDR,1,0.013558,0.013558,0.013558,0.013558
+strep,Uncorrected,3,0.034216,0.035247,0.030739,0.036662
+type a flu,Uncorrected,2,0.034008,0.034008,0.022543,0.045473
+bronchitis,Uncorrected,1,0.029344,0.029344,0.029344,0.029344
+flu how long,Uncorrected,1,0.033559,0.033559,0.033559,0.033559

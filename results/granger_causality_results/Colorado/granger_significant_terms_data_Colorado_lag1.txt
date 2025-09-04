@@ -1,0 +1,25 @@
+=== COMPREHENSIVE GRANGER CAUSALITY ANALYSIS SUMMARY ===
+Data file: Colorado_2010_2020.csv
+Response variable: Colorado
+Max lag: 1
+Number of tests: 20
+Bonferroni threshold: 0.002500
+FDR correction applied (Benjamini-Hochberg method, alpha=0.05)
+Overall Granger causality F-statistic: 4.1212
+Overall Granger causality p-value: 0.000000
+Model R-squared: 0.9375
+
+=== SIGNIFICANCE SUMMARY ===
+Uncorrected significant (p < 0.05): 7 terms
+Bonferroni significant (p < 0.002500): 2 terms
+FDR significant: 7 terms
+
+=== ALL SIGNIFICANT TERMS (n=7) ===
+Term	Min_p_value	Most_Conservative_Significance
+a influenza	0.002185	Bonferroni
+influenza a	0.002185	Bonferroni
+flu a	0.006124	FDR
+the flu symptoms	0.006729	FDR
+pneumonia	0.007248	FDR
+cold	0.012262	FDR
+the flu	0.016777	FDR

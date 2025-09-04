@@ -1,0 +1,26 @@
+=== COMPREHENSIVE GRANGER CAUSALITY ANALYSIS SUMMARY ===
+Data file: Washington_2010_2020.csv
+Response variable: Washington
+Max lag: 3
+Number of tests: 20
+Bonferroni threshold: 0.002500
+FDR correction applied (Benjamini-Hochberg method, alpha=0.05)
+Overall Granger causality F-statistic: 2.4035
+Overall Granger causality p-value: 0.000000
+Model R-squared: 0.8957
+
+=== SIGNIFICANCE SUMMARY ===
+Uncorrected significant (p < 0.05): 8 terms
+Bonferroni significant (p < 0.002500): 2 terms
+FDR significant: 4 terms
+
+=== ALL SIGNIFICANT TERMS (n=8) ===
+Term	Min_p_value	Most_Conservative_Significance
+flu contagious	0.000393	Bonferroni
+contagious flu	0.000393	Bonferroni
+fever flu	0.007795	FDR
+flu fever	0.007795	FDR
+a influenza	0.019681	Uncorrected
+influenza a	0.019681	Uncorrected
+the flu symptoms	0.031279	Uncorrected
+how long does flu last	0.033758	Uncorrected

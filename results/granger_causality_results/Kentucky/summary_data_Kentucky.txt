@@ -1,0 +1,74 @@
+=== GRANGER CAUSALITY SIGNIFICANT TERMS SUMMARY ===
+Data file analyzed: Kentucky_2010_2020.csv
+Response variable: Kentucky
+Total significant term combinations: 40
+Unique terms: 13
+Response variables analyzed: Kentucky
+Max lags tested: 5, 3, 1, 2, 4
+
+cold significant combinations:
+  Kentucky_lag1: p=0.001053 (Bonferroni)
+  Kentucky_lag2: p=0.000029 (Bonferroni)
+  Kentucky_lag3: p=0.000004 (Bonferroni)
+  Kentucky_lag4: p=0.000197 (Bonferroni)
+  Kentucky_lag5: p=0.000144 (Bonferroni)
+
+rsv significant combinations:
+  Kentucky_lag1: p=0.000084 (Bonferroni)
+  Kentucky_lag2: p=0.000049 (Bonferroni)
+  Kentucky_lag3: p=0.006940 (FDR)
+  Kentucky_lag4: p=0.032389 (Uncorrected)
+  Kentucky_lag5: p=0.007159 (FDR)
+
+fever flu significant combinations:
+  Kentucky_lag3: p=0.001663 (Bonferroni)
+  Kentucky_lag4: p=0.001452 (Bonferroni)
+  Kentucky_lag5: p=0.000407 (Bonferroni)
+
+flu type significant combinations:
+  Kentucky_lag2: p=0.001790 (Bonferroni)
+  Kentucky_lag3: p=0.001102 (Bonferroni)
+  Kentucky_lag4: p=0.002267 (Bonferroni)
+  Kentucky_lag5: p=0.030218 (Uncorrected)
+
+symptoms of the flu significant combinations:
+  Kentucky_lag1: p=0.002963 (FDR)
+
+the flu significant combinations:
+  Kentucky_lag1: p=0.016695 (Uncorrected)
+  Kentucky_lag4: p=0.008096 (FDR)
+  Kentucky_lag5: p=0.004155 (FDR)
+
+b flu significant combinations:
+  Kentucky_lag1: p=0.016952 (Uncorrected)
+  Kentucky_lag2: p=0.006034 (FDR)
+  Kentucky_lag3: p=0.015134 (Uncorrected)
+  Kentucky_lag4: p=0.023946 (Uncorrected)
+  Kentucky_lag5: p=0.009740 (FDR)
+
+symptoms of flu significant combinations:
+  Kentucky_lag1: p=0.041907 (Uncorrected)
+  Kentucky_lag2: p=0.017660 (Uncorrected)
+  Kentucky_lag3: p=0.007947 (FDR)
+  Kentucky_lag4: p=0.026045 (Uncorrected)
+  Kentucky_lag5: p=0.015950 (Uncorrected)
+
+type a flu significant combinations:
+  Kentucky_lag2: p=0.026754 (Uncorrected)
+  Kentucky_lag3: p=0.026818 (Uncorrected)
+  Kentucky_lag5: p=0.033399 (Uncorrected)
+
+pneumonia significant combinations:
+  Kentucky_lag5: p=0.028726 (Uncorrected)
+
+flu how long significant combinations:
+  Kentucky_lag5: p=0.036115 (Uncorrected)
+
+flu cold significant combinations:
+  Kentucky_lag3: p=0.037126 (Uncorrected)
+  Kentucky_lag4: p=0.036190 (Uncorrected)
+  Kentucky_lag5: p=0.049025 (Uncorrected)
+
+flu a significant combinations:
+  Kentucky_lag1: p=0.042419 (Uncorrected)
+

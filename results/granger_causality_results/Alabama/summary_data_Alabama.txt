@@ -4,7 +4,7 @@ Response variable: Alabama
 Total significant term combinations: 36
 Unique terms: 16
 Response variables analyzed: Alabama
-Max lags tested: 1, 3, 5, 4, 2
+Max lags tested: 2, 3, 1, 5, 4
 
 how long does flu last significant combinations:
   Alabama_lag1: p=0.000291 (Bonferroni)

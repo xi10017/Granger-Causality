@@ -37,12 +37,12 @@ Granger-Causality/
 ├── README.md                                   # User documentation
 ├── SYSTEM_SUMMARY.md                           # This file
 ├── data/                                       # State data files
-│   ├── Alabama_2010_2020.csv
-│   ├── California_2010_2020.csv
+│   ├── ExampleState_2010_2020.csv
+│   ├── AnotherState_2010_2020.csv
 │   └── ... (50 state files)
 └── results/                                    # Analysis outputs
-    ├── granger_significant_terms_state_data_Alabama_lag1.txt
-    ├── granger_pvalues_state_data_Alabama_lag1.png
+    ├── granger_significant_terms_data_ExampleState_lag1.txt
+    ├── granger_pvalues_data_ExampleState_lag1.png
     └── ... (results for all lags)
 ```
 
@@ -51,14 +51,14 @@ Granger-Causality/
 ### 1. **Configuration Setup**
 ```python
 # In confs.py
-target_state = 'Alabama'           # Which state to analyze
+response_var = 'ExampleState'      # Which response variable to analyze
 max_lags_to_test = 5              # How many lags to test
 alpha_level = 0.05                # Significance threshold
 ```
 
 ### 2. **Data Loading**
-- Automatically finds `Alabama_2010_2020.csv`
-- Identifies "Alabama" as the target variable (column 2)
+- Automatically finds `ExampleState_2010_2020.csv`
+- Identifies "ExampleState" as the target variable (column 2)
 - Extracts search terms from remaining columns
 
 ### 3. **Analysis Process**
@@ -72,7 +72,7 @@ alpha_level = 0.05                # Significance threshold
 - PNG charts showing term significance
 - All files named with state and lag information
 
-## Example Results (Alabama Analysis)
+## Example Results (ExampleState Analysis)
 
 ### Overall Granger Causality
 - **Lag 1**: F = 1.8537, p = 0.0139 (significant)
@@ -116,7 +116,7 @@ alpha_level = 0.05                # Significance threshold
 
 ### 1. **Single State Analysis**
 ```bash
-# Edit confs.py to set target_state
+# Edit confs.py to set response_var
 python granger_causality_generalized.py
 ```
 

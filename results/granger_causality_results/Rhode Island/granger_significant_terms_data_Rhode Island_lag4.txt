@@ -1,0 +1,24 @@
+=== COMPREHENSIVE GRANGER CAUSALITY ANALYSIS SUMMARY ===
+Data file: Rhode Island_2010_2020.csv
+Response variable: Rhode Island
+Max lag: 4
+Number of tests: 20
+Bonferroni threshold: 0.002500
+FDR correction applied (Benjamini-Hochberg method, alpha=0.05)
+Overall Granger causality F-statistic: 1.8735
+Overall Granger causality p-value: 0.000043
+Model R-squared: 0.9309
+
+=== SIGNIFICANCE SUMMARY ===
+Uncorrected significant (p < 0.05): 6 terms
+Bonferroni significant (p < 0.002500): 0 terms
+FDR significant: 4 terms
+
+=== ALL SIGNIFICANT TERMS (n=6) ===
+Term	Min_p_value	Most_Conservative_Significance
+flu fever	0.003918	FDR
+fever flu	0.003918	FDR
+contagious flu	0.005888	FDR
+flu contagious	0.005888	FDR
+stomach flu	0.013632	Uncorrected
+rsv	0.026552	Uncorrected

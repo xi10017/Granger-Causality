@@ -1,0 +1,23 @@
+=== COMPREHENSIVE GRANGER CAUSALITY ANALYSIS SUMMARY ===
+Data file: Iowa_2010_2020.csv
+Response variable: Iowa
+Max lag: 3
+Number of tests: 20
+Bonferroni threshold: 0.002500
+FDR correction applied (Benjamini-Hochberg method, alpha=0.05)
+Overall Granger causality F-statistic: 3.4741
+Overall Granger causality p-value: 0.000000
+Model R-squared: 0.8641
+
+=== SIGNIFICANCE SUMMARY ===
+Uncorrected significant (p < 0.05): 5 terms
+Bonferroni significant (p < 0.002500): 0 terms
+FDR significant: 0 terms
+
+=== ALL SIGNIFICANT TERMS (n=5) ===
+Term	Min_p_value	Most_Conservative_Significance
+influenza symptoms	0.006652	Uncorrected
+influenza a	0.010667	Uncorrected
+influenza b	0.012717	Uncorrected
+rsv	0.016599	Uncorrected
+symptoms of influenza	0.040871	Uncorrected

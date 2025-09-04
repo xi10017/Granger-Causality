@@ -1,0 +1,14 @@
+Term,Category,Count,Mean_Pvalue,Median_Pvalue,Min_Pvalue,Max_Pvalue
+the flu,Bonferroni,1,0.000962,0.000962,0.000962,0.000962
+is flu contagious,FDR,1,0.005647,0.005647,0.005647,0.005647
+rsv,FDR,1,0.00693,0.00693,0.00693,0.00693
+flu a,FDR,1,0.008523,0.008523,0.008523,0.008523
+is flu contagious,Uncorrected,4,0.0072125,0.0065769999999999995,0.004227,0.011469
+a influenza,Uncorrected,3,0.03969966666666667,0.040859,0.028913,0.049327
+rsv,Uncorrected,2,0.036405,0.036405,0.034333,0.038477
+flu how long,Uncorrected,2,0.03208,0.03208,0.024955,0.039205
+the flu,Uncorrected,1,0.03197,0.03197,0.03197,0.03197
+influenza a,Uncorrected,1,0.026385,0.026385,0.026385,0.026385
+symptoms of flu,Uncorrected,1,0.028951,0.028951,0.028951,0.028951
+stomach flu,Uncorrected,1,0.030836,0.030836,0.030836,0.030836
+how long flu,Uncorrected,1,0.047188,0.047188,0.047188,0.047188

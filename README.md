@@ -8,7 +8,7 @@ This system performs **Granger causality analysis** to determine whether search 
 
 **Direction**: Search Terms → State Activity
 - **X Variables**: Search term volumes (e.g., "flu symptoms", "how long does flu last")
-- **Y Variable**: State activity level (e.g., Alabama activity)
+- **Y Variable**: Response variable activity level (e.g., State activity)
 - **Question**: Do search trends from X weeks ago predict current state activity?
 
 ## What This Analysis Shows
@@ -43,7 +43,7 @@ result_dir = "results/"               # Directory for output files
 ### Analysis Configuration
 ```python
 max_terms = None                      # Max search terms to use (None = use all)
-target_state = 'Alabama'              # Specific state to analyze
+response_var = 'ExampleState'         # Response variable to analyze
 max_lags_to_test = 5                 # Maximum number of lags to test
 ```
 
@@ -65,12 +65,12 @@ exclude_files = ["US_2010_2020.csv"]    # Files to exclude from analysis
 ### State Data Files
 Each state file should have the following structure:
 - **Column 1**: `date` in YYYY-MM-DD format
-- **Column 2**: State name (e.g., "Alabama") - this is the target variable
+- **Column 2**: Response variable name (e.g., "ExampleState") - this is the target variable
 - **Columns 3+**: Search term columns with numerical values
 
-Example: `Alabama_2010_2020.csv`
+Example: `ExampleState_2010_2020.csv`
 ```csv
-date,Alabama,flu symptoms,the flu,rsv,flu how long,...
+date,ExampleState,flu symptoms,the flu,rsv,flu how long,...
 2010-10-09,2.13477,0.0,0.0,0.0,0.0,...
 ...
 ```
@@ -84,7 +84,7 @@ pip install -r requirements.txt
 
 ### 2. Configure Analysis
 Edit `confs.py` to match your analysis requirements:
-- Set `target_state` to the state you want to analyze
+- Set `response_var` to the response variable you want to analyze
 - Adjust `max_lags_to_test` as needed
 - Modify file patterns if needed
 
@@ -109,16 +109,16 @@ python granger_causality_generalized.py
 ### Results Directory Structure
 ```
 results/
-├── granger_significant_terms_state_data_Alabama_lag1.txt
-├── granger_significant_terms_state_data_Alabama_lag2.txt
-├── granger_significant_terms_state_data_Alabama_lag3.txt
-├── granger_significant_terms_state_data_Alabama_lag4.txt
-├── granger_significant_terms_state_data_Alabama_lag5.txt
-├── granger_pvalues_state_data_Alabama_lag1.png
-├── granger_pvalues_state_data_Alabama_lag2.png
-├── granger_pvalues_state_data_Alabama_lag3.png
-├── granger_pvalues_state_data_Alabama_lag4.png
-└── granger_pvalues_state_data_Alabama_lag5.png
+├── granger_significant_terms_data_ExampleState_lag1.txt
+├── granger_significant_terms_data_ExampleState_lag2.txt
+├── granger_significant_terms_data_ExampleState_lag3.txt
+├── granger_significant_terms_data_ExampleState_lag4.txt
+├── granger_significant_terms_data_ExampleState_lag5.txt
+├── granger_pvalues_data_ExampleState_lag1.png
+├── granger_pvalues_data_ExampleState_lag2.png
+├── granger_pvalues_data_ExampleState_lag3.png
+├── granger_pvalues_data_ExampleState_lag4.png
+└── granger_pvalues_data_ExampleState_lag5.png
 ```
 
 ### Result File Contents
@@ -136,16 +136,16 @@ results/
 
 ## Example Results
 
-For Alabama with max lag = 3:
+For ExampleState with max lag = 3:
 - **Overall Granger causality**: F = 2.6456, p < 0.001 (highly significant)
 - **R² improvement**: 0.0340 (3.4% improvement in prediction)
 - **FDR-significant terms**: 3 terms including "symptoms of flu" and "how long does flu last"
 
 ## Customization
 
-### Changing Target State
-1. Modify `target_state` in `confs.py`
-2. Ensure the corresponding state file exists in `data_dir`
+### Changing Response Variable
+1. Modify `response_var` in `confs.py`
+2. Ensure the corresponding data file exists in `data_dir`
 3. Run the script again
 
 ### Adding New Analysis Types
@@ -177,7 +177,7 @@ For Alabama with max lag = 3:
 ## Troubleshooting
 
 ### Common Issues
-1. **State file not found**: Check `target_state` in `confs.py` and ensure file exists
+1. **Data file not found**: Check `response_var` and `file_name` in `confs.py` and ensure file exists
 2. **No complete cases**: Data may have too many missing values
 3. **Memory errors**: Reduce `max_terms` or `max_lags_to_test` in `confs.py`
 

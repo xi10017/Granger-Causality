@@ -1,0 +1,28 @@
+=== COMPREHENSIVE GRANGER CAUSALITY ANALYSIS SUMMARY ===
+Data file: North Carolina_2010_2020.csv
+Response variable: North Carolina
+Max lag: 2
+Number of tests: 20
+Bonferroni threshold: 0.002500
+FDR correction applied (Benjamini-Hochberg method, alpha=0.05)
+Overall Granger causality F-statistic: 7.1023
+Overall Granger causality p-value: 0.000000
+Model R-squared: 0.8959
+
+=== SIGNIFICANCE SUMMARY ===
+Uncorrected significant (p < 0.05): 10 terms
+Bonferroni significant (p < 0.002500): 2 terms
+FDR significant: 5 terms
+
+=== ALL SIGNIFICANT TERMS (n=10) ===
+Term	Min_p_value	Most_Conservative_Significance
+flu incubation	0.000311	Bonferroni
+flu contagious	0.002097	Bonferroni
+flu type	0.005417	FDR
+flu symptoms	0.006360	FDR
+symptoms of the flu	0.010524	FDR
+the flu	0.017901	Uncorrected
+flu how long	0.028570	Uncorrected
+fever flu	0.032088	Uncorrected
+pneumonia	0.036194	Uncorrected
+symptoms of flu	0.042667	Uncorrected

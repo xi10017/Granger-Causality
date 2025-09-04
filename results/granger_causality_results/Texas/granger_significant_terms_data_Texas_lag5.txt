@@ -1,0 +1,25 @@
+=== COMPREHENSIVE GRANGER CAUSALITY ANALYSIS SUMMARY ===
+Data file: Texas_2010_2020.csv
+Response variable: Texas
+Max lag: 5
+Number of tests: 20
+Bonferroni threshold: 0.002500
+FDR correction applied (Benjamini-Hochberg method, alpha=0.05)
+Overall Granger causality F-statistic: 2.3079
+Overall Granger causality p-value: 0.000000
+Model R-squared: 0.9394
+
+=== SIGNIFICANCE SUMMARY ===
+Uncorrected significant (p < 0.05): 7 terms
+Bonferroni significant (p < 0.002500): 2 terms
+FDR significant: 4 terms
+
+=== ALL SIGNIFICANT TERMS (n=7) ===
+Term	Min_p_value	Most_Conservative_Significance
+flu type	0.000066	Bonferroni
+how long does the flu last	0.001832	Bonferroni
+the flu	0.005280	FDR
+b flu	0.007973	FDR
+flu incubation period	0.018507	Uncorrected
+fever flu	0.036568	Uncorrected
+bronchitis	0.043093	Uncorrected

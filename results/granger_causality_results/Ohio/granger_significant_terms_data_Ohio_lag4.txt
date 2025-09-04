@@ -1,0 +1,25 @@
+=== COMPREHENSIVE GRANGER CAUSALITY ANALYSIS SUMMARY ===
+Data file: Ohio_2010_2020.csv
+Response variable: Ohio
+Max lag: 4
+Number of tests: 20
+Bonferroni threshold: 0.002500
+FDR correction applied (Benjamini-Hochberg method, alpha=0.05)
+Overall Granger causality F-statistic: 3.3063
+Overall Granger causality p-value: 0.000000
+Model R-squared: 0.9034
+
+=== SIGNIFICANCE SUMMARY ===
+Uncorrected significant (p < 0.05): 7 terms
+Bonferroni significant (p < 0.002500): 3 terms
+FDR significant: 6 terms
+
+=== ALL SIGNIFICANT TERMS (n=7) ===
+Term	Min_p_value	Most_Conservative_Significance
+influenza a	0.000001	Bonferroni
+a influenza	0.000001	Bonferroni
+contagious flu	0.001087	Bonferroni
+flu symptoms	0.004358	FDR
+the flu symptoms	0.006656	FDR
+how long flu	0.013424	FDR
+how long does flu last	0.022536	Uncorrected

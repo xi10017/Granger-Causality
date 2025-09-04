@@ -1,0 +1,24 @@
+=== COMPREHENSIVE GRANGER CAUSALITY ANALYSIS SUMMARY ===
+Data file: South Dakota_2010_2020.csv
+Response variable: South Dakota
+Max lag: 3
+Number of tests: 20
+Bonferroni threshold: 0.002500
+FDR correction applied (Benjamini-Hochberg method, alpha=0.05)
+Overall Granger causality F-statistic: 1.3693
+Overall Granger causality p-value: 0.042074
+Model R-squared: 0.9038
+
+=== SIGNIFICANCE SUMMARY ===
+Uncorrected significant (p < 0.05): 6 terms
+Bonferroni significant (p < 0.002500): 1 terms
+FDR significant: 1 terms
+
+=== ALL SIGNIFICANT TERMS (n=6) ===
+Term	Min_p_value	Most_Conservative_Significance
+flu symptoms	0.000094	Bonferroni
+bronchitis	0.020486	Uncorrected
+flu contagious	0.029003	Uncorrected
+contagious flu	0.029003	Uncorrected
+how long does flu last	0.040977	Uncorrected
+flu a	0.049474	Uncorrected

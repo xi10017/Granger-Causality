@@ -1,0 +1,26 @@
+=== COMPREHENSIVE GRANGER CAUSALITY ANALYSIS SUMMARY ===
+Data file: Idaho_2010_2020.csv
+Response variable: Idaho
+Max lag: 4
+Number of tests: 20
+Bonferroni threshold: 0.002500
+FDR correction applied (Benjamini-Hochberg method, alpha=0.05)
+Overall Granger causality F-statistic: 1.0601
+Overall Granger causality p-value: 0.352225
+Model R-squared: 0.8199
+
+=== SIGNIFICANCE SUMMARY ===
+Uncorrected significant (p < 0.05): 8 terms
+Bonferroni significant (p < 0.002500): 3 terms
+FDR significant: 4 terms
+
+=== ALL SIGNIFICANT TERMS (n=8) ===
+Term	Min_p_value	Most_Conservative_Significance
+stomach flu	0.000391	Bonferroni
+flu how long	0.001036	Bonferroni
+how long flu	0.001036	Bonferroni
+flu a	0.009772	FDR
+flu cold	0.017960	Uncorrected
+the flu	0.020152	Uncorrected
+a influenza	0.034053	Uncorrected
+influenza a	0.034053	Uncorrected

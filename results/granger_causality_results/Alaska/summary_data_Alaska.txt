@@ -1,0 +1,63 @@
+=== GRANGER CAUSALITY SIGNIFICANT TERMS SUMMARY ===
+Data file analyzed: Alaska_2010_2020.csv
+Response variable: Alaska
+Total significant term combinations: 31
+Unique terms: 12
+Response variables analyzed: Alaska
+Max lags tested: 1, 2, 3, 4, 5
+
+stomach flu significant combinations:
+  Alaska_lag2: p=0.004558 (FDR)
+  Alaska_lag3: p=0.000001 (Bonferroni)
+  Alaska_lag4: p=0.000006 (Bonferroni)
+  Alaska_lag5: p=0.000027 (Bonferroni)
+
+flu contagious significant combinations:
+  Alaska_lag2: p=0.000330 (Bonferroni)
+  Alaska_lag3: p=0.002683 (FDR)
+  Alaska_lag4: p=0.000708 (Bonferroni)
+  Alaska_lag5: p=0.000699 (Bonferroni)
+
+contagious flu significant combinations:
+  Alaska_lag2: p=0.000330 (Bonferroni)
+  Alaska_lag3: p=0.002683 (FDR)
+  Alaska_lag4: p=0.000708 (Bonferroni)
+  Alaska_lag5: p=0.000699 (Bonferroni)
+
+rsv significant combinations:
+  Alaska_lag2: p=0.014942 (Uncorrected)
+  Alaska_lag3: p=0.015209 (Uncorrected)
+  Alaska_lag4: p=0.009938 (FDR)
+  Alaska_lag5: p=0.003495 (FDR)
+
+flu symptoms significant combinations:
+  Alaska_lag5: p=0.008367 (FDR)
+
+sinus significant combinations:
+  Alaska_lag4: p=0.011494 (FDR)
+  Alaska_lag5: p=0.010629 (FDR)
+
+flu a significant combinations:
+  Alaska_lag3: p=0.021135 (Uncorrected)
+  Alaska_lag4: p=0.011725 (FDR)
+  Alaska_lag5: p=0.019665 (FDR)
+
+bronchitis significant combinations:
+  Alaska_lag1: p=0.044110 (Uncorrected)
+  Alaska_lag5: p=0.014611 (FDR)
+
+influenza a significant combinations:
+  Alaska_lag3: p=0.027820 (Uncorrected)
+  Alaska_lag4: p=0.021547 (Uncorrected)
+  Alaska_lag5: p=0.020876 (FDR)
+
+how long flu significant combinations:
+  Alaska_lag1: p=0.028287 (Uncorrected)
+
+the flu significant combinations:
+  Alaska_lag2: p=0.033558 (Uncorrected)
+
+pneumonia significant combinations:
+  Alaska_lag2: p=0.041872 (Uncorrected)
+  Alaska_lag3: p=0.040104 (Uncorrected)
+

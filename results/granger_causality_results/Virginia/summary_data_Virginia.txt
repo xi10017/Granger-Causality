@@ -1,0 +1,58 @@
+=== GRANGER CAUSALITY SIGNIFICANT TERMS SUMMARY ===
+Data file analyzed: Virginia_2010_2020.csv
+Response variable: Virginia
+Total significant term combinations: 28
+Unique terms: 11
+Response variables analyzed: Virginia
+Max lags tested: 4, 3, 2, 1, 5
+
+rsv significant combinations:
+  Virginia_lag1: p=0.000000 (Bonferroni)
+  Virginia_lag2: p=0.043475 (Uncorrected)
+  Virginia_lag3: p=0.033521 (Uncorrected)
+  Virginia_lag4: p=0.018411 (Uncorrected)
+  Virginia_lag5: p=0.011683 (Uncorrected)
+
+is flu contagious significant combinations:
+  Virginia_lag2: p=0.000077 (Bonferroni)
+  Virginia_lag3: p=0.000095 (Bonferroni)
+  Virginia_lag4: p=0.000553 (Bonferroni)
+  Virginia_lag5: p=0.000412 (Bonferroni)
+
+the flu significant combinations:
+  Virginia_lag2: p=0.000542 (Bonferroni)
+  Virginia_lag3: p=0.024804 (Uncorrected)
+  Virginia_lag4: p=0.017094 (Uncorrected)
+  Virginia_lag5: p=0.023644 (Uncorrected)
+
+sinus significant combinations:
+  Virginia_lag1: p=0.009628 (Uncorrected)
+  Virginia_lag4: p=0.011633 (Uncorrected)
+  Virginia_lag5: p=0.001137 (Bonferroni)
+
+flu incubation significant combinations:
+  Virginia_lag2: p=0.015225 (Uncorrected)
+  Virginia_lag3: p=0.020183 (Uncorrected)
+  Virginia_lag4: p=0.020893 (Uncorrected)
+  Virginia_lag5: p=0.001638 (Bonferroni)
+
+flu symptoms significant combinations:
+  Virginia_lag1: p=0.020005 (Uncorrected)
+  Virginia_lag4: p=0.016577 (Uncorrected)
+  Virginia_lag5: p=0.032031 (Uncorrected)
+
+how long flu significant combinations:
+  Virginia_lag4: p=0.018972 (Uncorrected)
+
+flu how long significant combinations:
+  Virginia_lag4: p=0.018972 (Uncorrected)
+
+bronchitis significant combinations:
+  Virginia_lag5: p=0.025429 (Uncorrected)
+
+flu cold significant combinations:
+  Virginia_lag4: p=0.026639 (Uncorrected)
+
+pneumonia significant combinations:
+  Virginia_lag2: p=0.036487 (Uncorrected)
+

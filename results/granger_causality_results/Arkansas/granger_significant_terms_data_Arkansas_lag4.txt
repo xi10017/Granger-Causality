@@ -1,0 +1,27 @@
+=== COMPREHENSIVE GRANGER CAUSALITY ANALYSIS SUMMARY ===
+Data file: Arkansas_2010_2020.csv
+Response variable: Arkansas
+Max lag: 4
+Number of tests: 20
+Bonferroni threshold: 0.002500
+FDR correction applied (Benjamini-Hochberg method, alpha=0.05)
+Overall Granger causality F-statistic: 1.8328
+Overall Granger causality p-value: 0.000077
+Model R-squared: 0.8792
+
+=== SIGNIFICANCE SUMMARY ===
+Uncorrected significant (p < 0.05): 9 terms
+Bonferroni significant (p < 0.002500): 1 terms
+FDR significant: 2 terms
+
+=== ALL SIGNIFICANT TERMS (n=9) ===
+Term	Min_p_value	Most_Conservative_Significance
+flu type	0.001865	Bonferroni
+the flu symptoms	0.004513	FDR
+the flu	0.010169	Uncorrected
+flu symptoms	0.011021	Uncorrected
+flu cold	0.013515	Uncorrected
+flu a	0.027786	Uncorrected
+rsv	0.042198	Uncorrected
+flu fever	0.046987	Uncorrected
+fever flu	0.046987	Uncorrected

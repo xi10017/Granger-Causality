@@ -1,0 +1,21 @@
+=== COMPREHENSIVE GRANGER CAUSALITY ANALYSIS SUMMARY ===
+Data file: North Dakota_2010_2020.csv
+Response variable: North Dakota
+Max lag: 1
+Number of tests: 20
+Bonferroni threshold: 0.002500
+FDR correction applied (Benjamini-Hochberg method, alpha=0.05)
+Overall Granger causality F-statistic: 2.6843
+Overall Granger causality p-value: 0.000120
+Model R-squared: 0.7607
+
+=== SIGNIFICANCE SUMMARY ===
+Uncorrected significant (p < 0.05): 3 terms
+Bonferroni significant (p < 0.002500): 0 terms
+FDR significant: 0 terms
+
+=== ALL SIGNIFICANT TERMS (n=3) ===
+Term	Min_p_value	Most_Conservative_Significance
+a influenza	0.006226	Uncorrected
+stomach flu	0.016037	Uncorrected
+how long does flu last	0.046981	Uncorrected

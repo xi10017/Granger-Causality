@@ -1,0 +1,10 @@
+Term,Category,Count,Mean_Pvalue,Median_Pvalue,Min_Pvalue,Max_Pvalue
+stomach flu,Bonferroni,1,0.000627,0.000627,0.000627,0.000627
+influenza a symptoms,FDR,1,0.004681,0.004681,0.004681,0.004681
+the flu symptoms,Uncorrected,4,0.016258250000000002,0.016343,0.00617,0.026177
+influenza a,Uncorrected,4,0.01935375,0.017179,0.011031,0.032026
+stomach flu,Uncorrected,2,0.024276,0.024276,0.020407,0.028145
+a influenza,Uncorrected,2,0.028395000000000004,0.028395000000000004,0.012125,0.044665
+pneumonia,Uncorrected,2,0.0429185,0.0429185,0.041719,0.044118
+influenza a symptoms,Uncorrected,1,0.034063,0.034063,0.034063,0.034063
+rsv,Uncorrected,1,0.012687,0.012687,0.012687,0.012687

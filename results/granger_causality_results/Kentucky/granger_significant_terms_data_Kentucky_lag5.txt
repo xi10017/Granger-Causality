@@ -1,0 +1,29 @@
+=== COMPREHENSIVE GRANGER CAUSALITY ANALYSIS SUMMARY ===
+Data file: Kentucky_2010_2020.csv
+Response variable: Kentucky
+Max lag: 5
+Number of tests: 20
+Bonferroni threshold: 0.002500
+FDR correction applied (Benjamini-Hochberg method, alpha=0.05)
+Overall Granger causality F-statistic: 2.4438
+Overall Granger causality p-value: 0.000000
+Model R-squared: 0.9568
+
+=== SIGNIFICANCE SUMMARY ===
+Uncorrected significant (p < 0.05): 11 terms
+Bonferroni significant (p < 0.002500): 2 terms
+FDR significant: 5 terms
+
+=== ALL SIGNIFICANT TERMS (n=11) ===
+Term	Min_p_value	Most_Conservative_Significance
+cold	0.000144	Bonferroni
+fever flu	0.000407	Bonferroni
+the flu	0.004155	FDR
+rsv	0.007159	FDR
+b flu	0.009740	FDR
+symptoms of flu	0.015950	Uncorrected
+pneumonia	0.028726	Uncorrected
+flu type	0.030218	Uncorrected
+type a flu	0.033399	Uncorrected
+flu how long	0.036115	Uncorrected
+flu cold	0.049025	Uncorrected

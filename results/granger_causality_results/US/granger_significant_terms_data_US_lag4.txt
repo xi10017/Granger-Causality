@@ -1,0 +1,30 @@
+=== COMPREHENSIVE GRANGER CAUSALITY ANALYSIS SUMMARY ===
+Data file: US_2010_2020.csv
+Response variable: US
+Max lag: 4
+Number of tests: 20
+Bonferroni threshold: 0.002500
+FDR correction applied (Benjamini-Hochberg method, alpha=0.05)
+Overall Granger causality F-statistic: 5.0704
+Overall Granger causality p-value: 0.000000
+Model R-squared: 0.9756
+
+=== SIGNIFICANCE SUMMARY ===
+Uncorrected significant (p < 0.05): 12 terms
+Bonferroni significant (p < 0.002500): 3 terms
+FDR significant: 5 terms
+
+=== ALL SIGNIFICANT TERMS (n=12) ===
+Term	Min_p_value	Most_Conservative_Significance
+how long contagious	0.001092	Bonferroni
+is flu contagious	0.002367	Bonferroni
+how long is flu contagious	0.002462	Bonferroni
+is the flu contagious	0.009061	FDR
+contagious flu	0.010868	FDR
+tamiflu side effects	0.019667	Uncorrected
+flu type a	0.021133	Uncorrected
+type a flu	0.021276	Uncorrected
+cough fever	0.022652	Uncorrected
+flu contagious	0.030439	Uncorrected
+fever cough	0.030611	Uncorrected
+get rid of the flu	0.047996	Uncorrected

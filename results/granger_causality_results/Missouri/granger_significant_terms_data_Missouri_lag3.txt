@@ -1,0 +1,31 @@
+=== COMPREHENSIVE GRANGER CAUSALITY ANALYSIS SUMMARY ===
+Data file: Missouri_2010_2020.csv
+Response variable: Missouri
+Max lag: 3
+Number of tests: 20
+Bonferroni threshold: 0.002500
+FDR correction applied (Benjamini-Hochberg method, alpha=0.05)
+Overall Granger causality F-statistic: 3.9600
+Overall Granger causality p-value: 0.000000
+Model R-squared: 0.9261
+
+=== SIGNIFICANCE SUMMARY ===
+Uncorrected significant (p < 0.05): 13 terms
+Bonferroni significant (p < 0.002500): 4 terms
+FDR significant: 12 terms
+
+=== ALL SIGNIFICANT TERMS (n=13) ===
+Term	Min_p_value	Most_Conservative_Significance
+a influenza	0.000000	Bonferroni
+influenza a	0.000000	Bonferroni
+rsv	0.000594	Bonferroni
+flu a	0.002476	Bonferroni
+the flu symptoms	0.011901	FDR
+pneumonia	0.014037	FDR
+the flu	0.015962	FDR
+influenza symptoms	0.016539	FDR
+influenza a symptoms	0.021158	FDR
+flu how long	0.024613	FDR
+contagious flu	0.025556	FDR
+cold	0.029445	FDR
+how long does flu last	0.049635	Uncorrected
