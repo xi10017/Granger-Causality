@@ -355,11 +355,12 @@ def create_visualization(model_unrestricted, search_terms, max_lag, term_signifi
     # Better layout with more space
     plt.tight_layout(pad=2.0)
     
-    # Create results directory if it doesn't exist
-    os.makedirs(result_dir, exist_ok=True)
+    # Create results directory and granger causality subfolder
+    granger_results_dir = os.path.join(result_dir, granger_causality_prefix, response_column)
+    os.makedirs(granger_results_dir, exist_ok=True)
     
     # Save visualization
-    viz_filename = os.path.join(result_dir, f"{visualization_prefix}_{response_column}_lag{max_lag}.png")
+    viz_filename = os.path.join(granger_results_dir, f"{visualization_prefix}_{response_column}_lag{max_lag}.png")
     plt.savefig(viz_filename, dpi=figure_dpi, bbox_inches=figure_bbox_inches)
     plt.close()
     
@@ -390,11 +391,12 @@ def save_results(term_significance, significant_uncorrected, significant_bonferr
     """Save comprehensive results to a text file"""
     print(f"\n=== SAVING COMPREHENSIVE RESULTS ===")
     
-    # Create results directory if it doesn't exist
-    os.makedirs(result_dir, exist_ok=True)
+    # Create results directory and granger causality subfolder
+    granger_results_dir = os.path.join(result_dir, granger_causality_prefix, response_column)
+    os.makedirs(granger_results_dir, exist_ok=True)
     
     # Save results
-    txt_filename = os.path.join(result_dir, f"{results_prefix}_{response_column}_lag{max_lag}.txt")
+    txt_filename = os.path.join(granger_results_dir, f"{results_prefix}_{response_column}_lag{max_lag}.txt")
     with open(txt_filename, "w") as f:
         # Write summary at the top
         f.write(f"=== COMPREHENSIVE GRANGER CAUSALITY ANALYSIS SUMMARY ===\n")
@@ -453,6 +455,7 @@ def main():
     print(f"Configuration loaded from confs.py")
     print(f"Data directory: {data_dir}")
     print(f"Results directory: {result_dir}")
+    print(f"Granger causality subfolder: {granger_causality_prefix}")
     print(f"Data file to analyze: {file_name}")
     print(f"Max lags to test: {max_lags_to_test}")
     
@@ -524,8 +527,10 @@ def main():
         
         print(f"\n=== ANALYSIS COMPLETE FOR {file_name} WITH MAX LAG = {max_lag} ===")
     
+    # Show final output location
+    granger_results_dir = os.path.join(result_dir, granger_causality_prefix)
     print(f"\n=== ALL ANALYSES COMPLETE FOR {file_name} ===")
-    print(f"Results saved to: {result_dir}")
+    print(f"Results saved to: {granger_results_dir}")
 
 if __name__ == "__main__":
     main()

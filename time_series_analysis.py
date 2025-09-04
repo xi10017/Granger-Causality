@@ -20,9 +20,9 @@ def parse_state_summary(filepath):
         line_original = line
         line = line.strip()
         
-        # Check for the format: "term → {response_var} Activity (significant combinations):"
-        if f'→ {response_var} Activity (significant combinations):' in line:
-            current_term = line.split('→')[0].strip()
+        # Check for the format: "term significant combinations:"
+        if ' significant combinations:' in line:
+            current_term = line.split(' significant combinations:')[0].strip()
             print(f"Found term: '{current_term}'")
         elif line and current_term and line_original.startswith('  ') and not line.startswith('===') and not line.startswith('Total') and not line.startswith('Unique') and not line.startswith('States') and not line.startswith('Direction'):
             print(f"  Processing data line: '{line}'")
@@ -189,8 +189,9 @@ def main(start_year=None, end_year=None):
     """Main function to generate all time series plots with optional date range filtering"""
     print("Loading significant terms...")
     
-    # Parse significant terms using configuration
-    summary_file = os.path.join(result_dir, f"{summary_prefix}_{response_var}.txt")
+    # Parse significant terms using configuration - look in granger causality subfolder
+    granger_results_dir = os.path.join(result_dir, granger_causality_prefix, response_var)
+    summary_file = os.path.join(granger_results_dir, f"{summary_prefix}_{response_var}.txt")
     if not os.path.exists(summary_file):
         print(f"Summary file not found: {summary_file}")
         print("Please run create_comprehensive_significant_terms_summary.py first")
@@ -210,15 +211,15 @@ def main(start_year=None, end_year=None):
     
     print("Loading data...")
     
-    # Create output directory based on date range
+    # Create output directory based on date range - use granger causality subfolder
     if start_year is not None or end_year is not None:
         # Create date-specific folder name
         start_str = str(start_year) if start_year is not None else "start"
         end_str = str(end_year) if end_year is not None else "end"
-        output_dir = os.path.join(result_dir, time_series_prefix, f"_{start_str}-{end_str}_", response_var)
+        output_dir = os.path.join(result_dir, granger_causality_prefix, response_var, time_series_prefix, f"_{start_str}-{end_str}_")
         print(f"Filtering data from year {start_year} to {end_year}")
     else:
-        output_dir = os.path.join(result_dir, time_series_prefix, response_var)
+        output_dir = os.path.join(result_dir, granger_causality_prefix, response_var, time_series_prefix)
         print("No date range specified - using full dataset")
     
     os.makedirs(output_dir, exist_ok=True)

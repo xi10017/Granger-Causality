@@ -39,18 +39,43 @@ def analyze_data_file(data_file_name):
         f.write(config_content)
     
     try:
-        # Run the analysis
-        print(f"Running Granger causality analysis for {data_file_name}...")
-        result = subprocess.run([sys.executable, 'granger_causality_pipeline.py'], 
-                              capture_output=True, text=True)
+        # Step 1: Run the Granger causality analysis
+        print(f"Step 1: Running Granger causality analysis for {data_file_name}...")
+        result1 = subprocess.run([sys.executable, 'granger_causality_pipeline.py'], 
+                               capture_output=True, text=True)
         
-        if result.returncode == 0:
-            print(f"✅ Analysis completed successfully for {data_file_name}")
-            return True
-        else:
-            print(f"❌ Analysis failed for {data_file_name}")
-            print(f"Error: {result.stderr}")
+        if result1.returncode != 0:
+            print(f"❌ Granger causality analysis failed for {data_file_name}")
+            print(f"Error: {result1.stderr}")
             return False
+        
+        print(f"✅ Granger causality analysis completed for {data_file_name}")
+        
+        # Step 2: Create comprehensive significant terms summary
+        print(f"Step 2: Creating comprehensive summary for {data_file_name}...")
+        result2 = subprocess.run([sys.executable, 'create_comprehensive_significant_terms_summary.py'], 
+                               capture_output=True, text=True)
+        
+        if result2.returncode != 0:
+            print(f"❌ Summary creation failed for {data_file_name}")
+            print(f"Error: {result2.stderr}")
+            return False
+        
+        print(f"✅ Comprehensive summary created for {data_file_name}")
+        
+        # Step 3: Generate time series analysis plots
+        print(f"Step 3: Generating time series plots for {data_file_name}...")
+        result3 = subprocess.run([sys.executable, 'time_series_analysis.py'], 
+                               capture_output=True, text=True)
+        
+        if result3.returncode != 0:
+            print(f"❌ Time series analysis failed for {data_file_name}")
+            print(f"Error: {result3.stderr}")
+            return False
+        
+        print(f"✅ Time series analysis completed for {data_file_name}")
+        print(f"✅ Complete analysis pipeline finished for {data_file_name}")
+        return True
             
     except Exception as e:
         print(f"❌ Error running analysis for {data_file_name}: {e}")
@@ -68,16 +93,65 @@ def analyze_data_file(data_file_name):
 
 def main():
     """Main function to demonstrate multiple data file analysis"""
-    print("=== MULTIPLE DATA FILE ANALYSIS DEMONSTRATION ===")
-    print("This script shows how to analyze different data files using the generalized pipeline.")
+    print("=== MULTIPLE DATA FILE COMPLETE ANALYSIS PIPELINE ===")
+    print("This script runs the complete analysis pipeline for different data files:")
+    print("1. Granger causality analysis")
+    print("2. Comprehensive significant terms summary")
+    print("3. Time series analysis plots")
     
     # List of data files to analyze (you can modify this)
     data_files_to_analyze = [
-        'Alabama_2010_2020.csv',
-        'California_2010_2020.csv', 
-        'Texas_2010_2020.csv',
-        'Florida_2010_2020.csv',
-        'New_York_2010_2020.csv'
+        "Alabama_2010_2020.csv",
+        "Alaska_2010_2020.csv",
+        "Arizona_2010_2020.csv",
+        "Arkansas_2010_2020.csv",
+        "California_2010_2020.csv",
+        "Colorado_2010_2020.csv",
+        "Connecticut_2010_2020.csv",
+        "Delaware_2010_2020.csv",
+        "Florida_2010_2020.csv",
+        "Georgia_2010_2020.csv",
+        "Hawaii_2010_2020.csv",
+        "Idaho_2010_2020.csv",
+        "Illinois_2010_2020.csv",
+        "Indiana_2010_2020.csv",
+        "Iowa_2010_2020.csv",
+        "Kansas_2010_2020.csv",
+        "Kentucky_2010_2020.csv",
+        "Louisiana_2010_2020.csv",                      
+        "Maine_2010_2020.csv",
+        "Maryland_2010_2020.csv",
+        "Massachusetts_2010_2020.csv",      
+        "Michigan_2010_2020.csv",
+        "Minnesota_2010_2020.csv",
+        "Mississippi_2010_2020.csv",
+        "Missouri_2010_2020.csv",
+        "Montana_2010_2020.csv",       
+        "Nebraska_2010_2020.csv",
+        "Nevada_2010_2020.csv",
+        "New Hampshire_2010_2020.csv",
+        "New Jersey_2010_2020.csv",
+        "New Mexico_2010_2020.csv",
+        "New York_2010_2020.csv",
+        "North Carolina_2010_2020.csv",
+        "North Dakota_2010_2020.csv"    ,
+        "Ohio_2010_2020.csv", 
+        "Oklahoma_2010_2020.csv",
+        "Oregon_2010_2020.csv",
+        "Pennsylvania_2010_2020.csv",
+        "Rhode Island_2010_2020.csv",   
+        "South Carolina_2010_2020.csv",     
+        "South Dakota_2010_2020.csv",
+        "Tennessee_2010_2020.csv",
+        "Texas_2010_2020.csv",
+        "US_2010_2020.csv",
+        "Utah_2010_2020.csv",
+        "Vermont_2010_2020.csv",
+        "Virginia_2010_2020.csv",
+        "Washington_2010_2020.csv",
+        "West Virginia_2010_2020.csv",
+        "Wisconsin_2010_2020.csv",              
+        "Wyoming_2010_2020.csv",
     ]
     
     print(f"\nData files to analyze: {', '.join(data_files_to_analyze)}")
@@ -97,15 +171,19 @@ def main():
     
     # Summary
     print(f"\n{'='*60}")
-    print(f"ANALYSIS SUMMARY")
+    print(f"COMPLETE PIPELINE ANALYSIS SUMMARY")
     print(f"{'='*60}")
     print(f"Total data files attempted: {len(data_files_to_analyze)}")
-    print(f"Successful analyses: {successful_analyses}")
+    print(f"Successful complete analyses: {successful_analyses}")
     print(f"Failed analyses: {len(data_files_to_analyze) - successful_analyses}")
     
     if successful_analyses > 0:
         print(f"\nResults saved to: {result_dir}")
-        print("Check the results directory for output files.")
+        print("Each successful analysis includes:")
+        print("  - Granger causality test results and visualizations")
+        print("  - Comprehensive significant terms summary")
+        print("  - Time series analysis plots")
+        print(f"  - All files organized in: {result_dir}/granger_causality_results/")
     
     print(f"\nConfiguration restored to: file_name = {file_name}")
 

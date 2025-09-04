@@ -1,0 +1,76 @@
+=== GRANGER CAUSALITY SIGNIFICANT TERMS SUMMARY ===
+Data file analyzed: Alabama_2010_2020.csv
+Response variable: Alabama
+Total significant term combinations: 36
+Unique terms: 16
+Response variables analyzed: Alabama
+Max lags tested: 1, 3, 5, 4, 2
+
+how long does flu last significant combinations:
+  Alabama_lag1: p=0.000291 (Bonferroni)
+  Alabama_lag2: p=0.005254 (Uncorrected)
+  Alabama_lag3: p=0.001030 (Bonferroni)
+  Alabama_lag4: p=0.000994 (Bonferroni)
+  Alabama_lag5: p=0.000040 (Bonferroni)
+
+symptoms of flu significant combinations:
+  Alabama_lag3: p=0.000317 (Bonferroni)
+  Alabama_lag4: p=0.001626 (Bonferroni)
+  Alabama_lag5: p=0.001018 (Bonferroni)
+
+the flu symptoms significant combinations:
+  Alabama_lag2: p=0.005269 (Uncorrected)
+  Alabama_lag3: p=0.020720 (Uncorrected)
+  Alabama_lag4: p=0.023222 (Uncorrected)
+  Alabama_lag5: p=0.001744 (Bonferroni)
+
+flu how long significant combinations:
+  Alabama_lag5: p=0.004651 (FDR)
+
+how long flu significant combinations:
+  Alabama_lag5: p=0.004651 (FDR)
+
+flu a significant combinations:
+  Alabama_lag3: p=0.004993 (FDR)
+  Alabama_lag4: p=0.004860 (FDR)
+  Alabama_lag5: p=0.007189 (FDR)
+
+flu symptoms significant combinations:
+  Alabama_lag3: p=0.012031 (Uncorrected)
+  Alabama_lag4: p=0.005902 (FDR)
+  Alabama_lag5: p=0.009894 (FDR)
+
+contagious flu significant combinations:
+  Alabama_lag1: p=0.009795 (Uncorrected)
+  Alabama_lag2: p=0.011105 (Uncorrected)
+  Alabama_lag3: p=0.042302 (Uncorrected)
+
+flu contagious significant combinations:
+  Alabama_lag1: p=0.009795 (Uncorrected)
+  Alabama_lag2: p=0.011105 (Uncorrected)
+  Alabama_lag3: p=0.042302 (Uncorrected)
+
+the flu significant combinations:
+  Alabama_lag1: p=0.015549 (Uncorrected)
+  Alabama_lag2: p=0.039374 (Uncorrected)
+
+flu test significant combinations:
+  Alabama_lag2: p=0.015864 (Uncorrected)
+  Alabama_lag3: p=0.036045 (Uncorrected)
+
+pneumonia significant combinations:
+  Alabama_lag5: p=0.029141 (Uncorrected)
+
+is flu contagious significant combinations:
+  Alabama_lag2: p=0.034985 (Uncorrected)
+
+bronchitis significant combinations:
+  Alabama_lag3: p=0.044590 (Uncorrected)
+  Alabama_lag5: p=0.035499 (Uncorrected)
+
+flu cold significant combinations:
+  Alabama_lag5: p=0.035503 (Uncorrected)
+
+flu type significant combinations:
+  Alabama_lag4: p=0.045946 (Uncorrected)
+

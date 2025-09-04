@@ -68,12 +68,13 @@ def create_comprehensive_significant_terms_summary():
     """Create a comprehensive summary of all significant terms from Granger causality analyses"""
     print("=== CREATING COMPREHENSIVE SIGNIFICANT TERMS SUMMARY ===")
     
-    # Find all results files
-    results_pattern = os.path.join(result_dir, f"{results_prefix}_*_lag*.txt")
+    # Find all results files in the granger causality subfolder
+    granger_results_dir = os.path.join(result_dir, granger_causality_prefix, response_var)
+    results_pattern = os.path.join(granger_results_dir, f"{results_prefix}_*_lag*.txt")
     detailed_files = glob.glob(results_pattern)
     
     if not detailed_files:
-        print(f"No results files found in {result_dir}!")
+        print(f"No results files found in {granger_results_dir}!")
         print(f"Looking for pattern: {results_pattern}")
         return
     
@@ -98,8 +99,10 @@ def create_comprehensive_significant_terms_summary():
             terms_dict[term] = []
         terms_dict[term].append(item)
     
-    # Create output file using configuration
-    output_filename = os.path.join(result_dir, f"{summary_prefix}_{response_var}.txt")
+    # Create output file in the granger causality subfolder
+    granger_results_dir = os.path.join(result_dir, granger_causality_prefix, response_var)
+    os.makedirs(granger_results_dir, exist_ok=True)
+    output_filename = os.path.join(granger_results_dir, f"{summary_prefix}_{response_var}.txt")
     
     with open(output_filename, 'w') as f:
         f.write("=== GRANGER CAUSALITY SIGNIFICANT TERMS SUMMARY ===\n")
