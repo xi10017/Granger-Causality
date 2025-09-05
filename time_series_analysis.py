@@ -23,9 +23,7 @@ def parse_state_summary(filepath):
         # Check for the format: "term significant combinations:"
         if ' significant combinations:' in line:
             current_term = line.split(' significant combinations:')[0].strip()
-            print(f"Found term: '{current_term}'")
         elif line and current_term and line_original.startswith('  ') and not line.startswith('===') and not line.startswith('Total') and not line.startswith('Unique') and not line.startswith('States') and not line.startswith('Direction'):
-            print(f"  Processing data line: '{line}'")
             # Parse: "  {response_var}_lag3: p=0.001234 (Bonferroni)"
             if ':' in line and 'p=' in line:
                 # Extract response variable and lag
@@ -50,15 +48,12 @@ def parse_state_summary(filepath):
                             'p_value': p_value,
                             'significance_type': significance_type
                         })
-                        print(f"    Parsed: {response_var_name} lag {maxlag}, p={p_value}, {significance_type}")
                     else:
-                        print(f"    Failed to parse p-value or significance: p_match={p_value_match}, sig_match={significance_match}")
+                        pass  # Skip lines that don't parse correctly
                 else:
-                    print(f"    Failed to match response_var_lag pattern: '{response_var_lag_part}'")
+                    pass  # Skip lines that don't match pattern
             else:
-                print(f"    Line doesn't contain ':' and 'p=': '{line}'")
-    
-    print(f"Total combinations parsed: {len(significant_combinations)}")
+                pass  # Skip lines that don't contain required elements
     return significant_combinations
 
 def load_state_data(response_var_name, start_year=None, end_year=None):
@@ -149,7 +144,6 @@ def create_state_analysis_plot(term, df_state, significant_info, term_dir, respo
     filename = os.path.join(term_dir, f"{clean_term}_{response_var.lower()}_analysis.png")
     plt.savefig(filename, dpi=300, bbox_inches='tight')
     plt.close()
-    print(f"Saved: {filename}")
 
 def create_term_plots(term, significant_combinations, output_dir):
     """Create analysis plots for a single term for the response variable"""
@@ -167,8 +161,6 @@ def create_term_plots(term, significant_combinations, output_dir):
     os.makedirs(term_dir, exist_ok=True)
     
     # Create plots for the response variable
-    print(f"  Creating analysis for {response_var}...")
-    
     # Load data
     df_state = load_state_data(response_var)
     if df_state is None:
@@ -226,7 +218,6 @@ def main(start_year=None, end_year=None):
     
     # Generate plots for each term
     for i, term in enumerate(unique_terms, 1):
-        print(f"\nProcessing term {i}/{len(unique_terms)}: {term}")
         try:
             create_term_plots(term, significant_combinations, output_dir)
         except Exception as e:
@@ -234,7 +225,7 @@ def main(start_year=None, end_year=None):
             import traceback
             traceback.print_exc()
     
-    print(f"\nAll plots saved to: {output_dir}")
+    print(f"All plots saved to: {output_dir}")
     print(f"Total terms processed: {len(unique_terms)}")
 
 if __name__ == "__main__":

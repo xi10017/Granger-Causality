@@ -83,7 +83,6 @@ def create_comprehensive_significant_terms_summary():
     # Parse all files and collect significant terms
     all_significant_terms = []
     for filepath in detailed_files:
-        print(f"Processing: {os.path.basename(filepath)}")
         terms = parse_results_file(filepath)
         all_significant_terms.extend(terms)
     

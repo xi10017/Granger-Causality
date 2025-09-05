@@ -78,7 +78,6 @@ def collect_all_response_var_data(results_dir):
         try:
             response_var_name, term_data = parse_response_var_summary_file(filepath)
             all_data[response_var_name] = term_data
-            print(f"Parsed {response_var_name}: {len(term_data)} terms")
         except Exception as e:
             print(f"Error parsing {filepath}: {e}")
     
@@ -343,15 +342,8 @@ def analyze_single_response_var(response_var_name, response_var_data, results_di
     print(f"Found {len(summary_data)} unique terms with significant results for {response_var_name}")
     
     # Create visualizations
-    print(f"Creating bar graphs for {response_var_name}...")
     create_term_bar_graphs(summary_data, response_var_output_dir)
-    
-    # Create summary table
-    print(f"Creating summary table for {response_var_name}...")
     create_summary_table(summary_data, response_var_output_dir)
-    
-    # Create comparison plot
-    print(f"Creating comparison plot for {response_var_name}...")
     create_response_var_comparison_plot(summary_data, response_var_output_dir)
     
     print(f"Analysis complete for {response_var_name}")

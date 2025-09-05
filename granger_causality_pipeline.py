@@ -45,7 +45,6 @@ def load_and_prepare_data():
     
     # Get search terms (all columns except date and response variable)
     search_terms = [col for col in data.columns if col not in ['date', response_column]]
-    print(f"Found {len(search_terms)} search terms")
     
     return data, search_terms, response_column
 
@@ -56,8 +55,6 @@ def perform_data_diagnostics(data, search_terms, response_column):
     if data is None:
         print("No data available for diagnostics")
         return []
-    
-    print(f"Total search terms: {len(search_terms)}")
     
     # Check for constant columns
     constant_columns = []
@@ -372,8 +369,6 @@ def create_visualization(model_unrestricted, search_terms, max_lag, term_signifi
     significant_fdr_plot = [term for term in valid_terms_plot if term in fdr_significant_terms]
     
     print(f"\nSummary:")
-    print(f"Total terms with valid p-values: {len(valid_terms_plot)}")
-    print(f"Terms with NaN p-values: {len(term_significance) - len(valid_terms_plot)}")
     print(f"Uncorrected (p < {alpha_level}): {len(significant_uncorrected_plot)} terms")
     print(f"Bonferroni-corrected (p < {bonferroni_threshold:.6f}): {len(significant_bonferroni_plot)} terms")
     print(f"FDR-corrected: {len(significant_fdr_plot)} terms")

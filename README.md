@@ -1,36 +1,42 @@
-# Generalized Granger Causality Analysis
+# Comprehensive Granger Causality Analysis System
 
-This is a generalized system for performing Granger causality analysis on individual state data using configuration files. The system analyzes how search trends predict state-level activity for a specific state.
+A complete, generalized system for performing Granger causality analysis on time series data with comprehensive visualization and statistical analysis capabilities. This system can analyze any response variable (states, regions, countries, etc.) to determine if search trends or other predictors Granger-cause changes in the target variable.
 
 ## Overview
 
-This system performs **Granger causality analysis** to determine whether search trend data can predict state-level activity. The analysis tests whether past values of search terms (X variables) can help predict current values of state activity (Y variable).
+This system performs **Granger causality analysis** to determine whether predictor variables (e.g., search trends) can predict changes in a response variable (e.g., state activity, disease incidence, economic indicators). The analysis tests whether past values of predictor variables help predict current values of the response variable.
 
-**Direction**: Search Terms → State Activity
-- **X Variables**: Search term volumes (e.g., "flu symptoms", "how long does flu last")
-- **Y Variable**: Response variable activity level (e.g., State activity)
-- **Question**: Do search trends from X weeks ago predict current state activity?
-
-## What This Analysis Shows
-
-The Granger causality test determines if including lagged values of search terms improves the prediction of current state activity compared to using only past values of state activity. A significant result means:
-
-- **Search terms Granger-cause state activity**
-- Past search behavior provides useful information for predicting current state activity
-- There is a temporal relationship where search trends precede changes in state activity
-
-The system consists of:
-- **`confs.py`**: Configuration file containing all analysis parameters
-- **`granger_causality_generalized.py`**: Main analysis script
-- **`requirements.txt`**: Python dependencies
+**Direction**: Predictor Variables → Response Variable
+- **X Variables**: Predictor variables (e.g., search term volumes, economic indicators)
+- **Y Variable**: Response variable (e.g., state activity, disease cases, sales data)
+- **Question**: Do predictor variables from X time periods ago predict current response variable values?
 
 ## Key Features
 
-- **Configuration-driven**: All parameters are controlled via `confs.py`
-- **Individual state analysis**: Works with one state at a time (no data merging)
-- **Multiple testing corrections**: Bonferroni and FDR corrections
-- **Comprehensive output**: Results, visualizations, and detailed analysis
-- **Generalized approach**: Can be adapted to different states and research questions
+- **Configuration-driven**: All parameters controlled via `confs.py`
+- **Complete Analysis Pipeline**: 4-step automated analysis process
+- **Rich Visualizations**: Bar graphs, time series plots, and comparison charts
+- **Multiple Testing Corrections**: Bonferroni and FDR corrections
+- **Organized Output**: Structured folder hierarchy for easy navigation
+- **Batch Processing**: Analyze multiple datasets automatically
+- **Comprehensive Reports**: Detailed statistical summaries and CSV exports
+- **Generalized**: Works with any response variable (states, regions, countries, etc.)
+
+## System Architecture
+
+The system consists of 5 main Python scripts that work together:
+
+### Core Analysis Scripts
+1. **`granger_causality_pipeline.py`** - Main Granger causality analysis
+2. **`create_comprehensive_significant_terms_summary.py`** - Creates summary of significant terms
+3. **`time_series_analysis.py`** - Generates time series visualizations
+4. **`analyze_comprehensive_results.py`** - Creates comprehensive analysis with bar graphs
+5. **`analyze_multiple_data_files.py`** - Orchestrates complete pipeline for multiple files
+
+### Configuration & Documentation
+- **`confs.py`** - Central configuration file
+- **`requirements.txt`** - Python dependencies
+- **`README.md`** - This documentation
 
 ## Configuration (`confs.py`)
 
@@ -38,13 +44,14 @@ The system consists of:
 ```python
 data_dir = "data/"                    # Directory containing data files
 result_dir = "results/"               # Directory for output files
+file_name = "Example.csv"             # Data file to analyze
+response_var = "ExampleState"         # Response variable column name
 ```
 
 ### Analysis Configuration
 ```python
 max_terms = None                      # Max search terms to use (None = use all)
-response_var = 'ExampleState'         # Response variable to analyze
-max_lags_to_test = 5                 # Maximum number of lags to test
+max_lags_to_test = 5                 # Maximum number of lags to test (1 to max_lags_to_test)
 ```
 
 ### Statistical Thresholds
@@ -54,24 +61,41 @@ bonferroni_alpha = 0.05              # Alpha for Bonferroni correction
 fdr_alpha = 0.05                     # Alpha for FDR correction
 ```
 
-### File Patterns
+### Data Quality Filters
 ```python
-state_file_pattern = "*_2010_2020.csv"  # Pattern for state data files
-exclude_files = ["US_2010_2020.csv"]    # Files to exclude from analysis
+low_variance_threshold = 0.1          # Standard deviation threshold for filtering
+zero_ratio_threshold = 0.8            # Threshold for filtering columns with too many zeros
+```
+
+### Output Configuration
+```python
+# File naming prefixes
+results_prefix = "granger_significant_terms_data"
+visualization_prefix = "granger_pvalues_data"
+summary_prefix = "summary_data"
+time_series_prefix = "time_series_plots"
+granger_causality_prefix = "granger_causality_results"
+comprehensive_analysis_prefix = "comprehensive_analysis"
+
+# Visualization settings
+figure_dpi = 300
+figure_bbox_inches = 'tight'
 ```
 
 ## Data Structure Requirements
 
-### State Data Files
-Each state file should have the following structure:
+### Data File Format
+Each data file should have the following structure:
 - **Column 1**: `date` in YYYY-MM-DD format
 - **Column 2**: Response variable name (e.g., "ExampleState") - this is the target variable
-- **Columns 3+**: Search term columns with numerical values
+- **Columns 3+**: Predictor variable columns with numerical values
 
-Example: `ExampleState_2010_2020.csv`
+### Example Data File: `Example.csv`
 ```csv
 date,ExampleState,flu symptoms,the flu,rsv,flu how long,...
 2010-10-09,2.13477,0.0,0.0,0.0,0.0,...
+2010-10-16,2.23456,0.1,0.0,0.0,0.1,...
+2010-10-23,2.34567,0.2,0.1,0.0,0.2,...
 ...
 ```
 
@@ -84,130 +108,219 @@ pip install -r requirements.txt
 
 ### 2. Configure Analysis
 Edit `confs.py` to match your analysis requirements:
-- Set `response_var` to the response variable you want to analyze
+- Set `file_name` to your data file
+- Set `response_var` to your response variable column name
 - Adjust `max_lags_to_test` as needed
-- Modify file patterns if needed
+- Modify other parameters as required
 
 ### 3. Run Analysis
+
+#### Single File Analysis
 ```bash
-python granger_causality_generalized.py
+# Run complete 4-step pipeline for one file
+python granger_causality_pipeline.py
+python create_comprehensive_significant_terms_summary.py
+python time_series_analysis.py
+python analyze_comprehensive_results.py
 ```
 
-## Analysis Process
+#### Multiple Files Analysis
+```bash
+# Run complete pipeline for multiple files automatically
+python analyze_multiple_data_files.py
+```
 
-1. **Data Loading**: Loads data for the specified state
-2. **Data Diagnostics**: Identifies and filters problematic columns
-3. **Lag Creation**: Creates lagged variables for both state activity and search terms
-4. **Granger Causality Testing**: Tests if search terms collectively predict state activity
-5. **Individual Term Analysis**: Analyzes significance of individual terms
-6. **Multiple Testing Correction**: Applies Bonferroni and FDR corrections
-7. **Visualization**: Creates bar charts showing term significance
-8. **Results Export**: Saves comprehensive results to text files
+## Complete Analysis Pipeline
 
-## Output Files
+The system runs a comprehensive 4-step analysis:
 
-### Results Directory Structure
+### Step 1: Granger Causality Analysis (`granger_causality_pipeline.py`)
+- Loads and prepares data
+- Creates lagged variables
+- Performs Granger causality tests for multiple lags
+- Applies multiple testing corrections (Bonferroni, FDR)
+- Generates significance visualizations
+- Saves detailed results
+
+### Step 2: Summary Creation (`create_comprehensive_significant_terms_summary.py`)
+- Parses Granger causality results
+- Creates comprehensive summary of significant terms
+- Organizes results by significance type
+- Saves summary text file
+
+### Step 3: Time Series Analysis (`time_series_analysis.py`)
+- Generates time series plots for significant terms
+- Shows lagged predictor variables vs. current response variable
+- Creates dual-axis plots for easy comparison
+- Saves organized time series visualizations
+
+### Step 4: Comprehensive Results Analysis (`analyze_comprehensive_results.py`)
+- Creates 9 bar graphs (3 significance types × 3 metrics)
+- Generates comparison plots
+- Creates CSV summary tables
+- Provides comprehensive statistical analysis
+
+## Output Structure
+
+The system creates a well-organized folder structure:
+
 ```
 results/
-├── granger_significant_terms_data_ExampleState_lag1.txt
-├── granger_significant_terms_data_ExampleState_lag2.txt
-├── granger_significant_terms_data_ExampleState_lag3.txt
-├── granger_significant_terms_data_ExampleState_lag4.txt
-├── granger_significant_terms_data_ExampleState_lag5.txt
-├── granger_pvalues_data_ExampleState_lag1.png
-├── granger_pvalues_data_ExampleState_lag2.png
-├── granger_pvalues_data_ExampleState_lag3.png
-├── granger_pvalues_data_ExampleState_lag4.png
-└── granger_pvalues_data_ExampleState_lag5.png
+└── granger_causality_results/
+    └── {response_var}/
+        ├── granger_pvalues_data_{response_var}_lag{1-5}.png
+        ├── granger_significant_terms_data_{response_var}_lag{1-5}.txt
+        ├── summary_data_{response_var}.txt
+        ├── time_series_plots/
+        │   └── {term_name}/
+        │       └── {term_name}_{response_var}_analysis.png
+        └── comprehensive_analysis/
+            ├── bonferroni_count_bar_graph.png
+            ├── bonferroni_mean_pval_bar_graph.png
+            ├── bonferroni_median_pval_bar_graph.png
+            ├── fdr_count_bar_graph.png
+            ├── fdr_mean_pval_bar_graph.png
+            ├── fdr_median_pval_bar_graph.png
+            ├── uncorrected_count_bar_graph.png
+            ├── uncorrected_mean_pval_bar_graph.png
+            ├── uncorrected_median_pval_bar_graph.png
+            ├── significance_category_comparison.png
+            └── comprehensive_analysis_summary.csv
 ```
 
-### Result File Contents
-- Overall Granger causality test results
-- Individual term significance analysis
-- Multiple testing correction results
-- Model fit statistics
-- Detailed significance information
+## Output Files Explained
 
-### Visualization Features
+### Granger Causality Results
+- **Text files**: Detailed statistical results for each lag
+- **PNG files**: Bar charts showing term significance with color coding
+
+### Summary Files
+- **Summary text**: Comprehensive list of all significant terms organized by significance type
+
+### Time Series Plots
+- **Dual-axis plots**: Show lagged predictors vs. current response variable
+- **Organized by term**: Each significant term gets its own folder
+
+### Comprehensive Analysis
+- **9 Bar Graphs**: Count, mean p-value, and median p-value for each significance type
+- **Comparison Plot**: Overview of significant terms by category
+- **CSV Summary**: Detailed statistics table for further analysis
+
+## Visualization Features
+
+### Granger Causality Plots
 - Color-coded bars for different significance levels
 - Dynamic figure sizing based on number of terms
-- Clear legend and labels
-- High-resolution output
+- Clear legends and labels
+- High-resolution output (300 DPI)
+
+### Time Series Plots
+- Dual y-axis for easy comparison
+- Highlighted significant lags
+- Professional formatting
+- Organized by term for easy navigation
+
+### Comprehensive Analysis Charts
+- 9 different bar graphs for complete analysis
+- Statistical comparison plots
+- Publication-ready quality
+- Detailed value labels
 
 ## Example Results
 
-For ExampleState with max lag = 3:
+For a typical analysis with max lag = 3:
 - **Overall Granger causality**: F = 2.6456, p < 0.001 (highly significant)
 - **R² improvement**: 0.0340 (3.4% improvement in prediction)
 - **FDR-significant terms**: 3 terms including "symptoms of flu" and "how long does flu last"
+- **Bonferroni-significant terms**: 1 term with very strong evidence
+- **Uncorrected significant terms**: 15 terms (may include false positives)
 
 ## Customization
 
 ### Changing Response Variable
 1. Modify `response_var` in `confs.py`
-2. Ensure the corresponding data file exists in `data_dir`
-3. Run the script again
+2. Update `file_name` to point to your data file
+3. Ensure the response variable column exists in your data
+4. Run the analysis
 
-### Adding New Analysis Types
-1. Modify `confs.py` to add new configuration parameters
-2. Update the main script to use new parameters
-3. Adjust data loading and processing functions as needed
+### Batch Processing Multiple Files
+1. Update the file list in `analyze_multiple_data_files.py`
+2. Run the script to process all files automatically
+3. Each file gets its own organized output folder
 
-### Changing Statistical Methods
+### Adjusting Statistical Parameters
 1. Modify significance thresholds in `confs.py`
-2. Update correction methods in the analysis functions
-3. Adjust visualization parameters as needed
+2. Change `max_lags_to_test` for different lag analysis
+3. Adjust `max_terms` to limit the number of predictors
+4. Update data quality filters as needed
 
-## Interpretation
+## Statistical Methods
 
 ### Granger Causality Test
-- **F-statistic**: Tests if search terms collectively improve prediction
-- **p-value < α**: Suggests search terms collectively Granger-cause state activity
-- **R² improvement**: Shows how much prediction improves with search terms
+- **F-statistic**: Tests if predictors collectively improve prediction
+- **p-value < α**: Suggests predictors collectively Granger-cause response variable
+- **R² improvement**: Shows how much prediction improves with predictors
 
-### Individual Term Significance
+### Multiple Testing Corrections
 - **Uncorrected**: Raw p-values (may have false positives)
-- **Bonferroni**: Conservative correction for multiple testing
-- **FDR**: Less conservative correction controlling false discovery rate
-
-### Multiple Testing Correction
-- **Bonferroni**: Divides α by number of tests (very conservative)
+- **Bonferroni**: Conservative correction (divides α by number of tests)
 - **FDR (Benjamini-Hochberg)**: Controls proportion of false discoveries
+
+### Data Quality Assessment
+- **Constant columns**: Automatically filtered out
+- **Low variance columns**: Filtered based on standard deviation threshold
+- **Missing data**: Handled with appropriate warnings and diagnostics
 
 ## Troubleshooting
 
 ### Common Issues
-1. **Data file not found**: Check `response_var` and `file_name` in `confs.py` and ensure file exists
-2. **No complete cases**: Data may have too many missing values
-3. **Memory errors**: Reduce `max_terms` or `max_lags_to_test` in `confs.py`
+1. **Data file not found**: Check `file_name` in `confs.py` and ensure file exists
+2. **Response variable not found**: Verify `response_var` matches column name in data
+3. **No complete cases**: Data may have too many missing values
+4. **Memory errors**: Reduce `max_terms` or `max_lags_to_test` in `confs.py`
 
 ### Data Quality Issues
-1. **Constant columns**: Automatically filtered out
+1. **Constant columns**: Automatically filtered out with warning
 2. **Low variance columns**: Filtered based on `low_variance_threshold`
 3. **Missing data**: Handled automatically with appropriate warnings
+4. **Date parsing errors**: Ensure dates are in YYYY-MM-DD format
 
-## Performance Considerations
+### Performance Optimization
+1. **Large datasets**: Consider reducing `max_terms` or `max_lags_to_test`
+2. **Memory usage**: Monitor memory when processing many terms or lags
+3. **Computation time**: Higher lags and more terms increase analysis time
+4. **Batch processing**: Use `analyze_multiple_data_files.py` for efficiency
 
-- **Large datasets**: Consider reducing `max_terms` or `max_lags_to_test`
-- **Memory usage**: Monitor memory when processing many terms or lags
-- **Computation time**: Higher lags and more terms increase analysis time
+## Advanced Usage
 
-## Extending the System
+### Custom Analysis Workflows
+1. **Single lag analysis**: Set `max_lags_to_test = 1`
+2. **Extended lag analysis**: Increase `max_lags_to_test` for longer-term effects
+3. **Subset analysis**: Use `max_terms` to focus on specific predictors
+4. **Date filtering**: Modify time series analysis for specific time periods
 
-### Adding New Statistical Tests
-1. Create new functions in the main script
-2. Add configuration parameters to `confs.py`
-3. Integrate with existing analysis pipeline
+### Integration with Other Tools
+1. **R integration**: Export CSV files for further analysis in R
+2. **Tableau/Power BI**: Use CSV exports for dashboard creation
+3. **Publication**: High-resolution PNG files ready for papers
+4. **Reproducible research**: All parameters saved in configuration
 
-### Supporting New Data Sources
-1. Update data loading functions
-2. Modify file pattern matching
-3. Adjust data processing logic
+## Dependencies
 
-### Custom Visualizations
-1. Add new plotting functions
-2. Update configuration parameters
-3. Integrate with results saving system
+The system requires the following Python packages:
+- `numpy>=1.21.0` - Numerical computations
+- `pandas>=1.3.0` - Data manipulation
+- `statsmodels>=0.13.0` - Statistical modeling
+- `scipy>=1.7.0` - Scientific computing
+- `matplotlib>=3.5.0` - Visualization
+
+## Contributing
+
+To extend the system:
+1. **New statistical tests**: Add functions to existing scripts
+2. **New visualizations**: Create additional plotting functions
+3. **New data sources**: Update data loading functions
+4. **New output formats**: Add export capabilities
 
 ## Citation and References
 
@@ -217,6 +330,7 @@ This system implements:
 - Benjamini-Hochberg FDR correction
 - Comprehensive diagnostic analysis
 - Automated data quality assessment
+- Professional visualization and reporting
 
 ## Support
 
@@ -225,3 +339,8 @@ For issues or questions:
 2. Verify data file formats and structure
 3. Review error messages and warnings
 4. Check output directory permissions
+5. Ensure all dependencies are installed correctly
+
+---
+
+This system provides everything you need for comprehensive Granger causality analysis with professional-quality outputs.

@@ -21,7 +21,7 @@ figure_dpi = 300
 figure_bbox_inches = 'tight'
 
 # Data file to analyze
-file_name = "ExampleState_2010_2020.csv"  # Specify which data file to analyze
+file_name = "Example.csv"  # Specify which data file to analyze
 
 # Output file naming
 results_prefix = "granger_significant_terms_data"

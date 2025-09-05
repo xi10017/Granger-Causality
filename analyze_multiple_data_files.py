@@ -55,11 +55,11 @@ def analyze_data_file(data_file_name):
                                capture_output=True, text=True)
         
         if result1.returncode != 0:
-            print(f"❌ Granger causality analysis failed for {data_file_name}")
+            print(f"ERROR: Granger causality analysis failed for {data_file_name}")
             print(f"Error: {result1.stderr}")
             return False
         
-        print(f"✅ Granger causality analysis completed for {data_file_name}")
+        print(f"SUCCESS: Granger causality analysis completed for {data_file_name}")
         
         # Step 2: Create comprehensive significant terms summary
         print(f"Step 2: Creating comprehensive summary for {data_file_name}...")
@@ -67,11 +67,11 @@ def analyze_data_file(data_file_name):
                                capture_output=True, text=True)
         
         if result2.returncode != 0:
-            print(f"❌ Summary creation failed for {data_file_name}")
+            print(f"ERROR: Summary creation failed for {data_file_name}")
             print(f"Error: {result2.stderr}")
             return False
         
-        print(f"✅ Comprehensive summary created for {data_file_name}")
+        print(f"SUCCESS: Comprehensive summary created for {data_file_name}")
         
         # Step 3: Generate time series analysis plots
         print(f"Step 3: Generating time series plots for {data_file_name}...")
@@ -79,11 +79,11 @@ def analyze_data_file(data_file_name):
                                capture_output=True, text=True)
         
         if result3.returncode != 0:
-            print(f"❌ Time series analysis failed for {data_file_name}")
+            print(f"ERROR: Time series analysis failed for {data_file_name}")
             print(f"Error: {result3.stderr}")
             return False
         
-        print(f"✅ Time series analysis completed for {data_file_name}")
+        print(f"SUCCESS: Time series analysis completed for {data_file_name}")
         
         # Step 4: Generate comprehensive results analysis
         print(f"Step 4: Generating comprehensive results analysis for {data_file_name}...")
@@ -91,16 +91,16 @@ def analyze_data_file(data_file_name):
                                capture_output=True, text=True)
         
         if result4.returncode != 0:
-            print(f"❌ Comprehensive results analysis failed for {data_file_name}")
+            print(f"ERROR: Comprehensive results analysis failed for {data_file_name}")
             print(f"Error: {result4.stderr}")
             return False
         
-        print(f"✅ Comprehensive results analysis completed for {data_file_name}")
-        print(f"✅ Complete analysis pipeline finished for {data_file_name}")
+        print(f"SUCCESS: Comprehensive results analysis completed for {data_file_name}")
+        print(f"SUCCESS: Complete analysis pipeline finished for {data_file_name}")
         return True
             
     except Exception as e:
-        print(f"❌ Error running analysis for {data_file_name}: {e}")
+        print(f"ERROR: Error running analysis for {data_file_name}: {e}")
         return False
     
     finally:
