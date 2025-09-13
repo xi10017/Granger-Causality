@@ -206,13 +206,16 @@ def analyze_individual_terms(model_unrestricted, search_terms, max_lag, F, p_val
     
     # Extract individual term significance from the unrestricted model
     term_significance = []
+    term_significance_by_lag = {}  # New: store p-values by lag
     
     # Extract coefficients and p-values for search term lags
     for term in search_terms:
         term_lags = [f'{term}_lag{lag}' for lag in range(1, max_lag + 1)]
         term_pvals = []
+        term_pvals_by_lag = {}  # New: store p-values for each lag
         
-        for lag_col in term_lags:
+        for lag in range(1, max_lag + 1):
+            lag_col = f'{term}_lag{lag}'
             if lag_col in model_unrestricted.params.index:
                 # Get the coefficient and p-value for this lag
                 coef = model_unrestricted.params[lag_col]
@@ -227,11 +230,13 @@ def analyze_individual_terms(model_unrestricted, search_terms, max_lag, F, p_val
                         param_index = list(model_unrestricted.params.index).index(lag_col)
                         pval = model_unrestricted.pvalues[param_index]
                 term_pvals.append(pval)
+                term_pvals_by_lag[lag] = pval
         
         if term_pvals:
-            # Use the minimum p-value across all lags for this term
+            # Use the minimum p-value across all lags for this term (for overall significance)
             min_p = min(term_pvals)
             term_significance.append((term, min_p))
+            term_significance_by_lag[term] = term_pvals_by_lag
     
     # Sort by significance
     term_significance.sort(key=lambda x: x[1])
@@ -265,12 +270,12 @@ def analyze_individual_terms(model_unrestricted, search_terms, max_lag, F, p_val
     print(f"Significant terms (Bonferroni-corrected p < {bonferroni_threshold:.6f}): {len(significant_bonferroni)}")
     print(f"Significant terms (FDR-corrected): {len(fdr_significant_terms)}")
     
-    return term_significance, significant_uncorrected, significant_bonferroni, fdr_significant_terms, bonferroni_threshold
+    return term_significance, significant_uncorrected, significant_bonferroni, fdr_significant_terms, bonferroni_threshold, term_significance_by_lag
 
 def create_visualization(model_unrestricted, search_terms, max_lag, term_significance, 
                         significant_uncorrected, significant_bonferroni, fdr_significant_terms, 
-                        bonferroni_threshold, response_column):
-    """Create visualization of individual term significance"""
+                        bonferroni_threshold, response_column, term_significance_by_lag):
+    """Create visualization of individual term significance with separate subplots for each lag"""
     print(f"\n=== CREATING VISUALIZATION ===")
     
     # Check for valid p-values (not nan)
@@ -280,77 +285,149 @@ def create_visualization(model_unrestricted, search_terms, max_lag, term_signifi
         print("\nWARNING: All p-values are NaN. This indicates the multiple regression model failed to fit properly.")
         return
     
-    # Use only valid p-values for plotting
-    valid_terms_plot = [term for term, pval in valid_pvals]
-    granger_pvals_plot = [pval for term, pval in valid_pvals]
+    # Dynamic figure sizing based on number of terms and lags
+    num_terms = len(valid_pvals)
+    num_lags = max_lag
     
-    # Dynamic figure sizing based on number of terms
-    num_terms = len(valid_terms_plot)
+    # Calculate subplot layout - always vertical (stacked)
+    rows, cols = num_lags, 1
+    
+    # Adjust figure size based on number of subplots and terms
+    base_width = 16  # Much larger width for better label spacing
+    base_height = 8  # Much larger height for better label spacing
+    fig_width = base_width
+    fig_height = base_height * rows
+    
     if num_terms <= 20:
-        fig_width = 16
-        fig_height = 8
+        font_size = 10  # Increased for better readability
+        value_font_size = 8  # Increased for better readability
+    elif num_terms <= 50:
         font_size = 8
         value_font_size = 6
-    elif num_terms <= 50:
-        fig_width = 20
-        fig_height = 10
+    else:
         font_size = 6
         value_font_size = 5
+    
+    fig, axes = plt.subplots(rows, cols, figsize=(fig_width, fig_height))
+    if num_lags == 1:
+        axes = [axes]
     else:
-        fig_width = 24
-        fig_height = 12
-        font_size = 4
-        value_font_size = 4
+        axes = axes.flatten()
     
-    plt.figure(figsize=(fig_width, fig_height))
-    
-    # Create bars with colors for different significance levels
-    colors = []
-    for i, term in enumerate(valid_terms_plot):
-        pval = granger_pvals_plot[i]
-        if term in fdr_significant_terms:
-            colors.append('purple')  # FDR significant
-        elif pval < bonferroni_threshold:
-            colors.append('darkred')  # Bonferroni significant
-        elif pval < alpha_level:
-            colors.append('red')      # Uncorrected significant
-        else:
-            colors.append('orange')   # Not significant
-    
-    bars = plt.bar(valid_terms_plot, granger_pvals_plot, color=colors, alpha=0.7)
-    
-    plt.ylabel('Min p-value (across lags)', fontsize=12)
-    plt.title(f'Individual Term Significance for {response_column} - Max Lag = {max_lag}', fontsize=14, pad=20)
-    plt.axhline(alpha_level, color='red', linestyle='--', label=f'p={alpha_level} (uncorrected)', linewidth=2)
-    
-    # Add custom legend entries for bar colors
+    # Create legend elements (shared across all subplots)
     from matplotlib.patches import Patch
     legend_elements = [
-        Patch(facecolor='purple', alpha=0.7, label='FDR significant'),
         Patch(facecolor='darkred', alpha=0.7, label='Bonferroni significant'),
         Patch(facecolor='red', alpha=0.7, label='Uncorrected significant'),
-        Patch(facecolor='orange', alpha=0.7, label='Not significant')
+        Patch(facecolor='orange', alpha=0.7, label='Not significant'),
+        Patch(facecolor='lightgray', alpha=0.7, label='Missing/NaN values')
     ]
     
-    # Improve x-axis labels with better rotation and positioning
-    plt.xticks(rotation=45, fontsize=font_size, ha='right')
+    # Create subplot for each lag
+    for lag in range(1, max_lag + 1):
+        ax = axes[lag - 1]
+        
+        # Get p-values for this specific lag - include ALL terms, handle missing values
+        lag_pvals = []
+        lag_terms = []
+        is_missing = []  # Track which values are actually missing/NaN
+        
+        # Get all terms from the overall term_significance list to ensure consistency
+        all_terms = [term for term, pval in term_significance]
+        
+        for term in all_terms:
+            lag_terms.append(term)
+            if term in term_significance_by_lag and lag in term_significance_by_lag[term]:
+                pval = term_significance_by_lag[term][lag]
+                if not np.isnan(pval):
+                    lag_pvals.append(pval)
+                    is_missing.append(False)
+                else:
+                    lag_pvals.append(1.0)  # Use 1.0 for NaN values (not significant)
+                    is_missing.append(True)
+            else:
+                lag_pvals.append(1.0)  # Use 1.0 for missing values (not significant)
+                is_missing.append(True)
+        
+        # Sort terms by p-value (ascending - most significant first)
+        term_pval_missing_pairs = list(zip(lag_terms, lag_pvals, is_missing))
+        term_pval_missing_pairs.sort(key=lambda x: x[1])  # Sort by p-value
+        lag_terms, lag_pvals, is_missing = zip(*term_pval_missing_pairs)
+        lag_terms = list(lag_terms)
+        lag_pvals = list(lag_pvals)
+        is_missing = list(is_missing)
+        
+        if not lag_pvals:
+            ax.text(0.5, 0.5, f'No valid p-values for lag {lag}', 
+                   ha='center', va='center', transform=ax.transAxes)
+            ax.set_title(f'Lag {lag}', fontsize=12)
+            continue
+        
+        # Create bars with colors for different significance levels
+        # Note: For individual lag visualization, we color based on the p-value at this specific lag
+        colors = []
+        for i, term in enumerate(lag_terms):
+            pval = lag_pvals[i]
+            if is_missing[i]:  # Missing/NaN values
+                colors.append('lightgray')  # Gray for missing values
+            elif pval < bonferroni_threshold:
+                colors.append('darkred')  # Bonferroni significant
+            elif pval < alpha_level:
+                colors.append('red')      # Uncorrected significant
+            else:
+                colors.append('orange')   # Not significant
+        
+        bars = ax.bar(lag_terms, lag_pvals, color=colors, alpha=0.7)
+        
+        ax.set_ylabel('p-value', fontsize=10)
+        ax.set_title(f'Lag {lag}', fontsize=12)
+        ax.axhline(alpha_level, color='red', linestyle='--', label=f'p={alpha_level}', linewidth=1)
+        
+        # Improve x-axis labels with better rotation and positioning
+        ax.tick_params(axis='x', rotation=45, labelsize=font_size, pad=15)
+        # Set x-axis limits to add more space for labels
+        ax.set_xlim(-0.5, len(lag_terms) - 0.5)
+        
+        # Set custom x-axis labels with right alignment (last letter centered)
+        ax.set_xticklabels(lag_terms, rotation=45, ha='right', fontsize=font_size)
+        
+        # Add value labels directly on top of bars
+        for i, (bar, pval) in enumerate(zip(bars, lag_pvals)):
+            height = bar.get_height()
+            # Position text directly on top of the bar
+            if pval == 1.0:  # Missing/NaN values
+                label_text = 'N/A'
+            else:
+                label_text = f'{pval:.3f}'
+            
+            # Position directly at the top edge of the bar
+            ax.text(bar.get_x() + bar.get_width()/2., height,
+                    label_text, ha='center', va='bottom', fontsize=value_font_size, 
+                    rotation=0, bbox=dict(boxstyle="round,pad=0.2", facecolor="white", alpha=0.8))
+        
+        # Set y-axis limits to ensure visibility
+        if lag_pvals:
+            ax.set_ylim(0, max(lag_pvals) * 1.1)
+        
+        ax.grid(axis='y', alpha=0.3)
     
-    # Add value labels on bars with better positioning
-    for bar, pval in zip(bars, granger_pvals_plot):
-        height = bar.get_height()
-        # Position text above bar with small offset
-        plt.text(bar.get_x() + bar.get_width()/2., height + 0.005,
-                f'{pval:.3f}', ha='center', va='bottom', fontsize=value_font_size, rotation=90)
+    # Hide unused subplots
+    for i in range(num_lags, len(axes)):
+        axes[i].set_visible(False)
     
-    # Set y-axis limits to ensure visibility
-    if granger_pvals_plot:
-        plt.ylim(0, max(granger_pvals_plot) * 1.1)
+    # Add overall title
+    fig.suptitle(f'Individual Term Significance for {response_column} - Max Lag = {max_lag}', 
+                 fontsize=14, y=0.95)
     
-    plt.legend(handles=legend_elements, fontsize=12)
-    plt.grid(axis='y', alpha=0.3)
+    # Add legend (only once, in the top-right subplot)
+    if num_lags > 0:
+        axes[0].legend(handles=legend_elements, fontsize=10, loc='upper right', 
+                      bbox_to_anchor=(1.0, 1.0), frameon=True, fancybox=True, shadow=True)
     
-    # Better layout with more space
-    plt.tight_layout(pad=2.0)
+    # Better layout with much more space
+    plt.tight_layout(pad=5.0)
+    # Add much more space for rotated labels and p-value labels
+    plt.subplots_adjust(bottom=0.25, top=0.9, hspace=0.4)
     
     # Create results directory and granger causality subfolder
     granger_results_dir = os.path.join(result_dir, granger_causality_prefix, response_column)
@@ -366,7 +443,7 @@ def create_visualization(model_unrestricted, search_terms, max_lag, term_signifi
     # Print summary statistics
     significant_uncorrected_plot = [term for term, pval in valid_pvals if pval < alpha_level]
     significant_bonferroni_plot = [term for term, pval in valid_pvals if pval < bonferroni_threshold]
-    significant_fdr_plot = [term for term in valid_terms_plot if term in fdr_significant_terms]
+    significant_fdr_plot = [term for term, pval in valid_pvals if term in fdr_significant_terms]
     
     print(f"\nSummary:")
     print(f"Uncorrected (p < {alpha_level}): {len(significant_uncorrected_plot)} terms")
@@ -502,7 +579,7 @@ def main():
             continue
         
         # Perform individual term analysis
-        term_significance, significant_uncorrected, significant_bonferroni, fdr_significant_terms, bonferroni_threshold = analyze_individual_terms(
+        term_significance, significant_uncorrected, significant_bonferroni, fdr_significant_terms, bonferroni_threshold, term_significance_by_lag = analyze_individual_terms(
             model_unrestricted, search_terms_simple, max_lag, F, p_value, response_column
         )
         
@@ -510,7 +587,7 @@ def main():
         create_visualization(
             model_unrestricted, search_terms_simple, max_lag, term_significance,
             significant_uncorrected, significant_bonferroni, fdr_significant_terms,
-            bonferroni_threshold, response_column
+            bonferroni_threshold, response_column, term_significance_by_lag
         )
         
         # Save comprehensive results
