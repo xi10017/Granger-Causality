@@ -1,0 +1,10 @@
+Term,Lag,P_Value,Significance
+b flu,2,0.04396893367471393,Uncorrected
+bronchitis,1,0.015011964485496552,Uncorrected
+bronchitis,2,0.009717596717863925,Uncorrected
+contagious flu,2,0.022901605088744923,Uncorrected
+fever flu,2,0.00804647807472298,Uncorrected
+flu cold,1,0.0040971052370598,Uncorrected
+flu contagious,2,0.02290160508888954,Uncorrected
+flu type,1,0.010509571148051906,Uncorrected
+how long does the flu last,1,0.044344747486345766,Uncorrected

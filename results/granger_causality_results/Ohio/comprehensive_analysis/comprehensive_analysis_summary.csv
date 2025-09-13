@@ -1,9 +1,11 @@
 Term,Category,Count,Mean_Pvalue,Median_Pvalue,Min_Pvalue,Max_Pvalue
-influenza a,Bonferroni,5,5.2e-06,0.0,0.0,2.5e-05
 a influenza,Bonferroni,5,5.2e-06,0.0,0.0,2.5e-05
+influenza a,Bonferroni,5,5.2e-06,0.0,0.0,2.5e-05
 contagious flu,Bonferroni,4,0.001185,0.0011090000000000002,0.001063,0.001459
 the flu symptoms,Bonferroni,2,0.0009174999999999999,0.0009174999999999999,0.000537,0.001298
 flu symptoms,Bonferroni,1,0.000821,0.000821,0.000821,0.000821
+a influenza,FDR,3,0.004872666666666667,0.004445,0.002622,0.007551
+influenza a,FDR,3,0.004872666666666667,0.004445,0.002622,0.007551
 the flu symptoms,FDR,3,0.004785,0.005062,0.002637,0.006656
 flu symptoms,FDR,3,0.007963,0.004761,0.004358,0.01477
 how long does flu last,FDR,2,0.0034655000000000003,0.0034655000000000003,0.002831,0.0041

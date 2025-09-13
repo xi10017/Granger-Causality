@@ -1,90 +1,110 @@
 === GRANGER CAUSALITY SIGNIFICANT TERMS SUMMARY ===
 Data file analyzed: Oklahoma_2010_2020.csv
 Response variable: Oklahoma
-Total significant term combinations: 50
+Total significant term combinations: 70
 Unique terms: 16
 Response variables analyzed: Oklahoma
-Max lags tested: 3, 2, 5, 4, 1
+Max lags tested: 3, 5, 4, 2, 1
 
 type a flu significant combinations:
-  Oklahoma_lag1: p=0.003155 (FDR)
-  Oklahoma_lag2: p=0.005206 (FDR)
-  Oklahoma_lag3: p=0.000889 (Bonferroni)
-  Oklahoma_lag4: p=0.000207 (Bonferroni)
-  Oklahoma_lag5: p=0.000130 (Bonferroni)
+  Oklahoma_maxlag1_lag1: p=0.003155 (FDR)
+  Oklahoma_maxlag2_lag1: p=0.005206 (FDR)
+  Oklahoma_maxlag2_lag2: p=0.017213 (FDR)
+  Oklahoma_maxlag3_lag1: p=0.000889 (Bonferroni)
+  Oklahoma_maxlag3_lag2: p=0.017150 (FDR)
+  Oklahoma_maxlag3_lag3: p=0.008659 (FDR)
+  Oklahoma_maxlag4_lag1: p=0.000207 (Bonferroni)
+  Oklahoma_maxlag4_lag2: p=0.006023 (FDR)
+  Oklahoma_maxlag4_lag3: p=0.030905 (FDR)
+  Oklahoma_maxlag5_lag1: p=0.000130 (Bonferroni)
+  Oklahoma_maxlag5_lag2: p=0.016730 (FDR)
+  Oklahoma_maxlag5_lag3: p=0.005726 (FDR)
 
 flu type a significant combinations:
-  Oklahoma_lag1: p=0.003155 (FDR)
-  Oklahoma_lag2: p=0.005206 (FDR)
-  Oklahoma_lag3: p=0.000889 (Bonferroni)
-  Oklahoma_lag4: p=0.000207 (Bonferroni)
-  Oklahoma_lag5: p=0.000130 (Bonferroni)
+  Oklahoma_maxlag1_lag1: p=0.003155 (FDR)
+  Oklahoma_maxlag2_lag1: p=0.005206 (FDR)
+  Oklahoma_maxlag2_lag2: p=0.017213 (FDR)
+  Oklahoma_maxlag3_lag1: p=0.000889 (Bonferroni)
+  Oklahoma_maxlag3_lag2: p=0.017150 (FDR)
+  Oklahoma_maxlag3_lag3: p=0.008659 (FDR)
+  Oklahoma_maxlag4_lag1: p=0.000207 (Bonferroni)
+  Oklahoma_maxlag4_lag2: p=0.006023 (FDR)
+  Oklahoma_maxlag4_lag3: p=0.030905 (FDR)
+  Oklahoma_maxlag5_lag1: p=0.000130 (Bonferroni)
+  Oklahoma_maxlag5_lag2: p=0.016730 (FDR)
+  Oklahoma_maxlag5_lag3: p=0.005726 (FDR)
 
 rsv significant combinations:
-  Oklahoma_lag1: p=0.000170 (Bonferroni)
+  Oklahoma_maxlag1_lag1: p=0.000170 (Bonferroni)
 
 the flu significant combinations:
-  Oklahoma_lag2: p=0.000555 (Bonferroni)
-  Oklahoma_lag3: p=0.007502 (FDR)
-  Oklahoma_lag4: p=0.008476 (FDR)
-  Oklahoma_lag5: p=0.001397 (Bonferroni)
+  Oklahoma_maxlag2_lag2: p=0.000555 (Bonferroni)
+  Oklahoma_maxlag3_lag2: p=0.007502 (FDR)
+  Oklahoma_maxlag4_lag2: p=0.010575 (FDR)
+  Oklahoma_maxlag4_lag4: p=0.008476 (FDR)
+  Oklahoma_maxlag5_lag2: p=0.008419 (FDR)
+  Oklahoma_maxlag5_lag4: p=0.001397 (Bonferroni)
 
 how long flu significant combinations:
-  Oklahoma_lag2: p=0.010868 (FDR)
-  Oklahoma_lag3: p=0.009635 (FDR)
-  Oklahoma_lag4: p=0.000818 (Bonferroni)
-  Oklahoma_lag5: p=0.001357 (Bonferroni)
+  Oklahoma_maxlag2_lag2: p=0.010868 (FDR)
+  Oklahoma_maxlag3_lag2: p=0.009635 (FDR)
+  Oklahoma_maxlag4_lag2: p=0.000818 (Bonferroni)
+  Oklahoma_maxlag4_lag4: p=0.034519 (FDR)
+  Oklahoma_maxlag5_lag2: p=0.001357 (Bonferroni)
+  Oklahoma_maxlag5_lag3: p=0.027610 (FDR)
+  Oklahoma_maxlag5_lag4: p=0.046443 (FDR)
 
 flu contagious significant combinations:
-  Oklahoma_lag2: p=0.044154 (Uncorrected)
-  Oklahoma_lag3: p=0.018061 (Uncorrected)
-  Oklahoma_lag4: p=0.002528 (FDR)
-  Oklahoma_lag5: p=0.007354 (FDR)
+  Oklahoma_maxlag2_lag1: p=0.044154 (Uncorrected)
+  Oklahoma_maxlag3_lag1: p=0.018061 (Uncorrected)
+  Oklahoma_maxlag4_lag1: p=0.002528 (FDR)
+  Oklahoma_maxlag5_lag1: p=0.007354 (FDR)
 
 flu symptoms significant combinations:
-  Oklahoma_lag1: p=0.004311 (FDR)
-  Oklahoma_lag2: p=0.004402 (FDR)
-  Oklahoma_lag3: p=0.010295 (FDR)
-  Oklahoma_lag4: p=0.044263 (Uncorrected)
+  Oklahoma_maxlag1_lag1: p=0.004311 (FDR)
+  Oklahoma_maxlag2_lag1: p=0.004402 (FDR)
+  Oklahoma_maxlag3_lag1: p=0.010295 (FDR)
+  Oklahoma_maxlag4_lag1: p=0.044263 (Uncorrected)
 
 flu a significant combinations:
-  Oklahoma_lag2: p=0.007475 (FDR)
-  Oklahoma_lag3: p=0.012699 (FDR)
-  Oklahoma_lag4: p=0.017566 (Uncorrected)
-  Oklahoma_lag5: p=0.038968 (Uncorrected)
+  Oklahoma_maxlag2_lag2: p=0.007475 (FDR)
+  Oklahoma_maxlag3_lag2: p=0.012699 (FDR)
+  Oklahoma_maxlag4_lag2: p=0.017566 (Uncorrected)
+  Oklahoma_maxlag5_lag2: p=0.038968 (Uncorrected)
 
 contagious flu significant combinations:
-  Oklahoma_lag1: p=0.008977 (FDR)
+  Oklahoma_maxlag1_lag1: p=0.008977 (FDR)
 
 pneumonia significant combinations:
-  Oklahoma_lag1: p=0.008996 (FDR)
-  Oklahoma_lag2: p=0.016062 (FDR)
-  Oklahoma_lag3: p=0.038294 (Uncorrected)
-  Oklahoma_lag4: p=0.030010 (Uncorrected)
+  Oklahoma_maxlag1_lag1: p=0.008996 (FDR)
+  Oklahoma_maxlag2_lag1: p=0.016062 (FDR)
+  Oklahoma_maxlag3_lag1: p=0.038294 (Uncorrected)
+  Oklahoma_maxlag4_lag1: p=0.030010 (Uncorrected)
 
 how long contagious significant combinations:
-  Oklahoma_lag1: p=0.022702 (Uncorrected)
-  Oklahoma_lag2: p=0.025186 (Uncorrected)
-  Oklahoma_lag3: p=0.035411 (Uncorrected)
-  Oklahoma_lag4: p=0.047948 (Uncorrected)
-  Oklahoma_lag5: p=0.015318 (Uncorrected)
+  Oklahoma_maxlag1_lag1: p=0.022702 (Uncorrected)
+  Oklahoma_maxlag2_lag1: p=0.025186 (Uncorrected)
+  Oklahoma_maxlag3_lag1: p=0.035411 (Uncorrected)
+  Oklahoma_maxlag4_lag1: p=0.047948 (Uncorrected)
+  Oklahoma_maxlag5_lag1: p=0.015318 (Uncorrected)
 
 the flu symptoms significant combinations:
-  Oklahoma_lag3: p=0.046486 (Uncorrected)
-  Oklahoma_lag4: p=0.032345 (Uncorrected)
-  Oklahoma_lag5: p=0.019995 (Uncorrected)
+  Oklahoma_maxlag3_lag3: p=0.046486 (Uncorrected)
+  Oklahoma_maxlag4_lag3: p=0.032345 (Uncorrected)
+  Oklahoma_maxlag5_lag3: p=0.019995 (Uncorrected)
 
 stomach flu significant combinations:
-  Oklahoma_lag3: p=0.028102 (Uncorrected)
-  Oklahoma_lag4: p=0.045697 (Uncorrected)
-  Oklahoma_lag5: p=0.027452 (Uncorrected)
+  Oklahoma_maxlag3_lag3: p=0.028102 (Uncorrected)
+  Oklahoma_maxlag4_lag3: p=0.045697 (Uncorrected)
+  Oklahoma_maxlag5_lag3: p=0.027452 (Uncorrected)
 
 symptoms of flu significant combinations:
-  Oklahoma_lag1: p=0.030113 (Uncorrected)
+  Oklahoma_maxlag1_lag1: p=0.030113 (Uncorrected)
 
 flu how long significant combinations:
-  Oklahoma_lag5: p=0.032323 (Uncorrected)
+  Oklahoma_maxlag5_lag3: p=0.032469 (Uncorrected)
+  Oklahoma_maxlag5_lag4: p=0.032323 (Uncorrected)
 
 fever flu significant combinations:
-  Oklahoma_lag4: p=0.035268 (Uncorrected)
+  Oklahoma_maxlag4_lag4: p=0.035268 (Uncorrected)
 

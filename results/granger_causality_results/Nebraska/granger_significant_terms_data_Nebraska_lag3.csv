@@ -1,0 +1,12 @@
+Term,Lag,P_Value,Significance
+a influenza,3,0.006637419976641173,FDR
+contagious flu,2,0.004125945691144739,FDR
+flu contagious,2,0.004125945689805046,FDR
+flu how long,3,0.006964509452879595,FDR
+how long flu,3,0.006964509457726582,FDR
+influenza a,1,0.0008548385832704467,Bonferroni
+influenza a symptoms,2,0.04211258866103112,Uncorrected
+influenza b,1,0.04139035221700804,Uncorrected
+stomach flu,1,0.02643919465187464,FDR
+stomach flu,3,0.004808186533240896,FDR
+the flu,2,0.01739619717373447,FDR

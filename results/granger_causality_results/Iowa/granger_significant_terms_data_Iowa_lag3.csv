@@ -1,0 +1,8 @@
+Term,Lag,P_Value,Significance
+influenza a,1,0.010666984569864885,Uncorrected
+influenza a,2,0.016352145887067522,Uncorrected
+influenza b,2,0.012716526474335807,Uncorrected
+influenza symptoms,2,0.031216638034975944,Uncorrected
+influenza symptoms,3,0.006651774485552144,Uncorrected
+rsv,1,0.016598798229110277,Uncorrected
+symptoms of influenza,1,0.04087099726611252,Uncorrected

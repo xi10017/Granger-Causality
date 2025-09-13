@@ -1,0 +1,12 @@
+Term,Lag,P_Value,Significance
+contagious flu,1,0.004538180980050913,FDR
+contagious flu,2,0.005750168750647403,FDR
+flu contagious,2,0.04689952491730226,Uncorrected
+flu how long,2,0.00020105016923479036,Bonferroni
+flu symptoms,1,0.0380824526131791,Uncorrected
+flu symptoms,2,0.044602488842398154,Uncorrected
+flu virus,1,0.018893426400202556,Uncorrected
+how long flu,2,0.029325987187785934,Uncorrected
+symptoms of flu,1,0.001278727568966978,Bonferroni
+symptoms of flu,2,0.017111493411816895,FDR
+the flu symptoms,1,0.003489102072091655,FDR

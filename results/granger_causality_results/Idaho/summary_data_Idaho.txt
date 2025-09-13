@@ -4,53 +4,53 @@ Response variable: Idaho
 Total significant term combinations: 28
 Unique terms: 10
 Response variables analyzed: Idaho
-Max lags tested: 5, 3, 4, 2, 1
+Max lags tested: 1, 3, 4, 2, 5
 
 stomach flu significant combinations:
-  Idaho_lag1: p=0.004161 (Uncorrected)
-  Idaho_lag2: p=0.009221 (Uncorrected)
-  Idaho_lag3: p=0.003797 (Uncorrected)
-  Idaho_lag4: p=0.000391 (Bonferroni)
-  Idaho_lag5: p=0.000489 (Bonferroni)
-
-flu how long significant combinations:
-  Idaho_lag4: p=0.001036 (Bonferroni)
-  Idaho_lag5: p=0.000684 (Bonferroni)
+  Idaho_maxlag1_lag1: p=0.004161 (Uncorrected)
+  Idaho_maxlag2_lag1: p=0.009221 (Uncorrected)
+  Idaho_maxlag3_lag1: p=0.003797 (Uncorrected)
+  Idaho_maxlag4_lag1: p=0.000391 (Bonferroni)
+  Idaho_maxlag5_lag1: p=0.000489 (Bonferroni)
 
 how long flu significant combinations:
-  Idaho_lag4: p=0.001036 (Bonferroni)
-  Idaho_lag5: p=0.000684 (Bonferroni)
+  Idaho_maxlag4_lag4: p=0.001036 (Bonferroni)
+  Idaho_maxlag5_lag4: p=0.000684 (Bonferroni)
+
+flu how long significant combinations:
+  Idaho_maxlag4_lag4: p=0.001036 (Bonferroni)
+  Idaho_maxlag5_lag4: p=0.000684 (Bonferroni)
 
 flu a significant combinations:
-  Idaho_lag3: p=0.028103 (Uncorrected)
-  Idaho_lag4: p=0.009772 (FDR)
-  Idaho_lag5: p=0.005217 (FDR)
-
-a influenza significant combinations:
-  Idaho_lag2: p=0.017172 (Uncorrected)
-  Idaho_lag3: p=0.036936 (Uncorrected)
-  Idaho_lag4: p=0.034053 (Uncorrected)
-  Idaho_lag5: p=0.040158 (Uncorrected)
+  Idaho_maxlag3_lag3: p=0.028103 (Uncorrected)
+  Idaho_maxlag4_lag3: p=0.009772 (FDR)
+  Idaho_maxlag5_lag3: p=0.005217 (FDR)
 
 influenza a significant combinations:
-  Idaho_lag2: p=0.017172 (Uncorrected)
-  Idaho_lag3: p=0.036936 (Uncorrected)
-  Idaho_lag4: p=0.034053 (Uncorrected)
-  Idaho_lag5: p=0.040158 (Uncorrected)
+  Idaho_maxlag2_lag2: p=0.017172 (Uncorrected)
+  Idaho_maxlag3_lag2: p=0.036936 (Uncorrected)
+  Idaho_maxlag4_lag2: p=0.034053 (Uncorrected)
+  Idaho_maxlag5_lag2: p=0.040158 (Uncorrected)
+
+a influenza significant combinations:
+  Idaho_maxlag2_lag2: p=0.017172 (Uncorrected)
+  Idaho_maxlag3_lag2: p=0.036936 (Uncorrected)
+  Idaho_maxlag4_lag2: p=0.034053 (Uncorrected)
+  Idaho_maxlag5_lag2: p=0.040158 (Uncorrected)
 
 how long does flu last significant combinations:
-  Idaho_lag1: p=0.017613 (Uncorrected)
-  Idaho_lag2: p=0.023639 (Uncorrected)
-  Idaho_lag5: p=0.020930 (Uncorrected)
+  Idaho_maxlag1_lag1: p=0.017613 (Uncorrected)
+  Idaho_maxlag2_lag1: p=0.023639 (Uncorrected)
+  Idaho_maxlag5_lag5: p=0.020930 (Uncorrected)
 
 flu cold significant combinations:
-  Idaho_lag4: p=0.017960 (Uncorrected)
-  Idaho_lag5: p=0.021067 (Uncorrected)
+  Idaho_maxlag4_lag4: p=0.017960 (Uncorrected)
+  Idaho_maxlag5_lag4: p=0.021067 (Uncorrected)
 
 the flu significant combinations:
-  Idaho_lag4: p=0.020152 (Uncorrected)
-  Idaho_lag5: p=0.024381 (Uncorrected)
+  Idaho_maxlag4_lag2: p=0.020152 (Uncorrected)
+  Idaho_maxlag5_lag2: p=0.024381 (Uncorrected)
 
 flu symptoms significant combinations:
-  Idaho_lag3: p=0.042316 (Uncorrected)
+  Idaho_maxlag3_lag3: p=0.042316 (Uncorrected)
 

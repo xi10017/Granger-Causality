@@ -38,10 +38,11 @@ def parse_response_var_summary_file(filepath):
         if ' significant combinations:' in line:
             current_term = line.split(' significant combinations:')[0].strip()
         elif line and current_term and original_line.startswith('  ') and ':' in line and 'p=' in line:
-            # Parse: "  ExampleState_lag2: p=0.004558 (FDR)"
+            # Parse: "  ExampleState_maxlag2_lag1: p=0.004558 (FDR)" (new format)
+            # or: "  ExampleState_lag2: p=0.004558 (FDR)" (old format)
             try:
-                # Extract lag and p-value
-                lag_match = re.search(r'_lag(\d+)', line)
+                # Extract lag and p-value - handle both new and old formats
+                lag_match = re.search(r'_lag(\d+)', line)  # This will match both formats
                 pval_match = re.search(r'p=([\d.]+)', line)
                 sig_match = re.search(r'\(([^)]+)\)', line)
                 

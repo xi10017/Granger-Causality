@@ -1,0 +1,14 @@
+Term,Lag,P_Value,Significance
+a influenza,1,0.00380495748650809,FDR
+a influenza,3,0.02296812580790503,FDR
+a influenza,5,0.015415987432183,FDR
+bronchitis,2,0.0013040770557036553,Bonferroni
+flu a,1,0.03171308242358906,Uncorrected
+flu a,2,0.046424980781511686,Uncorrected
+flu symptoms,1,0.011353765243917166,FDR
+flu symptoms,4,0.018573053789606046,FDR
+influenza a,5,0.016188507031359975,Uncorrected
+pneumonia,3,0.025647233845770688,Uncorrected
+stomach flu,1,0.010853674615151689,FDR
+the flu,1,0.022886662802251028,Uncorrected
+the flu symptoms,3,0.001766051750856989,Bonferroni

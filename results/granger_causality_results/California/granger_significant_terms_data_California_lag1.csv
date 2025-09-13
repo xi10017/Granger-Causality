@@ -1,0 +1,5 @@
+Term,Lag,P_Value,Significance
+robitussin,1,0.011833735164218415,Uncorrected
+rsv,1,0.000207444257196798,Bonferroni
+sinus,1,0.022621667938762895,Uncorrected
+symptoms of pneumonia,1,0.024723278595810763,Uncorrected

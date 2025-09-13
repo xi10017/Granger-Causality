@@ -2,7 +2,7 @@ Term,Category,Count,Mean_Pvalue,Median_Pvalue,Min_Pvalue,Max_Pvalue
 cold,Bonferroni,5,1.6000000000000003e-05,9e-06,0.0,4.5e-05
 flu how long,Bonferroni,1,0.002057,0.002057,0.002057,0.002057
 flu how long,FDR,1,0.00316,0.00316,0.00316,0.00316
-the flu,Uncorrected,3,0.019517999999999997,0.019757,0.01132,0.027477
+the flu,Uncorrected,4,0.024952,0.023617,0.01132,0.041254
 flu symptoms,Uncorrected,3,0.01804333333333333,0.013911,0.013253,0.026966
 contagious flu,Uncorrected,3,0.019591,0.019695,0.016328,0.02275
 flu cold,Uncorrected,3,0.036534000000000004,0.036859,0.023814,0.048929

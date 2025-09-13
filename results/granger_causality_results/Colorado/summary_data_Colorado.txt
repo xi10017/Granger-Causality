@@ -1,58 +1,66 @@
 === GRANGER CAUSALITY SIGNIFICANT TERMS SUMMARY ===
 Data file analyzed: Colorado_2010_2020.csv
 Response variable: Colorado
-Total significant term combinations: 30
+Total significant term combinations: 38
 Unique terms: 10
 Response variables analyzed: Colorado
-Max lags tested: 5, 4, 2, 3, 1
+Max lags tested: 1, 2, 4, 3, 5
 
 a influenza significant combinations:
-  Colorado_lag1: p=0.002185 (Bonferroni)
-  Colorado_lag2: p=0.001984 (Bonferroni)
-  Colorado_lag3: p=0.000068 (Bonferroni)
-  Colorado_lag4: p=0.000079 (Bonferroni)
-  Colorado_lag5: p=0.000150 (Bonferroni)
+  Colorado_maxlag1_lag1: p=0.002185 (Bonferroni)
+  Colorado_maxlag2_lag1: p=0.001984 (Bonferroni)
+  Colorado_maxlag3_lag1: p=0.000068 (Bonferroni)
+  Colorado_maxlag3_lag3: p=0.000422 (Bonferroni)
+  Colorado_maxlag4_lag1: p=0.000079 (Bonferroni)
+  Colorado_maxlag4_lag3: p=0.002172 (Bonferroni)
+  Colorado_maxlag5_lag1: p=0.000150 (Bonferroni)
+  Colorado_maxlag5_lag3: p=0.000750 (Bonferroni)
 
 influenza a significant combinations:
-  Colorado_lag1: p=0.002185 (Bonferroni)
-  Colorado_lag2: p=0.001984 (Bonferroni)
-  Colorado_lag3: p=0.000068 (Bonferroni)
-  Colorado_lag4: p=0.000079 (Bonferroni)
-  Colorado_lag5: p=0.000150 (Bonferroni)
+  Colorado_maxlag1_lag1: p=0.002185 (Bonferroni)
+  Colorado_maxlag2_lag1: p=0.001984 (Bonferroni)
+  Colorado_maxlag3_lag1: p=0.000068 (Bonferroni)
+  Colorado_maxlag3_lag3: p=0.000422 (Bonferroni)
+  Colorado_maxlag4_lag1: p=0.000079 (Bonferroni)
+  Colorado_maxlag4_lag3: p=0.002172 (Bonferroni)
+  Colorado_maxlag5_lag1: p=0.000150 (Bonferroni)
+  Colorado_maxlag5_lag3: p=0.000750 (Bonferroni)
 
 the flu significant combinations:
-  Colorado_lag1: p=0.016777 (FDR)
-  Colorado_lag2: p=0.001403 (Bonferroni)
-  Colorado_lag3: p=0.003304 (FDR)
-  Colorado_lag4: p=0.007853 (FDR)
-  Colorado_lag5: p=0.007675 (FDR)
+  Colorado_maxlag1_lag1: p=0.016777 (FDR)
+  Colorado_maxlag2_lag2: p=0.001403 (Bonferroni)
+  Colorado_maxlag3_lag1: p=0.035929 (FDR)
+  Colorado_maxlag3_lag2: p=0.003304 (FDR)
+  Colorado_maxlag4_lag1: p=0.049154 (FDR)
+  Colorado_maxlag4_lag2: p=0.007853 (FDR)
+  Colorado_maxlag5_lag2: p=0.007675 (FDR)
 
 how long flu significant combinations:
-  Colorado_lag2: p=0.006028 (FDR)
-  Colorado_lag3: p=0.008552 (FDR)
-  Colorado_lag4: p=0.007541 (FDR)
-  Colorado_lag5: p=0.004305 (FDR)
+  Colorado_maxlag2_lag1: p=0.006028 (FDR)
+  Colorado_maxlag3_lag1: p=0.008552 (FDR)
+  Colorado_maxlag4_lag1: p=0.007541 (FDR)
+  Colorado_maxlag5_lag1: p=0.004305 (FDR)
 
 flu a significant combinations:
-  Colorado_lag1: p=0.006124 (FDR)
-  Colorado_lag5: p=0.011291 (FDR)
+  Colorado_maxlag1_lag1: p=0.006124 (FDR)
+  Colorado_maxlag5_lag5: p=0.011291 (FDR)
 
 the flu symptoms significant combinations:
-  Colorado_lag1: p=0.006729 (FDR)
-  Colorado_lag2: p=0.024320 (Uncorrected)
-  Colorado_lag3: p=0.026690 (Uncorrected)
-  Colorado_lag5: p=0.044493 (Uncorrected)
+  Colorado_maxlag1_lag1: p=0.006729 (FDR)
+  Colorado_maxlag2_lag1: p=0.024320 (Uncorrected)
+  Colorado_maxlag3_lag1: p=0.026690 (Uncorrected)
+  Colorado_maxlag5_lag4: p=0.044493 (Uncorrected)
 
 pneumonia significant combinations:
-  Colorado_lag1: p=0.007248 (FDR)
+  Colorado_maxlag1_lag1: p=0.007248 (FDR)
 
 cold significant combinations:
-  Colorado_lag1: p=0.012262 (FDR)
-  Colorado_lag2: p=0.021022 (Uncorrected)
+  Colorado_maxlag1_lag1: p=0.012262 (FDR)
+  Colorado_maxlag2_lag2: p=0.021022 (Uncorrected)
 
 flu cold significant combinations:
-  Colorado_lag3: p=0.019308 (Uncorrected)
+  Colorado_maxlag3_lag3: p=0.019308 (Uncorrected)
 
 contagious flu significant combinations:
-  Colorado_lag4: p=0.042176 (Uncorrected)
+  Colorado_maxlag4_lag4: p=0.042176 (Uncorrected)
 

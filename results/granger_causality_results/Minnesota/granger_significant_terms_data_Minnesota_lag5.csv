@@ -1,0 +1,15 @@
+Term,Lag,P_Value,Significance
+a influenza,1,0.0003187497781104733,Bonferroni
+a influenza,3,0.0005881682656156367,Bonferroni
+how long contagious,2,0.028932454770608684,Uncorrected
+how long contagious,5,0.02855569261021477,Uncorrected
+influenza a,1,0.0003187497781614864,Bonferroni
+influenza a,3,0.0005881682664946173,Bonferroni
+influenza a symptoms,1,0.010477903179930392,FDR
+influenza b,1,2.182137559583711e-08,Bonferroni
+influenza b,2,4.1470058373443526e-09,Bonferroni
+influenza contagious,1,0.014675014229768562,FDR
+influenza contagious,2,0.0003924268739203969,Bonferroni
+influenza symptoms,2,0.0005631279159159409,Bonferroni
+rsv,1,0.029337866480925342,Uncorrected
+symptoms of influenza,1,0.01259289513709508,FDR

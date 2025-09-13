@@ -1,0 +1,13 @@
+Term,Lag,P_Value,Significance
+bronchitis,5,0.025428887505723842,Uncorrected
+flu incubation,5,0.00163756591459814,Bonferroni
+flu symptoms,5,0.0320306984225316,Uncorrected
+is flu contagious,1,0.02160604414839901,FDR
+is flu contagious,2,0.0004116815799883093,Bonferroni
+is flu contagious,3,0.013319558966991382,FDR
+rsv,1,0.01676087397021566,Uncorrected
+rsv,3,0.011683297628188623,Uncorrected
+rsv,5,0.04233554690839786,Uncorrected
+sinus,4,0.0011365463180623666,Bonferroni
+the flu,3,0.023643986304512397,Uncorrected
+the flu,5,0.037978782519069165,Uncorrected

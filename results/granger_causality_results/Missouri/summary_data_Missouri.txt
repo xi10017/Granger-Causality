@@ -1,86 +1,102 @@
 === GRANGER CAUSALITY SIGNIFICANT TERMS SUMMARY ===
 Data file analyzed: Missouri_2010_2020.csv
 Response variable: Missouri
-Total significant term combinations: 50
+Total significant term combinations: 66
 Unique terms: 14
 Response variables analyzed: Missouri
-Max lags tested: 2, 5, 3, 4, 1
+Max lags tested: 1, 2, 3, 5, 4
 
 a influenza significant combinations:
-  Missouri_lag1: p=0.000006 (Bonferroni)
-  Missouri_lag2: p=0.000000 (Bonferroni)
-  Missouri_lag3: p=0.000000 (Bonferroni)
-  Missouri_lag4: p=0.000001 (Bonferroni)
-  Missouri_lag5: p=0.000001 (Bonferroni)
+  Missouri_maxlag1_lag1: p=0.000006 (Bonferroni)
+  Missouri_maxlag2_lag1: p=0.000000 (Bonferroni)
+  Missouri_maxlag2_lag2: p=0.004355 (FDR)
+  Missouri_maxlag3_lag1: p=0.000000 (Bonferroni)
+  Missouri_maxlag4_lag1: p=0.000001 (Bonferroni)
+  Missouri_maxlag5_lag1: p=0.000001 (Bonferroni)
+  Missouri_maxlag5_lag5: p=0.007405 (FDR)
 
 influenza a significant combinations:
-  Missouri_lag1: p=0.000006 (Bonferroni)
-  Missouri_lag2: p=0.000000 (Bonferroni)
-  Missouri_lag3: p=0.000000 (Bonferroni)
-  Missouri_lag4: p=0.000001 (Bonferroni)
-  Missouri_lag5: p=0.000001 (Bonferroni)
+  Missouri_maxlag1_lag1: p=0.000006 (Bonferroni)
+  Missouri_maxlag2_lag1: p=0.000000 (Bonferroni)
+  Missouri_maxlag2_lag2: p=0.004355 (FDR)
+  Missouri_maxlag3_lag1: p=0.000000 (Bonferroni)
+  Missouri_maxlag4_lag1: p=0.000001 (Bonferroni)
+  Missouri_maxlag5_lag1: p=0.000001 (Bonferroni)
+  Missouri_maxlag5_lag5: p=0.007405 (FDR)
 
 the flu significant combinations:
-  Missouri_lag1: p=0.000407 (Bonferroni)
-  Missouri_lag2: p=0.044856 (Uncorrected)
-  Missouri_lag3: p=0.015962 (FDR)
-  Missouri_lag4: p=0.034392 (Uncorrected)
+  Missouri_maxlag1_lag1: p=0.000407 (Bonferroni)
+  Missouri_maxlag2_lag2: p=0.044856 (Uncorrected)
+  Missouri_maxlag3_lag2: p=0.015962 (FDR)
+  Missouri_maxlag4_lag2: p=0.034392 (Uncorrected)
 
 contagious flu significant combinations:
-  Missouri_lag3: p=0.025556 (FDR)
-  Missouri_lag4: p=0.000552 (Bonferroni)
-  Missouri_lag5: p=0.002062 (Bonferroni)
+  Missouri_maxlag3_lag3: p=0.025556 (FDR)
+  Missouri_maxlag4_lag3: p=0.013018 (FDR)
+  Missouri_maxlag4_lag4: p=0.000552 (Bonferroni)
+  Missouri_maxlag5_lag3: p=0.018106 (FDR)
+  Missouri_maxlag5_lag4: p=0.002062 (Bonferroni)
+  Missouri_maxlag5_lag5: p=0.021440 (FDR)
 
 rsv significant combinations:
-  Missouri_lag2: p=0.000558 (Bonferroni)
-  Missouri_lag3: p=0.000594 (Bonferroni)
-  Missouri_lag4: p=0.002249 (Bonferroni)
-  Missouri_lag5: p=0.001401 (Bonferroni)
+  Missouri_maxlag2_lag2: p=0.000558 (Bonferroni)
+  Missouri_maxlag3_lag1: p=0.047820 (FDR)
+  Missouri_maxlag3_lag2: p=0.000594 (Bonferroni)
+  Missouri_maxlag4_lag2: p=0.002249 (Bonferroni)
+  Missouri_maxlag5_lag2: p=0.001401 (Bonferroni)
+  Missouri_maxlag5_lag5: p=0.030376 (FDR)
 
 cold significant combinations:
-  Missouri_lag1: p=0.042285 (Uncorrected)
-  Missouri_lag2: p=0.001738 (Bonferroni)
-  Missouri_lag3: p=0.029445 (FDR)
-  Missouri_lag4: p=0.017064 (FDR)
-  Missouri_lag5: p=0.006611 (FDR)
+  Missouri_maxlag1_lag1: p=0.042285 (Uncorrected)
+  Missouri_maxlag2_lag2: p=0.001738 (Bonferroni)
+  Missouri_maxlag3_lag3: p=0.029445 (FDR)
+  Missouri_maxlag4_lag3: p=0.024896 (FDR)
+  Missouri_maxlag4_lag4: p=0.017064 (FDR)
+  Missouri_maxlag5_lag3: p=0.018260 (FDR)
+  Missouri_maxlag5_lag4: p=0.006611 (FDR)
 
 flu a significant combinations:
-  Missouri_lag1: p=0.019685 (Uncorrected)
-  Missouri_lag3: p=0.002476 (Bonferroni)
-  Missouri_lag4: p=0.007104 (FDR)
-  Missouri_lag5: p=0.014173 (FDR)
+  Missouri_maxlag1_lag1: p=0.019685 (Uncorrected)
+  Missouri_maxlag3_lag3: p=0.002476 (Bonferroni)
+  Missouri_maxlag4_lag3: p=0.007104 (FDR)
+  Missouri_maxlag5_lag3: p=0.014173 (FDR)
 
 pneumonia significant combinations:
-  Missouri_lag3: p=0.014037 (FDR)
-  Missouri_lag4: p=0.003048 (FDR)
-  Missouri_lag5: p=0.012073 (FDR)
+  Missouri_maxlag3_lag3: p=0.014037 (FDR)
+  Missouri_maxlag4_lag3: p=0.003048 (FDR)
+  Missouri_maxlag5_lag3: p=0.012073 (FDR)
 
 influenza a symptoms significant combinations:
-  Missouri_lag1: p=0.038258 (Uncorrected)
-  Missouri_lag2: p=0.004221 (FDR)
-  Missouri_lag3: p=0.021158 (FDR)
+  Missouri_maxlag1_lag1: p=0.038258 (Uncorrected)
+  Missouri_maxlag2_lag1: p=0.004221 (FDR)
+  Missouri_maxlag2_lag2: p=0.032371 (FDR)
+  Missouri_maxlag3_lag2: p=0.021158 (FDR)
 
 the flu symptoms significant combinations:
-  Missouri_lag1: p=0.005688 (FDR)
-  Missouri_lag2: p=0.021971 (Uncorrected)
-  Missouri_lag3: p=0.011901 (FDR)
-  Missouri_lag4: p=0.008007 (FDR)
-  Missouri_lag5: p=0.008551 (FDR)
+  Missouri_maxlag1_lag1: p=0.005688 (FDR)
+  Missouri_maxlag2_lag1: p=0.021971 (Uncorrected)
+  Missouri_maxlag3_lag1: p=0.011901 (FDR)
+  Missouri_maxlag4_lag1: p=0.008007 (FDR)
+  Missouri_maxlag5_lag1: p=0.008551 (FDR)
 
 symptoms of flu significant combinations:
-  Missouri_lag4: p=0.006563 (FDR)
-  Missouri_lag5: p=0.022378 (FDR)
+  Missouri_maxlag4_lag3: p=0.026259 (FDR)
+  Missouri_maxlag4_lag4: p=0.006563 (FDR)
+  Missouri_maxlag5_lag3: p=0.022378 (FDR)
+  Missouri_maxlag5_lag4: p=0.029708 (FDR)
 
 flu how long significant combinations:
-  Missouri_lag2: p=0.015339 (Uncorrected)
-  Missouri_lag3: p=0.024613 (FDR)
+  Missouri_maxlag2_lag1: p=0.015339 (Uncorrected)
+  Missouri_maxlag3_lag1: p=0.024613 (FDR)
 
 influenza symptoms significant combinations:
-  Missouri_lag3: p=0.016539 (FDR)
-  Missouri_lag4: p=0.026087 (Uncorrected)
-  Missouri_lag5: p=0.047639 (Uncorrected)
+  Missouri_maxlag3_lag1: p=0.016539 (FDR)
+  Missouri_maxlag3_lag3: p=0.023430 (FDR)
+  Missouri_maxlag4_lag1: p=0.026087 (Uncorrected)
+  Missouri_maxlag4_lag3: p=0.028987 (Uncorrected)
+  Missouri_maxlag5_lag1: p=0.047639 (Uncorrected)
 
 how long does flu last significant combinations:
-  Missouri_lag3: p=0.049635 (Uncorrected)
-  Missouri_lag4: p=0.041153 (Uncorrected)
+  Missouri_maxlag3_lag3: p=0.049635 (Uncorrected)
+  Missouri_maxlag4_lag3: p=0.041153 (Uncorrected)
 

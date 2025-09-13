@@ -1,0 +1,10 @@
+Term,Lag,P_Value,Significance
+flu symptoms,1,0.00447993076162964,FDR
+flu symptoms,2,0.047694718237933885,FDR
+how long does flu last,3,0.01878141995059133,Uncorrected
+rsv,1,0.016472161371611487,FDR
+rsv,2,0.007262389462398392,FDR
+symptoms of flu,2,0.03098530585666983,Uncorrected
+the flu,1,3.4594166253851276e-06,Bonferroni
+the flu,2,0.005220331442481525,FDR
+the flu,3,0.006880669703024192,FDR

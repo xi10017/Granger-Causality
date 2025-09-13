@@ -1,0 +1,11 @@
+Term,Lag,P_Value,Significance
+fever flu,2,0.02140402405876019,Uncorrected
+flu fever,2,0.021404024056603528,Uncorrected
+how long contagious,2,0.000317076038825954,Bonferroni
+robitussin,3,0.0015127796829927699,Bonferroni
+rsv,1,0.0023210880275295076,Bonferroni
+sinus,2,0.03475746540606673,Uncorrected
+stomach flu,1,0.007247651115261484,FDR
+stomach flu,2,0.00186569573995114,Bonferroni
+stomach flu symptoms,2,0.013021400378397545,Uncorrected
+stomach flu symptoms,3,0.03687489937864496,Uncorrected

@@ -1,0 +1,13 @@
+Term,Lag,P_Value,Significance
+contagious flu,4,0.026527352043007466,Uncorrected
+contagious flu,5,0.018503956310396086,Uncorrected
+flu contagious,4,0.02652735203109969,Uncorrected
+flu contagious,5,0.01850395631241695,Uncorrected
+flu how long,2,0.0383193632041194,Uncorrected
+flu how long,3,0.018416851483333146,Uncorrected
+how long flu,2,0.038319363185822346,Uncorrected
+how long flu,3,0.018416851522342716,Uncorrected
+rsv,1,0.0007001957803583966,Bonferroni
+stomach flu,2,0.029987658344943005,Uncorrected
+strep,3,0.033464283217005716,Uncorrected
+the flu,4,0.040150179957649704,Uncorrected

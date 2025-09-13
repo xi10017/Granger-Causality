@@ -1,56 +1,65 @@
 === GRANGER CAUSALITY SIGNIFICANT TERMS SUMMARY ===
 Data file analyzed: Connecticut_2010_2020.csv
 Response variable: Connecticut
-Total significant term combinations: 26
+Total significant term combinations: 35
 Unique terms: 11
 Response variables analyzed: Connecticut
-Max lags tested: 1, 3, 5, 4, 2
+Max lags tested: 4, 3, 1, 5, 2
 
 rsv significant combinations:
-  Connecticut_lag1: p=0.000000 (Bonferroni)
-  Connecticut_lag2: p=0.000017 (Bonferroni)
-  Connecticut_lag3: p=0.000378 (Bonferroni)
-  Connecticut_lag4: p=0.000439 (Bonferroni)
-  Connecticut_lag5: p=0.000700 (Bonferroni)
+  Connecticut_maxlag1_lag1: p=0.000000 (Bonferroni)
+  Connecticut_maxlag2_lag1: p=0.000017 (Bonferroni)
+  Connecticut_maxlag2_lag2: p=0.005471 (FDR)
+  Connecticut_maxlag3_lag1: p=0.000378 (Bonferroni)
+  Connecticut_maxlag3_lag2: p=0.020969 (FDR)
+  Connecticut_maxlag4_lag1: p=0.000439 (Bonferroni)
+  Connecticut_maxlag4_lag2: p=0.042764 (FDR)
+  Connecticut_maxlag5_lag1: p=0.000700 (Bonferroni)
 
 stomach flu significant combinations:
-  Connecticut_lag2: p=0.001661 (Bonferroni)
-  Connecticut_lag3: p=0.011136 (Uncorrected)
-  Connecticut_lag4: p=0.016788 (Uncorrected)
-  Connecticut_lag5: p=0.029988 (Uncorrected)
+  Connecticut_maxlag2_lag2: p=0.001661 (Bonferroni)
+  Connecticut_maxlag3_lag2: p=0.011136 (Uncorrected)
+  Connecticut_maxlag4_lag2: p=0.016788 (Uncorrected)
+  Connecticut_maxlag5_lag2: p=0.029988 (Uncorrected)
 
 flu how long significant combinations:
-  Connecticut_lag4: p=0.028418 (Uncorrected)
-  Connecticut_lag5: p=0.018417 (Uncorrected)
+  Connecticut_maxlag4_lag2: p=0.036795 (Uncorrected)
+  Connecticut_maxlag4_lag3: p=0.028418 (Uncorrected)
+  Connecticut_maxlag5_lag2: p=0.038319 (Uncorrected)
+  Connecticut_maxlag5_lag3: p=0.018417 (Uncorrected)
 
 how long flu significant combinations:
-  Connecticut_lag4: p=0.028418 (Uncorrected)
-  Connecticut_lag5: p=0.018417 (Uncorrected)
+  Connecticut_maxlag4_lag2: p=0.036795 (Uncorrected)
+  Connecticut_maxlag4_lag3: p=0.028418 (Uncorrected)
+  Connecticut_maxlag5_lag2: p=0.038319 (Uncorrected)
+  Connecticut_maxlag5_lag3: p=0.018417 (Uncorrected)
 
 contagious flu significant combinations:
-  Connecticut_lag1: p=0.047801 (Uncorrected)
-  Connecticut_lag5: p=0.018504 (Uncorrected)
+  Connecticut_maxlag1_lag1: p=0.047801 (Uncorrected)
+  Connecticut_maxlag5_lag4: p=0.026527 (Uncorrected)
+  Connecticut_maxlag5_lag5: p=0.018504 (Uncorrected)
 
 flu contagious significant combinations:
-  Connecticut_lag1: p=0.047801 (Uncorrected)
-  Connecticut_lag5: p=0.018504 (Uncorrected)
+  Connecticut_maxlag1_lag1: p=0.047801 (Uncorrected)
+  Connecticut_maxlag5_lag4: p=0.026527 (Uncorrected)
+  Connecticut_maxlag5_lag5: p=0.018504 (Uncorrected)
 
 the flu significant combinations:
-  Connecticut_lag2: p=0.026892 (Uncorrected)
-  Connecticut_lag3: p=0.035808 (Uncorrected)
-  Connecticut_lag4: p=0.031247 (Uncorrected)
-  Connecticut_lag5: p=0.040150 (Uncorrected)
+  Connecticut_maxlag2_lag1: p=0.026892 (Uncorrected)
+  Connecticut_maxlag3_lag3: p=0.035808 (Uncorrected)
+  Connecticut_maxlag4_lag1: p=0.031247 (Uncorrected)
+  Connecticut_maxlag5_lag4: p=0.040150 (Uncorrected)
 
 strep significant combinations:
-  Connecticut_lag4: p=0.044542 (Uncorrected)
-  Connecticut_lag5: p=0.033464 (Uncorrected)
+  Connecticut_maxlag4_lag3: p=0.044542 (Uncorrected)
+  Connecticut_maxlag5_lag3: p=0.033464 (Uncorrected)
 
 flu a significant combinations:
-  Connecticut_lag1: p=0.034251 (Uncorrected)
+  Connecticut_maxlag1_lag1: p=0.034251 (Uncorrected)
 
 flu fever significant combinations:
-  Connecticut_lag3: p=0.042954 (Uncorrected)
+  Connecticut_maxlag3_lag3: p=0.042954 (Uncorrected)
 
 fever flu significant combinations:
-  Connecticut_lag3: p=0.042954 (Uncorrected)
+  Connecticut_maxlag3_lag3: p=0.042954 (Uncorrected)
 

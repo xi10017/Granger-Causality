@@ -1,52 +1,66 @@
 === GRANGER CAUSALITY SIGNIFICANT TERMS SUMMARY ===
 Data file analyzed: Montana_2010_2020.csv
 Response variable: Montana
-Total significant term combinations: 28
+Total significant term combinations: 42
 Unique terms: 8
 Response variables analyzed: Montana
-Max lags tested: 5, 3, 2, 4, 1
-
-influenza a significant combinations:
-  Montana_lag1: p=0.000000 (Bonferroni)
-  Montana_lag2: p=0.000000 (Bonferroni)
-  Montana_lag3: p=0.000000 (Bonferroni)
-  Montana_lag4: p=0.000000 (Bonferroni)
-  Montana_lag5: p=0.000000 (Bonferroni)
-
-how long flu significant combinations:
-  Montana_lag1: p=0.000000 (Bonferroni)
-  Montana_lag2: p=0.000000 (Bonferroni)
-  Montana_lag3: p=0.000000 (Bonferroni)
-  Montana_lag4: p=0.000000 (Bonferroni)
-  Montana_lag5: p=0.000000 (Bonferroni)
+Max lags tested: 1, 3, 4, 5, 2
 
 flu how long significant combinations:
-  Montana_lag1: p=0.000000 (Bonferroni)
-  Montana_lag2: p=0.000000 (Bonferroni)
-  Montana_lag3: p=0.000000 (Bonferroni)
-  Montana_lag4: p=0.000000 (Bonferroni)
-  Montana_lag5: p=0.000000 (Bonferroni)
+  Montana_maxlag1_lag1: p=0.000000 (Bonferroni)
+  Montana_maxlag2_lag1: p=0.000000 (Bonferroni)
+  Montana_maxlag2_lag2: p=0.004899 (FDR)
+  Montana_maxlag3_lag1: p=0.000000 (Bonferroni)
+  Montana_maxlag3_lag2: p=0.004204 (FDR)
+  Montana_maxlag4_lag1: p=0.000000 (Bonferroni)
+  Montana_maxlag4_lag2: p=0.004862 (FDR)
+  Montana_maxlag4_lag4: p=0.001693 (Bonferroni)
+  Montana_maxlag5_lag1: p=0.000000 (Bonferroni)
+  Montana_maxlag5_lag2: p=0.008732 (FDR)
+  Montana_maxlag5_lag4: p=0.002138 (Bonferroni)
+
+how long flu significant combinations:
+  Montana_maxlag1_lag1: p=0.000000 (Bonferroni)
+  Montana_maxlag2_lag1: p=0.000000 (Bonferroni)
+  Montana_maxlag2_lag2: p=0.004899 (FDR)
+  Montana_maxlag3_lag1: p=0.000000 (Bonferroni)
+  Montana_maxlag3_lag2: p=0.004204 (FDR)
+  Montana_maxlag4_lag1: p=0.000000 (Bonferroni)
+  Montana_maxlag4_lag2: p=0.004862 (FDR)
+  Montana_maxlag4_lag4: p=0.001693 (Bonferroni)
+  Montana_maxlag5_lag1: p=0.000000 (Bonferroni)
+  Montana_maxlag5_lag2: p=0.008732 (FDR)
+  Montana_maxlag5_lag4: p=0.002138 (Bonferroni)
+
+influenza a significant combinations:
+  Montana_maxlag1_lag1: p=0.000000 (Bonferroni)
+  Montana_maxlag2_lag1: p=0.000000 (Bonferroni)
+  Montana_maxlag3_lag1: p=0.000000 (Bonferroni)
+  Montana_maxlag3_lag3: p=0.014026 (FDR)
+  Montana_maxlag4_lag1: p=0.000000 (Bonferroni)
+  Montana_maxlag4_lag4: p=0.017729 (FDR)
+  Montana_maxlag5_lag1: p=0.000000 (Bonferroni)
 
 flu a significant combinations:
-  Montana_lag3: p=0.000555 (Bonferroni)
-  Montana_lag4: p=0.000635 (Bonferroni)
-  Montana_lag5: p=0.000395 (Bonferroni)
+  Montana_maxlag3_lag3: p=0.000555 (Bonferroni)
+  Montana_maxlag4_lag3: p=0.000635 (Bonferroni)
+  Montana_maxlag5_lag3: p=0.000395 (Bonferroni)
 
 rsv significant combinations:
-  Montana_lag1: p=0.016496 (Uncorrected)
-  Montana_lag2: p=0.022375 (Uncorrected)
-  Montana_lag3: p=0.033171 (Uncorrected)
-  Montana_lag4: p=0.013741 (Uncorrected)
-  Montana_lag5: p=0.028173 (Uncorrected)
+  Montana_maxlag1_lag1: p=0.016496 (Uncorrected)
+  Montana_maxlag2_lag1: p=0.022375 (Uncorrected)
+  Montana_maxlag3_lag1: p=0.033171 (Uncorrected)
+  Montana_maxlag4_lag1: p=0.013741 (Uncorrected)
+  Montana_maxlag5_lag1: p=0.028173 (Uncorrected)
 
 how long does flu last significant combinations:
-  Montana_lag3: p=0.025303 (Uncorrected)
-  Montana_lag4: p=0.048483 (Uncorrected)
+  Montana_maxlag3_lag1: p=0.025303 (Uncorrected)
+  Montana_maxlag4_lag1: p=0.048483 (Uncorrected)
 
 pneumonia significant combinations:
-  Montana_lag4: p=0.045453 (Uncorrected)
-  Montana_lag5: p=0.038208 (Uncorrected)
+  Montana_maxlag4_lag3: p=0.045453 (Uncorrected)
+  Montana_maxlag5_lag3: p=0.038208 (Uncorrected)
 
 the flu significant combinations:
-  Montana_lag1: p=0.039441 (Uncorrected)
+  Montana_maxlag1_lag1: p=0.039441 (Uncorrected)
 

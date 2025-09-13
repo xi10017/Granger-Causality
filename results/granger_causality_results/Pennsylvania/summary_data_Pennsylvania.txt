@@ -1,81 +1,90 @@
 === GRANGER CAUSALITY SIGNIFICANT TERMS SUMMARY ===
 Data file analyzed: Pennsylvania_2010_2020.csv
 Response variable: Pennsylvania
-Total significant term combinations: 41
+Total significant term combinations: 50
 Unique terms: 16
 Response variables analyzed: Pennsylvania
-Max lags tested: 4, 1, 3, 2, 5
+Max lags tested: 1, 3, 2, 5, 4
 
 flu symptoms significant combinations:
-  Pennsylvania_lag3: p=0.000008 (Bonferroni)
-  Pennsylvania_lag4: p=0.003514 (FDR)
-  Pennsylvania_lag5: p=0.013175 (FDR)
+  Pennsylvania_maxlag3_lag2: p=0.025243 (FDR)
+  Pennsylvania_maxlag3_lag3: p=0.000008 (Bonferroni)
+  Pennsylvania_maxlag4_lag2: p=0.015033 (FDR)
+  Pennsylvania_maxlag4_lag3: p=0.003514 (FDR)
+  Pennsylvania_maxlag5_lag2: p=0.013175 (FDR)
 
 the flu significant combinations:
-  Pennsylvania_lag2: p=0.000299 (Bonferroni)
-  Pennsylvania_lag3: p=0.000108 (Bonferroni)
-  Pennsylvania_lag4: p=0.000968 (Bonferroni)
-  Pennsylvania_lag5: p=0.000079 (Bonferroni)
+  Pennsylvania_maxlag2_lag1: p=0.000299 (Bonferroni)
+  Pennsylvania_maxlag2_lag2: p=0.001986 (Bonferroni)
+  Pennsylvania_maxlag3_lag1: p=0.000108 (Bonferroni)
+  Pennsylvania_maxlag4_lag1: p=0.000968 (Bonferroni)
+  Pennsylvania_maxlag5_lag1: p=0.000079 (Bonferroni)
 
 influenza a significant combinations:
-  Pennsylvania_lag1: p=0.049594 (Uncorrected)
-  Pennsylvania_lag3: p=0.038796 (Uncorrected)
-  Pennsylvania_lag4: p=0.000404 (Bonferroni)
-  Pennsylvania_lag5: p=0.000320 (Bonferroni)
+  Pennsylvania_maxlag1_lag1: p=0.049594 (Uncorrected)
+  Pennsylvania_maxlag3_lag1: p=0.038796 (Uncorrected)
+  Pennsylvania_maxlag4_lag4: p=0.000404 (Bonferroni)
+  Pennsylvania_maxlag5_lag4: p=0.000320 (Bonferroni)
 
 a influenza significant combinations:
-  Pennsylvania_lag1: p=0.049594 (Uncorrected)
-  Pennsylvania_lag3: p=0.038796 (Uncorrected)
-  Pennsylvania_lag4: p=0.000404 (Bonferroni)
-  Pennsylvania_lag5: p=0.000320 (Bonferroni)
+  Pennsylvania_maxlag1_lag1: p=0.049594 (Uncorrected)
+  Pennsylvania_maxlag3_lag1: p=0.038796 (Uncorrected)
+  Pennsylvania_maxlag4_lag4: p=0.000404 (Bonferroni)
+  Pennsylvania_maxlag5_lag4: p=0.000320 (Bonferroni)
 
 cold significant combinations:
-  Pennsylvania_lag2: p=0.001489 (Bonferroni)
-  Pennsylvania_lag3: p=0.005383 (FDR)
-  Pennsylvania_lag4: p=0.003541 (FDR)
-  Pennsylvania_lag5: p=0.022233 (FDR)
+  Pennsylvania_maxlag2_lag2: p=0.001489 (Bonferroni)
+  Pennsylvania_maxlag3_lag2: p=0.005383 (FDR)
+  Pennsylvania_maxlag4_lag2: p=0.003541 (FDR)
+  Pennsylvania_maxlag5_lag2: p=0.022233 (FDR)
 
 flu fever significant combinations:
-  Pennsylvania_lag1: p=0.004728 (FDR)
-  Pennsylvania_lag3: p=0.042281 (Uncorrected)
-  Pennsylvania_lag5: p=0.025852 (FDR)
+  Pennsylvania_maxlag1_lag1: p=0.004728 (FDR)
+  Pennsylvania_maxlag3_lag2: p=0.042281 (Uncorrected)
+  Pennsylvania_maxlag5_lag1: p=0.025852 (FDR)
+  Pennsylvania_maxlag5_lag5: p=0.043744 (FDR)
 
 fever flu significant combinations:
-  Pennsylvania_lag1: p=0.004728 (FDR)
-  Pennsylvania_lag3: p=0.042281 (Uncorrected)
-  Pennsylvania_lag5: p=0.025852 (FDR)
+  Pennsylvania_maxlag1_lag1: p=0.004728 (FDR)
+  Pennsylvania_maxlag3_lag2: p=0.042281 (Uncorrected)
+  Pennsylvania_maxlag5_lag1: p=0.025852 (FDR)
+  Pennsylvania_maxlag5_lag5: p=0.043744 (FDR)
 
 contagious flu significant combinations:
-  Pennsylvania_lag2: p=0.049464 (Uncorrected)
-  Pennsylvania_lag3: p=0.043252 (Uncorrected)
-  Pennsylvania_lag4: p=0.027251 (Uncorrected)
-  Pennsylvania_lag5: p=0.008383 (FDR)
+  Pennsylvania_maxlag2_lag1: p=0.049464 (Uncorrected)
+  Pennsylvania_maxlag3_lag1: p=0.043252 (Uncorrected)
+  Pennsylvania_maxlag4_lag1: p=0.027251 (Uncorrected)
+  Pennsylvania_maxlag5_lag1: p=0.008383 (FDR)
 
 flu contagious significant combinations:
-  Pennsylvania_lag2: p=0.049827 (Uncorrected)
-  Pennsylvania_lag3: p=0.034994 (Uncorrected)
-  Pennsylvania_lag4: p=0.010056 (FDR)
-  Pennsylvania_lag5: p=0.008541 (FDR)
+  Pennsylvania_maxlag2_lag1: p=0.049827 (Uncorrected)
+  Pennsylvania_maxlag3_lag1: p=0.034994 (Uncorrected)
+  Pennsylvania_maxlag4_lag1: p=0.010056 (FDR)
+  Pennsylvania_maxlag4_lag4: p=0.011765 (FDR)
+  Pennsylvania_maxlag5_lag1: p=0.037749 (FDR)
+  Pennsylvania_maxlag5_lag4: p=0.008541 (FDR)
 
 how long flu significant combinations:
-  Pennsylvania_lag5: p=0.010061 (FDR)
+  Pennsylvania_maxlag5_lag1: p=0.049522 (FDR)
+  Pennsylvania_maxlag5_lag4: p=0.010061 (FDR)
 
 flu how long significant combinations:
-  Pennsylvania_lag5: p=0.010061 (FDR)
+  Pennsylvania_maxlag5_lag1: p=0.049522 (FDR)
+  Pennsylvania_maxlag5_lag4: p=0.010061 (FDR)
 
 how long does the flu last significant combinations:
-  Pennsylvania_lag5: p=0.024053 (FDR)
+  Pennsylvania_maxlag5_lag5: p=0.024053 (FDR)
 
 stomach flu significant combinations:
-  Pennsylvania_lag5: p=0.039464 (Uncorrected)
+  Pennsylvania_maxlag5_lag5: p=0.039464 (Uncorrected)
 
 bronchitis significant combinations:
-  Pennsylvania_lag5: p=0.040979 (Uncorrected)
+  Pennsylvania_maxlag5_lag4: p=0.040979 (Uncorrected)
 
 rsv significant combinations:
-  Pennsylvania_lag1: p=0.041203 (Uncorrected)
+  Pennsylvania_maxlag1_lag1: p=0.041203 (Uncorrected)
 
 how long does flu last significant combinations:
-  Pennsylvania_lag2: p=0.042236 (Uncorrected)
-  Pennsylvania_lag3: p=0.044027 (Uncorrected)
+  Pennsylvania_maxlag2_lag2: p=0.042236 (Uncorrected)
+  Pennsylvania_maxlag3_lag2: p=0.044027 (Uncorrected)
 

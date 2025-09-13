@@ -1,0 +1,8 @@
+Term,Lag,P_Value,Significance
+fever cough,1,0.022672990259731542,Uncorrected
+how long are you contagious,1,0.0010320264203554812,Bonferroni
+how long contagious,1,0.00386372801389946,FDR
+how long is flu contagious,1,0.031225053331795857,Uncorrected
+is flu contagious,1,0.0008079550074093856,Bonferroni
+is the flu contagious,1,0.0009256261417117358,Bonferroni
+tamiflu side effects,1,0.004328418570817951,FDR

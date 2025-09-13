@@ -1,0 +1,4 @@
+Term,Lag,P_Value,Significance
+pneumonia,1,0.030342136828311148,Uncorrected
+rsv,1,0.00019215249019309734,Bonferroni
+the flu,1,0.04282682497046629,Uncorrected

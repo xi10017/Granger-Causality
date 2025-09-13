@@ -2,6 +2,7 @@ Term,Category,Count,Mean_Pvalue,Median_Pvalue,Min_Pvalue,Max_Pvalue
 how long does flu last,Bonferroni,4,0.0005887500000000001,0.0006425000000000001,4e-05,0.00103
 symptoms of flu,Bonferroni,3,0.000987,0.001018,0.000317,0.001626
 the flu symptoms,Bonferroni,1,0.001744,0.001744,0.001744,0.001744
+how long does flu last,FDR,3,0.017647333333333334,0.013569,0.01202,0.027353
 flu a,FDR,3,0.005680666666666667,0.004993,0.00486,0.007189
 flu symptoms,FDR,2,0.007898,0.007898,0.005902,0.009894
 flu how long,FDR,1,0.004651,0.004651,0.004651,0.004651

@@ -1,0 +1,4 @@
+Term,Lag,P_Value,Significance
+a influenza,1,0.04518832312202485,Uncorrected
+cold,1,3.787895167969974e-06,Bonferroni
+sinus,1,0.004591939954934183,FDR

@@ -1,0 +1,4 @@
+Term,Lag,P_Value,Significance
+bronchitis,1,0.04616251705399895,Uncorrected
+flu a,1,0.006801345678442459,Uncorrected
+rsv,1,0.03835925473315518,Uncorrected

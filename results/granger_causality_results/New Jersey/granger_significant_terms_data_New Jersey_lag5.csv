@@ -1,0 +1,8 @@
+Term,Lag,P_Value,Significance
+cold,3,0.0068887657920143645,FDR
+flu symptoms,2,0.0004534927196595323,Bonferroni
+stomach flu,3,0.02265573487170215,Uncorrected
+the flu,1,2.473428723302595e-06,Bonferroni
+the flu,2,5.3732529983991026e-05,Bonferroni
+the flu,4,0.030266334953337398,FDR
+the flu,5,7.191249775298423e-05,Bonferroni

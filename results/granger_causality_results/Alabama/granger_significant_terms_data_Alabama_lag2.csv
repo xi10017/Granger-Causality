@@ -1,0 +1,8 @@
+Term,Lag,P_Value,Significance
+contagious flu,1,0.011104938087076747,Uncorrected
+flu contagious,1,0.01110493808645411,Uncorrected
+flu test,1,0.015864432501024844,Uncorrected
+how long does flu last,1,0.005254022789519093,Uncorrected
+is flu contagious,2,0.03498507709647272,Uncorrected
+the flu,2,0.0393743741533351,Uncorrected
+the flu symptoms,2,0.00526941257575561,Uncorrected

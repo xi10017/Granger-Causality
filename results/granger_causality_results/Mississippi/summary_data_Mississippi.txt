@@ -1,91 +1,99 @@
 === GRANGER CAUSALITY SIGNIFICANT TERMS SUMMARY ===
 Data file analyzed: Mississippi_2010_2020.csv
 Response variable: Mississippi
-Total significant term combinations: 53
+Total significant term combinations: 61
 Unique terms: 15
 Response variables analyzed: Mississippi
-Max lags tested: 5, 3, 1, 4, 2
+Max lags tested: 4, 1, 3, 5, 2
 
 cold significant combinations:
-  Mississippi_lag1: p=0.000012 (Bonferroni)
-  Mississippi_lag2: p=0.000001 (Bonferroni)
-  Mississippi_lag3: p=0.000000 (Bonferroni)
-  Mississippi_lag4: p=0.000000 (Bonferroni)
-  Mississippi_lag5: p=0.000028 (Bonferroni)
+  Mississippi_maxlag1_lag1: p=0.000012 (Bonferroni)
+  Mississippi_maxlag2_lag1: p=0.000001 (Bonferroni)
+  Mississippi_maxlag3_lag1: p=0.000000 (Bonferroni)
+  Mississippi_maxlag4_lag1: p=0.000000 (Bonferroni)
+  Mississippi_maxlag5_lag1: p=0.000028 (Bonferroni)
 
 influenza a significant combinations:
-  Mississippi_lag1: p=0.000010 (Bonferroni)
-  Mississippi_lag2: p=0.000001 (Bonferroni)
-  Mississippi_lag3: p=0.000003 (Bonferroni)
-  Mississippi_lag4: p=0.000020 (Bonferroni)
-  Mississippi_lag5: p=0.000052 (Bonferroni)
+  Mississippi_maxlag1_lag1: p=0.000010 (Bonferroni)
+  Mississippi_maxlag2_lag1: p=0.000001 (Bonferroni)
+  Mississippi_maxlag3_lag1: p=0.000003 (Bonferroni)
+  Mississippi_maxlag4_lag1: p=0.000020 (Bonferroni)
+  Mississippi_maxlag5_lag1: p=0.000052 (Bonferroni)
 
 flu symptoms significant combinations:
-  Mississippi_lag2: p=0.000007 (Bonferroni)
-  Mississippi_lag3: p=0.000099 (Bonferroni)
-  Mississippi_lag4: p=0.002256 (Bonferroni)
-  Mississippi_lag5: p=0.001095 (Bonferroni)
+  Mississippi_maxlag2_lag1: p=0.002617 (FDR)
+  Mississippi_maxlag2_lag2: p=0.000007 (Bonferroni)
+  Mississippi_maxlag3_lag1: p=0.003429 (FDR)
+  Mississippi_maxlag3_lag2: p=0.000099 (Bonferroni)
+  Mississippi_maxlag4_lag1: p=0.003933 (FDR)
+  Mississippi_maxlag4_lag2: p=0.002256 (Bonferroni)
+  Mississippi_maxlag5_lag1: p=0.001095 (Bonferroni)
+  Mississippi_maxlag5_lag2: p=0.001109 (Bonferroni)
 
 type a flu significant combinations:
-  Mississippi_lag1: p=0.004972 (FDR)
-  Mississippi_lag2: p=0.000011 (Bonferroni)
-  Mississippi_lag3: p=0.000056 (Bonferroni)
-  Mississippi_lag4: p=0.000489 (Bonferroni)
-  Mississippi_lag5: p=0.000741 (Bonferroni)
+  Mississippi_maxlag1_lag1: p=0.004972 (FDR)
+  Mississippi_maxlag2_lag1: p=0.000011 (Bonferroni)
+  Mississippi_maxlag3_lag1: p=0.000056 (Bonferroni)
+  Mississippi_maxlag4_lag1: p=0.000489 (Bonferroni)
+  Mississippi_maxlag5_lag1: p=0.000741 (Bonferroni)
 
 oscillococcinum significant combinations:
-  Mississippi_lag2: p=0.000364 (Bonferroni)
-  Mississippi_lag3: p=0.012436 (FDR)
-  Mississippi_lag4: p=0.002121 (Bonferroni)
-  Mississippi_lag5: p=0.001053 (Bonferroni)
+  Mississippi_maxlag2_lag2: p=0.000364 (Bonferroni)
+  Mississippi_maxlag3_lag2: p=0.012436 (FDR)
+  Mississippi_maxlag4_lag2: p=0.002121 (Bonferroni)
+  Mississippi_maxlag5_lag2: p=0.001053 (Bonferroni)
 
 flu type significant combinations:
-  Mississippi_lag2: p=0.000890 (Bonferroni)
-  Mississippi_lag3: p=0.002078 (Bonferroni)
-  Mississippi_lag4: p=0.003091 (FDR)
-  Mississippi_lag5: p=0.004780 (FDR)
+  Mississippi_maxlag2_lag1: p=0.000890 (Bonferroni)
+  Mississippi_maxlag2_lag2: p=0.028554 (FDR)
+  Mississippi_maxlag3_lag1: p=0.002078 (Bonferroni)
+  Mississippi_maxlag4_lag1: p=0.003091 (FDR)
+  Mississippi_maxlag5_lag1: p=0.004780 (FDR)
 
 symptoms of flu significant combinations:
-  Mississippi_lag2: p=0.002200 (Bonferroni)
-  Mississippi_lag3: p=0.012531 (FDR)
-  Mississippi_lag4: p=0.001081 (Bonferroni)
-  Mississippi_lag5: p=0.029672 (FDR)
+  Mississippi_maxlag2_lag2: p=0.002200 (Bonferroni)
+  Mississippi_maxlag3_lag2: p=0.012531 (FDR)
+  Mississippi_maxlag4_lag2: p=0.001081 (Bonferroni)
+  Mississippi_maxlag5_lag2: p=0.029672 (FDR)
 
 how long flu significant combinations:
-  Mississippi_lag1: p=0.034523 (Uncorrected)
-  Mississippi_lag2: p=0.035471 (Uncorrected)
-  Mississippi_lag3: p=0.031630 (Uncorrected)
-  Mississippi_lag4: p=0.014571 (FDR)
-  Mississippi_lag5: p=0.006996 (FDR)
+  Mississippi_maxlag1_lag1: p=0.034523 (Uncorrected)
+  Mississippi_maxlag2_lag1: p=0.035471 (Uncorrected)
+  Mississippi_maxlag3_lag1: p=0.031630 (Uncorrected)
+  Mississippi_maxlag4_lag1: p=0.014571 (FDR)
+  Mississippi_maxlag4_lag4: p=0.020525 (FDR)
+  Mississippi_maxlag5_lag1: p=0.006996 (FDR)
+  Mississippi_maxlag5_lag4: p=0.035310 (FDR)
 
 flu fever significant combinations:
-  Mississippi_lag2: p=0.008028 (FDR)
-  Mississippi_lag3: p=0.010487 (FDR)
-  Mississippi_lag4: p=0.022230 (FDR)
-  Mississippi_lag5: p=0.014318 (FDR)
+  Mississippi_maxlag2_lag2: p=0.008028 (FDR)
+  Mississippi_maxlag3_lag2: p=0.010487 (FDR)
+  Mississippi_maxlag4_lag2: p=0.022230 (FDR)
+  Mississippi_maxlag5_lag2: p=0.014318 (FDR)
 
 fever flu significant combinations:
-  Mississippi_lag2: p=0.008028 (FDR)
-  Mississippi_lag3: p=0.010487 (FDR)
-  Mississippi_lag4: p=0.022230 (FDR)
-  Mississippi_lag5: p=0.014318 (FDR)
+  Mississippi_maxlag2_lag2: p=0.008028 (FDR)
+  Mississippi_maxlag3_lag2: p=0.010487 (FDR)
+  Mississippi_maxlag4_lag2: p=0.022230 (FDR)
+  Mississippi_maxlag5_lag2: p=0.014318 (FDR)
 
 rsv significant combinations:
-  Mississippi_lag5: p=0.009607 (FDR)
+  Mississippi_maxlag5_lag5: p=0.009607 (FDR)
 
 flu cold significant combinations:
-  Mississippi_lag2: p=0.023959 (FDR)
-  Mississippi_lag3: p=0.019357 (FDR)
-  Mississippi_lag4: p=0.010639 (FDR)
-  Mississippi_lag5: p=0.015710 (FDR)
+  Mississippi_maxlag2_lag2: p=0.023959 (FDR)
+  Mississippi_maxlag3_lag2: p=0.019357 (FDR)
+  Mississippi_maxlag4_lag2: p=0.010639 (FDR)
+  Mississippi_maxlag4_lag3: p=0.034466 (FDR)
+  Mississippi_maxlag5_lag2: p=0.015710 (FDR)
 
 flu a significant combinations:
-  Mississippi_lag2: p=0.034609 (Uncorrected)
-  Mississippi_lag5: p=0.014941 (FDR)
+  Mississippi_maxlag2_lag1: p=0.034609 (Uncorrected)
+  Mississippi_maxlag5_lag5: p=0.014941 (FDR)
 
 flu type a significant combinations:
-  Mississippi_lag3: p=0.038165 (Uncorrected)
+  Mississippi_maxlag3_lag2: p=0.038165 (Uncorrected)
 
 flu how long significant combinations:
-  Mississippi_lag4: p=0.049423 (Uncorrected)
+  Mississippi_maxlag4_lag4: p=0.049423 (Uncorrected)
 

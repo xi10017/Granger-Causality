@@ -1,0 +1,10 @@
+Term,Lag,P_Value,Significance
+cold,1,0.0013792610286076546,Bonferroni
+fever flu,2,0.024148155971191673,Uncorrected
+flu a,1,0.0014428954101330276,Bonferroni
+flu symptoms,1,0.001644127362979123,Bonferroni
+flu symptoms,2,0.02144545062198165,FDR
+flu type,1,0.016402069463462034,Uncorrected
+the flu,2,0.009789597840243079,FDR
+the flu symptoms,1,6.714064430554912e-05,Bonferroni
+the flu symptoms,2,0.006257844154716936,FDR

@@ -26,8 +26,8 @@ def analyze_data_file(data_file_name):
     original_file_name = file_name
     original_response_var = response_var
     
-    # Extract state name from data file name (e.g., "Alabama_2010_2020.csv" -> "Alabama")
-    state_name = data_file_name.split('_')[0]
+    # Extract response variable name from data file name (e.g., "Alabama_2010_2020.csv" -> "Alabama")
+    response_var_name = data_file_name.split('_')[0]
     
     # Update the configuration file
     with open('confs.py', 'r') as f:
@@ -42,7 +42,7 @@ def analyze_data_file(data_file_name):
     # Replace the response_var line
     config_content = config_content.replace(
         f'response_var = "{original_response_var}"',
-        f'response_var = "{state_name}"'
+        f'response_var = "{response_var_name}"'
     )
     
     with open('confs.py', 'w') as f:
@@ -51,7 +51,7 @@ def analyze_data_file(data_file_name):
     try:
         # Step 1: Run the Granger causality analysis
         print(f"Step 1: Running Granger causality analysis for {data_file_name}...")
-        result1 = subprocess.run([sys.executable, 'granger_causality_pipeline.py'], 
+        result1 = subprocess.run([sys.executable, 'granger_causality_pipeline_refactored.py'], 
                                capture_output=True, text=True)
         
         if result1.returncode != 0:
@@ -110,7 +110,7 @@ def analyze_data_file(data_file_name):
             f'file_name = "{original_file_name}"'
         )
         config_content = config_content.replace(
-            f'response_var = "{state_name}"',
+            f'response_var = "{response_var_name}"',
             f'response_var = "{original_response_var}"'
         )
         

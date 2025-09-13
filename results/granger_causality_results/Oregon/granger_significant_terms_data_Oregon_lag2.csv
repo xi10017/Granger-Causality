@@ -1,0 +1,9 @@
+Term,Lag,P_Value,Significance
+bronchitis,1,0.029111582181275582,Uncorrected
+flu a,1,0.014366978620697484,Uncorrected
+flu cold,2,0.02596103842336727,Uncorrected
+flu how long,1,0.04763470325987511,Uncorrected
+how long flu,1,0.0476347032165635,Uncorrected
+rsv,1,0.00902199905652866,Uncorrected
+the flu,2,0.02969831072806498,Uncorrected
+the flu symptoms,2,0.00018124385336142006,Bonferroni

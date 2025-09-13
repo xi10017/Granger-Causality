@@ -1,0 +1,6 @@
+Term,Lag,P_Value,Significance
+cold,1,0.0001606857963046571,Bonferroni
+flu a,1,1.606229178854112e-05,Bonferroni
+oscillococcinum,1,0.015835074348890203,Uncorrected
+pneumonia,1,0.0035996622355794084,FDR
+the flu symptoms,1,0.000421937806969621,Bonferroni

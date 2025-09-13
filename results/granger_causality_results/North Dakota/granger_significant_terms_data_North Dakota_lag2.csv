@@ -1,0 +1,9 @@
+Term,Lag,P_Value,Significance
+a influenza,1,0.0014410832093016425,Bonferroni
+bronchitis,2,0.001948343966786044,Bonferroni
+flu a,1,0.019284424191243595,Uncorrected
+flu symptoms,1,0.03553011870474062,Uncorrected
+influenza a,2,0.023967945615641445,Uncorrected
+stomach flu,1,0.028199136096906725,Uncorrected
+the flu,1,0.03958537946636101,Uncorrected
+the flu,2,0.04984190663630029,Uncorrected

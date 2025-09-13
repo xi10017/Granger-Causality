@@ -1,0 +1,8 @@
+Term,Lag,P_Value,Significance
+cold,1,4.5459777914373576e-05,Bonferroni
+flu cold,1,0.04892928783942878,Uncorrected
+flu contagious,4,0.019747004444439206,Uncorrected
+flu how long,2,0.0031604162003644205,FDR
+rsv,4,0.01458401683158502,Uncorrected
+the flu,3,0.011320144964823082,Uncorrected
+the flu,4,0.04125365250542339,Uncorrected

@@ -1,19 +1,20 @@
 import os
 import glob
 import re
+import pandas as pd
 from confs import *
 
 def parse_results_file(filepath):
-    """Parse a Granger causality results file and extract significant terms"""
+    """Parse a Granger causality results CSV file and extract significant terms"""
     significant_terms = []
     
     try:
-        with open(filepath, 'r') as f:
-            content = f.read()
+        # Read CSV file
+        df = pd.read_csv(filepath)
         
         # Extract response variable name and max lag from filename
         filename = os.path.basename(filepath)
-        # Pattern: granger_significant_terms_data_{response_var}_lag{max_lag}.txt
+        # Pattern: granger_significant_terms_data_{response_var}_lag{max_lag}.csv
         response_match = re.search(r'granger_significant_terms_data_(\w+)_lag(\d+)', filename)
         if not response_match:
             return []
@@ -21,42 +22,21 @@ def parse_results_file(filepath):
         response_var_name = response_match.group(1)
         max_lag = response_match.group(2)
         
-        # Look for significant terms in the results
-        lines = content.split('\n')
-        in_significant_section = False
-        
-        for line in lines:
-            line = line.strip()
+        # Process each row in the CSV
+        for _, row in df.iterrows():
+            term = row['Term']
+            lag = row['Lag']  # This is now just the number (1, 2, 3, etc.)
+            p_value = row['P_Value']
+            significance_type = row['Significance']
             
-            # Start of significant terms section
-            if line.startswith('=== ALL SIGNIFICANT TERMS'):
-                in_significant_section = True
-                continue
-            
-            # End of significant terms section
-            if in_significant_section and line.startswith('==='):
-                in_significant_section = False
-                continue
-            
-            # Skip header lines
-            if in_significant_section and line.startswith('Term\t'):
-                continue
-            
-            # Parse significant term lines
-            if in_significant_section and '\t' in line and not line.startswith('==='):
-                parts = line.split('\t')
-                if len(parts) >= 3:
-                    term = parts[0].strip()
-                    p_value = float(parts[1].strip())
-                    significance_type = parts[2].strip()
-                    
-                    significant_terms.append({
-                        'term': term,
-                        'p_value': p_value,
-                        'significance_type': significance_type,
-                        'response_var': response_var_name,
-                        'max_lag': max_lag
-                    })
+            significant_terms.append({
+                'term': term,
+                'lag': lag,
+                'p_value': p_value,
+                'significance_type': significance_type,
+                'response_var': response_var_name,
+                'max_lag': max_lag
+            })
         
         return significant_terms
     
@@ -70,7 +50,7 @@ def create_comprehensive_significant_terms_summary():
     
     # Find all results files in the granger causality subfolder
     granger_results_dir = os.path.join(result_dir, granger_causality_prefix, response_var)
-    results_pattern = os.path.join(granger_results_dir, f"{results_prefix}_*_lag*.txt")
+    results_pattern = os.path.join(granger_results_dir, f"{results_prefix}_*_lag*.csv")
     detailed_files = glob.glob(results_pattern)
     
     if not detailed_files:
@@ -119,11 +99,11 @@ def create_comprehensive_significant_terms_summary():
         for term, term_data in sorted_terms:
             f.write(f"{term} significant combinations:\n")
             
-            # Sort by response variable, then by max_lag, then by p_value
-            sorted_data = sorted(term_data, key=lambda x: (x['response_var'], int(x['max_lag']), x['p_value']))
+            # Sort by response variable, then by max_lag, then by lag, then by p_value
+            sorted_data = sorted(term_data, key=lambda x: (x['response_var'], int(x['max_lag']), int(x['lag']), x['p_value']))
             
             for item in sorted_data:
-                f.write(f"  {item['response_var']}_lag{item['max_lag']}: p={item['p_value']:.6f} ({item['significance_type']})\n")
+                f.write(f"  {item['response_var']}_maxlag{item['max_lag']}_lag{item['lag']}: p={item['p_value']:.6f} ({item['significance_type']})\n")
             
             f.write("\n")
     

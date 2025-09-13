@@ -1,0 +1,9 @@
+Term,Lag,P_Value,Significance
+contagious flu,1,0.0004990128762096428,Bonferroni
+cough fever,1,0.03592815895876617,Uncorrected
+fever cough,1,0.030660061037265193,Uncorrected
+get rid of flu,2,0.000681146962580089,Bonferroni
+how long is flu contagious,1,0.032958736691091055,Uncorrected
+is flu contagious,1,7.655275314212151e-05,Bonferroni
+is the flu contagious,1,0.0022904410892209087,Bonferroni
+tamiflu side effects,1,0.0295625341384923,Uncorrected

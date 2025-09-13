@@ -1,0 +1,5 @@
+Term,Lag,P_Value,Significance
+rsv,1,1.719428661065323e-05,Bonferroni
+rsv,2,0.0054712139504809534,FDR
+stomach flu,2,0.0016606510462561215,Bonferroni
+the flu,1,0.02689216984621502,Uncorrected

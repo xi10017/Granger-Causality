@@ -1,0 +1,12 @@
+Term,Lag,P_Value,Significance
+contagious flu,2,0.03417838172228688,Uncorrected
+flu symptoms,1,0.029667438332100768,Uncorrected
+influenza a,1,0.012226892516706295,Uncorrected
+influenza a,2,0.025992303389531183,Uncorrected
+influenza b,2,0.03048035981690007,Uncorrected
+influenza symptoms,2,0.04875420882061323,FDR
+influenza symptoms,3,0.0005640932664468792,Bonferroni
+influenza symptoms,4,0.0237207830051342,FDR
+rsv,1,0.03356441206885184,Uncorrected
+symptoms of influenza,1,0.01963226617639629,Uncorrected
+the flu symptoms,4,0.008787532710707343,Uncorrected

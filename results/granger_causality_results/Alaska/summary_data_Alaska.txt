@@ -1,63 +1,70 @@
 === GRANGER CAUSALITY SIGNIFICANT TERMS SUMMARY ===
 Data file analyzed: Alaska_2010_2020.csv
 Response variable: Alaska
-Total significant term combinations: 31
+Total significant term combinations: 38
 Unique terms: 12
 Response variables analyzed: Alaska
-Max lags tested: 1, 2, 3, 4, 5
+Max lags tested: 3, 5, 1, 4, 2
 
 stomach flu significant combinations:
-  Alaska_lag2: p=0.004558 (FDR)
-  Alaska_lag3: p=0.000001 (Bonferroni)
-  Alaska_lag4: p=0.000006 (Bonferroni)
-  Alaska_lag5: p=0.000027 (Bonferroni)
+  Alaska_maxlag2_lag2: p=0.004558 (FDR)
+  Alaska_maxlag3_lag2: p=0.020929 (FDR)
+  Alaska_maxlag3_lag3: p=0.000001 (Bonferroni)
+  Alaska_maxlag4_lag2: p=0.012759 (FDR)
+  Alaska_maxlag4_lag3: p=0.000006 (Bonferroni)
+  Alaska_maxlag5_lag2: p=0.004438 (FDR)
+  Alaska_maxlag5_lag3: p=0.000027 (Bonferroni)
 
 flu contagious significant combinations:
-  Alaska_lag2: p=0.000330 (Bonferroni)
-  Alaska_lag3: p=0.002683 (FDR)
-  Alaska_lag4: p=0.000708 (Bonferroni)
-  Alaska_lag5: p=0.000699 (Bonferroni)
+  Alaska_maxlag2_lag2: p=0.000330 (Bonferroni)
+  Alaska_maxlag3_lag2: p=0.002683 (FDR)
+  Alaska_maxlag4_lag2: p=0.000708 (Bonferroni)
+  Alaska_maxlag5_lag2: p=0.000699 (Bonferroni)
 
 contagious flu significant combinations:
-  Alaska_lag2: p=0.000330 (Bonferroni)
-  Alaska_lag3: p=0.002683 (FDR)
-  Alaska_lag4: p=0.000708 (Bonferroni)
-  Alaska_lag5: p=0.000699 (Bonferroni)
+  Alaska_maxlag2_lag2: p=0.000330 (Bonferroni)
+  Alaska_maxlag3_lag2: p=0.002683 (FDR)
+  Alaska_maxlag4_lag2: p=0.000708 (Bonferroni)
+  Alaska_maxlag5_lag2: p=0.000699 (Bonferroni)
 
 rsv significant combinations:
-  Alaska_lag2: p=0.014942 (Uncorrected)
-  Alaska_lag3: p=0.015209 (Uncorrected)
-  Alaska_lag4: p=0.009938 (FDR)
-  Alaska_lag5: p=0.003495 (FDR)
+  Alaska_maxlag2_lag1: p=0.034511 (Uncorrected)
+  Alaska_maxlag2_lag2: p=0.014942 (Uncorrected)
+  Alaska_maxlag3_lag2: p=0.015209 (Uncorrected)
+  Alaska_maxlag4_lag1: p=0.043603 (FDR)
+  Alaska_maxlag4_lag2: p=0.009938 (FDR)
+  Alaska_maxlag5_lag1: p=0.013269 (FDR)
+  Alaska_maxlag5_lag2: p=0.003495 (FDR)
 
 flu symptoms significant combinations:
-  Alaska_lag5: p=0.008367 (FDR)
+  Alaska_maxlag5_lag5: p=0.008367 (FDR)
 
 sinus significant combinations:
-  Alaska_lag4: p=0.011494 (FDR)
-  Alaska_lag5: p=0.010629 (FDR)
+  Alaska_maxlag4_lag4: p=0.011494 (FDR)
+  Alaska_maxlag5_lag4: p=0.010629 (FDR)
 
 flu a significant combinations:
-  Alaska_lag3: p=0.021135 (Uncorrected)
-  Alaska_lag4: p=0.011725 (FDR)
-  Alaska_lag5: p=0.019665 (FDR)
+  Alaska_maxlag3_lag3: p=0.021135 (Uncorrected)
+  Alaska_maxlag4_lag3: p=0.011725 (FDR)
+  Alaska_maxlag5_lag3: p=0.019665 (FDR)
 
 bronchitis significant combinations:
-  Alaska_lag1: p=0.044110 (Uncorrected)
-  Alaska_lag5: p=0.014611 (FDR)
+  Alaska_maxlag1_lag1: p=0.044110 (Uncorrected)
+  Alaska_maxlag5_lag1: p=0.014611 (FDR)
 
 influenza a significant combinations:
-  Alaska_lag3: p=0.027820 (Uncorrected)
-  Alaska_lag4: p=0.021547 (Uncorrected)
-  Alaska_lag5: p=0.020876 (FDR)
+  Alaska_maxlag3_lag3: p=0.027820 (Uncorrected)
+  Alaska_maxlag4_lag3: p=0.021547 (Uncorrected)
+  Alaska_maxlag5_lag1: p=0.032202 (FDR)
+  Alaska_maxlag5_lag3: p=0.020876 (FDR)
 
 how long flu significant combinations:
-  Alaska_lag1: p=0.028287 (Uncorrected)
+  Alaska_maxlag1_lag1: p=0.028287 (Uncorrected)
 
 the flu significant combinations:
-  Alaska_lag2: p=0.033558 (Uncorrected)
+  Alaska_maxlag2_lag1: p=0.033558 (Uncorrected)
 
 pneumonia significant combinations:
-  Alaska_lag2: p=0.041872 (Uncorrected)
-  Alaska_lag3: p=0.040104 (Uncorrected)
+  Alaska_maxlag2_lag1: p=0.041872 (Uncorrected)
+  Alaska_maxlag3_lag1: p=0.040104 (Uncorrected)
 

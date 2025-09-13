@@ -1,40 +1,43 @@
 === GRANGER CAUSALITY SIGNIFICANT TERMS SUMMARY ===
 Data file analyzed: Wisconsin_2010_2020.csv
 Response variable: Wisconsin
-Total significant term combinations: 18
+Total significant term combinations: 21
 Unique terms: 7
 Response variables analyzed: Wisconsin
-Max lags tested: 1, 5, 2, 3, 4
+Max lags tested: 4, 5, 2, 3, 1
 
 stomach flu significant combinations:
-  Wisconsin_lag1: p=0.000627 (Bonferroni)
-  Wisconsin_lag3: p=0.028145 (Uncorrected)
-  Wisconsin_lag4: p=0.020407 (Uncorrected)
+  Wisconsin_maxlag1_lag1: p=0.000627 (Bonferroni)
+  Wisconsin_maxlag3_lag1: p=0.028145 (Uncorrected)
+  Wisconsin_maxlag4_lag1: p=0.020407 (Uncorrected)
 
 influenza a symptoms significant combinations:
-  Wisconsin_lag1: p=0.004681 (FDR)
-  Wisconsin_lag2: p=0.034063 (Uncorrected)
+  Wisconsin_maxlag1_lag1: p=0.004681 (FDR)
+  Wisconsin_maxlag2_lag1: p=0.034063 (Uncorrected)
 
 the flu symptoms significant combinations:
-  Wisconsin_lag2: p=0.026177 (Uncorrected)
-  Wisconsin_lag3: p=0.006170 (Uncorrected)
-  Wisconsin_lag4: p=0.016587 (Uncorrected)
-  Wisconsin_lag5: p=0.016099 (Uncorrected)
+  Wisconsin_maxlag2_lag2: p=0.026177 (Uncorrected)
+  Wisconsin_maxlag3_lag2: p=0.016272 (Uncorrected)
+  Wisconsin_maxlag3_lag3: p=0.006170 (Uncorrected)
+  Wisconsin_maxlag4_lag2: p=0.026811 (Uncorrected)
+  Wisconsin_maxlag4_lag3: p=0.016587 (Uncorrected)
+  Wisconsin_maxlag5_lag2: p=0.016099 (Uncorrected)
+  Wisconsin_maxlag5_lag3: p=0.046111 (Uncorrected)
 
 influenza a significant combinations:
-  Wisconsin_lag2: p=0.032026 (Uncorrected)
-  Wisconsin_lag3: p=0.011031 (Uncorrected)
-  Wisconsin_lag4: p=0.015009 (Uncorrected)
-  Wisconsin_lag5: p=0.019349 (Uncorrected)
+  Wisconsin_maxlag2_lag1: p=0.032026 (Uncorrected)
+  Wisconsin_maxlag3_lag1: p=0.011031 (Uncorrected)
+  Wisconsin_maxlag4_lag1: p=0.015009 (Uncorrected)
+  Wisconsin_maxlag5_lag1: p=0.019349 (Uncorrected)
 
 a influenza significant combinations:
-  Wisconsin_lag2: p=0.012125 (Uncorrected)
-  Wisconsin_lag3: p=0.044665 (Uncorrected)
+  Wisconsin_maxlag2_lag2: p=0.012125 (Uncorrected)
+  Wisconsin_maxlag3_lag2: p=0.044665 (Uncorrected)
 
 rsv significant combinations:
-  Wisconsin_lag2: p=0.012687 (Uncorrected)
+  Wisconsin_maxlag2_lag2: p=0.012687 (Uncorrected)
 
 pneumonia significant combinations:
-  Wisconsin_lag1: p=0.044118 (Uncorrected)
-  Wisconsin_lag3: p=0.041719 (Uncorrected)
+  Wisconsin_maxlag1_lag1: p=0.044118 (Uncorrected)
+  Wisconsin_maxlag3_lag3: p=0.041719 (Uncorrected)
 

@@ -1,46 +1,49 @@
 === GRANGER CAUSALITY SIGNIFICANT TERMS SUMMARY ===
 Data file analyzed: Hawaii_2010_2020.csv
 Response variable: Hawaii
-Total significant term combinations: 22
+Total significant term combinations: 25
 Unique terms: 8
 Response variables analyzed: Hawaii
-Max lags tested: 5, 4, 3, 2, 1
+Max lags tested: 3, 4, 1, 5, 2
 
 influenza a significant combinations:
-  Hawaii_lag3: p=0.006014 (Uncorrected)
-  Hawaii_lag4: p=0.005346 (Uncorrected)
-  Hawaii_lag5: p=0.003657 (Uncorrected)
+  Hawaii_maxlag3_lag3: p=0.006014 (Uncorrected)
+  Hawaii_maxlag4_lag3: p=0.022659 (Uncorrected)
+  Hawaii_maxlag4_lag4: p=0.005346 (Uncorrected)
+  Hawaii_maxlag5_lag3: p=0.009646 (Uncorrected)
+  Hawaii_maxlag5_lag4: p=0.003657 (Uncorrected)
+  Hawaii_maxlag5_lag5: p=0.012518 (Uncorrected)
 
 the flu symptoms significant combinations:
-  Hawaii_lag4: p=0.021577 (Uncorrected)
-  Hawaii_lag5: p=0.009591 (Uncorrected)
+  Hawaii_maxlag4_lag4: p=0.021577 (Uncorrected)
+  Hawaii_maxlag5_lag4: p=0.009591 (Uncorrected)
 
 rsv significant combinations:
-  Hawaii_lag1: p=0.011380 (Uncorrected)
-  Hawaii_lag2: p=0.031227 (Uncorrected)
-  Hawaii_lag3: p=0.033216 (Uncorrected)
-  Hawaii_lag4: p=0.048809 (Uncorrected)
-  Hawaii_lag5: p=0.043518 (Uncorrected)
+  Hawaii_maxlag1_lag1: p=0.011380 (Uncorrected)
+  Hawaii_maxlag2_lag1: p=0.031227 (Uncorrected)
+  Hawaii_maxlag3_lag2: p=0.033216 (Uncorrected)
+  Hawaii_maxlag4_lag1: p=0.048809 (Uncorrected)
+  Hawaii_maxlag5_lag2: p=0.043518 (Uncorrected)
 
 a influenza significant combinations:
-  Hawaii_lag1: p=0.016666 (Uncorrected)
-  Hawaii_lag2: p=0.028807 (Uncorrected)
-  Hawaii_lag3: p=0.028238 (Uncorrected)
-  Hawaii_lag4: p=0.027594 (Uncorrected)
+  Hawaii_maxlag1_lag1: p=0.016666 (Uncorrected)
+  Hawaii_maxlag2_lag1: p=0.028807 (Uncorrected)
+  Hawaii_maxlag3_lag1: p=0.028238 (Uncorrected)
+  Hawaii_maxlag4_lag1: p=0.027594 (Uncorrected)
 
 flu how long significant combinations:
-  Hawaii_lag4: p=0.016815 (Uncorrected)
+  Hawaii_maxlag4_lag4: p=0.016815 (Uncorrected)
 
 flu symptoms significant combinations:
-  Hawaii_lag1: p=0.022863 (Uncorrected)
-  Hawaii_lag2: p=0.026681 (Uncorrected)
+  Hawaii_maxlag1_lag1: p=0.022863 (Uncorrected)
+  Hawaii_maxlag2_lag1: p=0.026681 (Uncorrected)
 
 flu fever significant combinations:
-  Hawaii_lag1: p=0.045433 (Uncorrected)
-  Hawaii_lag2: p=0.044128 (Uncorrected)
-  Hawaii_lag3: p=0.036380 (Uncorrected)
-  Hawaii_lag4: p=0.028411 (Uncorrected)
+  Hawaii_maxlag1_lag1: p=0.045433 (Uncorrected)
+  Hawaii_maxlag2_lag1: p=0.044128 (Uncorrected)
+  Hawaii_maxlag3_lag1: p=0.036380 (Uncorrected)
+  Hawaii_maxlag4_lag1: p=0.028411 (Uncorrected)
 
 symptoms of flu significant combinations:
-  Hawaii_lag3: p=0.041754 (Uncorrected)
+  Hawaii_maxlag3_lag3: p=0.041754 (Uncorrected)
 

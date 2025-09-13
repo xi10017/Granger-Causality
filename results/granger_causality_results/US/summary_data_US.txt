@@ -1,87 +1,93 @@
 === GRANGER CAUSALITY SIGNIFICANT TERMS SUMMARY ===
 Data file analyzed: US_2010_2020.csv
 Response variable: US
-Total significant term combinations: 49
+Total significant term combinations: 55
 Unique terms: 15
 Response variables analyzed: US
-Max lags tested: 3, 5, 2, 4, 1
+Max lags tested: 5, 2, 3, 1, 4
 
 how long contagious significant combinations:
-  US_lag1: p=0.003864 (FDR)
-  US_lag3: p=0.000019 (Bonferroni)
-  US_lag4: p=0.001092 (Bonferroni)
-  US_lag5: p=0.006779 (FDR)
+  US_maxlag1_lag1: p=0.003864 (FDR)
+  US_maxlag3_lag3: p=0.000019 (Bonferroni)
+  US_maxlag4_lag2: p=0.047054 (FDR)
+  US_maxlag4_lag3: p=0.001092 (Bonferroni)
+  US_maxlag5_lag2: p=0.027479 (FDR)
+  US_maxlag5_lag3: p=0.006779 (FDR)
+  US_maxlag5_lag4: p=0.027849 (FDR)
 
 is flu contagious significant combinations:
-  US_lag1: p=0.000808 (Bonferroni)
-  US_lag2: p=0.000077 (Bonferroni)
-  US_lag3: p=0.000417 (Bonferroni)
-  US_lag4: p=0.002367 (Bonferroni)
-  US_lag5: p=0.001092 (Bonferroni)
+  US_maxlag1_lag1: p=0.000808 (Bonferroni)
+  US_maxlag2_lag1: p=0.000077 (Bonferroni)
+  US_maxlag3_lag1: p=0.000417 (Bonferroni)
+  US_maxlag4_lag1: p=0.002367 (Bonferroni)
+  US_maxlag5_lag1: p=0.001092 (Bonferroni)
 
 contagious flu significant combinations:
-  US_lag2: p=0.000499 (Bonferroni)
-  US_lag3: p=0.002592 (FDR)
-  US_lag4: p=0.010868 (FDR)
-  US_lag5: p=0.005348 (FDR)
+  US_maxlag2_lag1: p=0.000499 (Bonferroni)
+  US_maxlag3_lag1: p=0.002592 (FDR)
+  US_maxlag4_lag1: p=0.010868 (FDR)
+  US_maxlag4_lag4: p=0.017406 (FDR)
+  US_maxlag5_lag1: p=0.005348 (FDR)
 
 get rid of flu significant combinations:
-  US_lag2: p=0.000681 (Bonferroni)
+  US_maxlag2_lag2: p=0.000681 (Bonferroni)
 
 is the flu contagious significant combinations:
-  US_lag1: p=0.000926 (Bonferroni)
-  US_lag2: p=0.002290 (Bonferroni)
-  US_lag3: p=0.008150 (FDR)
-  US_lag4: p=0.009061 (FDR)
-  US_lag5: p=0.010495 (FDR)
+  US_maxlag1_lag1: p=0.000926 (Bonferroni)
+  US_maxlag2_lag1: p=0.002290 (Bonferroni)
+  US_maxlag3_lag1: p=0.008150 (FDR)
+  US_maxlag4_lag1: p=0.009061 (FDR)
+  US_maxlag5_lag1: p=0.010495 (FDR)
 
 how long are you contagious significant combinations:
-  US_lag1: p=0.001032 (Bonferroni)
+  US_maxlag1_lag1: p=0.001032 (Bonferroni)
 
 flu type significant combinations:
-  US_lag3: p=0.042341 (Uncorrected)
-  US_lag5: p=0.001568 (Bonferroni)
+  US_maxlag3_lag3: p=0.042341 (Uncorrected)
+  US_maxlag5_lag2: p=0.006562 (FDR)
+  US_maxlag5_lag5: p=0.001568 (Bonferroni)
 
 flu type a significant combinations:
-  US_lag3: p=0.031797 (Uncorrected)
-  US_lag4: p=0.021133 (Uncorrected)
-  US_lag5: p=0.001995 (Bonferroni)
+  US_maxlag3_lag2: p=0.031797 (Uncorrected)
+  US_maxlag4_lag2: p=0.021133 (Uncorrected)
+  US_maxlag5_lag2: p=0.001995 (Bonferroni)
 
 type a flu significant combinations:
-  US_lag3: p=0.032219 (Uncorrected)
-  US_lag4: p=0.021276 (Uncorrected)
-  US_lag5: p=0.002007 (Bonferroni)
+  US_maxlag3_lag2: p=0.032219 (Uncorrected)
+  US_maxlag4_lag2: p=0.021276 (Uncorrected)
+  US_maxlag5_lag2: p=0.002007 (Bonferroni)
 
 how long is flu contagious significant combinations:
-  US_lag1: p=0.031225 (Uncorrected)
-  US_lag2: p=0.032959 (Uncorrected)
-  US_lag4: p=0.002462 (Bonferroni)
-  US_lag5: p=0.016167 (FDR)
+  US_maxlag1_lag1: p=0.031225 (Uncorrected)
+  US_maxlag2_lag1: p=0.032959 (Uncorrected)
+  US_maxlag4_lag4: p=0.002462 (Bonferroni)
+  US_maxlag5_lag2: p=0.030852 (FDR)
+  US_maxlag5_lag4: p=0.016167 (FDR)
 
 tamiflu side effects significant combinations:
-  US_lag1: p=0.004328 (FDR)
-  US_lag2: p=0.029563 (Uncorrected)
-  US_lag3: p=0.024285 (Uncorrected)
-  US_lag4: p=0.019667 (Uncorrected)
-  US_lag5: p=0.031487 (Uncorrected)
+  US_maxlag1_lag1: p=0.004328 (FDR)
+  US_maxlag2_lag1: p=0.029563 (Uncorrected)
+  US_maxlag3_lag1: p=0.024285 (Uncorrected)
+  US_maxlag4_lag1: p=0.019667 (Uncorrected)
+  US_maxlag5_lag1: p=0.031487 (Uncorrected)
 
 cough fever significant combinations:
-  US_lag2: p=0.035928 (Uncorrected)
-  US_lag4: p=0.022652 (Uncorrected)
-  US_lag5: p=0.035785 (Uncorrected)
+  US_maxlag2_lag1: p=0.035928 (Uncorrected)
+  US_maxlag4_lag1: p=0.022652 (Uncorrected)
+  US_maxlag5_lag1: p=0.035785 (Uncorrected)
 
 fever cough significant combinations:
-  US_lag1: p=0.022673 (Uncorrected)
-  US_lag2: p=0.030660 (Uncorrected)
-  US_lag4: p=0.030611 (Uncorrected)
-  US_lag5: p=0.043077 (Uncorrected)
+  US_maxlag1_lag1: p=0.022673 (Uncorrected)
+  US_maxlag2_lag1: p=0.030660 (Uncorrected)
+  US_maxlag4_lag1: p=0.030611 (Uncorrected)
+  US_maxlag5_lag1: p=0.043077 (Uncorrected)
 
 get rid of the flu significant combinations:
-  US_lag3: p=0.033236 (Uncorrected)
-  US_lag4: p=0.047996 (Uncorrected)
-  US_lag5: p=0.027154 (Uncorrected)
+  US_maxlag3_lag1: p=0.033236 (Uncorrected)
+  US_maxlag4_lag1: p=0.047996 (Uncorrected)
+  US_maxlag5_lag1: p=0.027154 (Uncorrected)
 
 flu contagious significant combinations:
-  US_lag4: p=0.030439 (Uncorrected)
-  US_lag5: p=0.039253 (Uncorrected)
+  US_maxlag4_lag4: p=0.030439 (Uncorrected)
+  US_maxlag5_lag4: p=0.039253 (Uncorrected)
 

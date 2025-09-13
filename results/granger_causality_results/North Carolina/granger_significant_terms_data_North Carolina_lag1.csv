@@ -1,0 +1,4 @@
+Term,Lag,P_Value,Significance
+fever flu,1,0.0066393132608043364,Uncorrected
+flu cold,1,0.010703480211713102,Uncorrected
+flu symptoms,1,0.020157889797395415,Uncorrected

@@ -1,0 +1,10 @@
+Term,Lag,P_Value,Significance
+bronchitis,3,0.00043257229348824346,Bonferroni
+flu contagious,1,0.03938869816942983,FDR
+flu contagious,2,0.0034786361807981714,FDR
+flu how long,1,0.03648707300112274,Uncorrected
+flu incubation,2,0.005296607591881004,FDR
+flu symptoms,1,0.0022597191913686925,Bonferroni
+flu type,1,0.04040367189666438,Uncorrected
+how long contagious,3,0.03077540860155289,Uncorrected
+symptoms of the flu,2,0.0063086637466975995,FDR

@@ -1,0 +1,14 @@
+Term,Lag,P_Value,Significance
+b flu,1,0.009740056238762878,FDR
+cold,1,0.00014398705917653416,Bonferroni
+cold,2,0.0248046542004489,FDR
+fever flu,3,0.00040662827251439963,Bonferroni
+flu cold,3,0.04902525924233149,Uncorrected
+flu how long,1,0.03611493243102448,Uncorrected
+flu type,2,0.03021788447611416,Uncorrected
+pneumonia,3,0.028726284376890385,Uncorrected
+rsv,5,0.007159055906925519,FDR
+symptoms of flu,1,0.015950247642618248,Uncorrected
+symptoms of flu,2,0.01620079043686897,Uncorrected
+the flu,2,0.004154975924059256,FDR
+type a flu,2,0.03339905406213697,Uncorrected

@@ -1,0 +1,13 @@
+Term,Lag,P_Value,Significance
+bronchitis,4,0.005084840447283737,FDR
+cold,2,0.0003530019319287103,Bonferroni
+cold,4,0.014564862456176721,FDR
+flu symptoms,3,0.04380111490382095,Uncorrected
+how long does flu last,1,0.0013977950574962333,Bonferroni
+rsv,2,0.009384776877073599,FDR
+sinus,1,0.04645806465710112,Uncorrected
+symptoms of flu,3,0.029280477763684917,Uncorrected
+symptoms of the flu,2,0.002950678668139483,FDR
+the flu,1,9.08756419060751e-08,Bonferroni
+the flu,4,0.004715516502411114,FDR
+the flu symptoms,4,0.01226290420641575,FDR

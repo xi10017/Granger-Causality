@@ -1,0 +1,5 @@
+Term,Lag,P_Value,Significance
+flu a,1,0.027113937658248544,Uncorrected
+pneumonia,1,0.01912628499668481,Uncorrected
+rsv,2,0.03821947620681325,Uncorrected
+strep,2,0.023207100144530524,Uncorrected

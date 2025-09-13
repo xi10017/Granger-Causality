@@ -1,0 +1,7 @@
+Term,Lag,P_Value,Significance
+flu how long,1,0.04650384661937231,Uncorrected
+how long does flu last,3,0.0019099268357503924,Bonferroni
+influenza a,1,0.006555851060657966,FDR
+sinus,2,0.02804292024339579,Uncorrected
+the flu,1,0.00096465318101618,Bonferroni
+the flu,2,0.007312986904252046,FDR

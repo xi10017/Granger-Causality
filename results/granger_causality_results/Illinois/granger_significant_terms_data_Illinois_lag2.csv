@@ -1,0 +1,7 @@
+Term,Lag,P_Value,Significance
+a influenza,2,0.015728447588774383,Uncorrected
+cold,1,0.03519256571875925,Uncorrected
+cold,2,0.04738107116936593,Uncorrected
+influenza a,1,0.003861467304090193,FDR
+the flu,1,0.00024734987829390257,Bonferroni
+the flu,2,0.0003792648420217624,Bonferroni

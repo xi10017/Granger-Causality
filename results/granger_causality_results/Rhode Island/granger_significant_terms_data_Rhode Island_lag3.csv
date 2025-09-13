@@ -1,0 +1,13 @@
+Term,Lag,P_Value,Significance
+contagious flu,2,0.004505847634555878,FDR
+fever flu,1,0.0030970443524622826,FDR
+fever flu,3,0.0010355242996830222,Bonferroni
+flu contagious,2,0.004505847651513229,FDR
+flu fever,1,0.003097044338799435,FDR
+flu fever,3,0.0010355242987608625,Bonferroni
+flu symptoms,1,0.04834636657357506,Uncorrected
+influenza a,3,0.03632067250497212,Uncorrected
+rsv,1,0.022715718624905654,Uncorrected
+rsv,2,0.03464484964040268,Uncorrected
+stomach flu,1,0.004571479636217321,FDR
+the flu,2,0.02601517499350152,Uncorrected

@@ -1,0 +1,9 @@
+Term,Lag,P_Value,Significance
+bronchitis,2,0.02239296058808166,Uncorrected
+fever flu,2,0.0347307936438859,Uncorrected
+flu fever,2,0.03473079364533953,Uncorrected
+how long contagious,2,0.00016936928066770584,Bonferroni
+rsv,1,0.0004289531497301868,Bonferroni
+stomach flu,1,0.0012284848393135355,Bonferroni
+stomach flu,2,3.483061660659108e-05,Bonferroni
+stomach flu symptoms,2,0.009386020033313318,FDR

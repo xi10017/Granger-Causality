@@ -1,0 +1,9 @@
+Term,Lag,P_Value,Significance
+b flu,2,0.0419233390502222,Uncorrected
+bronchitis,1,0.01163910761867846,Uncorrected
+fever flu,2,0.02162652001851298,Uncorrected
+flu cold,1,0.005991326782482657,Uncorrected
+flu cold,3,0.03498318319961655,Uncorrected
+flu type,1,0.0030610536591107688,Uncorrected
+how long does the flu last,1,0.027402779541226108,Uncorrected
+the flu,2,0.022942181949117544,Uncorrected

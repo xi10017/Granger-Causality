@@ -1,0 +1,10 @@
+Term,Lag,P_Value,Significance
+b flu,2,0.027935498708439643,FDR
+b flu,4,0.007972664972347436,FDR
+bronchitis,1,0.043093467786389936,Uncorrected
+fever flu,2,0.0365679382409383,Uncorrected
+flu incubation period,1,0.018506953612342995,Uncorrected
+flu type,4,6.631326952061791e-05,Bonferroni
+how long does the flu last,1,0.001831745307022874,Bonferroni
+the flu,1,0.013082050057928628,FDR
+the flu,2,0.005280160327570503,FDR

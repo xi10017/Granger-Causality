@@ -1,0 +1,8 @@
+Term,Lag,P_Value,Significance
+a influenza,1,0.027593581233954712,Uncorrected
+flu fever,1,0.02841143513146254,Uncorrected
+flu how long,4,0.016815180619364014,Uncorrected
+influenza a,3,0.0226588923729375,Uncorrected
+influenza a,4,0.005346173812310437,Uncorrected
+rsv,1,0.0488094816684675,Uncorrected
+the flu symptoms,4,0.021576932678047157,Uncorrected

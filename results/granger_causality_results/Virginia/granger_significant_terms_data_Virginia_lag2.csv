@@ -1,0 +1,7 @@
+Term,Lag,P_Value,Significance
+flu incubation,1,0.015224625705963724,Uncorrected
+is flu contagious,2,7.715909119293458e-05,Bonferroni
+pneumonia,2,0.036486868342263556,Uncorrected
+rsv,2,0.043475222552735324,Uncorrected
+the flu,1,0.035270828975162934,FDR
+the flu,2,0.0005420914040625655,Bonferroni

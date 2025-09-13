@@ -1,0 +1,18 @@
+Term,Lag,P_Value,Significance
+a influenza,5,0.045194940419175905,Uncorrected
+bronchitis,1,0.042787233924098146,Uncorrected
+cold,1,7.607179588382954e-07,Bonferroni
+cold,4,0.025878798428470417,FDR
+fever flu,2,0.017229335425372104,Uncorrected
+flu a,4,0.04512036438626578,Uncorrected
+flu cold,1,0.0333001012023179,Uncorrected
+flu cold,5,0.012525037394097686,Uncorrected
+flu how long,4,0.01151249081147846,Uncorrected
+flu how long,5,0.029470891967940782,Uncorrected
+how long flu,1,0.020336446882772013,Uncorrected
+influenza a,5,0.04952530924725364,Uncorrected
+sinus,1,0.01627684074159589,Uncorrected
+sinus,5,0.008344909197805164,Uncorrected
+stomach flu,5,0.017199581518009006,Uncorrected
+symptoms of flu,4,0.049751718325488976,Uncorrected
+the flu symptoms,2,0.045595966800760585,Uncorrected

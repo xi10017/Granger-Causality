@@ -1,0 +1,11 @@
+Term,Lag,P_Value,Significance
+cold symptoms,1,0.041033252214188624,Uncorrected
+how long contagious,2,0.015693930936945676,Uncorrected
+how long does the flu last,4,0.004993646940499653,FDR
+robitussin,3,0.0024240695260909976,Bonferroni
+rsv,1,0.03203519311995181,Uncorrected
+stomach flu,1,0.015363704405287887,Uncorrected
+stomach flu,2,0.011994396801771225,Uncorrected
+stomach flu symptoms,2,0.0441835525626205,Uncorrected
+stomach flu symptoms,3,0.03788602182294779,Uncorrected
+stomach flu symptoms,5,0.032243009595898736,Uncorrected

@@ -1,0 +1,9 @@
+Term,Lag,P_Value,Significance
+a influenza,1,2.9259658997971866e-05,Bonferroni
+flu symptoms,1,0.023699720163751797,Uncorrected
+influenza a,1,2.9259658833284676e-05,Bonferroni
+influenza a symptoms,1,0.0070496836315041885,FDR
+rsv,1,0.00017055971351798236,Bonferroni
+stomach flu,1,0.03860588497154696,Uncorrected
+symptoms of influenza,1,0.009310151633400744,FDR
+the flu,1,0.040430909374353105,Uncorrected

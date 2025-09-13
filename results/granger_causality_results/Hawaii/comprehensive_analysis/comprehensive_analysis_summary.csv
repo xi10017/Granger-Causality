@@ -1,8 +1,8 @@
 Term,Category,Count,Mean_Pvalue,Median_Pvalue,Min_Pvalue,Max_Pvalue
+influenza a,Uncorrected,6,0.009973333333333332,0.00783,0.003657,0.022659
 rsv,Uncorrected,5,0.03363,0.033216,0.01138,0.048809
 a influenza,Uncorrected,4,0.02532625,0.027916,0.016666,0.028807
 flu fever,Uncorrected,4,0.038588,0.040254,0.028411,0.045433
-influenza a,Uncorrected,3,0.005005666666666667,0.005346,0.003657,0.006014
 the flu symptoms,Uncorrected,2,0.015584,0.015584,0.009591,0.021577
 flu symptoms,Uncorrected,2,0.024772000000000002,0.024772000000000002,0.022863,0.026681
 flu how long,Uncorrected,1,0.016815,0.016815,0.016815,0.016815

@@ -1,0 +1,10 @@
+Term,Lag,P_Value,Significance
+flu a,1,0.0034828348529494985,FDR
+flu fever,1,0.02134909484091409,Uncorrected
+flu fever,3,0.04168223795072382,Uncorrected
+flu symptoms,5,0.04055274778285664,Uncorrected
+flu type,3,0.013258517700955963,Uncorrected
+pneumonia,3,0.03463431510935182,Uncorrected
+the flu,1,0.027243962448595675,FDR
+the flu,2,0.0060362396344301955,FDR
+the flu,3,0.002268949111861417,Bonferroni

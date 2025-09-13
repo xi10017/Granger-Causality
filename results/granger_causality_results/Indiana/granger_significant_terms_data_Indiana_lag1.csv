@@ -1,0 +1,9 @@
+Term,Lag,P_Value,Significance
+flu how long,1,0.003885587363111164,FDR
+flu symptoms,1,0.007416535841374878,FDR
+how long flu,1,0.0038855873657619405,FDR
+influenza a,1,0.0012847889123621668,Bonferroni
+influenza symptoms,1,0.015627405130482875,Uncorrected
+rsv,1,0.001102769828356157,Bonferroni
+stomach flu,1,0.04511246721528968,Uncorrected
+the flu,1,0.04587509079267614,Uncorrected

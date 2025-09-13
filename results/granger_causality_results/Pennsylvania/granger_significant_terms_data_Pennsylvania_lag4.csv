@@ -1,0 +1,10 @@
+Term,Lag,P_Value,Significance
+a influenza,4,0.0004044863324570623,Bonferroni
+cold,2,0.003540905952753917,FDR
+contagious flu,1,0.027250998129693706,Uncorrected
+flu contagious,1,0.010056285755866746,FDR
+flu contagious,4,0.011764583403787304,FDR
+flu symptoms,2,0.015032716177802158,FDR
+flu symptoms,3,0.0035140933533304875,FDR
+influenza a,4,0.0004044863325567267,Bonferroni
+the flu,1,0.0009677516391351158,Bonferroni

@@ -1,0 +1,6 @@
+Term,Lag,P_Value,Significance
+a influenza,1,0.049593757749380414,Uncorrected
+fever flu,1,0.004727908108001302,FDR
+flu fever,1,0.004727908107735238,FDR
+influenza a,1,0.049593757748131226,Uncorrected
+rsv,1,0.04120349890082665,Uncorrected

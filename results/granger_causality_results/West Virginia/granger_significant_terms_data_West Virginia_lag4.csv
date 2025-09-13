@@ -1,0 +1,12 @@
+Term,Lag,P_Value,Significance
+a influenza,4,0.015059862434656042,FDR
+bronchitis,1,0.044135230214665824,Uncorrected
+contagious flu,3,8.554323799110961e-05,Bonferroni
+fever flu,2,0.020942492377321036,FDR
+flu cold,2,0.0008078561153870369,Bonferroni
+flu fever,2,0.020942492220164418,FDR
+flu symptoms,1,0.00039967440053484654,Bonferroni
+how long does flu last,4,0.039507333956148555,Uncorrected
+influenza a,4,0.015059862426351328,FDR
+rsv,1,0.0009159707711821795,Bonferroni
+the flu symptoms,3,0.011234120202611851,FDR

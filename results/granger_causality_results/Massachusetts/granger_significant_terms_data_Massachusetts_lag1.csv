@@ -1,0 +1,4 @@
+Term,Lag,P_Value,Significance
+how long does flu last,1,0.002436424941810532,Bonferroni
+rsv,1,1.020437876084159e-11,Bonferroni
+the flu,1,8.975096443471323e-10,Bonferroni

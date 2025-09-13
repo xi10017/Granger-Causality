@@ -1,0 +1,18 @@
+Term,Lag,P_Value,Significance
+contagious flu,1,0.005347755667746674,FDR
+cough fever,1,0.035785153011243076,Uncorrected
+fever cough,1,0.04307711246650818,Uncorrected
+flu contagious,4,0.039253464583113254,Uncorrected
+flu type,2,0.006561594449459469,FDR
+flu type,5,0.0015681438206960482,Bonferroni
+flu type a,2,0.0019949976538868324,Bonferroni
+get rid of the flu,1,0.027154060123091784,Uncorrected
+how long contagious,2,0.027479306577093108,FDR
+how long contagious,3,0.006779005192077254,FDR
+how long contagious,4,0.02784919895088976,FDR
+how long is flu contagious,2,0.030852390753665145,FDR
+how long is flu contagious,4,0.016166741627490547,FDR
+is flu contagious,1,0.001092215036926812,Bonferroni
+is the flu contagious,1,0.010495472994537954,FDR
+tamiflu side effects,1,0.031487094143898796,Uncorrected
+type a flu,2,0.002006657205031028,Bonferroni

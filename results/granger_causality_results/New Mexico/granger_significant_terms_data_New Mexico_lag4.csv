@@ -1,0 +1,13 @@
+Term,Lag,P_Value,Significance
+a influenza,1,0.02832213910651539,Uncorrected
+contagious flu,1,0.04189869531650498,Uncorrected
+contagious flu,3,0.029637287850176792,Uncorrected
+fever flu,1,0.02679290812834563,Uncorrected
+flu cold,1,0.0035494965740017472,Uncorrected
+flu cold,2,0.030449862304042504,Uncorrected
+flu contagious,1,0.041898695173116514,Uncorrected
+flu contagious,3,0.029637287861544574,Uncorrected
+how long does flu last,3,0.013842662664758943,Uncorrected
+influenza a,2,0.02550411620272436,Uncorrected
+stomach flu,3,0.04515921803294806,Uncorrected
+the flu symptoms,4,0.01503240874040476,Uncorrected

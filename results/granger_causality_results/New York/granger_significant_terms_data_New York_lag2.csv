@@ -1,0 +1,5 @@
+Term,Lag,P_Value,Significance
+bronchitis,2,0.002787726325440302,FDR
+how long does the flu last,1,0.04213834107577699,Uncorrected
+symptoms of flu,2,0.04760738508330615,Uncorrected
+the flu,1,0.0015706027132327282,Bonferroni

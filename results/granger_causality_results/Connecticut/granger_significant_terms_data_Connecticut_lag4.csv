@@ -1,0 +1,10 @@
+Term,Lag,P_Value,Significance
+flu how long,2,0.03679460020213957,Uncorrected
+flu how long,3,0.028418154075978856,Uncorrected
+how long flu,2,0.036794600265646245,Uncorrected
+how long flu,3,0.028418154084447908,Uncorrected
+rsv,1,0.00043932484550821015,Bonferroni
+rsv,2,0.042764429533427274,FDR
+stomach flu,2,0.01678842638850886,Uncorrected
+strep,3,0.04454168565741207,Uncorrected
+the flu,1,0.03124721541735129,Uncorrected

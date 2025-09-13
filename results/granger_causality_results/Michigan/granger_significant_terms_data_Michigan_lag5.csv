@@ -1,0 +1,8 @@
+Term,Lag,P_Value,Significance
+flu how long,4,0.03920507318266516,Uncorrected
+influenza a,5,0.026385301140610874,Uncorrected
+is flu contagious,1,0.0114691412480906,Uncorrected
+is flu contagious,2,0.0336414719820178,Uncorrected
+rsv,2,0.04391971637708813,Uncorrected
+rsv,3,0.03433328664088805,Uncorrected
+symptoms of flu,4,0.02895091995109981,Uncorrected

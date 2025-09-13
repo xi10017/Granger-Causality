@@ -1,0 +1,12 @@
+Term,Lag,P_Value,Significance
+bronchitis,2,0.035498632114634714,Uncorrected
+flu a,3,0.007189021147810251,FDR
+flu cold,5,0.03550315813718353,Uncorrected
+flu how long,5,0.00465101437090875,FDR
+flu symptoms,1,0.009893502720749497,FDR
+how long does flu last,1,4.007719932210421e-05,Bonferroni
+how long does flu last,3,0.012019843521922455,FDR
+how long flu,5,0.004651014385203451,FDR
+pneumonia,5,0.029141349668405373,Uncorrected
+symptoms of flu,3,0.0010177178563158292,Bonferroni
+the flu symptoms,5,0.0017438523509980017,Bonferroni

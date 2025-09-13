@@ -1,0 +1,10 @@
+Term,Lag,P_Value,Significance
+a influenza,4,0.001242353866749079,Bonferroni
+bronchitis,4,0.042879379842185365,Uncorrected
+cold,2,0.003962790605412643,FDR
+fever flu,1,0.031348682285671586,Uncorrected
+flu a,3,0.002484419990035359,Bonferroni
+flu fever,2,0.041270519432411036,Uncorrected
+flu fever,3,0.032607205141547066,Uncorrected
+how long does flu last,3,0.0038585962972453474,FDR
+influenza a,4,0.0012423538613444516,Bonferroni

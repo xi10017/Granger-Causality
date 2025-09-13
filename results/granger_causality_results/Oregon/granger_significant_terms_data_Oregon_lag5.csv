@@ -1,0 +1,9 @@
+Term,Lag,P_Value,Significance
+flu a,1,0.0025889026706137244,Uncorrected
+flu cold,2,0.028440733788074928,Uncorrected
+flu cold,4,0.01757383755491138,Uncorrected
+flu contagious,3,0.02113933446373267,Uncorrected
+rsv,1,0.008092744448884135,Uncorrected
+symptoms of flu,5,0.016956156645294745,Uncorrected
+the flu,1,0.04846581165365947,Uncorrected
+the flu symptoms,2,0.005234558392417755,Uncorrected

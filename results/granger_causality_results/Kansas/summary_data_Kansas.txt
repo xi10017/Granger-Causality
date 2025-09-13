@@ -1,62 +1,70 @@
 === GRANGER CAUSALITY SIGNIFICANT TERMS SUMMARY ===
 Data file analyzed: Kansas_2010_2020.csv
 Response variable: Kansas
-Total significant term combinations: 32
+Total significant term combinations: 40
 Unique terms: 11
 Response variables analyzed: Kansas
-Max lags tested: 1, 4, 5, 3, 2
+Max lags tested: 5, 3, 2, 1, 4
 
 influenza b significant combinations:
-  Kansas_lag3: p=0.000993 (Bonferroni)
-  Kansas_lag4: p=0.000043 (Bonferroni)
-  Kansas_lag5: p=0.000021 (Bonferroni)
+  Kansas_maxlag3_lag2: p=0.035134 (FDR)
+  Kansas_maxlag3_lag3: p=0.000993 (Bonferroni)
+  Kansas_maxlag4_lag3: p=0.000043 (Bonferroni)
+  Kansas_maxlag5_lag2: p=0.023673 (FDR)
+  Kansas_maxlag5_lag3: p=0.000021 (Bonferroni)
 
 stomach flu significant combinations:
-  Kansas_lag1: p=0.000028 (Bonferroni)
-  Kansas_lag2: p=0.002063 (Bonferroni)
-  Kansas_lag3: p=0.004996 (FDR)
-  Kansas_lag4: p=0.000377 (Bonferroni)
-  Kansas_lag5: p=0.000428 (Bonferroni)
+  Kansas_maxlag1_lag1: p=0.000028 (Bonferroni)
+  Kansas_maxlag2_lag1: p=0.002063 (Bonferroni)
+  Kansas_maxlag3_lag1: p=0.004996 (FDR)
+  Kansas_maxlag4_lag1: p=0.000377 (Bonferroni)
+  Kansas_maxlag5_lag1: p=0.000428 (Bonferroni)
+  Kansas_maxlag5_lag5: p=0.030770 (FDR)
 
 the flu significant combinations:
-  Kansas_lag2: p=0.000057 (Bonferroni)
-  Kansas_lag3: p=0.000755 (Bonferroni)
-  Kansas_lag4: p=0.000531 (Bonferroni)
-  Kansas_lag5: p=0.000160 (Bonferroni)
+  Kansas_maxlag2_lag1: p=0.000057 (Bonferroni)
+  Kansas_maxlag2_lag2: p=0.000162 (Bonferroni)
+  Kansas_maxlag3_lag1: p=0.000755 (Bonferroni)
+  Kansas_maxlag3_lag3: p=0.044275 (FDR)
+  Kansas_maxlag4_lag1: p=0.000531 (Bonferroni)
+  Kansas_maxlag5_lag1: p=0.000160 (Bonferroni)
 
 influenza symptoms significant combinations:
-  Kansas_lag3: p=0.001657 (Bonferroni)
-  Kansas_lag4: p=0.005581 (FDR)
-  Kansas_lag5: p=0.013438 (FDR)
+  Kansas_maxlag3_lag3: p=0.001657 (Bonferroni)
+  Kansas_maxlag4_lag3: p=0.005581 (FDR)
+  Kansas_maxlag5_lag3: p=0.013438 (FDR)
 
 influenza a symptoms significant combinations:
-  Kansas_lag1: p=0.002131 (Bonferroni)
-  Kansas_lag2: p=0.003093 (FDR)
-  Kansas_lag3: p=0.001949 (Bonferroni)
-  Kansas_lag4: p=0.002036 (Bonferroni)
-  Kansas_lag5: p=0.002691 (FDR)
+  Kansas_maxlag1_lag1: p=0.002131 (Bonferroni)
+  Kansas_maxlag2_lag1: p=0.003093 (FDR)
+  Kansas_maxlag2_lag2: p=0.033400 (FDR)
+  Kansas_maxlag3_lag1: p=0.001949 (Bonferroni)
+  Kansas_maxlag4_lag1: p=0.002036 (Bonferroni)
+  Kansas_maxlag5_lag1: p=0.002691 (FDR)
 
 flu symptoms significant combinations:
-  Kansas_lag3: p=0.016263 (Uncorrected)
-  Kansas_lag4: p=0.003859 (FDR)
-  Kansas_lag5: p=0.003424 (FDR)
+  Kansas_maxlag3_lag2: p=0.016263 (Uncorrected)
+  Kansas_maxlag4_lag2: p=0.005459 (FDR)
+  Kansas_maxlag4_lag4: p=0.003859 (FDR)
+  Kansas_maxlag5_lag2: p=0.003424 (FDR)
+  Kansas_maxlag5_lag4: p=0.004809 (FDR)
 
 pneumonia significant combinations:
-  Kansas_lag4: p=0.007040 (FDR)
-  Kansas_lag5: p=0.010591 (FDR)
+  Kansas_maxlag4_lag4: p=0.007040 (FDR)
+  Kansas_maxlag5_lag4: p=0.010591 (FDR)
 
 influenza a significant combinations:
-  Kansas_lag5: p=0.009240 (FDR)
+  Kansas_maxlag5_lag5: p=0.009240 (FDR)
 
 a influenza significant combinations:
-  Kansas_lag5: p=0.009240 (FDR)
+  Kansas_maxlag5_lag5: p=0.009240 (FDR)
 
 flu how long significant combinations:
-  Kansas_lag1: p=0.048535 (Uncorrected)
-  Kansas_lag2: p=0.015757 (Uncorrected)
-  Kansas_lag3: p=0.026622 (Uncorrected)
-  Kansas_lag4: p=0.029949 (Uncorrected)
+  Kansas_maxlag1_lag1: p=0.048535 (Uncorrected)
+  Kansas_maxlag2_lag2: p=0.015757 (Uncorrected)
+  Kansas_maxlag3_lag2: p=0.026622 (Uncorrected)
+  Kansas_maxlag4_lag4: p=0.029949 (Uncorrected)
 
 rsv significant combinations:
-  Kansas_lag5: p=0.026760 (Uncorrected)
+  Kansas_maxlag5_lag4: p=0.026760 (Uncorrected)
 

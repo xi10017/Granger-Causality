@@ -1,83 +1,101 @@
 === GRANGER CAUSALITY SIGNIFICANT TERMS SUMMARY ===
 Data file analyzed: Minnesota_2010_2020.csv
 Response variable: Minnesota
-Total significant term combinations: 45
+Total significant term combinations: 63
 Unique terms: 15
 Response variables analyzed: Minnesota
-Max lags tested: 2, 5, 1, 4, 3
+Max lags tested: 3, 5, 2, 1, 4
 
 influenza b significant combinations:
-  Minnesota_lag2: p=0.000000 (Bonferroni)
-  Minnesota_lag3: p=0.000000 (Bonferroni)
-  Minnesota_lag4: p=0.000000 (Bonferroni)
-  Minnesota_lag5: p=0.000000 (Bonferroni)
+  Minnesota_maxlag2_lag1: p=0.000000 (Bonferroni)
+  Minnesota_maxlag2_lag2: p=0.000000 (Bonferroni)
+  Minnesota_maxlag3_lag1: p=0.000000 (Bonferroni)
+  Minnesota_maxlag3_lag2: p=0.000000 (Bonferroni)
+  Minnesota_maxlag3_lag3: p=0.029259 (FDR)
+  Minnesota_maxlag4_lag1: p=0.000000 (Bonferroni)
+  Minnesota_maxlag4_lag2: p=0.000000 (Bonferroni)
+  Minnesota_maxlag5_lag1: p=0.000000 (Bonferroni)
+  Minnesota_maxlag5_lag2: p=0.000000 (Bonferroni)
 
 a influenza significant combinations:
-  Minnesota_lag1: p=0.000029 (Bonferroni)
-  Minnesota_lag2: p=0.000026 (Bonferroni)
-  Minnesota_lag3: p=0.000036 (Bonferroni)
-  Minnesota_lag4: p=0.000141 (Bonferroni)
-  Minnesota_lag5: p=0.000319 (Bonferroni)
+  Minnesota_maxlag1_lag1: p=0.000029 (Bonferroni)
+  Minnesota_maxlag2_lag1: p=0.000026 (Bonferroni)
+  Minnesota_maxlag3_lag1: p=0.000036 (Bonferroni)
+  Minnesota_maxlag3_lag3: p=0.000080 (Bonferroni)
+  Minnesota_maxlag4_lag1: p=0.000141 (Bonferroni)
+  Minnesota_maxlag4_lag3: p=0.000644 (Bonferroni)
+  Minnesota_maxlag5_lag1: p=0.000319 (Bonferroni)
+  Minnesota_maxlag5_lag3: p=0.000588 (Bonferroni)
 
 influenza a significant combinations:
-  Minnesota_lag1: p=0.000029 (Bonferroni)
-  Minnesota_lag2: p=0.000026 (Bonferroni)
-  Minnesota_lag3: p=0.000036 (Bonferroni)
-  Minnesota_lag4: p=0.000141 (Bonferroni)
-  Minnesota_lag5: p=0.000319 (Bonferroni)
+  Minnesota_maxlag1_lag1: p=0.000029 (Bonferroni)
+  Minnesota_maxlag2_lag1: p=0.000026 (Bonferroni)
+  Minnesota_maxlag3_lag1: p=0.000036 (Bonferroni)
+  Minnesota_maxlag3_lag3: p=0.000080 (Bonferroni)
+  Minnesota_maxlag4_lag1: p=0.000141 (Bonferroni)
+  Minnesota_maxlag4_lag3: p=0.000644 (Bonferroni)
+  Minnesota_maxlag5_lag1: p=0.000319 (Bonferroni)
+  Minnesota_maxlag5_lag3: p=0.000588 (Bonferroni)
 
 influenza contagious significant combinations:
-  Minnesota_lag2: p=0.000089 (Bonferroni)
-  Minnesota_lag3: p=0.000607 (Bonferroni)
-  Minnesota_lag4: p=0.001164 (Bonferroni)
-  Minnesota_lag5: p=0.000392 (Bonferroni)
+  Minnesota_maxlag2_lag1: p=0.003094 (FDR)
+  Minnesota_maxlag2_lag2: p=0.000089 (Bonferroni)
+  Minnesota_maxlag3_lag1: p=0.009654 (FDR)
+  Minnesota_maxlag3_lag2: p=0.000607 (Bonferroni)
+  Minnesota_maxlag4_lag1: p=0.016912 (FDR)
+  Minnesota_maxlag4_lag2: p=0.001164 (Bonferroni)
+  Minnesota_maxlag5_lag1: p=0.014675 (FDR)
+  Minnesota_maxlag5_lag2: p=0.000392 (Bonferroni)
 
 rsv significant combinations:
-  Minnesota_lag1: p=0.000171 (Bonferroni)
-  Minnesota_lag2: p=0.029663 (Uncorrected)
-  Minnesota_lag3: p=0.046687 (Uncorrected)
-  Minnesota_lag4: p=0.046987 (Uncorrected)
-  Minnesota_lag5: p=0.029338 (Uncorrected)
+  Minnesota_maxlag1_lag1: p=0.000171 (Bonferroni)
+  Minnesota_maxlag2_lag1: p=0.029663 (Uncorrected)
+  Minnesota_maxlag3_lag1: p=0.046687 (Uncorrected)
+  Minnesota_maxlag4_lag1: p=0.046987 (Uncorrected)
+  Minnesota_maxlag5_lag1: p=0.029338 (Uncorrected)
 
 influenza symptoms significant combinations:
-  Minnesota_lag2: p=0.001234 (Bonferroni)
-  Minnesota_lag3: p=0.000643 (Bonferroni)
-  Minnesota_lag4: p=0.000614 (Bonferroni)
-  Minnesota_lag5: p=0.000563 (Bonferroni)
+  Minnesota_maxlag2_lag2: p=0.001234 (Bonferroni)
+  Minnesota_maxlag3_lag2: p=0.000643 (Bonferroni)
+  Minnesota_maxlag4_lag2: p=0.000614 (Bonferroni)
+  Minnesota_maxlag5_lag2: p=0.000563 (Bonferroni)
 
 pneumonia significant combinations:
-  Minnesota_lag2: p=0.003277 (FDR)
-  Minnesota_lag3: p=0.020973 (Uncorrected)
+  Minnesota_maxlag2_lag2: p=0.003277 (FDR)
+  Minnesota_maxlag3_lag2: p=0.020973 (Uncorrected)
 
 influenza a symptoms significant combinations:
-  Minnesota_lag1: p=0.007050 (FDR)
-  Minnesota_lag2: p=0.004382 (FDR)
-  Minnesota_lag3: p=0.012876 (FDR)
-  Minnesota_lag4: p=0.019382 (Uncorrected)
-  Minnesota_lag5: p=0.010478 (FDR)
+  Minnesota_maxlag1_lag1: p=0.007050 (FDR)
+  Minnesota_maxlag2_lag1: p=0.004382 (FDR)
+  Minnesota_maxlag3_lag1: p=0.012876 (FDR)
+  Minnesota_maxlag4_lag1: p=0.019382 (Uncorrected)
+  Minnesota_maxlag5_lag1: p=0.010478 (FDR)
 
 symptoms of influenza significant combinations:
-  Minnesota_lag1: p=0.009310 (FDR)
-  Minnesota_lag2: p=0.015112 (FDR)
-  Minnesota_lag3: p=0.006903 (FDR)
-  Minnesota_lag4: p=0.007466 (FDR)
-  Minnesota_lag5: p=0.012593 (FDR)
+  Minnesota_maxlag1_lag1: p=0.009310 (FDR)
+  Minnesota_maxlag2_lag1: p=0.015112 (FDR)
+  Minnesota_maxlag3_lag1: p=0.006903 (FDR)
+  Minnesota_maxlag3_lag2: p=0.049906 (FDR)
+  Minnesota_maxlag3_lag3: p=0.016261 (FDR)
+  Minnesota_maxlag4_lag1: p=0.007466 (FDR)
+  Minnesota_maxlag5_lag1: p=0.012593 (FDR)
 
 flu symptoms significant combinations:
-  Minnesota_lag1: p=0.023700 (Uncorrected)
+  Minnesota_maxlag1_lag1: p=0.023700 (Uncorrected)
 
 how long contagious significant combinations:
-  Minnesota_lag5: p=0.028556 (Uncorrected)
+  Minnesota_maxlag5_lag2: p=0.028932 (Uncorrected)
+  Minnesota_maxlag5_lag5: p=0.028556 (Uncorrected)
 
 flu how long significant combinations:
-  Minnesota_lag4: p=0.031767 (Uncorrected)
+  Minnesota_maxlag4_lag4: p=0.031767 (Uncorrected)
 
 how long flu significant combinations:
-  Minnesota_lag4: p=0.031767 (Uncorrected)
+  Minnesota_maxlag4_lag4: p=0.031767 (Uncorrected)
 
 stomach flu significant combinations:
-  Minnesota_lag1: p=0.038606 (Uncorrected)
+  Minnesota_maxlag1_lag1: p=0.038606 (Uncorrected)
 
 the flu significant combinations:
-  Minnesota_lag1: p=0.040431 (Uncorrected)
+  Minnesota_maxlag1_lag1: p=0.040431 (Uncorrected)
 

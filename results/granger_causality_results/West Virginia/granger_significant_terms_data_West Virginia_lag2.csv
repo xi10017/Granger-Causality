@@ -1,0 +1,4 @@
+Term,Lag,P_Value,Significance
+flu symptoms,1,0.0005960372244403615,Bonferroni
+rsv,1,0.0015048042966493127,Bonferroni
+the flu,2,0.029175549368635485,Uncorrected

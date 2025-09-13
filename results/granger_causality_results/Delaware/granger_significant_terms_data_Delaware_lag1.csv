@@ -1,0 +1,6 @@
+Term,Lag,P_Value,Significance
+fever flu,1,0.0030492284714832975,FDR
+flu a,1,0.006708278562170093,FDR
+flu cold,1,0.013981738168893027,Uncorrected
+flu how long,1,0.018877977785186264,Uncorrected
+flu symptoms,1,8.163791119155005e-06,Bonferroni

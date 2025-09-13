@@ -1,71 +1,84 @@
 === GRANGER CAUSALITY SIGNIFICANT TERMS SUMMARY ===
 Data file analyzed: Delaware_2010_2020.csv
 Response variable: Delaware
-Total significant term combinations: 39
+Total significant term combinations: 52
 Unique terms: 12
 Response variables analyzed: Delaware
-Max lags tested: 3, 5, 1, 2, 4
+Max lags tested: 3, 5, 2, 1, 4
 
 flu symptoms significant combinations:
-  Delaware_lag1: p=0.000008 (Bonferroni)
-  Delaware_lag2: p=0.000023 (Bonferroni)
-  Delaware_lag3: p=0.000012 (Bonferroni)
-  Delaware_lag4: p=0.000024 (Bonferroni)
-  Delaware_lag5: p=0.000114 (Bonferroni)
+  Delaware_maxlag1_lag1: p=0.000008 (Bonferroni)
+  Delaware_maxlag2_lag1: p=0.000023 (Bonferroni)
+  Delaware_maxlag3_lag1: p=0.000012 (Bonferroni)
+  Delaware_maxlag3_lag3: p=0.019124 (FDR)
+  Delaware_maxlag4_lag1: p=0.000024 (Bonferroni)
+  Delaware_maxlag4_lag4: p=0.009039 (FDR)
+  Delaware_maxlag5_lag1: p=0.000114 (Bonferroni)
+  Delaware_maxlag5_lag4: p=0.024657 (FDR)
 
 rsv significant combinations:
-  Delaware_lag3: p=0.000831 (Bonferroni)
-  Delaware_lag4: p=0.002450 (Bonferroni)
-  Delaware_lag5: p=0.011661 (FDR)
+  Delaware_maxlag3_lag3: p=0.000831 (Bonferroni)
+  Delaware_maxlag4_lag3: p=0.002450 (Bonferroni)
+  Delaware_maxlag5_lag3: p=0.011661 (FDR)
+  Delaware_maxlag5_lag5: p=0.030174 (FDR)
 
 flu a significant combinations:
-  Delaware_lag1: p=0.006708 (FDR)
-  Delaware_lag2: p=0.003680 (FDR)
-  Delaware_lag3: p=0.002261 (Bonferroni)
-  Delaware_lag4: p=0.000837 (Bonferroni)
-  Delaware_lag5: p=0.000869 (Bonferroni)
+  Delaware_maxlag1_lag1: p=0.006708 (FDR)
+  Delaware_maxlag2_lag1: p=0.003680 (FDR)
+  Delaware_maxlag2_lag2: p=0.007320 (FDR)
+  Delaware_maxlag3_lag1: p=0.002261 (Bonferroni)
+  Delaware_maxlag3_lag2: p=0.018206 (FDR)
+  Delaware_maxlag4_lag1: p=0.000837 (Bonferroni)
+  Delaware_maxlag4_lag2: p=0.031202 (FDR)
+  Delaware_maxlag5_lag1: p=0.000869 (Bonferroni)
+  Delaware_maxlag5_lag2: p=0.033219 (FDR)
 
 the flu symptoms significant combinations:
-  Delaware_lag2: p=0.010735 (Uncorrected)
-  Delaware_lag3: p=0.006660 (FDR)
-  Delaware_lag4: p=0.008692 (FDR)
-  Delaware_lag5: p=0.002535 (FDR)
+  Delaware_maxlag2_lag2: p=0.010735 (Uncorrected)
+  Delaware_maxlag3_lag2: p=0.006660 (FDR)
+  Delaware_maxlag4_lag2: p=0.008692 (FDR)
+  Delaware_maxlag5_lag2: p=0.018780 (FDR)
+  Delaware_maxlag5_lag5: p=0.002535 (FDR)
 
 fever flu significant combinations:
-  Delaware_lag1: p=0.003049 (FDR)
-  Delaware_lag2: p=0.003062 (FDR)
-  Delaware_lag3: p=0.015982 (FDR)
-  Delaware_lag4: p=0.029099 (Uncorrected)
-  Delaware_lag5: p=0.034923 (Uncorrected)
+  Delaware_maxlag1_lag1: p=0.003049 (FDR)
+  Delaware_maxlag2_lag1: p=0.003062 (FDR)
+  Delaware_maxlag3_lag1: p=0.015982 (FDR)
+  Delaware_maxlag4_lag1: p=0.029099 (Uncorrected)
+  Delaware_maxlag4_lag4: p=0.045548 (Uncorrected)
+  Delaware_maxlag5_lag3: p=0.034923 (Uncorrected)
 
 pneumonia significant combinations:
-  Delaware_lag4: p=0.005599 (FDR)
-  Delaware_lag5: p=0.006338 (FDR)
+  Delaware_maxlag4_lag4: p=0.005599 (FDR)
+  Delaware_maxlag5_lag4: p=0.006338 (FDR)
 
 flu contagious significant combinations:
-  Delaware_lag4: p=0.019152 (FDR)
-  Delaware_lag5: p=0.006395 (FDR)
+  Delaware_maxlag4_lag3: p=0.019152 (FDR)
+  Delaware_maxlag5_lag3: p=0.006395 (FDR)
 
 contagious flu significant combinations:
-  Delaware_lag4: p=0.019152 (FDR)
-  Delaware_lag5: p=0.006395 (FDR)
+  Delaware_maxlag4_lag3: p=0.019152 (FDR)
+  Delaware_maxlag5_lag3: p=0.006395 (FDR)
 
 how long flu significant combinations:
-  Delaware_lag3: p=0.008308 (FDR)
-  Delaware_lag4: p=0.009183 (FDR)
-  Delaware_lag5: p=0.019820 (FDR)
+  Delaware_maxlag3_lag3: p=0.008308 (FDR)
+  Delaware_maxlag4_lag3: p=0.009183 (FDR)
+  Delaware_maxlag4_lag4: p=0.037061 (FDR)
+  Delaware_maxlag5_lag3: p=0.019820 (FDR)
+  Delaware_maxlag5_lag4: p=0.039767 (FDR)
 
 sinus significant combinations:
-  Delaware_lag2: p=0.032851 (Uncorrected)
-  Delaware_lag3: p=0.017003 (FDR)
-  Delaware_lag4: p=0.029468 (Uncorrected)
-  Delaware_lag5: p=0.012870 (FDR)
+  Delaware_maxlag2_lag2: p=0.032851 (Uncorrected)
+  Delaware_maxlag3_lag2: p=0.017003 (FDR)
+  Delaware_maxlag4_lag2: p=0.029468 (Uncorrected)
+  Delaware_maxlag5_lag2: p=0.012870 (FDR)
 
 flu cold significant combinations:
-  Delaware_lag1: p=0.013982 (Uncorrected)
-  Delaware_lag4: p=0.031591 (Uncorrected)
-  Delaware_lag5: p=0.029888 (Uncorrected)
+  Delaware_maxlag1_lag1: p=0.013982 (Uncorrected)
+  Delaware_maxlag4_lag4: p=0.031591 (Uncorrected)
+  Delaware_maxlag5_lag1: p=0.029888 (Uncorrected)
+  Delaware_maxlag5_lag4: p=0.040485 (Uncorrected)
 
 flu how long significant combinations:
-  Delaware_lag1: p=0.018878 (Uncorrected)
+  Delaware_maxlag1_lag1: p=0.018878 (Uncorrected)
 

@@ -1,0 +1,9 @@
+Term,Lag,P_Value,Significance
+a influenza,2,0.00704926750766246,FDR
+flu cold,2,0.005115473461435812,FDR
+flu symptoms,1,0.033128811172534814,Uncorrected
+influenza a,2,0.007049267491980839,FDR
+rsv,1,2.179777555863928e-06,Bonferroni
+rsv,2,0.0019504935776153629,Bonferroni
+rsv,3,0.03567900801733554,FDR
+the flu,1,0.02321433332116051,Uncorrected

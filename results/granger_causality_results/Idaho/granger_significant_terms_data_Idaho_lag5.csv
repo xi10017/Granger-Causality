@@ -1,0 +1,10 @@
+Term,Lag,P_Value,Significance
+a influenza,2,0.04015839314736273,Uncorrected
+flu a,3,0.005216807212017436,FDR
+flu cold,4,0.021066881918181297,Uncorrected
+flu how long,4,0.0006844825533582899,Bonferroni
+how long does flu last,5,0.020929878577779774,Uncorrected
+how long flu,4,0.0006844825529222425,Bonferroni
+influenza a,2,0.04015839296729077,Uncorrected
+stomach flu,1,0.0004892034805568877,Bonferroni
+the flu,2,0.02438114893094868,Uncorrected

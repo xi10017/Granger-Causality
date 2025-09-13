@@ -1,67 +1,68 @@
 === GRANGER CAUSALITY SIGNIFICANT TERMS SUMMARY ===
 Data file analyzed: Arkansas_2010_2020.csv
 Response variable: Arkansas
-Total significant term combinations: 33
+Total significant term combinations: 34
 Unique terms: 13
 Response variables analyzed: Arkansas
-Max lags tested: 5, 1, 3, 2, 4
+Max lags tested: 3, 5, 4, 1, 2
 
 rsv significant combinations:
-  Arkansas_lag1: p=0.000192 (Bonferroni)
-  Arkansas_lag2: p=0.038219 (Uncorrected)
-  Arkansas_lag3: p=0.044437 (Uncorrected)
-  Arkansas_lag4: p=0.042198 (Uncorrected)
-  Arkansas_lag5: p=0.030258 (Uncorrected)
+  Arkansas_maxlag1_lag1: p=0.000192 (Bonferroni)
+  Arkansas_maxlag2_lag2: p=0.038219 (Uncorrected)
+  Arkansas_maxlag3_lag3: p=0.044437 (Uncorrected)
+  Arkansas_maxlag4_lag3: p=0.042198 (Uncorrected)
+  Arkansas_maxlag5_lag3: p=0.030258 (Uncorrected)
 
 pneumonia significant combinations:
-  Arkansas_lag1: p=0.030342 (Uncorrected)
-  Arkansas_lag2: p=0.019126 (Uncorrected)
-  Arkansas_lag3: p=0.036844 (Uncorrected)
-  Arkansas_lag5: p=0.001192 (Bonferroni)
+  Arkansas_maxlag1_lag1: p=0.030342 (Uncorrected)
+  Arkansas_maxlag2_lag1: p=0.019126 (Uncorrected)
+  Arkansas_maxlag3_lag1: p=0.036844 (Uncorrected)
+  Arkansas_maxlag5_lag5: p=0.001192 (Bonferroni)
 
 flu type significant combinations:
-  Arkansas_lag3: p=0.002532 (FDR)
-  Arkansas_lag4: p=0.001865 (Bonferroni)
-  Arkansas_lag5: p=0.001902 (Bonferroni)
+  Arkansas_maxlag3_lag3: p=0.002532 (FDR)
+  Arkansas_maxlag4_lag3: p=0.001865 (Bonferroni)
+  Arkansas_maxlag5_lag3: p=0.001902 (Bonferroni)
 
 the flu symptoms significant combinations:
-  Arkansas_lag3: p=0.006672 (FDR)
-  Arkansas_lag4: p=0.004513 (FDR)
-  Arkansas_lag5: p=0.004190 (FDR)
+  Arkansas_maxlag3_lag3: p=0.006672 (FDR)
+  Arkansas_maxlag4_lag3: p=0.004513 (FDR)
+  Arkansas_maxlag5_lag3: p=0.004190 (FDR)
 
 flu cold significant combinations:
-  Arkansas_lag3: p=0.029023 (Uncorrected)
-  Arkansas_lag4: p=0.013515 (Uncorrected)
-  Arkansas_lag5: p=0.005943 (FDR)
+  Arkansas_maxlag3_lag3: p=0.029023 (Uncorrected)
+  Arkansas_maxlag4_lag4: p=0.013515 (Uncorrected)
+  Arkansas_maxlag5_lag1: p=0.024042 (FDR)
+  Arkansas_maxlag5_lag4: p=0.005943 (FDR)
 
 the flu significant combinations:
-  Arkansas_lag1: p=0.042827 (Uncorrected)
-  Arkansas_lag3: p=0.007668 (FDR)
-  Arkansas_lag4: p=0.010169 (Uncorrected)
-  Arkansas_lag5: p=0.006580 (FDR)
+  Arkansas_maxlag1_lag1: p=0.042827 (Uncorrected)
+  Arkansas_maxlag3_lag3: p=0.007668 (FDR)
+  Arkansas_maxlag4_lag3: p=0.010169 (Uncorrected)
+  Arkansas_maxlag5_lag3: p=0.006580 (FDR)
 
 flu a significant combinations:
-  Arkansas_lag2: p=0.027114 (Uncorrected)
-  Arkansas_lag3: p=0.007667 (FDR)
-  Arkansas_lag4: p=0.027786 (Uncorrected)
+  Arkansas_maxlag2_lag1: p=0.027114 (Uncorrected)
+  Arkansas_maxlag3_lag1: p=0.007667 (FDR)
+  Arkansas_maxlag4_lag1: p=0.027786 (Uncorrected)
 
 how long flu significant combinations:
-  Arkansas_lag5: p=0.008915 (FDR)
+  Arkansas_maxlag5_lag5: p=0.008915 (FDR)
 
 flu how long significant combinations:
-  Arkansas_lag5: p=0.008915 (FDR)
+  Arkansas_maxlag5_lag5: p=0.008915 (FDR)
 
 flu symptoms significant combinations:
-  Arkansas_lag4: p=0.011021 (Uncorrected)
+  Arkansas_maxlag4_lag4: p=0.011021 (Uncorrected)
 
 strep significant combinations:
-  Arkansas_lag2: p=0.023207 (Uncorrected)
-
-flu fever significant combinations:
-  Arkansas_lag4: p=0.046987 (Uncorrected)
-  Arkansas_lag5: p=0.030805 (Uncorrected)
+  Arkansas_maxlag2_lag2: p=0.023207 (Uncorrected)
 
 fever flu significant combinations:
-  Arkansas_lag4: p=0.046987 (Uncorrected)
-  Arkansas_lag5: p=0.030805 (Uncorrected)
+  Arkansas_maxlag4_lag4: p=0.046987 (Uncorrected)
+  Arkansas_maxlag5_lag4: p=0.030805 (Uncorrected)
+
+flu fever significant combinations:
+  Arkansas_maxlag4_lag4: p=0.046987 (Uncorrected)
+  Arkansas_maxlag5_lag4: p=0.030805 (Uncorrected)
 

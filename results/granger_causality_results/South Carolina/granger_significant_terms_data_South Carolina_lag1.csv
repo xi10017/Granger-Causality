@@ -1,0 +1,4 @@
+Term,Lag,P_Value,Significance
+flu a,1,0.0028220990079758385,FDR
+flu fever,1,0.029498255950031107,Uncorrected
+rsv,1,0.00014574706811034026,Bonferroni

@@ -1,0 +1,5 @@
+Term,Lag,P_Value,Significance
+flu cold,1,0.03493605979060779,Uncorrected
+flu virus,1,0.026784015286203774,Uncorrected
+symptoms of flu,1,0.047819116799437816,Uncorrected
+the flu,1,0.02002952053704658,Uncorrected

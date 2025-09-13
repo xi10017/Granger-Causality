@@ -1,76 +1,80 @@
 === GRANGER CAUSALITY SIGNIFICANT TERMS SUMMARY ===
 Data file analyzed: Indiana_2010_2020.csv
 Response variable: Indiana
-Total significant term combinations: 40
+Total significant term combinations: 44
 Unique terms: 14
 Response variables analyzed: Indiana
-Max lags tested: 3, 1, 5, 4, 2
+Max lags tested: 1, 3, 5, 4, 2
 
 influenza a significant combinations:
-  Indiana_lag1: p=0.001285 (Bonferroni)
-  Indiana_lag2: p=0.000009 (Bonferroni)
-  Indiana_lag3: p=0.000012 (Bonferroni)
-  Indiana_lag4: p=0.000783 (Bonferroni)
-  Indiana_lag5: p=0.000363 (Bonferroni)
+  Indiana_maxlag1_lag1: p=0.001285 (Bonferroni)
+  Indiana_maxlag2_lag1: p=0.000009 (Bonferroni)
+  Indiana_maxlag3_lag1: p=0.000012 (Bonferroni)
+  Indiana_maxlag4_lag1: p=0.000783 (Bonferroni)
+  Indiana_maxlag5_lag1: p=0.000363 (Bonferroni)
 
 a influenza significant combinations:
-  Indiana_lag2: p=0.000245 (Bonferroni)
-  Indiana_lag3: p=0.009731 (FDR)
-  Indiana_lag4: p=0.017335 (Uncorrected)
-  Indiana_lag5: p=0.020244 (Uncorrected)
+  Indiana_maxlag2_lag1: p=0.005692 (FDR)
+  Indiana_maxlag2_lag2: p=0.000245 (Bonferroni)
+  Indiana_maxlag3_lag1: p=0.009731 (FDR)
+  Indiana_maxlag3_lag2: p=0.011481 (FDR)
+  Indiana_maxlag4_lag1: p=0.017335 (Uncorrected)
+  Indiana_maxlag4_lag2: p=0.018534 (Uncorrected)
+  Indiana_maxlag5_lag1: p=0.020244 (Uncorrected)
+  Indiana_maxlag5_lag2: p=0.035995 (Uncorrected)
 
 flu symptoms significant combinations:
-  Indiana_lag1: p=0.007417 (FDR)
-  Indiana_lag2: p=0.001046 (Bonferroni)
-  Indiana_lag3: p=0.005700 (FDR)
-  Indiana_lag4: p=0.012032 (Uncorrected)
-  Indiana_lag5: p=0.008583 (FDR)
+  Indiana_maxlag1_lag1: p=0.007417 (FDR)
+  Indiana_maxlag2_lag1: p=0.001046 (Bonferroni)
+  Indiana_maxlag3_lag1: p=0.005700 (FDR)
+  Indiana_maxlag4_lag1: p=0.012032 (Uncorrected)
+  Indiana_maxlag5_lag1: p=0.008583 (FDR)
 
 rsv significant combinations:
-  Indiana_lag1: p=0.001103 (Bonferroni)
+  Indiana_maxlag1_lag1: p=0.001103 (Bonferroni)
 
 sinus significant combinations:
-  Indiana_lag3: p=0.006008 (FDR)
-  Indiana_lag4: p=0.001322 (Bonferroni)
-  Indiana_lag5: p=0.001944 (Bonferroni)
+  Indiana_maxlag3_lag3: p=0.006008 (FDR)
+  Indiana_maxlag4_lag3: p=0.001322 (Bonferroni)
+  Indiana_maxlag5_lag3: p=0.001944 (Bonferroni)
 
 flu how long significant combinations:
-  Indiana_lag1: p=0.003886 (FDR)
-  Indiana_lag2: p=0.014693 (FDR)
-  Indiana_lag4: p=0.041778 (Uncorrected)
-  Indiana_lag5: p=0.027241 (Uncorrected)
+  Indiana_maxlag1_lag1: p=0.003886 (FDR)
+  Indiana_maxlag2_lag2: p=0.014693 (FDR)
+  Indiana_maxlag4_lag2: p=0.041778 (Uncorrected)
+  Indiana_maxlag5_lag2: p=0.027241 (Uncorrected)
 
 how long flu significant combinations:
-  Indiana_lag1: p=0.003886 (FDR)
-  Indiana_lag2: p=0.014693 (FDR)
-  Indiana_lag4: p=0.041778 (Uncorrected)
-  Indiana_lag5: p=0.027241 (Uncorrected)
+  Indiana_maxlag1_lag1: p=0.003886 (FDR)
+  Indiana_maxlag2_lag2: p=0.014693 (FDR)
+  Indiana_maxlag4_lag2: p=0.041778 (Uncorrected)
+  Indiana_maxlag5_lag2: p=0.027241 (Uncorrected)
 
 strep significant combinations:
-  Indiana_lag4: p=0.006880 (FDR)
-  Indiana_lag5: p=0.004092 (FDR)
+  Indiana_maxlag4_lag4: p=0.006880 (FDR)
+  Indiana_maxlag5_lag4: p=0.004092 (FDR)
 
 flu fever significant combinations:
-  Indiana_lag2: p=0.012192 (FDR)
-  Indiana_lag3: p=0.038792 (Uncorrected)
-  Indiana_lag4: p=0.044338 (Uncorrected)
+  Indiana_maxlag2_lag1: p=0.012192 (FDR)
+  Indiana_maxlag3_lag1: p=0.038792 (Uncorrected)
+  Indiana_maxlag4_lag1: p=0.044338 (Uncorrected)
 
 fever flu significant combinations:
-  Indiana_lag2: p=0.012192 (FDR)
-  Indiana_lag3: p=0.038792 (Uncorrected)
-  Indiana_lag4: p=0.044338 (Uncorrected)
+  Indiana_maxlag2_lag1: p=0.012192 (FDR)
+  Indiana_maxlag3_lag1: p=0.038792 (Uncorrected)
+  Indiana_maxlag4_lag1: p=0.044338 (Uncorrected)
 
 stomach flu significant combinations:
-  Indiana_lag1: p=0.045112 (Uncorrected)
-  Indiana_lag2: p=0.013103 (FDR)
+  Indiana_maxlag1_lag1: p=0.045112 (Uncorrected)
+  Indiana_maxlag2_lag2: p=0.013103 (FDR)
 
 influenza symptoms significant combinations:
-  Indiana_lag1: p=0.015627 (Uncorrected)
-  Indiana_lag3: p=0.030478 (Uncorrected)
+  Indiana_maxlag1_lag1: p=0.015627 (Uncorrected)
+  Indiana_maxlag3_lag3: p=0.030478 (Uncorrected)
 
 contagious flu significant combinations:
-  Indiana_lag3: p=0.041460 (Uncorrected)
+  Indiana_maxlag3_lag3: p=0.041460 (Uncorrected)
 
 the flu significant combinations:
-  Indiana_lag1: p=0.045875 (Uncorrected)
+  Indiana_maxlag1_lag1: p=0.045875 (Uncorrected)
 

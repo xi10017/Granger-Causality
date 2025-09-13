@@ -1,0 +1,15 @@
+Term,Lag,P_Value,Significance
+cold,1,8.3091336616448e-07,Bonferroni
+fever flu,2,0.008027779068527122,FDR
+flu a,1,0.034608742139541515,Uncorrected
+flu cold,2,0.023959119864374955,FDR
+flu fever,2,0.008027779067380014,FDR
+flu symptoms,1,0.0026169128272611466,FDR
+flu symptoms,2,6.771568452466921e-06,Bonferroni
+flu type,1,0.000890218234467413,Bonferroni
+flu type,2,0.02855375619451566,FDR
+how long flu,1,0.035471373786830705,Uncorrected
+influenza a,1,1.3938425694288261e-06,Bonferroni
+oscillococcinum,2,0.00036359877884555676,Bonferroni
+symptoms of flu,2,0.0021996785745597974,Bonferroni
+type a flu,1,1.0507442954788457e-05,Bonferroni

@@ -1,0 +1,14 @@
+Term,Lag,P_Value,Significance
+b flu,2,0.024294081610363557,FDR
+b flu,4,0.001651779932221238,Bonferroni
+bronchitis,1,0.014982501643853776,FDR
+contagious flu,2,0.038576532121999504,Uncorrected
+fever flu,2,0.01880863617374947,Uncorrected
+fever flu,3,0.02610391941162735,Uncorrected
+flu cold,1,0.011872044174690904,FDR
+flu contagious,2,0.03857653212297254,Uncorrected
+flu incubation period,1,0.021590133367242522,Uncorrected
+flu type,4,2.4750447732578065e-05,Bonferroni
+how long does the flu last,1,0.008885243555320464,FDR
+the flu,1,0.040235029922826064,FDR
+the flu,2,0.003801179698388261,FDR

@@ -1,77 +1,83 @@
 === GRANGER CAUSALITY SIGNIFICANT TERMS SUMMARY ===
 Data file analyzed: Nebraska_2010_2020.csv
 Response variable: Nebraska
-Total significant term combinations: 41
+Total significant term combinations: 47
 Unique terms: 14
 Response variables analyzed: Nebraska
-Max lags tested: 1, 4, 2, 3, 5
+Max lags tested: 5, 4, 3, 1, 2
 
 influenza a significant combinations:
-  Nebraska_lag1: p=0.009478 (Uncorrected)
-  Nebraska_lag2: p=0.000705 (Bonferroni)
-  Nebraska_lag3: p=0.000855 (Bonferroni)
-  Nebraska_lag4: p=0.002413 (Bonferroni)
-  Nebraska_lag5: p=0.000862 (Bonferroni)
+  Nebraska_maxlag1_lag1: p=0.009478 (Uncorrected)
+  Nebraska_maxlag2_lag1: p=0.000705 (Bonferroni)
+  Nebraska_maxlag3_lag1: p=0.000855 (Bonferroni)
+  Nebraska_maxlag4_lag1: p=0.002413 (Bonferroni)
+  Nebraska_maxlag5_lag1: p=0.000862 (Bonferroni)
+  Nebraska_maxlag5_lag5: p=0.014681 (FDR)
 
 influenza b significant combinations:
-  Nebraska_lag2: p=0.020091 (Uncorrected)
-  Nebraska_lag3: p=0.041390 (Uncorrected)
-  Nebraska_lag4: p=0.010737 (FDR)
-  Nebraska_lag5: p=0.002343 (Bonferroni)
+  Nebraska_maxlag2_lag1: p=0.020091 (Uncorrected)
+  Nebraska_maxlag2_lag2: p=0.035608 (Uncorrected)
+  Nebraska_maxlag3_lag1: p=0.041390 (Uncorrected)
+  Nebraska_maxlag4_lag1: p=0.010737 (FDR)
+  Nebraska_maxlag5_lag1: p=0.002343 (Bonferroni)
 
 flu contagious significant combinations:
-  Nebraska_lag2: p=0.044077 (Uncorrected)
-  Nebraska_lag3: p=0.004126 (FDR)
-  Nebraska_lag4: p=0.005676 (FDR)
-  Nebraska_lag5: p=0.006240 (FDR)
+  Nebraska_maxlag2_lag2: p=0.044077 (Uncorrected)
+  Nebraska_maxlag3_lag2: p=0.004126 (FDR)
+  Nebraska_maxlag4_lag2: p=0.005676 (FDR)
+  Nebraska_maxlag5_lag2: p=0.006240 (FDR)
 
 contagious flu significant combinations:
-  Nebraska_lag2: p=0.044077 (Uncorrected)
-  Nebraska_lag3: p=0.004126 (FDR)
-  Nebraska_lag4: p=0.005676 (FDR)
-  Nebraska_lag5: p=0.006240 (FDR)
+  Nebraska_maxlag2_lag2: p=0.044077 (Uncorrected)
+  Nebraska_maxlag3_lag2: p=0.004126 (FDR)
+  Nebraska_maxlag4_lag2: p=0.005676 (FDR)
+  Nebraska_maxlag5_lag2: p=0.006240 (FDR)
 
 stomach flu significant combinations:
-  Nebraska_lag2: p=0.016988 (Uncorrected)
-  Nebraska_lag3: p=0.004808 (FDR)
-  Nebraska_lag4: p=0.014790 (FDR)
-  Nebraska_lag5: p=0.018276 (FDR)
+  Nebraska_maxlag2_lag1: p=0.016988 (Uncorrected)
+  Nebraska_maxlag3_lag1: p=0.026439 (FDR)
+  Nebraska_maxlag3_lag3: p=0.004808 (FDR)
+  Nebraska_maxlag4_lag1: p=0.042604 (FDR)
+  Nebraska_maxlag4_lag3: p=0.014790 (FDR)
+  Nebraska_maxlag5_lag3: p=0.018276 (FDR)
 
 a influenza significant combinations:
-  Nebraska_lag3: p=0.006637 (FDR)
-  Nebraska_lag4: p=0.025690 (Uncorrected)
-  Nebraska_lag5: p=0.019506 (FDR)
+  Nebraska_maxlag3_lag3: p=0.006637 (FDR)
+  Nebraska_maxlag4_lag3: p=0.025690 (Uncorrected)
+  Nebraska_maxlag5_lag3: p=0.019506 (FDR)
 
 flu how long significant combinations:
-  Nebraska_lag3: p=0.006965 (FDR)
-  Nebraska_lag4: p=0.016929 (FDR)
-  Nebraska_lag5: p=0.021791 (FDR)
+  Nebraska_maxlag3_lag3: p=0.006965 (FDR)
+  Nebraska_maxlag4_lag3: p=0.016929 (FDR)
+  Nebraska_maxlag5_lag3: p=0.021791 (FDR)
 
 how long flu significant combinations:
-  Nebraska_lag3: p=0.006965 (FDR)
-  Nebraska_lag4: p=0.016929 (FDR)
-  Nebraska_lag5: p=0.021791 (FDR)
+  Nebraska_maxlag3_lag3: p=0.006965 (FDR)
+  Nebraska_maxlag4_lag3: p=0.016929 (FDR)
+  Nebraska_maxlag5_lag3: p=0.021791 (FDR)
 
 the flu significant combinations:
-  Nebraska_lag2: p=0.035444 (Uncorrected)
-  Nebraska_lag3: p=0.017396 (FDR)
-  Nebraska_lag4: p=0.010333 (FDR)
-  Nebraska_lag5: p=0.028308 (Uncorrected)
+  Nebraska_maxlag2_lag2: p=0.035444 (Uncorrected)
+  Nebraska_maxlag3_lag2: p=0.017396 (FDR)
+  Nebraska_maxlag4_lag2: p=0.010333 (FDR)
+  Nebraska_maxlag4_lag3: p=0.028215 (FDR)
+  Nebraska_maxlag5_lag2: p=0.028308 (Uncorrected)
+  Nebraska_maxlag5_lag3: p=0.029533 (Uncorrected)
 
 symptoms of flu significant combinations:
-  Nebraska_lag5: p=0.012676 (FDR)
+  Nebraska_maxlag5_lag5: p=0.012676 (FDR)
 
 the flu symptoms significant combinations:
-  Nebraska_lag4: p=0.036024 (Uncorrected)
-  Nebraska_lag5: p=0.019250 (FDR)
+  Nebraska_maxlag4_lag4: p=0.036024 (Uncorrected)
+  Nebraska_maxlag5_lag4: p=0.019250 (FDR)
 
 flu symptoms significant combinations:
-  Nebraska_lag4: p=0.028479 (Uncorrected)
+  Nebraska_maxlag4_lag4: p=0.028479 (Uncorrected)
 
 influenza a symptoms significant combinations:
-  Nebraska_lag2: p=0.038556 (Uncorrected)
-  Nebraska_lag3: p=0.042113 (Uncorrected)
+  Nebraska_maxlag2_lag2: p=0.038556 (Uncorrected)
+  Nebraska_maxlag3_lag2: p=0.042113 (Uncorrected)
 
 bronchitis significant combinations:
-  Nebraska_lag4: p=0.044352 (Uncorrected)
+  Nebraska_maxlag4_lag2: p=0.044352 (Uncorrected)
 

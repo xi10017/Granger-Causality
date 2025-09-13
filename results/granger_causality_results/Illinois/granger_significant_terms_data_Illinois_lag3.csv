@@ -1,0 +1,11 @@
+Term,Lag,P_Value,Significance
+cold,1,0.038506186818782026,Uncorrected
+cold symptoms,1,0.014756388689600797,Uncorrected
+flu cold,3,0.017442760921144187,Uncorrected
+flu how long,1,0.04092723579127994,Uncorrected
+how long does flu last,3,0.004603969574491988,FDR
+influenza a,1,0.008800120368190912,Uncorrected
+sinus,2,0.02685924011673483,Uncorrected
+strep,3,0.013286605905020293,Uncorrected
+the flu,1,0.00011013360421308866,Bonferroni
+the flu,2,0.0022545376755308813,Bonferroni

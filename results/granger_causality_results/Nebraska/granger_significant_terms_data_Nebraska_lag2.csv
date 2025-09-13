@@ -1,0 +1,9 @@
+Term,Lag,P_Value,Significance
+contagious flu,2,0.04407710737315439,Uncorrected
+flu contagious,2,0.044077107370849036,Uncorrected
+influenza a,1,0.0007045118690123922,Bonferroni
+influenza a symptoms,2,0.038556443327752724,Uncorrected
+influenza b,1,0.020091047296861442,Uncorrected
+influenza b,2,0.03560831081781708,Uncorrected
+stomach flu,1,0.016988299578933882,Uncorrected
+the flu,2,0.03544360174348313,Uncorrected

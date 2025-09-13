@@ -1,0 +1,6 @@
+Term,Lag,P_Value,Significance
+flu a,1,0.008522686587410722,FDR
+is flu contagious,1,0.005646580299072142,FDR
+rsv,1,0.006930251677182718,FDR
+stomach flu,1,0.03083573921103966,Uncorrected
+the flu,1,0.0009616126715892665,Bonferroni

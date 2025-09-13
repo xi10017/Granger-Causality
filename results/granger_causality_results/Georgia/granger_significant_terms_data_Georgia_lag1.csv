@@ -1,0 +1,12 @@
+Term,Lag,P_Value,Significance
+bronchitis,1,0.0064391956124716055,FDR
+cold,1,9.906498036960591e-16,Bonferroni
+fever flu,1,0.0005371699010524618,Bonferroni
+flu a,1,0.032502110034651095,Uncorrected
+flu fever,1,0.0005371699011340861,Bonferroni
+flu symptoms,1,0.0004942503075948015,Bonferroni
+flu type,1,0.0013633565064840249,Bonferroni
+flu virus,1,0.04518271400133633,Uncorrected
+pneumonia,1,0.008908793559770185,FDR
+rsv,1,0.00021297107571816842,Bonferroni
+symptoms of flu,1,0.011399692585004922,FDR

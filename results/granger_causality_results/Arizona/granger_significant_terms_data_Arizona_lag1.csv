@@ -1,0 +1,6 @@
+Term,Lag,P_Value,Significance
+cold,1,1.3769755050356441e-11,Bonferroni
+contagious flu,1,0.01632816977062355,Uncorrected
+flu symptoms,1,0.01325302536156028,Uncorrected
+how long flu,1,0.04897872187147325,Uncorrected
+the flu,1,0.027476636660367586,Uncorrected

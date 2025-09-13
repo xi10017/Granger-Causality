@@ -1,0 +1,10 @@
+Term,Lag,P_Value,Significance
+flu a,3,0.0005552337993801192,Bonferroni
+flu how long,1,4.853720357175784e-09,Bonferroni
+flu how long,2,0.004203681760989349,FDR
+how long does flu last,1,0.02530332657025264,Uncorrected
+how long flu,1,4.853720252809311e-09,Bonferroni
+how long flu,2,0.004203681545257268,FDR
+influenza a,1,1.018842519612014e-08,Bonferroni
+influenza a,3,0.014026371423271755,FDR
+rsv,1,0.03317072968304317,Uncorrected

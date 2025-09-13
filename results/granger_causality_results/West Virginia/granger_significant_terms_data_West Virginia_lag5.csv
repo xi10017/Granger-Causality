@@ -1,0 +1,13 @@
+Term,Lag,P_Value,Significance
+a influenza,4,0.030920047811612436,Uncorrected
+bronchitis,1,0.029092218471660193,Uncorrected
+contagious flu,3,0.0009108871823757191,Bonferroni
+fever flu,2,0.016726935601127167,Uncorrected
+flu cold,2,0.001691569025231213,Bonferroni
+flu fever,2,0.01672693571210609,Uncorrected
+flu symptoms,1,0.00012077432534722216,Bonferroni
+influenza a,4,0.03092004818324545,Uncorrected
+rsv,1,0.00021692812431989186,Bonferroni
+the flu,2,0.0292722319239357,Uncorrected
+the flu,4,0.043183514983286084,Uncorrected
+the flu symptoms,3,0.024300823785047644,Uncorrected

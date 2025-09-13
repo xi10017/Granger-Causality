@@ -1,0 +1,5 @@
+Term,Lag,P_Value,Significance
+cold,1,2.5146921026951445e-05,Bonferroni
+flu cold,1,0.03685874397480835,Uncorrected
+flu how long,2,0.0020569721445966986,Bonferroni
+the flu,3,0.019757078516956322,Uncorrected

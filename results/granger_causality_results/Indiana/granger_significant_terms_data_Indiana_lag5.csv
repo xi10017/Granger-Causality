@@ -1,0 +1,9 @@
+Term,Lag,P_Value,Significance
+a influenza,1,0.020244478072196412,Uncorrected
+a influenza,2,0.03599483169322527,Uncorrected
+flu how long,2,0.027241033456237098,Uncorrected
+flu symptoms,1,0.008582832204557193,FDR
+how long flu,2,0.027241033456987956,Uncorrected
+influenza a,1,0.0003632748701911344,Bonferroni
+sinus,3,0.0019442824815826788,Bonferroni
+strep,4,0.0040924897613835625,FDR

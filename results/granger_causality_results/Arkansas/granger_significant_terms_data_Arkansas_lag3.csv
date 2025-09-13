@@ -1,0 +1,8 @@
+Term,Lag,P_Value,Significance
+flu a,1,0.007666685197788695,FDR
+flu cold,3,0.029022538498117763,Uncorrected
+flu type,3,0.002531917328642681,FDR
+pneumonia,1,0.0368441224224508,Uncorrected
+rsv,3,0.044437223037303644,Uncorrected
+the flu,3,0.007668262405998643,FDR
+the flu symptoms,3,0.006672166439289863,FDR

@@ -1,63 +1,69 @@
 === GRANGER CAUSALITY SIGNIFICANT TERMS SUMMARY ===
 Data file analyzed: Illinois_2010_2020.csv
 Response variable: Illinois
-Total significant term combinations: 29
+Total significant term combinations: 35
 Unique terms: 13
 Response variables analyzed: Illinois
-Max lags tested: 4, 3, 5, 1, 2
+Max lags tested: 5, 2, 1, 3, 4
 
 the flu significant combinations:
-  Illinois_lag2: p=0.000247 (Bonferroni)
-  Illinois_lag3: p=0.000110 (Bonferroni)
-  Illinois_lag4: p=0.000965 (Bonferroni)
-  Illinois_lag5: p=0.000852 (Bonferroni)
+  Illinois_maxlag2_lag1: p=0.000247 (Bonferroni)
+  Illinois_maxlag2_lag2: p=0.000379 (Bonferroni)
+  Illinois_maxlag3_lag1: p=0.000110 (Bonferroni)
+  Illinois_maxlag3_lag2: p=0.002255 (Bonferroni)
+  Illinois_maxlag4_lag1: p=0.000965 (Bonferroni)
+  Illinois_maxlag4_lag2: p=0.007313 (FDR)
+  Illinois_maxlag5_lag1: p=0.000852 (Bonferroni)
+  Illinois_maxlag5_lag2: p=0.011734 (FDR)
 
 rsv significant combinations:
-  Illinois_lag1: p=0.000558 (Bonferroni)
+  Illinois_maxlag1_lag1: p=0.000558 (Bonferroni)
 
 stomach flu significant combinations:
-  Illinois_lag1: p=0.000981 (Bonferroni)
+  Illinois_maxlag1_lag1: p=0.000981 (Bonferroni)
 
 how long does flu last significant combinations:
-  Illinois_lag3: p=0.004604 (FDR)
-  Illinois_lag4: p=0.001910 (Bonferroni)
-  Illinois_lag5: p=0.001369 (Bonferroni)
+  Illinois_maxlag3_lag3: p=0.004604 (FDR)
+  Illinois_maxlag4_lag3: p=0.001910 (Bonferroni)
+  Illinois_maxlag5_lag3: p=0.001369 (Bonferroni)
 
 sinus significant combinations:
-  Illinois_lag1: p=0.001397 (Bonferroni)
-  Illinois_lag3: p=0.026859 (Uncorrected)
-  Illinois_lag4: p=0.028043 (Uncorrected)
-  Illinois_lag5: p=0.025007 (Uncorrected)
+  Illinois_maxlag1_lag1: p=0.001397 (Bonferroni)
+  Illinois_maxlag3_lag2: p=0.026859 (Uncorrected)
+  Illinois_maxlag4_lag2: p=0.028043 (Uncorrected)
+  Illinois_maxlag5_lag2: p=0.025007 (Uncorrected)
+  Illinois_maxlag5_lag3: p=0.043680 (Uncorrected)
 
 influenza a significant combinations:
-  Illinois_lag1: p=0.026756 (Uncorrected)
-  Illinois_lag2: p=0.003861 (FDR)
-  Illinois_lag3: p=0.008800 (Uncorrected)
-  Illinois_lag4: p=0.006556 (FDR)
-  Illinois_lag5: p=0.020094 (Uncorrected)
+  Illinois_maxlag1_lag1: p=0.026756 (Uncorrected)
+  Illinois_maxlag2_lag1: p=0.003861 (FDR)
+  Illinois_maxlag3_lag1: p=0.008800 (Uncorrected)
+  Illinois_maxlag4_lag1: p=0.006556 (FDR)
+  Illinois_maxlag5_lag1: p=0.020094 (Uncorrected)
 
 strep significant combinations:
-  Illinois_lag3: p=0.013287 (Uncorrected)
+  Illinois_maxlag3_lag3: p=0.013287 (Uncorrected)
 
 cold symptoms significant combinations:
-  Illinois_lag1: p=0.034669 (Uncorrected)
-  Illinois_lag3: p=0.014756 (Uncorrected)
+  Illinois_maxlag1_lag1: p=0.034669 (Uncorrected)
+  Illinois_maxlag3_lag1: p=0.014756 (Uncorrected)
 
 a influenza significant combinations:
-  Illinois_lag2: p=0.015728 (Uncorrected)
+  Illinois_maxlag2_lag2: p=0.015728 (Uncorrected)
 
 flu cold significant combinations:
-  Illinois_lag3: p=0.017443 (Uncorrected)
-  Illinois_lag5: p=0.042632 (Uncorrected)
+  Illinois_maxlag3_lag3: p=0.017443 (Uncorrected)
+  Illinois_maxlag5_lag3: p=0.042632 (Uncorrected)
 
 bronchitis significant combinations:
-  Illinois_lag1: p=0.019317 (Uncorrected)
+  Illinois_maxlag1_lag1: p=0.019317 (Uncorrected)
 
 cold significant combinations:
-  Illinois_lag2: p=0.035193 (Uncorrected)
-  Illinois_lag3: p=0.038506 (Uncorrected)
+  Illinois_maxlag2_lag1: p=0.035193 (Uncorrected)
+  Illinois_maxlag2_lag2: p=0.047381 (Uncorrected)
+  Illinois_maxlag3_lag1: p=0.038506 (Uncorrected)
 
 flu how long significant combinations:
-  Illinois_lag3: p=0.040927 (Uncorrected)
-  Illinois_lag4: p=0.046504 (Uncorrected)
+  Illinois_maxlag3_lag1: p=0.040927 (Uncorrected)
+  Illinois_maxlag4_lag1: p=0.046504 (Uncorrected)
 

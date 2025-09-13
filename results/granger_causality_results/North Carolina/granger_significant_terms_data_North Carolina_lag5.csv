@@ -1,0 +1,12 @@
+Term,Lag,P_Value,Significance
+bronchitis,3,0.007593149506515638,FDR
+fever flu,1,0.037167773448412204,Uncorrected
+flu contagious,1,0.020085489272272248,Uncorrected
+flu contagious,2,0.0247010159710581,Uncorrected
+flu contagious,4,0.02275269054045551,Uncorrected
+flu how long,1,0.04556876336192243,Uncorrected
+flu incubation,2,0.007069381987577863,FDR
+flu incubation,5,0.008306835485709716,FDR
+flu symptoms,1,0.011226465098896856,FDR
+how long contagious,3,0.009136321898999484,FDR
+symptoms of the flu,2,0.0053974367748864565,FDR

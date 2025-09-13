@@ -1,44 +1,59 @@
 === GRANGER CAUSALITY SIGNIFICANT TERMS SUMMARY ===
 Data file analyzed: Maine_2010_2020.csv
 Response variable: Maine
-Total significant term combinations: 22
+Total significant term combinations: 37
 Unique terms: 7
 Response variables analyzed: Maine
-Max lags tested: 3, 4, 2, 5, 1
+Max lags tested: 3, 2, 1, 4, 5
 
 the flu significant combinations:
-  Maine_lag2: p=0.000000 (Bonferroni)
-  Maine_lag3: p=0.000003 (Bonferroni)
-  Maine_lag4: p=0.000003 (Bonferroni)
-  Maine_lag5: p=0.000002 (Bonferroni)
+  Maine_maxlag2_lag1: p=0.000196 (Bonferroni)
+  Maine_maxlag2_lag2: p=0.000000 (Bonferroni)
+  Maine_maxlag3_lag1: p=0.000003 (Bonferroni)
+  Maine_maxlag3_lag2: p=0.005298 (FDR)
+  Maine_maxlag3_lag3: p=0.001699 (Bonferroni)
+  Maine_maxlag4_lag1: p=0.000003 (Bonferroni)
+  Maine_maxlag4_lag2: p=0.005220 (FDR)
+  Maine_maxlag4_lag3: p=0.006881 (FDR)
+  Maine_maxlag5_lag1: p=0.000002 (Bonferroni)
+  Maine_maxlag5_lag2: p=0.010601 (FDR)
+  Maine_maxlag5_lag3: p=0.007394 (FDR)
 
 rsv significant combinations:
-  Maine_lag1: p=0.000510 (Bonferroni)
-  Maine_lag2: p=0.004936 (FDR)
-  Maine_lag3: p=0.001360 (Bonferroni)
-  Maine_lag4: p=0.007262 (FDR)
-  Maine_lag5: p=0.006389 (FDR)
+  Maine_maxlag1_lag1: p=0.000510 (Bonferroni)
+  Maine_maxlag2_lag1: p=0.004936 (FDR)
+  Maine_maxlag2_lag2: p=0.006831 (FDR)
+  Maine_maxlag3_lag1: p=0.009348 (FDR)
+  Maine_maxlag3_lag2: p=0.001360 (Bonferroni)
+  Maine_maxlag4_lag1: p=0.016472 (FDR)
+  Maine_maxlag4_lag2: p=0.007262 (FDR)
+  Maine_maxlag5_lag1: p=0.008135 (FDR)
+  Maine_maxlag5_lag2: p=0.013259 (FDR)
+  Maine_maxlag5_lag5: p=0.006389 (FDR)
 
 flu symptoms significant combinations:
-  Maine_lag2: p=0.001145 (Bonferroni)
-  Maine_lag3: p=0.004960 (FDR)
-  Maine_lag4: p=0.004480 (FDR)
-  Maine_lag5: p=0.004059 (FDR)
+  Maine_maxlag2_lag1: p=0.001145 (Bonferroni)
+  Maine_maxlag2_lag2: p=0.011834 (FDR)
+  Maine_maxlag3_lag1: p=0.004960 (FDR)
+  Maine_maxlag3_lag2: p=0.025263 (FDR)
+  Maine_maxlag4_lag1: p=0.004480 (FDR)
+  Maine_maxlag4_lag2: p=0.047695 (FDR)
+  Maine_maxlag5_lag1: p=0.004059 (FDR)
 
 how long does flu last significant combinations:
-  Maine_lag3: p=0.018225 (Uncorrected)
-  Maine_lag4: p=0.018781 (Uncorrected)
-  Maine_lag5: p=0.003761 (FDR)
+  Maine_maxlag3_lag3: p=0.018225 (Uncorrected)
+  Maine_maxlag4_lag3: p=0.018781 (Uncorrected)
+  Maine_maxlag5_lag3: p=0.003761 (FDR)
 
 symptoms of flu significant combinations:
-  Maine_lag2: p=0.014874 (Uncorrected)
-  Maine_lag3: p=0.017328 (Uncorrected)
-  Maine_lag4: p=0.030985 (Uncorrected)
-  Maine_lag5: p=0.023796 (Uncorrected)
+  Maine_maxlag2_lag2: p=0.014874 (Uncorrected)
+  Maine_maxlag3_lag2: p=0.017328 (Uncorrected)
+  Maine_maxlag4_lag2: p=0.030985 (Uncorrected)
+  Maine_maxlag5_lag1: p=0.023796 (Uncorrected)
 
 sinus significant combinations:
-  Maine_lag5: p=0.015278 (Uncorrected)
+  Maine_maxlag5_lag5: p=0.015278 (Uncorrected)
 
 the flu symptoms significant combinations:
-  Maine_lag5: p=0.025168 (Uncorrected)
+  Maine_maxlag5_lag5: p=0.025168 (Uncorrected)
 

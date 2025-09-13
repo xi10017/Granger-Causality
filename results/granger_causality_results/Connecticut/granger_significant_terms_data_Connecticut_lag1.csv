@@ -1,0 +1,5 @@
+Term,Lag,P_Value,Significance
+contagious flu,1,0.04780142130425588,Uncorrected
+flu a,1,0.03425055561863509,Uncorrected
+flu contagious,1,0.04780142129401872,Uncorrected
+rsv,1,5.420384282085408e-11,Bonferroni

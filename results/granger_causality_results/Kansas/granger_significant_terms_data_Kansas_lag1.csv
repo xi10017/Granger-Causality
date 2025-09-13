@@ -1,0 +1,4 @@
+Term,Lag,P_Value,Significance
+flu how long,1,0.04853548147730634,Uncorrected
+influenza a symptoms,1,0.002130800454408526,Bonferroni
+stomach flu,1,2.8106890367801837e-05,Bonferroni

@@ -1,0 +1,19 @@
+Term,Lag,P_Value,Significance
+fever flu,4,0.03526836757705884,Uncorrected
+flu a,2,0.01756644763866374,Uncorrected
+flu contagious,1,0.002528287125498359,FDR
+flu symptoms,1,0.04426324582423659,Uncorrected
+flu type a,1,0.0002071091060902563,Bonferroni
+flu type a,2,0.00602257428178664,FDR
+flu type a,3,0.030904948095903644,FDR
+how long contagious,1,0.04794765236173177,Uncorrected
+how long flu,2,0.000817528258052049,Bonferroni
+how long flu,4,0.0345193214811055,FDR
+pneumonia,1,0.030010217673488923,Uncorrected
+stomach flu,3,0.04569690112262508,Uncorrected
+the flu,2,0.010575039832815021,FDR
+the flu,4,0.008476126766864848,FDR
+the flu symptoms,3,0.032344676967370985,Uncorrected
+type a flu,1,0.00020710910590819888,Bonferroni
+type a flu,2,0.0060225742790788635,FDR
+type a flu,3,0.030904948095749302,FDR

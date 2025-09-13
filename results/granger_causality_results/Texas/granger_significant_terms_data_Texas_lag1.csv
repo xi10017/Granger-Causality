@@ -1,0 +1,3 @@
+Term,Lag,P_Value,Significance
+b flu,1,0.04773404079436216,Uncorrected
+flu cold,1,7.628279643779058e-07,Bonferroni

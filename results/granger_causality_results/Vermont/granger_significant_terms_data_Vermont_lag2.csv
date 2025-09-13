@@ -1,0 +1,6 @@
+Term,Lag,P_Value,Significance
+flu contagious,1,0.004354108048611577,FDR
+flu symptoms,1,0.0002707873797780767,Bonferroni
+rsv,2,0.02122342225930832,Uncorrected
+symptoms of flu,2,0.009121551251403865,Uncorrected
+the flu,1,0.020333738016617885,Uncorrected

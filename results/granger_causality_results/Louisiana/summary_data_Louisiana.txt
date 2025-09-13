@@ -1,84 +1,99 @@
 === GRANGER CAUSALITY SIGNIFICANT TERMS SUMMARY ===
 Data file analyzed: Louisiana_2010_2020.csv
 Response variable: Louisiana
-Total significant term combinations: 42
+Total significant term combinations: 57
 Unique terms: 17
 Response variables analyzed: Louisiana
-Max lags tested: 1, 3, 4, 2, 5
+Max lags tested: 3, 4, 5, 1, 2
 
 the flu symptoms significant combinations:
-  Louisiana_lag1: p=0.000422 (Bonferroni)
-  Louisiana_lag2: p=0.000067 (Bonferroni)
-  Louisiana_lag3: p=0.000055 (Bonferroni)
-  Louisiana_lag4: p=0.000006 (Bonferroni)
-  Louisiana_lag5: p=0.000013 (Bonferroni)
+  Louisiana_maxlag1_lag1: p=0.000422 (Bonferroni)
+  Louisiana_maxlag2_lag1: p=0.000067 (Bonferroni)
+  Louisiana_maxlag2_lag2: p=0.006258 (FDR)
+  Louisiana_maxlag3_lag1: p=0.000055 (Bonferroni)
+  Louisiana_maxlag3_lag2: p=0.026159 (FDR)
+  Louisiana_maxlag4_lag1: p=0.000006 (Bonferroni)
+  Louisiana_maxlag4_lag2: p=0.021640 (FDR)
+  Louisiana_maxlag5_lag1: p=0.000013 (Bonferroni)
+  Louisiana_maxlag5_lag2: p=0.015785 (FDR)
 
 flu a significant combinations:
-  Louisiana_lag1: p=0.000016 (Bonferroni)
-  Louisiana_lag2: p=0.001443 (Bonferroni)
-  Louisiana_lag3: p=0.003519 (FDR)
-  Louisiana_lag4: p=0.012712 (FDR)
-  Louisiana_lag5: p=0.002551 (FDR)
+  Louisiana_maxlag1_lag1: p=0.000016 (Bonferroni)
+  Louisiana_maxlag2_lag1: p=0.001443 (Bonferroni)
+  Louisiana_maxlag3_lag1: p=0.003519 (FDR)
+  Louisiana_maxlag4_lag1: p=0.012712 (FDR)
+  Louisiana_maxlag5_lag1: p=0.002551 (FDR)
+  Louisiana_maxlag5_lag5: p=0.002740 (FDR)
 
 cold significant combinations:
-  Louisiana_lag1: p=0.000161 (Bonferroni)
-  Louisiana_lag2: p=0.001379 (Bonferroni)
-  Louisiana_lag3: p=0.000339 (Bonferroni)
-  Louisiana_lag4: p=0.000308 (Bonferroni)
-  Louisiana_lag5: p=0.003079 (FDR)
+  Louisiana_maxlag1_lag1: p=0.000161 (Bonferroni)
+  Louisiana_maxlag2_lag1: p=0.001379 (Bonferroni)
+  Louisiana_maxlag3_lag1: p=0.000339 (Bonferroni)
+  Louisiana_maxlag3_lag3: p=0.019732 (FDR)
+  Louisiana_maxlag4_lag1: p=0.000308 (Bonferroni)
+  Louisiana_maxlag4_lag3: p=0.001298 (Bonferroni)
+  Louisiana_maxlag5_lag1: p=0.003304 (FDR)
+  Louisiana_maxlag5_lag3: p=0.003079 (FDR)
 
 how long does the flu last significant combinations:
-  Louisiana_lag3: p=0.000907 (Bonferroni)
-  Louisiana_lag4: p=0.000283 (Bonferroni)
-  Louisiana_lag5: p=0.001634 (Bonferroni)
+  Louisiana_maxlag3_lag3: p=0.000907 (Bonferroni)
+  Louisiana_maxlag4_lag3: p=0.000283 (Bonferroni)
+  Louisiana_maxlag5_lag3: p=0.001634 (Bonferroni)
 
 flu contagious significant combinations:
-  Louisiana_lag3: p=0.001161 (Bonferroni)
-  Louisiana_lag4: p=0.001523 (Bonferroni)
-  Louisiana_lag5: p=0.003324 (FDR)
+  Louisiana_maxlag3_lag2: p=0.043399 (FDR)
+  Louisiana_maxlag3_lag3: p=0.001161 (Bonferroni)
+  Louisiana_maxlag4_lag3: p=0.001523 (Bonferroni)
+  Louisiana_maxlag5_lag2: p=0.030782 (FDR)
+  Louisiana_maxlag5_lag3: p=0.003324 (FDR)
 
 flu fever significant combinations:
-  Louisiana_lag5: p=0.001600 (Bonferroni)
+  Louisiana_maxlag5_lag2: p=0.044131 (FDR)
+  Louisiana_maxlag5_lag5: p=0.001600 (Bonferroni)
 
 flu symptoms significant combinations:
-  Louisiana_lag2: p=0.001644 (Bonferroni)
-  Louisiana_lag3: p=0.044001 (Uncorrected)
-  Louisiana_lag5: p=0.033515 (Uncorrected)
+  Louisiana_maxlag2_lag1: p=0.001644 (Bonferroni)
+  Louisiana_maxlag2_lag2: p=0.021445 (FDR)
+  Louisiana_maxlag3_lag1: p=0.044001 (Uncorrected)
+  Louisiana_maxlag5_lag1: p=0.033515 (Uncorrected)
 
 pneumonia significant combinations:
-  Louisiana_lag1: p=0.003600 (FDR)
+  Louisiana_maxlag1_lag1: p=0.003600 (FDR)
 
 fever flu significant combinations:
-  Louisiana_lag2: p=0.024148 (Uncorrected)
-  Louisiana_lag3: p=0.010608 (FDR)
-  Louisiana_lag4: p=0.006328 (FDR)
-  Louisiana_lag5: p=0.016777 (FDR)
+  Louisiana_maxlag2_lag2: p=0.024148 (Uncorrected)
+  Louisiana_maxlag3_lag2: p=0.010608 (FDR)
+  Louisiana_maxlag3_lag3: p=0.028262 (FDR)
+  Louisiana_maxlag4_lag1: p=0.013025 (FDR)
+  Louisiana_maxlag4_lag2: p=0.006328 (FDR)
+  Louisiana_maxlag4_lag3: p=0.038018 (FDR)
+  Louisiana_maxlag5_lag2: p=0.016777 (FDR)
 
 symptoms of flu significant combinations:
-  Louisiana_lag3: p=0.009218 (FDR)
-  Louisiana_lag4: p=0.007420 (FDR)
-  Louisiana_lag5: p=0.011186 (FDR)
+  Louisiana_maxlag3_lag1: p=0.009218 (FDR)
+  Louisiana_maxlag4_lag1: p=0.007420 (FDR)
+  Louisiana_maxlag5_lag1: p=0.011186 (FDR)
 
 the flu significant combinations:
-  Louisiana_lag2: p=0.009790 (FDR)
+  Louisiana_maxlag2_lag2: p=0.009790 (FDR)
 
 is flu contagious significant combinations:
-  Louisiana_lag3: p=0.014375 (FDR)
+  Louisiana_maxlag3_lag2: p=0.014375 (FDR)
 
 oscillococcinum significant combinations:
-  Louisiana_lag1: p=0.015835 (Uncorrected)
+  Louisiana_maxlag1_lag1: p=0.015835 (Uncorrected)
 
 flu type significant combinations:
-  Louisiana_lag2: p=0.016402 (Uncorrected)
-  Louisiana_lag3: p=0.016556 (FDR)
+  Louisiana_maxlag2_lag1: p=0.016402 (Uncorrected)
+  Louisiana_maxlag3_lag1: p=0.016556 (FDR)
 
 flu cold significant combinations:
-  Louisiana_lag4: p=0.018485 (FDR)
-  Louisiana_lag5: p=0.018653 (FDR)
+  Louisiana_maxlag4_lag1: p=0.018485 (FDR)
+  Louisiana_maxlag5_lag1: p=0.018653 (FDR)
 
 bronchitis significant combinations:
-  Louisiana_lag5: p=0.039546 (Uncorrected)
+  Louisiana_maxlag5_lag2: p=0.039546 (Uncorrected)
 
 flu how long significant combinations:
-  Louisiana_lag3: p=0.048702 (Uncorrected)
+  Louisiana_maxlag3_lag3: p=0.048702 (Uncorrected)
 

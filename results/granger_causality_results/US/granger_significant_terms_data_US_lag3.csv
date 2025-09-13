@@ -1,0 +1,10 @@
+Term,Lag,P_Value,Significance
+contagious flu,1,0.0025915170333799726,FDR
+flu type,3,0.042340975526726825,Uncorrected
+flu type a,2,0.03179723472830528,Uncorrected
+get rid of the flu,1,0.033236420698832266,Uncorrected
+how long contagious,3,1.8890993154033118e-05,Bonferroni
+is flu contagious,1,0.0004169165795569217,Bonferroni
+is the flu contagious,1,0.00815002175669516,FDR
+tamiflu side effects,1,0.02428510181652396,Uncorrected
+type a flu,2,0.0322189727036175,Uncorrected

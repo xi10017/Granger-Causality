@@ -1,0 +1,6 @@
+Term,Lag,P_Value,Significance
+flu how long,1,1.615017968634928e-09,Bonferroni
+how long flu,1,1.6150179780399283e-09,Bonferroni
+influenza a,1,1.8585566350919228e-07,Bonferroni
+rsv,1,0.016496440643766843,Uncorrected
+the flu,1,0.039441131824179375,Uncorrected

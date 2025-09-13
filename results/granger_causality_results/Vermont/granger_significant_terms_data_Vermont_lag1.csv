@@ -1,0 +1,4 @@
+Term,Lag,P_Value,Significance
+flu contagious,1,0.005982491793245966,Uncorrected
+flu symptoms,1,0.0020970770750926657,Bonferroni
+how long does flu last,1,0.047771289552599155,Uncorrected

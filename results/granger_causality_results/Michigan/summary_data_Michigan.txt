@@ -1,48 +1,53 @@
 === GRANGER CAUSALITY SIGNIFICANT TERMS SUMMARY ===
 Data file analyzed: Michigan_2010_2020.csv
 Response variable: Michigan
-Total significant term combinations: 20
+Total significant term combinations: 25
 Unique terms: 10
 Response variables analyzed: Michigan
-Max lags tested: 4, 2, 1, 5, 3
+Max lags tested: 2, 1, 3, 4, 5
 
 the flu significant combinations:
-  Michigan_lag1: p=0.000962 (Bonferroni)
-  Michigan_lag4: p=0.031970 (Uncorrected)
+  Michigan_maxlag1_lag1: p=0.000962 (Bonferroni)
+  Michigan_maxlag4_lag3: p=0.031970 (Uncorrected)
+  Michigan_maxlag4_lag4: p=0.034212 (Uncorrected)
 
 is flu contagious significant combinations:
-  Michigan_lag1: p=0.005647 (FDR)
-  Michigan_lag2: p=0.004227 (Uncorrected)
-  Michigan_lag3: p=0.005109 (Uncorrected)
-  Michigan_lag4: p=0.008045 (Uncorrected)
-  Michigan_lag5: p=0.011469 (Uncorrected)
+  Michigan_maxlag1_lag1: p=0.005647 (FDR)
+  Michigan_maxlag2_lag1: p=0.004227 (Uncorrected)
+  Michigan_maxlag3_lag1: p=0.005109 (Uncorrected)
+  Michigan_maxlag3_lag2: p=0.034583 (Uncorrected)
+  Michigan_maxlag4_lag1: p=0.008045 (Uncorrected)
+  Michigan_maxlag4_lag2: p=0.033737 (Uncorrected)
+  Michigan_maxlag5_lag1: p=0.011469 (Uncorrected)
+  Michigan_maxlag5_lag2: p=0.033641 (Uncorrected)
 
 rsv significant combinations:
-  Michigan_lag1: p=0.006930 (FDR)
-  Michigan_lag3: p=0.038477 (Uncorrected)
-  Michigan_lag5: p=0.034333 (Uncorrected)
+  Michigan_maxlag1_lag1: p=0.006930 (FDR)
+  Michigan_maxlag3_lag3: p=0.038477 (Uncorrected)
+  Michigan_maxlag5_lag2: p=0.043920 (Uncorrected)
+  Michigan_maxlag5_lag3: p=0.034333 (Uncorrected)
 
 flu a significant combinations:
-  Michigan_lag1: p=0.008523 (FDR)
+  Michigan_maxlag1_lag1: p=0.008523 (FDR)
 
 flu how long significant combinations:
-  Michigan_lag4: p=0.024955 (Uncorrected)
-  Michigan_lag5: p=0.039205 (Uncorrected)
+  Michigan_maxlag4_lag4: p=0.024955 (Uncorrected)
+  Michigan_maxlag5_lag4: p=0.039205 (Uncorrected)
 
 influenza a significant combinations:
-  Michigan_lag5: p=0.026385 (Uncorrected)
+  Michigan_maxlag5_lag5: p=0.026385 (Uncorrected)
 
 a influenza significant combinations:
-  Michigan_lag2: p=0.028913 (Uncorrected)
-  Michigan_lag3: p=0.049327 (Uncorrected)
-  Michigan_lag4: p=0.040859 (Uncorrected)
+  Michigan_maxlag2_lag1: p=0.028913 (Uncorrected)
+  Michigan_maxlag3_lag1: p=0.049327 (Uncorrected)
+  Michigan_maxlag4_lag1: p=0.040859 (Uncorrected)
 
 symptoms of flu significant combinations:
-  Michigan_lag5: p=0.028951 (Uncorrected)
+  Michigan_maxlag5_lag4: p=0.028951 (Uncorrected)
 
 stomach flu significant combinations:
-  Michigan_lag1: p=0.030836 (Uncorrected)
+  Michigan_maxlag1_lag1: p=0.030836 (Uncorrected)
 
 how long flu significant combinations:
-  Michigan_lag4: p=0.047188 (Uncorrected)
+  Michigan_maxlag4_lag1: p=0.047188 (Uncorrected)
 

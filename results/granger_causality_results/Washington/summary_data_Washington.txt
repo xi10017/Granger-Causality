@@ -1,77 +1,86 @@
 === GRANGER CAUSALITY SIGNIFICANT TERMS SUMMARY ===
 Data file analyzed: Washington_2010_2020.csv
 Response variable: Washington
-Total significant term combinations: 41
+Total significant term combinations: 50
 Unique terms: 14
 Response variables analyzed: Washington
-Max lags tested: 1, 4, 5, 3, 2
-
-flu contagious significant combinations:
-  Washington_lag2: p=0.000039 (Bonferroni)
-  Washington_lag3: p=0.000393 (Bonferroni)
-  Washington_lag4: p=0.000938 (Bonferroni)
-  Washington_lag5: p=0.001224 (Bonferroni)
+Max lags tested: 1, 3, 5, 2, 4
 
 contagious flu significant combinations:
-  Washington_lag2: p=0.000039 (Bonferroni)
-  Washington_lag3: p=0.000393 (Bonferroni)
-  Washington_lag4: p=0.000938 (Bonferroni)
-  Washington_lag5: p=0.001224 (Bonferroni)
+  Washington_maxlag2_lag2: p=0.000039 (Bonferroni)
+  Washington_maxlag3_lag2: p=0.000393 (Bonferroni)
+  Washington_maxlag4_lag2: p=0.000938 (Bonferroni)
+  Washington_maxlag5_lag2: p=0.001224 (Bonferroni)
+
+flu contagious significant combinations:
+  Washington_maxlag2_lag2: p=0.000039 (Bonferroni)
+  Washington_maxlag3_lag2: p=0.000393 (Bonferroni)
+  Washington_maxlag4_lag2: p=0.000938 (Bonferroni)
+  Washington_maxlag5_lag2: p=0.001224 (Bonferroni)
 
 fever flu significant combinations:
-  Washington_lag2: p=0.003417 (FDR)
-  Washington_lag3: p=0.007795 (FDR)
-  Washington_lag4: p=0.001654 (Bonferroni)
-  Washington_lag5: p=0.002851 (FDR)
+  Washington_maxlag2_lag1: p=0.003417 (FDR)
+  Washington_maxlag3_lag1: p=0.007795 (FDR)
+  Washington_maxlag4_lag1: p=0.001654 (Bonferroni)
+  Washington_maxlag5_lag1: p=0.002851 (FDR)
+  Washington_maxlag5_lag5: p=0.028976 (FDR)
 
 flu fever significant combinations:
-  Washington_lag2: p=0.003417 (FDR)
-  Washington_lag3: p=0.007795 (FDR)
-  Washington_lag4: p=0.001654 (Bonferroni)
-  Washington_lag5: p=0.002851 (FDR)
+  Washington_maxlag2_lag1: p=0.003417 (FDR)
+  Washington_maxlag3_lag1: p=0.007795 (FDR)
+  Washington_maxlag4_lag1: p=0.001654 (Bonferroni)
+  Washington_maxlag5_lag1: p=0.002851 (FDR)
+  Washington_maxlag5_lag5: p=0.028976 (FDR)
 
 flu cold significant combinations:
-  Washington_lag1: p=0.034936 (Uncorrected)
-  Washington_lag4: p=0.033764 (Uncorrected)
-  Washington_lag5: p=0.010955 (FDR)
+  Washington_maxlag1_lag1: p=0.034936 (Uncorrected)
+  Washington_maxlag4_lag1: p=0.033764 (Uncorrected)
+  Washington_maxlag5_lag1: p=0.020424 (FDR)
+  Washington_maxlag5_lag5: p=0.010955 (FDR)
 
 the flu symptoms significant combinations:
-  Washington_lag2: p=0.035729 (Uncorrected)
-  Washington_lag3: p=0.031279 (Uncorrected)
-  Washington_lag4: p=0.019489 (Uncorrected)
-  Washington_lag5: p=0.013267 (FDR)
+  Washington_maxlag2_lag1: p=0.035729 (Uncorrected)
+  Washington_maxlag3_lag1: p=0.031279 (Uncorrected)
+  Washington_maxlag4_lag1: p=0.019489 (Uncorrected)
+  Washington_maxlag5_lag1: p=0.013267 (FDR)
 
 a influenza significant combinations:
-  Washington_lag2: p=0.047734 (Uncorrected)
-  Washington_lag3: p=0.019681 (Uncorrected)
-  Washington_lag4: p=0.030276 (Uncorrected)
-  Washington_lag5: p=0.026476 (Uncorrected)
+  Washington_maxlag2_lag2: p=0.047734 (Uncorrected)
+  Washington_maxlag3_lag1: p=0.025711 (Uncorrected)
+  Washington_maxlag3_lag3: p=0.019681 (Uncorrected)
+  Washington_maxlag4_lag1: p=0.030276 (Uncorrected)
+  Washington_maxlag4_lag3: p=0.033273 (Uncorrected)
+  Washington_maxlag5_lag1: p=0.026476 (Uncorrected)
+  Washington_maxlag5_lag3: p=0.028522 (Uncorrected)
 
 influenza a significant combinations:
-  Washington_lag2: p=0.047734 (Uncorrected)
-  Washington_lag3: p=0.019681 (Uncorrected)
-  Washington_lag4: p=0.030276 (Uncorrected)
-  Washington_lag5: p=0.026476 (Uncorrected)
+  Washington_maxlag2_lag2: p=0.047734 (Uncorrected)
+  Washington_maxlag3_lag1: p=0.025711 (Uncorrected)
+  Washington_maxlag3_lag3: p=0.019681 (Uncorrected)
+  Washington_maxlag4_lag1: p=0.030276 (Uncorrected)
+  Washington_maxlag4_lag3: p=0.033273 (Uncorrected)
+  Washington_maxlag5_lag1: p=0.026476 (Uncorrected)
+  Washington_maxlag5_lag3: p=0.028522 (Uncorrected)
 
 the flu significant combinations:
-  Washington_lag1: p=0.020030 (Uncorrected)
+  Washington_maxlag1_lag1: p=0.020030 (Uncorrected)
 
 how long flu significant combinations:
-  Washington_lag4: p=0.021089 (Uncorrected)
-  Washington_lag5: p=0.029364 (Uncorrected)
+  Washington_maxlag4_lag1: p=0.021089 (Uncorrected)
+  Washington_maxlag5_lag1: p=0.029364 (Uncorrected)
 
 flu how long significant combinations:
-  Washington_lag4: p=0.021089 (Uncorrected)
-  Washington_lag5: p=0.029364 (Uncorrected)
+  Washington_maxlag4_lag1: p=0.021089 (Uncorrected)
+  Washington_maxlag5_lag1: p=0.029364 (Uncorrected)
 
 flu virus significant combinations:
-  Washington_lag1: p=0.026784 (Uncorrected)
+  Washington_maxlag1_lag1: p=0.026784 (Uncorrected)
 
 how long does flu last significant combinations:
-  Washington_lag2: p=0.028530 (Uncorrected)
-  Washington_lag3: p=0.033758 (Uncorrected)
+  Washington_maxlag2_lag1: p=0.028530 (Uncorrected)
+  Washington_maxlag3_lag1: p=0.033758 (Uncorrected)
 
 symptoms of flu significant combinations:
-  Washington_lag1: p=0.047819 (Uncorrected)
-  Washington_lag2: p=0.031776 (Uncorrected)
+  Washington_maxlag1_lag1: p=0.047819 (Uncorrected)
+  Washington_maxlag2_lag2: p=0.031776 (Uncorrected)
 

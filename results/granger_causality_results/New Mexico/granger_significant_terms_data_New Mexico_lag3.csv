@@ -1,0 +1,10 @@
+Term,Lag,P_Value,Significance
+a influenza,1,0.044116913584831885,Uncorrected
+contagious flu,1,0.04120760175597774,Uncorrected
+contagious flu,3,0.02750444031918858,Uncorrected
+flu cold,1,0.002290401293746586,Bonferroni
+flu cold,2,0.03703957760152131,FDR
+flu contagious,1,0.041207601800964444,Uncorrected
+flu contagious,3,0.02750444028439924,Uncorrected
+how long does flu last,3,0.022874642232596203,Uncorrected
+stomach flu,3,0.020077425756783483,Uncorrected

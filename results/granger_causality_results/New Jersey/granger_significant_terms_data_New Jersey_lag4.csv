@@ -1,0 +1,16 @@
+Term,Lag,P_Value,Significance
+cold,3,0.006409928811574667,FDR
+flu fever,2,0.04047452640457861,Uncorrected
+flu symptoms,2,0.0015835987806754775,Bonferroni
+flu symptoms,3,0.032218254640498996,FDR
+how long does flu last,3,0.030499207353216134,Uncorrected
+how long flu,1,0.03097466391804781,Uncorrected
+sinus,3,0.04241938890227714,Uncorrected
+stomach flu,1,0.04577798165623185,FDR
+stomach flu,3,0.0022019270049798757,Bonferroni
+symptoms of flu,4,0.03407528835573271,Uncorrected
+the flu,1,1.389863041470421e-06,Bonferroni
+the flu,2,3.538248999371061e-05,Bonferroni
+the flu,3,0.010729151798986267,FDR
+the flu,4,4.224022677078023e-07,Bonferroni
+the flu symptoms,2,0.008507175470086361,FDR

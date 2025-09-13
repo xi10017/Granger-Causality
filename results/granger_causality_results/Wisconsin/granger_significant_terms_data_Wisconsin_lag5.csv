@@ -1,0 +1,4 @@
+Term,Lag,P_Value,Significance
+influenza a,1,0.019348759903362534,Uncorrected
+the flu symptoms,2,0.01609919453814314,Uncorrected
+the flu symptoms,3,0.046110676875817554,Uncorrected

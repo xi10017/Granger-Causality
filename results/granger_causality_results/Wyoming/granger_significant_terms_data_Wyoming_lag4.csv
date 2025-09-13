@@ -1,0 +1,9 @@
+Term,Lag,P_Value,Significance
+contagious flu,4,0.004081230985870876,FDR
+flu a,4,0.024440427104852037,Uncorrected
+flu contagious,4,0.004081230975907379,FDR
+flu symptoms,1,0.022850315707066672,Uncorrected
+pneumonia,4,0.011963582408381614,Uncorrected
+rsv,4,0.027196086576847606,Uncorrected
+the flu,1,0.02056274626874983,Uncorrected
+the flu,3,0.043156478315918984,Uncorrected

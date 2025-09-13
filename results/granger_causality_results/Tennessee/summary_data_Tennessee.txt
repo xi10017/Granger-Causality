@@ -1,80 +1,86 @@
 === GRANGER CAUSALITY SIGNIFICANT TERMS SUMMARY ===
 Data file analyzed: Tennessee_2010_2020.csv
 Response variable: Tennessee
-Total significant term combinations: 42
+Total significant term combinations: 48
 Unique terms: 15
 Response variables analyzed: Tennessee
-Max lags tested: 2, 4, 1, 5, 3
-
-flu contagious significant combinations:
-  Tennessee_lag1: p=0.000357 (Bonferroni)
-  Tennessee_lag2: p=0.000026 (Bonferroni)
-  Tennessee_lag3: p=0.000007 (Bonferroni)
-  Tennessee_lag4: p=0.000051 (Bonferroni)
-  Tennessee_lag5: p=0.000606 (Bonferroni)
+Max lags tested: 3, 4, 2, 1, 5
 
 contagious flu significant combinations:
-  Tennessee_lag1: p=0.000357 (Bonferroni)
-  Tennessee_lag2: p=0.000026 (Bonferroni)
-  Tennessee_lag3: p=0.000007 (Bonferroni)
-  Tennessee_lag4: p=0.000051 (Bonferroni)
-  Tennessee_lag5: p=0.000606 (Bonferroni)
+  Tennessee_maxlag1_lag1: p=0.000357 (Bonferroni)
+  Tennessee_maxlag2_lag1: p=0.000026 (Bonferroni)
+  Tennessee_maxlag3_lag1: p=0.000007 (Bonferroni)
+  Tennessee_maxlag4_lag1: p=0.000051 (Bonferroni)
+  Tennessee_maxlag5_lag1: p=0.000606 (Bonferroni)
+
+flu contagious significant combinations:
+  Tennessee_maxlag1_lag1: p=0.000357 (Bonferroni)
+  Tennessee_maxlag2_lag1: p=0.000026 (Bonferroni)
+  Tennessee_maxlag3_lag1: p=0.000007 (Bonferroni)
+  Tennessee_maxlag4_lag1: p=0.000051 (Bonferroni)
+  Tennessee_maxlag5_lag1: p=0.000606 (Bonferroni)
 
 rsv significant combinations:
-  Tennessee_lag1: p=0.000060 (Bonferroni)
+  Tennessee_maxlag1_lag1: p=0.000060 (Bonferroni)
 
 how long does flu last significant combinations:
-  Tennessee_lag1: p=0.000157 (Bonferroni)
-  Tennessee_lag2: p=0.000334 (Bonferroni)
-  Tennessee_lag3: p=0.001121 (Bonferroni)
-  Tennessee_lag4: p=0.000258 (Bonferroni)
-  Tennessee_lag5: p=0.000105 (Bonferroni)
+  Tennessee_maxlag1_lag1: p=0.000157 (Bonferroni)
+  Tennessee_maxlag2_lag1: p=0.000334 (Bonferroni)
+  Tennessee_maxlag3_lag1: p=0.001121 (Bonferroni)
+  Tennessee_maxlag4_lag1: p=0.000258 (Bonferroni)
+  Tennessee_maxlag4_lag2: p=0.021469 (FDR)
+  Tennessee_maxlag5_lag1: p=0.000105 (Bonferroni)
 
 flu symptoms significant combinations:
-  Tennessee_lag2: p=0.001620 (Bonferroni)
-  Tennessee_lag3: p=0.000432 (Bonferroni)
-  Tennessee_lag4: p=0.000154 (Bonferroni)
-  Tennessee_lag5: p=0.000558 (Bonferroni)
+  Tennessee_maxlag2_lag2: p=0.001620 (Bonferroni)
+  Tennessee_maxlag3_lag2: p=0.000432 (Bonferroni)
+  Tennessee_maxlag4_lag1: p=0.004353 (FDR)
+  Tennessee_maxlag4_lag2: p=0.000154 (Bonferroni)
+  Tennessee_maxlag5_lag1: p=0.004315 (FDR)
+  Tennessee_maxlag5_lag2: p=0.000558 (Bonferroni)
 
 flu cold significant combinations:
-  Tennessee_lag1: p=0.015023 (FDR)
-  Tennessee_lag2: p=0.002144 (Bonferroni)
-  Tennessee_lag3: p=0.003554 (FDR)
-  Tennessee_lag4: p=0.006012 (FDR)
-  Tennessee_lag5: p=0.006496 (FDR)
+  Tennessee_maxlag1_lag1: p=0.015023 (FDR)
+  Tennessee_maxlag2_lag1: p=0.002144 (Bonferroni)
+  Tennessee_maxlag3_lag1: p=0.003554 (FDR)
+  Tennessee_maxlag3_lag3: p=0.034716 (FDR)
+  Tennessee_maxlag4_lag1: p=0.010177 (FDR)
+  Tennessee_maxlag4_lag4: p=0.006012 (FDR)
+  Tennessee_maxlag5_lag1: p=0.006496 (FDR)
+  Tennessee_maxlag5_lag4: p=0.029760 (FDR)
 
 the flu symptoms significant combinations:
-  Tennessee_lag1: p=0.015365 (FDR)
-  Tennessee_lag2: p=0.002658 (FDR)
-  Tennessee_lag3: p=0.008220 (FDR)
-  Tennessee_lag4: p=0.006688 (FDR)
-  Tennessee_lag5: p=0.013955 (FDR)
+  Tennessee_maxlag1_lag1: p=0.015365 (FDR)
+  Tennessee_maxlag2_lag1: p=0.002658 (FDR)
+  Tennessee_maxlag3_lag1: p=0.008220 (FDR)
+  Tennessee_maxlag4_lag1: p=0.006688 (FDR)
+  Tennessee_maxlag5_lag1: p=0.013955 (FDR)
 
 b flu significant combinations:
-  Tennessee_lag4: p=0.006208 (FDR)
+  Tennessee_maxlag4_lag4: p=0.006208 (FDR)
 
 flu type significant combinations:
-  Tennessee_lag4: p=0.006417 (FDR)
-  Tennessee_lag5: p=0.018949 (FDR)
+  Tennessee_maxlag4_lag4: p=0.006417 (FDR)
+  Tennessee_maxlag5_lag4: p=0.018949 (FDR)
 
 symptoms of the flu significant combinations:
-  Tennessee_lag5: p=0.007990 (FDR)
+  Tennessee_maxlag5_lag5: p=0.007990 (FDR)
 
 symptoms of flu significant combinations:
-  Tennessee_lag1: p=0.013558 (FDR)
+  Tennessee_maxlag1_lag1: p=0.013558 (FDR)
 
 type a flu significant combinations:
-  Tennessee_lag2: p=0.022543 (Uncorrected)
-  Tennessee_lag3: p=0.045473 (Uncorrected)
+  Tennessee_maxlag2_lag1: p=0.022543 (Uncorrected)
+  Tennessee_maxlag3_lag1: p=0.045473 (Uncorrected)
 
 bronchitis significant combinations:
-  Tennessee_lag3: p=0.029344 (Uncorrected)
+  Tennessee_maxlag3_lag3: p=0.029344 (Uncorrected)
 
 strep significant combinations:
-  Tennessee_lag2: p=0.036662 (Uncorrected)
-  Tennessee_lag4: p=0.030739 (Uncorrected)
-  Tennessee_lag5: p=0.035247 (Uncorrected)
+  Tennessee_maxlag2_lag2: p=0.036662 (Uncorrected)
+  Tennessee_maxlag4_lag2: p=0.030739 (Uncorrected)
+  Tennessee_maxlag5_lag2: p=0.035247 (Uncorrected)
 
 flu how long significant combinations:
-  Tennessee_lag5: p=0.033559 (Uncorrected)
+  Tennessee_maxlag5_lag2: p=0.033559 (Uncorrected)
 

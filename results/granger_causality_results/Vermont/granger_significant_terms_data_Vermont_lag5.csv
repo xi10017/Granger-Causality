@@ -1,0 +1,8 @@
+Term,Lag,P_Value,Significance
+bronchitis,5,0.01726650780879368,Uncorrected
+flu a,5,0.011635100310834442,Uncorrected
+flu contagious,1,0.027711091120602653,Uncorrected
+flu symptoms,1,0.0029994730808659328,Uncorrected
+flu symptoms,3,0.029046300960366474,Uncorrected
+symptoms of flu,2,0.029028484763672847,Uncorrected
+symptoms of flu,3,0.04914582791249324,Uncorrected

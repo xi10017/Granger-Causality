@@ -1,0 +1,14 @@
+Term,Lag,P_Value,Significance
+flu cold,2,0.02663901843791392,Uncorrected
+flu how long,4,0.01897225004258556,Uncorrected
+flu incubation,4,0.020893180179045925,Uncorrected
+flu symptoms,4,0.016576888217106987,Uncorrected
+how long flu,4,0.01897224999682729,Uncorrected
+is flu contagious,2,0.0005532048294612891,Bonferroni
+is flu contagious,3,0.013947858305487155,FDR
+rsv,3,0.0312094826373809,Uncorrected
+rsv,4,0.018411023748830947,Uncorrected
+sinus,4,0.01163343561075483,Uncorrected
+the flu,1,0.03279841758379039,Uncorrected
+the flu,2,0.024492269371637766,Uncorrected
+the flu,3,0.017093908808714385,Uncorrected

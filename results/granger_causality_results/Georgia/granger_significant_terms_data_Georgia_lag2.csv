@@ -1,0 +1,13 @@
+Term,Lag,P_Value,Significance
+cold,1,5.188277390412712e-09,Bonferroni
+cold,2,0.04164945473046233,FDR
+flu a,1,0.047996487596612944,Uncorrected
+flu cold,2,0.014075740661833409,FDR
+flu symptoms,1,0.00011342639259343544,Bonferroni
+flu type,1,1.2085164520929957e-08,Bonferroni
+flu virus,1,0.03055656836416094,Uncorrected
+how long does flu last,1,0.01686594482469855,FDR
+how long does flu last,2,0.004071042548963623,FDR
+is flu contagious,1,0.0003118603683480051,Bonferroni
+symptoms of flu,2,0.001430881228037501,Bonferroni
+the flu,2,0.008664584268248317,FDR

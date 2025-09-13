@@ -1,76 +1,79 @@
 === GRANGER CAUSALITY SIGNIFICANT TERMS SUMMARY ===
 Data file analyzed: Alabama_2010_2020.csv
 Response variable: Alabama
-Total significant term combinations: 36
+Total significant term combinations: 39
 Unique terms: 16
 Response variables analyzed: Alabama
-Max lags tested: 2, 3, 1, 5, 4
+Max lags tested: 4, 5, 1, 2, 3
 
 how long does flu last significant combinations:
-  Alabama_lag1: p=0.000291 (Bonferroni)
-  Alabama_lag2: p=0.005254 (Uncorrected)
-  Alabama_lag3: p=0.001030 (Bonferroni)
-  Alabama_lag4: p=0.000994 (Bonferroni)
-  Alabama_lag5: p=0.000040 (Bonferroni)
+  Alabama_maxlag1_lag1: p=0.000291 (Bonferroni)
+  Alabama_maxlag2_lag1: p=0.005254 (Uncorrected)
+  Alabama_maxlag3_lag1: p=0.001030 (Bonferroni)
+  Alabama_maxlag3_lag3: p=0.027353 (FDR)
+  Alabama_maxlag4_lag1: p=0.000994 (Bonferroni)
+  Alabama_maxlag4_lag3: p=0.013569 (FDR)
+  Alabama_maxlag5_lag1: p=0.000040 (Bonferroni)
+  Alabama_maxlag5_lag3: p=0.012020 (FDR)
 
 symptoms of flu significant combinations:
-  Alabama_lag3: p=0.000317 (Bonferroni)
-  Alabama_lag4: p=0.001626 (Bonferroni)
-  Alabama_lag5: p=0.001018 (Bonferroni)
+  Alabama_maxlag3_lag3: p=0.000317 (Bonferroni)
+  Alabama_maxlag4_lag3: p=0.001626 (Bonferroni)
+  Alabama_maxlag5_lag3: p=0.001018 (Bonferroni)
 
 the flu symptoms significant combinations:
-  Alabama_lag2: p=0.005269 (Uncorrected)
-  Alabama_lag3: p=0.020720 (Uncorrected)
-  Alabama_lag4: p=0.023222 (Uncorrected)
-  Alabama_lag5: p=0.001744 (Bonferroni)
+  Alabama_maxlag2_lag2: p=0.005269 (Uncorrected)
+  Alabama_maxlag3_lag2: p=0.020720 (Uncorrected)
+  Alabama_maxlag4_lag2: p=0.023222 (Uncorrected)
+  Alabama_maxlag5_lag5: p=0.001744 (Bonferroni)
 
 flu how long significant combinations:
-  Alabama_lag5: p=0.004651 (FDR)
+  Alabama_maxlag5_lag5: p=0.004651 (FDR)
 
 how long flu significant combinations:
-  Alabama_lag5: p=0.004651 (FDR)
+  Alabama_maxlag5_lag5: p=0.004651 (FDR)
 
 flu a significant combinations:
-  Alabama_lag3: p=0.004993 (FDR)
-  Alabama_lag4: p=0.004860 (FDR)
-  Alabama_lag5: p=0.007189 (FDR)
+  Alabama_maxlag3_lag3: p=0.004993 (FDR)
+  Alabama_maxlag4_lag3: p=0.004860 (FDR)
+  Alabama_maxlag5_lag3: p=0.007189 (FDR)
 
 flu symptoms significant combinations:
-  Alabama_lag3: p=0.012031 (Uncorrected)
-  Alabama_lag4: p=0.005902 (FDR)
-  Alabama_lag5: p=0.009894 (FDR)
+  Alabama_maxlag3_lag1: p=0.012031 (Uncorrected)
+  Alabama_maxlag4_lag1: p=0.005902 (FDR)
+  Alabama_maxlag5_lag1: p=0.009894 (FDR)
 
 contagious flu significant combinations:
-  Alabama_lag1: p=0.009795 (Uncorrected)
-  Alabama_lag2: p=0.011105 (Uncorrected)
-  Alabama_lag3: p=0.042302 (Uncorrected)
+  Alabama_maxlag1_lag1: p=0.009795 (Uncorrected)
+  Alabama_maxlag2_lag1: p=0.011105 (Uncorrected)
+  Alabama_maxlag3_lag1: p=0.042302 (Uncorrected)
 
 flu contagious significant combinations:
-  Alabama_lag1: p=0.009795 (Uncorrected)
-  Alabama_lag2: p=0.011105 (Uncorrected)
-  Alabama_lag3: p=0.042302 (Uncorrected)
+  Alabama_maxlag1_lag1: p=0.009795 (Uncorrected)
+  Alabama_maxlag2_lag1: p=0.011105 (Uncorrected)
+  Alabama_maxlag3_lag1: p=0.042302 (Uncorrected)
 
 the flu significant combinations:
-  Alabama_lag1: p=0.015549 (Uncorrected)
-  Alabama_lag2: p=0.039374 (Uncorrected)
+  Alabama_maxlag1_lag1: p=0.015549 (Uncorrected)
+  Alabama_maxlag2_lag2: p=0.039374 (Uncorrected)
 
 flu test significant combinations:
-  Alabama_lag2: p=0.015864 (Uncorrected)
-  Alabama_lag3: p=0.036045 (Uncorrected)
+  Alabama_maxlag2_lag1: p=0.015864 (Uncorrected)
+  Alabama_maxlag3_lag1: p=0.036045 (Uncorrected)
 
 pneumonia significant combinations:
-  Alabama_lag5: p=0.029141 (Uncorrected)
+  Alabama_maxlag5_lag5: p=0.029141 (Uncorrected)
 
 is flu contagious significant combinations:
-  Alabama_lag2: p=0.034985 (Uncorrected)
+  Alabama_maxlag2_lag2: p=0.034985 (Uncorrected)
 
 bronchitis significant combinations:
-  Alabama_lag3: p=0.044590 (Uncorrected)
-  Alabama_lag5: p=0.035499 (Uncorrected)
+  Alabama_maxlag3_lag2: p=0.044590 (Uncorrected)
+  Alabama_maxlag5_lag2: p=0.035499 (Uncorrected)
 
 flu cold significant combinations:
-  Alabama_lag5: p=0.035503 (Uncorrected)
+  Alabama_maxlag5_lag5: p=0.035503 (Uncorrected)
 
 flu type significant combinations:
-  Alabama_lag4: p=0.045946 (Uncorrected)
+  Alabama_maxlag4_lag4: p=0.045946 (Uncorrected)
 

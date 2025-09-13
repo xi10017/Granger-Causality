@@ -1,0 +1,7 @@
+Term,Lag,P_Value,Significance
+bronchitis,1,0.01931740132302034,Uncorrected
+cold symptoms,1,0.03466894413404103,Uncorrected
+influenza a,1,0.02675550740419168,Uncorrected
+rsv,1,0.0005578165235462926,Bonferroni
+sinus,1,0.0013971961795791418,Bonferroni
+stomach flu,1,0.0009806285453176219,Bonferroni

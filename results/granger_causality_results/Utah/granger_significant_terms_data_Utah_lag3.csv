@@ -1,0 +1,7 @@
+Term,Lag,P_Value,Significance
+cold,2,0.0006332430522157598,Bonferroni
+flu a,3,0.002457556816509156,Bonferroni
+flu fever,2,0.023584084803979218,Uncorrected
+flu fever,3,0.013354735490878528,Uncorrected
+how long does flu last,3,0.0014800846403451816,Bonferroni
+the flu,3,0.0209838638928343,Uncorrected

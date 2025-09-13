@@ -1,0 +1,7 @@
+Term,Lag,P_Value,Significance
+fever flu,1,0.003062101376436811,FDR
+flu a,1,0.003680069741763507,FDR
+flu a,2,0.0073200161848909805,FDR
+flu symptoms,1,2.279088007174586e-05,Bonferroni
+sinus,2,0.03285093685309553,Uncorrected
+the flu symptoms,2,0.010735138343717083,Uncorrected

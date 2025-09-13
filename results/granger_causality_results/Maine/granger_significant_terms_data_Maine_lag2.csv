@@ -1,0 +1,8 @@
+Term,Lag,P_Value,Significance
+flu symptoms,1,0.0011454002347869668,Bonferroni
+flu symptoms,2,0.011833619724138548,FDR
+rsv,1,0.004935670468019483,FDR
+rsv,2,0.006830725424209568,FDR
+symptoms of flu,2,0.014873835526804595,Uncorrected
+the flu,1,0.0001955862081269613,Bonferroni
+the flu,2,2.1176783587997625e-08,Bonferroni

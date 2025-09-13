@@ -1,8 +1,8 @@
 Term,Category,Count,Mean_Pvalue,Median_Pvalue,Min_Pvalue,Max_Pvalue
 flu contagious,FDR,2,0.0043305,0.0043305,0.004081,0.00458
 contagious flu,FDR,2,0.0043305,0.0043305,0.004081,0.00458
+the flu,Uncorrected,5,0.0258828,0.020563,0.007167,0.043156
 flu symptoms,Uncorrected,5,0.0254606,0.02285,0.009406,0.043724
-the flu,Uncorrected,4,0.0215645,0.019640499999999998,0.007167,0.03981
 pneumonia,Uncorrected,2,0.016968,0.016968,0.011964,0.021972
 rsv,Uncorrected,2,0.0251755,0.0251755,0.023155,0.027196
 flu a,Uncorrected,2,0.027192,0.027192,0.02444,0.029944

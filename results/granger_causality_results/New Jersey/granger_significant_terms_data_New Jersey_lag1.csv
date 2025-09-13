@@ -1,0 +1,6 @@
+Term,Lag,P_Value,Significance
+how long flu,1,0.033125929849430004,Uncorrected
+pneumonia,1,0.03939263394531535,Uncorrected
+rsv,1,3.159438466276711e-05,Bonferroni
+strep,1,0.003408455569776842,FDR
+the flu,1,1.6150797079877743e-08,Bonferroni

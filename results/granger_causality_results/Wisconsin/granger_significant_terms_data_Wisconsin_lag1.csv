@@ -1,0 +1,4 @@
+Term,Lag,P_Value,Significance
+influenza a symptoms,1,0.004681229942733272,FDR
+pneumonia,1,0.044117903732304314,Uncorrected
+stomach flu,1,0.0006273936308521725,Bonferroni

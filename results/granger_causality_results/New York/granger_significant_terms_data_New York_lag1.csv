@@ -1,0 +1,5 @@
+Term,Lag,P_Value,Significance
+bronchitis,1,0.00013141504796025178,Bonferroni
+flu contagious,1,0.026541856707911128,Uncorrected
+stomach flu,1,0.001009810961809725,Bonferroni
+the flu,1,0.0017421280686314377,Bonferroni

@@ -1,0 +1,11 @@
+Term,Lag,P_Value,Significance
+fever flu,1,0.03208831832264203,Uncorrected
+flu contagious,2,0.0020967814276787585,Bonferroni
+flu how long,1,0.02857002154071006,Uncorrected
+flu incubation,2,0.00031073394737084344,Bonferroni
+flu symptoms,1,0.006359551489988956,FDR
+flu type,1,0.005416783501268326,FDR
+pneumonia,2,0.036194047848977076,Uncorrected
+symptoms of flu,1,0.04266667620986829,Uncorrected
+symptoms of the flu,2,0.01052359435571357,FDR
+the flu,2,0.01790088073517356,Uncorrected

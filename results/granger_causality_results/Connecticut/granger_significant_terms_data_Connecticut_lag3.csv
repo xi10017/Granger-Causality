@@ -1,0 +1,7 @@
+Term,Lag,P_Value,Significance
+fever flu,3,0.04295438347730435,Uncorrected
+flu fever,3,0.042954383468426525,Uncorrected
+rsv,1,0.0003779598119338334,Bonferroni
+rsv,2,0.020968821089698223,FDR
+stomach flu,2,0.01113583435704407,Uncorrected
+the flu,3,0.035808181865195354,Uncorrected
