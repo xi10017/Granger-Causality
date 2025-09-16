@@ -1,0 +1,26 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+flu cold,1,0.5299070588456455,False,False,False
+flu symptoms,1,0.20571375531854708,False,False,False
+the flu,1,0.04295353642733805,True,False,False
+how long does flu last,1,0.0341834704962268,True,False,False
+flu a,1,0.020535840274953723,True,False,False
+flu cold,2,0.25437447521169004,False,False,False
+flu symptoms,2,0.04308992891709819,True,False,False
+the flu,2,0.3496901784767026,False,False,False
+how long does flu last,2,0.020186127306642605,True,False,False
+flu a,2,0.8801714384780731,False,False,False
+flu cold,3,0.020036024251561462,True,False,False
+flu symptoms,3,0.08329219098865255,False,False,False
+the flu,3,0.15989104970870247,False,False,False
+how long does flu last,3,0.6557447915003991,False,False,False
+flu a,3,0.9326542624817113,False,False,False
+flu cold,4,0.9518032168039042,False,False,False
+flu symptoms,4,0.9017813908170784,False,False,False
+the flu,4,0.41543479523454874,False,False,False
+how long does flu last,4,0.7106623556178069,False,False,False
+flu a,4,0.3259858828586266,False,False,False
+flu cold,5,0.582670127067723,False,False,False
+flu symptoms,5,0.7671743457901915,False,False,False
+the flu,5,0.25175948396225856,False,False,False
+how long does flu last,5,0.9723874938864258,False,False,False
+flu a,5,0.7096193150553518,False,False,False

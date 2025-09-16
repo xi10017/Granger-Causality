@@ -1,0 +1,51 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+influenza a,1,0.5878527089079733,False,False,False
+flu symptoms,1,0.13559256491941124,False,True,True
+a influenza,1,0.40486313571139665,False,True,False
+stomach flu,1,0.9878078300766906,False,False,False
+the flu,1,0.31137614251088674,False,False,False
+bronchitis,1,0.026084560834903393,True,True,True
+how long flu,1,0.23127861366193447,False,True,True
+contagious flu,1,0.2253561306185066,False,True,False
+flu contagious,1,0.22535613108753835,False,True,False
+the flu symptoms,1,0.42535674341222063,False,True,False
+influenza a,2,0.586454837555733,False,False,False
+flu symptoms,2,0.6894535989851749,False,True,True
+a influenza,2,0.9942780477809916,False,True,False
+stomach flu,2,0.11628281752366366,False,False,False
+the flu,2,0.25167658784094027,False,False,False
+bronchitis,2,0.01696961880990923,True,True,True
+how long flu,2,0.20739512622797296,False,True,True
+contagious flu,2,0.6830970045343776,False,True,False
+flu contagious,2,0.6830970050636994,False,True,False
+the flu symptoms,2,0.0982731640186828,False,True,False
+influenza a,3,0.022005981620030236,True,False,False
+flu symptoms,3,0.0008633380913600357,True,True,True
+a influenza,3,0.3469697392820279,False,True,False
+stomach flu,3,0.026498486573166863,True,False,False
+the flu,3,0.043265096031523564,True,False,False
+bronchitis,3,0.813691570322006,False,True,True
+how long flu,3,0.0002440262548384982,True,True,True
+contagious flu,3,0.6085031514566213,False,True,False
+flu contagious,3,0.6085031515967048,False,True,False
+the flu symptoms,3,0.7698196757129478,False,True,False
+influenza a,4,0.953619043881395,False,False,False
+flu symptoms,4,0.43230381068242574,False,True,True
+a influenza,4,0.010360187649837987,True,True,False
+stomach flu,4,0.6768156550621816,False,False,False
+the flu,4,0.06990776478238012,False,False,False
+bronchitis,4,0.6151816820870228,False,True,True
+how long flu,4,0.6609769828327821,False,True,True
+contagious flu,4,0.5146172657099467,False,True,False
+flu contagious,4,0.5146172653409073,False,True,False
+the flu symptoms,4,0.6237295968440906,False,True,False
+influenza a,5,0.30251567154881703,False,False,False
+flu symptoms,5,0.789792198549556,False,True,True
+a influenza,5,0.6084764736290056,False,True,False
+stomach flu,5,0.4785511470649685,False,False,False
+the flu,5,0.4579225885301743,False,False,False
+bronchitis,5,0.0011067778006236693,True,True,True
+how long flu,5,0.03012510986335117,True,True,True
+contagious flu,5,0.016239780794781583,True,True,False
+flu contagious,5,0.016239780742875787,True,True,False
+the flu symptoms,5,0.013739987187717313,True,True,False

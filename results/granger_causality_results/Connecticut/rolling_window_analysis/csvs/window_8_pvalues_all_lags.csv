@@ -1,0 +1,11 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+stomach flu,1,0.03369007511079189,True,False,False
+rsv,1,0.6404788962729748,False,False,False
+stomach flu,2,0.44716981808934275,False,False,False
+rsv,2,0.9509632222277513,False,False,False
+stomach flu,3,0.811446549052562,False,False,False
+rsv,3,0.003615618438320613,True,False,False
+stomach flu,4,0.6331529799824076,False,False,False
+rsv,4,0.8446597854117543,False,False,False
+stomach flu,5,0.10111637866120805,False,False,False
+rsv,5,0.981154986438167,False,False,False

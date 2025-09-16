@@ -31,6 +31,16 @@ time_series_prefix = "time_series_plots"
 granger_causality_prefix = "granger_causality_results"
 comprehensive_analysis_prefix = "comprehensive_analysis"
 
+# Rolling window analysis configuration
+rolling_window_years = 3  # Length of each rolling window in years
+rolling_window_step_years = 1  # Step size between windows in years
+rolling_window_start_year = 2010  # Start year for rolling windows
+rolling_window_start_month = 8  # Start month for rolling windows
+rolling_window_end_year = 2020  # End year for rolling windows
+rolling_window_end_month = 8  # End month for rolling windows
+rolling_window_min_data_points = 0  # Minimum data points required per window, otherwise the window is skipped
+rolling_window_folder_name = "rolling_window_analysis"  # Main folder name for rolling window results
+
 # Multiple data files to analyze
 data_files_to_analyze = [
     "Alabama_2010_2020.csv",

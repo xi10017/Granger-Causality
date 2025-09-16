@@ -1,0 +1,16 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+the flu,1,0.34767156284230827,False,False,False
+how long contagious,1,0.23180734891838492,False,False,False
+influenza b,1,0.3511434829937916,False,False,False
+the flu,2,0.6795463839124403,False,False,False
+how long contagious,2,0.032435500009058316,True,False,False
+influenza b,2,0.027652489281790742,True,False,False
+the flu,3,0.8966447435162013,False,False,False
+how long contagious,3,0.6832397734340543,False,False,False
+influenza b,3,0.2142442878156016,False,False,False
+the flu,4,0.045295364673007876,True,False,False
+how long contagious,4,0.4573447322966123,False,False,False
+influenza b,4,0.5866975330923341,False,False,False
+the flu,5,0.0928003871851372,False,False,False
+how long contagious,5,0.9532494252684987,False,False,False
+influenza b,5,0.5018627479849197,False,False,False

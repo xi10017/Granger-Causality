@@ -1,0 +1,36 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+flu fever,1,0.5147698136517902,False,True,True
+flu symptoms,1,0.02612212649812969,True,False,False
+symptoms of flu,1,0.28969961577420056,False,False,False
+stomach flu,1,0.1994103490504163,False,False,False
+the flu,1,0.7864883990132497,False,False,False
+how long flu,1,0.30510784175119676,False,False,False
+flu how long,1,0.30510784174056843,False,False,False
+flu fever,2,0.002295547461132546,True,True,True
+flu symptoms,2,0.3299272009549754,False,False,False
+symptoms of flu,2,0.23988304549453532,False,False,False
+stomach flu,2,0.2122361830156646,False,False,False
+the flu,2,0.3219953756652551,False,False,False
+how long flu,2,0.017954218021984356,True,False,False
+flu how long,2,0.01795421801892176,True,False,False
+flu fever,3,0.2235320227514155,False,True,True
+flu symptoms,3,0.2514638364041694,False,False,False
+symptoms of flu,3,0.2200229496649158,False,False,False
+stomach flu,3,0.030269316244026682,True,False,False
+the flu,3,0.14319130603870012,False,False,False
+how long flu,3,0.41602824220550805,False,False,False
+flu how long,3,0.4160282421714543,False,False,False
+flu fever,4,0.44001184186559594,False,True,True
+flu symptoms,4,0.15863450600140042,False,False,False
+symptoms of flu,4,0.02025807655739833,True,False,False
+stomach flu,4,0.636760290132731,False,False,False
+the flu,4,0.06821758055537543,False,False,False
+how long flu,4,0.6651815993173427,False,False,False
+flu how long,4,0.6651815993508887,False,False,False
+flu fever,5,0.5334499275027325,False,True,True
+flu symptoms,5,0.594308336325908,False,False,False
+symptoms of flu,5,0.0916847234332327,False,False,False
+stomach flu,5,0.8515713540338645,False,False,False
+the flu,5,0.02036084444364273,True,False,False
+how long flu,5,0.05683742549220437,False,False,False
+flu how long,5,0.05683742548871348,False,False,False

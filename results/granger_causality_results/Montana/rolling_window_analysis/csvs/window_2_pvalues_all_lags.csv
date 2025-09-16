@@ -1,0 +1,21 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+flu cold,1,0.04656624801344965,True,False,False
+how long flu,1,8.932635694322265e-09,True,True,True
+influenza a,1,0.0038698338813067906,True,True,False
+flu how long,1,8.932635694635005e-09,True,True,True
+flu cold,2,0.522763394163895,False,False,False
+how long flu,2,0.07058695301942385,False,True,True
+influenza a,2,0.9334362884606716,False,True,False
+flu how long,2,0.07058695304219972,False,True,True
+flu cold,3,0.7232449122239171,False,False,False
+how long flu,3,0.4843727473467988,False,True,True
+influenza a,3,0.3110976489364486,False,True,False
+flu how long,3,0.4843727479066676,False,True,True
+flu cold,4,0.7850686570086983,False,False,False
+how long flu,4,0.42611319546651716,False,True,True
+influenza a,4,0.7957362918432185,False,True,False
+flu how long,4,0.4261131954570766,False,True,True
+flu cold,5,0.13284203360826272,False,False,False
+how long flu,5,0.6268289289683566,False,True,True
+influenza a,5,0.3740376447840522,False,True,False
+flu how long,5,0.6268289288835529,False,True,True

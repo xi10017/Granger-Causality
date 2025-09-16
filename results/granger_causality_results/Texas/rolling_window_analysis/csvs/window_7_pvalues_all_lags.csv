@@ -1,0 +1,11 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+flu type a,1,0.7083123360643788,False,False,False
+flu how long,1,0.4957130159760271,False,False,False
+flu type a,2,0.7384090929914442,False,False,False
+flu how long,2,0.44540289533727107,False,False,False
+flu type a,3,0.5623769200602324,False,False,False
+flu how long,3,0.03001997398595671,True,False,False
+flu type a,4,0.02077705751513574,True,False,False
+flu how long,4,0.046200053286948664,True,False,False
+flu type a,5,0.5242385540252444,False,False,False
+flu how long,5,0.2684329312677291,False,False,False

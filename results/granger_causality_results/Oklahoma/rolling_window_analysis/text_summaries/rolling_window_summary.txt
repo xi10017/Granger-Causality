@@ -1,0 +1,92 @@
+================================================================================
+ROLLING WINDOW GRANGER CAUSALITY ANALYSIS - SUMMARY
+================================================================================
+
+ANALYSIS CONFIGURATION:
+  Data file: Oklahoma_2010_2020.csv
+  Response variable: Oklahoma
+  Window length: 3 years
+  Step size: 1 years
+  Time period: 2010-08 to 2020-08
+  Max lags: 5
+
+WINDOW SUMMARY:
+  Total windows: 8
+  Successful windows: 8
+  Failed windows: 0
+
+SIGNIFICANCE RATES:
+  Raw significance rate: 0.388
+  FDR significance rate: 0.194
+  Bonferroni significance rate: 0.056
+
+TERMS SIGNIFICANT AT LEAST ONCE:
+  Raw significant terms: 18
+  FDR significant terms: 14
+  Bonferroni significant terms: 7
+
+TERMS SIGNIFICANT ACROSS WINDOWS:
+  Raw significant terms (showing window counts out of 8 total):
+    fever flu: 6/8 windows
+    flu symptoms: 5/8 windows
+    flu contagious: 5/8 windows
+    type a flu: 5/8 windows
+    flu type a: 5/8 windows
+    flu how long: 5/8 windows
+    rsv: 4/8 windows
+    the flu: 4/8 windows
+    how long flu: 4/8 windows
+    pneumonia: 4/8 windows
+    symptoms of flu: 3/8 windows
+    flu a: 3/8 windows
+    bronchitis: 2/8 windows
+    the flu symptoms: 2/8 windows
+    sinus: 2/8 windows
+    strep throat: 1/8 windows
+    contagious flu: 1/8 windows
+    stomach flu: 1/8 windows
+
+  FDR significant terms (showing window counts out of 8 total):
+    fever flu: 4/8 windows
+    flu how long: 4/8 windows
+    flu type a: 3/8 windows
+    how long flu: 3/8 windows
+    type a flu: 3/8 windows
+    flu contagious: 3/8 windows
+    the flu: 2/8 windows
+    pneumonia: 2/8 windows
+    flu a: 2/8 windows
+    flu symptoms: 1/8 windows
+    symptoms of flu: 1/8 windows
+    contagious flu: 1/8 windows
+    the flu symptoms: 1/8 windows
+    stomach flu: 1/8 windows
+
+  Bonferroni significant terms (showing window counts out of 8 total):
+    fever flu: 2/8 windows
+    flu a: 2/8 windows
+    flu how long: 1/8 windows
+    flu type a: 1/8 windows
+    type a flu: 1/8 windows
+    flu contagious: 1/8 windows
+    stomach flu: 1/8 windows
+
+DETAILED RESULTS BY WINDOW:
+  window_1 (2010-08 to 2013-08):
+    Raw: 5, FDR: 0, Bonferroni: 0
+  window_2 (2011-08 to 2014-08):
+    Raw: 11, FDR: 4, Bonferroni: 1
+  window_3 (2012-08 to 2015-08):
+    Raw: 4, FDR: 0, Bonferroni: 0
+  window_4 (2013-08 to 2016-08):
+    Raw: 11, FDR: 9, Bonferroni: 1
+  window_5 (2014-08 to 2017-08):
+    Raw: 9, FDR: 1, Bonferroni: 1
+  window_6 (2015-08 to 2018-08):
+    Raw: 11, FDR: 10, Bonferroni: 3
+  window_7 (2016-08 to 2019-08):
+    Raw: 10, FDR: 7, Bonferroni: 3
+  window_8 (2017-08 to 2020-08):
+    Raw: 1, FDR: 0, Bonferroni: 0
+
+================================================================================

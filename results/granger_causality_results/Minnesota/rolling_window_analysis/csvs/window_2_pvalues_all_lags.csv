@@ -1,0 +1,46 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+influenza a,1,0.07164966820804383,False,True,False
+a influenza,1,0.07164966822912384,False,True,False
+symptoms of flu,1,0.39156751631023556,False,False,False
+how long flu,1,0.49950098783878794,False,False,False
+how long contagious,1,0.7141932414986726,False,False,False
+flu how long,1,0.4995009878730897,False,False,False
+influenza symptoms,1,0.24275876374185712,False,False,False
+the flu symptoms,1,0.12438297079518858,False,False,False
+strep,1,0.8194107349260127,False,False,False
+influenza a,2,0.2464315343575964,False,True,False
+a influenza,2,0.24643153437256998,False,True,False
+symptoms of flu,2,0.04063818266450232,True,False,False
+how long flu,2,0.015524064097549299,True,False,False
+how long contagious,2,0.030014149507302905,True,False,False
+flu how long,2,0.015524064097086442,True,False,False
+influenza symptoms,2,0.37499246099133454,False,False,False
+the flu symptoms,2,0.3493403321371462,False,False,False
+strep,2,0.03449764940878341,True,False,False
+influenza a,3,0.40759730184459,False,True,False
+a influenza,3,0.40759730182253207,False,True,False
+symptoms of flu,3,0.9734919044440442,False,False,False
+how long flu,3,0.5469554923771668,False,False,False
+how long contagious,3,0.029369116696370386,True,False,False
+flu how long,3,0.5469554923791302,False,False,False
+influenza symptoms,3,0.24980792556689937,False,False,False
+the flu symptoms,3,0.20666642327350948,False,False,False
+strep,3,0.25237040011606043,False,False,False
+influenza a,4,0.0039627016475518445,True,True,False
+a influenza,4,0.0039627016473157296,True,True,False
+symptoms of flu,4,0.3721466523776623,False,False,False
+how long flu,4,0.5155436625638483,False,False,False
+how long contagious,4,0.7805561195697676,False,False,False
+flu how long,4,0.5155436625459129,False,False,False
+influenza symptoms,4,0.8780614801090525,False,False,False
+the flu symptoms,4,0.09682772505604015,False,False,False
+strep,4,0.9582622546720012,False,False,False
+influenza a,5,0.040098610506143474,True,True,False
+a influenza,5,0.040098610507294234,True,True,False
+symptoms of flu,5,0.047044964573897376,True,False,False
+how long flu,5,0.17918928514791468,False,False,False
+how long contagious,5,0.8368691391293659,False,False,False
+flu how long,5,0.17918928515093732,False,False,False
+influenza symptoms,5,0.01793594070970216,True,False,False
+the flu symptoms,5,0.02144878908551747,True,False,False
+strep,5,0.9963686550318385,False,False,False

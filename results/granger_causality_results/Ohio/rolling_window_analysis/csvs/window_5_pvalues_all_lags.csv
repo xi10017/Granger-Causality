@@ -1,0 +1,21 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+flu symptoms,1,0.04368980872999311,True,False,False
+contagious flu,1,0.0018992608722526833,True,True,True
+symptoms of the flu,1,0.003313251092401533,True,True,False
+fever flu,1,0.40457041866904453,False,False,False
+flu symptoms,2,0.9837169831212411,False,False,False
+contagious flu,2,0.36552474614547625,False,True,True
+symptoms of the flu,2,0.2222541576595925,False,True,False
+fever flu,2,0.5906070263538865,False,False,False
+flu symptoms,3,0.11641827821215887,False,False,False
+contagious flu,3,0.27022662156330485,False,True,True
+symptoms of the flu,3,0.9579262406695105,False,True,False
+fever flu,3,0.8074933350018461,False,False,False
+flu symptoms,4,0.24248054386666282,False,False,False
+contagious flu,4,0.18500473325726122,False,True,True
+symptoms of the flu,4,0.8162025592065303,False,True,False
+fever flu,4,0.013686522278195602,True,False,False
+flu symptoms,5,0.20615929427676088,False,False,False
+contagious flu,5,0.025193551228561886,True,True,True
+symptoms of the flu,5,0.3358109261587583,False,True,False
+fever flu,5,0.6317153148049506,False,False,False

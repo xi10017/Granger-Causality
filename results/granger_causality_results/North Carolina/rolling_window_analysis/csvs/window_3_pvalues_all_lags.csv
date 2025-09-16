@@ -1,0 +1,31 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+flu cold,1,0.5806676635924317,False,True,False
+how long does flu last,1,0.007504114015094475,True,True,False
+flu a,1,0.19817467949247874,False,True,False
+symptoms of the flu,1,0.16870482320449556,False,True,False
+flu incubation,1,0.03441283648620053,True,True,True
+flu contagious,1,0.7456649951811934,False,True,False
+flu cold,2,0.9675219346568557,False,True,False
+how long does flu last,2,0.03448939678404372,True,True,False
+flu a,2,0.9620899868255295,False,True,False
+symptoms of the flu,2,0.0025649884353730347,True,True,False
+flu incubation,2,0.0007373991956179447,True,True,True
+flu contagious,2,0.6232887340474089,False,True,False
+flu cold,3,0.2812232639098223,False,True,False
+how long does flu last,3,0.5404262418338075,False,True,False
+flu a,3,0.48302124429548565,False,True,False
+symptoms of the flu,3,0.057895016956778386,False,True,False
+flu incubation,3,0.8032920317790283,False,True,True
+flu contagious,3,0.16382548308329303,False,True,False
+flu cold,4,0.8498617217844628,False,True,False
+how long does flu last,4,0.79985746098834,False,True,False
+flu a,4,0.5727220090633359,False,True,False
+symptoms of the flu,4,0.5268147105272548,False,True,False
+flu incubation,4,0.046240368328606826,True,True,True
+flu contagious,4,0.05368997337002122,False,True,False
+flu cold,5,0.008465325943687095,True,True,False
+how long does flu last,5,0.23986009236411537,False,True,False
+flu a,5,0.014241405490505593,True,True,False
+symptoms of the flu,5,0.4330725886946516,False,True,False
+flu incubation,5,0.1584431028914515,False,True,True
+flu contagious,5,0.00553855250645576,True,True,False

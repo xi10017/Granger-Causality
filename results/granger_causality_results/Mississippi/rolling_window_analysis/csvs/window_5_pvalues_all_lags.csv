@@ -1,0 +1,31 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+cold,1,0.2485293146056276,False,False,False
+how long flu,1,0.6947929828613912,False,False,False
+flu a,1,0.5581847673424029,False,False,False
+rsv,1,0.9883931409189747,False,False,False
+flu how long,1,0.4647445357595398,False,True,True
+the flu symptoms,1,0.003952540055036326,True,True,False
+cold,2,0.6796697993793444,False,False,False
+how long flu,2,0.0148956740137385,True,False,False
+flu a,2,0.9796379955966418,False,False,False
+rsv,2,0.3774449524111657,False,False,False
+flu how long,2,0.9341772839041925,False,True,True
+the flu symptoms,2,0.7697458224053193,False,True,False
+cold,3,0.9550580344636768,False,False,False
+how long flu,3,0.8741251299960233,False,False,False
+flu a,3,0.7559914546991358,False,False,False
+rsv,3,0.25695729692896396,False,False,False
+flu how long,3,0.434157502863576,False,True,True
+the flu symptoms,3,0.4164567734354202,False,True,False
+cold,4,0.04033337181828018,True,False,False
+how long flu,4,0.7479291794126026,False,False,False
+flu a,4,0.8782547872971682,False,False,False
+rsv,4,0.04091903649297256,True,False,False
+flu how long,4,0.0004852281609750339,True,True,True
+the flu symptoms,4,0.18760971117562214,False,True,False
+cold,5,0.6726275782795654,False,False,False
+how long flu,5,0.6163725074007016,False,False,False
+flu a,5,0.04571792447161202,True,False,False
+rsv,5,0.3055709261525646,False,False,False
+flu how long,5,0.8386249014562471,False,True,True
+the flu symptoms,5,0.4011798887637861,False,True,False

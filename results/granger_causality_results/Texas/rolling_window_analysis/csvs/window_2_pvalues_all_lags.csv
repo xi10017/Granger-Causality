@@ -1,0 +1,21 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+flu type a,1,0.01885420995317595,True,False,False
+flu incubation period,1,0.8834481313329281,False,False,False
+how long does the flu last,1,0.6230798204545824,False,False,False
+flu incubation,1,0.9887237140751615,False,False,False
+flu type a,2,0.6829710212722426,False,False,False
+flu incubation period,2,0.30570119016167346,False,False,False
+how long does the flu last,2,0.6129986037312045,False,False,False
+flu incubation,2,0.4822235107622146,False,False,False
+flu type a,3,0.7424307530640312,False,False,False
+flu incubation period,3,0.017445108076035547,True,False,False
+how long does the flu last,3,0.005428520986912201,True,False,False
+flu incubation,3,0.0437547372078687,True,False,False
+flu type a,4,0.24259742970210252,False,False,False
+flu incubation period,4,0.033805325392230814,True,False,False
+how long does the flu last,4,0.1753538858569983,False,False,False
+flu incubation,4,0.7924162357686944,False,False,False
+flu type a,5,0.5237554855011323,False,False,False
+flu incubation period,5,0.06151023186869893,False,False,False
+how long does the flu last,5,0.015594097130107652,True,False,False
+flu incubation,5,0.2954440647279709,False,False,False

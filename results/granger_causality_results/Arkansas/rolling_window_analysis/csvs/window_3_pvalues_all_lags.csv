@@ -1,0 +1,31 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+pneumonia,1,0.3827078729706971,False,True,True
+type a flu,1,0.21251992122095814,False,False,False
+flu type a,1,0.21251992137872816,False,False,False
+how long flu,1,0.002385890011884759,True,True,True
+flu how long,1,0.0023858900083486454,True,True,True
+the flu symptoms,1,0.3567317452558183,False,False,False
+pneumonia,2,0.4688441840210108,False,True,True
+type a flu,2,0.31112452369447496,False,False,False
+flu type a,2,0.3111245238426206,False,False,False
+how long flu,2,0.3348999026007843,False,True,True
+flu how long,2,0.33489990247349544,False,True,True
+the flu symptoms,2,0.15626667463338928,False,False,False
+pneumonia,3,0.13074435248466632,False,True,True
+type a flu,3,0.2709188448837471,False,False,False
+flu type a,3,0.2709188449433036,False,False,False
+how long flu,3,0.038649147037051336,True,True,True
+flu how long,3,0.03864914706219079,True,True,True
+the flu symptoms,3,0.04470752738532551,True,False,False
+pneumonia,4,0.457652113085539,False,True,True
+type a flu,4,0.12381102003335442,False,False,False
+flu type a,4,0.12381102003254962,False,False,False
+how long flu,4,0.18074079917893046,False,True,True
+flu how long,4,0.18074079930428227,False,True,True
+the flu symptoms,4,0.289323217734864,False,False,False
+pneumonia,5,0.0018799638723737925,True,True,True
+type a flu,5,0.0449507919915985,True,False,False
+flu type a,5,0.04495079199234799,True,False,False
+how long flu,5,0.0021583471939965026,True,True,True
+flu how long,5,0.0021583471933086665,True,True,True
+the flu symptoms,5,0.43740414089199686,False,False,False

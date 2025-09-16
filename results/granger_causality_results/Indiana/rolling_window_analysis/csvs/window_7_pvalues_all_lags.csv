@@ -1,0 +1,46 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+flu cold,1,0.13677700612063148,False,False,False
+flu fever,1,0.5507838127760998,False,False,False
+fever flu,1,0.5507838127340279,False,False,False
+stomach flu,1,0.36677185188049766,False,True,False
+the flu,1,0.008188686363784796,True,True,False
+sinus,1,0.0021499602594428403,True,True,True
+contagious flu,1,0.08860433813698636,False,True,False
+flu a,1,0.22926278490975527,False,False,False
+rsv,1,0.37030982163406534,False,True,False
+flu cold,2,0.01782186072776267,True,False,False
+flu fever,2,0.7084248192337248,False,False,False
+fever flu,2,0.708424819146291,False,False,False
+stomach flu,2,0.004834546609663074,True,True,False
+the flu,2,0.9972869490082399,False,True,False
+sinus,2,0.32104305587667153,False,True,True
+contagious flu,2,0.019077597446427872,True,True,False
+flu a,2,0.9623563177924657,False,False,False
+rsv,2,0.056592893084191756,False,True,False
+flu cold,3,0.19361429184604736,False,False,False
+flu fever,3,0.04050107688831947,True,False,False
+fever flu,3,0.040501076885621594,True,False,False
+stomach flu,3,0.23403089169375083,False,True,False
+the flu,3,0.46796979751601153,False,True,False
+sinus,3,0.1511827305652417,False,True,True
+contagious flu,3,0.008443870639433073,True,True,False
+flu a,3,0.025208891444750716,True,False,False
+rsv,3,0.010258746323285788,True,True,False
+flu cold,4,0.6098772232113314,False,False,False
+flu fever,4,0.26792060489190894,False,False,False
+fever flu,4,0.26792060489489516,False,False,False
+stomach flu,4,0.12003946268289921,False,True,False
+the flu,4,0.07276800057130993,False,True,False
+sinus,4,0.9301927222004385,False,True,True
+contagious flu,4,0.6644566572365334,False,True,False
+flu a,4,0.5562946607022121,False,False,False
+rsv,4,0.044556856063700606,True,True,False
+flu cold,5,0.5663759510938812,False,False,False
+flu fever,5,0.7320985214693334,False,False,False
+fever flu,5,0.7320985214709916,False,False,False
+stomach flu,5,0.41088938921966256,False,True,False
+the flu,5,0.46527871589797676,False,True,False
+sinus,5,0.4427770144478995,False,True,True
+contagious flu,5,0.1558303050721869,False,True,False
+flu a,5,0.12011949179091956,False,False,False
+rsv,5,0.6785167483664443,False,True,False

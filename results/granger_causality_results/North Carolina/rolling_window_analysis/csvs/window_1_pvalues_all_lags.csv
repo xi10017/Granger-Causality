@@ -1,0 +1,26 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+symptoms of flu,1,0.6847339945418256,False,False,False
+contagious flu,1,0.021414303362526192,True,False,False
+flu a,1,0.03885997951169726,True,False,False
+how long contagious,1,0.3891440048238296,False,False,False
+symptoms of the flu,1,0.4537897262850398,False,False,False
+symptoms of flu,2,0.987733629014598,False,False,False
+contagious flu,2,0.024221515418115153,True,False,False
+flu a,2,0.06148552174269763,False,False,False
+how long contagious,2,0.7967759737296307,False,False,False
+symptoms of the flu,2,0.04853677708565048,True,False,False
+symptoms of flu,3,0.6316759897448521,False,False,False
+contagious flu,3,0.002763675172982782,True,False,False
+flu a,3,0.4668130907527682,False,False,False
+how long contagious,3,0.25955424099996555,False,False,False
+symptoms of the flu,3,0.22473667223372182,False,False,False
+symptoms of flu,4,0.9826084918323684,False,False,False
+contagious flu,4,0.9065035844495735,False,False,False
+flu a,4,0.8850724036582267,False,False,False
+how long contagious,4,0.020857216996408818,True,False,False
+symptoms of the flu,4,0.9248728274953377,False,False,False
+symptoms of flu,5,0.046775590088032636,True,False,False
+contagious flu,5,0.9285618309206007,False,False,False
+flu a,5,0.9297315834613347,False,False,False
+how long contagious,5,0.8490649546142519,False,False,False
+symptoms of the flu,5,0.7002955035566962,False,False,False

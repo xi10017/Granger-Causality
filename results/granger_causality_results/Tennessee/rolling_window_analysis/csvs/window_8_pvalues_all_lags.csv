@@ -1,0 +1,26 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+flu symptoms,1,0.0014990391736909058,True,True,True
+how long flu,1,0.5740509553746806,False,True,False
+contagious flu,1,0.313654012095633,False,True,False
+flu contagious,1,0.3136540121257383,False,True,False
+the flu symptoms,1,0.5094307228607666,False,False,False
+flu symptoms,2,0.1925477715253598,False,True,True
+how long flu,2,0.38986269628643033,False,True,False
+contagious flu,2,0.11671330454656971,False,True,False
+flu contagious,2,0.11671330454819527,False,True,False
+the flu symptoms,2,0.32064458766949117,False,False,False
+flu symptoms,3,0.08839465371288838,False,True,True
+how long flu,3,0.8112588592446006,False,True,False
+contagious flu,3,0.9922250897568792,False,True,False
+flu contagious,3,0.992225089766156,False,True,False
+the flu symptoms,3,0.7006288012303425,False,False,False
+flu symptoms,4,0.3485749989813254,False,True,True
+how long flu,4,0.1899771188657105,False,True,False
+contagious flu,4,0.011220648542630154,True,True,False
+flu contagious,4,0.011220648542577118,True,True,False
+the flu symptoms,4,0.4124942128974495,False,False,False
+flu symptoms,5,0.3044833198909981,False,True,True
+how long flu,5,0.005520836398320993,True,True,False
+contagious flu,5,0.006417988422700758,True,True,False
+flu contagious,5,0.006417988423384047,True,True,False
+the flu symptoms,5,0.018947757690822544,True,False,False

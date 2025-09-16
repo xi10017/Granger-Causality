@@ -1,0 +1,21 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+flu cold,1,0.3580339654339676,False,True,True
+pneumonia,1,0.7880935759431105,False,False,False
+influenza a,1,0.34866439514752856,False,False,False
+rsv,1,0.5435942921266115,False,True,False
+flu cold,2,0.23400800629888718,False,True,True
+pneumonia,2,0.04131732116784333,True,False,False
+influenza a,2,0.38430081761228885,False,False,False
+rsv,2,0.6282513515824983,False,True,False
+flu cold,3,0.18627260560786435,False,True,True
+pneumonia,3,0.48187601665202506,False,False,False
+influenza a,3,0.8374267945354297,False,False,False
+rsv,3,0.8175941630064197,False,True,False
+flu cold,4,0.07657455914573204,False,True,True
+pneumonia,4,0.5906022970993258,False,False,False
+influenza a,4,0.9560649955034456,False,False,False
+rsv,4,0.5209819721565848,False,True,False
+flu cold,5,0.00011532833138944066,True,True,True
+pneumonia,5,0.9516519516611154,False,False,False
+influenza a,5,0.02329631494629688,True,False,False
+rsv,5,0.002810090408323772,True,True,False

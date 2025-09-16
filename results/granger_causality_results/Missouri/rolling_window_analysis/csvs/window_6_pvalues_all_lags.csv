@@ -1,0 +1,41 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+flu cold,1,0.011672559918924392,True,False,False
+influenza a,1,0.6927173723981868,False,False,False
+symptoms of flu,1,0.017117562075202403,True,False,False
+a influenza,1,0.6927173722502978,False,False,False
+how long does flu last,1,0.5443543965296649,False,True,True
+contagious flu,1,0.06626224981807156,False,False,False
+influenza symptoms,1,0.03006301680064256,True,False,False
+the flu symptoms,1,0.40226791765895586,False,False,False
+flu cold,2,0.4755990662386499,False,False,False
+influenza a,2,0.911912502557184,False,False,False
+symptoms of flu,2,0.4260353381290283,False,False,False
+a influenza,2,0.9119125025640478,False,False,False
+how long does flu last,2,0.5765590586088496,False,True,True
+contagious flu,2,0.02159993625694581,True,False,False
+influenza symptoms,2,0.2317152894012589,False,False,False
+the flu symptoms,2,0.03272118032474376,True,False,False
+flu cold,3,0.9704364568696939,False,False,False
+influenza a,3,0.4524829642556042,False,False,False
+symptoms of flu,3,0.9379538432221535,False,False,False
+a influenza,3,0.4524829642799115,False,False,False
+how long does flu last,3,0.0021173783319631454,True,True,True
+contagious flu,3,0.16353625088490295,False,False,False
+influenza symptoms,3,0.8730685787564183,False,False,False
+the flu symptoms,3,0.9239179097734627,False,False,False
+flu cold,4,0.47366781455191453,False,False,False
+influenza a,4,0.8825144531059511,False,False,False
+symptoms of flu,4,0.1722528258697593,False,False,False
+a influenza,4,0.8825144531707856,False,False,False
+how long does flu last,4,0.2723005498007169,False,True,True
+contagious flu,4,0.025860085541286895,True,False,False
+influenza symptoms,4,0.11955340294179777,False,False,False
+the flu symptoms,4,0.6338280889197836,False,False,False
+flu cold,5,0.4671848474874124,False,False,False
+influenza a,5,0.03276478668535671,True,False,False
+symptoms of flu,5,0.416009147093351,False,False,False
+a influenza,5,0.03276478668520114,True,False,False
+how long does flu last,5,0.7910277809069863,False,True,True
+contagious flu,5,0.14708223869883344,False,False,False
+influenza symptoms,5,0.19313807410218287,False,False,False
+the flu symptoms,5,0.2594859347025238,False,False,False

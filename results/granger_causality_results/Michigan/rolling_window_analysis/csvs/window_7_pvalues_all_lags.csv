@@ -1,0 +1,21 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+is flu contagious,1,0.0712792330453561,False,False,False
+flu contagious,1,0.030810485134295018,True,False,False
+bronchitis,1,0.3136116072046548,False,False,False
+the flu,1,0.025024299457258266,True,False,False
+is flu contagious,2,0.9943447766688858,False,False,False
+flu contagious,2,0.9961450500887638,False,False,False
+bronchitis,2,0.21745384671876483,False,False,False
+the flu,2,0.21165418573503822,False,False,False
+is flu contagious,3,0.027332457352893105,True,False,False
+flu contagious,3,0.3063538362818534,False,False,False
+bronchitis,3,0.786096070391247,False,False,False
+the flu,3,0.37114586375177105,False,False,False
+is flu contagious,4,0.5407666233293442,False,False,False
+flu contagious,4,0.16051589681019804,False,False,False
+bronchitis,4,0.791866503753985,False,False,False
+the flu,4,0.2854536213847882,False,False,False
+is flu contagious,5,0.9628197980788465,False,False,False
+flu contagious,5,0.1790374262896912,False,False,False
+bronchitis,5,0.034656646459284526,True,False,False
+the flu,5,0.713450878167389,False,False,False

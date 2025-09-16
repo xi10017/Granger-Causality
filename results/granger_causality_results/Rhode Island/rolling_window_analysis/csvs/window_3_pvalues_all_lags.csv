@@ -1,0 +1,16 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+sinus,1,0.2392036295796298,False,False,False
+how long flu,1,0.4711986427008198,False,True,True
+influenza a,1,0.3670988880254481,False,False,False
+sinus,2,0.6932520725764586,False,False,False
+how long flu,2,0.9365474366807087,False,True,True
+influenza a,2,0.5991784043692823,False,False,False
+sinus,3,0.6698397889172623,False,False,False
+how long flu,3,1.3530478497529842e-06,True,True,True
+influenza a,3,0.033103284997571314,True,False,False
+sinus,4,0.03621377910062541,True,False,False
+how long flu,4,0.5337429531365052,False,True,True
+influenza a,4,0.8346866179262373,False,False,False
+sinus,5,0.6855300906619006,False,False,False
+how long flu,5,0.06122746247268371,False,True,True
+influenza a,5,0.7083685175611572,False,False,False

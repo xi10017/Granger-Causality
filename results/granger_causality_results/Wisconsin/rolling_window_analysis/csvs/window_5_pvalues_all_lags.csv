@@ -1,0 +1,6 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+how long flu,1,0.04973728023665178,True,False,False
+how long flu,2,0.5048854192217516,False,False,False
+how long flu,3,0.6385453114869825,False,False,False
+how long flu,4,0.8479513634543215,False,False,False
+how long flu,5,0.9294594987910316,False,False,False

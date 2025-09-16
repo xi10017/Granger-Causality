@@ -1,0 +1,16 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+the flu,1,0.5049490959258462,False,False,False
+pneumonia,1,0.6579221555666591,False,False,False
+how long does the flu last,1,0.07313649358050528,False,False,False
+the flu,2,0.48547353280312233,False,False,False
+pneumonia,2,0.1542608044413441,False,False,False
+how long does the flu last,2,0.31745997206946186,False,False,False
+the flu,3,0.18762182655197243,False,False,False
+pneumonia,3,0.005269435883539001,True,False,False
+how long does the flu last,3,0.017358840202338067,True,False,False
+the flu,4,0.01800138313845291,True,False,False
+pneumonia,4,0.2611290058600402,False,False,False
+how long does the flu last,4,0.8552083560078645,False,False,False
+the flu,5,0.11946140782407841,False,False,False
+pneumonia,5,0.9691790524245386,False,False,False
+how long does the flu last,5,0.13247288630521523,False,False,False

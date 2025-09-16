@@ -1,0 +1,26 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+the flu,1,0.3929096120340657,False,True,False
+contagious flu,1,0.7394149216696875,False,False,False
+symptoms of influenza,1,0.022517058430402845,True,False,False
+influenza b,1,0.7308570765702208,False,False,False
+influenza symptoms,1,0.37665591627471906,False,True,True
+the flu,2,0.003639716442824281,True,True,False
+contagious flu,2,0.0387233313940171,True,False,False
+symptoms of influenza,2,0.7811809349308765,False,False,False
+influenza b,2,0.6357058805410928,False,False,False
+influenza symptoms,2,0.46205464988449385,False,True,True
+the flu,3,0.3184419019753621,False,True,False
+contagious flu,3,0.7006691332732342,False,False,False
+symptoms of influenza,3,0.3613001718351435,False,False,False
+influenza b,3,0.03805263771540294,True,False,False
+influenza symptoms,3,0.0014806605899548395,True,True,True
+the flu,4,0.0369586737504735,True,True,False
+contagious flu,4,0.41088853869165853,False,False,False
+symptoms of influenza,4,0.21015974721042768,False,False,False
+influenza b,4,0.6138791880852332,False,False,False
+influenza symptoms,4,0.7316214078579126,False,True,True
+the flu,5,0.522593367175261,False,True,False
+contagious flu,5,0.07532524019980387,False,False,False
+symptoms of influenza,5,0.3669590611589044,False,False,False
+influenza b,5,0.7052685851949458,False,False,False
+influenza symptoms,5,0.8999107532477393,False,True,True

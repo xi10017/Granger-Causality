@@ -1,0 +1,36 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+the flu,1,0.13751852593536876,False,False,False
+bronchitis,1,0.9836865740167435,False,False,False
+how long flu,1,0.04454695783523373,True,False,False
+symptoms of the flu,1,0.2882984391467391,False,False,False
+rsv,1,0.09361769347434892,False,False,False
+flu how long,1,0.04454695791314186,True,False,False
+flu contagious,1,0.44249878933378906,False,False,False
+the flu,2,0.6786486074432392,False,False,False
+bronchitis,2,0.015263302414787893,True,False,False
+how long flu,2,0.9821335892693872,False,False,False
+symptoms of the flu,2,0.04606609551818407,True,False,False
+rsv,2,0.44685670831108915,False,False,False
+flu how long,2,0.982133589454709,False,False,False
+flu contagious,2,0.04717198010260882,True,False,False
+the flu,3,0.4065408748622378,False,False,False
+bronchitis,3,0.6682095639700123,False,False,False
+how long flu,3,0.4432810611442124,False,False,False
+symptoms of the flu,3,0.838808165663358,False,False,False
+rsv,3,0.3644161344483965,False,False,False
+flu how long,3,0.44328106097596254,False,False,False
+flu contagious,3,0.6712915213449852,False,False,False
+the flu,4,0.04704881559982906,True,False,False
+bronchitis,4,0.1535068075750034,False,False,False
+how long flu,4,0.971251514858724,False,False,False
+symptoms of the flu,4,0.04050777873347671,True,False,False
+rsv,4,0.04910150789802014,True,False,False
+flu how long,4,0.9712515148338133,False,False,False
+flu contagious,4,0.8322510463665308,False,False,False
+the flu,5,0.7629721577856047,False,False,False
+bronchitis,5,0.7902193679858529,False,False,False
+how long flu,5,0.9756825704203316,False,False,False
+symptoms of the flu,5,0.9014342995412018,False,False,False
+rsv,5,0.11403293726255295,False,False,False
+flu how long,5,0.9756825703598989,False,False,False
+flu contagious,5,0.2383900285955558,False,False,False

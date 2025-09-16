@@ -1,0 +1,46 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+flu cold,1,0.03426178670693623,True,False,False
+influenza a,1,0.004487069029744963,True,True,False
+flu symptoms,1,0.008627516218921875,True,True,False
+a influenza,1,0.004487069030002696,True,True,False
+bronchitis,1,0.008763615375660314,True,True,False
+contagious flu,1,0.002249365350529602,True,True,True
+how long does flu last,1,0.2850441601267138,False,False,False
+symptoms of the flu,1,0.38109173224405013,False,True,False
+the flu symptoms,1,0.5719417423709421,False,False,False
+flu cold,2,0.1326028769709001,False,False,False
+influenza a,2,0.9004236241919994,False,True,False
+flu symptoms,2,0.45702758908872576,False,True,False
+a influenza,2,0.9004236242174986,False,True,False
+bronchitis,2,0.9847523472772628,False,True,False
+contagious flu,2,0.9657090683529322,False,True,True
+how long does flu last,2,0.03750218794641551,True,False,False
+symptoms of the flu,2,0.011299369752184868,True,True,False
+the flu symptoms,2,0.603493053066934,False,False,False
+flu cold,3,0.11285500414974636,False,False,False
+influenza a,3,0.9168986232227152,False,True,False
+flu symptoms,3,0.17928548191190757,False,True,False
+a influenza,3,0.916898623240479,False,True,False
+bronchitis,3,0.8740003930351067,False,True,False
+contagious flu,3,0.6684877601678453,False,True,True
+how long does flu last,3,0.14582108909110147,False,False,False
+symptoms of the flu,3,0.09777866465150646,False,True,False
+the flu symptoms,3,0.021567630753322325,True,False,False
+flu cold,4,0.18393487930438573,False,False,False
+influenza a,4,0.7904348494875872,False,True,False
+flu symptoms,4,0.7340301845842313,False,True,False
+a influenza,4,0.7904348495003137,False,True,False
+bronchitis,4,0.4849292948829619,False,True,False
+contagious flu,4,0.19914514147066584,False,True,True
+how long does flu last,4,0.6927453336789545,False,False,False
+symptoms of the flu,4,0.9386663739817949,False,True,False
+the flu symptoms,4,0.6306401459872528,False,False,False
+flu cold,5,0.08579472941504188,False,False,False
+influenza a,5,0.897924992300573,False,True,False
+flu symptoms,5,0.12934213139018738,False,True,False
+a influenza,5,0.8979249922740552,False,True,False
+bronchitis,5,0.040588371803761035,True,True,False
+contagious flu,5,0.021393537252181113,True,True,True
+how long does flu last,5,0.20254110107489226,False,False,False
+symptoms of the flu,5,0.3427655979393659,False,True,False
+the flu symptoms,5,0.11728077727883071,False,False,False

@@ -1,0 +1,6 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+cold,1,0.009989298719195891,True,False,False
+cold,2,0.8261168581821509,False,False,False
+cold,3,0.004005814319222066,True,False,False
+cold,4,0.6924634428699247,False,False,False
+cold,5,0.9806953635952906,False,False,False

@@ -1,0 +1,41 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+flu cold,1,0.3640633561679205,False,True,False
+flu type,1,0.12827285039755545,False,False,False
+contagious flu,1,4.581082692604215e-05,True,True,True
+flu a,1,0.04270905866293455,True,False,False
+rsv,1,0.6109135400452774,False,False,False
+symptoms of the flu,1,0.8279070284810737,False,False,False
+flu contagious,1,4.5810826937098214e-05,True,True,True
+the flu symptoms,1,0.8660565299635571,False,True,False
+flu cold,2,0.3178352417750235,False,True,False
+flu type,2,0.43593588901118263,False,False,False
+contagious flu,2,0.14780360212318983,False,True,True
+flu a,2,0.2557083765080909,False,False,False
+rsv,2,0.020143806015670056,True,False,False
+symptoms of the flu,2,0.8153433527303527,False,False,False
+flu contagious,2,0.1478036021291855,False,True,True
+the flu symptoms,2,0.9928814509426691,False,True,False
+flu cold,3,0.38350385869765347,False,True,False
+flu type,3,0.37381426719064426,False,False,False
+contagious flu,3,0.8403112163745606,False,True,True
+flu a,3,0.5633654216005206,False,False,False
+rsv,3,0.6913507684109687,False,False,False
+symptoms of the flu,3,0.03293767672151819,True,False,False
+flu contagious,3,0.8403112163514455,False,True,True
+the flu symptoms,3,0.7687863090485418,False,True,False
+flu cold,4,0.0036878688585263598,True,True,False
+flu type,4,0.5411411740029382,False,False,False
+contagious flu,4,0.2791095882932381,False,True,True
+flu a,4,0.045342477496659025,True,False,False
+rsv,4,0.021574291270576265,True,False,False
+symptoms of the flu,4,0.46088938984555816,False,False,False
+flu contagious,4,0.27910958831097443,False,True,True
+the flu symptoms,4,0.15775460767353222,False,True,False
+flu cold,5,0.821400136819651,False,True,False
+flu type,5,0.04607271820280829,True,False,False
+contagious flu,5,0.7218427443207638,False,True,True
+flu a,5,0.03600193800407846,True,False,False
+rsv,5,0.028886603129003565,True,False,False
+symptoms of the flu,5,0.7238780992277769,False,False,False
+flu contagious,5,0.7218427442893225,False,True,True
+the flu symptoms,5,0.005431648934665789,True,True,False

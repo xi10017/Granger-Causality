@@ -1,0 +1,27 @@
+================================================================================
+ROLLING WINDOW GRANGER CAUSALITY ANALYSIS - WINDOW_6
+================================================================================
+
+Time Period: 2015-08 to 2018-08
+Data Points: 161
+Terms Tested: 20
+
+SIGNIFICANT TERMS COUNTS:
+  Raw significant terms: 6 (30.0%)
+  FDR significant terms: 0 (0.0%)
+  Bonferroni significant terms: 0 (0.0%)
+
+SIGNIFICANT TERMS LISTS:
+Raw significant terms (6):
+  - cough fever
+  - fever cough
+  - flu remedies
+  - get rid of the flu
+  - how long contagious
+  - incubation period flu
+
+FDR significant terms (0):
+
+Bonferroni significant terms (0):
+
+================================================================================

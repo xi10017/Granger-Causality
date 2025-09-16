@@ -1,0 +1,16 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+flu cold,1,0.5037539290706634,False,False,False
+flu incubation,1,0.37238570591245923,False,False,False
+fever flu,1,0.9974369429532242,False,False,False
+flu cold,2,0.5347622705173807,False,False,False
+flu incubation,2,0.941958427641387,False,False,False
+fever flu,2,0.312019199020975,False,False,False
+flu cold,3,0.617377137532923,False,False,False
+flu incubation,3,0.45811902412713523,False,False,False
+fever flu,3,0.7481367522371524,False,False,False
+flu cold,4,0.8025289640107724,False,False,False
+flu incubation,4,0.02205538603713634,True,False,False
+fever flu,4,0.7538672492586058,False,False,False
+flu cold,5,0.03625506292282711,True,False,False
+flu incubation,5,0.4039606197271767,False,False,False
+fever flu,5,0.03186990187318737,True,False,False

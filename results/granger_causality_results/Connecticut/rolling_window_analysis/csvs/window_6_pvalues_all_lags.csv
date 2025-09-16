@@ -1,0 +1,36 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+flu fever,1,0.8959695397200298,False,False,False
+fever flu,1,0.8959695399670482,False,False,False
+stomach flu,1,0.19068071653204563,False,False,False
+the flu,1,0.47939669404726437,False,True,True
+sinus,1,0.7584104596444402,False,False,False
+contagious flu,1,0.00436784491231999,True,True,False
+flu contagious,1,0.004367844913969879,True,True,False
+flu fever,2,0.776794255954492,False,False,False
+fever flu,2,0.7767942558996531,False,False,False
+stomach flu,2,0.41725671476131376,False,False,False
+the flu,2,0.7209924529752771,False,True,True
+sinus,2,0.5245912083942879,False,False,False
+contagious flu,2,0.8553439584859792,False,True,False
+flu contagious,2,0.8553439584977087,False,True,False
+flu fever,3,0.15910641751941668,False,False,False
+fever flu,3,0.15910641751605692,False,False,False
+stomach flu,3,0.5704926282539103,False,False,False
+the flu,3,0.9495851186797388,False,True,True
+sinus,3,0.04854338866448014,True,False,False
+contagious flu,3,0.7656040426023802,False,True,False
+flu contagious,3,0.7656040426332651,False,True,False
+flu fever,4,0.9300282465256167,False,False,False
+fever flu,4,0.9300282465641705,False,False,False
+stomach flu,4,0.02355634445964668,True,False,False
+the flu,4,0.4395153692972227,False,True,True
+sinus,4,0.8522166615869924,False,False,False
+contagious flu,4,0.5017228757449181,False,True,False
+flu contagious,4,0.5017228757218074,False,True,False
+flu fever,5,0.046788303935979776,True,False,False
+fever flu,5,0.0467883039373753,True,False,False
+stomach flu,5,0.5311607588399149,False,False,False
+the flu,5,0.0015744561826532598,True,True,True
+sinus,5,0.6907273748299984,False,False,False
+contagious flu,5,0.9738157972279504,False,True,False
+flu contagious,5,0.9738157972207212,False,True,False

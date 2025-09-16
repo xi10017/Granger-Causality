@@ -1,0 +1,36 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+influenza a,1,0.7412544738264657,False,True,True
+stomach flu,1,0.926155269289439,False,False,False
+the flu,1,0.033838814354749905,True,False,False
+how long does flu last,1,0.10108757207733686,False,False,False
+flu a,1,0.015802624538230642,True,False,False
+flu how long,1,0.726856558101443,False,False,False
+flu contagious,1,0.099052062761124,False,False,False
+influenza a,2,0.7564293260670972,False,True,True
+stomach flu,2,0.6817287408849808,False,False,False
+the flu,2,0.1371931865184678,False,False,False
+how long does flu last,2,0.04055241556975313,True,False,False
+flu a,2,0.8824963557152341,False,False,False
+flu how long,2,0.7177267202543336,False,False,False
+flu contagious,2,0.5923183648166849,False,False,False
+influenza a,3,0.0024772631322301144,True,True,True
+stomach flu,3,0.24055024967379265,False,False,False
+the flu,3,0.491465427618325,False,False,False
+how long does flu last,3,0.06884743376707864,False,False,False
+flu a,3,0.10383243323845003,False,False,False
+flu how long,3,0.024668495460974323,True,False,False
+flu contagious,3,0.6819705968925542,False,False,False
+influenza a,4,0.0003291228229784538,True,True,True
+stomach flu,4,0.9925643835172437,False,False,False
+the flu,4,0.29586951842324866,False,False,False
+how long does flu last,4,0.05661352034638087,False,False,False
+flu a,4,0.043630391556202866,True,False,False
+flu how long,4,0.09633147515521578,False,False,False
+flu contagious,4,0.04284389486631081,True,False,False
+influenza a,5,0.8109102288061002,False,True,True
+stomach flu,5,0.02472820659289876,True,False,False
+the flu,5,0.49121309744538477,False,False,False
+how long does flu last,5,0.4636080065794611,False,False,False
+flu a,5,0.5673593850214782,False,False,False
+flu how long,5,0.3145143153900007,False,False,False
+flu contagious,5,0.6785076116901367,False,False,False

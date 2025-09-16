@@ -1,0 +1,21 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+bronchitis,1,0.9478279220394776,False,False,False
+how long does flu last,1,0.011449579979379811,True,False,False
+flu contagious,1,0.9142704257702805,False,False,False
+symptoms of the flu,1,0.8667303634550683,False,False,False
+bronchitis,2,0.44031761486282883,False,False,False
+how long does flu last,2,0.10054016189554768,False,False,False
+flu contagious,2,0.14114758603856475,False,False,False
+symptoms of the flu,2,0.06914366573485102,False,False,False
+bronchitis,3,0.32434046875391453,False,False,False
+how long does flu last,3,0.3891482318828893,False,False,False
+flu contagious,3,0.4455034030959193,False,False,False
+symptoms of the flu,3,0.05286755587615081,False,False,False
+bronchitis,4,0.043293969540211696,True,False,False
+how long does flu last,4,0.9110703596701019,False,False,False
+flu contagious,4,0.40984596871641865,False,False,False
+symptoms of the flu,4,0.003844359702570278,True,False,False
+bronchitis,5,0.27694457407247663,False,False,False
+how long does flu last,5,0.6013827187105885,False,False,False
+flu contagious,5,0.017265288952051133,True,False,False
+symptoms of the flu,5,0.7765215843768275,False,False,False

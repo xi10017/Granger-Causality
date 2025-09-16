@@ -1,0 +1,72 @@
+================================================================================
+ROLLING WINDOW GRANGER CAUSALITY ANALYSIS - SUMMARY
+================================================================================
+
+ANALYSIS CONFIGURATION:
+  Data file: Maine_2010_2020.csv
+  Response variable: Maine
+  Window length: 3 years
+  Step size: 1 years
+  Time period: 2010-08 to 2020-08
+  Max lags: 5
+
+WINDOW SUMMARY:
+  Total windows: 8
+  Successful windows: 8
+  Failed windows: 0
+
+SIGNIFICANCE RATES:
+  Raw significance rate: 0.277
+  FDR significance rate: 0.019
+  Bonferroni significance rate: 0.019
+
+TERMS SIGNIFICANT AT LEAST ONCE:
+  Raw significant terms: 17
+  FDR significant terms: 1
+  Bonferroni significant terms: 1
+
+TERMS SIGNIFICANT ACROSS WINDOWS:
+  Raw significant terms (showing window counts out of 8 total):
+    a influenza: 6/8 windows
+    influenza a: 6/8 windows
+    the flu: 5/8 windows
+    symptoms of flu: 4/8 windows
+    the flu symptoms: 4/8 windows
+    flu cold: 3/8 windows
+    flu symptoms: 3/8 windows
+    pneumonia: 3/8 windows
+    rsv: 2/8 windows
+    flu contagious: 1/8 windows
+    how long does flu last: 1/8 windows
+    how long flu: 1/8 windows
+    flu how long: 1/8 windows
+    contagious flu: 1/8 windows
+    stomach flu: 1/8 windows
+    sinus: 1/8 windows
+    flu fever: 1/8 windows
+
+  FDR significant terms (showing window counts out of 8 total):
+    the flu: 3/8 windows
+
+  Bonferroni significant terms (showing window counts out of 8 total):
+    the flu: 3/8 windows
+
+DETAILED RESULTS BY WINDOW:
+  window_1 (2010-08 to 2013-08):
+    Raw: 5, FDR: 0, Bonferroni: 0
+  window_2 (2011-08 to 2014-08):
+    Raw: 4, FDR: 0, Bonferroni: 0
+  window_3 (2012-08 to 2015-08):
+    Raw: 4, FDR: 0, Bonferroni: 0
+  window_4 (2013-08 to 2016-08):
+    Raw: 1, FDR: 1, Bonferroni: 1
+  window_5 (2014-08 to 2017-08):
+    Raw: 9, FDR: 1, Bonferroni: 1
+  window_6 (2015-08 to 2018-08):
+    Raw: 7, FDR: 0, Bonferroni: 0
+  window_7 (2016-08 to 2019-08):
+    Raw: 8, FDR: 0, Bonferroni: 0
+  window_8 (2017-08 to 2020-08):
+    Raw: 6, FDR: 1, Bonferroni: 1
+
+================================================================================

@@ -1,0 +1,31 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+symptoms of flu,1,0.36038048755088614,False,False,False
+stomach flu,1,0.37789793699050134,False,False,False
+influenza a symptoms,1,0.02456605901663412,True,False,False
+pneumonia,1,0.7074361299175185,False,False,False
+influenza contagious,1,0.9132814615881153,False,False,False
+influenza b,1,0.01182345568256827,True,False,False
+symptoms of flu,2,0.5356033391727684,False,False,False
+stomach flu,2,0.04582126845214049,True,False,False
+influenza a symptoms,2,0.07349941749188259,False,False,False
+pneumonia,2,0.04754080146497051,True,False,False
+influenza contagious,2,0.020841475452096064,True,False,False
+influenza b,2,0.9689826033480209,False,False,False
+symptoms of flu,3,0.1197900003631567,False,False,False
+stomach flu,3,0.06861039294709273,False,False,False
+influenza a symptoms,3,0.5767578072174829,False,False,False
+pneumonia,3,0.8226319151671228,False,False,False
+influenza contagious,3,0.09572288768115916,False,False,False
+influenza b,3,0.9475857191601794,False,False,False
+symptoms of flu,4,0.954375790663792,False,False,False
+stomach flu,4,0.025552862943311692,True,False,False
+influenza a symptoms,4,0.7941055489295406,False,False,False
+pneumonia,4,0.915875414096992,False,False,False
+influenza contagious,4,0.9444024570708092,False,False,False
+influenza b,4,0.5561125843186159,False,False,False
+symptoms of flu,5,0.028162600251150735,True,False,False
+stomach flu,5,0.2778681507089836,False,False,False
+influenza a symptoms,5,0.4515328834836446,False,False,False
+pneumonia,5,0.06945949095418029,False,False,False
+influenza contagious,5,0.22683874724895417,False,False,False
+influenza b,5,0.09852617727591134,False,False,False

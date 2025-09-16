@@ -1,0 +1,41 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+symptoms of flu,1,0.6356597167333484,False,False,False
+the flu,1,0.049157371705281706,True,False,False
+bronchitis,1,0.0778372242567601,False,False,False
+how long flu,1,0.1764942302283511,False,True,True
+contagious flu,1,0.6470061069110538,False,False,False
+rsv,1,0.956468887431842,False,False,False
+flu how long,1,0.5980468957678715,False,False,False
+flu contagious,1,0.647006107144972,False,False,False
+symptoms of flu,2,0.0183130188714673,True,False,False
+the flu,2,0.25836082876189914,False,False,False
+bronchitis,2,0.5985819722369132,False,False,False
+how long flu,2,0.8116184609847974,False,True,True
+contagious flu,2,0.39246591078359916,False,False,False
+rsv,2,0.13037958167590272,False,False,False
+flu how long,2,0.009783716687975305,True,False,False
+flu contagious,2,0.39246591118576724,False,False,False
+symptoms of flu,3,0.3360207324533929,False,False,False
+the flu,3,0.6415689269066998,False,False,False
+bronchitis,3,0.37724120446734954,False,False,False
+how long flu,3,0.10132193063567142,False,True,True
+contagious flu,3,0.7379749193401853,False,False,False
+rsv,3,0.9299071738219205,False,False,False
+flu how long,3,0.3782500053557928,False,False,False
+flu contagious,3,0.7379749192583025,False,False,False
+symptoms of flu,4,0.45501629339621175,False,False,False
+the flu,4,0.568365624423373,False,False,False
+bronchitis,4,0.9614129034052413,False,False,False
+how long flu,4,0.001742972020649959,True,True,True
+contagious flu,4,0.016393374756108584,True,False,False
+rsv,4,0.04623658496513085,True,False,False
+flu how long,4,0.1336467632740308,False,False,False
+flu contagious,4,0.01639337474801128,True,False,False
+symptoms of flu,5,0.618909841795268,False,False,False
+the flu,5,0.5555449100984741,False,False,False
+bronchitis,5,0.04567691624319657,True,False,False
+how long flu,5,0.0003870387984184,True,True,True
+contagious flu,5,0.08880470139461893,False,False,False
+rsv,5,0.13522024481562536,False,False,False
+flu how long,5,0.08896110221249647,False,False,False
+flu contagious,5,0.08880470141485686,False,False,False

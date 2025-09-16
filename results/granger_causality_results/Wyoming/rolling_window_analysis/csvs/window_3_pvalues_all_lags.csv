@@ -1,0 +1,36 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+influenza a,1,0.02451599836565901,True,False,False
+flu symptoms,1,0.41037912189338766,False,False,False
+stomach flu,1,0.4058107754772128,False,False,False
+sinus,1,0.7778116135465682,False,False,False
+how long flu,1,0.6548071869552049,False,True,False
+flu a,1,0.6418348578783623,False,True,False
+flu how long,1,0.6548071854048843,False,True,False
+influenza a,2,0.014233801260427469,True,False,False
+flu symptoms,2,0.19953776387394676,False,False,False
+stomach flu,2,0.6591386583479832,False,False,False
+sinus,2,0.9876700405609166,False,False,False
+how long flu,2,0.23100382825837198,False,True,False
+flu a,2,0.33153969681995576,False,True,False
+flu how long,2,0.23100382774336503,False,True,False
+influenza a,3,0.7651093270704254,False,False,False
+flu symptoms,3,0.0429491996616493,True,False,False
+stomach flu,3,0.015600826121463258,True,False,False
+sinus,3,0.0162191803338442,True,False,False
+how long flu,3,0.004085120690931208,True,True,False
+flu a,3,0.48584993074536587,False,True,False
+flu how long,3,0.0040851206979958055,True,True,False
+influenza a,4,0.1057599047996218,False,False,False
+flu symptoms,4,0.6547866839235981,False,False,False
+stomach flu,4,0.6726358613265888,False,False,False
+sinus,4,0.7714790245999076,False,False,False
+how long flu,4,0.06706819056008144,False,True,False
+flu a,4,0.004285906937733188,True,True,False
+flu how long,4,0.06706819051685375,False,True,False
+influenza a,5,0.12282013554042598,False,False,False
+flu symptoms,5,0.39565795358082634,False,False,False
+stomach flu,5,0.5968258754148823,False,False,False
+sinus,5,0.5288454389528854,False,False,False
+how long flu,5,0.9139884828542925,False,True,False
+flu a,5,0.01678802391634368,True,True,False
+flu how long,5,0.9139884823316339,False,True,False

@@ -1,0 +1,31 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+flu cold,1,0.022645545546998536,True,False,False
+flu symptoms,1,0.7383728011737618,False,False,False
+symptoms of flu,1,0.026332671577615614,True,False,False
+flu type,1,0.36292293844005463,False,False,False
+bronchitis,1,0.07017079735119906,False,False,False
+flu a,1,0.06151977715901483,False,False,False
+flu cold,2,0.8778226709020907,False,False,False
+flu symptoms,2,0.8558731986892228,False,False,False
+symptoms of flu,2,0.08200943108266497,False,False,False
+flu type,2,0.1752494986446039,False,False,False
+bronchitis,2,0.36626636538287705,False,False,False
+flu a,2,0.016216000108032015,True,False,False
+flu cold,3,0.960089830575936,False,False,False
+flu symptoms,3,0.03372276643688736,True,False,False
+symptoms of flu,3,0.6336238021238976,False,False,False
+flu type,3,0.007619455891331191,True,False,False
+bronchitis,3,0.03189284843809903,True,False,False
+flu a,3,0.6643848502732563,False,False,False
+flu cold,4,0.23040084887424941,False,False,False
+flu symptoms,4,0.33605803487719377,False,False,False
+symptoms of flu,4,0.7761460060937289,False,False,False
+flu type,4,0.8229683699035815,False,False,False
+bronchitis,4,0.759654722095479,False,False,False
+flu a,4,0.12768481629072054,False,False,False
+flu cold,5,0.5260925310401249,False,False,False
+flu symptoms,5,0.11067635855254011,False,False,False
+symptoms of flu,5,0.46896871288319686,False,False,False
+flu type,5,0.2006508752721208,False,False,False
+bronchitis,5,0.4358729665183977,False,False,False
+flu a,5,0.7958566197625605,False,False,False

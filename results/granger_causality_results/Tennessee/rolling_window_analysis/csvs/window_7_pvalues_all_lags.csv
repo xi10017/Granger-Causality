@@ -1,0 +1,21 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+bronchitis,1,0.27151606381443844,False,False,False
+flu type,1,0.6938651521535891,False,False,False
+symptoms of the flu,1,0.7698314950653398,False,True,True
+rsv,1,0.2503993816343997,False,False,False
+bronchitis,2,0.6830322809476144,False,False,False
+flu type,2,0.09696307426135443,False,False,False
+symptoms of the flu,2,0.684851051005025,False,True,True
+rsv,2,0.4211719091799392,False,False,False
+bronchitis,3,0.0166459150785217,True,False,False
+flu type,3,0.03401777473004477,True,False,False
+symptoms of the flu,3,0.0005826441205812445,True,True,True
+rsv,3,0.7048109454138847,False,False,False
+bronchitis,4,0.7794801280533636,False,False,False
+flu type,4,0.5557446923379739,False,False,False
+symptoms of the flu,4,0.23075455811001708,False,True,True
+rsv,4,0.4382346538157492,False,False,False
+bronchitis,5,0.8028870374678264,False,False,False
+flu type,5,0.34300849370747666,False,False,False
+symptoms of the flu,5,0.12248222435581618,False,True,True
+rsv,5,0.005108686176410966,True,False,False

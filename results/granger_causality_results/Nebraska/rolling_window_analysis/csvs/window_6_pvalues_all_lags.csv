@@ -1,0 +1,26 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+influenza a,1,0.04607998618086315,True,False,False
+a influenza,1,0.3515289776713719,False,False,False
+symptoms of flu,1,0.043805116299501054,True,False,False
+influenza a symptoms,1,0.25254680964166365,False,False,False
+the flu symptoms,1,0.9980559571128678,False,False,False
+influenza a,2,0.8423332903038908,False,False,False
+a influenza,2,0.7940931034110512,False,False,False
+symptoms of flu,2,0.020180196369906613,True,False,False
+influenza a symptoms,2,0.026830144233171805,True,False,False
+the flu symptoms,2,0.9832924807062171,False,False,False
+influenza a,3,0.8207855767579115,False,False,False
+a influenza,3,0.39105771157250424,False,False,False
+symptoms of flu,3,0.821660472445387,False,False,False
+influenza a symptoms,3,0.8932468050239731,False,False,False
+the flu symptoms,3,0.4621557838868118,False,False,False
+influenza a,4,0.07471193753995299,False,False,False
+a influenza,4,0.028518119686713035,True,False,False
+symptoms of flu,4,0.6163015134361146,False,False,False
+influenza a symptoms,4,0.9300941252549249,False,False,False
+the flu symptoms,4,0.14765922601841902,False,False,False
+influenza a,5,0.16297309550602646,False,False,False
+a influenza,5,0.19804399071305542,False,False,False
+symptoms of flu,5,0.006836544410852687,True,False,False
+influenza a symptoms,5,0.4744561043106643,False,False,False
+the flu symptoms,5,0.02453960053959554,True,False,False

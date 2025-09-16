@@ -1,0 +1,11 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+sinus,1,0.016813471913473124,True,False,False
+how long does flu last,1,0.029520002238823867,True,False,False
+sinus,2,0.909921599988398,False,False,False
+how long does flu last,2,0.14775124276019438,False,False,False
+sinus,3,0.47819394934783943,False,False,False
+how long does flu last,3,0.8331095872728245,False,False,False
+sinus,4,0.8977835212387123,False,False,False
+how long does flu last,4,0.06580298747497183,False,False,False
+sinus,5,0.8274193445900884,False,False,False
+how long does flu last,5,0.24355955854822153,False,False,False

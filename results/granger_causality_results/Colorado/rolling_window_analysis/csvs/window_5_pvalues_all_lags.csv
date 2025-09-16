@@ -1,0 +1,11 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+contagious flu,1,0.7863915491393689,False,False,False
+stomach flu,1,0.5379974922621977,False,False,False
+contagious flu,2,0.029260118670738734,True,False,False
+stomach flu,2,0.585114186796046,False,False,False
+contagious flu,3,0.7446223442974036,False,False,False
+stomach flu,3,0.47602665522395415,False,False,False
+contagious flu,4,0.8196344437420024,False,False,False
+stomach flu,4,0.8912419215117322,False,False,False
+contagious flu,5,0.6836930024989921,False,False,False
+stomach flu,5,0.036745363227724544,True,False,False

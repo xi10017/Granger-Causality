@@ -1,0 +1,31 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+pneumonia,1,0.5268215773345578,False,True,True
+contagious flu,1,0.017338101722423862,True,False,False
+rsv,1,0.7360352035538604,False,False,False
+flu contagious,1,0.017338101821138048,True,False,False
+the flu symptoms,1,0.20817133108358118,False,False,False
+strep,1,0.6594751615357923,False,False,False
+pneumonia,2,0.9284972950140671,False,True,True
+contagious flu,2,0.9679390853896044,False,False,False
+rsv,2,0.03468883152388657,True,False,False
+flu contagious,2,0.96793908686889,False,False,False
+the flu symptoms,2,0.04308748454459863,True,False,False
+strep,2,0.42080803148801393,False,False,False
+pneumonia,3,0.0014478168469105653,True,True,True
+contagious flu,3,0.183093728156961,False,False,False
+rsv,3,0.7073406868904751,False,False,False
+flu contagious,3,0.18309372781898361,False,False,False
+the flu symptoms,3,0.9711733464719793,False,False,False
+strep,3,0.6915237508070287,False,False,False
+pneumonia,4,0.9941510134947952,False,True,True
+contagious flu,4,0.32282670732207297,False,False,False
+rsv,4,0.31752557363682493,False,False,False
+flu contagious,4,0.32282670745409925,False,False,False
+the flu symptoms,4,0.6647422236045928,False,False,False
+strep,4,0.005846632412944704,True,False,False
+pneumonia,5,0.46334867260919677,False,True,True
+contagious flu,5,0.6055770863769927,False,False,False
+rsv,5,0.4685946190164776,False,False,False
+flu contagious,5,0.6055770867174423,False,False,False
+the flu symptoms,5,0.6503137258755716,False,False,False
+strep,5,0.2755141076856187,False,False,False

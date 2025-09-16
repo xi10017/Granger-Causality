@@ -1,0 +1,11 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+sinus,1,0.7698902597440817,False,False,False
+bronchitis,1,0.2766175082282088,False,False,False
+sinus,2,0.8130008211509276,False,False,False
+bronchitis,2,0.7213360536445246,False,False,False
+sinus,3,0.03733546576027053,True,False,False
+bronchitis,3,0.048301856644420695,True,False,False
+sinus,4,0.6079332276706373,False,False,False
+bronchitis,4,0.8815923949943545,False,False,False
+sinus,5,0.3402740174107066,False,False,False
+bronchitis,5,0.9498532993490516,False,False,False

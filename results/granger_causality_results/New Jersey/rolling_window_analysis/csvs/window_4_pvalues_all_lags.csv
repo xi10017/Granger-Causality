@@ -1,0 +1,11 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+pneumonia,1,0.035875645632264294,True,False,False
+stomach flu,1,0.043061395629382104,True,False,False
+pneumonia,2,0.7683488201264377,False,False,False
+stomach flu,2,0.010496650809890795,True,False,False
+pneumonia,3,0.5512679390587001,False,False,False
+stomach flu,3,0.5544996229161402,False,False,False
+pneumonia,4,0.257881261268973,False,False,False
+stomach flu,4,0.7024570270823975,False,False,False
+pneumonia,5,0.7311551847366906,False,False,False
+stomach flu,5,0.6054658825273613,False,False,False

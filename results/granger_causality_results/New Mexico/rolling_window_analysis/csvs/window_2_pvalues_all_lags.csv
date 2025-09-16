@@ -1,0 +1,11 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+contagious flu,1,0.43277063728292486,False,False,False
+flu contagious,1,0.43277063726618514,False,False,False
+contagious flu,2,0.012268355870445292,True,False,False
+flu contagious,2,0.012268355873618079,True,False,False
+contagious flu,3,0.5829400574769974,False,False,False
+flu contagious,3,0.5829400574787822,False,False,False
+contagious flu,4,0.15438826483337534,False,False,False
+flu contagious,4,0.1543882648756622,False,False,False
+contagious flu,5,0.931632801832286,False,False,False
+flu contagious,5,0.9316328018515398,False,False,False

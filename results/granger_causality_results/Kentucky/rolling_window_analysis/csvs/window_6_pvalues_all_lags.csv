@@ -1,0 +1,41 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+flu fever,1,0.07209028737606071,False,True,False
+cold,1,0.02413725800374002,True,False,False
+fever flu,1,0.019844919312952042,True,False,False
+pneumonia,1,0.7812187178147741,False,True,True
+the flu,1,0.4390494708743563,False,False,False
+b flu,1,0.12492929264550448,False,False,False
+type a flu,1,0.38675620253811893,False,False,False
+how long flu,1,0.4856857252298483,False,False,False
+flu fever,2,0.2520231597072105,False,True,False
+cold,2,0.17548674570605774,False,False,False
+fever flu,2,0.46811925344703254,False,False,False
+pneumonia,2,0.00044742305034749117,True,True,True
+the flu,2,0.39499531204604943,False,False,False
+b flu,2,0.43017486670521776,False,False,False
+type a flu,2,0.9002812724981586,False,False,False
+how long flu,2,0.045782427646569424,True,False,False
+flu fever,3,0.7105082028680776,False,True,False
+cold,3,0.01884553632830449,True,False,False
+fever flu,3,0.425494433611313,False,False,False
+pneumonia,3,0.01151124650799424,True,True,True
+the flu,3,0.013287306938064791,True,False,False
+b flu,3,0.6179132737859274,False,False,False
+type a flu,3,0.025226651665545108,True,False,False
+how long flu,3,0.2049869041468897,False,False,False
+flu fever,4,0.23777394248279785,False,True,False
+cold,4,0.6844041152451432,False,False,False
+fever flu,4,0.666923345501903,False,False,False
+pneumonia,4,0.23127349257160057,False,True,True
+the flu,4,0.870021743578901,False,False,False
+b flu,4,0.014002480615973624,True,False,False
+type a flu,4,0.5930878603104938,False,False,False
+how long flu,4,0.9051950189266816,False,False,False
+flu fever,5,0.0036481310225588395,True,True,False
+cold,5,0.7605153222370088,False,False,False
+fever flu,5,0.3012277846094097,False,False,False
+pneumonia,5,0.5946813481441706,False,True,True
+the flu,5,0.14484990195582473,False,False,False
+b flu,5,0.12526450926499508,False,False,False
+type a flu,5,0.45689876453002287,False,False,False
+how long flu,5,0.34917646161837523,False,False,False

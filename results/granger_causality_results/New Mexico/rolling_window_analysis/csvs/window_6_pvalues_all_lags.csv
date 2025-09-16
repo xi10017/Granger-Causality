@@ -1,0 +1,31 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+flu cold,1,0.24408143336260502,False,False,False
+a influenza,1,0.4955655533783617,False,False,False
+bronchitis,1,0.22717137122263606,False,False,False
+how long does flu last,1,0.26933226754205775,False,True,True
+sinus,1,0.7791881437365271,False,False,False
+rsv,1,0.5807555117185417,False,False,False
+flu cold,2,0.8761934377707677,False,False,False
+a influenza,2,0.5167450144549989,False,False,False
+bronchitis,2,0.04454373655668417,True,False,False
+how long does flu last,2,0.926199305841774,False,True,True
+sinus,2,0.16680905505359941,False,False,False
+rsv,2,0.04055113455837198,True,False,False
+flu cold,3,0.266136182214762,False,False,False
+a influenza,3,0.022952196718390622,True,False,False
+bronchitis,3,0.7728290322727267,False,False,False
+how long does flu last,3,6.718596848583726e-05,True,True,True
+sinus,3,0.782410418492734,False,False,False
+rsv,3,0.05626265962731616,False,False,False
+flu cold,4,0.014015388808442228,True,False,False
+a influenza,4,0.6463839188981777,False,False,False
+bronchitis,4,0.38787236952663595,False,False,False
+how long does flu last,4,0.3233814063926722,False,True,True
+sinus,4,0.04991493825186447,True,False,False
+rsv,4,0.5993759142340052,False,False,False
+flu cold,5,0.8738185349529644,False,False,False
+a influenza,5,0.4720379926028684,False,False,False
+bronchitis,5,0.9019654991827037,False,False,False
+how long does flu last,5,0.6052137427632533,False,True,True
+sinus,5,0.9457509214561892,False,False,False
+rsv,5,0.981432727767013,False,False,False

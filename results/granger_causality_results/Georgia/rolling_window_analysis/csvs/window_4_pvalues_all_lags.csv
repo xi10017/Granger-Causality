@@ -1,0 +1,16 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+is flu contagious,1,0.013062531413999412,True,False,False
+symptoms of flu,1,0.38912616832499025,False,False,False
+flu a,1,0.031138878606861504,True,False,False
+is flu contagious,2,0.9176648040687199,False,False,False
+symptoms of flu,2,0.3573550720398617,False,False,False
+flu a,2,0.6681897356985845,False,False,False
+is flu contagious,3,0.31305497885199274,False,False,False
+symptoms of flu,3,0.7155551227941026,False,False,False
+flu a,3,0.4494176361081257,False,False,False
+is flu contagious,4,0.06795889670373956,False,False,False
+symptoms of flu,4,0.8488441440260188,False,False,False
+flu a,4,0.6068843700125809,False,False,False
+is flu contagious,5,0.6984443658814208,False,False,False
+symptoms of flu,5,0.033298293079483086,True,False,False
+flu a,5,0.5440192104903865,False,False,False

@@ -1,0 +1,31 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+influenza a,1,0.6398915098299097,False,False,False
+cold,1,0.5133934844668806,False,False,False
+a influenza,1,0.459465404366879,False,False,False
+the flu,1,0.005843151937616597,True,False,False
+bronchitis,1,0.8984395827501053,False,True,True
+flu a,1,0.041838821798592614,True,False,False
+influenza a,2,0.9056157518335515,False,False,False
+cold,2,0.010986367939952883,True,False,False
+a influenza,2,0.7416782943010105,False,False,False
+the flu,2,0.4552628938507627,False,False,False
+bronchitis,2,0.2327443279057875,False,True,True
+flu a,2,0.9280472948781475,False,False,False
+influenza a,3,0.6888503694106047,False,False,False
+cold,3,0.9873991715239125,False,False,False
+a influenza,3,0.02386281254262504,True,False,False
+the flu,3,0.45760166819934367,False,False,False
+bronchitis,3,0.9268851905059573,False,True,True
+flu a,3,0.06213518033112861,False,False,False
+influenza a,4,0.012203885470712609,True,False,False
+cold,4,0.29323320886134846,False,False,False
+a influenza,4,0.9478014509314464,False,False,False
+the flu,4,0.6708851576343371,False,False,False
+bronchitis,4,0.4576829781153323,False,True,True
+flu a,4,0.3217970234715837,False,False,False
+influenza a,5,0.017943433971582476,True,False,False
+cold,5,0.8550169548971615,False,False,False
+a influenza,5,0.17599612683516613,False,False,False
+the flu,5,0.33225974062998964,False,False,False
+bronchitis,5,0.0010471535286970006,True,True,True
+flu a,5,0.25628248834713196,False,False,False

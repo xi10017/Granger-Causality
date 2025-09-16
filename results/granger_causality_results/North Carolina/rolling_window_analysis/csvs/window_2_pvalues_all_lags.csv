@@ -1,0 +1,51 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+flu symptoms,1,0.010197907634064344,True,True,False
+symptoms of flu,1,0.8455625352365522,False,True,False
+is flu contagious,1,0.39374620990156917,False,True,False
+contagious flu,1,0.011985055774889859,True,True,False
+flu a,1,0.7787032511796388,False,True,False
+how long contagious,1,0.48453324971894285,False,True,True
+symptoms of the flu,1,0.6910180072605772,False,False,False
+flu how long,1,0.08132078361126058,False,True,False
+flu contagious,1,0.16194234290096848,False,True,False
+the flu symptoms,1,0.3114785119065892,False,False,False
+flu symptoms,2,0.6890751246870731,False,True,False
+symptoms of flu,2,0.18822548448977625,False,True,False
+is flu contagious,2,0.6287001120038045,False,True,False
+contagious flu,2,0.023323449857229783,True,True,False
+flu a,2,0.11590641280448064,False,True,False
+how long contagious,2,0.17759869555986887,False,True,True
+symptoms of the flu,2,0.04801466485512828,True,False,False
+flu how long,2,0.4146388814847908,False,True,False
+flu contagious,2,0.003900854909234268,True,True,False
+the flu symptoms,2,0.04095489589167828,True,False,False
+flu symptoms,3,0.6267399611532088,False,True,False
+symptoms of flu,3,0.01655863984953726,True,True,False
+is flu contagious,3,0.04871449526165019,True,True,False
+contagious flu,3,0.1716824915750705,False,True,False
+flu a,3,0.24335510539863883,False,True,False
+how long contagious,3,0.4328809208522737,False,True,True
+symptoms of the flu,3,0.13008898090435234,False,False,False
+flu how long,3,0.12010966804812474,False,True,False
+flu contagious,3,0.07836156107625214,False,True,False
+the flu symptoms,3,0.4555586993571392,False,False,False
+flu symptoms,4,0.5877502435448105,False,True,False
+symptoms of flu,4,0.009774210695435324,True,True,False
+is flu contagious,4,0.279327018473301,False,True,False
+contagious flu,4,0.02252437447815943,True,True,False
+flu a,4,0.8728769140301962,False,True,False
+how long contagious,4,0.0002235765952472476,True,True,True
+symptoms of the flu,4,0.49303478769491627,False,False,False
+flu how long,4,0.4218375909267371,False,True,False
+flu contagious,4,0.9807273429551514,False,True,False
+the flu symptoms,4,0.9451945935376209,False,False,False
+flu symptoms,5,0.9843100148806729,False,True,False
+symptoms of flu,5,0.3149638676265965,False,True,False
+is flu contagious,5,0.015124006548189965,True,True,False
+contagious flu,5,0.045635966064438004,True,True,False
+flu a,5,0.00624256881942986,True,True,False
+how long contagious,5,0.5202797799363994,False,True,True
+symptoms of the flu,5,0.9409492330292848,False,False,False
+flu how long,5,0.01887908390053796,True,True,False
+flu contagious,5,0.8017352070453757,False,True,False
+the flu symptoms,5,0.8308050284991539,False,False,False

@@ -1,0 +1,21 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+flu fever,1,0.23437605017658308,False,False,False
+pneumonia,1,0.9349915607693563,False,False,False
+rsv,1,0.1770199759548763,False,False,False
+fever flu,1,0.9434036033171393,False,False,False
+flu fever,2,0.3404208240847655,False,False,False
+pneumonia,2,0.6101143079976827,False,False,False
+rsv,2,0.6378990228399983,False,False,False
+fever flu,2,0.030027746804510678,True,False,False
+flu fever,3,0.5553448356711415,False,False,False
+pneumonia,3,0.40513175763536335,False,False,False
+rsv,3,0.021333257766405277,True,False,False
+fever flu,3,0.771541452905487,False,False,False
+flu fever,4,0.9780534494030262,False,False,False
+pneumonia,4,0.006043055605243158,True,False,False
+rsv,4,0.35780403343043654,False,False,False
+fever flu,4,0.37942255417228044,False,False,False
+flu fever,5,0.03853385304170589,True,False,False
+pneumonia,5,0.56823161290356,False,False,False
+rsv,5,0.9292342276946552,False,False,False
+fever flu,5,0.9699832541906053,False,False,False

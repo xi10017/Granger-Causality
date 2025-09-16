@@ -1,0 +1,46 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+flu cold,1,0.4138923832192858,False,True,False
+flu fever,1,0.17074676440469946,False,True,False
+cold,1,0.0004496169639269113,True,True,True
+fever flu,1,0.17074676444298797,False,True,False
+pneumonia,1,0.01351298732593777,True,True,False
+flu type,1,0.14419756591345298,False,False,False
+rsv,1,0.06491911403122069,False,True,False
+flu how long,1,0.7633105822028304,False,True,False
+flu virus,1,0.08147117705983277,False,True,False
+flu cold,2,0.5471646066037734,False,True,False
+flu fever,2,0.73513197470865,False,True,False
+cold,2,0.6900139968068892,False,True,True
+fever flu,2,0.7351319746325886,False,True,False
+pneumonia,2,0.07470326041752816,False,True,False
+flu type,2,0.024431060933487462,True,False,False
+rsv,2,0.034766378539805506,True,True,False
+flu how long,2,0.5953592126301797,False,True,False
+flu virus,2,0.6167327582924591,False,True,False
+flu cold,3,0.12017790956777533,False,True,False
+flu fever,3,0.10965526091518801,False,True,False
+cold,3,0.36147082268654773,False,True,True
+fever flu,3,0.10965526089912309,False,True,False
+pneumonia,3,0.41278539961313676,False,True,False
+flu type,3,0.6598575531837955,False,False,False
+rsv,3,0.810330402498061,False,True,False
+flu how long,3,0.6698542125883722,False,True,False
+flu virus,3,0.4963989617409208,False,True,False
+flu cold,4,0.3751035603437902,False,True,False
+flu fever,4,0.014756085579194424,True,True,False
+cold,4,0.03283635983959975,True,True,True
+fever flu,4,0.01475608558012503,True,True,False
+pneumonia,4,0.7807095353158668,False,True,False
+flu type,4,0.727168103914267,False,False,False
+rsv,4,0.01823922610790899,True,True,False
+flu how long,4,0.8413669930358785,False,True,False
+flu virus,4,0.03856705019641828,True,True,False
+flu cold,5,0.016566864711511625,True,True,False
+flu fever,5,0.18532512704263676,False,True,False
+cold,5,0.3962938005264943,False,True,True
+fever flu,5,0.18532512704424023,False,True,False
+pneumonia,5,0.7549149338581223,False,True,False
+flu type,5,0.14176252081552684,False,False,False
+rsv,5,0.7215389783054778,False,True,False
+flu how long,5,0.010407809045775939,True,True,False
+flu virus,5,0.007614970903723264,True,True,False

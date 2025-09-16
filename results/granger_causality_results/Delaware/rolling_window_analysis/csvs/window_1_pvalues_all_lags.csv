@@ -1,0 +1,11 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+rsv,1,0.7505910618508769,False,False,False
+flu how long,1,0.025688307783241777,True,False,False
+rsv,2,0.76968543426408,False,False,False
+flu how long,2,0.9081151342982028,False,False,False
+rsv,3,0.036779530066189815,True,False,False
+flu how long,3,0.7851413445186257,False,False,False
+rsv,4,0.488441916887553,False,False,False
+flu how long,4,0.7006866203449686,False,False,False
+rsv,5,0.31352206035657154,False,False,False
+flu how long,5,0.5420478201339745,False,False,False

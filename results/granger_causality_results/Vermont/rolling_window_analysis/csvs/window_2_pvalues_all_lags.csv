@@ -1,0 +1,31 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+flu cold,1,0.847459691365465,False,False,False
+fever flu,1,0.6028914606123964,False,True,False
+symptoms of flu,1,0.5101923141960678,False,False,False
+flu a,1,0.7159151385876517,False,True,True
+rsv,1,0.07000841860696881,False,True,False
+flu contagious,1,0.35650504052119125,False,True,False
+flu cold,2,0.022625532188978174,True,False,False
+fever flu,2,0.644781524762601,False,True,False
+symptoms of flu,2,0.6033482478980186,False,False,False
+flu a,2,0.7982303185956656,False,True,True
+rsv,2,0.005982929869409779,True,True,False
+flu contagious,2,0.7697284631321213,False,True,False
+flu cold,3,0.8778644200769294,False,False,False
+fever flu,3,0.00326997466097481,True,True,False
+symptoms of flu,3,0.1232598441516405,False,False,False
+flu a,3,0.029754629181309118,True,True,True
+rsv,3,0.5168812400968483,False,True,False
+flu contagious,3,0.2802836990426524,False,True,False
+flu cold,4,0.1940566648705337,False,False,False
+fever flu,4,0.8511160431764605,False,True,False
+symptoms of flu,4,0.8738020781391685,False,False,False
+flu a,4,0.014174901878326021,True,True,True
+rsv,4,0.25182234112065505,False,True,False
+flu contagious,4,0.009826546525597932,True,True,False
+flu cold,5,0.8227614113087393,False,False,False
+fever flu,5,0.3080239198724512,False,True,False
+symptoms of flu,5,0.024931603696641762,True,False,False
+flu a,5,0.0024889665880838074,True,True,True
+rsv,5,0.24429749451131932,False,True,False
+flu contagious,5,0.7834293234664,False,True,False

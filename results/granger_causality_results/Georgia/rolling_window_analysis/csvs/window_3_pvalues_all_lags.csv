@@ -1,0 +1,11 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+the flu,1,0.046823825124658845,True,False,False
+cold,1,0.2071974088824116,False,False,False
+the flu,2,0.3540436372638315,False,False,False
+cold,2,0.3484078217267782,False,False,False
+the flu,3,0.2737100885436018,False,False,False
+cold,3,0.7352873341826052,False,False,False
+the flu,4,0.13119255503557148,False,False,False
+cold,4,0.0328839039116294,True,False,False
+the flu,5,0.6686735350008682,False,False,False
+cold,5,0.1784906283005614,False,False,False

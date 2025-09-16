@@ -1,0 +1,11 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+bronchitis,1,0.4943607050455683,False,False,False
+rsv,1,0.006171044339543397,True,False,False
+bronchitis,2,0.8266928300075036,False,False,False
+rsv,2,0.20604169784663467,False,False,False
+bronchitis,3,0.04244838785201068,True,False,False
+rsv,3,0.3705159685062255,False,False,False
+bronchitis,4,0.5904567559343593,False,False,False
+rsv,4,0.7641005713105611,False,False,False
+bronchitis,5,0.25666963536241544,False,False,False
+rsv,5,0.8750269015538024,False,False,False

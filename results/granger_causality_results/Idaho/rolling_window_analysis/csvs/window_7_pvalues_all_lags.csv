@@ -1,0 +1,26 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+symptoms of flu,1,0.21487169881789833,False,False,False
+stomach flu,1,0.48609628656460735,False,False,False
+how long does flu last,1,0.5468454717586728,False,False,False
+contagious flu,1,0.03927291252050302,True,False,False
+flu contagious,1,0.03927291246906303,True,False,False
+symptoms of flu,2,0.03963215695982949,True,False,False
+stomach flu,2,0.35199578956310607,False,False,False
+how long does flu last,2,0.0061153205350073705,True,False,False
+contagious flu,2,0.3831845999447667,False,False,False
+flu contagious,2,0.38318459980619857,False,False,False
+symptoms of flu,3,0.3422693080572824,False,False,False
+stomach flu,3,0.4372728898568664,False,False,False
+how long does flu last,3,0.27745848577434196,False,False,False
+contagious flu,3,0.7996227377984743,False,False,False
+flu contagious,3,0.7996227375748192,False,False,False
+symptoms of flu,4,0.09604728501381024,False,False,False
+stomach flu,4,0.01797383572653838,True,False,False
+how long does flu last,4,0.388991394711789,False,False,False
+contagious flu,4,0.019971074573440925,True,False,False
+flu contagious,4,0.019971074561108828,True,False,False
+symptoms of flu,5,0.4018963631713386,False,False,False
+stomach flu,5,0.23627028607701359,False,False,False
+how long does flu last,5,0.29789144313191807,False,False,False
+contagious flu,5,0.4021342924617505,False,False,False
+flu contagious,5,0.40213429227749264,False,False,False

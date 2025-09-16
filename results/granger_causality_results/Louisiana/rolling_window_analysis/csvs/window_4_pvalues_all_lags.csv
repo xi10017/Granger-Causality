@@ -1,0 +1,16 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+bronchitis,1,0.04410123153285456,True,False,False
+pneumonia,1,0.43737068173330906,False,False,False
+cold,1,0.2419012377902869,False,False,False
+bronchitis,2,0.7282033143496247,False,False,False
+pneumonia,2,0.0194789963180088,True,False,False
+cold,2,0.3047508666404497,False,False,False
+bronchitis,3,0.6612358072447404,False,False,False
+pneumonia,3,0.10431574970029692,False,False,False
+cold,3,0.27069468633114235,False,False,False
+bronchitis,4,0.3986983782195015,False,False,False
+pneumonia,4,0.05010208833809898,False,False,False
+cold,4,0.006868776178805521,True,False,False
+bronchitis,5,0.25194490210521836,False,False,False
+pneumonia,5,0.4688685245020614,False,False,False
+cold,5,0.18991235720953628,False,False,False

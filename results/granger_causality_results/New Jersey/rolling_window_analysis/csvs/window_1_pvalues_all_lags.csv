@@ -1,0 +1,16 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+pneumonia,1,0.9805944104592551,False,False,False
+symptoms of flu,1,0.628016394201966,False,False,False
+cold,1,0.9222404064475944,False,False,False
+pneumonia,2,0.7260265001558033,False,False,False
+symptoms of flu,2,0.8320368066198546,False,False,False
+cold,2,0.002763885615265014,True,False,False
+pneumonia,3,0.13447771856621143,False,False,False
+symptoms of flu,3,0.2717347970564988,False,False,False
+cold,3,0.35741467459306153,False,False,False
+pneumonia,4,0.031156018863995882,True,False,False
+symptoms of flu,4,0.2545275561703497,False,False,False
+cold,4,0.1299723593531297,False,False,False
+pneumonia,5,0.018115720019501166,True,False,False
+symptoms of flu,5,0.010107614548550161,True,False,False
+cold,5,0.7993851055358705,False,False,False

@@ -1,0 +1,16 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+flu symptoms,1,0.04694481371423615,True,False,False
+flu contagious,1,0.8060959328821319,False,False,False
+flu a,1,0.045254207178204164,True,False,False
+flu symptoms,2,0.5448778136959166,False,False,False
+flu contagious,2,0.3987113187260878,False,False,False
+flu a,2,0.6450960550754956,False,False,False
+flu symptoms,3,0.532397601431697,False,False,False
+flu contagious,3,0.03910295889502308,True,False,False
+flu a,3,0.12552789548373394,False,False,False
+flu symptoms,4,0.09176137988424757,False,False,False
+flu contagious,4,0.5399987149738779,False,False,False
+flu a,4,0.8960084054059083,False,False,False
+flu symptoms,5,0.05436398516549,False,False,False
+flu contagious,5,0.9564894977193473,False,False,False
+flu a,5,0.7422444925635685,False,False,False

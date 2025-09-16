@@ -1,0 +1,100 @@
+================================================================================
+ROLLING WINDOW GRANGER CAUSALITY ANALYSIS - SUMMARY
+================================================================================
+
+ANALYSIS CONFIGURATION:
+  Data file: South Carolina_2010_2020.csv
+  Response variable: South Carolina
+  Window length: 3 years
+  Step size: 1 years
+  Time period: 2010-08 to 2020-08
+  Max lags: 5
+
+WINDOW SUMMARY:
+  Total windows: 8
+  Successful windows: 8
+  Failed windows: 0
+
+SIGNIFICANCE RATES:
+  Raw significance rate: 0.456
+  FDR significance rate: 0.200
+  Bonferroni significance rate: 0.087
+
+TERMS SIGNIFICANT AT LEAST ONCE:
+  Raw significant terms: 20
+  FDR significant terms: 17
+  Bonferroni significant terms: 10
+
+TERMS SIGNIFICANT ACROSS WINDOWS:
+  Raw significant terms (showing window counts out of 8 total):
+    flu type: 7/8 windows
+    symptoms of flu: 6/8 windows
+    b flu: 6/8 windows
+    flu contagious: 5/8 windows
+    contagious flu: 5/8 windows
+    rsv: 5/8 windows
+    flu fever: 3/8 windows
+    stomach flu: 3/8 windows
+    flu a: 3/8 windows
+    symptoms of the flu: 3/8 windows
+    how long flu: 3/8 windows
+    flu how long: 3/8 windows
+    the flu symptoms: 3/8 windows
+    fever flu: 3/8 windows
+    pneumonia: 3/8 windows
+    the flu: 3/8 windows
+    bronchitis: 3/8 windows
+    how long does flu last: 2/8 windows
+    flu cold: 2/8 windows
+    flu symptoms: 2/8 windows
+
+  FDR significant terms (showing window counts out of 8 total):
+    flu fever: 3/8 windows
+    b flu: 3/8 windows
+    the flu symptoms: 3/8 windows
+    contagious flu: 3/8 windows
+    flu contagious: 3/8 windows
+    flu type: 2/8 windows
+    flu how long: 2/8 windows
+    fever flu: 2/8 windows
+    bronchitis: 2/8 windows
+    rsv: 2/8 windows
+    how long does flu last: 1/8 windows
+    flu a: 1/8 windows
+    symptoms of the flu: 1/8 windows
+    how long flu: 1/8 windows
+    flu cold: 1/8 windows
+    symptoms of flu: 1/8 windows
+    the flu: 1/8 windows
+
+  Bonferroni significant terms (showing window counts out of 8 total):
+    flu fever: 2/8 windows
+    flu contagious: 2/8 windows
+    contagious flu: 2/8 windows
+    the flu symptoms: 2/8 windows
+    b flu: 1/8 windows
+    how long flu: 1/8 windows
+    flu cold: 1/8 windows
+    the flu: 1/8 windows
+    bronchitis: 1/8 windows
+    rsv: 1/8 windows
+
+DETAILED RESULTS BY WINDOW:
+  window_1 (2010-08 to 2013-08):
+    Raw: 4, FDR: 0, Bonferroni: 0
+  window_2 (2011-08 to 2014-08):
+    Raw: 13, FDR: 8, Bonferroni: 2
+  window_3 (2012-08 to 2015-08):
+    Raw: 15, FDR: 8, Bonferroni: 4
+  window_4 (2013-08 to 2016-08):
+    Raw: 15, FDR: 11, Bonferroni: 7
+  window_5 (2014-08 to 2017-08):
+    Raw: 6, FDR: 3, Bonferroni: 1
+  window_6 (2015-08 to 2018-08):
+    Raw: 6, FDR: 0, Bonferroni: 0
+  window_7 (2016-08 to 2019-08):
+    Raw: 11, FDR: 2, Bonferroni: 0
+  window_8 (2017-08 to 2020-08):
+    Raw: 3, FDR: 0, Bonferroni: 0
+
+================================================================================

@@ -1,0 +1,6 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+flu fever,1,0.8060745245102897,False,False,False
+flu fever,2,0.22014462098003237,False,False,False
+flu fever,3,0.03661415406807536,True,False,False
+flu fever,4,0.3894280272894167,False,False,False
+flu fever,5,0.5927868485844026,False,False,False

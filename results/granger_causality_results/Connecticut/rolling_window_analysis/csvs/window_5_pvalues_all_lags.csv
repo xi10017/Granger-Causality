@@ -1,0 +1,6 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+rsv,1,0.009137357684014902,True,False,False
+rsv,2,0.4783401857848988,False,False,False
+rsv,3,0.3166510413588885,False,False,False
+rsv,4,0.07269510889040733,False,False,False
+rsv,5,0.20593848874091827,False,False,False

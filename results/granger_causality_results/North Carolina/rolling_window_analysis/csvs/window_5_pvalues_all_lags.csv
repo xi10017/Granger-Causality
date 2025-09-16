@@ -1,0 +1,31 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+flu cold,1,0.48047254248273086,False,False,False
+flu symptoms,1,0.7277049033482832,False,False,False
+flu type,1,0.827692892542718,False,False,False
+bronchitis,1,0.42109661064151316,False,False,False
+how long does flu last,1,0.13770218448714627,False,True,True
+flu incubation,1,0.24417363724098864,False,True,False
+flu cold,2,0.7286550048589704,False,False,False
+flu symptoms,2,0.4946643714357225,False,False,False
+flu type,2,0.03577563036765531,True,False,False
+bronchitis,2,0.04972633317920321,True,False,False
+how long does flu last,2,0.20229378212152233,False,True,True
+flu incubation,2,0.07034853177593715,False,True,False
+flu cold,3,0.995802429496832,False,False,False
+flu symptoms,3,0.037381873678390014,True,False,False
+flu type,3,0.5478606182264261,False,False,False
+bronchitis,3,0.8529827588054302,False,False,False
+how long does flu last,3,0.05608933174732255,False,True,True
+flu incubation,3,0.2983046332082399,False,True,False
+flu cold,4,0.19153559463175132,False,False,False
+flu symptoms,4,0.6420642608065958,False,False,False
+flu type,4,0.8904924545386879,False,False,False
+bronchitis,4,0.6216213549861458,False,False,False
+how long does flu last,4,0.001991723496852142,True,True,True
+flu incubation,4,0.3827480829342246,False,True,False
+flu cold,5,0.04475876064457368,True,False,False
+flu symptoms,5,0.29244829068032296,False,False,False
+flu type,5,0.15982244505998489,False,False,False
+bronchitis,5,0.5943959303927797,False,False,False
+how long does flu last,5,0.271201365364893,False,True,True
+flu incubation,5,0.004464311702311882,True,True,False

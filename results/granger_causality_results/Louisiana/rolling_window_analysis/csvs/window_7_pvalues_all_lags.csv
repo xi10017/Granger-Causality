@@ -1,0 +1,41 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+fever flu,1,0.39510363256620906,False,False,False
+symptoms of flu,1,0.29103129260359367,False,False,False
+the flu,1,0.19121729803172843,False,False,False
+bronchitis,1,0.07976560893706976,False,False,False
+contagious flu,1,0.5999531686612216,False,False,False
+flu a,1,0.01276618153987209,True,False,False
+rsv,1,0.5020599197689696,False,False,False
+the flu symptoms,1,0.2032407128136324,False,False,False
+fever flu,2,0.7003859287067515,False,False,False
+symptoms of flu,2,0.9523791836402038,False,False,False
+the flu,2,0.07885592732690924,False,False,False
+bronchitis,2,0.9678720901962568,False,False,False
+contagious flu,2,0.5693876625766487,False,False,False
+flu a,2,0.6137944260764319,False,False,False
+rsv,2,0.0487423084222069,True,False,False
+the flu symptoms,2,0.10517616569032046,False,False,False
+fever flu,3,0.9218653675050316,False,False,False
+symptoms of flu,3,0.0173079502660827,True,False,False
+the flu,3,0.29917528040020536,False,False,False
+bronchitis,3,0.628844877992172,False,False,False
+contagious flu,3,0.48315170414084474,False,False,False
+flu a,3,0.7439008103312835,False,False,False
+rsv,3,0.18336589062692188,False,False,False
+the flu symptoms,3,0.008913071130986192,True,False,False
+fever flu,4,0.0062626243310892876,True,False,False
+symptoms of flu,4,0.7909278808360691,False,False,False
+the flu,4,0.580642698967045,False,False,False
+bronchitis,4,0.08832797371252166,False,False,False
+contagious flu,4,0.6062025629466379,False,False,False
+flu a,4,0.6715852137820244,False,False,False
+rsv,4,0.4776004651564807,False,False,False
+the flu symptoms,4,0.5190074851977329,False,False,False
+fever flu,5,0.6419543548373668,False,False,False
+symptoms of flu,5,0.7466034698199272,False,False,False
+the flu,5,0.03746548470535718,True,False,False
+bronchitis,5,0.029117827263574047,True,False,False
+contagious flu,5,0.022520782781057364,True,False,False
+flu a,5,0.018551097215474006,True,False,False
+rsv,5,0.2786539320173063,False,False,False
+the flu symptoms,5,0.9271426925124076,False,False,False

@@ -1,0 +1,56 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+flu cold,1,0.49763969337719216,False,False,False
+influenza a,1,0.003347838789750105,True,True,True
+flu symptoms,1,0.005493976682169624,True,True,False
+symptoms of flu,1,0.0022849869812401006,True,True,True
+influenza a symptoms,1,0.009050639541692398,True,True,False
+the flu,1,0.3044417947703195,False,True,True
+bronchitis,1,0.9324836159737533,False,True,True
+contagious flu,1,0.2830477124529991,False,True,True
+flu a,1,0.002665561773376839,True,True,True
+influenza b,1,0.7896118846291666,False,False,False
+influenza symptoms,1,0.7539159060765473,False,True,True
+flu cold,2,0.04730408752759037,True,False,False
+influenza a,2,1.9285941661659548e-06,True,True,True
+flu symptoms,2,0.5074287852206956,False,True,False
+symptoms of flu,2,0.017272484950631228,True,True,True
+influenza a symptoms,2,0.038149749183673066,True,True,False
+the flu,2,0.03249543033631561,True,True,True
+bronchitis,2,2.1226259165961268e-05,True,True,True
+contagious flu,2,0.0008585115804022606,True,True,True
+flu a,2,0.03758721815274747,True,True,True
+influenza b,2,0.31011365229458393,False,False,False
+influenza symptoms,2,0.006376445166180528,True,True,True
+flu cold,3,0.3394518696087514,False,False,False
+influenza a,3,0.4708932034636172,False,True,True
+flu symptoms,3,0.26592909512294355,False,True,False
+symptoms of flu,3,0.16898312423653947,False,True,True
+influenza a symptoms,3,0.5563892358173833,False,True,False
+the flu,3,0.5331633112893719,False,True,True
+bronchitis,3,0.2197159373545599,False,True,True
+contagious flu,3,0.04708902398373528,True,True,True
+flu a,3,2.250449865615743e-05,True,True,True
+influenza b,3,0.06435192966449316,False,False,False
+influenza symptoms,3,7.534752778633808e-05,True,True,True
+flu cold,4,0.1166370824500216,False,False,False
+influenza a,4,0.23120278466123362,False,True,True
+flu symptoms,4,0.09740666386284164,False,True,False
+symptoms of flu,4,0.1011392863011887,False,True,True
+influenza a symptoms,4,0.6215026752147725,False,True,False
+the flu,4,0.9442074563160763,False,True,True
+bronchitis,4,0.8558212396841969,False,True,True
+contagious flu,4,0.37976576785195815,False,True,True
+flu a,4,0.10272459166186876,False,True,True
+influenza b,4,0.04459144181899214,True,False,False
+influenza symptoms,4,0.008248781790280577,True,True,True
+flu cold,5,0.8960703482486676,False,False,False
+influenza a,5,0.04774307931830617,True,True,True
+flu symptoms,5,0.3365291349082593,False,True,False
+symptoms of flu,5,0.0996798680056381,False,True,True
+influenza a symptoms,5,0.544783587572828,False,True,False
+the flu,5,5.148853592169795e-05,True,True,True
+bronchitis,5,0.323212230516033,False,True,True
+contagious flu,5,0.01273476034231387,True,True,True
+flu a,5,0.13236665956233182,False,True,True
+influenza b,5,0.0686667869780515,False,False,False
+influenza symptoms,5,0.6088818372721709,False,True,True

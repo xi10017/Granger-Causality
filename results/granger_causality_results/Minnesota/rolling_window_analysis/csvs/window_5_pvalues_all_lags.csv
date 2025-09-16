@@ -1,0 +1,36 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+influenza a,1,0.03163030484430648,True,False,False
+stomach flu,1,0.27415463230949916,False,False,False
+influenza a symptoms,1,0.003439561567803968,True,True,False
+a influenza,1,0.031630304864511134,True,False,False
+influenza contagious,1,0.44433088118725295,False,False,False
+symptoms of influenza,1,0.000646375931855939,True,True,True
+how long contagious,1,0.5797333767531445,False,False,False
+influenza a,2,0.09861457716498043,False,False,False
+stomach flu,2,0.06472672368292884,False,False,False
+influenza a symptoms,2,0.8984918021545896,False,True,False
+a influenza,2,0.09861457717329497,False,False,False
+influenza contagious,2,0.04969924373782909,True,False,False
+symptoms of influenza,2,0.04992803563580925,True,True,True
+how long contagious,2,0.8552914644484032,False,False,False
+influenza a,3,0.6061259298362585,False,False,False
+stomach flu,3,0.4441123555948481,False,False,False
+influenza a symptoms,3,0.39255009532090535,False,True,False
+a influenza,3,0.6061259298096691,False,False,False
+influenza contagious,3,0.28606212806839704,False,False,False
+symptoms of influenza,3,0.99904842520065,False,True,True
+how long contagious,3,0.20731693807923227,False,False,False
+influenza a,4,0.8796988400201171,False,False,False
+stomach flu,4,0.02408730272951959,True,False,False
+influenza a symptoms,4,0.9365850422760781,False,True,False
+a influenza,4,0.8796988399990746,False,False,False
+influenza contagious,4,0.7103008649074385,False,False,False
+symptoms of influenza,4,0.6354586806904843,False,True,True
+how long contagious,4,0.020034908754380118,True,False,False
+influenza a,5,0.12859812385126468,False,False,False
+stomach flu,5,0.6407474639461013,False,False,False
+influenza a symptoms,5,0.32460354428273974,False,True,False
+a influenza,5,0.12859812385549477,False,False,False
+influenza contagious,5,0.9472985917689187,False,False,False
+symptoms of influenza,5,0.3287154124149331,False,True,True
+how long contagious,5,0.2722271273572391,False,False,False

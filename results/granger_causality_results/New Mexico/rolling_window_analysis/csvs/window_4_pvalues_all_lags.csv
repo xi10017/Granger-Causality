@@ -1,0 +1,61 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+flu cold,1,0.0826315534749375,False,True,True
+influenza a,1,0.7636848303312838,False,True,False
+fever flu,1,0.006741715165093554,True,True,False
+symptoms of flu,1,0.016463851919354296,True,True,False
+pneumonia,1,0.014948037981910868,True,True,False
+a influenza,1,0.38756550563727565,False,False,False
+the flu,1,0.9776009330865509,False,True,True
+sinus,1,0.11842716675500925,False,True,False
+how long flu,1,0.8546988694242567,False,True,True
+how long does flu last,1,0.5845198663221344,False,True,False
+bronchitis,1,0.024149861316674914,True,True,False
+flu how long,1,0.854698869995536,False,True,True
+flu cold,2,0.5028261428416168,False,True,True
+influenza a,2,0.36852811178402145,False,True,False
+fever flu,2,0.5739379506988629,False,True,False
+symptoms of flu,2,0.12833521338962958,False,True,False
+pneumonia,2,0.3644363850429937,False,True,False
+a influenza,2,0.7757104766071216,False,False,False
+the flu,2,0.5820110049466285,False,True,True
+sinus,2,0.5148508549864412,False,True,False
+how long flu,2,0.4387730560615509,False,True,True
+how long does flu last,2,0.02179257499090551,True,True,False
+bronchitis,2,0.8070427037887509,False,True,False
+flu how long,2,0.4387730567396325,False,True,True
+flu cold,3,0.5597196774872919,False,True,True
+influenza a,3,0.9668987039389678,False,True,False
+fever flu,3,0.8038870151337694,False,True,False
+symptoms of flu,3,0.03526981709210538,True,True,False
+pneumonia,3,0.4733381470664739,False,True,False
+a influenza,3,0.08545337683271192,False,False,False
+the flu,3,7.398644556835003e-05,True,True,True
+sinus,3,0.6528563474871473,False,True,False
+how long flu,3,0.29170917373643573,False,True,True
+how long does flu last,3,0.5070136095269471,False,True,False
+bronchitis,3,0.5590866929269644,False,True,False
+flu how long,3,0.29170917364793575,False,True,True
+flu cold,4,0.002474154735872804,True,True,True
+influenza a,4,0.014554349840447055,True,True,False
+fever flu,4,0.8542393117987936,False,True,False
+symptoms of flu,4,0.012260605817177297,True,True,False
+pneumonia,4,0.4656792433271746,False,True,False
+a influenza,4,0.48715137911332285,False,False,False
+the flu,4,0.4155971489056419,False,True,True
+sinus,4,0.016877279956406546,True,True,False
+how long flu,4,0.39630520252453827,False,True,True
+how long does flu last,4,0.2647509699052006,False,True,False
+bronchitis,4,0.5387039190621753,False,True,False
+flu how long,4,0.39630520247043166,False,True,True
+flu cold,5,0.4851523546736167,False,True,True
+influenza a,5,0.818626922184103,False,True,False
+fever flu,5,0.03580888010593289,True,True,False
+symptoms of flu,5,0.6946653628206123,False,True,False
+pneumonia,5,0.3058647995730967,False,True,False
+a influenza,5,0.040319961701242246,True,False,False
+the flu,5,0.44898944964271614,False,True,True
+sinus,5,0.03778082275631985,True,True,False
+how long flu,5,0.0014516978039173273,True,True,True
+how long does flu last,5,0.5832033751426424,False,True,False
+bronchitis,5,0.2998781318245082,False,True,False
+flu how long,5,0.0014516978037596411,True,True,True

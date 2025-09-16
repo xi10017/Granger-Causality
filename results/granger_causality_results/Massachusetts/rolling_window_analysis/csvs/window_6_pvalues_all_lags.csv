@@ -1,0 +1,26 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+cold,1,0.10313608054559563,False,False,False
+flu symptoms,1,0.1327865468890105,False,False,False
+symptoms of flu,1,0.9292748203259604,False,False,False
+contagious flu,1,0.4649718072710689,False,False,False
+the flu symptoms,1,0.6062435937917805,False,True,True
+cold,2,0.02619598154228099,True,False,False
+flu symptoms,2,0.1706870545543186,False,False,False
+symptoms of flu,2,0.32575252780432196,False,False,False
+contagious flu,2,0.7447135433572228,False,False,False
+the flu symptoms,2,4.6903534124352794e-05,True,True,True
+cold,3,0.356513739835444,False,False,False
+flu symptoms,3,0.06281732880278773,False,False,False
+symptoms of flu,3,0.02004515306446783,True,False,False
+contagious flu,3,0.3795029346967642,False,False,False
+the flu symptoms,3,0.21954250139521297,False,True,True
+cold,4,0.30324039736626124,False,False,False
+flu symptoms,4,0.01838994344973481,True,False,False
+symptoms of flu,4,0.5780461965488897,False,False,False
+contagious flu,4,0.821450580679706,False,False,False
+the flu symptoms,4,0.16295569626577985,False,True,True
+cold,5,0.5044317772706051,False,False,False
+flu symptoms,5,0.49053451526530156,False,False,False
+symptoms of flu,5,0.2348475390914183,False,False,False
+contagious flu,5,0.033838810955902625,True,False,False
+the flu symptoms,5,0.17296120027881381,False,True,True

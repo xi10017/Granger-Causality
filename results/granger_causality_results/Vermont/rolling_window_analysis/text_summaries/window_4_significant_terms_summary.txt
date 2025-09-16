@@ -1,0 +1,36 @@
+================================================================================
+ROLLING WINDOW GRANGER CAUSALITY ANALYSIS - WINDOW_4
+================================================================================
+
+Time Period: 2013-08 to 2016-08
+Data Points: 161
+Terms Tested: 20
+
+SIGNIFICANT TERMS COUNTS:
+  Raw significant terms: 10 (50.0%)
+  FDR significant terms: 3 (15.0%)
+  Bonferroni significant terms: 2 (10.0%)
+
+SIGNIFICANT TERMS LISTS:
+Raw significant terms (10):
+  - bronchitis
+  - contagious flu
+  - flu fever
+  - flu how long
+  - flu symptoms
+  - how long flu
+  - influenza a
+  - pneumonia
+  - stomach flu
+  - the flu symptoms
+
+FDR significant terms (3):
+  - flu how long
+  - how long flu
+  - influenza a
+
+Bonferroni significant terms (2):
+  - flu how long
+  - how long flu
+
+================================================================================

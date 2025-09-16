@@ -1,0 +1,46 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+symptoms of flu,1,0.3504884089273742,False,False,False
+pneumonia,1,0.45198689276353365,False,False,False
+sinus,1,0.5644216030891586,False,False,False
+how long flu,1,0.5252210674993677,False,False,False
+how long does flu last,1,0.028911207318009568,True,False,False
+rsv,1,0.5777756664493967,False,False,False
+flu how long,1,0.5252210639773842,False,False,False
+the flu symptoms,1,0.2546360565837444,False,False,False
+strep,1,0.049541142511800564,True,False,False
+symptoms of flu,2,0.9376532858532345,False,False,False
+pneumonia,2,0.11832381321103065,False,False,False
+sinus,2,0.5462519870299427,False,False,False
+how long flu,2,0.24182126088130582,False,False,False
+how long does flu last,2,0.8249788182539437,False,False,False
+rsv,2,0.7572354940177709,False,False,False
+flu how long,2,0.24182126087707684,False,False,False
+the flu symptoms,2,0.9126972784401799,False,False,False
+strep,2,0.4033693453331124,False,False,False
+symptoms of flu,3,0.004989922533230788,True,False,False
+pneumonia,3,0.04746971395609021,True,False,False
+sinus,3,0.9004790377358052,False,False,False
+how long flu,3,0.016013291082143825,True,False,False
+how long does flu last,3,0.2758278513257638,False,False,False
+rsv,3,0.8041782319238362,False,False,False
+flu how long,3,0.016013291075061366,True,False,False
+the flu symptoms,3,0.031191199535286138,True,False,False
+strep,3,0.31524117518967887,False,False,False
+symptoms of flu,4,0.7351129522100861,False,False,False
+pneumonia,4,0.27392623953925094,False,False,False
+sinus,4,0.00890039476236706,True,False,False
+how long flu,4,0.6040970865685099,False,False,False
+how long does flu last,4,0.7098452429975852,False,False,False
+rsv,4,0.229433796359993,False,False,False
+flu how long,4,0.6040970865972906,False,False,False
+the flu symptoms,4,0.23288897880648893,False,False,False
+strep,4,0.8154827136650715,False,False,False
+symptoms of flu,5,0.48986585624514445,False,False,False
+pneumonia,5,0.04292860036738588,True,False,False
+sinus,5,0.8475659779410527,False,False,False
+how long flu,5,0.6845150391624124,False,False,False
+how long does flu last,5,0.045332762281478034,True,False,False
+rsv,5,0.015351737884173771,True,False,False
+flu how long,5,0.6845150392754558,False,False,False
+the flu symptoms,5,0.12038810721399804,False,False,False
+strep,5,0.5470424188018788,False,False,False

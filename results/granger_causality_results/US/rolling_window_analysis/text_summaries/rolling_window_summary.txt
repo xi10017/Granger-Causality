@@ -1,0 +1,90 @@
+================================================================================
+ROLLING WINDOW GRANGER CAUSALITY ANALYSIS - SUMMARY
+================================================================================
+
+ANALYSIS CONFIGURATION:
+  Data file: US_2010_2020.csv
+  Response variable: US
+  Window length: 3 years
+  Step size: 1 years
+  Time period: 2010-08 to 2020-08
+  Max lags: 5
+
+WINDOW SUMMARY:
+  Total windows: 8
+  Successful windows: 8
+  Failed windows: 0
+
+SIGNIFICANCE RATES:
+  Raw significance rate: 0.325
+  FDR significance rate: 0.087
+  Bonferroni significance rate: 0.031
+
+TERMS SIGNIFICANT AT LEAST ONCE:
+  Raw significant terms: 20
+  FDR significant terms: 12
+  Bonferroni significant terms: 5
+
+TERMS SIGNIFICANT ACROSS WINDOWS:
+  Raw significant terms (showing window counts out of 8 total):
+    flu remedies: 5/8 windows
+    tamiflu side effects: 4/8 windows
+    how long contagious: 4/8 windows
+    get rid of flu: 3/8 windows
+    incubation period flu: 3/8 windows
+    flu type: 3/8 windows
+    how long are you contagious: 3/8 windows
+    flu contagious: 3/8 windows
+    get rid of the flu: 3/8 windows
+    how long is the flu contagious: 2/8 windows
+    is flu contagious: 2/8 windows
+    how long is flu contagious: 2/8 windows
+    is the flu contagious: 2/8 windows
+    fever and cough: 2/8 windows
+    how contagious is the flu: 2/8 windows
+    type a flu: 2/8 windows
+    flu type a: 2/8 windows
+    cough fever: 2/8 windows
+    fever cough: 2/8 windows
+    contagious flu: 1/8 windows
+
+  FDR significant terms (showing window counts out of 8 total):
+    tamiflu side effects: 2/8 windows
+    flu remedies: 2/8 windows
+    how long is the flu contagious: 1/8 windows
+    cough fever: 1/8 windows
+    how contagious is the flu: 1/8 windows
+    fever cough: 1/8 windows
+    flu type: 1/8 windows
+    contagious flu: 1/8 windows
+    get rid of the flu: 1/8 windows
+    how long contagious: 1/8 windows
+    flu contagious: 1/8 windows
+    incubation period flu: 1/8 windows
+
+  Bonferroni significant terms (showing window counts out of 8 total):
+    how long is the flu contagious: 1/8 windows
+    tamiflu side effects: 1/8 windows
+    flu contagious: 1/8 windows
+    flu remedies: 1/8 windows
+    incubation period flu: 1/8 windows
+
+DETAILED RESULTS BY WINDOW:
+  window_1 (2010-08 to 2013-08):
+    Raw: 2, FDR: 0, Bonferroni: 0
+  window_2 (2011-08 to 2014-08):
+    Raw: 7, FDR: 1, Bonferroni: 1
+  window_3 (2012-08 to 2015-08):
+    Raw: 5, FDR: 1, Bonferroni: 1
+  window_4 (2013-08 to 2016-08):
+    Raw: 8, FDR: 0, Bonferroni: 0
+  window_5 (2014-08 to 2017-08):
+    Raw: 13, FDR: 10, Bonferroni: 1
+  window_6 (2015-08 to 2018-08):
+    Raw: 6, FDR: 0, Bonferroni: 0
+  window_7 (2016-08 to 2019-08):
+    Raw: 5, FDR: 1, Bonferroni: 1
+  window_8 (2017-08 to 2020-08):
+    Raw: 6, FDR: 1, Bonferroni: 1
+
+================================================================================

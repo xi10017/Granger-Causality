@@ -1,0 +1,6 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+pneumonia,1,0.17928941173003682,False,False,False
+pneumonia,2,0.873086960518657,False,False,False
+pneumonia,3,0.02895452495611317,True,False,False
+pneumonia,4,0.6783602879050525,False,False,False
+pneumonia,5,0.5520898975735011,False,False,False

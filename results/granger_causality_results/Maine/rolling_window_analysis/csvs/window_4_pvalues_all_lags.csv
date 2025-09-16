@@ -1,0 +1,6 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+the flu,1,0.2283138755656189,False,True,True
+the flu,2,0.0007422332575332582,True,True,True
+the flu,3,0.7551717778891831,False,True,True
+the flu,4,0.09812340509044049,False,True,True
+the flu,5,0.13212246184408694,False,True,True

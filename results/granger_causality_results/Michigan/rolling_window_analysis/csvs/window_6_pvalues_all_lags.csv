@@ -1,0 +1,36 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+flu cold,1,0.3029598349109395,False,False,False
+stomach flu,1,0.9444215335095393,False,False,False
+bronchitis,1,0.361791125699367,False,False,False
+how long flu,1,0.04632209247584431,True,False,False
+flu a,1,0.5929147454214614,False,False,False
+rsv,1,0.12693427268308677,False,False,False
+influenza symptoms,1,0.2539182447729914,False,False,False
+flu cold,2,0.20092486644792565,False,False,False
+stomach flu,2,0.07086807512526752,False,False,False
+bronchitis,2,0.45979740597260577,False,False,False
+how long flu,2,0.12298390262557331,False,False,False
+flu a,2,0.40135677771730016,False,False,False
+rsv,2,0.02468074042600073,True,False,False
+influenza symptoms,2,0.037685208638734244,True,False,False
+flu cold,3,0.669277960059657,False,False,False
+stomach flu,3,0.8216797786501199,False,False,False
+bronchitis,3,0.4270937743607853,False,False,False
+how long flu,3,0.5963336363443549,False,False,False
+flu a,3,0.007979952141575002,True,False,False
+rsv,3,0.06257606088505349,False,False,False
+influenza symptoms,3,0.41864244343313184,False,False,False
+flu cold,4,0.8133962028709482,False,False,False
+stomach flu,4,0.08479876198298283,False,False,False
+bronchitis,4,0.8899720337939984,False,False,False
+how long flu,4,0.05528515278127544,False,False,False
+flu a,4,0.9454688830721594,False,False,False
+rsv,4,0.7759918795320875,False,False,False
+influenza symptoms,4,0.8987761244680044,False,False,False
+flu cold,5,0.007331772814783316,True,False,False
+stomach flu,5,0.022449842062236953,True,False,False
+bronchitis,5,0.037596828102057,True,False,False
+how long flu,5,0.2894916749768155,False,False,False
+flu a,5,0.47832648832644986,False,False,False
+rsv,5,0.894429298548256,False,False,False
+influenza symptoms,5,0.6531113829046662,False,False,False

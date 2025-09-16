@@ -1,0 +1,41 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+influenza a,1,0.25412142963166245,False,False,False
+pneumonia,1,0.1031118071860194,False,False,False
+influenza a symptoms,1,0.019581425680561537,True,False,False
+a influenza,1,0.25412142976061547,False,False,False
+symptoms of influenza,1,0.0009334448162952705,True,True,True
+rsv,1,0.19601548694203316,False,False,False
+influenza b,1,0.6306937379987579,False,False,False
+how long contagious,1,0.5141242166602971,False,False,False
+influenza a,2,0.2916209784592375,False,False,False
+pneumonia,2,0.14097726938855193,False,False,False
+influenza a symptoms,2,0.9197061536026747,False,False,False
+a influenza,2,0.29162097846793017,False,False,False
+symptoms of influenza,2,0.8710887728495269,False,True,True
+rsv,2,0.0610206269809902,False,False,False
+influenza b,2,0.5592430123069627,False,False,False
+how long contagious,2,0.4029685649399336,False,False,False
+influenza a,3,0.9680316970593784,False,False,False
+pneumonia,3,0.7114884149190603,False,False,False
+influenza a symptoms,3,0.8040820593708093,False,False,False
+a influenza,3,0.9680316970884788,False,False,False
+symptoms of influenza,3,0.7071946224796599,False,True,True
+rsv,3,0.6614217917507899,False,False,False
+influenza b,3,0.21424208888004276,False,False,False
+how long contagious,3,0.5063240480141579,False,False,False
+influenza a,4,0.885926342693937,False,False,False
+pneumonia,4,0.9561515799331317,False,False,False
+influenza a symptoms,4,0.8400612783623514,False,False,False
+a influenza,4,0.8859263426717616,False,False,False
+symptoms of influenza,4,0.47703314699008237,False,True,True
+rsv,4,0.01949142019490036,True,False,False
+influenza b,4,0.007109538627841297,True,False,False
+how long contagious,4,0.028187314151446097,True,False,False
+influenza a,5,0.04339062401205368,True,False,False
+pneumonia,5,0.03646423180179687,True,False,False
+influenza a symptoms,5,0.30202046986825354,False,False,False
+a influenza,5,0.04339062401087156,True,False,False
+symptoms of influenza,5,0.5319938000361997,False,True,True
+rsv,5,0.5258433577916608,False,False,False
+influenza b,5,0.39440277990896755,False,False,False
+how long contagious,5,0.8924361345295251,False,False,False

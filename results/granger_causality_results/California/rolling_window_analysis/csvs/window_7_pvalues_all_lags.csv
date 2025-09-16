@@ -1,0 +1,61 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+cold symptoms,1,0.02458157740550636,True,False,False
+flu fever,1,0.15181000934822794,False,True,False
+fever flu,1,0.15181000937308572,False,True,False
+how long does the flu last,1,0.028595653013177635,True,False,False
+stomach flu,1,0.40786594597406667,False,False,False
+how long flu,1,0.8330248940061511,False,False,False
+how long contagious,1,0.49615060207730055,False,True,False
+rsv,1,0.03479219962022117,True,False,False
+flu how long,1,0.41164932445640423,False,True,False
+symptoms of pneumonia,1,0.6067843448623429,False,True,True
+robitussin,1,0.00847364442318866,True,True,False
+stomach flu symptoms,1,0.039054329033188624,True,False,False
+cold symptoms,2,0.5669997295085933,False,False,False
+flu fever,2,0.26022348588967276,False,True,False
+fever flu,2,0.2602234858823387,False,True,False
+how long does the flu last,2,0.34468419815261764,False,False,False
+stomach flu,2,0.1657939413622643,False,False,False
+how long flu,2,0.037406173877845186,True,False,False
+how long contagious,2,0.24627020178361061,False,True,False
+rsv,2,0.0866190856951729,False,False,False
+flu how long,2,0.012384021539463693,True,True,False
+symptoms of pneumonia,2,0.1258839759031755,False,True,True
+robitussin,2,0.8865923611369396,False,True,False
+stomach flu symptoms,2,0.10945648611418231,False,False,False
+cold symptoms,3,0.4984621626155983,False,False,False
+flu fever,3,0.018008216337600854,True,True,False
+fever flu,3,0.018008216339614424,True,True,False
+how long does the flu last,3,0.9564226806294943,False,False,False
+stomach flu,3,0.6354402840400213,False,False,False
+how long flu,3,0.8028655764318371,False,False,False
+how long contagious,3,0.5942391627484724,False,True,False
+rsv,3,0.17080286463949587,False,False,False
+flu how long,3,0.5960871934291941,False,True,False
+symptoms of pneumonia,3,0.0018897809036609711,True,True,True
+robitussin,3,0.010979941163913518,True,True,False
+stomach flu symptoms,3,0.028482053474161502,True,False,False
+cold symptoms,4,0.22333147730815556,False,False,False
+flu fever,4,0.010946097074106853,True,True,False
+fever flu,4,0.010946097074167592,True,True,False
+how long does the flu last,4,0.46874431236145664,False,False,False
+stomach flu,4,0.15953512858846056,False,False,False
+how long flu,4,0.37350317908796304,False,False,False
+how long contagious,4,0.00974145127492335,True,True,False
+rsv,4,0.09229214819822106,False,False,False
+flu how long,4,0.6423575089583156,False,True,False
+symptoms of pneumonia,4,0.6514903295926004,False,True,True
+robitussin,4,0.4900403085423817,False,True,False
+stomach flu symptoms,4,0.4980443569140043,False,False,False
+cold symptoms,5,0.20142123627921663,False,False,False
+flu fever,5,0.5131642233791158,False,True,False
+fever flu,5,0.513164223377241,False,True,False
+how long does the flu last,5,0.7680182088706792,False,False,False
+stomach flu,5,0.03721725693382274,True,False,False
+how long flu,5,0.2049328179743417,False,False,False
+how long contagious,5,0.29856201945663563,False,True,False
+rsv,5,0.029819548623635322,True,False,False
+flu how long,5,0.3032299390925531,False,True,False
+symptoms of pneumonia,5,0.6723365406089757,False,True,True
+robitussin,5,0.1258118590406799,False,True,False
+stomach flu symptoms,5,0.19531198791607793,False,False,False

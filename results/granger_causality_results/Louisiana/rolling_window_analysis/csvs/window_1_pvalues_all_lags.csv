@@ -1,0 +1,56 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+cold,1,0.016712948822476117,True,True,False
+flu symptoms,1,0.03620967428360657,True,False,False
+oscillococcinum,1,0.021771618935001357,True,True,False
+the flu,1,0.036096628238890774,True,False,False
+flu type,1,0.35778440586472093,False,False,False
+bronchitis,1,0.031622709919251396,True,True,False
+how long flu,1,0.0028622203017947072,True,True,False
+is flu contagious,1,0.3940117790068287,False,False,False
+rsv,1,0.003646287627136924,True,True,False
+flu how long,1,0.7521260915574001,False,True,False
+the flu symptoms,1,0.5354926909120289,False,True,True
+cold,2,0.48909261877884436,False,True,False
+flu symptoms,2,0.06477961119869337,False,False,False
+oscillococcinum,2,0.352864034121822,False,True,False
+the flu,2,0.868200557287856,False,False,False
+flu type,2,0.04386174632628407,True,False,False
+bronchitis,2,0.5317715844047084,False,True,False
+how long flu,2,0.43683507107519826,False,True,False
+is flu contagious,2,0.6264630792179933,False,False,False
+rsv,2,0.4491203007716691,False,True,False
+flu how long,2,0.9341346078295529,False,True,False
+the flu symptoms,2,0.6808465458642285,False,True,True
+cold,3,0.06420420583426842,False,True,False
+flu symptoms,3,0.2068116694733953,False,False,False
+oscillococcinum,3,0.010164510203053017,True,True,False
+the flu,3,0.06280000788496215,False,False,False
+flu type,3,0.6271728312311877,False,False,False
+bronchitis,3,0.17972377188596556,False,True,False
+how long flu,3,0.45333195897717726,False,True,False
+is flu contagious,3,0.9134994375582766,False,False,False
+rsv,3,0.05604093932551311,False,True,False
+flu how long,3,0.2408031843033111,False,True,False
+the flu symptoms,3,0.6865324754429752,False,True,True
+cold,4,0.47699406029685765,False,True,False
+flu symptoms,4,0.48707910870015203,False,False,False
+oscillococcinum,4,0.29117776324495637,False,True,False
+the flu,4,0.2724066359415566,False,False,False
+flu type,4,0.6415230806701839,False,False,False
+bronchitis,4,0.016323804052951776,True,True,False
+how long flu,4,0.3544235478756219,False,True,False
+is flu contagious,4,0.1063582617897462,False,False,False
+rsv,4,0.5332576101999665,False,True,False
+flu how long,4,0.008558235580138195,True,True,False
+the flu symptoms,4,0.002183398860460807,True,True,True
+cold,5,0.07259196854769541,False,True,False
+flu symptoms,5,0.16932279065756067,False,False,False
+oscillococcinum,5,0.077355457822653,False,True,False
+the flu,5,0.38721263442678777,False,False,False
+flu type,5,0.4309067788135966,False,False,False
+bronchitis,5,0.6160175795360948,False,True,False
+how long flu,5,0.6044466531569808,False,True,False
+is flu contagious,5,0.029834628862064515,True,False,False
+rsv,5,0.12113560740475443,False,True,False
+flu how long,5,0.6481137540840436,False,True,False
+the flu symptoms,5,0.7987476711463695,False,True,True

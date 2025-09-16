@@ -1,0 +1,36 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+flu cold,1,0.09196010618175447,False,False,False
+fever flu,1,0.0008689982794129359,True,True,True
+flu symptoms,1,0.004621175665305742,True,True,False
+symptoms of flu,1,0.04757214077634076,True,True,True
+bronchitis,1,0.5731481180474378,False,False,False
+how long flu,1,0.026090827793698455,True,False,False
+rsv,1,0.8136790228938067,False,False,False
+flu cold,2,0.5672210637973434,False,False,False
+fever flu,2,0.048310533572824436,True,True,True
+flu symptoms,2,0.5194519554454923,False,True,False
+symptoms of flu,2,0.19845121065517127,False,True,True
+bronchitis,2,0.24535918854478897,False,False,False
+how long flu,2,0.13835226824659885,False,False,False
+rsv,2,0.03837739216482108,True,False,False
+flu cold,3,0.04130833511773371,True,False,False
+fever flu,3,0.9792001111657984,False,True,True
+flu symptoms,3,0.8408225493591184,False,True,False
+symptoms of flu,3,0.7846692104335892,False,True,True
+bronchitis,3,0.5554618941256863,False,False,False
+how long flu,3,0.42703889142366225,False,False,False
+rsv,3,0.3086066551922537,False,False,False
+flu cold,4,0.04639660216791612,True,False,False
+fever flu,4,0.8819547656667563,False,True,True
+flu symptoms,4,0.39562376146013334,False,True,False
+symptoms of flu,4,0.0021327900913245177,True,True,True
+bronchitis,4,0.047047935232122966,True,False,False
+how long flu,4,0.6554710849245524,False,False,False
+rsv,4,0.012854867670653268,True,False,False
+flu cold,5,0.633315210299433,False,False,False
+fever flu,5,0.08764538091238132,False,True,True
+flu symptoms,5,0.8174857069037698,False,True,False
+symptoms of flu,5,0.5531854972199279,False,True,True
+bronchitis,5,0.27434504705554047,False,False,False
+how long flu,5,0.18661392351263212,False,False,False
+rsv,5,0.13023737106397462,False,False,False

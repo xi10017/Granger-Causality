@@ -1,0 +1,36 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+flu symptoms,1,0.002469852493667644,True,True,True
+a influenza,1,0.9374833687414309,False,False,False
+symptoms of flu,1,0.43050296519389375,False,False,False
+bronchitis,1,0.361816993059184,False,False,False
+how long does flu last,1,0.18015773820959927,False,False,False
+flu a,1,0.9929618008865563,False,False,False
+rsv,1,0.8404726019696325,False,False,False
+flu symptoms,2,0.2314214425136363,False,True,True
+a influenza,2,0.8766000498972646,False,False,False
+symptoms of flu,2,0.027218419127858776,True,False,False
+bronchitis,2,0.20368093455778016,False,False,False
+how long does flu last,2,0.014139268608725136,True,False,False
+flu a,2,0.8691902554081137,False,False,False
+rsv,2,0.09818629356315445,False,False,False
+flu symptoms,3,0.47623774302143274,False,True,True
+a influenza,3,0.47151733179391897,False,False,False
+symptoms of flu,3,0.9472683272055578,False,False,False
+bronchitis,3,0.7583760597504581,False,False,False
+how long does flu last,3,0.8382847525344664,False,False,False
+flu a,3,0.04730358164858754,True,False,False
+rsv,3,0.32697970015590105,False,False,False
+flu symptoms,4,0.8154703274337257,False,True,True
+a influenza,4,0.007862958723929723,True,False,False
+symptoms of flu,4,0.3164205376751181,False,False,False
+bronchitis,4,0.4605644359070591,False,False,False
+how long does flu last,4,0.36319867434291586,False,False,False
+flu a,4,0.6948228975218955,False,False,False
+rsv,4,0.197519302727576,False,False,False
+flu symptoms,5,0.24002665908633974,False,True,True
+a influenza,5,0.8929459893905105,False,False,False
+symptoms of flu,5,0.4440210675922619,False,False,False
+bronchitis,5,0.04574608692766441,True,False,False
+how long does flu last,5,0.8136512246983792,False,False,False
+flu a,5,0.6425871373137894,False,False,False
+rsv,5,0.03449150101478784,True,False,False

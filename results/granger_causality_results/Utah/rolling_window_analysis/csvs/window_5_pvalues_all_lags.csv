@@ -1,0 +1,26 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+influenza a,1,0.5785051066973548,False,False,False
+symptoms of flu,1,0.17319536636953928,False,False,False
+a influenza,1,0.5785051053170334,False,False,False
+the flu,1,0.5998581108965635,False,False,False
+bronchitis,1,0.09858954869211421,False,False,False
+influenza a,2,0.03490070276928481,True,False,False
+symptoms of flu,2,0.43387162417870373,False,False,False
+a influenza,2,0.034900702747599405,True,False,False
+the flu,2,0.9302851709828217,False,False,False
+bronchitis,2,0.08886549971059764,False,False,False
+influenza a,3,0.9145390169101686,False,False,False
+symptoms of flu,3,0.00917383549703041,True,False,False
+a influenza,3,0.9145390166640286,False,False,False
+the flu,3,0.19241768615807142,False,False,False
+bronchitis,3,0.776077977824997,False,False,False
+influenza a,4,0.023726747372277274,True,False,False
+symptoms of flu,4,0.6810572270822031,False,False,False
+a influenza,4,0.02372674735928294,True,False,False
+the flu,4,0.042973399288509156,True,False,False
+bronchitis,4,0.032836528456287435,True,False,False
+influenza a,5,0.5140700821799964,False,False,False
+symptoms of flu,5,0.24143559951677945,False,False,False
+a influenza,5,0.5140700820531912,False,False,False
+the flu,5,0.037036284355611196,True,False,False
+bronchitis,5,0.5815551392422367,False,False,False

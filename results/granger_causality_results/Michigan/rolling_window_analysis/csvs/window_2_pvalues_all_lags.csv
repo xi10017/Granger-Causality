@@ -1,0 +1,6 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+symptoms of flu,1,0.023745198362585557,True,False,False
+symptoms of flu,2,0.8155039096517057,False,False,False
+symptoms of flu,3,0.9150990116743826,False,False,False
+symptoms of flu,4,0.5107872756989573,False,False,False
+symptoms of flu,5,0.8898891636646566,False,False,False

@@ -1,0 +1,31 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+cough fever,1,0.14954740370427955,False,False,False
+fever cough,1,0.18574361563729144,False,False,False
+incubation period flu,1,0.455322169386986,False,False,False
+flu remedies,1,0.03118384256365844,True,False,False
+get rid of the flu,1,0.623044563404739,False,False,False
+how long contagious,1,0.19700718687357682,False,False,False
+cough fever,2,0.7986773861680364,False,False,False
+fever cough,2,0.6728533075739433,False,False,False
+incubation period flu,2,0.3502854317265537,False,False,False
+flu remedies,2,0.93794055429407,False,False,False
+get rid of the flu,2,0.8558327390650842,False,False,False
+how long contagious,2,0.047953856259715114,True,False,False
+cough fever,3,0.04117347509636015,True,False,False
+fever cough,3,0.02429632959185147,True,False,False
+incubation period flu,3,0.048157212025028304,True,False,False
+flu remedies,3,0.47774579596144096,False,False,False
+get rid of the flu,3,0.017694257310150487,True,False,False
+how long contagious,3,0.5664768295808402,False,False,False
+cough fever,4,0.932240603927655,False,False,False
+fever cough,4,0.9776736836503586,False,False,False
+incubation period flu,4,0.3555631024860223,False,False,False
+flu remedies,4,0.7545797662601932,False,False,False
+get rid of the flu,4,0.42355444461536884,False,False,False
+how long contagious,4,0.3941387858886942,False,False,False
+cough fever,5,0.4643318110336577,False,False,False
+fever cough,5,0.3113002980635141,False,False,False
+incubation period flu,5,0.10043000419269806,False,False,False
+flu remedies,5,0.36267572613337684,False,False,False
+get rid of the flu,5,0.7184377987758164,False,False,False
+how long contagious,5,0.0883994737124464,False,False,False

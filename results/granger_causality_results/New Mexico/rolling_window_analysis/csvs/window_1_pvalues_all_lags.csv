@@ -1,0 +1,31 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+influenza a,1,0.08855160904125815,False,False,False
+a influenza,1,0.5616700417045548,False,False,False
+contagious flu,1,0.2734532424359458,False,True,True
+how long does flu last,1,0.7259433045232905,False,True,False
+rsv,1,0.16554405538529898,False,False,False
+flu contagious,1,0.2734532423689118,False,True,True
+influenza a,2,0.08641700047433819,False,False,False
+a influenza,2,0.03292779760455647,True,False,False
+contagious flu,2,0.00019589188855924315,True,True,True
+how long does flu last,2,0.6224751628761509,False,True,False
+rsv,2,0.6335077103790696,False,False,False
+flu contagious,2,0.0001958918885476194,True,True,True
+influenza a,3,0.48068120467981335,False,False,False
+a influenza,3,0.8963300813997969,False,False,False
+contagious flu,3,0.13483863963282608,False,True,True
+how long does flu last,3,0.005415481730877794,True,True,False
+rsv,3,0.07345946478124395,False,False,False
+flu contagious,3,0.1348386396216183,False,True,True
+influenza a,4,0.04843245143290979,True,False,False
+a influenza,4,0.24742455888901257,False,False,False
+contagious flu,4,0.2145893838063326,False,True,True
+how long does flu last,4,0.20364626399096153,False,True,False
+rsv,4,0.010633786689400687,True,False,False
+flu contagious,4,0.21458938380803833,False,True,True
+influenza a,5,0.9461972993847989,False,False,False
+a influenza,5,0.49271394213774367,False,False,False
+contagious flu,5,0.18904443985273464,False,True,True
+how long does flu last,5,0.6343356366316479,False,True,False
+rsv,5,0.25147886425594707,False,False,False
+flu contagious,5,0.18904443984381758,False,True,True

@@ -1,0 +1,36 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+influenza a,1,0.09909439261765284,False,False,False
+flu fever,1,0.09427259878428988,False,False,False
+fever flu,1,0.09427259876897767,False,False,False
+cold,1,0.7714318264252334,False,False,False
+a influenza,1,0.09909439261091407,False,False,False
+contagious flu,1,0.00020603647604786022,True,True,True
+rsv,1,0.1474251139787563,False,False,False
+influenza a,2,0.5009614252460979,False,False,False
+flu fever,2,0.9906268681671133,False,False,False
+fever flu,2,0.9906268681536914,False,False,False
+cold,2,0.270432283728682,False,False,False
+a influenza,2,0.5009614252376247,False,False,False
+contagious flu,2,0.7935278065667002,False,True,True
+rsv,2,0.2314723593809342,False,False,False
+influenza a,3,0.03762279512742442,True,False,False
+flu fever,3,0.1856090096043052,False,False,False
+fever flu,3,0.18560900961831206,False,False,False
+cold,3,0.12866204753653868,False,False,False
+a influenza,3,0.03762279512612107,True,False,False
+contagious flu,3,0.9347376360084275,False,True,True
+rsv,3,0.43565090560989894,False,False,False
+influenza a,4,0.9704613570154079,False,False,False
+flu fever,4,0.5454737766124731,False,False,False
+fever flu,4,0.5454737766281527,False,False,False
+cold,4,0.3707610161752565,False,False,False
+a influenza,4,0.9704613569952498,False,False,False
+contagious flu,4,0.984741779562458,False,True,True
+rsv,4,0.7418021860344256,False,False,False
+influenza a,5,0.04757980120399897,True,False,False
+flu fever,5,0.025482572130365408,True,False,False
+fever flu,5,0.02548257212933236,True,False,False
+cold,5,0.012338912778806251,True,False,False
+a influenza,5,0.04757980120161176,True,False,False
+contagious flu,5,0.8759085079744408,False,True,True
+rsv,5,0.039299971565519926,True,False,False

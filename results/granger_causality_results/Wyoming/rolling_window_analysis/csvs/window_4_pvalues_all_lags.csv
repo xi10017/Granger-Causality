@@ -1,0 +1,31 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+influenza a,1,0.014047726539865253,True,False,False
+pneumonia,1,0.24487157011551902,False,False,False
+bronchitis,1,0.0023700862501977713,True,True,True
+sinus,1,0.5487726664722004,False,False,False
+how long flu,1,0.9490307422436274,False,False,False
+flu how long,1,0.9490307402829332,False,False,False
+influenza a,2,0.44145607031160017,False,False,False
+pneumonia,2,0.021532407156851265,True,False,False
+bronchitis,2,0.8426896543729238,False,True,True
+sinus,2,0.35671241401771847,False,False,False
+how long flu,2,0.4489740247135321,False,False,False
+flu how long,2,0.44897403093330424,False,False,False
+influenza a,3,0.5824248638896017,False,False,False
+pneumonia,3,0.33263589352805634,False,False,False
+bronchitis,3,0.4160067703424397,False,True,True
+sinus,3,0.4917396600854941,False,False,False
+how long flu,3,0.3352030512983315,False,False,False
+flu how long,3,0.3352030504272304,False,False,False
+influenza a,4,0.39589856283985936,False,False,False
+pneumonia,4,0.6362295740627321,False,False,False
+bronchitis,4,0.12198960717991819,False,True,True
+sinus,4,0.4420277090465552,False,False,False
+how long flu,4,0.020337907304885213,True,False,False
+flu how long,4,0.02033790714610456,True,False,False
+influenza a,5,0.4769272806049024,False,False,False
+pneumonia,5,0.30652702999862563,False,False,False
+bronchitis,5,0.498437322210043,False,True,True
+sinus,5,0.016211994864885292,True,False,False
+how long flu,5,0.1377417929098644,False,False,False
+flu how long,5,0.13774179233074044,False,False,False

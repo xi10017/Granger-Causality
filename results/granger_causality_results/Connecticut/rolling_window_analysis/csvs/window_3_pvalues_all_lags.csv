@@ -1,0 +1,31 @@
+term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+pneumonia,1,0.7788226116241571,False,False,False
+stomach flu,1,0.23452485496581,False,False,False
+bronchitis,1,0.7946874581803266,False,False,False
+how long flu,1,0.5981009551640508,False,True,False
+flu how long,1,0.5981009551417985,False,True,False
+the flu symptoms,1,0.12693581584844896,False,False,False
+pneumonia,2,0.1002965641604989,False,False,False
+stomach flu,2,0.014009794190432037,True,False,False
+bronchitis,2,0.028023695939682125,True,False,False
+how long flu,2,0.40600691926708543,False,True,False
+flu how long,2,0.4060069192434349,False,True,False
+the flu symptoms,2,0.6117266638646301,False,False,False
+pneumonia,3,0.8221317188510301,False,False,False
+stomach flu,3,0.3664981763151506,False,False,False
+bronchitis,3,0.16802791378226778,False,False,False
+how long flu,3,0.2264023812037353,False,True,False
+flu how long,3,0.22640238122269568,False,True,False
+the flu symptoms,3,0.8545114596535215,False,False,False
+pneumonia,4,0.02502037294996488,True,False,False
+stomach flu,4,0.21982995077087725,False,False,False
+bronchitis,4,0.9575915478590631,False,False,False
+how long flu,4,0.002904338105279674,True,True,False
+flu how long,4,0.0029043381069579852,True,True,False
+the flu symptoms,4,0.798201829470728,False,False,False
+pneumonia,5,0.6587406841999349,False,False,False
+stomach flu,5,0.8402540980526289,False,False,False
+bronchitis,5,0.3906939245171053,False,False,False
+how long flu,5,0.6872675847134014,False,True,False
+flu how long,5,0.6872675847351332,False,True,False
+the flu symptoms,5,0.009475186947396005,True,False,False
