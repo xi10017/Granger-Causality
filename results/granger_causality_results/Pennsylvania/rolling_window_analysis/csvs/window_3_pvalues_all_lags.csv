@@ -1,31 +1,31 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-cold,1,0.8415882134853054,False,False,False
 flu symptoms,1,0.7374529879757397,False,False,False
 the flu,1,0.5961789556754702,False,False,False
-how long does flu last,1,0.7659861599421547,False,False,False
+cold,1,0.8415882134853054,False,False,False
 contagious flu,1,0.03079757603438876,True,False,False
 rsv,1,0.6776865568919732,False,False,False
-cold,2,0.046965439403283786,True,False,False
+how long does flu last,1,0.7659861599421547,False,False,False
 flu symptoms,2,0.01774543952759278,True,False,False
 the flu,2,0.2149043796435613,False,False,False
-how long does flu last,2,0.3452784987991695,False,False,False
+cold,2,0.046965439403283786,True,False,False
 contagious flu,2,0.8723897693446419,False,False,False
 rsv,2,0.8128347224513315,False,False,False
-cold,3,0.19105687628772497,False,False,False
+how long does flu last,2,0.3452784987991695,False,False,False
 flu symptoms,3,0.05522023477412726,False,False,False
 the flu,3,0.3385106275905819,False,False,False
-how long does flu last,3,0.8003245493489899,False,False,False
+cold,3,0.19105687628772497,False,False,False
 contagious flu,3,0.9469288737394136,False,False,False
 rsv,3,0.8308362240259909,False,False,False
-cold,4,0.9497163684806247,False,False,False
+how long does flu last,3,0.8003245493489899,False,False,False
 flu symptoms,4,0.9745614822730935,False,False,False
 the flu,4,0.018458155404883107,True,False,False
-how long does flu last,4,0.7148478832291054,False,False,False
+cold,4,0.9497163684806247,False,False,False
 contagious flu,4,0.18814685503570355,False,False,False
 rsv,4,0.8988345948905925,False,False,False
-cold,5,0.04713912096071929,True,False,False
+how long does flu last,4,0.7148478832291054,False,False,False
 flu symptoms,5,0.2038625180235892,False,False,False
 the flu,5,0.9396012692405119,False,False,False
-how long does flu last,5,0.02374201455624394,True,False,False
+cold,5,0.04713912096071929,True,False,False
 contagious flu,5,0.13520938004032215,False,False,False
 rsv,5,0.023847196674022828,True,False,False
+how long does flu last,5,0.02374201455624394,True,False,False

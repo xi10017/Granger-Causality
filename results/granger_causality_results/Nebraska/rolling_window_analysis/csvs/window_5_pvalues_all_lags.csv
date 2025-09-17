@@ -1,51 +1,51 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+influenza symptoms,1,0.06727319413914046,False,False,False
 flu cold,1,0.11752008194589579,False,True,True
-a influenza,1,0.3468930161340268,False,True,False
+bronchitis,1,0.13787737283325102,False,True,False
 stomach flu,1,0.08919417127086794,False,True,False
+sinus,1,0.6688880528672243,False,False,False
 influenza a symptoms,1,0.008325410902833433,True,True,False
 pneumonia,1,0.909336143032423,False,False,False
-bronchitis,1,0.13787737283325102,False,True,False
-sinus,1,0.6688880528672243,False,False,False
 rsv,1,0.9496252077825686,False,True,False
-influenza symptoms,1,0.06727319413914046,False,False,False
 the flu symptoms,1,0.2817655048071162,False,False,False
+a influenza,1,0.3468930161340268,False,True,False
+influenza symptoms,2,0.04123893096816338,True,False,False
 flu cold,2,0.009380209564941374,True,True,True
-a influenza,2,0.21798049672179928,False,True,False
+bronchitis,2,0.8763458796891319,False,True,False
 stomach flu,2,0.003418831120705288,True,True,False
+sinus,2,0.35820501050870324,False,False,False
 influenza a symptoms,2,0.7500441716876265,False,True,False
 pneumonia,2,0.18631296304356199,False,False,False
-bronchitis,2,0.8763458796891319,False,True,False
-sinus,2,0.35820501050870324,False,False,False
 rsv,2,0.30991889501887276,False,True,False
-influenza symptoms,2,0.04123893096816338,True,False,False
 the flu symptoms,2,0.24048983686235792,False,False,False
+a influenza,2,0.21798049672179928,False,True,False
+influenza symptoms,3,0.8150321185552322,False,False,False
 flu cold,3,0.001646139935204582,True,True,True
-a influenza,3,0.20043610701835282,False,True,False
+bronchitis,3,0.003973172263228425,True,True,False
 stomach flu,3,0.6322203538969988,False,True,False
+sinus,3,0.910566639100786,False,False,False
 influenza a symptoms,3,0.8347495813862538,False,True,False
 pneumonia,3,0.0387422816853143,True,False,False
-bronchitis,3,0.003973172263228425,True,True,False
-sinus,3,0.910566639100786,False,False,False
 rsv,3,0.3007753083412611,False,True,False
-influenza symptoms,3,0.8150321185552322,False,False,False
 the flu symptoms,3,0.3787065718979784,False,False,False
+a influenza,3,0.20043610701835282,False,True,False
+influenza symptoms,4,0.3843410905803676,False,False,False
 flu cold,4,0.1828643561095125,False,True,True
-a influenza,4,0.9512597213888212,False,True,False
+bronchitis,4,0.1551804020377875,False,True,False
 stomach flu,4,0.4064690366497804,False,True,False
+sinus,4,0.0564714956677268,False,False,False
 influenza a symptoms,4,0.6918730273545768,False,True,False
 pneumonia,4,0.14797822321215756,False,False,False
-bronchitis,4,0.1551804020377875,False,True,False
-sinus,4,0.0564714956677268,False,False,False
 rsv,4,0.004361507312285707,True,True,False
-influenza symptoms,4,0.3843410905803676,False,False,False
 the flu symptoms,4,0.03180651427850669,True,False,False
+a influenza,4,0.9512597213888212,False,True,False
+influenza symptoms,5,0.2644880195213437,False,False,False
 flu cold,5,0.5326521945247871,False,True,True
-a influenza,5,0.006422294044519693,True,True,False
+bronchitis,5,0.6131187450584642,False,True,False
 stomach flu,5,0.726427181481792,False,True,False
+sinus,5,0.019061767130793016,True,False,False
 influenza a symptoms,5,0.045471505117383175,True,True,False
 pneumonia,5,0.43720601616364274,False,False,False
-bronchitis,5,0.6131187450584642,False,True,False
-sinus,5,0.019061767130793016,True,False,False
 rsv,5,0.4932898689026386,False,True,False
-influenza symptoms,5,0.2644880195213437,False,False,False
 the flu symptoms,5,0.7249056911440388,False,False,False
+a influenza,5,0.006422294044519693,True,True,False

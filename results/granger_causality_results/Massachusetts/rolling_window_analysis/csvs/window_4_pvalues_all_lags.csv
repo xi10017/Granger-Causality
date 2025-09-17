@@ -1,21 +1,21 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
 flu fever,1,0.2876637992140879,False,False,False
-fever flu,1,0.2876637991846974,False,False,False
 rsv,1,0.6737971166335839,False,False,False
+fever flu,1,0.2876637991846974,False,False,False
 cold,1,0.014311027875071075,True,False,False
 flu fever,2,0.042230226523340644,True,False,False
-fever flu,2,0.04223022653821246,True,False,False
 rsv,2,0.04134069814079336,True,False,False
+fever flu,2,0.04223022653821246,True,False,False
 cold,2,0.06369591444492945,False,False,False
 flu fever,3,0.6678489708892346,False,False,False
-fever flu,3,0.6678489708502666,False,False,False
 rsv,3,0.91041029502485,False,False,False
+fever flu,3,0.6678489708502666,False,False,False
 cold,3,0.4167236996622081,False,False,False
 flu fever,4,0.1156116016735362,False,False,False
-fever flu,4,0.11561160167009313,False,False,False
 rsv,4,0.9514578805358279,False,False,False
+fever flu,4,0.11561160167009313,False,False,False
 cold,4,0.7448544801356348,False,False,False
 flu fever,5,0.5704566452394295,False,False,False
-fever flu,5,0.5704566452628984,False,False,False
 rsv,5,0.8696904863059437,False,False,False
+fever flu,5,0.5704566452628984,False,False,False
 cold,5,0.234109477121479,False,False,False

@@ -1,26 +1,26 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-how long is flu contagious,1,0.12622148457287966,False,False,False
-tamiflu side effects,1,0.770784416461544,False,True,True
-is the flu contagious,1,0.28079171833217564,False,False,False
 how long are you contagious,1,0.6908149118440055,False,False,False
+how long is flu contagious,1,0.12622148457287966,False,False,False
 flu remedies,1,0.02799502892113209,True,False,False
-how long is flu contagious,2,0.10702310549428733,False,False,False
-tamiflu side effects,2,0.12784591508843068,False,True,True
-is the flu contagious,2,0.7411440180896178,False,False,False
+is the flu contagious,1,0.28079171833217564,False,False,False
+tamiflu side effects,1,0.770784416461544,False,True,True
 how long are you contagious,2,0.01977439151426066,True,False,False
+how long is flu contagious,2,0.10702310549428733,False,False,False
 flu remedies,2,0.5396102178245961,False,False,False
-how long is flu contagious,3,0.1325732095145783,False,False,False
-tamiflu side effects,3,0.8481288163699545,False,True,True
-is the flu contagious,3,0.03480701317144422,True,False,False
+is the flu contagious,2,0.7411440180896178,False,False,False
+tamiflu side effects,2,0.12784591508843068,False,True,True
 how long are you contagious,3,0.13849916204018642,False,False,False
+how long is flu contagious,3,0.1325732095145783,False,False,False
 flu remedies,3,0.0292361409301726,True,False,False
-how long is flu contagious,4,0.33485898616872944,False,False,False
-tamiflu side effects,4,0.3551130209349719,False,True,True
-is the flu contagious,4,0.7856074509094336,False,False,False
+is the flu contagious,3,0.03480701317144422,True,False,False
+tamiflu side effects,3,0.8481288163699545,False,True,True
 how long are you contagious,4,0.22812253093352278,False,False,False
+how long is flu contagious,4,0.33485898616872944,False,False,False
 flu remedies,4,0.5533856222272062,False,False,False
-how long is flu contagious,5,0.005580629631033099,True,False,False
-tamiflu side effects,5,0.0014916860943360525,True,True,True
-is the flu contagious,5,0.07815736814131359,False,False,False
+is the flu contagious,4,0.7856074509094336,False,False,False
+tamiflu side effects,4,0.3551130209349719,False,True,True
 how long are you contagious,5,0.7220650717967751,False,False,False
+how long is flu contagious,5,0.005580629631033099,True,False,False
 flu remedies,5,0.1769786931642768,False,False,False
+is the flu contagious,5,0.07815736814131359,False,False,False
+tamiflu side effects,5,0.0014916860943360525,True,True,True

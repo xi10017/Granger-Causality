@@ -1,26 +1,26 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
 flu symptoms,1,0.008682753859070908,True,False,False
 bronchitis,1,0.7888030345903638,False,False,False
-rsv,1,0.14892068726979815,False,False,False
 flu contagious,1,0.014687931647691587,True,False,False
+rsv,1,0.14892068726979815,False,False,False
 the flu symptoms,1,0.04058890279533583,True,False,False
 flu symptoms,2,0.6517180090211157,False,False,False
 bronchitis,2,0.7614703146463513,False,False,False
-rsv,2,0.17673281825592788,False,False,False
 flu contagious,2,0.6251554053697375,False,False,False
+rsv,2,0.17673281825592788,False,False,False
 the flu symptoms,2,0.03105933998160413,True,False,False
 flu symptoms,3,0.7337281501833453,False,False,False
 bronchitis,3,0.2910768963107682,False,False,False
-rsv,3,0.5138852698170888,False,False,False
 flu contagious,3,0.307331677097974,False,False,False
+rsv,3,0.5138852698170888,False,False,False
 the flu symptoms,3,0.8714740607314043,False,False,False
 flu symptoms,4,0.944309026819544,False,False,False
 bronchitis,4,0.46526123808261843,False,False,False
-rsv,4,0.8316977720650661,False,False,False
 flu contagious,4,0.9982825515874628,False,False,False
+rsv,4,0.8316977720650661,False,False,False
 the flu symptoms,4,0.9509430798882865,False,False,False
 flu symptoms,5,0.16639804840838257,False,False,False
 bronchitis,5,0.01815355419351989,True,False,False
-rsv,5,0.032731834011658065,True,False,False
 flu contagious,5,0.14954948213954197,False,False,False
+rsv,5,0.032731834011658065,True,False,False
 the flu symptoms,5,0.5092921046211052,False,False,False

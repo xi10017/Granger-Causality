@@ -1,16 +1,16 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-symptoms of flu,1,0.9190257629235263,False,False,False
 stomach flu,1,0.16039162879051,False,False,False
 rsv,1,0.8744106465354915,False,False,False
-symptoms of flu,2,0.684361724959782,False,False,False
+symptoms of flu,1,0.9190257629235263,False,False,False
 stomach flu,2,0.7951291663856646,False,False,False
 rsv,2,0.02693314733621908,True,False,False
-symptoms of flu,3,0.6145165370157212,False,False,False
+symptoms of flu,2,0.684361724959782,False,False,False
 stomach flu,3,0.6240883627162055,False,False,False
 rsv,3,0.3581326453084812,False,False,False
-symptoms of flu,4,0.733540928730951,False,False,False
+symptoms of flu,3,0.6145165370157212,False,False,False
 stomach flu,4,0.032704900529625686,True,False,False
 rsv,4,0.24941086586696218,False,False,False
-symptoms of flu,5,0.012048647995044147,True,False,False
+symptoms of flu,4,0.733540928730951,False,False,False
 stomach flu,5,0.7298245842805453,False,False,False
 rsv,5,0.2571552565285558,False,False,False
+symptoms of flu,5,0.012048647995044147,True,False,False

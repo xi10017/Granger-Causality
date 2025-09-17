@@ -1,76 +1,76 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
 flu symptoms,1,0.031057896469758588,True,True,False
-pneumonia,1,0.6594090336578421,False,True,False
-stomach flu,1,0.024768035956371018,True,True,False
-the flu,1,0.29861790550416845,False,True,False
 is flu contagious,1,0.00021251425474512944,True,True,True
-how long does flu last,1,0.0030764060947979185,True,True,True
-sinus,1,0.06930070860725067,False,True,True
-how long flu,1,0.7121741726489832,False,True,True
-flu incubation,1,0.6368887010072043,False,True,True
-contagious flu,1,0.752776952636599,False,True,False
-flu how long,1,0.7121741733374927,False,True,True
 rsv,1,0.48042612504009785,False,True,False
+how long flu,1,0.7121741726489832,False,True,True
+the flu,1,0.29861790550416845,False,True,False
 flu a,1,0.6217507203723123,False,False,False
-flu contagious,1,0.7504621141982315,False,True,False
 symptoms of the flu,1,0.9355689826286601,False,False,False
+stomach flu,1,0.024768035956371018,True,True,False
+sinus,1,0.06930070860725067,False,True,True
+flu how long,1,0.7121741733374927,False,True,True
+flu contagious,1,0.7504621141982315,False,True,False
+pneumonia,1,0.6594090336578421,False,True,False
+contagious flu,1,0.752776952636599,False,True,False
+flu incubation,1,0.6368887010072043,False,True,True
+how long does flu last,1,0.0030764060947979185,True,True,True
 flu symptoms,2,0.006947988551142643,True,True,False
-pneumonia,2,0.9967105459373959,False,True,False
-stomach flu,2,0.20322504823567017,False,True,False
-the flu,2,0.4929371777034518,False,True,False
 is flu contagious,2,0.0777789438960452,False,True,True
-how long does flu last,2,0.10655501202272133,False,True,True
-sinus,2,0.00180865055088211,True,True,True
-how long flu,2,0.0021811872106696894,True,True,True
-flu incubation,2,0.03154222040765177,True,True,True
-contagious flu,2,0.0027031680600351693,True,True,False
-flu how long,2,0.0021811872100545374,True,True,True
 rsv,2,0.27745865061163744,False,True,False
+how long flu,2,0.0021811872106696894,True,True,True
+the flu,2,0.4929371777034518,False,True,False
 flu a,2,0.20361509160923727,False,False,False
-flu contagious,2,0.0026885647847401935,True,True,False
 symptoms of the flu,2,0.22191547128440686,False,False,False
+stomach flu,2,0.20322504823567017,False,True,False
+sinus,2,0.00180865055088211,True,True,True
+flu how long,2,0.0021811872100545374,True,True,True
+flu contagious,2,0.0026885647847401935,True,True,False
+pneumonia,2,0.9967105459373959,False,True,False
+contagious flu,2,0.0027031680600351693,True,True,False
+flu incubation,2,0.03154222040765177,True,True,True
+how long does flu last,2,0.10655501202272133,False,True,True
 flu symptoms,3,0.6209625223985602,False,True,False
-pneumonia,3,0.24362326452447872,False,True,False
-stomach flu,3,0.10855727118715734,False,True,False
-the flu,3,0.9240419274506463,False,True,False
 is flu contagious,3,0.6562915486995544,False,True,True
-how long does flu last,3,0.44904090530197616,False,True,True
-sinus,3,0.36927188913111975,False,True,True
-how long flu,3,0.2599463820126399,False,True,True
-flu incubation,3,0.5293244889907833,False,True,True
-contagious flu,3,0.32500065692945257,False,True,False
-flu how long,3,0.2599463825891103,False,True,True
 rsv,3,0.0201643324314053,True,True,False
+how long flu,3,0.2599463820126399,False,True,True
+the flu,3,0.9240419274506463,False,True,False
 flu a,3,0.35119714380288447,False,False,False
-flu contagious,3,0.3229723763550998,False,True,False
 symptoms of the flu,3,0.9152085934809779,False,False,False
+stomach flu,3,0.10855727118715734,False,True,False
+sinus,3,0.36927188913111975,False,True,True
+flu how long,3,0.2599463825891103,False,True,True
+flu contagious,3,0.3229723763550998,False,True,False
+pneumonia,3,0.24362326452447872,False,True,False
+contagious flu,3,0.32500065692945257,False,True,False
+flu incubation,3,0.5293244889907833,False,True,True
+how long does flu last,3,0.44904090530197616,False,True,True
 flu symptoms,4,0.011454702757600485,True,True,False
-pneumonia,4,0.3108642114295748,False,True,False
-stomach flu,4,0.9268305200510415,False,True,False
-the flu,4,0.029755751137947994,True,True,False
 is flu contagious,4,0.4272271711161396,False,True,True
-how long does flu last,4,0.6229498475243034,False,True,True
-sinus,4,0.011777125967826796,True,True,True
-how long flu,4,0.05451486380635919,False,True,True
-flu incubation,4,0.5888564283024817,False,True,True
-contagious flu,4,0.8333018765659836,False,True,False
-flu how long,4,0.054514863759447516,False,True,True
 rsv,4,0.08040558537151091,False,True,False
+how long flu,4,0.05451486380635919,False,True,True
+the flu,4,0.029755751137947994,True,True,False
 flu a,4,0.5200397201360211,False,False,False
-flu contagious,4,0.83406655143502,False,True,False
 symptoms of the flu,4,0.40034003269881535,False,False,False
+stomach flu,4,0.9268305200510415,False,True,False
+sinus,4,0.011777125967826796,True,True,True
+flu how long,4,0.054514863759447516,False,True,True
+flu contagious,4,0.83406655143502,False,True,False
+pneumonia,4,0.3108642114295748,False,True,False
+contagious flu,4,0.8333018765659836,False,True,False
+flu incubation,4,0.5888564283024817,False,True,True
+how long does flu last,4,0.6229498475243034,False,True,True
 flu symptoms,5,0.17240065926527293,False,True,False
-pneumonia,5,0.011078166426948957,True,True,False
-stomach flu,5,0.997707938692399,False,True,False
-the flu,5,0.07853861785529997,False,True,False
 is flu contagious,5,0.0032063803692971085,True,True,True
-how long does flu last,5,1.7699675465827058e-05,True,True,True
-sinus,5,0.8849039718116132,False,True,True
-how long flu,5,0.36554955773123055,False,True,True
-flu incubation,5,0.0004216758343119553,True,True,True
-contagious flu,5,0.4120385832304968,False,True,False
-flu how long,5,0.3655495577558773,False,True,True
 rsv,5,0.020760407977746965,True,True,False
+how long flu,5,0.36554955773123055,False,True,True
+the flu,5,0.07853861785529997,False,True,False
 flu a,5,0.03563866996440498,True,False,False
-flu contagious,5,0.4099004702087353,False,True,False
 symptoms of the flu,5,0.04338867822426281,True,False,False
+stomach flu,5,0.997707938692399,False,True,False
+sinus,5,0.8849039718116132,False,True,True
+flu how long,5,0.3655495577558773,False,True,True
+flu contagious,5,0.4099004702087353,False,True,False
+pneumonia,5,0.011078166426948957,True,True,False
+contagious flu,5,0.4120385832304968,False,True,False
+flu incubation,5,0.0004216758343119553,True,True,True
+how long does flu last,5,1.7699675465827058e-05,True,True,True

@@ -1,51 +1,51 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-influenza a,1,0.8361889627088952,False,False,False
-flu fever,1,0.01882489609404648,True,False,False
-fever flu,1,0.018824896094745004,True,False,False
-symptoms of flu,1,0.0743342482657581,False,False,False
-a influenza,1,0.04744403792823186,True,False,False
-the flu,1,0.46578173964477154,False,False,False
-is flu contagious,1,0.6416645807392234,False,False,False
-flu a,1,0.7635404884533052,False,False,False
-rsv,1,0.3733889691906338,False,False,False
 strep,1,0.07800923467110421,False,False,False
-influenza a,2,0.976087487292812,False,False,False
-flu fever,2,0.14496928495761177,False,False,False
-fever flu,2,0.14496928493369715,False,False,False
-symptoms of flu,2,0.7119647456215485,False,False,False
-a influenza,2,0.5350054695482462,False,False,False
-the flu,2,0.345016910465069,False,False,False
-is flu contagious,2,0.01565317422751979,True,False,False
-flu a,2,0.25831580378447455,False,False,False
-rsv,2,0.4605986231862427,False,False,False
+flu fever,1,0.01882489609404648,True,False,False
+is flu contagious,1,0.6416645807392234,False,False,False
+influenza a,1,0.8361889627088952,False,False,False
+flu a,1,0.7635404884533052,False,False,False
+a influenza,1,0.04744403792823186,True,False,False
+fever flu,1,0.018824896094745004,True,False,False
+rsv,1,0.3733889691906338,False,False,False
+symptoms of flu,1,0.0743342482657581,False,False,False
+the flu,1,0.46578173964477154,False,False,False
 strep,2,0.021715284562066835,True,False,False
-influenza a,3,0.048179297154351465,True,False,False
-flu fever,3,0.9652528767891584,False,False,False
-fever flu,3,0.965252876823995,False,False,False
-symptoms of flu,3,0.7895297838644637,False,False,False
-a influenza,3,0.8989708859115613,False,False,False
-the flu,3,0.732602249684678,False,False,False
-is flu contagious,3,0.41109236675802974,False,False,False
-flu a,3,0.5622609545162338,False,False,False
-rsv,3,0.021619789147740376,True,False,False
+flu fever,2,0.14496928495761177,False,False,False
+is flu contagious,2,0.01565317422751979,True,False,False
+influenza a,2,0.976087487292812,False,False,False
+flu a,2,0.25831580378447455,False,False,False
+a influenza,2,0.5350054695482462,False,False,False
+fever flu,2,0.14496928493369715,False,False,False
+rsv,2,0.4605986231862427,False,False,False
+symptoms of flu,2,0.7119647456215485,False,False,False
+the flu,2,0.345016910465069,False,False,False
 strep,3,0.23735602005744988,False,False,False
-influenza a,4,0.6250107610248916,False,False,False
-flu fever,4,0.3694336687724218,False,False,False
-fever flu,4,0.36943366870421934,False,False,False
-symptoms of flu,4,0.035365951692522116,True,False,False
-a influenza,4,0.19861332138311838,False,False,False
-the flu,4,0.028836181684575964,True,False,False
-is flu contagious,4,0.7310884255008332,False,False,False
-flu a,4,0.3599632572736353,False,False,False
-rsv,4,0.15298852653381387,False,False,False
+flu fever,3,0.9652528767891584,False,False,False
+is flu contagious,3,0.41109236675802974,False,False,False
+influenza a,3,0.048179297154351465,True,False,False
+flu a,3,0.5622609545162338,False,False,False
+a influenza,3,0.8989708859115613,False,False,False
+fever flu,3,0.965252876823995,False,False,False
+rsv,3,0.021619789147740376,True,False,False
+symptoms of flu,3,0.7895297838644637,False,False,False
+the flu,3,0.732602249684678,False,False,False
 strep,4,0.2561136290901478,False,False,False
-influenza a,5,0.48224225467213266,False,False,False
-flu fever,5,0.5882464011121018,False,False,False
-fever flu,5,0.5882464011624059,False,False,False
-symptoms of flu,5,0.7069568514501101,False,False,False
-a influenza,5,0.7404980889005128,False,False,False
-the flu,5,0.4062931583838615,False,False,False
-is flu contagious,5,0.7647219990333533,False,False,False
-flu a,5,0.005899684405771803,True,False,False
-rsv,5,0.4581979500612704,False,False,False
+flu fever,4,0.3694336687724218,False,False,False
+is flu contagious,4,0.7310884255008332,False,False,False
+influenza a,4,0.6250107610248916,False,False,False
+flu a,4,0.3599632572736353,False,False,False
+a influenza,4,0.19861332138311838,False,False,False
+fever flu,4,0.36943366870421934,False,False,False
+rsv,4,0.15298852653381387,False,False,False
+symptoms of flu,4,0.035365951692522116,True,False,False
+the flu,4,0.028836181684575964,True,False,False
 strep,5,0.22731976012220922,False,False,False
+flu fever,5,0.5882464011121018,False,False,False
+is flu contagious,5,0.7647219990333533,False,False,False
+influenza a,5,0.48224225467213266,False,False,False
+flu a,5,0.005899684405771803,True,False,False
+a influenza,5,0.7404980889005128,False,False,False
+fever flu,5,0.5882464011624059,False,False,False
+rsv,5,0.4581979500612704,False,False,False
+symptoms of flu,5,0.7069568514501101,False,False,False
+the flu,5,0.4062931583838615,False,False,False

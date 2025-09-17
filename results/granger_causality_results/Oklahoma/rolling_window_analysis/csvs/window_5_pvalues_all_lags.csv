@@ -1,46 +1,46 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-fever flu,1,0.9570244165921885,False,False,False
 flu symptoms,1,0.8972314915391744,False,False,False
-pneumonia,1,0.3760272952241438,False,False,False
-the flu,1,0.17950643641670405,False,False,False
-sinus,1,0.18504321226275292,False,False,False
 how long flu,1,0.06700940437719818,False,False,False
-rsv,1,0.8857369102592387,False,False,False
+sinus,1,0.18504321226275292,False,False,False
+fever flu,1,0.9570244165921885,False,False,False
 flu how long,1,0.654168833757089,False,True,True
 flu contagious,1,0.396815556467771,False,False,False
-fever flu,2,0.906587541528824,False,False,False
+pneumonia,1,0.3760272952241438,False,False,False
+rsv,1,0.8857369102592387,False,False,False
+the flu,1,0.17950643641670405,False,False,False
 flu symptoms,2,0.17656076270338247,False,False,False
-pneumonia,2,0.9709145731058118,False,False,False
-the flu,2,0.011536241313889488,True,False,False
-sinus,2,0.198540948812157,False,False,False
 how long flu,2,0.07480560403336065,False,False,False
-rsv,2,0.15873389168222754,False,False,False
+sinus,2,0.198540948812157,False,False,False
+fever flu,2,0.906587541528824,False,False,False
 flu how long,2,0.562354961538346,False,True,True
 flu contagious,2,0.37664063345192966,False,False,False
-fever flu,3,0.010409316003959215,True,False,False
+pneumonia,2,0.9709145731058118,False,False,False
+rsv,2,0.15873389168222754,False,False,False
+the flu,2,0.011536241313889488,True,False,False
 flu symptoms,3,0.5253819299438407,False,False,False
-pneumonia,3,0.11979479423033905,False,False,False
-the flu,3,0.020076788231059673,True,False,False
-sinus,3,0.2370011679054345,False,False,False
 how long flu,3,0.025001176200989968,True,False,False
-rsv,3,0.4844197729923373,False,False,False
+sinus,3,0.2370011679054345,False,False,False
+fever flu,3,0.010409316003959215,True,False,False
 flu how long,3,0.0003432034204221131,True,True,True
 flu contagious,3,0.04879065827844216,True,False,False
-fever flu,4,0.30032318544010805,False,False,False
+pneumonia,3,0.11979479423033905,False,False,False
+rsv,3,0.4844197729923373,False,False,False
+the flu,3,0.020076788231059673,True,False,False
 flu symptoms,4,0.04960557732386302,True,False,False
-pneumonia,4,0.3107261126667426,False,False,False
-the flu,4,0.3286134820693013,False,False,False
-sinus,4,0.6138135904039288,False,False,False
 how long flu,4,0.5866199623072097,False,False,False
-rsv,4,0.6289589176959614,False,False,False
+sinus,4,0.6138135904039288,False,False,False
+fever flu,4,0.30032318544010805,False,False,False
 flu how long,4,0.13281531251406017,False,True,True
 flu contagious,4,0.3868772235647877,False,False,False
-fever flu,5,0.24456415802121143,False,False,False
+pneumonia,4,0.3107261126667426,False,False,False
+rsv,4,0.6289589176959614,False,False,False
+the flu,4,0.3286134820693013,False,False,False
 flu symptoms,5,0.8193935447611806,False,False,False
-pneumonia,5,0.008639725341610584,True,False,False
-the flu,5,0.7896681885452992,False,False,False
-sinus,5,0.0440501556454358,True,False,False
 how long flu,5,0.31994170677209877,False,False,False
-rsv,5,0.044143899411367545,True,False,False
+sinus,5,0.0440501556454358,True,False,False
+fever flu,5,0.24456415802121143,False,False,False
 flu how long,5,0.8585497072652195,False,True,True
 flu contagious,5,0.04786092599800341,True,False,False
+pneumonia,5,0.008639725341610584,True,False,False
+rsv,5,0.044143899411367545,True,False,False
+the flu,5,0.7896681885452992,False,False,False

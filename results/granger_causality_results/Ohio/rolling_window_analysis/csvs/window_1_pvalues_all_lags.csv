@@ -1,31 +1,31 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-fever flu,1,0.04848084795795171,True,False,False
 flu symptoms,1,0.18919419883241453,False,False,False
-symptoms of flu,1,0.7988937031384116,False,False,False
 how long flu,1,0.47984024719262963,False,True,True
 symptoms of the flu,1,0.018111431216855687,True,False,False
+fever flu,1,0.04848084795795171,True,False,False
 flu how long,1,0.21500945534917681,False,False,False
-fever flu,2,0.9875707778016365,False,False,False
+symptoms of flu,1,0.7988937031384116,False,False,False
 flu symptoms,2,0.7863464748802103,False,False,False
-symptoms of flu,2,0.6373000781557634,False,False,False
 how long flu,2,0.0022239126402458648,True,True,True
 symptoms of the flu,2,0.11524624691599955,False,False,False
+fever flu,2,0.9875707778016365,False,False,False
 flu how long,2,0.029417921057461837,True,False,False
-fever flu,3,0.6759991107661647,False,False,False
+symptoms of flu,2,0.6373000781557634,False,False,False
 flu symptoms,3,0.2752661452288496,False,False,False
-symptoms of flu,3,0.04152770693464252,True,False,False
 how long flu,3,0.8399577631913453,False,True,True
 symptoms of the flu,3,0.54414881102144,False,False,False
+fever flu,3,0.6759991107661647,False,False,False
 flu how long,3,0.5728808084930357,False,False,False
-fever flu,4,0.6354405957551018,False,False,False
+symptoms of flu,3,0.04152770693464252,True,False,False
 flu symptoms,4,0.025493605826689816,True,False,False
-symptoms of flu,4,0.19768831799040518,False,False,False
 how long flu,4,0.1018527740405407,False,True,True
 symptoms of the flu,4,0.6963336049441942,False,False,False
+fever flu,4,0.6354405957551018,False,False,False
 flu how long,4,0.9947238149785516,False,False,False
-fever flu,5,0.289967037991142,False,False,False
+symptoms of flu,4,0.19768831799040518,False,False,False
 flu symptoms,5,0.2135061486115441,False,False,False
-symptoms of flu,5,0.9648028508309207,False,False,False
 how long flu,5,0.9316282271121434,False,True,True
 symptoms of the flu,5,0.5230713961905834,False,False,False
+fever flu,5,0.289967037991142,False,False,False
 flu how long,5,0.38753762284424054,False,False,False
+symptoms of flu,5,0.9648028508309207,False,False,False

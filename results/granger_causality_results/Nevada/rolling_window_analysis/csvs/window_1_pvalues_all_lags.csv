@@ -1,36 +1,36 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
 flu fever,1,0.554370727079238,False,False,False
 stomach flu,1,0.6409364873585506,False,False,False
-a influenza,1,0.049811461726577036,True,False,False
 sinus,1,0.462942656062571,False,False,False
-contagious flu,1,0.5662848204719757,False,False,False
 flu how long,1,0.31269067571064457,False,False,False
 flu contagious,1,0.5662848205189035,False,False,False
+contagious flu,1,0.5662848204719757,False,False,False
+a influenza,1,0.049811461726577036,True,False,False
 flu fever,2,0.8366812808556023,False,False,False
 stomach flu,2,0.5848350650472238,False,False,False
-a influenza,2,0.19220018342810302,False,False,False
 sinus,2,0.746430568286203,False,False,False
-contagious flu,2,0.6500721450515885,False,False,False
 flu how long,2,0.5680227728366312,False,False,False
 flu contagious,2,0.6500721450297448,False,False,False
+contagious flu,2,0.6500721450515885,False,False,False
+a influenza,2,0.19220018342810302,False,False,False
 flu fever,3,0.020160642128655506,True,False,False
 stomach flu,3,0.13910814466265506,False,False,False
-a influenza,3,0.7986650800705055,False,False,False
 sinus,3,0.009641918557285311,True,False,False
-contagious flu,3,0.4477203261743673,False,False,False
 flu how long,3,0.05453336912865856,False,False,False
 flu contagious,3,0.44772032621610425,False,False,False
+contagious flu,3,0.4477203261743673,False,False,False
+a influenza,3,0.7986650800705055,False,False,False
 flu fever,4,0.6861062222674829,False,False,False
 stomach flu,4,0.9224703522739419,False,False,False
-a influenza,4,0.5449110745080956,False,False,False
 sinus,4,0.4577847681683712,False,False,False
-contagious flu,4,0.027078842513591786,True,False,False
 flu how long,4,0.017700970378963655,True,False,False
 flu contagious,4,0.027078842512865114,True,False,False
+contagious flu,4,0.027078842513591786,True,False,False
+a influenza,4,0.5449110745080956,False,False,False
 flu fever,5,0.9411484644109909,False,False,False
 stomach flu,5,0.014845220814594173,True,False,False
-a influenza,5,0.4979922694454807,False,False,False
 sinus,5,0.41521548759583793,False,False,False
-contagious flu,5,0.23527880368921997,False,False,False
 flu how long,5,0.0072800473523022885,True,False,False
 flu contagious,5,0.23527880369036575,False,False,False
+contagious flu,5,0.23527880368921997,False,False,False
+a influenza,5,0.4979922694454807,False,False,False

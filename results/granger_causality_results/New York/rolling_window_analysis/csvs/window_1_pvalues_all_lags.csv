@@ -1,36 +1,36 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
 flu fever,1,0.03014226579908729,True,False,False
-fever flu,1,0.03014226580511391,True,False,False
 flu symptoms,1,0.038819830093691006,True,False,False
 how long does the flu last,1,0.6447757961876763,False,False,False
-symptoms of flu,1,0.1274928479809804,False,False,False
-bronchitis,1,0.4756918614196364,False,False,False
 how long flu,1,0.8153816065935625,False,True,True
+bronchitis,1,0.4756918614196364,False,False,False
+fever flu,1,0.03014226580511391,True,False,False
+symptoms of flu,1,0.1274928479809804,False,False,False
 flu fever,2,0.8984136378085052,False,False,False
-fever flu,2,0.8984136378425819,False,False,False
 flu symptoms,2,0.16135991139867123,False,False,False
 how long does the flu last,2,0.3151729057635403,False,False,False
-symptoms of flu,2,0.13620865188922707,False,False,False
-bronchitis,2,0.04555973207456797,True,False,False
 how long flu,2,0.729397660282279,False,True,True
+bronchitis,2,0.04555973207456797,True,False,False
+fever flu,2,0.8984136378425819,False,False,False
+symptoms of flu,2,0.13620865188922707,False,False,False
 flu fever,3,0.23333269520608865,False,False,False
-fever flu,3,0.2333326951639573,False,False,False
 flu symptoms,3,0.0977520839725728,False,False,False
 how long does the flu last,3,0.0213559065497338,True,False,False
-symptoms of flu,3,0.4504688295472866,False,False,False
-bronchitis,3,0.02412260488166693,True,False,False
 how long flu,3,0.0010851546685129753,True,True,True
+bronchitis,3,0.02412260488166693,True,False,False
+fever flu,3,0.2333326951639573,False,False,False
+symptoms of flu,3,0.4504688295472866,False,False,False
 flu fever,4,0.043947343063881365,True,False,False
-fever flu,4,0.04394734306707535,True,False,False
 flu symptoms,4,0.41088013984531047,False,False,False
 how long does the flu last,4,0.09239826344958557,False,False,False
-symptoms of flu,4,0.04481446317510856,True,False,False
-bronchitis,4,0.588791090790672,False,False,False
 how long flu,4,0.9094491851231243,False,True,True
+bronchitis,4,0.588791090790672,False,False,False
+fever flu,4,0.04394734306707535,True,False,False
+symptoms of flu,4,0.04481446317510856,True,False,False
 flu fever,5,0.9944244181661924,False,False,False
-fever flu,5,0.9944244181750372,False,False,False
 flu symptoms,5,0.4927687203647142,False,False,False
 how long does the flu last,5,0.15239249512064776,False,False,False
-symptoms of flu,5,0.49691333665270465,False,False,False
-bronchitis,5,0.4284126842550068,False,False,False
 how long flu,5,0.5978028692903863,False,True,True
+bronchitis,5,0.4284126842550068,False,False,False
+fever flu,5,0.9944244181750372,False,False,False
+symptoms of flu,5,0.49691333665270465,False,False,False

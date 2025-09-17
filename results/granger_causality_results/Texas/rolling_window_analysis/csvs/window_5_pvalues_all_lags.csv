@@ -1,21 +1,21 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
 how long is flu contagious,1,0.21409038865759922,False,False,False
-flu incubation period,1,0.43792125555033945,False,False,False
 flu cold,1,0.005694578229567394,True,False,False
 flu how long,1,0.9105118338275651,False,False,False
+flu incubation period,1,0.43792125555033945,False,False,False
 how long is flu contagious,2,0.5197976366761611,False,False,False
-flu incubation period,2,0.004629275351477418,True,False,False
 flu cold,2,0.5020376644565323,False,False,False
 flu how long,2,0.8013689434058198,False,False,False
+flu incubation period,2,0.004629275351477418,True,False,False
 how long is flu contagious,3,0.07155640921354826,False,False,False
-flu incubation period,3,0.12201821504360183,False,False,False
 flu cold,3,0.028602380610682616,True,False,False
 flu how long,3,0.024789135757224773,True,False,False
+flu incubation period,3,0.12201821504360183,False,False,False
 how long is flu contagious,4,0.2314480138308943,False,False,False
-flu incubation period,4,0.8964873710666292,False,False,False
 flu cold,4,0.6264175081559777,False,False,False
 flu how long,4,0.5164847231087697,False,False,False
+flu incubation period,4,0.8964873710666292,False,False,False
 how long is flu contagious,5,0.014406078959212594,True,False,False
-flu incubation period,5,0.3645266988633302,False,False,False
 flu cold,5,0.14193065750783626,False,False,False
 flu how long,5,0.44059915545848216,False,False,False
+flu incubation period,5,0.3645266988633302,False,False,False

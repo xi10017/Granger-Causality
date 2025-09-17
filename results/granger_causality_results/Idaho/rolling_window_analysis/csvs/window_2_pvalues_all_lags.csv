@@ -1,16 +1,16 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-flu cold,1,0.14694872063515116,False,False,False
-symptoms of flu,1,0.8570146802418228,False,True,True
 stomach flu,1,0.002490130924266165,True,True,True
-flu cold,2,0.041430043249884495,True,False,False
-symptoms of flu,2,0.8201325801416801,False,True,True
+symptoms of flu,1,0.8570146802418228,False,True,True
+flu cold,1,0.14694872063515116,False,False,False
 stomach flu,2,0.5040608459333064,False,True,True
-flu cold,3,0.07854396783717499,False,False,False
-symptoms of flu,3,0.19002425337851322,False,True,True
+symptoms of flu,2,0.8201325801416801,False,True,True
+flu cold,2,0.041430043249884495,True,False,False
 stomach flu,3,0.5903383116487305,False,True,True
-flu cold,4,0.022355541118498877,True,False,False
-symptoms of flu,4,0.04520307414327861,True,True,True
+symptoms of flu,3,0.19002425337851322,False,True,True
+flu cold,3,0.07854396783717499,False,False,False
 stomach flu,4,0.929282566435313,False,True,True
-flu cold,5,0.4236459030771764,False,False,False
-symptoms of flu,5,0.0013077583873253521,True,True,True
+symptoms of flu,4,0.04520307414327861,True,True,True
+flu cold,4,0.022355541118498877,True,False,False
 stomach flu,5,0.7033716481274137,False,True,True
+symptoms of flu,5,0.0013077583873253521,True,True,True
+flu cold,5,0.4236459030771764,False,False,False

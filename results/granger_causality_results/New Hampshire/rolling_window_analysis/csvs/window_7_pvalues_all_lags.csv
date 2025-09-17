@@ -1,36 +1,36 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+flu symptoms,1,0.12307229176331784,False,True,False
 flu fever,1,0.37870572464066177,False,True,False
 fever flu,1,0.37870572455481244,False,True,False
-flu symptoms,1,0.12307229176331784,False,True,False
+flu contagious,1,0.48607820887369413,False,True,False
 pneumonia,1,0.4684428686281138,False,False,False
 contagious flu,1,0.48607820862441853,False,True,False
-flu contagious,1,0.48607820887369413,False,True,False
 the flu symptoms,1,0.7388379670893395,False,False,False
+flu symptoms,2,0.12511867486313788,False,True,False
 flu fever,2,0.00776064734983987,True,True,False
 fever flu,2,0.007760647348430965,True,True,False
-flu symptoms,2,0.12511867486313788,False,True,False
+flu contagious,2,0.5994701088852572,False,True,False
 pneumonia,2,0.04071234040589217,True,False,False
 contagious flu,2,0.5994701088034061,False,True,False
-flu contagious,2,0.5994701088852572,False,True,False
 the flu symptoms,2,0.0432630403213421,True,False,False
+flu symptoms,3,0.0056391893942565946,True,True,False
 flu fever,3,0.8247839797349674,False,True,False
 fever flu,3,0.8247839799440579,False,True,False
-flu symptoms,3,0.0056391893942565946,True,True,False
+flu contagious,3,0.008491794393965654,True,True,False
 pneumonia,3,0.10464838121233803,False,False,False
 contagious flu,3,0.008491794394361919,True,True,False
-flu contagious,3,0.008491794393965654,True,True,False
 the flu symptoms,3,0.3064707072059512,False,False,False
+flu symptoms,4,0.23745826562589023,False,True,False
 flu fever,4,0.3107963129792011,False,True,False
 fever flu,4,0.3107963129988421,False,True,False
-flu symptoms,4,0.23745826562589023,False,True,False
+flu contagious,4,0.07698874668010401,False,True,False
 pneumonia,4,0.15533426069631387,False,False,False
 contagious flu,4,0.07698874667149869,False,True,False
-flu contagious,4,0.07698874668010401,False,True,False
 the flu symptoms,4,0.15084900657981973,False,False,False
+flu symptoms,5,0.6931032716867662,False,True,False
 flu fever,5,0.5706019173099581,False,True,False
 fever flu,5,0.5706019174050734,False,True,False
-flu symptoms,5,0.6931032716867662,False,True,False
+flu contagious,5,0.5331562610958269,False,True,False
 pneumonia,5,0.6323483698134467,False,False,False
 contagious flu,5,0.5331562610958269,False,True,False
-flu contagious,5,0.5331562610958269,False,True,False
 the flu symptoms,5,0.05981713806662233,False,False,False

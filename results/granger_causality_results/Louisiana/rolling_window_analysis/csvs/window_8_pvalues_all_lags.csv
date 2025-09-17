@@ -1,31 +1,31 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-pneumonia,1,0.013682252256024029,True,False,False
-flu type,1,0.6789168380764917,False,True,True
 bronchitis,1,0.006870103807597055,True,True,False
-contagious flu,1,0.5684715890125762,False,True,False
+flu type,1,0.6789168380764917,False,True,True
 flu contagious,1,0.047317683355753204,True,False,False
+pneumonia,1,0.013682252256024029,True,False,False
+contagious flu,1,0.5684715890125762,False,True,False
 the flu symptoms,1,0.8598141678178833,False,False,False
-pneumonia,2,0.8020381183586783,False,False,False
-flu type,2,0.001315709882096572,True,True,True
 bronchitis,2,0.42201264232795943,False,True,False
-contagious flu,2,0.005411202207325162,True,True,False
+flu type,2,0.001315709882096572,True,True,True
 flu contagious,2,0.5681011597861363,False,False,False
+pneumonia,2,0.8020381183586783,False,False,False
+contagious flu,2,0.005411202207325162,True,True,False
 the flu symptoms,2,0.6012862733837415,False,False,False
-pneumonia,3,0.48458594049552195,False,False,False
-flu type,3,0.7397005595516724,False,True,True
 bronchitis,3,0.3775159473274321,False,True,False
-contagious flu,3,0.8714277759661645,False,True,False
+flu type,3,0.7397005595516724,False,True,True
 flu contagious,3,0.4354488381721697,False,False,False
+pneumonia,3,0.48458594049552195,False,False,False
+contagious flu,3,0.8714277759661645,False,True,False
 the flu symptoms,3,0.5565650517714438,False,False,False
-pneumonia,4,0.30061775198619284,False,False,False
-flu type,4,0.23291964132771692,False,True,True
 bronchitis,4,0.8080044693844892,False,True,False
-contagious flu,4,0.7088235831475885,False,True,False
+flu type,4,0.23291964132771692,False,True,True
 flu contagious,4,0.623550914273254,False,False,False
+pneumonia,4,0.30061775198619284,False,False,False
+contagious flu,4,0.7088235831475885,False,True,False
 the flu symptoms,4,0.5122647612443358,False,False,False
-pneumonia,5,0.6880817162197437,False,False,False
-flu type,5,0.9924233730493675,False,True,True
 bronchitis,5,0.4953358755607471,False,True,False
-contagious flu,5,0.613429460060066,False,True,False
+flu type,5,0.9924233730493675,False,True,True
 flu contagious,5,0.44464144908791203,False,False,False
+pneumonia,5,0.6880817162197437,False,False,False
+contagious flu,5,0.613429460060066,False,True,False
 the flu symptoms,5,0.011420361790472186,True,False,False

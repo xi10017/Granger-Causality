@@ -1,41 +1,41 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-cold,1,0.21161665576108502,False,False,False
 flu symptoms,1,0.2843065340514429,False,False,False
-how long does flu last,1,0.3202241462022133,False,False,False
 flu a,1,0.7842488672174426,False,False,False
-rsv,1,0.8977930163980019,False,True,True
+cold,1,0.21161665576108502,False,False,False
 flu how long,1,0.008277472332814813,True,False,False
 influenza symptoms,1,0.7271662063313227,False,False,False
+rsv,1,0.8977930163980019,False,True,True
 the flu symptoms,1,0.046479046512604885,True,False,False
-cold,2,0.006050487443089647,True,False,False
+how long does flu last,1,0.3202241462022133,False,False,False
 flu symptoms,2,0.12784830560694757,False,False,False
-how long does flu last,2,0.1301646310223361,False,False,False
 flu a,2,0.022731083634027646,True,False,False
-rsv,2,2.0248778821276598e-05,True,True,True
+cold,2,0.006050487443089647,True,False,False
 flu how long,2,0.6326643024552192,False,False,False
 influenza symptoms,2,0.25694764897520295,False,False,False
+rsv,2,2.0248778821276598e-05,True,True,True
 the flu symptoms,2,0.045345963384256234,True,False,False
-cold,3,0.7805485637850352,False,False,False
+how long does flu last,2,0.1301646310223361,False,False,False
 flu symptoms,3,0.8872553722461316,False,False,False
-how long does flu last,3,0.3312837107068771,False,False,False
 flu a,3,0.2469327645941417,False,False,False
-rsv,3,0.01962179696932759,True,True,True
+cold,3,0.7805485637850352,False,False,False
 flu how long,3,0.4450680551477276,False,False,False
 influenza symptoms,3,0.8526845407009727,False,False,False
+rsv,3,0.01962179696932759,True,True,True
 the flu symptoms,3,0.9012935120227119,False,False,False
-cold,4,0.9137174073456494,False,False,False
+how long does flu last,3,0.3312837107068771,False,False,False
 flu symptoms,4,0.042514610170051974,True,False,False
-how long does flu last,4,0.02238738035392408,True,False,False
 flu a,4,0.7769331980830456,False,False,False
-rsv,4,0.675207437107711,False,True,True
+cold,4,0.9137174073456494,False,False,False
 flu how long,4,0.21445251311923716,False,False,False
 influenza symptoms,4,0.03584721742959009,True,False,False
+rsv,4,0.675207437107711,False,True,True
 the flu symptoms,4,0.8057953695032982,False,False,False
-cold,5,0.6401257728672346,False,False,False
+how long does flu last,4,0.02238738035392408,True,False,False
 flu symptoms,5,0.7324048457996697,False,False,False
-how long does flu last,5,0.7259562060453486,False,False,False
 flu a,5,0.4197313270356645,False,False,False
-rsv,5,0.04051607428053423,True,True,True
+cold,5,0.6401257728672346,False,False,False
 flu how long,5,0.9722766199810413,False,False,False
 influenza symptoms,5,0.3887994503776757,False,False,False
+rsv,5,0.04051607428053423,True,True,True
 the flu symptoms,5,0.24198229385009426,False,False,False
+how long does flu last,5,0.7259562060453486,False,False,False

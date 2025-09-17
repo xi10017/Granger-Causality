@@ -37,8 +37,8 @@ TERMS SIGNIFICANT ACROSS WINDOWS:
     flu symptoms: 2/8 windows
     influenza a: 1/8 windows
     pneumonia: 1/8 windows
-    how long flu: 1/8 windows
     strep throat: 1/8 windows
+    how long flu: 1/8 windows
 
   FDR significant terms (showing window counts out of 8 total):
 

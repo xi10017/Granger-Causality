@@ -1,31 +1,31 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-the flu,1,0.2419082668180089,False,False,False
 how long does flu last,1,0.002994938495957181,True,False,False
-contagious flu,1,0.44861209171446503,False,False,False
 how long flu,1,0.644944539217413,False,False,False
 flu how long,1,0.6449445399827807,False,False,False
 flu contagious,1,0.44861209231434995,False,False,False
-the flu,2,0.4548886748316563,False,False,False
+contagious flu,1,0.44861209171446503,False,False,False
+the flu,1,0.2419082668180089,False,False,False
 how long does flu last,2,0.8323627779106582,False,False,False
-contagious flu,2,0.5178024716278926,False,False,False
 how long flu,2,0.9100456874332505,False,False,False
 flu how long,2,0.9100456871547342,False,False,False
 flu contagious,2,0.5178024716606265,False,False,False
-the flu,3,0.31449870054645485,False,False,False
+contagious flu,2,0.5178024716278926,False,False,False
+the flu,2,0.4548886748316563,False,False,False
 how long does flu last,3,0.15291274331090698,False,False,False
-contagious flu,3,0.3052383796844597,False,False,False
 how long flu,3,0.8833416634286329,False,False,False
 flu how long,3,0.883341662519233,False,False,False
 flu contagious,3,0.3052383796253035,False,False,False
-the flu,4,0.02118679490006105,True,False,False
+contagious flu,3,0.3052383796844597,False,False,False
+the flu,3,0.31449870054645485,False,False,False
 how long does flu last,4,0.44568196032020513,False,False,False
-contagious flu,4,0.010810401562196018,True,False,False
 how long flu,4,0.0389724860686425,True,False,False
 flu how long,4,0.03897248599438926,True,False,False
 flu contagious,4,0.010810401560262526,True,False,False
-the flu,5,0.13792347568389912,False,False,False
+contagious flu,4,0.010810401562196018,True,False,False
+the flu,4,0.02118679490006105,True,False,False
 how long does flu last,5,0.7985369374812132,False,False,False
-contagious flu,5,0.9351701836563471,False,False,False
 how long flu,5,0.26814909925004937,False,False,False
 flu how long,5,0.26814909925004937,False,False,False
 flu contagious,5,0.9351701839346818,False,False,False
+contagious flu,5,0.9351701836563471,False,False,False
+the flu,5,0.13792347568389912,False,False,False

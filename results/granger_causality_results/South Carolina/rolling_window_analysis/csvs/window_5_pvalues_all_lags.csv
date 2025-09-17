@@ -1,31 +1,31 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+b flu,1,0.03365312620559903,True,False,False
+symptoms of the flu,1,0.41551639055317013,False,False,False
 fever flu,1,0.4711463611750015,False,True,False
 flu type,1,0.0035660069598711713,True,True,False
-b flu,1,0.03365312620559903,True,False,False
 rsv,1,0.06518320548928633,False,False,False
-symptoms of the flu,1,0.41551639055317013,False,False,False
 the flu symptoms,1,0.9058797230967665,False,True,True
+b flu,2,0.5064418911208137,False,False,False
+symptoms of the flu,2,0.5921295094908765,False,False,False
 fever flu,2,0.870546717165416,False,True,False
 flu type,2,0.4135010647815709,False,True,False
-b flu,2,0.5064418911208137,False,False,False
 rsv,2,0.03620309568084928,True,False,False
-symptoms of the flu,2,0.5921295094908765,False,False,False
 the flu symptoms,2,0.42747970699243376,False,True,True
+b flu,3,0.06337588546014565,False,False,False
+symptoms of the flu,3,0.018308022445587744,True,False,False
 fever flu,3,0.8204837180178688,False,True,False
 flu type,3,0.12475158708605039,False,True,False
-b flu,3,0.06337588546014565,False,False,False
 rsv,3,0.022917831422186494,True,False,False
-symptoms of the flu,3,0.018308022445587744,True,False,False
 the flu symptoms,3,0.7824604707392395,False,True,True
+b flu,4,0.09034315530243867,False,False,False
+symptoms of the flu,4,0.3249686607870068,False,False,False
 fever flu,4,0.7728841251206594,False,True,False
 flu type,4,0.868538105614012,False,True,False
-b flu,4,0.09034315530243867,False,False,False
 rsv,4,0.24078894984222762,False,False,False
-symptoms of the flu,4,0.3249686607870068,False,False,False
 the flu symptoms,4,0.3144033370003992,False,True,True
+b flu,5,0.28398109723362747,False,False,False
+symptoms of the flu,5,0.33583925606178555,False,False,False
 fever flu,5,0.003015024035090423,True,True,False
 flu type,5,0.21921290597796836,False,True,False
-b flu,5,0.28398109723362747,False,False,False
 rsv,5,0.04949317287784434,True,False,False
-symptoms of the flu,5,0.33583925606178555,False,False,False
 the flu symptoms,5,0.0012134547152293784,True,True,True

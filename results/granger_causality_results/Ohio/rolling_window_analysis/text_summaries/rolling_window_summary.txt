@@ -30,8 +30,8 @@ TERMS SIGNIFICANT ACROSS WINDOWS:
     symptoms of the flu: 7/8 windows
     flu symptoms: 5/8 windows
     how long flu: 4/8 windows
-    contagious flu: 4/8 windows
     bronchitis: 4/8 windows
+    contagious flu: 4/8 windows
     influenza a: 4/8 windows
     a influenza: 4/8 windows
     fever flu: 3/8 windows
@@ -42,10 +42,10 @@ TERMS SIGNIFICANT ACROSS WINDOWS:
     rsv: 2/8 windows
     the flu symptoms: 2/8 windows
     flu contagious: 2/8 windows
-    flu cold: 2/8 windows
     how long does flu last: 2/8 windows
-    pneumonia: 1/8 windows
+    flu cold: 2/8 windows
     the flu: 1/8 windows
+    pneumonia: 1/8 windows
 
   FDR significant terms (showing window counts out of 8 total):
     symptoms of the flu: 5/8 windows
@@ -54,16 +54,16 @@ TERMS SIGNIFICANT ACROSS WINDOWS:
     how long flu: 3/8 windows
     contagious flu: 3/8 windows
     flu symptoms: 2/8 windows
+    is flu contagious: 1/8 windows
     flu a symptoms: 1/8 windows
     fever flu: 1/8 windows
-    is flu contagious: 1/8 windows
     flu how long: 1/8 windows
     the flu symptoms: 1/8 windows
-    symptoms of flu: 1/8 windows
     flu contagious: 1/8 windows
+    symptoms of flu: 1/8 windows
     bronchitis: 1/8 windows
-    how long does flu last: 1/8 windows
     pneumonia: 1/8 windows
+    how long does flu last: 1/8 windows
 
   Bonferroni significant terms (showing window counts out of 8 total):
     symptoms of the flu: 3/8 windows

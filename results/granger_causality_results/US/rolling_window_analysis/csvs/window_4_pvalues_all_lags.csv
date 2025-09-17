@@ -1,41 +1,41 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-how long is flu contagious,1,0.1618418751806197,False,False,False
-fever and cough,1,0.6130673889474103,False,False,False
-is the flu contagious,1,0.10662578201272055,False,False,False
-how contagious is the flu,1,0.7449671088538097,False,False,False
-flu type,1,0.31595144483738064,False,False,False
 type a flu,1,0.23291812694936104,False,False,False
-flu type a,1,0.23291812694676237,False,False,False
+how long is flu contagious,1,0.1618418751806197,False,False,False
+is the flu contagious,1,0.10662578201272055,False,False,False
+flu type,1,0.31595144483738064,False,False,False
 flu contagious,1,0.8969911568510817,False,False,False
-how long is flu contagious,2,0.08460991643419422,False,False,False
-fever and cough,2,0.4166987691773738,False,False,False
-is the flu contagious,2,0.22287595240748714,False,False,False
-how contagious is the flu,2,0.04214734348471825,True,False,False
-flu type,2,0.2935816541024421,False,False,False
+flu type a,1,0.23291812694676237,False,False,False
+how contagious is the flu,1,0.7449671088538097,False,False,False
+fever and cough,1,0.6130673889474103,False,False,False
 type a flu,2,0.9773717055651623,False,False,False
-flu type a,2,0.9773717055632761,False,False,False
+how long is flu contagious,2,0.08460991643419422,False,False,False
+is the flu contagious,2,0.22287595240748714,False,False,False
+flu type,2,0.2935816541024421,False,False,False
 flu contagious,2,0.2274307581423645,False,False,False
-how long is flu contagious,3,0.11900826996577456,False,False,False
-fever and cough,3,0.2678913355465007,False,False,False
-is the flu contagious,3,0.03609628588964793,True,False,False
-how contagious is the flu,3,0.7305159563585779,False,False,False
-flu type,3,0.023951153602863984,True,False,False
+flu type a,2,0.9773717055632761,False,False,False
+how contagious is the flu,2,0.04214734348471825,True,False,False
+fever and cough,2,0.4166987691773738,False,False,False
 type a flu,3,0.021165675250465112,True,False,False
-flu type a,3,0.02116567525047738,True,False,False
+how long is flu contagious,3,0.11900826996577456,False,False,False
+is the flu contagious,3,0.03609628588964793,True,False,False
+flu type,3,0.023951153602863984,True,False,False
 flu contagious,3,0.9347842972251779,False,False,False
-how long is flu contagious,4,0.9918082319846915,False,False,False
-fever and cough,4,0.0424641877419791,True,False,False
-is the flu contagious,4,0.4694382671382977,False,False,False
-how contagious is the flu,4,0.4593659402762289,False,False,False
-flu type,4,0.4481059615010756,False,False,False
+flu type a,3,0.02116567525047738,True,False,False
+how contagious is the flu,3,0.7305159563585779,False,False,False
+fever and cough,3,0.2678913355465007,False,False,False
 type a flu,4,0.5942410639936968,False,False,False
-flu type a,4,0.5942410639933039,False,False,False
+how long is flu contagious,4,0.9918082319846915,False,False,False
+is the flu contagious,4,0.4694382671382977,False,False,False
+flu type,4,0.4481059615010756,False,False,False
 flu contagious,4,0.045681792594059946,True,False,False
-how long is flu contagious,5,0.026697032270606158,True,False,False
-fever and cough,5,0.6379692380898507,False,False,False
-is the flu contagious,5,0.06684149874071993,False,False,False
-how contagious is the flu,5,0.15744483089807323,False,False,False
-flu type,5,0.13149814327513146,False,False,False
+flu type a,4,0.5942410639933039,False,False,False
+how contagious is the flu,4,0.4593659402762289,False,False,False
+fever and cough,4,0.0424641877419791,True,False,False
 type a flu,5,0.5275713726582281,False,False,False
-flu type a,5,0.5275713726586625,False,False,False
+how long is flu contagious,5,0.026697032270606158,True,False,False
+is the flu contagious,5,0.06684149874071993,False,False,False
+flu type,5,0.13149814327513146,False,False,False
 flu contagious,5,0.3260144881334782,False,False,False
+flu type a,5,0.5275713726586625,False,False,False
+how contagious is the flu,5,0.15744483089807323,False,False,False
+fever and cough,5,0.6379692380898507,False,False,False

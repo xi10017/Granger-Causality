@@ -1,51 +1,51 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-flu cold,1,0.4451444357418256,False,True,False
-cold,1,1.626261065290273e-05,True,True,True
 flu symptoms,1,0.24801305679805577,False,True,False
-pneumonia,1,0.8071864905366993,False,False,False
-flu type,1,0.8479088358269735,False,True,False
 is flu contagious,1,0.18562907987554347,False,False,False
-contagious flu,1,0.6249967073274494,False,True,False
 how long flu,1,0.02077198002337401,True,False,False
+cold,1,1.626261065290273e-05,True,True,True
+flu type,1,0.8479088358269735,False,True,False
 flu contagious,1,0.6249967066425697,False,True,False
+pneumonia,1,0.8071864905366993,False,False,False
+contagious flu,1,0.6249967073274494,False,True,False
 the flu symptoms,1,0.6933006997514035,False,False,False
-flu cold,2,0.4825542630909122,False,True,False
-cold,2,0.22919062046446376,False,True,True
+flu cold,1,0.4451444357418256,False,True,False
 flu symptoms,2,0.4431607248588866,False,True,False
-pneumonia,2,0.23868334841657862,False,False,False
-flu type,2,0.20308539840985332,False,True,False
 is flu contagious,2,0.035303771162499255,True,False,False
-contagious flu,2,0.35856510065107194,False,True,False
 how long flu,2,0.3287703540749193,False,False,False
+cold,2,0.22919062046446376,False,True,True
+flu type,2,0.20308539840985332,False,True,False
 flu contagious,2,0.35856510173248046,False,True,False
+pneumonia,2,0.23868334841657862,False,False,False
+contagious flu,2,0.35856510065107194,False,True,False
 the flu symptoms,2,0.35784746225928843,False,False,False
-flu cold,3,0.49586773435079534,False,True,False
-cold,3,0.31603004304823773,False,True,True
+flu cold,2,0.4825542630909122,False,True,False
 flu symptoms,3,0.010807091747695534,True,True,False
-pneumonia,3,0.9015504434198169,False,False,False
-flu type,3,0.03024310836628236,True,True,False
 is flu contagious,3,0.8563037145762102,False,False,False
-contagious flu,3,0.6481388673363613,False,True,False
 how long flu,3,0.6541000895241873,False,False,False
+cold,3,0.31603004304823773,False,True,True
+flu type,3,0.03024310836628236,True,True,False
 flu contagious,3,0.6481388682142364,False,True,False
+pneumonia,3,0.9015504434198169,False,False,False
+contagious flu,3,0.6481388673363613,False,True,False
 the flu symptoms,3,0.9631895996928274,False,False,False
-flu cold,4,0.01431759055530422,True,True,False
-cold,4,0.4549853038777374,False,True,True
+flu cold,3,0.49586773435079534,False,True,False
 flu symptoms,4,0.4128814296778045,False,True,False
-pneumonia,4,0.020111744451798804,True,False,False
-flu type,4,0.007742442669015444,True,True,False
 is flu contagious,4,0.6922378990518891,False,False,False
-contagious flu,4,0.006500694639816386,True,True,False
 how long flu,4,0.26185374895238817,False,False,False
+cold,4,0.4549853038777374,False,True,True
+flu type,4,0.007742442669015444,True,True,False
 flu contagious,4,0.00650069463852085,True,True,False
+pneumonia,4,0.020111744451798804,True,False,False
+contagious flu,4,0.006500694639816386,True,True,False
 the flu symptoms,4,0.6653673129035605,False,False,False
-flu cold,5,0.2351595156726413,False,True,False
-cold,5,0.239600114607843,False,True,True
+flu cold,4,0.01431759055530422,True,True,False
 flu symptoms,5,0.47953830631591954,False,True,False
-pneumonia,5,0.671876036290082,False,False,False
-flu type,5,0.046546454225034825,True,True,False
 is flu contagious,5,0.20280964757182843,False,False,False
-contagious flu,5,0.013188931395355735,True,True,False
 how long flu,5,0.2870134091379358,False,False,False
+cold,5,0.239600114607843,False,True,True
+flu type,5,0.046546454225034825,True,True,False
 flu contagious,5,0.013188931379383996,True,True,False
+pneumonia,5,0.671876036290082,False,False,False
+contagious flu,5,0.013188931395355735,True,True,False
 the flu symptoms,5,0.03861869586525369,True,False,False
+flu cold,5,0.2351595156726413,False,True,False

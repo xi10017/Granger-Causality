@@ -31,19 +31,19 @@ TERMS SIGNIFICANT ACROSS WINDOWS:
     the flu: 4/8 windows
     flu fever: 4/8 windows
     b flu: 4/8 windows
-    symptoms of flu: 3/8 windows
     how long flu: 3/8 windows
-    contagious flu: 3/8 windows
-    rsv: 3/8 windows
     flu how long: 3/8 windows
     flu contagious: 3/8 windows
+    contagious flu: 3/8 windows
+    rsv: 3/8 windows
+    symptoms of flu: 3/8 windows
     flu cold: 3/8 windows
     type a flu: 3/8 windows
     pneumonia: 3/8 windows
     flu type: 2/8 windows
+    symptoms of the flu: 2/8 windows
     cold: 2/8 windows
     fever flu: 2/8 windows
-    symptoms of the flu: 2/8 windows
     bronchitis: 1/8 windows
     the flu symptoms: 1/8 windows
 
@@ -51,13 +51,13 @@ TERMS SIGNIFICANT ACROSS WINDOWS:
     flu fever: 3/8 windows
     pneumonia: 3/8 windows
     how long flu: 2/8 windows
-    fever flu: 1/8 windows
-    cold: 1/8 windows
     flu symptoms: 1/8 windows
-    symptoms of flu: 1/8 windows
     type a flu: 1/8 windows
     symptoms of the flu: 1/8 windows
+    cold: 1/8 windows
+    fever flu: 1/8 windows
     the flu symptoms: 1/8 windows
+    symptoms of flu: 1/8 windows
     flu type: 1/8 windows
     b flu: 1/8 windows
 
@@ -66,10 +66,10 @@ TERMS SIGNIFICANT ACROSS WINDOWS:
     flu fever: 2/8 windows
     how long flu: 1/8 windows
     flu symptoms: 1/8 windows
-    symptoms of flu: 1/8 windows
     type a flu: 1/8 windows
     symptoms of the flu: 1/8 windows
     the flu symptoms: 1/8 windows
+    symptoms of flu: 1/8 windows
     b flu: 1/8 windows
 
 DETAILED RESULTS BY WINDOW:

@@ -1,21 +1,21 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-flu a symptoms,1,0.8288044563113726,False,False,False
 flu fever,1,0.31920700941364355,False,False,False
-the flu,1,0.06436495603931129,False,False,False
+flu a symptoms,1,0.8288044563113726,False,False,False
 fever flu,1,0.31920700941684876,False,False,False
-flu a symptoms,2,0.7971265092426363,False,False,False
+the flu,1,0.06436495603931129,False,False,False
 flu fever,2,0.04341993442843921,True,False,False
-the flu,2,0.7346656812777798,False,False,False
+flu a symptoms,2,0.7971265092426363,False,False,False
 fever flu,2,0.043419934427881966,True,False,False
-flu a symptoms,3,0.036248856270270906,True,False,False
+the flu,2,0.7346656812777798,False,False,False
 flu fever,3,0.8960981498710601,False,False,False
-the flu,3,0.018154288209137913,True,False,False
+flu a symptoms,3,0.036248856270270906,True,False,False
 fever flu,3,0.8960981498599223,False,False,False
-flu a symptoms,4,0.40379989655900617,False,False,False
+the flu,3,0.018154288209137913,True,False,False
 flu fever,4,0.4879884504968055,False,False,False
-the flu,4,0.8226216686492651,False,False,False
+flu a symptoms,4,0.40379989655900617,False,False,False
 fever flu,4,0.48798845049306616,False,False,False
-flu a symptoms,5,0.6491449260328521,False,False,False
+the flu,4,0.8226216686492651,False,False,False
 flu fever,5,0.02396269207375697,True,False,False
-the flu,5,0.018195685562835965,True,False,False
+flu a symptoms,5,0.6491449260328521,False,False,False
 fever flu,5,0.023962692072702005,True,False,False
+the flu,5,0.018195685562835965,True,False,False

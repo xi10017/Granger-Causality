@@ -1,26 +1,26 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
 b flu,1,0.3831429297251705,False,False,False
+flu contagious,1,0.024130351964439526,True,False,False
 contagious flu,1,0.024130351964729367,True,False,False
 rsv,1,0.02474506697109236,True,False,False
-flu contagious,1,0.024130351964439526,True,False,False
 the flu symptoms,1,0.0900634476694671,False,False,False
 b flu,2,0.0682739117863107,False,False,False
+flu contagious,2,0.5950694872625039,False,False,False
 contagious flu,2,0.5950694872451205,False,False,False
 rsv,2,0.2928616185127573,False,False,False
-flu contagious,2,0.5950694872625039,False,False,False
 the flu symptoms,2,0.48482646797706375,False,False,False
 b flu,3,0.6520587815527374,False,False,False
+flu contagious,3,0.10975099953115412,False,False,False
 contagious flu,3,0.10975099949943944,False,False,False
 rsv,3,0.6696474259944423,False,False,False
-flu contagious,3,0.10975099953115412,False,False,False
 the flu symptoms,3,0.017184022126067896,True,False,False
 b flu,4,0.016364535724571815,True,False,False
+flu contagious,4,0.9390068934246003,False,False,False
 contagious flu,4,0.9390068934370192,False,False,False
 rsv,4,0.6527230241873523,False,False,False
-flu contagious,4,0.9390068934246003,False,False,False
 the flu symptoms,4,0.7477257363768894,False,False,False
 b flu,5,0.33016363170464524,False,False,False
+flu contagious,5,0.579135053634058,False,False,False
 contagious flu,5,0.5791350536352052,False,False,False
 rsv,5,0.015710076945092074,True,False,False
-flu contagious,5,0.579135053634058,False,False,False
 the flu symptoms,5,0.6783886949437371,False,False,False

@@ -1,51 +1,51 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-flu cold,1,0.7850222812381851,False,False,False
 flu symptoms,1,0.23718462985354433,False,True,False
-symptoms of flu,1,0.24411200876421363,False,True,False
-the flu,1,0.7282607965069203,False,True,True
-flu type,1,0.021169288121597466,True,True,False
-how long does flu last,1,0.014725913164544703,True,True,False
+flu cold,1,0.7850222812381851,False,False,False
 how long flu,1,0.06763529885565504,False,True,False
-flu how long,1,0.0676352987416218,False,True,False
+the flu,1,0.7282607965069203,False,True,True
 flu virus,1,0.09796562966271836,False,True,False
+flu how long,1,0.0676352987416218,False,True,False
+flu type,1,0.021169288121597466,True,True,False
 the flu symptoms,1,0.8849395396846469,False,True,False
-flu cold,2,0.23120744850693456,False,False,False
+symptoms of flu,1,0.24411200876421363,False,True,False
+how long does flu last,1,0.014725913164544703,True,True,False
 flu symptoms,2,0.6943521307887653,False,True,False
-symptoms of flu,2,0.02347103966980676,True,True,False
-the flu,2,0.0001202840736070307,True,True,True
-flu type,2,0.27701195149060615,False,True,False
-how long does flu last,2,0.04723989392347415,True,True,False
+flu cold,2,0.23120744850693456,False,False,False
 how long flu,2,0.016283029433940326,True,True,False
-flu how long,2,0.016283029427250253,True,True,False
+the flu,2,0.0001202840736070307,True,True,True
 flu virus,2,0.7255304894188408,False,True,False
+flu how long,2,0.016283029427250253,True,True,False
+flu type,2,0.27701195149060615,False,True,False
 the flu symptoms,2,0.7389593692894643,False,True,False
-flu cold,3,0.028132283176570204,True,False,False
+symptoms of flu,2,0.02347103966980676,True,True,False
+how long does flu last,2,0.04723989392347415,True,True,False
 flu symptoms,3,0.008134426578061196,True,True,False
-symptoms of flu,3,0.012669677620346756,True,True,False
-the flu,3,0.799217662379584,False,True,True
-flu type,3,0.14715477635267393,False,True,False
-how long does flu last,3,0.002918852107819626,True,True,False
+flu cold,3,0.028132283176570204,True,False,False
 how long flu,3,0.27477395606216454,False,True,False
-flu how long,3,0.2747739559062629,False,True,False
+the flu,3,0.799217662379584,False,True,True
 flu virus,3,0.969757404351356,False,True,False
+flu how long,3,0.2747739559062629,False,True,False
+flu type,3,0.14715477635267393,False,True,False
 the flu symptoms,3,0.37927516246718773,False,True,False
-flu cold,4,0.16170897683167665,False,False,False
+symptoms of flu,3,0.012669677620346756,True,True,False
+how long does flu last,3,0.002918852107819626,True,True,False
 flu symptoms,4,0.5533916510865537,False,True,False
-symptoms of flu,4,0.639572644538746,False,True,False
-the flu,4,0.1253800245828085,False,True,True
-flu type,4,0.28379300442735206,False,True,False
-how long does flu last,4,0.9869993734028576,False,True,False
+flu cold,4,0.16170897683167665,False,False,False
 how long flu,4,0.9175062803326095,False,True,False
-flu how long,4,0.9175062803518819,False,True,False
+the flu,4,0.1253800245828085,False,True,True
 flu virus,4,0.01272887458024929,True,True,False
+flu how long,4,0.9175062803518819,False,True,False
+flu type,4,0.28379300442735206,False,True,False
 the flu symptoms,4,0.6012716909409517,False,True,False
-flu cold,5,0.7685007012604106,False,False,False
+symptoms of flu,4,0.639572644538746,False,True,False
+how long does flu last,4,0.9869993734028576,False,True,False
 flu symptoms,5,0.027994989119517002,True,True,False
-symptoms of flu,5,0.056492480803320005,False,True,False
-the flu,5,0.4373694630102408,False,True,True
-flu type,5,0.814718472659177,False,True,False
-how long does flu last,5,0.19685569133381203,False,True,False
+flu cold,5,0.7685007012604106,False,False,False
 how long flu,5,0.4443928804232744,False,True,False
-flu how long,5,0.4443928803542987,False,True,False
+the flu,5,0.4373694630102408,False,True,True
 flu virus,5,0.06906315628240942,False,True,False
+flu how long,5,0.4443928803542987,False,True,False
+flu type,5,0.814718472659177,False,True,False
 the flu symptoms,5,0.00850557778730158,True,True,False
+symptoms of flu,5,0.056492480803320005,False,True,False
+how long does flu last,5,0.19685569133381203,False,True,False

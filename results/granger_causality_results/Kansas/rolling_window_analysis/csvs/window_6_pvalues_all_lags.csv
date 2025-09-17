@@ -1,56 +1,56 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-flu cold,1,0.7170356407274701,False,False,False
-pneumonia,1,0.6813775325316744,False,True,True
-influenza a symptoms,1,0.022938078110771944,True,False,False
-stomach flu,1,0.9496863121581298,False,False,False
-the flu,1,0.1641452635417361,False,False,False
-contagious flu,1,0.2815733816406756,False,True,True
-influenza b,1,0.6377273173463779,False,False,False
-flu how long,1,0.042219665176075706,True,False,False
-influenza symptoms,1,0.11043985521898426,False,True,True
-flu contagious,1,0.2031877937535887,False,False,False
 strep,1,0.06668941641274011,False,False,False
-flu cold,2,0.0324632644288301,True,False,False
-pneumonia,2,0.28867840028125386,False,True,True
-influenza a symptoms,2,0.10231604597178014,False,False,False
-stomach flu,2,0.040949261951302066,True,False,False
-the flu,2,0.23381365123205688,False,False,False
-contagious flu,2,0.000650259262688886,True,True,True
-influenza b,2,0.8345637386847161,False,False,False
-flu how long,2,0.14357937209726895,False,False,False
-influenza symptoms,2,0.12917896768294873,False,True,True
-flu contagious,2,0.5145442720677949,False,False,False
+influenza b,1,0.6377273173463779,False,False,False
+the flu,1,0.1641452635417361,False,False,False
+stomach flu,1,0.9496863121581298,False,False,False
+flu how long,1,0.042219665176075706,True,False,False
+influenza a symptoms,1,0.022938078110771944,True,False,False
+flu contagious,1,0.2031877937535887,False,False,False
+pneumonia,1,0.6813775325316744,False,True,True
+contagious flu,1,0.2815733816406756,False,True,True
+influenza symptoms,1,0.11043985521898426,False,True,True
+flu cold,1,0.7170356407274701,False,False,False
 strep,2,0.4807083089431231,False,False,False
-flu cold,3,0.3258598516221102,False,False,False
-pneumonia,3,0.00010153055589912905,True,True,True
-influenza a symptoms,3,0.2375955458302014,False,False,False
-stomach flu,3,0.028878060087983774,True,False,False
-the flu,3,0.2948408890637139,False,False,False
-contagious flu,3,0.9450294741791699,False,True,True
-influenza b,3,0.010431982292318238,True,False,False
-flu how long,3,0.8746406435916979,False,False,False
-influenza symptoms,3,0.0009463134347309464,True,True,True
-flu contagious,3,0.04760663746975231,True,False,False
+influenza b,2,0.8345637386847161,False,False,False
+the flu,2,0.23381365123205688,False,False,False
+stomach flu,2,0.040949261951302066,True,False,False
+flu how long,2,0.14357937209726895,False,False,False
+influenza a symptoms,2,0.10231604597178014,False,False,False
+flu contagious,2,0.5145442720677949,False,False,False
+pneumonia,2,0.28867840028125386,False,True,True
+contagious flu,2,0.000650259262688886,True,True,True
+influenza symptoms,2,0.12917896768294873,False,True,True
+flu cold,2,0.0324632644288301,True,False,False
 strep,3,0.023258146973347757,True,False,False
-flu cold,4,0.05789255118542622,False,False,False
-pneumonia,4,0.4995435940087921,False,True,True
-influenza a symptoms,4,0.0331379608612619,True,False,False
-stomach flu,4,0.1671932238688142,False,False,False
-the flu,4,0.04008898625088359,True,False,False
-contagious flu,4,0.8992568327507016,False,True,True
-influenza b,4,0.370358773523786,False,False,False
-flu how long,4,0.06550379602708721,False,False,False
-influenza symptoms,4,0.5367816666039887,False,True,True
-flu contagious,4,0.20480293065269695,False,False,False
+influenza b,3,0.010431982292318238,True,False,False
+the flu,3,0.2948408890637139,False,False,False
+stomach flu,3,0.028878060087983774,True,False,False
+flu how long,3,0.8746406435916979,False,False,False
+influenza a symptoms,3,0.2375955458302014,False,False,False
+flu contagious,3,0.04760663746975231,True,False,False
+pneumonia,3,0.00010153055589912905,True,True,True
+contagious flu,3,0.9450294741791699,False,True,True
+influenza symptoms,3,0.0009463134347309464,True,True,True
+flu cold,3,0.3258598516221102,False,False,False
 strep,4,0.044478386360882055,True,False,False
-flu cold,5,0.6881743673390379,False,False,False
-pneumonia,5,0.5982239312311606,False,True,True
-influenza a symptoms,5,0.8328091977417342,False,False,False
-stomach flu,5,0.8387364733236858,False,False,False
-the flu,5,0.6210339179704025,False,False,False
-contagious flu,5,0.19997247007358757,False,True,True
-influenza b,5,0.327386031232897,False,False,False
-flu how long,5,0.551751274130269,False,False,False
-influenza symptoms,5,0.1477307431432239,False,True,True
-flu contagious,5,0.868158179231138,False,False,False
+influenza b,4,0.370358773523786,False,False,False
+the flu,4,0.04008898625088359,True,False,False
+stomach flu,4,0.1671932238688142,False,False,False
+flu how long,4,0.06550379602708721,False,False,False
+influenza a symptoms,4,0.0331379608612619,True,False,False
+flu contagious,4,0.20480293065269695,False,False,False
+pneumonia,4,0.4995435940087921,False,True,True
+contagious flu,4,0.8992568327507016,False,True,True
+influenza symptoms,4,0.5367816666039887,False,True,True
+flu cold,4,0.05789255118542622,False,False,False
 strep,5,0.710566975058852,False,False,False
+influenza b,5,0.327386031232897,False,False,False
+the flu,5,0.6210339179704025,False,False,False
+stomach flu,5,0.8387364733236858,False,False,False
+flu how long,5,0.551751274130269,False,False,False
+influenza a symptoms,5,0.8328091977417342,False,False,False
+flu contagious,5,0.868158179231138,False,False,False
+pneumonia,5,0.5982239312311606,False,True,True
+contagious flu,5,0.19997247007358757,False,True,True
+influenza symptoms,5,0.1477307431432239,False,True,True
+flu cold,5,0.6881743673390379,False,False,False

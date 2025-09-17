@@ -1,16 +1,16 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
 flu contagious,1,0.4313498111783658,False,False,False
-the flu,1,0.0006108746200923832,True,True,True
 cold,1,0.015019890880006277,True,False,False
+the flu,1,0.0006108746200923832,True,True,True
 flu contagious,2,0.07466752527760186,False,False,False
-the flu,2,0.37089538017453016,False,True,True
 cold,2,0.016993508683199054,True,False,False
+the flu,2,0.37089538017453016,False,True,True
 flu contagious,3,0.03493874674879864,True,False,False
-the flu,3,0.39598406405094955,False,True,True
 cold,3,0.3808535233357747,False,False,False
+the flu,3,0.39598406405094955,False,True,True
 flu contagious,4,0.4308757153856161,False,False,False
-the flu,4,0.356750319479643,False,True,True
 cold,4,0.03880874254954131,True,False,False
+the flu,4,0.356750319479643,False,True,True
 flu contagious,5,0.22609855421919653,False,False,False
-the flu,5,0.3997006752727187,False,True,True
 cold,5,0.6054379442756679,False,False,False
+the flu,5,0.3997006752727187,False,True,True

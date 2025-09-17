@@ -1,36 +1,36 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
 influenza a,1,0.00010209447927836438,True,True,True
 flu symptoms,1,0.013203961973848788,True,False,False
-a influenza,1,0.00010209447928246822,True,True,True
-bronchitis,1,0.030050154163713545,True,False,False
-how long flu,1,0.5502672542266012,False,False,False
 is flu contagious,1,0.034663270114903534,True,False,False
+how long flu,1,0.5502672542266012,False,False,False
+bronchitis,1,0.030050154163713545,True,False,False
 symptoms of the flu,1,0.0019007752941193213,True,True,True
+a influenza,1,0.00010209447928246822,True,True,True
 influenza a,2,0.54906403602209,False,True,True
 flu symptoms,2,0.927726880161137,False,False,False
-a influenza,2,0.5490640360606587,False,True,True
-bronchitis,2,0.3929416377261771,False,False,False
-how long flu,2,0.7987763731215414,False,False,False
 is flu contagious,2,0.6529133455192244,False,False,False
+how long flu,2,0.7987763731215414,False,False,False
+bronchitis,2,0.3929416377261771,False,False,False
 symptoms of the flu,2,0.9144610333928759,False,True,True
+a influenza,2,0.5490640360606587,False,True,True
 influenza a,3,0.9422810415017417,False,True,True
 flu symptoms,3,0.033824312906521284,True,False,False
-a influenza,3,0.942281041506116,False,True,True
-bronchitis,3,0.7415610687740233,False,False,False
-how long flu,3,0.5939708908717689,False,False,False
 is flu contagious,3,0.4861722584809124,False,False,False
+how long flu,3,0.5939708908717689,False,False,False
+bronchitis,3,0.7415610687740233,False,False,False
 symptoms of the flu,3,0.9922637926152822,False,True,True
+a influenza,3,0.942281041506116,False,True,True
 influenza a,4,0.568980583379217,False,True,True
 flu symptoms,4,0.39049159234362074,False,False,False
-a influenza,4,0.568980583371876,False,True,True
-bronchitis,4,0.2556800046911808,False,False,False
-how long flu,4,0.014814808142058234,True,False,False
 is flu contagious,4,0.8339464906726524,False,False,False
+how long flu,4,0.014814808142058234,True,False,False
+bronchitis,4,0.2556800046911808,False,False,False
 symptoms of the flu,4,0.6938511283518876,False,True,True
+a influenza,4,0.568980583371876,False,True,True
 influenza a,5,0.14903396935664182,False,True,True
 flu symptoms,5,0.9427449617391537,False,False,False
-a influenza,5,0.14903396936492022,False,True,True
-bronchitis,5,0.47920304091508503,False,False,False
-how long flu,5,0.12864099058361525,False,False,False
 is flu contagious,5,0.4783396050734351,False,False,False
+how long flu,5,0.12864099058361525,False,False,False
+bronchitis,5,0.47920304091508503,False,False,False
 symptoms of the flu,5,0.7346647545875785,False,True,True
+a influenza,5,0.14903396936492022,False,True,True

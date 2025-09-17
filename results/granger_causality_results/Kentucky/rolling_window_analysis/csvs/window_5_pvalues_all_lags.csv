@@ -1,31 +1,31 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
 flu fever,1,0.824671310054296,False,True,True
 flu symptoms,1,0.5253178289163842,False,False,False
-pneumonia,1,0.8408096215440037,False,True,True
-flu type,1,0.005049717873550191,True,True,False
 b flu,1,0.2676856773727557,False,True,True
 symptoms of the flu,1,0.33803819233529575,False,False,False
+flu type,1,0.005049717873550191,True,True,False
+pneumonia,1,0.8408096215440037,False,True,True
 flu fever,2,0.011409284017127213,True,True,True
 flu symptoms,2,0.04235005887862721,True,False,False
-pneumonia,2,0.002871856288634429,True,True,True
-flu type,2,0.6911036773114727,False,True,False
 b flu,2,0.8875324779635965,False,True,True
 symptoms of the flu,2,0.6316087425903548,False,False,False
+flu type,2,0.6911036773114727,False,True,False
+pneumonia,2,0.002871856288634429,True,True,True
 flu fever,3,0.13722009760517972,False,True,True
 flu symptoms,3,0.7460506730881568,False,False,False
-pneumonia,3,0.0005332753768775715,True,True,True
-flu type,3,0.28573177880295186,False,True,False
 b flu,3,0.00013854136164706673,True,True,True
 symptoms of the flu,3,0.39155545794051616,False,False,False
+flu type,3,0.28573177880295186,False,True,False
+pneumonia,3,0.0005332753768775715,True,True,True
 flu fever,4,0.7749796909960182,False,True,True
 flu symptoms,4,0.8789184664718503,False,False,False
-pneumonia,4,0.06840612949001385,False,True,True
-flu type,4,0.6586906882990103,False,True,False
 b flu,4,0.7662204762302889,False,True,True
 symptoms of the flu,4,0.020821387186326708,True,False,False
+flu type,4,0.6586906882990103,False,True,False
+pneumonia,4,0.06840612949001385,False,True,True
 flu fever,5,0.0006847618941054807,True,True,True
 flu symptoms,5,0.19833059893244614,False,False,False
-pneumonia,5,0.011153624026779916,True,True,True
-flu type,5,0.5642004108053894,False,True,False
 b flu,5,0.027036885154853897,True,True,True
 symptoms of the flu,5,0.30185950814619233,False,False,False
+flu type,5,0.5642004108053894,False,True,False
+pneumonia,5,0.011153624026779916,True,True,True

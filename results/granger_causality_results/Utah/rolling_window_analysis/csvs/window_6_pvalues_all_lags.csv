@@ -1,31 +1,31 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
 influenza a,1,0.13079388042132367,False,True,True
+flu a,1,0.042019354881584675,True,False,False
+bronchitis,1,0.6468552073232862,False,False,False
+the flu symptoms,1,0.30405177573507614,False,False,False
 symptoms of flu,1,0.009938478572333417,True,False,False
 a influenza,1,0.1307938784459849,False,True,True
-bronchitis,1,0.6468552073232862,False,False,False
-flu a,1,0.042019354881584675,True,False,False
-the flu symptoms,1,0.30405177573507614,False,False,False
 influenza a,2,0.012300640510119525,True,True,True
+flu a,2,0.0976552950814479,False,False,False
+bronchitis,2,0.7925451414784515,False,False,False
+the flu symptoms,2,0.10562617684080623,False,False,False
 symptoms of flu,2,0.9632188679745329,False,False,False
 a influenza,2,0.01230064050896404,True,True,True
-bronchitis,2,0.7925451414784515,False,False,False
-flu a,2,0.0976552950814479,False,False,False
-the flu symptoms,2,0.10562617684080623,False,False,False
 influenza a,3,0.15190705779956887,False,True,True
+flu a,3,0.23147089619296385,False,False,False
+bronchitis,3,0.0461498089718128,True,False,False
+the flu symptoms,3,0.7972145637685664,False,False,False
 symptoms of flu,3,0.25778095255366384,False,False,False
 a influenza,3,0.15190705777832242,False,True,True
-bronchitis,3,0.0461498089718128,True,False,False
-flu a,3,0.23147089619296385,False,False,False
-the flu symptoms,3,0.7972145637685664,False,False,False
 influenza a,4,0.00031874773453284804,True,True,True
+flu a,4,0.21497538922137463,False,False,False
+bronchitis,4,0.7851749617168826,False,False,False
+the flu symptoms,4,0.14507467959046902,False,False,False
 symptoms of flu,4,0.7962675927507681,False,False,False
 a influenza,4,0.0003187477342784927,True,True,True
-bronchitis,4,0.7851749617168826,False,False,False
-flu a,4,0.21497538922137463,False,False,False
-the flu symptoms,4,0.14507467959046902,False,False,False
 influenza a,5,0.20407841397899987,False,True,True
+flu a,5,0.5613404025385251,False,False,False
+bronchitis,5,0.49619862044973706,False,False,False
+the flu symptoms,5,0.04411547121012506,True,False,False
 symptoms of flu,5,0.4096308974936693,False,False,False
 a influenza,5,0.20407841399795787,False,True,True
-bronchitis,5,0.49619862044973706,False,False,False
-flu a,5,0.5613404025385251,False,False,False
-the flu symptoms,5,0.04411547121012506,True,False,False

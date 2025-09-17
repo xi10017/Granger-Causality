@@ -1,41 +1,41 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-flu cold,1,0.0011633537264378508,True,True,True
 flu symptoms,1,0.07516908467779375,False,False,False
-flu type,1,0.02930868130621535,True,False,False
+flu cold,1,0.0011633537264378508,True,True,True
 type a flu,1,4.348844964744299e-05,True,True,True
-how long does flu last,1,0.7345269894636508,False,True,False
+flu type,1,0.02930868130621535,True,False,False
+flu contagious,1,0.5716587418081722,False,False,False
 contagious flu,1,0.5716587416655008,False,False,False
 rsv,1,0.3447564809477828,False,False,False
-flu contagious,1,0.5716587418081722,False,False,False
-flu cold,2,0.5951568975232349,False,True,True
+how long does flu last,1,0.7345269894636508,False,True,False
 flu symptoms,2,0.048686917859168746,True,False,False
-flu type,2,0.11913633493878471,False,False,False
+flu cold,2,0.5951568975232349,False,True,True
 type a flu,2,0.46234155649211084,False,True,True
-how long does flu last,2,0.004559136492957017,True,True,False
+flu type,2,0.11913633493878471,False,False,False
+flu contagious,2,0.01846214227553927,True,False,False
 contagious flu,2,0.018462142284334813,True,False,False
 rsv,2,0.017327215029313437,True,False,False
-flu contagious,2,0.01846214227553927,True,False,False
-flu cold,3,0.5955674919031152,False,True,True
+how long does flu last,2,0.004559136492957017,True,True,False
 flu symptoms,3,0.5890929184706166,False,False,False
-flu type,3,0.01224447988081408,True,False,False
+flu cold,3,0.5955674919031152,False,True,True
 type a flu,3,0.854177471201513,False,True,True
-how long does flu last,3,0.9595701586562568,False,True,False
+flu type,3,0.01224447988081408,True,False,False
+flu contagious,3,0.8244248452695018,False,False,False
 contagious flu,3,0.8244248451982051,False,False,False
 rsv,3,0.7336141643502484,False,False,False
-flu contagious,3,0.8244248452695018,False,False,False
-flu cold,4,0.03224223493473235,True,True,True
+how long does flu last,3,0.9595701586562568,False,True,False
 flu symptoms,4,0.7782004039019801,False,False,False
-flu type,4,0.07690750254134501,False,False,False
+flu cold,4,0.03224223493473235,True,True,True
 type a flu,4,0.7505009461140214,False,True,True
-how long does flu last,4,0.24383205341710087,False,True,False
+flu type,4,0.07690750254134501,False,False,False
+flu contagious,4,0.13497060779228376,False,False,False
 contagious flu,4,0.1349706077629997,False,False,False
 rsv,4,0.7880913265119535,False,False,False
-flu contagious,4,0.13497060779228376,False,False,False
-flu cold,5,0.7681004329980092,False,True,True
+how long does flu last,4,0.24383205341710087,False,True,False
 flu symptoms,5,0.8614801862772425,False,False,False
-flu type,5,0.11510721399748744,False,False,False
+flu cold,5,0.7681004329980092,False,True,True
 type a flu,5,0.4182221153896998,False,True,True
-how long does flu last,5,0.1825226077270427,False,True,False
+flu type,5,0.11510721399748744,False,False,False
+flu contagious,5,0.29704437976497283,False,False,False
 contagious flu,5,0.2970443797354911,False,False,False
 rsv,5,0.5766068885112874,False,False,False
-flu contagious,5,0.29704437976497283,False,False,False
+how long does flu last,5,0.1825226077270427,False,True,False

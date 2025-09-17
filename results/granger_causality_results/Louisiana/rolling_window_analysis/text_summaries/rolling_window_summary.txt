@@ -31,17 +31,17 @@ TERMS SIGNIFICANT ACROSS WINDOWS:
     flu symptoms: 4/8 windows
     bronchitis: 4/8 windows
     cold: 3/8 windows
-    the flu: 3/8 windows
     flu type: 3/8 windows
-    fever flu: 3/8 windows
+    the flu: 3/8 windows
     flu a: 3/8 windows
+    fever flu: 3/8 windows
     oscillococcinum: 2/8 windows
     rsv: 2/8 windows
     pneumonia: 2/8 windows
     how long does the flu last: 2/8 windows
     contagious flu: 2/8 windows
-    how long flu: 1/8 windows
     is flu contagious: 1/8 windows
+    how long flu: 1/8 windows
     flu how long: 1/8 windows
     flu cold: 1/8 windows
     flu fever: 1/8 windows
@@ -50,11 +50,11 @@ TERMS SIGNIFICANT ACROSS WINDOWS:
 
   FDR significant terms (showing window counts out of 8 total):
     bronchitis: 2/8 windows
-    cold: 1/8 windows
-    oscillococcinum: 1/8 windows
     how long flu: 1/8 windows
-    rsv: 1/8 windows
+    cold: 1/8 windows
     flu how long: 1/8 windows
+    oscillococcinum: 1/8 windows
+    rsv: 1/8 windows
     the flu symptoms: 1/8 windows
     contagious flu: 1/8 windows
     flu type: 1/8 windows

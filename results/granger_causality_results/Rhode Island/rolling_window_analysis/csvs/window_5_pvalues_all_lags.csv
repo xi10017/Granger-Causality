@@ -1,41 +1,41 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
 influenza a,1,0.3203067644606275,False,False,False
-pneumonia,1,0.3245436370344257,False,False,False
-the flu,1,0.15396295634959864,False,True,True
-bronchitis,1,0.534932180200949,False,False,False
 how long flu,1,0.39401938694423644,False,True,False
 flu a,1,0.5848710224251144,False,False,False
-rsv,1,0.02510235250382927,True,False,False
+bronchitis,1,0.534932180200949,False,False,False
 flu how long,1,0.446136248468918,False,False,False
+pneumonia,1,0.3245436370344257,False,False,False
+rsv,1,0.02510235250382927,True,False,False
+the flu,1,0.15396295634959864,False,True,True
 influenza a,2,0.8116151160176519,False,False,False
-pneumonia,2,0.4125426527937093,False,False,False
-the flu,2,0.6266995266666637,False,True,True
-bronchitis,2,0.15699900553566365,False,False,False
 how long flu,2,0.0032788870764057887,True,True,False
 flu a,2,0.025361955244708308,True,False,False
-rsv,2,0.31636004265944395,False,False,False
+bronchitis,2,0.15699900553566365,False,False,False
 flu how long,2,0.9651929586546958,False,False,False
+pneumonia,2,0.4125426527937093,False,False,False
+rsv,2,0.31636004265944395,False,False,False
+the flu,2,0.6266995266666637,False,True,True
 influenza a,3,0.02062324290139032,True,False,False
-pneumonia,3,0.6192913546843548,False,False,False
-the flu,3,0.01302018131144386,True,True,True
-bronchitis,3,0.9381170327632646,False,False,False
 how long flu,3,0.016009793983505834,True,True,False
 flu a,3,0.05152659582749244,False,False,False
-rsv,3,0.6577037814476125,False,False,False
+bronchitis,3,0.9381170327632646,False,False,False
 flu how long,3,0.026727380976345933,True,False,False
+pneumonia,3,0.6192913546843548,False,False,False
+rsv,3,0.6577037814476125,False,False,False
+the flu,3,0.01302018131144386,True,True,True
 influenza a,4,0.5522950828888484,False,False,False
-pneumonia,4,0.025258664982378196,True,False,False
-the flu,4,0.0006827713997110112,True,True,True
-bronchitis,4,0.16455447061676942,False,False,False
 how long flu,4,0.8589508575803113,False,True,False
 flu a,4,0.1372466939282181,False,False,False
-rsv,4,0.5370332598319543,False,False,False
+bronchitis,4,0.16455447061676942,False,False,False
 flu how long,4,0.6430892142341387,False,False,False
+pneumonia,4,0.025258664982378196,True,False,False
+rsv,4,0.5370332598319543,False,False,False
+the flu,4,0.0006827713997110112,True,True,True
 influenza a,5,0.5635398534987743,False,False,False
-pneumonia,5,0.3270426932087249,False,False,False
-the flu,5,0.02049470754045716,True,True,True
-bronchitis,5,0.04515431158975173,True,False,False
 how long flu,5,0.7439267535742548,False,True,False
 flu a,5,0.7331286942321218,False,False,False
-rsv,5,0.15353084321907562,False,False,False
+bronchitis,5,0.04515431158975173,True,False,False
 flu how long,5,0.05140655024884714,False,False,False
+pneumonia,5,0.3270426932087249,False,False,False
+rsv,5,0.15353084321907562,False,False,False
+the flu,5,0.02049470754045716,True,True,True

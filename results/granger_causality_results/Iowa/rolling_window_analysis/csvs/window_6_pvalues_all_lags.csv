@@ -1,56 +1,56 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
 influenza a,1,0.43352230510543255,False,True,False
 flu symptoms,1,0.41387363611253825,False,True,False
-a influenza,1,0.0005077019053315396,True,True,True
+bronchitis,1,0.3764694581955559,False,True,False
 stomach flu,1,0.2658330715670047,False,True,False
 influenza a symptoms,1,0.02023748633226611,True,True,False
-symptoms of flu,1,0.1987553783635026,False,False,False
-bronchitis,1,0.3764694581955559,False,True,False
-contagious flu,1,0.013432195162383382,True,True,False
 symptoms of influenza,1,0.016999590455195498,True,True,False
+contagious flu,1,0.013432195162383382,True,True,False
 influenza symptoms,1,0.19640676771854526,False,True,False
 the flu symptoms,1,0.01761752205018822,True,True,False
+symptoms of flu,1,0.1987553783635026,False,False,False
+a influenza,1,0.0005077019053315396,True,True,True
 influenza a,2,0.07626400474529411,False,True,False
 flu symptoms,2,0.7500161630576171,False,True,False
-a influenza,2,0.9246726601466634,False,True,True
+bronchitis,2,0.01067248811855316,True,True,False
 stomach flu,2,0.9395386513256772,False,True,False
 influenza a symptoms,2,0.27013753462025275,False,True,False
-symptoms of flu,2,0.3675703580920413,False,False,False
-bronchitis,2,0.01067248811855316,True,True,False
-contagious flu,2,0.04809744522274685,True,True,False
 symptoms of influenza,2,0.15873544257935135,False,True,False
+contagious flu,2,0.04809744522274685,True,True,False
 influenza symptoms,2,0.7885644248735475,False,True,False
 the flu symptoms,2,0.01944541761341972,True,True,False
+symptoms of flu,2,0.3675703580920413,False,False,False
+a influenza,2,0.9246726601466634,False,True,True
 influenza a,3,0.005949485695611853,True,True,False
 flu symptoms,3,0.65544777421846,False,True,False
-a influenza,3,0.4298035151866869,False,True,True
+bronchitis,3,0.07529391067910307,False,True,False
 stomach flu,3,0.010690899754808234,True,True,False
 influenza a symptoms,3,0.5292697977134512,False,True,False
-symptoms of flu,3,0.9435178845186821,False,False,False
-bronchitis,3,0.07529391067910307,False,True,False
-contagious flu,3,0.49078351484826443,False,True,False
 symptoms of influenza,3,0.6026051947712074,False,True,False
+contagious flu,3,0.49078351484826443,False,True,False
 influenza symptoms,3,0.5307592107748869,False,True,False
 the flu symptoms,3,0.3794184494165125,False,True,False
+symptoms of flu,3,0.9435178845186821,False,False,False
+a influenza,3,0.4298035151866869,False,True,True
 influenza a,4,0.2122025774058373,False,True,False
 flu symptoms,4,0.01580611251508368,True,True,False
-a influenza,4,0.02781367046696112,True,True,True
+bronchitis,4,0.34507836728189645,False,True,False
 stomach flu,4,0.07662618881303533,False,True,False
 influenza a symptoms,4,0.716921604710584,False,True,False
-symptoms of flu,4,0.13354901462685806,False,False,False
-bronchitis,4,0.34507836728189645,False,True,False
-contagious flu,4,0.9023187327202161,False,True,False
 symptoms of influenza,4,0.2616784416435641,False,True,False
+contagious flu,4,0.9023187327202161,False,True,False
 influenza symptoms,4,0.021755415096707125,True,True,False
 the flu symptoms,4,0.0471692020695139,True,True,False
+symptoms of flu,4,0.13354901462685806,False,False,False
+a influenza,4,0.02781367046696112,True,True,True
 influenza a,5,0.48470724115336317,False,True,False
 flu symptoms,5,0.9083890279298346,False,True,False
-a influenza,5,0.43314020255390473,False,True,True
+bronchitis,5,0.2904981650425128,False,True,False
 stomach flu,5,0.8615152159333725,False,True,False
 influenza a symptoms,5,0.7409848881075383,False,True,False
-symptoms of flu,5,0.0393929116924664,True,False,False
-bronchitis,5,0.2904981650425128,False,True,False
-contagious flu,5,0.026995257071338607,True,True,False
 symptoms of influenza,5,0.1527295099176138,False,True,False
+contagious flu,5,0.026995257071338607,True,True,False
 influenza symptoms,5,0.4106857076671281,False,True,False
 the flu symptoms,5,0.015605336338027406,True,True,False
+symptoms of flu,5,0.0393929116924664,True,False,False
+a influenza,5,0.43314020255390473,False,True,True

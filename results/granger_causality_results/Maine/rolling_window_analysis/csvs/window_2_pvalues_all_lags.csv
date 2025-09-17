@@ -1,21 +1,21 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-a influenza,1,0.041871293072581584,True,False,False
-flu contagious,1,0.8358195491103759,False,False,False
 pneumonia,1,0.4701235031274721,False,False,False
 influenza a,1,0.04187129303781262,True,False,False
-a influenza,2,0.8870714745155003,False,False,False
-flu contagious,2,0.5671481998689387,False,False,False
+a influenza,1,0.041871293072581584,True,False,False
+flu contagious,1,0.8358195491103759,False,False,False
 pneumonia,2,0.6563027661045016,False,False,False
 influenza a,2,0.887071474597009,False,False,False
-a influenza,3,0.7438076818074908,False,False,False
-flu contagious,3,0.8758886261470654,False,False,False
+a influenza,2,0.8870714745155003,False,False,False
+flu contagious,2,0.5671481998689387,False,False,False
 pneumonia,3,0.9749613006936573,False,False,False
 influenza a,3,0.7438076827222868,False,False,False
-a influenza,4,0.4637802331083204,False,False,False
-flu contagious,4,0.03838568960526875,True,False,False
+a influenza,3,0.7438076818074908,False,False,False
+flu contagious,3,0.8758886261470654,False,False,False
 pneumonia,4,0.15897146486568348,False,False,False
 influenza a,4,0.46378023296662974,False,False,False
-a influenza,5,0.8298146293740523,False,False,False
-flu contagious,5,0.7655046860997317,False,False,False
+a influenza,4,0.4637802331083204,False,False,False
+flu contagious,4,0.03838568960526875,True,False,False
 pneumonia,5,0.026952131565641246,True,False,False
 influenza a,5,0.8298146293463502,False,False,False
+a influenza,5,0.8298146293740523,False,False,False
+flu contagious,5,0.7655046860997317,False,False,False

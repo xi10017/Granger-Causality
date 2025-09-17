@@ -1,36 +1,36 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-flu cold,1,0.442364502690635,False,False,False
-influenza a,1,0.36907168393878753,False,True,False
-a influenza,1,0.36907168441428184,False,True,False
-pneumonia,1,0.008869649715723923,True,True,False
-the flu,1,0.2879856252216966,False,False,False
 how long does flu last,1,0.13180058623771865,False,True,False
+influenza a,1,0.36907168393878753,False,True,False
+flu cold,1,0.442364502690635,False,False,False
+the flu,1,0.2879856252216966,False,False,False
 flu contagious,1,0.6583615020544835,False,False,False
-flu cold,2,0.2181278264390249,False,False,False
-influenza a,2,0.9193795896163337,False,True,False
-a influenza,2,0.9193795899186864,False,True,False
-pneumonia,2,0.9255527166587829,False,True,False
-the flu,2,0.7779132253482446,False,False,False
+pneumonia,1,0.008869649715723923,True,True,False
+a influenza,1,0.36907168441428184,False,True,False
 how long does flu last,2,0.2567528315491819,False,True,False
+influenza a,2,0.9193795896163337,False,True,False
+flu cold,2,0.2181278264390249,False,False,False
+the flu,2,0.7779132253482446,False,False,False
 flu contagious,2,0.09088171146410944,False,False,False
-flu cold,3,0.018876658645463947,True,False,False
-influenza a,3,0.9292442529512599,False,True,False
-a influenza,3,0.9292442530547927,False,True,False
-pneumonia,3,0.008911733287514068,True,True,False
-the flu,3,0.2048938204137358,False,False,False
+pneumonia,2,0.9255527166587829,False,True,False
+a influenza,2,0.9193795899186864,False,True,False
 how long does flu last,3,0.8576307093714308,False,True,False
+influenza a,3,0.9292442529512599,False,True,False
+flu cold,3,0.018876658645463947,True,False,False
+the flu,3,0.2048938204137358,False,False,False
 flu contagious,3,0.14831815139171328,False,False,False
-flu cold,4,0.23492889418765767,False,False,False
-influenza a,4,0.38606141868028343,False,True,False
-a influenza,4,0.38606141875694766,False,True,False
-pneumonia,4,0.037371967678134,True,True,False
-the flu,4,0.04227577357072779,True,False,False
+pneumonia,3,0.008911733287514068,True,True,False
+a influenza,3,0.9292442530547927,False,True,False
 how long does flu last,4,0.22467187922034673,False,True,False
+influenza a,4,0.38606141868028343,False,True,False
+flu cold,4,0.23492889418765767,False,False,False
+the flu,4,0.04227577357072779,True,False,False
 flu contagious,4,0.7458166039626182,False,False,False
-flu cold,5,0.027401615135033967,True,False,False
-influenza a,5,0.009026779112307554,True,True,False
-a influenza,5,0.009026779112661852,True,True,False
-pneumonia,5,0.14543590295776215,False,True,False
-the flu,5,0.5243523871163247,False,False,False
+pneumonia,4,0.037371967678134,True,True,False
+a influenza,4,0.38606141875694766,False,True,False
 how long does flu last,5,0.005963758593923181,True,True,False
+influenza a,5,0.009026779112307554,True,True,False
+flu cold,5,0.027401615135033967,True,False,False
+the flu,5,0.5243523871163247,False,False,False
 flu contagious,5,0.013378302223798379,True,False,False
+pneumonia,5,0.14543590295776215,False,True,False
+a influenza,5,0.009026779112661852,True,True,False

@@ -1,51 +1,51 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-flu cold,1,0.6676023115039615,False,False,False
 flu fever,1,0.004188200472256696,True,True,False
+flu symptoms,1,0.020353676169531355,True,False,False
+flu a,1,0.11852248345571435,False,True,False
 fever flu,1,0.0041882004667606445,True,True,False
 cold,1,0.6786710089857295,False,False,False
-flu symptoms,1,0.020353676169531355,True,False,False
-symptoms of flu,1,0.38705617449423346,False,False,False
 flu type,1,0.0019621358947416664,True,True,True
-flu a,1,0.11852248345571435,False,True,False
 rsv,1,0.07257197814608617,False,False,False
 the flu symptoms,1,0.03308455226849299,True,False,False
-flu cold,2,0.6240142994806517,False,False,False
+symptoms of flu,1,0.38705617449423346,False,False,False
+flu cold,1,0.6676023115039615,False,False,False
 flu fever,2,0.7101512823151441,False,True,False
+flu symptoms,2,0.45943370212603185,False,False,False
+flu a,2,0.9844006571868653,False,True,False
 fever flu,2,0.7101512820690541,False,True,False
 cold,2,0.08653209904770041,False,False,False
-flu symptoms,2,0.45943370212603185,False,False,False
-symptoms of flu,2,0.4376344862853305,False,False,False
 flu type,2,0.8604998106855597,False,True,True
-flu a,2,0.9844006571868653,False,True,False
 rsv,2,0.020913875484336437,True,False,False
 the flu symptoms,2,0.8996294966932433,False,False,False
-flu cold,3,0.4045009120669285,False,False,False
+symptoms of flu,2,0.4376344862853305,False,False,False
+flu cold,2,0.6240142994806517,False,False,False
 flu fever,3,0.5470660641472525,False,True,False
+flu symptoms,3,0.0708497177459271,False,False,False
+flu a,3,0.033477818150556976,True,True,False
 fever flu,3,0.5470660637992044,False,True,False
 cold,3,0.31996162911191695,False,False,False
-flu symptoms,3,0.0708497177459271,False,False,False
-symptoms of flu,3,0.27385508709870043,False,False,False
 flu type,3,0.744664720311315,False,True,True
-flu a,3,0.033477818150556976,True,True,False
 rsv,3,0.3417856334559325,False,False,False
 the flu symptoms,3,0.18697708126113002,False,False,False
-flu cold,4,0.5043227058741906,False,False,False
+symptoms of flu,3,0.27385508709870043,False,False,False
+flu cold,3,0.4045009120669285,False,False,False
 flu fever,4,0.9553745794251585,False,True,False
+flu symptoms,4,0.09623504542912031,False,False,False
+flu a,4,0.7107919872101454,False,True,False
 fever flu,4,0.9553745795950819,False,True,False
 cold,4,0.9114310454276481,False,False,False
-flu symptoms,4,0.09623504542912031,False,False,False
-symptoms of flu,4,0.018280040777538233,True,False,False
 flu type,4,0.3952674278701831,False,True,True
-flu a,4,0.7107919872101454,False,True,False
 rsv,4,0.9544288123132161,False,False,False
 the flu symptoms,4,0.3192414508064565,False,False,False
-flu cold,5,0.03502224981891657,True,False,False
+symptoms of flu,4,0.018280040777538233,True,False,False
+flu cold,4,0.5043227058741906,False,False,False
 flu fever,5,0.01038211976681321,True,True,False
+flu symptoms,5,0.845940212905067,False,False,False
+flu a,5,0.00865070742305358,True,True,False
 fever flu,5,0.010382119764676177,True,True,False
 cold,5,0.039244921151091135,True,False,False
-flu symptoms,5,0.845940212905067,False,False,False
-symptoms of flu,5,0.9893112145838183,False,False,False
 flu type,5,0.44698909546355226,False,True,True
-flu a,5,0.00865070742305358,True,True,False
 rsv,5,0.7243505258259058,False,False,False
 the flu symptoms,5,0.16108451291211628,False,False,False
+symptoms of flu,5,0.9893112145838183,False,False,False
+flu cold,5,0.03502224981891657,True,False,False

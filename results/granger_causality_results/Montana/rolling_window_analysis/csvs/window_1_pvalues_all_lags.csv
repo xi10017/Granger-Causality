@@ -1,26 +1,26 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-pneumonia,1,0.6376480298754119,False,True,True
 how long flu,1,6.8813441709444074e-06,True,True,True
-rsv,1,0.28308719020358486,False,False,False
 flu how long,1,6.88134415751929e-06,True,True,True
 flu contagious,1,0.6934545725579846,False,False,False
-pneumonia,2,0.02773161686310762,True,True,True
+pneumonia,1,0.6376480298754119,False,True,True
+rsv,1,0.28308719020358486,False,False,False
 how long flu,2,0.05822132790265272,False,True,True
-rsv,2,0.03230331121630281,True,False,False
 flu how long,2,0.05822132803704022,False,True,True
 flu contagious,2,0.06629805365330516,False,False,False
-pneumonia,3,0.6822432180723141,False,True,True
+pneumonia,2,0.02773161686310762,True,True,True
+rsv,2,0.03230331121630281,True,False,False
 how long flu,3,0.10042819345542246,False,True,True
-rsv,3,0.710983686042453,False,False,False
 flu how long,3,0.10042819335335873,False,True,True
 flu contagious,3,0.928704001973879,False,False,False
-pneumonia,4,0.8381023749620272,False,True,True
+pneumonia,3,0.6822432180723141,False,True,True
+rsv,3,0.710983686042453,False,False,False
 how long flu,4,0.6624335722604201,False,True,True
-rsv,4,0.16128022490127175,False,False,False
 flu how long,4,0.6624335747681003,False,True,True
 flu contagious,4,0.02826867012584783,True,False,False
-pneumonia,5,0.002139968374170927,True,True,True
+pneumonia,4,0.8381023749620272,False,True,True
+rsv,4,0.16128022490127175,False,False,False
 how long flu,5,0.4092873492671226,False,True,True
-rsv,5,0.20492273385078663,False,False,False
 flu how long,5,0.40928734834424396,False,True,True
 flu contagious,5,0.20752069488209235,False,False,False
+pneumonia,5,0.002139968374170927,True,True,True
+rsv,5,0.20492273385078663,False,False,False

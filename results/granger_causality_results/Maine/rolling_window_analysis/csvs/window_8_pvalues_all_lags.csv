@@ -1,31 +1,31 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
 influenza a,1,0.585575018855228,False,False,False
-flu fever,1,0.5257739076409351,False,False,False
 flu symptoms,1,0.018109721906210328,True,False,False
-a influenza,1,0.5855750183070585,False,False,False
+flu fever,1,0.5257739076409351,False,False,False
 the flu,1,0.0893728823732395,False,True,True
 the flu symptoms,1,0.668407783478373,False,False,False
+a influenza,1,0.5855750183070585,False,False,False
 influenza a,2,0.5901554200734691,False,False,False
-flu fever,2,0.4985150353727402,False,False,False
 flu symptoms,2,0.3796663940530568,False,False,False
-a influenza,2,0.5901554197814899,False,False,False
+flu fever,2,0.4985150353727402,False,False,False
 the flu,2,8.689707156489125e-05,True,True,True
 the flu symptoms,2,0.03238402823065005,True,False,False
+a influenza,2,0.5901554197814899,False,False,False
 influenza a,3,0.023584032978564273,True,False,False
-flu fever,3,0.16763039179996356,False,False,False
 flu symptoms,3,0.3377079179734178,False,False,False
-a influenza,3,0.02358403297816434,True,False,False
+flu fever,3,0.16763039179996356,False,False,False
 the flu,3,0.24454387701009456,False,True,True
 the flu symptoms,3,0.2786223906194565,False,False,False
+a influenza,3,0.02358403297816434,True,False,False
 influenza a,4,0.35010868112796745,False,False,False
-flu fever,4,0.38095332256930436,False,False,False
 flu symptoms,4,0.6313301532413227,False,False,False
-a influenza,4,0.3501086809831846,False,False,False
+flu fever,4,0.38095332256930436,False,False,False
 the flu,4,0.7339200578002307,False,True,True
 the flu symptoms,4,0.36420277024842296,False,False,False
+a influenza,4,0.3501086809831846,False,False,False
 influenza a,5,0.754686209731899,False,False,False
-flu fever,5,0.018446580757318278,True,False,False
 flu symptoms,5,0.9594182597035059,False,False,False
-a influenza,5,0.7546862096385218,False,False,False
+flu fever,5,0.018446580757318278,True,False,False
 the flu,5,0.042681085700578346,True,True,True
 the flu symptoms,5,0.5881226890043468,False,False,False
+a influenza,5,0.7546862096385218,False,False,False

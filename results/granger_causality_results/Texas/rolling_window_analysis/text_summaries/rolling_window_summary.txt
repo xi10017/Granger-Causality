@@ -32,17 +32,17 @@ TERMS SIGNIFICANT ACROSS WINDOWS:
     flu type a: 4/8 windows
     how long does flu last: 4/8 windows
     flu cold: 4/8 windows
-    how long does the flu last: 3/8 windows
     flu incubation: 3/8 windows
+    how long does the flu last: 3/8 windows
     the flu: 2/8 windows
     flu type: 2/8 windows
     the flu symptoms: 2/8 windows
-    contagious flu: 2/8 windows
     flu contagious: 2/8 windows
+    contagious flu: 2/8 windows
     flu how long: 2/8 windows
-    fever flu: 1/8 windows
     flu symptoms: 1/8 windows
     b flu: 1/8 windows
+    fever flu: 1/8 windows
     bronchitis: 1/8 windows
     how long contagious: 1/8 windows
 
@@ -50,8 +50,8 @@ TERMS SIGNIFICANT ACROSS WINDOWS:
     how long is flu contagious: 2/8 windows
     flu cold: 1/8 windows
     the flu: 1/8 windows
-    flu type a: 1/8 windows
     bronchitis: 1/8 windows
+    flu type a: 1/8 windows
     how long does the flu last: 1/8 windows
 
   Bonferroni significant terms (showing window counts out of 8 total):

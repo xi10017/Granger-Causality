@@ -1,36 +1,36 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
 influenza a,1,2.3644046176108966e-09,True,True,True
+flu a,1,0.8354035215018395,False,False,False
+bronchitis,1,0.27127579083948894,False,False,False
+a influenza,1,0.04993915456712559,True,False,False
 stomach flu,1,0.8747843109556885,False,False,False
 symptoms of flu,1,0.7570115389935278,False,False,False
-a influenza,1,0.04993915456712559,True,False,False
 the flu,1,0.4853184559582412,False,False,False
-bronchitis,1,0.27127579083948894,False,False,False
-flu a,1,0.8354035215018395,False,False,False
 influenza a,2,0.69940241713912,False,True,True
+flu a,2,0.45765601789886334,False,False,False
+bronchitis,2,0.2986001043401406,False,False,False
+a influenza,2,0.32844898683914314,False,False,False
 stomach flu,2,0.005487433656004963,True,False,False
 symptoms of flu,2,0.13479241968071298,False,False,False
-a influenza,2,0.32844898683914314,False,False,False
 the flu,2,0.020763762435543794,True,False,False
-bronchitis,2,0.2986001043401406,False,False,False
-flu a,2,0.45765601789886334,False,False,False
 influenza a,3,0.18894237790604723,False,True,True
+flu a,3,0.19215717130613102,False,False,False
+bronchitis,3,0.5257289637072748,False,False,False
+a influenza,3,0.20170506238894173,False,False,False
 stomach flu,3,0.8474568151658655,False,False,False
 symptoms of flu,3,0.6417187615287145,False,False,False
-a influenza,3,0.20170506238894173,False,False,False
 the flu,3,0.6886797574605622,False,False,False
-bronchitis,3,0.5257289637072748,False,False,False
-flu a,3,0.19215717130613102,False,False,False
 influenza a,4,0.7470746082301103,False,True,True
+flu a,4,0.030832419794001423,True,False,False
+bronchitis,4,0.032600563571702115,True,False,False
+a influenza,4,0.03813455979229342,True,False,False
 stomach flu,4,0.8188784386391836,False,False,False
 symptoms of flu,4,0.8683939748471052,False,False,False
-a influenza,4,0.03813455979229342,True,False,False
 the flu,4,0.36605326052872655,False,False,False
-bronchitis,4,0.032600563571702115,True,False,False
-flu a,4,0.030832419794001423,True,False,False
 influenza a,5,0.6943774447936624,False,True,True
+flu a,5,0.29676353894957197,False,False,False
+bronchitis,5,0.9611230194811553,False,False,False
+a influenza,5,0.5849900778301738,False,False,False
 stomach flu,5,0.4801789851324617,False,False,False
 symptoms of flu,5,0.033607358034160255,True,False,False
-a influenza,5,0.5849900778301738,False,False,False
 the flu,5,0.12166462416159639,False,False,False
-bronchitis,5,0.9611230194811553,False,False,False
-flu a,5,0.29676353894957197,False,False,False

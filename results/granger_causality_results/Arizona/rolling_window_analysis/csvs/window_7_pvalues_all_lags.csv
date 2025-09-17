@@ -1,41 +1,41 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+strep,1,0.0021675767747997734,True,True,True
 flu symptoms,1,0.6293568145919666,False,False,False
+flu a,1,0.7643114926259837,False,True,True
+sinus,1,0.0010115951684629427,True,True,True
+flu contagious,1,0.4585881031764877,False,False,False
+rsv,1,0.4854089008948079,False,False,False
 symptoms of flu,1,0.8602553139637472,False,False,False
 the flu,1,0.2833853775733915,False,True,True
-sinus,1,0.0010115951684629427,True,True,True
-flu a,1,0.7643114926259837,False,True,True
-rsv,1,0.4854089008948079,False,False,False
-flu contagious,1,0.4585881031764877,False,False,False
-strep,1,0.0021675767747997734,True,True,True
+strep,2,0.022192560781452743,True,True,True
 flu symptoms,2,0.3252166550974568,False,False,False
+flu a,2,0.030667685576224513,True,True,True
+sinus,2,0.07822912222915179,False,True,True
+flu contagious,2,0.024661943766771825,True,False,False
+rsv,2,0.02572136548789463,True,False,False
 symptoms of flu,2,0.06901768234087681,False,False,False
 the flu,2,0.00037718786455309065,True,True,True
-sinus,2,0.07822912222915179,False,True,True
-flu a,2,0.030667685576224513,True,True,True
-rsv,2,0.02572136548789463,True,False,False
-flu contagious,2,0.024661943766771825,True,False,False
-strep,2,0.022192560781452743,True,True,True
+strep,3,0.9250428735765671,False,True,True
 flu symptoms,3,0.023608618071357085,True,False,False
+flu a,3,0.0019522174953411212,True,True,True
+sinus,3,0.0006566116814650491,True,True,True
+flu contagious,3,0.2843687137524355,False,False,False
+rsv,3,0.05377720672269497,False,False,False
 symptoms of flu,3,0.015830882690597296,True,False,False
 the flu,3,0.8587007751881877,False,True,True
-sinus,3,0.0006566116814650491,True,True,True
-flu a,3,0.0019522174953411212,True,True,True
-rsv,3,0.05377720672269497,False,False,False
-flu contagious,3,0.2843687137524355,False,False,False
-strep,3,0.9250428735765671,False,True,True
+strep,4,0.42098307756054465,False,True,True
 flu symptoms,4,0.4132803115349416,False,False,False
+flu a,4,0.40364137701239877,False,True,True
+sinus,4,0.14896619180277654,False,True,True
+flu contagious,4,0.7376451260968797,False,False,False
+rsv,4,0.5283804003340484,False,False,False
 symptoms of flu,4,0.6535952022259737,False,False,False
 the flu,4,0.005316073798629827,True,True,True
-sinus,4,0.14896619180277654,False,True,True
-flu a,4,0.40364137701239877,False,True,True
-rsv,4,0.5283804003340484,False,False,False
-flu contagious,4,0.7376451260968797,False,False,False
-strep,4,0.42098307756054465,False,True,True
+strep,5,0.07242060907201445,False,True,True
 flu symptoms,5,0.47369087047707614,False,False,False
+flu a,5,0.9643919030872996,False,True,True
+sinus,5,0.1574993073153934,False,True,True
+flu contagious,5,0.1780905792004039,False,False,False
+rsv,5,0.06525984118487256,False,False,False
 symptoms of flu,5,0.10921079551928374,False,False,False
 the flu,5,0.18092814110425726,False,True,True
-sinus,5,0.1574993073153934,False,True,True
-flu a,5,0.9643919030872996,False,True,True
-rsv,5,0.06525984118487256,False,False,False
-flu contagious,5,0.1780905792004039,False,False,False
-strep,5,0.07242060907201445,False,True,True

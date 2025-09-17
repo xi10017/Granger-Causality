@@ -1,26 +1,26 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+how long flu,1,0.505186481108729,False,False,False
 cold,1,0.8001150931431967,False,True,True
+strep throat,1,0.5867902230733878,False,False,False
 symptoms of flu,1,0.01894032963307726,True,False,False
 how long does flu last,1,0.039339672406731044,True,False,False
-strep throat,1,0.5867902230733878,False,False,False
-how long flu,1,0.505186481108729,False,False,False
+how long flu,2,0.49271597641418674,False,False,False
 cold,2,0.04364960696563742,True,True,True
+strep throat,2,0.6449786979757943,False,False,False
 symptoms of flu,2,0.8213322958828477,False,False,False
 how long does flu last,2,0.8371952094224102,False,False,False
-strep throat,2,0.6449786979757943,False,False,False
-how long flu,2,0.49271597641418674,False,False,False
+how long flu,3,0.2684154926415262,False,False,False
 cold,3,0.0015828019024320056,True,True,True
+strep throat,3,0.5179243298203993,False,False,False
 symptoms of flu,3,0.8650845490520929,False,False,False
 how long does flu last,3,0.673628811655685,False,False,False
-strep throat,3,0.5179243298203993,False,False,False
-how long flu,3,0.2684154926415262,False,False,False
+how long flu,4,0.027186473668621286,True,False,False
 cold,4,0.026173418915522852,True,True,True
+strep throat,4,0.4260655358511709,False,False,False
 symptoms of flu,4,0.1556448778680228,False,False,False
 how long does flu last,4,0.15991987128819174,False,False,False
-strep throat,4,0.4260655358511709,False,False,False
-how long flu,4,0.027186473668621286,True,False,False
+how long flu,5,0.9100516878839116,False,False,False
 cold,5,0.1472529239255153,False,True,True
+strep throat,5,0.020868964020477936,True,False,False
 symptoms of flu,5,0.592310194063871,False,False,False
 how long does flu last,5,0.9003475719364447,False,False,False
-strep throat,5,0.020868964020477936,True,False,False
-how long flu,5,0.9100516878839116,False,False,False

@@ -1,26 +1,26 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-flu type,1,0.6256935950447637,False,False,False
+strep,1,0.04472639057002515,True,False,False
 type a flu,1,0.2628141187235801,False,False,False
 bronchitis,1,0.2995692452986074,False,False,False
+flu type,1,0.6256935950447637,False,False,False
 how long contagious,1,0.49310341418037607,False,False,False
-strep,1,0.04472639057002515,True,False,False
-flu type,2,0.8724916160982512,False,False,False
+strep,2,0.21283151249204948,False,False,False
 type a flu,2,0.06395980009221675,False,False,False
 bronchitis,2,0.22583538100611728,False,False,False
+flu type,2,0.8724916160982512,False,False,False
 how long contagious,2,0.06447982212267633,False,False,False
-strep,2,0.21283151249204948,False,False,False
-flu type,3,0.28591263188863064,False,False,False
+strep,3,0.002895223425759344,True,False,False
 type a flu,3,0.18515290829662076,False,False,False
 bronchitis,3,0.024814083437784084,True,False,False
+flu type,3,0.28591263188863064,False,False,False
 how long contagious,3,0.4738118936678297,False,False,False
-strep,3,0.002895223425759344,True,False,False
-flu type,4,0.0427542664010362,True,False,False
+strep,4,0.4347062263840009,False,False,False
 type a flu,4,0.017400718419140426,True,False,False
 bronchitis,4,0.2780415577655081,False,False,False
+flu type,4,0.0427542664010362,True,False,False
 how long contagious,4,0.028832702552772333,True,False,False
-strep,4,0.4347062263840009,False,False,False
-flu type,5,0.37137631793279857,False,False,False
+strep,5,0.744262932079487,False,False,False
 type a flu,5,0.48118057721718444,False,False,False
 bronchitis,5,0.1759514452592397,False,False,False
+flu type,5,0.37137631793279857,False,False,False
 how long contagious,5,0.28867594099662924,False,False,False
-strep,5,0.744262932079487,False,False,False

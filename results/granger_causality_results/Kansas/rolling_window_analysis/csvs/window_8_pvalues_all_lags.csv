@@ -1,61 +1,61 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-flu cold,1,0.9267170381525742,False,True,False
-symptoms of flu,1,0.3687705912405178,False,True,False
-pneumonia,1,0.06673218531443635,False,True,False
-influenza a symptoms,1,0.04066176184919328,True,False,False
+influenza b,1,0.6243210215909059,False,True,False
+rsv,1,0.16661212816540844,False,True,False
+flu a,1,0.016879352125641987,True,True,False
 bronchitis,1,0.669043063065517,False,True,False
 sinus,1,0.8686978149785427,False,True,False
-contagious flu,1,0.07863086751210176,False,False,False
-flu a,1,0.016879352125641987,True,True,False
-rsv,1,0.16661212816540844,False,True,False
-influenza b,1,0.6243210215909059,False,True,False
 flu how long,1,0.5267687062568095,False,True,False
+influenza a symptoms,1,0.04066176184919328,True,False,False
+pneumonia,1,0.06673218531443635,False,True,False
+contagious flu,1,0.07863086751210176,False,False,False
 influenza symptoms,1,0.24914974522773156,False,True,False
-flu cold,2,0.353750678122817,False,True,False
-symptoms of flu,2,0.6549306634793812,False,True,False
-pneumonia,2,0.019851086250346366,True,True,False
-influenza a symptoms,2,0.037134006155069836,True,False,False
+symptoms of flu,1,0.3687705912405178,False,True,False
+flu cold,1,0.9267170381525742,False,True,False
+influenza b,2,0.022635009095813684,True,True,False
+rsv,2,0.17548411911640688,False,True,False
+flu a,2,0.40032534991397695,False,True,False
 bronchitis,2,0.0026970694531577443,True,True,False
 sinus,2,0.0058059549390398375,True,True,False
-contagious flu,2,0.6782676499514756,False,False,False
-flu a,2,0.40032534991397695,False,True,False
-rsv,2,0.17548411911640688,False,True,False
-influenza b,2,0.022635009095813684,True,True,False
 flu how long,2,0.09965406520779742,False,True,False
+influenza a symptoms,2,0.037134006155069836,True,False,False
+pneumonia,2,0.019851086250346366,True,True,False
+contagious flu,2,0.6782676499514756,False,False,False
 influenza symptoms,2,0.8424812477307644,False,True,False
-flu cold,3,0.6729793265626437,False,True,False
-symptoms of flu,3,0.013623269330314209,True,True,False
-pneumonia,3,0.04245846013403825,True,True,False
-influenza a symptoms,3,0.8055275282268279,False,False,False
+symptoms of flu,2,0.6549306634793812,False,True,False
+flu cold,2,0.353750678122817,False,True,False
+influenza b,3,0.4702270361329117,False,True,False
+rsv,3,0.4954474519006933,False,True,False
+flu a,3,0.6671156687721583,False,True,False
 bronchitis,3,0.20275759337284674,False,True,False
 sinus,3,0.009155395489828855,True,True,False
-contagious flu,3,0.061560460300311,False,False,False
-flu a,3,0.6671156687721583,False,True,False
-rsv,3,0.4954474519006933,False,True,False
-influenza b,3,0.4702270361329117,False,True,False
 flu how long,3,0.42233233535188763,False,True,False
+influenza a symptoms,3,0.8055275282268279,False,False,False
+pneumonia,3,0.04245846013403825,True,True,False
+contagious flu,3,0.061560460300311,False,False,False
 influenza symptoms,3,0.9695444289368602,False,True,False
-flu cold,4,0.5920413489294576,False,True,False
-symptoms of flu,4,0.22638470685775625,False,True,False
-pneumonia,4,0.923790614401059,False,True,False
-influenza a symptoms,4,0.45269588294267615,False,False,False
+symptoms of flu,3,0.013623269330314209,True,True,False
+flu cold,3,0.6729793265626437,False,True,False
+influenza b,4,0.6832511679164719,False,True,False
+rsv,4,0.015174638455036442,True,True,False
+flu a,4,0.5090068615770269,False,True,False
 bronchitis,4,0.8411850633430366,False,True,False
 sinus,4,0.08249291760396153,False,True,False
-contagious flu,4,0.036005328271039784,True,False,False
-flu a,4,0.5090068615770269,False,True,False
-rsv,4,0.015174638455036442,True,True,False
-influenza b,4,0.6832511679164719,False,True,False
 flu how long,4,0.013713317691780375,True,True,False
+influenza a symptoms,4,0.45269588294267615,False,False,False
+pneumonia,4,0.923790614401059,False,True,False
+contagious flu,4,0.036005328271039784,True,False,False
 influenza symptoms,4,0.014980781998037786,True,True,False
-flu cold,5,0.004572166856385206,True,True,False
-symptoms of flu,5,0.5352511196868247,False,True,False
-pneumonia,5,0.22771855681604888,False,True,False
-influenza a symptoms,5,0.8958323194474035,False,False,False
+symptoms of flu,4,0.22638470685775625,False,True,False
+flu cold,4,0.5920413489294576,False,True,False
+influenza b,5,0.22487109807687342,False,True,False
+rsv,5,0.29197393349581774,False,True,False
+flu a,5,0.20844006224417627,False,True,False
 bronchitis,5,0.9594822002543356,False,True,False
 sinus,5,0.2665997842440733,False,True,False
-contagious flu,5,0.7704089701683055,False,False,False
-flu a,5,0.20844006224417627,False,True,False
-rsv,5,0.29197393349581774,False,True,False
-influenza b,5,0.22487109807687342,False,True,False
 flu how long,5,0.4878452672643183,False,True,False
+influenza a symptoms,5,0.8958323194474035,False,False,False
+pneumonia,5,0.22771855681604888,False,True,False
+contagious flu,5,0.7704089701683055,False,False,False
 influenza symptoms,5,0.3351996233507809,False,True,False
+symptoms of flu,5,0.5352511196868247,False,True,False
+flu cold,5,0.004572166856385206,True,True,False

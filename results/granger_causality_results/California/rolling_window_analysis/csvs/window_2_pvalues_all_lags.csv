@@ -1,21 +1,21 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-flu cold,1,0.1516701006127319,False,False,False
-flu contagious,1,0.3217835192831985,False,False,False
 contagious flu,1,0.3217835192811982,False,False,False
+flu contagious,1,0.3217835192831985,False,False,False
+flu cold,1,0.1516701006127319,False,False,False
 stomach flu symptoms,1,0.23237603546133154,False,True,True
-flu cold,2,0.024832619476777056,True,False,False
-flu contagious,2,0.02849337754113261,True,False,False
 contagious flu,2,0.028493377541319174,True,False,False
+flu contagious,2,0.02849337754113261,True,False,False
+flu cold,2,0.024832619476777056,True,False,False
 stomach flu symptoms,2,0.4994271798746016,False,True,True
-flu cold,3,0.6282451001688956,False,False,False
-flu contagious,3,0.5432624882799335,False,False,False
 contagious flu,3,0.5432624882854054,False,False,False
+flu contagious,3,0.5432624882799335,False,False,False
+flu cold,3,0.6282451001688956,False,False,False
 stomach flu symptoms,3,0.0008398416118154946,True,True,True
-flu cold,4,0.7976298005996858,False,False,False
-flu contagious,4,0.16353623447873397,False,False,False
 contagious flu,4,0.16353623447836196,False,False,False
+flu contagious,4,0.16353623447873397,False,False,False
+flu cold,4,0.7976298005996858,False,False,False
 stomach flu symptoms,4,0.7694886885625802,False,True,True
-flu cold,5,0.056695495995023534,False,False,False
-flu contagious,5,0.4495211637489428,False,False,False
 contagious flu,5,0.44952116374898654,False,False,False
+flu contagious,5,0.4495211637489428,False,False,False
+flu cold,5,0.056695495995023534,False,False,False
 stomach flu symptoms,5,0.6991845388683551,False,True,True

@@ -1,31 +1,31 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-fever and cough,1,0.40829443780022645,False,False,False
-how long are you contagious,1,0.6757954361455207,False,False,False
 incubation period flu,1,0.39260193638847407,False,True,True
+how long are you contagious,1,0.6757954361455207,False,False,False
 is flu contagious,1,0.5067977704999165,False,False,False
-flu contagious,1,0.8118544155157412,False,False,False
 get rid of flu,1,0.5581408392371119,False,False,False
-fever and cough,2,0.06127932190975149,False,False,False
-how long are you contagious,2,0.45381057917447243,False,False,False
+flu contagious,1,0.8118544155157412,False,False,False
+fever and cough,1,0.40829443780022645,False,False,False
 incubation period flu,2,0.9095149978586463,False,True,True
+how long are you contagious,2,0.45381057917447243,False,False,False
 is flu contagious,2,0.9795966257151802,False,False,False
-flu contagious,2,0.4159884704773772,False,False,False
 get rid of flu,2,0.026546461139605695,True,False,False
-fever and cough,3,0.6235568206305739,False,False,False
-how long are you contagious,3,0.113986373193259,False,False,False
+flu contagious,2,0.4159884704773772,False,False,False
+fever and cough,2,0.06127932190975149,False,False,False
 incubation period flu,3,0.6372805503212366,False,True,True
+how long are you contagious,3,0.113986373193259,False,False,False
 is flu contagious,3,0.3212408692080871,False,False,False
-flu contagious,3,0.7984806780773004,False,False,False
 get rid of flu,3,0.9912894113861297,False,False,False
-fever and cough,4,0.9815033436835938,False,False,False
-how long are you contagious,4,0.03698066118241349,True,False,False
+flu contagious,3,0.7984806780773004,False,False,False
+fever and cough,3,0.6235568206305739,False,False,False
 incubation period flu,4,0.0018156761956957493,True,True,True
+how long are you contagious,4,0.03698066118241349,True,False,False
 is flu contagious,4,0.04396622159562601,True,False,False
-flu contagious,4,0.009853264040306712,True,False,False
 get rid of flu,4,0.8071285289138602,False,False,False
-fever and cough,5,0.008690041780457701,True,False,False
-how long are you contagious,5,0.2660513373153879,False,False,False
+flu contagious,4,0.009853264040306712,True,False,False
+fever and cough,4,0.9815033436835938,False,False,False
 incubation period flu,5,0.4612863538582984,False,True,True
+how long are you contagious,5,0.2660513373153879,False,False,False
 is flu contagious,5,0.28186957178911093,False,False,False
-flu contagious,5,0.6816476029773599,False,False,False
 get rid of flu,5,0.42015994828824377,False,False,False
+flu contagious,5,0.6816476029773599,False,False,False
+fever and cough,5,0.008690041780457701,True,False,False

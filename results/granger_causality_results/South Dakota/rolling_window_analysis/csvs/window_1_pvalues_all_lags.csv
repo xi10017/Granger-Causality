@@ -1,16 +1,16 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
 flu symptoms,1,0.032355977335343344,True,False,False
-how long does flu last,1,0.40407836790330476,False,False,False
 stomach flu,1,0.8423474007712721,False,False,False
+how long does flu last,1,0.40407836790330476,False,False,False
 flu symptoms,2,0.8523896856098472,False,False,False
-how long does flu last,2,0.07612005096617346,False,False,False
 stomach flu,2,0.5378443329242931,False,False,False
+how long does flu last,2,0.07612005096617346,False,False,False
 flu symptoms,3,0.8826398478656389,False,False,False
-how long does flu last,3,0.8282485575521641,False,False,False
 stomach flu,3,0.3730583398919063,False,False,False
+how long does flu last,3,0.8282485575521641,False,False,False
 flu symptoms,4,0.4325257582282023,False,False,False
-how long does flu last,4,0.10266949094993795,False,False,False
 stomach flu,4,0.021027817922894678,True,False,False
+how long does flu last,4,0.10266949094993795,False,False,False
 flu symptoms,5,0.8419163309446077,False,False,False
-how long does flu last,5,0.0037045994319245185,True,False,False
 stomach flu,5,0.6284471671593634,False,False,False
+how long does flu last,5,0.0037045994319245185,True,False,False

@@ -1,31 +1,31 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-a influenza,1,0.35860578157222955,False,False,False
-bronchitis,1,0.5128869818895465,False,False,False
-how long flu,1,0.5973076785186424,False,False,False
 influenza b,1,0.08871251878644722,False,False,False
+how long flu,1,0.5973076785186424,False,False,False
+bronchitis,1,0.5128869818895465,False,False,False
 flu how long,1,0.5973076785631454,False,False,False
 the flu symptoms,1,0.7243968118497863,False,False,False
-a influenza,2,0.27237735990643663,False,False,False
-bronchitis,2,0.4634420603828783,False,False,False
-how long flu,2,0.7029262416327912,False,False,False
+a influenza,1,0.35860578157222955,False,False,False
 influenza b,2,0.3688540902383164,False,False,False
+how long flu,2,0.7029262416327912,False,False,False
+bronchitis,2,0.4634420603828783,False,False,False
 flu how long,2,0.7029262416260595,False,False,False
 the flu symptoms,2,0.3481008103671166,False,False,False
-a influenza,3,0.011000176716694026,True,False,False
-bronchitis,3,0.718344474605515,False,False,False
-how long flu,3,0.009448060515060393,True,False,False
+a influenza,2,0.27237735990643663,False,False,False
 influenza b,3,0.9818053131676199,False,False,False
+how long flu,3,0.009448060515060393,True,False,False
+bronchitis,3,0.718344474605515,False,False,False
 flu how long,3,0.00944806051541842,True,False,False
 the flu symptoms,3,0.8657949055758745,False,False,False
-a influenza,4,0.5004704709881174,False,False,False
-bronchitis,4,0.8348474674110706,False,False,False
-how long flu,4,0.9400651924963875,False,False,False
+a influenza,3,0.011000176716694026,True,False,False
 influenza b,4,0.031134856793284635,True,False,False
+how long flu,4,0.9400651924963875,False,False,False
+bronchitis,4,0.8348474674110706,False,False,False
 flu how long,4,0.9400651924996735,False,False,False
 the flu symptoms,4,0.007080150241516015,True,False,False
-a influenza,5,0.973224901930438,False,False,False
-bronchitis,5,0.02840208657347166,True,False,False
-how long flu,5,0.2634284371614886,False,False,False
+a influenza,4,0.5004704709881174,False,False,False
 influenza b,5,0.32530129543653763,False,False,False
+how long flu,5,0.2634284371614886,False,False,False
+bronchitis,5,0.02840208657347166,True,False,False
 flu how long,5,0.26342843715901787,False,False,False
 the flu symptoms,5,0.6818530310136068,False,False,False
+a influenza,5,0.973224901930438,False,False,False

@@ -1,31 +1,31 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
 influenza a,1,0.01372401413048557,True,False,False
-the flu,1,0.022453252548003566,True,False,False
-flu type,1,0.7560587298002487,False,False,False
 sinus,1,0.18729797496265577,False,False,False
+flu type,1,0.7560587298002487,False,False,False
 contagious flu,1,0.02724534963478882,True,False,False
 rsv,1,0.23894721772235858,False,False,False
+the flu,1,0.022453252548003566,True,False,False
 influenza a,2,0.5896019614265791,False,False,False
-the flu,2,0.24852234750880034,False,False,False
-flu type,2,0.01925272306706108,True,False,False
 sinus,2,0.011755080266859482,True,False,False
+flu type,2,0.01925272306706108,True,False,False
 contagious flu,2,0.5669297991460125,False,False,False
 rsv,2,0.42882919061996116,False,False,False
+the flu,2,0.24852234750880034,False,False,False
 influenza a,3,0.11660849228966819,False,False,False
-the flu,3,0.16486693701781993,False,False,False
-flu type,3,0.795226131042315,False,False,False
 sinus,3,0.020056563423323133,True,False,False
+flu type,3,0.795226131042315,False,False,False
 contagious flu,3,0.19689934256647068,False,False,False
 rsv,3,0.054590214369930126,False,False,False
+the flu,3,0.16486693701781993,False,False,False
 influenza a,4,0.6611574746859863,False,False,False
-the flu,4,0.07223693386428358,False,False,False
-flu type,4,0.1375682124348654,False,False,False
 sinus,4,0.9275637732260882,False,False,False
+flu type,4,0.1375682124348654,False,False,False
 contagious flu,4,0.9942443920052385,False,False,False
 rsv,4,0.0052701036171843895,True,False,False
+the flu,4,0.07223693386428358,False,False,False
 influenza a,5,0.6629886549107662,False,False,False
-the flu,5,0.9887235790763407,False,False,False
-flu type,5,0.5866271917383767,False,False,False
 sinus,5,0.6005478659549278,False,False,False
+flu type,5,0.5866271917383767,False,False,False
 contagious flu,5,0.11405905545286421,False,False,False
 rsv,5,0.5233210009508102,False,False,False
+the flu,5,0.9887235790763407,False,False,False

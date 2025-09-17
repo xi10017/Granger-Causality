@@ -1,41 +1,41 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
 influenza a,1,0.01213500111202053,True,False,False
 flu fever,1,0.0241419805892482,True,False,False
+how long flu,1,0.11696945502524435,False,False,False
 cold,1,0.007424912999034194,True,True,False
+flu how long,1,0.059301970369834124,False,True,False
 fever flu,1,0.024141980652896272,True,False,False
 flu type,1,0.038489320035965675,True,True,True
 flu type a,1,0.2232357392619509,False,False,False
-how long flu,1,0.11696945502524435,False,False,False
-flu how long,1,0.059301970369834124,False,True,False
 influenza a,2,0.11474747235027871,False,False,False
 flu fever,2,0.06308393585844776,False,False,False
+how long flu,2,0.623591179428182,False,False,False
 cold,2,0.9575092661783748,False,True,False
+flu how long,2,0.16836678181057382,False,True,False
 fever flu,2,0.0630839359002106,False,False,False
 flu type,2,0.00034410852887524886,True,True,True
 flu type a,2,0.012839360142316217,True,False,False
-how long flu,2,0.623591179428182,False,False,False
-flu how long,2,0.16836678181057382,False,True,False
 influenza a,3,0.6423524371685326,False,False,False
 flu fever,3,0.16406115251920056,False,False,False
+how long flu,3,0.11385931480394006,False,False,False
 cold,3,0.26109117837367213,False,True,False
+flu how long,3,0.16862224087491146,False,True,False
 fever flu,3,0.16406115255435302,False,False,False
 flu type,3,0.08033637087179732,False,True,True
 flu type a,3,0.16698927252755782,False,False,False
-how long flu,3,0.11385931480394006,False,False,False
-flu how long,3,0.16862224087491146,False,True,False
 influenza a,4,0.2958515525594145,False,False,False
 flu fever,4,0.31871637579813106,False,False,False
+how long flu,4,0.043342453911462395,True,False,False
 cold,4,0.3559564119733367,False,True,False
+flu how long,4,0.005239699127716525,True,True,False
 fever flu,4,0.31871637572171385,False,False,False
 flu type,4,0.7021930845561051,False,True,True
 flu type a,4,0.08017368479529008,False,False,False
-how long flu,4,0.043342453911462395,True,False,False
-flu how long,4,0.005239699127716525,True,True,False
 influenza a,5,0.7160576226541973,False,False,False
 flu fever,5,0.9046484432984299,False,False,False
+how long flu,5,0.2891448816385354,False,False,False
 cold,5,0.8264600545174114,False,True,False
+flu how long,5,0.9843203559480891,False,True,False
 fever flu,5,0.904648443236777,False,False,False
 flu type,5,0.16953346175471162,False,True,True
 flu type a,5,0.2133477151691791,False,False,False
-how long flu,5,0.2891448816385354,False,False,False
-flu how long,5,0.9843203559480891,False,True,False

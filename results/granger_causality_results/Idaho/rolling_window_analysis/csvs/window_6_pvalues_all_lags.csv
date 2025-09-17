@@ -1,26 +1,26 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-fever flu,1,0.3929656759602669,False,False,False
-how long does flu last,1,0.9349453821884954,False,False,False
 how long flu,1,0.07132826384344826,False,False,False
-rsv,1,0.30611540324567577,False,False,False
+fever flu,1,0.3929656759602669,False,False,False
 flu how long,1,0.0713282638334134,False,False,False
-fever flu,2,0.01609077683624104,True,False,False
-how long does flu last,2,0.0025621073832590964,True,False,False
+rsv,1,0.30611540324567577,False,False,False
+how long does flu last,1,0.9349453821884954,False,False,False
 how long flu,2,0.14239112358872574,False,False,False
-rsv,2,0.6321348261149992,False,False,False
+fever flu,2,0.01609077683624104,True,False,False
 flu how long,2,0.14239112351251126,False,False,False
-fever flu,3,0.15477574678853395,False,False,False
-how long does flu last,3,0.3583204036442956,False,False,False
+rsv,2,0.6321348261149992,False,False,False
+how long does flu last,2,0.0025621073832590964,True,False,False
 how long flu,3,0.473490386306193,False,False,False
-rsv,3,0.6489772326486187,False,False,False
+fever flu,3,0.15477574678853395,False,False,False
 flu how long,3,0.4734903863209817,False,False,False
-fever flu,4,0.47138983410607815,False,False,False
-how long does flu last,4,0.423279795979672,False,False,False
+rsv,3,0.6489772326486187,False,False,False
+how long does flu last,3,0.3583204036442956,False,False,False
 how long flu,4,0.37023570710165843,False,False,False
-rsv,4,0.33071609625122445,False,False,False
+fever flu,4,0.47138983410607815,False,False,False
 flu how long,4,0.3702357072199056,False,False,False
-fever flu,5,0.6142633675546914,False,False,False
-how long does flu last,5,0.0831306481941791,False,False,False
+rsv,4,0.33071609625122445,False,False,False
+how long does flu last,4,0.423279795979672,False,False,False
 how long flu,5,0.013272244963938426,True,False,False
-rsv,5,0.006758863760350638,True,False,False
+fever flu,5,0.6142633675546914,False,False,False
 flu how long,5,0.013272244961339687,True,False,False
+rsv,5,0.006758863760350638,True,False,False
+how long does flu last,5,0.0831306481941791,False,False,False

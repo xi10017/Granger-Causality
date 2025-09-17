@@ -1,31 +1,31 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-flu cold,1,0.5392577808386877,False,False,False
 influenza a,1,0.0008372374188851925,True,True,True
-pneumonia,1,0.6780538185119984,False,False,False
 a influenza,1,0.4721213511543476,False,False,False
-symptoms of flu,1,0.04029620541776832,True,False,False
+pneumonia,1,0.6780538185119984,False,False,False
 rsv,1,0.21462725727854184,False,False,False
-flu cold,2,0.281527345755158,False,False,False
+symptoms of flu,1,0.04029620541776832,True,False,False
+flu cold,1,0.5392577808386877,False,False,False
 influenza a,2,0.9239221658668756,False,True,True
-pneumonia,2,0.39128142050552717,False,False,False
 a influenza,2,0.706371294313013,False,False,False
-symptoms of flu,2,0.45005696090697556,False,False,False
+pneumonia,2,0.39128142050552717,False,False,False
 rsv,2,0.5135610962447799,False,False,False
-flu cold,3,0.02374128094825617,True,False,False
+symptoms of flu,2,0.45005696090697556,False,False,False
+flu cold,2,0.281527345755158,False,False,False
 influenza a,3,0.5876837973901219,False,True,True
-pneumonia,3,0.21815387622063398,False,False,False
 a influenza,3,0.6576462098744527,False,False,False
-symptoms of flu,3,0.9031394294357838,False,False,False
+pneumonia,3,0.21815387622063398,False,False,False
 rsv,3,0.02284188501003607,True,False,False
-flu cold,4,0.8683459097373776,False,False,False
+symptoms of flu,3,0.9031394294357838,False,False,False
+flu cold,3,0.02374128094825617,True,False,False
 influenza a,4,0.17723592509624503,False,True,True
-pneumonia,4,0.1736658050438744,False,False,False
 a influenza,4,0.7811430648006225,False,False,False
-symptoms of flu,4,0.7212125880462643,False,False,False
+pneumonia,4,0.1736658050438744,False,False,False
 rsv,4,0.13161903234059213,False,False,False
-flu cold,5,0.11558233922054388,False,False,False
+symptoms of flu,4,0.7212125880462643,False,False,False
+flu cold,4,0.8683459097373776,False,False,False
 influenza a,5,0.2852536032730706,False,True,True
-pneumonia,5,0.014827943792782294,True,False,False
 a influenza,5,0.019277641931467682,True,False,False
-symptoms of flu,5,0.8003846223396006,False,False,False
+pneumonia,5,0.014827943792782294,True,False,False
 rsv,5,0.6348947177486437,False,False,False
+symptoms of flu,5,0.8003846223396006,False,False,False
+flu cold,5,0.11558233922054388,False,False,False

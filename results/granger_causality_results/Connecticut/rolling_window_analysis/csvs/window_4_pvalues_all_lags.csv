@@ -1,41 +1,41 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-flu fever,1,0.8241595597410035,False,False,False
-fever flu,1,0.8241595594600745,False,False,False
-a influenza,1,0.5279884563720865,False,False,False
-stomach flu,1,0.5366402883657868,False,True,True
-pneumonia,1,0.5363568218176575,False,False,False
-the flu,1,0.14685151443231892,False,True,False
-the flu symptoms,1,0.03602237037916153,True,True,True
 strep,1,0.44675844404064147,False,False,False
-flu fever,2,0.5963795556476532,False,False,False
-fever flu,2,0.5963795555899754,False,False,False
-a influenza,2,0.42769856617771096,False,False,False
-stomach flu,2,0.00025864594579269763,True,True,True
-pneumonia,2,0.7047705849271964,False,False,False
-the flu,2,0.14303748091021967,False,True,False
-the flu symptoms,2,0.225594130496379,False,True,True
+flu fever,1,0.8241595597410035,False,False,False
+the flu,1,0.14685151443231892,False,True,False
+stomach flu,1,0.5366402883657868,False,True,True
+fever flu,1,0.8241595594600745,False,False,False
+pneumonia,1,0.5363568218176575,False,False,False
+the flu symptoms,1,0.03602237037916153,True,True,True
+a influenza,1,0.5279884563720865,False,False,False
 strep,2,0.012131027884140777,True,False,False
-flu fever,3,0.02251760713011919,True,False,False
-fever flu,3,0.022517607130481673,True,False,False
-a influenza,3,0.01966823498959577,True,False,False
-stomach flu,3,0.035446186568466855,True,True,True
-pneumonia,3,0.04975812728286639,True,False,False
-the flu,3,0.06500168839117584,False,True,False
-the flu symptoms,3,0.0002107462612602367,True,True,True
+flu fever,2,0.5963795556476532,False,False,False
+the flu,2,0.14303748091021967,False,True,False
+stomach flu,2,0.00025864594579269763,True,True,True
+fever flu,2,0.5963795555899754,False,False,False
+pneumonia,2,0.7047705849271964,False,False,False
+the flu symptoms,2,0.225594130496379,False,True,True
+a influenza,2,0.42769856617771096,False,False,False
 strep,3,0.7586691778881054,False,False,False
-flu fever,4,0.8943952561777844,False,False,False
-fever flu,4,0.8943952560843832,False,False,False
-a influenza,4,0.026088008848163858,True,False,False
-stomach flu,4,0.23957829941503891,False,True,True
-pneumonia,4,0.1910928283191833,False,False,False
-the flu,4,0.9858084303202035,False,True,False
-the flu symptoms,4,0.043849450894353194,True,True,True
+flu fever,3,0.02251760713011919,True,False,False
+the flu,3,0.06500168839117584,False,True,False
+stomach flu,3,0.035446186568466855,True,True,True
+fever flu,3,0.022517607130481673,True,False,False
+pneumonia,3,0.04975812728286639,True,False,False
+the flu symptoms,3,0.0002107462612602367,True,True,True
+a influenza,3,0.01966823498959577,True,False,False
 strep,4,0.46658618006879915,False,False,False
-flu fever,5,0.48179215829763045,False,False,False
-fever flu,5,0.4817921583522935,False,False,False
-a influenza,5,0.9160349283712378,False,False,False
-stomach flu,5,0.11918880419610278,False,True,True
-pneumonia,5,0.6659687911804739,False,False,False
-the flu,5,0.0047388029732194185,True,True,False
-the flu symptoms,5,0.1484765893286087,False,True,True
+flu fever,4,0.8943952561777844,False,False,False
+the flu,4,0.9858084303202035,False,True,False
+stomach flu,4,0.23957829941503891,False,True,True
+fever flu,4,0.8943952560843832,False,False,False
+pneumonia,4,0.1910928283191833,False,False,False
+the flu symptoms,4,0.043849450894353194,True,True,True
+a influenza,4,0.026088008848163858,True,False,False
 strep,5,0.806874044527818,False,False,False
+flu fever,5,0.48179215829763045,False,False,False
+the flu,5,0.0047388029732194185,True,True,False
+stomach flu,5,0.11918880419610278,False,True,True
+fever flu,5,0.4817921583522935,False,False,False
+pneumonia,5,0.6659687911804739,False,False,False
+the flu symptoms,5,0.1484765893286087,False,True,True
+a influenza,5,0.9160349283712378,False,False,False

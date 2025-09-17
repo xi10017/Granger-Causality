@@ -1,21 +1,21 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
 pneumonia,1,0.2937547781363969,False,False,False
+the flu symptoms,1,0.48472870208292873,False,False,False
 symptoms of flu,1,0.19295721475586441,False,False,False
 flu a,1,4.784072297186231e-05,True,True,True
-the flu symptoms,1,0.48472870208292873,False,False,False
 pneumonia,2,0.999581388927848,False,False,False
+the flu symptoms,2,0.1727570391110191,False,False,False
 symptoms of flu,2,0.1972865073651929,False,False,False
 flu a,2,0.590316971052367,False,True,True
-the flu symptoms,2,0.1727570391110191,False,False,False
 pneumonia,3,0.04177093652779613,True,False,False
+the flu symptoms,3,0.4485862772720828,False,False,False
 symptoms of flu,3,0.34741799976382726,False,False,False
 flu a,3,0.9777536324349265,False,True,True
-the flu symptoms,3,0.4485862772720828,False,False,False
 pneumonia,4,0.8761085114480502,False,False,False
+the flu symptoms,4,0.024650851077443952,True,False,False
 symptoms of flu,4,0.014874960633111351,True,False,False
 flu a,4,0.5580396889384822,False,True,True
-the flu symptoms,4,0.024650851077443952,True,False,False
 pneumonia,5,0.9896543291787196,False,False,False
+the flu symptoms,5,0.009857507496868496,True,False,False
 symptoms of flu,5,0.6278229560361679,False,False,False
 flu a,5,0.3752649235970317,False,True,True
-the flu symptoms,5,0.009857507496868496,True,False,False

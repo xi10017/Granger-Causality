@@ -1,36 +1,36 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-flu cold,1,0.019608997139876048,True,False,False
 flu fever,1,0.09423865446409005,False,False,False
-symptoms of flu,1,0.45449530791600257,False,False,False
+flu contagious,1,0.13938824868853583,False,False,False
 contagious flu,1,0.41920544013443684,False,False,False
 rsv,1,0.6929867498855852,False,False,False
-flu contagious,1,0.13938824868853583,False,False,False
 the flu symptoms,1,0.7474922203357273,False,False,False
-flu cold,2,0.9882525901641519,False,False,False
+symptoms of flu,1,0.45449530791600257,False,False,False
+flu cold,1,0.019608997139876048,True,False,False
 flu fever,2,0.7115100096911215,False,False,False
-symptoms of flu,2,0.4811914395516591,False,False,False
+flu contagious,2,0.873932977995372,False,False,False
 contagious flu,2,0.0040533920327686605,True,False,False
 rsv,2,0.746768454217509,False,False,False
-flu contagious,2,0.873932977995372,False,False,False
 the flu symptoms,2,0.04566248868451642,True,False,False
-flu cold,3,0.24662317563071692,False,False,False
+symptoms of flu,2,0.4811914395516591,False,False,False
+flu cold,2,0.9882525901641519,False,False,False
 flu fever,3,0.3299721152841887,False,False,False
-symptoms of flu,3,0.0318689643591422,True,False,False
+flu contagious,3,0.030739262177964258,True,False,False
 contagious flu,3,0.5590321146663073,False,False,False
 rsv,3,0.011796872138022992,True,False,False
-flu contagious,3,0.030739262177964258,True,False,False
 the flu symptoms,3,0.22866016873748335,False,False,False
-flu cold,4,0.07753819565016123,False,False,False
+symptoms of flu,3,0.0318689643591422,True,False,False
+flu cold,3,0.24662317563071692,False,False,False
 flu fever,4,0.034933102115727345,True,False,False
-symptoms of flu,4,0.41064672251022405,False,False,False
+flu contagious,4,0.19227814357893444,False,False,False
 contagious flu,4,0.6362835819963149,False,False,False
 rsv,4,0.9440949805810643,False,False,False
-flu contagious,4,0.19227814357893444,False,False,False
 the flu symptoms,4,0.059629551300681115,False,False,False
-flu cold,5,0.48121956322767157,False,False,False
+symptoms of flu,4,0.41064672251022405,False,False,False
+flu cold,4,0.07753819565016123,False,False,False
 flu fever,5,0.9751466178933323,False,False,False
-symptoms of flu,5,0.5109115407697259,False,False,False
+flu contagious,5,0.5264190455655577,False,False,False
 contagious flu,5,0.20935022117898822,False,False,False
 rsv,5,0.05987391083709139,False,False,False
-flu contagious,5,0.5264190455655577,False,False,False
 the flu symptoms,5,0.6717023066795147,False,False,False
+symptoms of flu,5,0.5109115407697259,False,False,False
+flu cold,5,0.48121956322767157,False,False,False

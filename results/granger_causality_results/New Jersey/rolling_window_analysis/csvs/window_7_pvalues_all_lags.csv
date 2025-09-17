@@ -1,31 +1,31 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
 flu fever,1,0.9484740181487915,False,False,False
-fever flu,1,0.617225676628392,False,False,False
-symptoms of flu,1,0.7819799636211058,False,False,False
 stomach flu,1,0.5694437479070538,False,True,False
-the flu,1,0.007916701572443154,True,True,False
+fever flu,1,0.617225676628392,False,False,False
 the flu symptoms,1,0.14005828119588973,False,False,False
+symptoms of flu,1,0.7819799636211058,False,False,False
+the flu,1,0.007916701572443154,True,True,False
 flu fever,2,0.08578099479486305,False,False,False
-fever flu,2,0.04981078274508212,True,False,False
-symptoms of flu,2,0.5467458682477104,False,False,False
 stomach flu,2,0.8409792124776188,False,True,False
-the flu,2,0.0035826683515253156,True,True,False
+fever flu,2,0.04981078274508212,True,False,False
 the flu symptoms,2,0.010942595509168044,True,False,False
+symptoms of flu,2,0.5467458682477104,False,False,False
+the flu,2,0.0035826683515253156,True,True,False
 flu fever,3,0.03176046473504172,True,False,False
-fever flu,3,0.10687848987154466,False,False,False
-symptoms of flu,3,0.8206921441752704,False,False,False
 stomach flu,3,0.7648054835458538,False,True,False
-the flu,3,0.36668118725653387,False,True,False
+fever flu,3,0.10687848987154466,False,False,False
 the flu symptoms,3,0.9409698984343815,False,False,False
+symptoms of flu,3,0.8206921441752704,False,False,False
+the flu,3,0.36668118725653387,False,True,False
 flu fever,4,0.1842305602832751,False,False,False
-fever flu,4,0.1759474359811087,False,False,False
-symptoms of flu,4,0.691864112141205,False,False,False
 stomach flu,4,0.004805078793244274,True,True,False
-the flu,4,0.11844999398232507,False,True,False
+fever flu,4,0.1759474359811087,False,False,False
 the flu symptoms,4,0.6027863814316847,False,False,False
+symptoms of flu,4,0.691864112141205,False,False,False
+the flu,4,0.11844999398232507,False,True,False
 flu fever,5,0.03052193775227305,True,False,False
-fever flu,5,0.04646433417751221,True,False,False
-symptoms of flu,5,0.021204471868660674,True,False,False
 stomach flu,5,0.5945018379566784,False,True,False
-the flu,5,0.002636681489829751,True,True,False
+fever flu,5,0.04646433417751221,True,False,False
 the flu symptoms,5,0.40819422457234555,False,False,False
+symptoms of flu,5,0.021204471868660674,True,False,False
+the flu,5,0.002636681489829751,True,True,False

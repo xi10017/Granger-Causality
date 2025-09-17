@@ -1,36 +1,36 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-flu cold,1,0.049967368650209246,True,False,False
 flu symptoms,1,0.6971200126426865,False,False,False
-symptoms of flu,1,0.8062124106150136,False,False,False
-pneumonia,1,0.3469104490358541,False,False,False
-the flu,1,0.006212770536221131,True,False,False
+flu cold,1,0.049967368650209246,True,False,False
 bronchitis,1,0.7016138210989833,False,False,False
+pneumonia,1,0.3469104490358541,False,False,False
 contagious flu,1,0.9959715342559838,False,False,False
-flu cold,2,0.09174766347378213,False,False,False
+symptoms of flu,1,0.8062124106150136,False,False,False
+the flu,1,0.006212770536221131,True,False,False
 flu symptoms,2,0.5255093845314016,False,False,False
-symptoms of flu,2,0.022371427623167565,True,False,False
-pneumonia,2,0.22403409361401586,False,False,False
-the flu,2,0.3540765520139775,False,False,False
+flu cold,2,0.09174766347378213,False,False,False
 bronchitis,2,0.06049255710055432,False,False,False
+pneumonia,2,0.22403409361401586,False,False,False
 contagious flu,2,0.23911944861426343,False,False,False
-flu cold,3,0.9459086438401694,False,False,False
+symptoms of flu,2,0.022371427623167565,True,False,False
+the flu,2,0.3540765520139775,False,False,False
 flu symptoms,3,0.04859449478189573,True,False,False
-symptoms of flu,3,0.6823890051853654,False,False,False
-pneumonia,3,0.6675932885404765,False,False,False
-the flu,3,0.5757973594914948,False,False,False
+flu cold,3,0.9459086438401694,False,False,False
 bronchitis,3,0.36485800745472463,False,False,False
+pneumonia,3,0.6675932885404765,False,False,False
 contagious flu,3,0.03875899004759361,True,False,False
-flu cold,4,0.17409631930121253,False,False,False
+symptoms of flu,3,0.6823890051853654,False,False,False
+the flu,3,0.5757973594914948,False,False,False
 flu symptoms,4,0.2916596555898738,False,False,False
-symptoms of flu,4,0.6417719393339851,False,False,False
-pneumonia,4,0.04197903603994724,True,False,False
-the flu,4,0.6571521620502119,False,False,False
+flu cold,4,0.17409631930121253,False,False,False
 bronchitis,4,0.5676848068958291,False,False,False
+pneumonia,4,0.04197903603994724,True,False,False
 contagious flu,4,0.5373533495806895,False,False,False
-flu cold,5,0.7266352431456659,False,False,False
+symptoms of flu,4,0.6417719393339851,False,False,False
+the flu,4,0.6571521620502119,False,False,False
 flu symptoms,5,0.9528627805636471,False,False,False
-symptoms of flu,5,0.277947191265776,False,False,False
-pneumonia,5,0.08187583312388147,False,False,False
-the flu,5,0.8346618353976638,False,False,False
+flu cold,5,0.7266352431456659,False,False,False
 bronchitis,5,0.0375982156601659,True,False,False
+pneumonia,5,0.08187583312388147,False,False,False
 contagious flu,5,0.5453241665027279,False,False,False
+symptoms of flu,5,0.277947191265776,False,False,False
+the flu,5,0.8346618353976638,False,False,False

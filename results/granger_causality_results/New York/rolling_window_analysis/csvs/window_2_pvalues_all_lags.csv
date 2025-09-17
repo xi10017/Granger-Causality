@@ -1,41 +1,41 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-flu a symptoms,1,0.9741329512829437,False,False,False
-flu medicine,1,0.3411135485119289,False,False,False
 flu symptoms,1,0.008951723025842252,True,False,False
-stomach flu,1,0.015797657674553142,True,False,False
-the flu,1,0.06464765687233849,False,False,False
-contagious flu,1,0.3165647637303679,False,False,False
 how long flu,1,0.03747736138035577,True,False,False
 symptoms of the flu,1,0.04778589953853026,True,False,False
-flu a symptoms,2,0.03509642587145237,True,False,False
-flu medicine,2,0.9056190027085451,False,False,False
+stomach flu,1,0.015797657674553142,True,False,False
+flu a symptoms,1,0.9741329512829437,False,False,False
+flu medicine,1,0.3411135485119289,False,False,False
+contagious flu,1,0.3165647637303679,False,False,False
+the flu,1,0.06464765687233849,False,False,False
 flu symptoms,2,0.5192449850573789,False,False,False
-stomach flu,2,0.06935702171039072,False,False,False
-the flu,2,0.584327105028501,False,False,False
-contagious flu,2,0.3710713733645803,False,False,False
 how long flu,2,0.1984859301674928,False,False,False
 symptoms of the flu,2,0.5973357225229363,False,False,False
-flu a symptoms,3,0.1578232280244806,False,False,False
-flu medicine,3,0.2748608339581957,False,False,False
+stomach flu,2,0.06935702171039072,False,False,False
+flu a symptoms,2,0.03509642587145237,True,False,False
+flu medicine,2,0.9056190027085451,False,False,False
+contagious flu,2,0.3710713733645803,False,False,False
+the flu,2,0.584327105028501,False,False,False
 flu symptoms,3,0.28768580474405,False,False,False
-stomach flu,3,0.5095007857052036,False,False,False
-the flu,3,0.3538463450342657,False,False,False
-contagious flu,3,0.6987599465510368,False,False,False
 how long flu,3,0.49012921923606445,False,False,False
 symptoms of the flu,3,0.10304341929922586,False,False,False
-flu a symptoms,4,0.5206926021163149,False,False,False
-flu medicine,4,0.04817490380829797,True,False,False
+stomach flu,3,0.5095007857052036,False,False,False
+flu a symptoms,3,0.1578232280244806,False,False,False
+flu medicine,3,0.2748608339581957,False,False,False
+contagious flu,3,0.6987599465510368,False,False,False
+the flu,3,0.3538463450342657,False,False,False
 flu symptoms,4,0.029239335100580757,True,False,False
-stomach flu,4,0.3087202866203444,False,False,False
-the flu,4,0.07580249651414649,False,False,False
-contagious flu,4,0.9165471911937575,False,False,False
 how long flu,4,0.8872580572475155,False,False,False
 symptoms of the flu,4,0.6734392408266244,False,False,False
-flu a symptoms,5,0.4323327150037164,False,False,False
-flu medicine,5,0.14309606934812066,False,False,False
+stomach flu,4,0.3087202866203444,False,False,False
+flu a symptoms,4,0.5206926021163149,False,False,False
+flu medicine,4,0.04817490380829797,True,False,False
+contagious flu,4,0.9165471911937575,False,False,False
+the flu,4,0.07580249651414649,False,False,False
 flu symptoms,5,0.12970997143399168,False,False,False
-stomach flu,5,0.26667969496367105,False,False,False
-the flu,5,0.007433921052017344,True,False,False
-contagious flu,5,0.014389418160231031,True,False,False
 how long flu,5,0.41057009167376657,False,False,False
 symptoms of the flu,5,0.027377655014559646,True,False,False
+stomach flu,5,0.26667969496367105,False,False,False
+flu a symptoms,5,0.4323327150037164,False,False,False
+flu medicine,5,0.14309606934812066,False,False,False
+contagious flu,5,0.014389418160231031,True,False,False
+the flu,5,0.007433921052017344,True,False,False

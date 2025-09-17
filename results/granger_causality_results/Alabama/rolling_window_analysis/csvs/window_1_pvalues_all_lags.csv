@@ -1,36 +1,36 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
 flu symptoms,1,0.2126651273720022,False,True,False
-flu type,1,0.18396032748283853,False,True,False
 bronchitis,1,0.7623352081850817,False,True,False
-contagious flu,1,0.7941712852220832,False,True,False
-flu contagious,1,0.7941712852317643,False,True,False
-the flu symptoms,1,0.842592138977696,False,True,True
 flu test,1,0.1078542168917425,False,False,False
+flu type,1,0.18396032748283853,False,True,False
+flu contagious,1,0.7941712852317643,False,True,False
+contagious flu,1,0.7941712852220832,False,True,False
+the flu symptoms,1,0.842592138977696,False,True,True
 flu symptoms,2,0.30724766344763227,False,True,False
-flu type,2,0.08243803578322526,False,True,False
 bronchitis,2,0.04976211977789347,True,True,False
-contagious flu,2,0.08328120300330374,False,True,False
-flu contagious,2,0.08328120301041256,False,True,False
-the flu symptoms,2,0.001532250921753534,True,True,True
 flu test,2,0.9673001057219391,False,False,False
+flu type,2,0.08243803578322526,False,True,False
+flu contagious,2,0.08328120301041256,False,True,False
+contagious flu,2,0.08328120300330374,False,True,False
+the flu symptoms,2,0.001532250921753534,True,True,True
 flu symptoms,3,0.010774996333663505,True,True,False
-flu type,3,0.005050653138540335,True,True,False
 bronchitis,3,0.21181940383773565,False,True,False
-contagious flu,3,0.1551779090756746,False,True,False
-flu contagious,3,0.15517790906706153,False,True,False
-the flu symptoms,3,0.99302178183207,False,True,True
 flu test,3,0.022597691089386685,True,False,False
+flu type,3,0.005050653138540335,True,True,False
+flu contagious,3,0.15517790906706153,False,True,False
+contagious flu,3,0.1551779090756746,False,True,False
+the flu symptoms,3,0.99302178183207,False,True,True
 flu symptoms,4,0.1903561867793794,False,True,False
-flu type,4,0.949307658824831,False,True,False
 bronchitis,4,0.04153377363564631,True,True,False
-contagious flu,4,0.008612395881984767,True,True,False
-flu contagious,4,0.008612395882069272,True,True,False
-the flu symptoms,4,0.2576893089760927,False,True,True
 flu test,4,0.8491412344613772,False,False,False
+flu type,4,0.949307658824831,False,True,False
+flu contagious,4,0.008612395882069272,True,True,False
+contagious flu,4,0.008612395881984767,True,True,False
+the flu symptoms,4,0.2576893089760927,False,True,True
 flu symptoms,5,0.023597528436118863,True,True,False
-flu type,5,0.6876288502188508,False,True,False
 bronchitis,5,0.014738082655020966,True,True,False
-contagious flu,5,0.9829187267645547,False,True,False
-flu contagious,5,0.9829187267741623,False,True,False
-the flu symptoms,5,0.8291139126623348,False,True,True
 flu test,5,0.7012849930755439,False,False,False
+flu type,5,0.6876288502188508,False,True,False
+flu contagious,5,0.9829187267741623,False,True,False
+contagious flu,5,0.9829187267645547,False,True,False
+the flu symptoms,5,0.8291139126623348,False,True,True

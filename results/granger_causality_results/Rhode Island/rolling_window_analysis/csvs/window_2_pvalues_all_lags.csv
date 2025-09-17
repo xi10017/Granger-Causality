@@ -1,16 +1,16 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
 flu symptoms,1,0.0185524099094099,True,False,False
-how long flu,1,0.027820394092156763,True,False,False
 the flu,1,0.05472122780692374,False,False,False
+how long flu,1,0.027820394092156763,True,False,False
 flu symptoms,2,0.5011231283221045,False,False,False
-how long flu,2,0.19005105226372412,False,False,False
 the flu,2,0.9346409842292998,False,False,False
+how long flu,2,0.19005105226372412,False,False,False
 flu symptoms,3,0.1133659921118543,False,False,False
-how long flu,3,0.09748573566597529,False,False,False
 the flu,3,0.00412530127304553,True,False,False
+how long flu,3,0.09748573566597529,False,False,False
 flu symptoms,4,0.48606905610029927,False,False,False
-how long flu,4,0.5472734855790556,False,False,False
 the flu,4,0.7517681669476457,False,False,False
+how long flu,4,0.5472734855790556,False,False,False
 flu symptoms,5,0.6908820656178645,False,False,False
-how long flu,5,0.293920497335008,False,False,False
 the flu,5,0.12863875670374605,False,False,False
+how long flu,5,0.293920497335008,False,False,False

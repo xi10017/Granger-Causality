@@ -36,30 +36,30 @@ TERMS SIGNIFICANT ACROSS WINDOWS:
     how long are you contagious: 3/8 windows
     flu contagious: 3/8 windows
     get rid of the flu: 3/8 windows
-    how long is the flu contagious: 2/8 windows
     is flu contagious: 2/8 windows
+    how long is the flu contagious: 2/8 windows
     how long is flu contagious: 2/8 windows
     is the flu contagious: 2/8 windows
-    fever and cough: 2/8 windows
-    how contagious is the flu: 2/8 windows
     type a flu: 2/8 windows
     flu type a: 2/8 windows
-    cough fever: 2/8 windows
+    how contagious is the flu: 2/8 windows
+    fever and cough: 2/8 windows
     fever cough: 2/8 windows
+    cough fever: 2/8 windows
     contagious flu: 1/8 windows
 
   FDR significant terms (showing window counts out of 8 total):
     tamiflu side effects: 2/8 windows
     flu remedies: 2/8 windows
     how long is the flu contagious: 1/8 windows
-    cough fever: 1/8 windows
-    how contagious is the flu: 1/8 windows
     fever cough: 1/8 windows
-    flu type: 1/8 windows
-    contagious flu: 1/8 windows
     get rid of the flu: 1/8 windows
-    how long contagious: 1/8 windows
+    flu type: 1/8 windows
+    cough fever: 1/8 windows
     flu contagious: 1/8 windows
+    how long contagious: 1/8 windows
+    contagious flu: 1/8 windows
+    how contagious is the flu: 1/8 windows
     incubation period flu: 1/8 windows
 
   Bonferroni significant terms (showing window counts out of 8 total):

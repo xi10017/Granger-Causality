@@ -1,16 +1,16 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-how long flu,1,0.18460034515052082,False,False,False
 stomach flu symptoms,1,0.04482424343694054,True,False,False
 flu how long,1,0.1294672855688217,False,False,False
-how long flu,2,0.006124755009076864,True,False,False
+how long flu,1,0.18460034515052082,False,False,False
 stomach flu symptoms,2,0.25854363379316625,False,False,False
 flu how long,2,0.008673264174307799,True,False,False
-how long flu,3,0.7580011454652388,False,False,False
+how long flu,2,0.006124755009076864,True,False,False
 stomach flu symptoms,3,0.13773918938344215,False,False,False
 flu how long,3,0.7780835638029586,False,False,False
-how long flu,4,0.6276844816690574,False,False,False
+how long flu,3,0.7580011454652388,False,False,False
 stomach flu symptoms,4,0.9581277588588621,False,False,False
 flu how long,4,0.5991378104161451,False,False,False
-how long flu,5,0.23469716783728872,False,False,False
+how long flu,4,0.6276844816690574,False,False,False
 stomach flu symptoms,5,0.591875288513219,False,False,False
 flu how long,5,0.29886318547534224,False,False,False
+how long flu,5,0.23469716783728872,False,False,False

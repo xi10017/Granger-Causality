@@ -48,9 +48,9 @@ TERMS SIGNIFICANT ACROSS WINDOWS:
   FDR significant terms (showing window counts out of 8 total):
     influenza a: 2/8 windows
     flu symptoms: 1/8 windows
+    rsv: 1/8 windows
     contagious flu: 1/8 windows
     flu a: 1/8 windows
-    rsv: 1/8 windows
 
   Bonferroni significant terms (showing window counts out of 8 total):
     influenza a: 2/8 windows

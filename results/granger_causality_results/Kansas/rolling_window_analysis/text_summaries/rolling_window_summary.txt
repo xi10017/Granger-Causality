@@ -28,13 +28,13 @@ TERMS SIGNIFICANT AT LEAST ONCE:
 TERMS SIGNIFICANT ACROSS WINDOWS:
   Raw significant terms (showing window counts out of 8 total):
     stomach flu: 7/8 windows
-    the flu: 6/8 windows
-    rsv: 6/8 windows
     flu how long: 6/8 windows
+    rsv: 6/8 windows
+    the flu: 6/8 windows
     influenza a symptoms: 5/8 windows
-    symptoms of flu: 4/8 windows
-    influenza symptoms: 4/8 windows
     flu contagious: 4/8 windows
+    influenza symptoms: 4/8 windows
+    symptoms of flu: 4/8 windows
     flu a: 4/8 windows
     contagious flu: 4/8 windows
     influenza b: 4/8 windows
@@ -57,16 +57,16 @@ TERMS SIGNIFICANT ACROSS WINDOWS:
     influenza symptoms: 3/8 windows
     flu cold: 2/8 windows
     the flu: 2/8 windows
-    symptoms of flu: 2/8 windows
-    influenza a symptoms: 2/8 windows
     influenza b: 2/8 windows
+    influenza a symptoms: 2/8 windows
+    symptoms of flu: 2/8 windows
     flu contagious: 1/8 windows
-    a influenza: 1/8 windows
     influenza a: 1/8 windows
+    a influenza: 1/8 windows
     how long flu: 1/8 windows
-    sinus: 1/8 windows
-    bronchitis: 1/8 windows
     flu a: 1/8 windows
+    bronchitis: 1/8 windows
+    sinus: 1/8 windows
 
   Bonferroni significant terms (showing window counts out of 8 total):
     contagious flu: 2/8 windows

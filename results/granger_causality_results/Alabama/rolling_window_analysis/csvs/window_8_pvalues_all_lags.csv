@@ -1,61 +1,61 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-flu fever,1,0.35503661155740585,False,True,True
-fever flu,1,0.3550366115916872,False,True,True
-flu symptoms,1,0.1929664004174719,False,True,True
-symptoms of flu,1,0.3999183733816547,False,True,False
-the flu,1,0.40205430425842914,False,True,False
-how long flu,1,0.6471058869495085,False,False,False
-contagious flu,1,0.4370180357501905,False,False,False
 how long does flu last,1,0.05729957045144507,False,False,False
+flu symptoms,1,0.1929664004174719,False,True,True
+flu fever,1,0.35503661155740585,False,True,True
+how long flu,1,0.6471058869495085,False,False,False
+flu test,1,0.3625373276330621,False,False,False
+fever flu,1,0.3550366115916872,False,True,True
 flu how long,1,0.6471058858247762,False,False,False
 flu contagious,1,0.43701803585499543,False,False,False
+contagious flu,1,0.4370180357501905,False,False,False
 the flu symptoms,1,0.4389017425335707,False,False,False
-flu test,1,0.3625373276330621,False,False,False
-flu fever,2,0.021478120845160726,True,True,True
-fever flu,2,0.021478120847577494,True,True,True
-flu symptoms,2,0.09053760068594091,False,True,True
-symptoms of flu,2,0.24098737047141325,False,True,False
-the flu,2,0.41684295243060965,False,True,False
-how long flu,2,0.02842332378441798,True,False,False
-contagious flu,2,0.040992275864993814,True,False,False
+symptoms of flu,1,0.3999183733816547,False,True,False
+the flu,1,0.40205430425842914,False,True,False
 how long does flu last,2,0.17396096810225029,False,False,False
+flu symptoms,2,0.09053760068594091,False,True,True
+flu fever,2,0.021478120845160726,True,True,True
+how long flu,2,0.02842332378441798,True,False,False
+flu test,2,0.27597298234736367,False,False,False
+fever flu,2,0.021478120847577494,True,True,True
 flu how long,2,0.028423323803481556,True,False,False
 flu contagious,2,0.040992275857856225,True,False,False
+contagious flu,2,0.040992275864993814,True,False,False
 the flu symptoms,2,0.8689708148403325,False,False,False
-flu test,2,0.27597298234736367,False,False,False
-flu fever,3,0.1729966852067118,False,True,True
-fever flu,3,0.17299668520588463,False,True,True
-flu symptoms,3,0.0006770044395511666,True,True,True
-symptoms of flu,3,0.012438125082496908,True,True,False
-the flu,3,0.575917012974525,False,True,False
-how long flu,3,0.5653189461529043,False,False,False
-contagious flu,3,0.06135122686590203,False,False,False
+symptoms of flu,2,0.24098737047141325,False,True,False
+the flu,2,0.41684295243060965,False,True,False
 how long does flu last,3,0.6048838500512521,False,False,False
+flu symptoms,3,0.0006770044395511666,True,True,True
+flu fever,3,0.1729966852067118,False,True,True
+how long flu,3,0.5653189461529043,False,False,False
+flu test,3,0.0532057201615101,False,False,False
+fever flu,3,0.17299668520588463,False,True,True
 flu how long,3,0.5653189460465183,False,False,False
 flu contagious,3,0.061351226889004684,False,False,False
+contagious flu,3,0.06135122686590203,False,False,False
 the flu symptoms,3,0.10570716906328888,False,False,False
-flu test,3,0.0532057201615101,False,False,False
-flu fever,4,0.011512842782371475,True,True,True
-fever flu,4,0.011512842783523358,True,True,True
-flu symptoms,4,0.09650261239361604,False,True,True
-symptoms of flu,4,0.5785530238877633,False,True,False
-the flu,4,0.0036979186038319195,True,True,False
-how long flu,4,0.09317998231077605,False,False,False
-contagious flu,4,0.29606515002635925,False,False,False
+symptoms of flu,3,0.012438125082496908,True,True,False
+the flu,3,0.575917012974525,False,True,False
 how long does flu last,4,0.04810100120899355,True,False,False
+flu symptoms,4,0.09650261239361604,False,True,True
+flu fever,4,0.011512842782371475,True,True,True
+how long flu,4,0.09317998231077605,False,False,False
+flu test,4,0.4362437616595658,False,False,False
+fever flu,4,0.011512842783523358,True,True,True
 flu how long,4,0.09317998227326711,False,False,False
 flu contagious,4,0.29606515006247996,False,False,False
+contagious flu,4,0.29606515002635925,False,False,False
 the flu symptoms,4,0.7464462169466168,False,False,False
-flu test,4,0.4362437616595658,False,False,False
-flu fever,5,0.0021671736332763763,True,True,True
-fever flu,5,0.0021671736334395956,True,True,True
-flu symptoms,5,0.31722600462951167,False,True,True
-symptoms of flu,5,0.053429346939386294,False,True,False
-the flu,5,0.09438765104284867,False,True,False
-how long flu,5,0.19214442600083737,False,False,False
-contagious flu,5,0.5223140003221618,False,False,False
+symptoms of flu,4,0.5785530238877633,False,True,False
+the flu,4,0.0036979186038319195,True,True,False
 how long does flu last,5,0.5972121878798751,False,False,False
+flu symptoms,5,0.31722600462951167,False,True,True
+flu fever,5,0.0021671736332763763,True,True,True
+how long flu,5,0.19214442600083737,False,False,False
+flu test,5,0.030720708302123756,True,False,False
+fever flu,5,0.0021671736334395956,True,True,True
 flu how long,5,0.19214442613651325,False,False,False
 flu contagious,5,0.52231400036105,False,False,False
+contagious flu,5,0.5223140003221618,False,False,False
 the flu symptoms,5,0.03904938168426524,True,False,False
-flu test,5,0.030720708302123756,True,False,False
+symptoms of flu,5,0.053429346939386294,False,True,False
+the flu,5,0.09438765104284867,False,True,False

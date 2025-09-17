@@ -1,66 +1,66 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-flu cold,1,0.766432034847417,False,False,False
-flu fever,1,0.1195654399778969,False,False,False
-fever flu,1,0.11956543996667783,False,False,False
 flu symptoms,1,0.04765458976809255,True,False,False
-oscillococcinum,1,0.45344159271559126,False,False,False
-pneumonia,1,0.7344423936998757,False,False,False
-symptoms of flu,1,0.1845506137071359,False,False,False
-flu type,1,0.17201142110379308,False,False,False
-type a flu,1,0.7813964549468676,False,False,False
+flu fever,1,0.1195654399778969,False,False,False
 how long flu,1,0.08527369115124003,False,False,False
+type a flu,1,0.7813964549468676,False,False,False
 flu a,1,0.14624328252817173,False,False,False
-rsv,1,0.012460651522277037,True,False,False
+fever flu,1,0.11956543996667783,False,False,False
 flu how long,1,0.6285457013886138,False,False,False
-flu cold,2,0.006241486443633413,True,False,False
-flu fever,2,0.024704893283070697,True,False,False
-fever flu,2,0.024704893272642116,True,False,False
+oscillococcinum,1,0.45344159271559126,False,False,False
+flu type,1,0.17201142110379308,False,False,False
+pneumonia,1,0.7344423936998757,False,False,False
+rsv,1,0.012460651522277037,True,False,False
+symptoms of flu,1,0.1845506137071359,False,False,False
+flu cold,1,0.766432034847417,False,False,False
 flu symptoms,2,0.6727595830255074,False,False,False
-oscillococcinum,2,0.019516258211846087,True,False,False
-pneumonia,2,0.6796431198295492,False,False,False
-symptoms of flu,2,0.8716198897449421,False,False,False
-flu type,2,0.32598590255685134,False,False,False
-type a flu,2,0.731674420823548,False,False,False
+flu fever,2,0.024704893283070697,True,False,False
 how long flu,2,0.28096844875091104,False,False,False
+type a flu,2,0.731674420823548,False,False,False
 flu a,2,0.03783515391539813,True,False,False
-rsv,2,0.5495827488179013,False,False,False
+fever flu,2,0.024704893272642116,True,False,False
 flu how long,2,0.4230991996111677,False,False,False
-flu cold,3,0.43021131592463746,False,False,False
-flu fever,3,0.13355435920612257,False,False,False
-fever flu,3,0.13355435916781946,False,False,False
+oscillococcinum,2,0.019516258211846087,True,False,False
+flu type,2,0.32598590255685134,False,False,False
+pneumonia,2,0.6796431198295492,False,False,False
+rsv,2,0.5495827488179013,False,False,False
+symptoms of flu,2,0.8716198897449421,False,False,False
+flu cold,2,0.006241486443633413,True,False,False
 flu symptoms,3,0.009374805020089555,True,False,False
-oscillococcinum,3,0.787945412731945,False,False,False
-pneumonia,3,0.2874002095689218,False,False,False
-symptoms of flu,3,0.8093047175009782,False,False,False
-flu type,3,0.8186846190097449,False,False,False
-type a flu,3,0.0207339412988573,True,False,False
+flu fever,3,0.13355435920612257,False,False,False
 how long flu,3,0.031015945032782495,True,False,False
+type a flu,3,0.0207339412988573,True,False,False
 flu a,3,0.9434457748876854,False,False,False
-rsv,3,0.8953532763185167,False,False,False
+fever flu,3,0.13355435916781946,False,False,False
 flu how long,3,0.19568953069174608,False,False,False
-flu cold,4,0.6443050140276897,False,False,False
-flu fever,4,0.06550629031518398,False,False,False
-fever flu,4,0.06550629032968626,False,False,False
+oscillococcinum,3,0.787945412731945,False,False,False
+flu type,3,0.8186846190097449,False,False,False
+pneumonia,3,0.2874002095689218,False,False,False
+rsv,3,0.8953532763185167,False,False,False
+symptoms of flu,3,0.8093047175009782,False,False,False
+flu cold,3,0.43021131592463746,False,False,False
 flu symptoms,4,0.23640184106058276,False,False,False
-oscillococcinum,4,0.20639570071840516,False,False,False
-pneumonia,4,0.8499323147629927,False,False,False
-symptoms of flu,4,0.7174513017924515,False,False,False
-flu type,4,0.16029278348994738,False,False,False
-type a flu,4,0.27258775938605134,False,False,False
+flu fever,4,0.06550629031518398,False,False,False
 how long flu,4,0.6012227308721704,False,False,False
+type a flu,4,0.27258775938605134,False,False,False
 flu a,4,0.36114713488240036,False,False,False
-rsv,4,0.16200925028116875,False,False,False
+fever flu,4,0.06550629032968626,False,False,False
 flu how long,4,0.038641546346521304,True,False,False
-flu cold,5,0.1266934617719538,False,False,False
-flu fever,5,0.6434748189650317,False,False,False
-fever flu,5,0.6434748189680585,False,False,False
+oscillococcinum,4,0.20639570071840516,False,False,False
+flu type,4,0.16029278348994738,False,False,False
+pneumonia,4,0.8499323147629927,False,False,False
+rsv,4,0.16200925028116875,False,False,False
+symptoms of flu,4,0.7174513017924515,False,False,False
+flu cold,4,0.6443050140276897,False,False,False
 flu symptoms,5,0.3345285959031128,False,False,False
-oscillococcinum,5,0.3797546959657404,False,False,False
-pneumonia,5,0.03183377953336087,True,False,False
-symptoms of flu,5,0.036875484370256506,True,False,False
-flu type,5,0.0360357575198733,True,False,False
-type a flu,5,0.6442798549602723,False,False,False
+flu fever,5,0.6434748189650317,False,False,False
 how long flu,5,0.7276558870385401,False,False,False
+type a flu,5,0.6442798549602723,False,False,False
 flu a,5,0.15316918541417177,False,False,False
-rsv,5,0.8904327116884769,False,False,False
+fever flu,5,0.6434748189680585,False,False,False
 flu how long,5,0.5859102285864104,False,False,False
+oscillococcinum,5,0.3797546959657404,False,False,False
+flu type,5,0.0360357575198733,True,False,False
+pneumonia,5,0.03183377953336087,True,False,False
+rsv,5,0.8904327116884769,False,False,False
+symptoms of flu,5,0.036875484370256506,True,False,False
+flu cold,5,0.1266934617719538,False,False,False

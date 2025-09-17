@@ -1,16 +1,16 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
 influenza a,1,0.551572285505809,False,False,False
-a influenza,1,0.5515722851471294,False,False,False
 rsv,1,0.6226168846496106,False,False,False
+a influenza,1,0.5515722851471294,False,False,False
 influenza a,2,0.005695162305005324,True,False,False
-a influenza,2,0.005695162305586097,True,False,False
 rsv,2,0.011102583537879683,True,False,False
+a influenza,2,0.005695162305586097,True,False,False
 influenza a,3,0.8119108863198402,False,False,False
-a influenza,3,0.811910886395692,False,False,False
 rsv,3,0.2545064969420449,False,False,False
+a influenza,3,0.811910886395692,False,False,False
 influenza a,4,0.9723481951003952,False,False,False
-a influenza,4,0.9723481951913038,False,False,False
 rsv,4,0.2437582875759534,False,False,False
+a influenza,4,0.9723481951913038,False,False,False
 influenza a,5,0.11653911376616889,False,False,False
-a influenza,5,0.1165391137754529,False,False,False
 rsv,5,0.549447785847929,False,False,False
+a influenza,5,0.1165391137754529,False,False,False

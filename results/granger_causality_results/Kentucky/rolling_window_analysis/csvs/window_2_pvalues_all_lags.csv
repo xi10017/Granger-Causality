@@ -1,36 +1,36 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-flu fever,1,0.9363106363087532,False,False,False
 flu symptoms,1,0.007370072513495436,True,False,False
-the flu,1,0.9796983989857303,False,False,False
+flu fever,1,0.9363106363087532,False,False,False
 b flu,1,0.9088604440491205,False,False,False
-contagious flu,1,0.04522266999786143,True,False,False
 flu how long,1,0.38245400789188844,False,False,False
 flu contagious,1,0.04522264134724802,True,False,False
-flu fever,2,0.9356852483333585,False,False,False
+contagious flu,1,0.04522266999786143,True,False,False
+the flu,1,0.9796983989857303,False,False,False
 flu symptoms,2,0.4792597767076918,False,False,False
-the flu,2,0.027114292717101664,True,False,False
+flu fever,2,0.9356852483333585,False,False,False
 b flu,2,0.02996170476527156,True,False,False
-contagious flu,2,0.11716074446305752,False,False,False
 flu how long,2,0.18968303779756443,False,False,False
 flu contagious,2,0.1171607407570214,False,False,False
-flu fever,3,0.46055538066040935,False,False,False
+contagious flu,2,0.11716074446305752,False,False,False
+the flu,2,0.027114292717101664,True,False,False
 flu symptoms,3,0.6280270428821932,False,False,False
-the flu,3,0.865912960582323,False,False,False
+flu fever,3,0.46055538066040935,False,False,False
 b flu,3,0.37399654444836217,False,False,False
-contagious flu,3,0.07331261383774444,False,False,False
 flu how long,3,0.5201690810698478,False,False,False
 flu contagious,3,0.07331260452012016,False,False,False
-flu fever,4,0.033999886215467075,True,False,False
+contagious flu,3,0.07331261383774444,False,False,False
+the flu,3,0.865912960582323,False,False,False
 flu symptoms,4,0.4701895185656092,False,False,False
-the flu,4,0.36272929095482853,False,False,False
+flu fever,4,0.033999886215467075,True,False,False
 b flu,4,0.9105636510129786,False,False,False
-contagious flu,4,0.23098160712890087,False,False,False
 flu how long,4,0.019183213446485218,True,False,False
 flu contagious,4,0.23098165819011052,False,False,False
-flu fever,5,0.4302334196429999,False,False,False
+contagious flu,4,0.23098160712890087,False,False,False
+the flu,4,0.36272929095482853,False,False,False
 flu symptoms,5,0.03719509317143364,True,False,False
-the flu,5,0.4298120436460131,False,False,False
+flu fever,5,0.4302334196429999,False,False,False
 b flu,5,0.13855149430565367,False,False,False
-contagious flu,5,0.7051498870132693,False,False,False
 flu how long,5,0.9202919754977046,False,False,False
 flu contagious,5,0.7051498451161627,False,False,False
+contagious flu,5,0.7051498870132693,False,False,False
+the flu,5,0.4298120436460131,False,False,False

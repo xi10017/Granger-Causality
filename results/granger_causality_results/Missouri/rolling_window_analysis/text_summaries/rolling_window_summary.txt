@@ -28,13 +28,13 @@ TERMS SIGNIFICANT AT LEAST ONCE:
 TERMS SIGNIFICANT ACROSS WINDOWS:
   Raw significant terms (showing window counts out of 8 total):
     flu a: 5/8 windows
-    rsv: 5/8 windows
     influenza symptoms: 5/8 windows
+    rsv: 5/8 windows
     the flu symptoms: 5/8 windows
     contagious flu: 5/8 windows
     cold: 4/8 windows
-    how long does flu last: 4/8 windows
     flu how long: 4/8 windows
+    how long does flu last: 4/8 windows
     influenza a: 4/8 windows
     a influenza: 4/8 windows
     symptoms of flu: 4/8 windows
@@ -51,14 +51,14 @@ TERMS SIGNIFICANT ACROSS WINDOWS:
   FDR significant terms (showing window counts out of 8 total):
     flu a: 3/8 windows
     rsv: 2/8 windows
+    how long does flu last: 2/8 windows
     influenza a: 2/8 windows
     influenza a symptoms: 2/8 windows
-    a influenza: 2/8 windows
-    how long does flu last: 2/8 windows
     influenza symptoms: 2/8 windows
-    symptoms of flu: 1/8 windows
+    a influenza: 2/8 windows
     pneumonia: 1/8 windows
     contagious flu: 1/8 windows
+    symptoms of flu: 1/8 windows
     how long flu: 1/8 windows
     the flu symptoms: 1/8 windows
     cold: 1/8 windows
@@ -68,8 +68,8 @@ TERMS SIGNIFICANT ACROSS WINDOWS:
     flu a: 1/8 windows
     how long flu: 1/8 windows
     how long does flu last: 1/8 windows
-    a influenza: 1/8 windows
     influenza a: 1/8 windows
+    a influenza: 1/8 windows
     influenza a symptoms: 1/8 windows
 
 DETAILED RESULTS BY WINDOW:

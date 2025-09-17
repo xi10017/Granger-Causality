@@ -1,26 +1,26 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
 flu symptoms,1,0.0036511944509368746,True,True,False
-symptoms of flu,1,0.7654826365269839,False,False,False
-the flu,1,0.08617927141978075,False,True,False
 rsv,1,0.22706478844952258,False,False,False
 the flu symptoms,1,0.9037836048926723,False,False,False
+symptoms of flu,1,0.7654826365269839,False,False,False
+the flu,1,0.08617927141978075,False,True,False
 flu symptoms,2,0.5583355501406331,False,True,False
-symptoms of flu,2,0.4892000530837092,False,False,False
-the flu,2,0.003061261698386077,True,True,False
 rsv,2,0.08704804945952443,False,False,False
 the flu symptoms,2,0.2992551126779029,False,False,False
+symptoms of flu,2,0.4892000530837092,False,False,False
+the flu,2,0.003061261698386077,True,True,False
 flu symptoms,3,0.03512716111217749,True,True,False
-symptoms of flu,3,0.04551467819674119,True,False,False
-the flu,3,0.8704731691255646,False,True,False
 rsv,3,0.014081638011317786,True,False,False
 the flu symptoms,3,0.015719737679762837,True,False,False
+symptoms of flu,3,0.04551467819674119,True,False,False
+the flu,3,0.8704731691255646,False,True,False
 flu symptoms,4,0.1171761600571918,False,True,False
-symptoms of flu,4,0.688521072347273,False,False,False
-the flu,4,0.7299187335446364,False,True,False
 rsv,4,0.014225046290072992,True,False,False
 the flu symptoms,4,0.008673102073442586,True,False,False
+symptoms of flu,4,0.688521072347273,False,False,False
+the flu,4,0.7299187335446364,False,True,False
 flu symptoms,5,0.63245345830037,False,True,False
-symptoms of flu,5,0.47730164510924655,False,False,False
-the flu,5,0.22197282099863438,False,True,False
 rsv,5,0.779363257918988,False,False,False
 the flu symptoms,5,0.25577624185309034,False,False,False
+symptoms of flu,5,0.47730164510924655,False,False,False
+the flu,5,0.22197282099863438,False,True,False

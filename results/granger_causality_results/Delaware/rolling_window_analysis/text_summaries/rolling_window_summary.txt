@@ -40,9 +40,9 @@ TERMS SIGNIFICANT ACROSS WINDOWS:
     pneumonia: 1/8 windows
     fever flu: 1/8 windows
     influenza a: 1/8 windows
-    a influenza: 1/8 windows
-    contagious flu: 1/8 windows
     flu contagious: 1/8 windows
+    contagious flu: 1/8 windows
+    a influenza: 1/8 windows
     the flu: 1/8 windows
     stomach flu: 1/8 windows
     sinus: 1/8 windows

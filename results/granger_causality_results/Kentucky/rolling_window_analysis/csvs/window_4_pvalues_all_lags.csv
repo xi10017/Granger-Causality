@@ -1,56 +1,56 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-flu cold,1,0.5893167345717472,False,False,False
 flu fever,1,0.7537988211179777,False,True,True
-cold,1,0.19584332511641722,False,True,False
-fever flu,1,0.7188620533267411,False,True,False
 flu symptoms,1,0.0004927322508372527,True,True,True
-symptoms of flu,1,0.0015517718442712499,True,True,True
-type a flu,1,0.7456881756644884,False,True,True
 b flu,1,0.7859703508047018,False,False,False
 how long flu,1,0.9836991615636808,False,True,False
+type a flu,1,0.7456881756644884,False,True,True
 symptoms of the flu,1,0.05571990668073136,False,True,True
+cold,1,0.19584332511641722,False,True,False
+fever flu,1,0.7188620533267411,False,True,False
 the flu symptoms,1,0.018719972159070102,True,True,True
-flu cold,2,0.6401486278158971,False,False,False
+symptoms of flu,1,0.0015517718442712499,True,True,True
+flu cold,1,0.5893167345717472,False,False,False
 flu fever,2,0.07592664117049476,False,True,True
-cold,2,0.05406878222969154,False,True,False
-fever flu,2,0.6730106167771859,False,True,False
 flu symptoms,2,0.001729709574849099,True,True,True
-symptoms of flu,2,0.5436656050352292,False,True,True
-type a flu,2,0.9494263457925063,False,True,True
 b flu,2,0.9075747444366113,False,False,False
 how long flu,2,0.02110571196491697,True,True,False
+type a flu,2,0.9494263457925063,False,True,True
 symptoms of the flu,2,0.01598961779549108,True,True,True
+cold,2,0.05406878222969154,False,True,False
+fever flu,2,0.6730106167771859,False,True,False
 the flu symptoms,2,0.7946113476541762,False,True,True
-flu cold,3,0.665026822159545,False,False,False
+symptoms of flu,2,0.5436656050352292,False,True,True
+flu cold,2,0.6401486278158971,False,False,False
 flu fever,3,0.0001944147162164337,True,True,True
-cold,3,0.758646310909376,False,True,False
-fever flu,3,0.3953407377881375,False,True,False
 flu symptoms,3,0.10023601680910402,False,True,True
-symptoms of flu,3,0.8391407885464404,False,True,True
-type a flu,3,0.0006802421435980314,True,True,True
 b flu,3,0.3666744458492185,False,False,False
 how long flu,3,0.24231759013682574,False,True,False
+type a flu,3,0.0006802421435980314,True,True,True
 symptoms of the flu,3,0.030135186510397354,True,True,True
+cold,3,0.758646310909376,False,True,False
+fever flu,3,0.3953407377881375,False,True,False
 the flu symptoms,3,0.13293058435890634,False,True,True
-flu cold,4,0.03942536298542984,True,False,False
+symptoms of flu,3,0.8391407885464404,False,True,True
+flu cold,3,0.665026822159545,False,False,False
 flu fever,4,0.13791699431697,False,True,True
-cold,4,0.004838927986341132,True,True,False
-fever flu,4,0.007677189045284601,True,True,False
 flu symptoms,4,0.06203114647267531,False,True,True
-symptoms of flu,4,0.133017709515619,False,True,True
-type a flu,4,0.4363729871784917,False,True,True
 b flu,4,0.028643893888157083,True,False,False
 how long flu,4,0.014994798272507461,True,True,False
+type a flu,4,0.4363729871784917,False,True,True
 symptoms of the flu,4,0.46537842498297954,False,True,True
+cold,4,0.004838927986341132,True,True,False
+fever flu,4,0.007677189045284601,True,True,False
 the flu symptoms,4,0.020569023915977345,True,True,True
-flu cold,5,0.8587878199065104,False,False,False
+symptoms of flu,4,0.133017709515619,False,True,True
+flu cold,4,0.03942536298542984,True,False,False
 flu fever,5,0.026284425546349206,True,True,True
-cold,5,0.7539063173355067,False,True,False
-fever flu,5,0.8617394314083844,False,True,False
 flu symptoms,5,0.3626708831484271,False,True,True
-symptoms of flu,5,0.5631189374478329,False,True,True
-type a flu,5,0.246100547589527,False,True,True
 b flu,5,0.8499925305470671,False,False,False
 how long flu,5,0.011535712280079295,True,True,False
+type a flu,5,0.246100547589527,False,True,True
 symptoms of the flu,5,0.002255007891322502,True,True,True
+cold,5,0.7539063173355067,False,True,False
+fever flu,5,0.8617394314083844,False,True,False
 the flu symptoms,5,0.00038978570647239124,True,True,True
+symptoms of flu,5,0.5631189374478329,False,True,True
+flu cold,5,0.8587878199065104,False,False,False

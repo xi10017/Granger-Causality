@@ -1,51 +1,51 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-influenza a,1,0.463157557952096,False,False,False
+strep,1,0.035607400437967326,True,False,False
 flu symptoms,1,0.02598054950624114,True,False,False
-a influenza,1,0.00822920709675433,True,False,False
-the flu,1,0.739529692184516,False,False,False
-how long flu,1,0.5701698623168536,False,False,False
+influenza a,1,0.463157557952096,False,False,False
 flu a,1,0.05944611140548321,False,False,False
+how long flu,1,0.5701698623168536,False,False,False
+the flu,1,0.739529692184516,False,False,False
 flu how long,1,0.5701698620516096,False,False,False
 influenza symptoms,1,0.6366595931236311,False,False,False
 the flu symptoms,1,0.399367930242425,False,False,False
-strep,1,0.035607400437967326,True,False,False
-influenza a,2,0.16218416550947948,False,False,False
+a influenza,1,0.00822920709675433,True,False,False
+strep,2,0.4431923298286031,False,False,False
 flu symptoms,2,0.9481548138843015,False,False,False
-a influenza,2,0.8821556146460829,False,False,False
-the flu,2,0.03616627635429118,True,False,False
-how long flu,2,0.03179005235738544,True,False,False
+influenza a,2,0.16218416550947948,False,False,False
 flu a,2,0.027356929849039063,True,False,False
+how long flu,2,0.03179005235738544,True,False,False
+the flu,2,0.03616627635429118,True,False,False
 flu how long,2,0.031790052377432126,True,False,False
 influenza symptoms,2,0.6194160791998027,False,False,False
 the flu symptoms,2,0.9825514443209966,False,False,False
-strep,2,0.4431923298286031,False,False,False
-influenza a,3,0.8800193844846512,False,False,False
+a influenza,2,0.8821556146460829,False,False,False
+strep,3,0.011452172897772497,True,False,False
 flu symptoms,3,0.8825918035423619,False,False,False
-a influenza,3,0.7447306113845851,False,False,False
-the flu,3,0.1480356409311253,False,False,False
-how long flu,3,0.03382336340349409,True,False,False
+influenza a,3,0.8800193844846512,False,False,False
 flu a,3,0.24675445492710824,False,False,False
+how long flu,3,0.03382336340349409,True,False,False
+the flu,3,0.1480356409311253,False,False,False
 flu how long,3,0.03382336336290209,True,False,False
 influenza symptoms,3,0.3158784751790077,False,False,False
 the flu symptoms,3,0.010861052634910402,True,False,False
-strep,3,0.011452172897772497,True,False,False
-influenza a,4,0.08387100398652268,False,False,False
+a influenza,3,0.7447306113845851,False,False,False
+strep,4,0.18222744734164853,False,False,False
 flu symptoms,4,0.5996589185607326,False,False,False
-a influenza,4,0.5123328288640536,False,False,False
-the flu,4,0.2710967462912384,False,False,False
-how long flu,4,0.6041998945008833,False,False,False
+influenza a,4,0.08387100398652268,False,False,False
 flu a,4,0.5718639210989513,False,False,False
+how long flu,4,0.6041998945008833,False,False,False
+the flu,4,0.2710967462912384,False,False,False
 flu how long,4,0.604199894604081,False,False,False
 influenza symptoms,4,0.03470430147239787,True,False,False
 the flu symptoms,4,0.2453493945009014,False,False,False
-strep,4,0.18222744734164853,False,False,False
-influenza a,5,0.03655435892117317,True,False,False
+a influenza,4,0.5123328288640536,False,False,False
+strep,5,0.750667979908745,False,False,False
 flu symptoms,5,0.06699162779921836,False,False,False
-a influenza,5,0.6160722033414185,False,False,False
-the flu,5,0.8456588049509215,False,False,False
-how long flu,5,0.2012818804844246,False,False,False
+influenza a,5,0.03655435892117317,True,False,False
 flu a,5,0.6293988622720829,False,False,False
+how long flu,5,0.2012818804844246,False,False,False
+the flu,5,0.8456588049509215,False,False,False
 flu how long,5,0.20128188049641244,False,False,False
 influenza symptoms,5,0.6191177662039686,False,False,False
 the flu symptoms,5,0.1133323915432051,False,False,False
-strep,5,0.750667979908745,False,False,False
+a influenza,5,0.6160722033414185,False,False,False

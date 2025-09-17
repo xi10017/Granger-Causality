@@ -1,61 +1,61 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-influenza a,1,0.045384836816237596,True,True,False
-pneumonia,1,0.01054807125643144,True,True,False
-a influenza,1,0.04538483676340571,True,True,False
-influenza a symptoms,1,0.5607009148953335,False,True,False
-symptoms of flu,1,0.4948394173858126,False,True,False
-stomach flu,1,0.25786228977655,False,False,False
-how long does flu last,1,0.0409000789705557,True,True,False
-contagious flu,1,0.5984084109570151,False,True,False
-flu a,1,0.7597240330933183,False,True,False
-rsv,1,0.40457037711982546,False,True,False
-flu how long,1,0.03041127033455265,True,False,False
 influenza symptoms,1,0.9852364160573379,False,True,False
-influenza a,2,0.010901678988887286,True,True,False
-pneumonia,2,0.00616822331878315,True,True,False
-a influenza,2,0.010901678978014534,True,True,False
-influenza a symptoms,2,0.01902640110944931,True,True,False
-symptoms of flu,2,0.08252406595498535,False,True,False
-stomach flu,2,0.9306914726651501,False,False,False
-how long does flu last,2,0.9895949063052365,False,True,False
-contagious flu,2,0.007969074064132052,True,True,False
-flu a,2,0.004179883099401702,True,True,False
-rsv,2,0.004168944839281862,True,True,False
-flu how long,2,0.21312432108262985,False,False,False
+influenza a,1,0.045384836816237596,True,True,False
+flu a,1,0.7597240330933183,False,True,False
+a influenza,1,0.04538483676340571,True,True,False
+stomach flu,1,0.25786228977655,False,False,False
+flu how long,1,0.03041127033455265,True,False,False
+influenza a symptoms,1,0.5607009148953335,False,True,False
+pneumonia,1,0.01054807125643144,True,True,False
+contagious flu,1,0.5984084109570151,False,True,False
+rsv,1,0.40457037711982546,False,True,False
+symptoms of flu,1,0.4948394173858126,False,True,False
+how long does flu last,1,0.0409000789705557,True,True,False
 influenza symptoms,2,0.45712836694362047,False,True,False
-influenza a,3,0.6348526553458805,False,True,False
-pneumonia,3,0.270342049047843,False,True,False
-a influenza,3,0.6348526552837407,False,True,False
-influenza a symptoms,3,0.9374348523893914,False,True,False
-symptoms of flu,3,0.020831551122993414,True,True,False
-stomach flu,3,0.6072097075948085,False,False,False
-how long does flu last,3,0.31597744651693305,False,True,False
-contagious flu,3,0.02077127976838232,True,True,False
-flu a,3,0.007703935469920963,True,True,False
-rsv,3,0.08876677005215605,False,True,False
-flu how long,3,0.1950316166277841,False,False,False
+influenza a,2,0.010901678988887286,True,True,False
+flu a,2,0.004179883099401702,True,True,False
+a influenza,2,0.010901678978014534,True,True,False
+stomach flu,2,0.9306914726651501,False,False,False
+flu how long,2,0.21312432108262985,False,False,False
+influenza a symptoms,2,0.01902640110944931,True,True,False
+pneumonia,2,0.00616822331878315,True,True,False
+contagious flu,2,0.007969074064132052,True,True,False
+rsv,2,0.004168944839281862,True,True,False
+symptoms of flu,2,0.08252406595498535,False,True,False
+how long does flu last,2,0.9895949063052365,False,True,False
 influenza symptoms,3,0.483891830153384,False,True,False
-influenza a,4,0.5616561642101645,False,True,False
-pneumonia,4,0.470962133051274,False,True,False
-a influenza,4,0.5616561642717486,False,True,False
-influenza a symptoms,4,0.1853388283104819,False,True,False
-symptoms of flu,4,0.02479000556531832,True,True,False
-stomach flu,4,0.03770586583258229,True,False,False
-how long does flu last,4,0.6292393650799837,False,True,False
-contagious flu,4,0.2579009165951084,False,True,False
-flu a,4,0.7972130386013105,False,True,False
-rsv,4,0.7297535371410386,False,True,False
-flu how long,4,0.08260642244845612,False,False,False
+influenza a,3,0.6348526553458805,False,True,False
+flu a,3,0.007703935469920963,True,True,False
+a influenza,3,0.6348526552837407,False,True,False
+stomach flu,3,0.6072097075948085,False,False,False
+flu how long,3,0.1950316166277841,False,False,False
+influenza a symptoms,3,0.9374348523893914,False,True,False
+pneumonia,3,0.270342049047843,False,True,False
+contagious flu,3,0.02077127976838232,True,True,False
+rsv,3,0.08876677005215605,False,True,False
+symptoms of flu,3,0.020831551122993414,True,True,False
+how long does flu last,3,0.31597744651693305,False,True,False
 influenza symptoms,4,0.5640274841572661,False,True,False
-influenza a,5,0.2805334463029221,False,True,False
-pneumonia,5,0.2554625079441326,False,True,False
-a influenza,5,0.28053344628096794,False,True,False
-influenza a symptoms,5,0.910337233072288,False,True,False
-symptoms of flu,5,0.9177965503100701,False,True,False
-stomach flu,5,0.25138825844911034,False,False,False
-how long does flu last,5,0.007160156397044937,True,True,False
-contagious flu,5,0.14883674668349617,False,True,False
-flu a,5,0.007782582450759466,True,True,False
-rsv,5,0.8955245323591023,False,True,False
-flu how long,5,0.0876667665745955,False,False,False
+influenza a,4,0.5616561642101645,False,True,False
+flu a,4,0.7972130386013105,False,True,False
+a influenza,4,0.5616561642717486,False,True,False
+stomach flu,4,0.03770586583258229,True,False,False
+flu how long,4,0.08260642244845612,False,False,False
+influenza a symptoms,4,0.1853388283104819,False,True,False
+pneumonia,4,0.470962133051274,False,True,False
+contagious flu,4,0.2579009165951084,False,True,False
+rsv,4,0.7297535371410386,False,True,False
+symptoms of flu,4,0.02479000556531832,True,True,False
+how long does flu last,4,0.6292393650799837,False,True,False
 influenza symptoms,5,0.008984674117444972,True,True,False
+influenza a,5,0.2805334463029221,False,True,False
+flu a,5,0.007782582450759466,True,True,False
+a influenza,5,0.28053344628096794,False,True,False
+stomach flu,5,0.25138825844911034,False,False,False
+flu how long,5,0.0876667665745955,False,False,False
+influenza a symptoms,5,0.910337233072288,False,True,False
+pneumonia,5,0.2554625079441326,False,True,False
+contagious flu,5,0.14883674668349617,False,True,False
+rsv,5,0.8955245323591023,False,True,False
+symptoms of flu,5,0.9177965503100701,False,True,False
+how long does flu last,5,0.007160156397044937,True,True,False

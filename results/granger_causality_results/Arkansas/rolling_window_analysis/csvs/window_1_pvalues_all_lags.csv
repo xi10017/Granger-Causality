@@ -1,21 +1,21 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-how long flu,1,0.5466094627423248,False,False,False
 rsv,1,0.3057641894406789,False,False,False
-the flu,1,0.002534402140195639,True,False,False
 flu how long,1,0.5466094629046659,False,False,False
-how long flu,2,0.020579200839080776,True,False,False
+the flu,1,0.002534402140195639,True,False,False
+how long flu,1,0.5466094627423248,False,False,False
 rsv,2,0.4065463789198659,False,False,False
-the flu,2,0.012854796698555377,True,False,False
 flu how long,2,0.020579200849377123,True,False,False
-how long flu,3,0.1448921029894026,False,False,False
+the flu,2,0.012854796698555377,True,False,False
+how long flu,2,0.020579200839080776,True,False,False
 rsv,3,0.03158450359857114,True,False,False
-the flu,3,0.14498757508526422,False,False,False
 flu how long,3,0.1448921029521645,False,False,False
-how long flu,4,0.046797163596361865,True,False,False
+the flu,3,0.14498757508526422,False,False,False
+how long flu,3,0.1448921029894026,False,False,False
 rsv,4,0.32484733286063794,False,False,False
-the flu,4,0.6840249104953264,False,False,False
 flu how long,4,0.04679716358718658,True,False,False
-how long flu,5,0.8276950547396977,False,False,False
+the flu,4,0.6840249104953264,False,False,False
+how long flu,4,0.046797163596361865,True,False,False
 rsv,5,0.23438327616916993,False,False,False
-the flu,5,0.07135979774455743,False,False,False
 flu how long,5,0.8276950547522763,False,False,False
+the flu,5,0.07135979774455743,False,False,False
+how long flu,5,0.8276950547396977,False,False,False

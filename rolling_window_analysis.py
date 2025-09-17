@@ -64,11 +64,13 @@ class RollingWindowAnalyzer:
         self.base_output_dir = Path(result_dir) / granger_causality_prefix / response_var / rolling_window_folder_name
         self.csv_dir = self.base_output_dir / "csvs"
         self.text_dir = self.base_output_dir / "text_summaries"
+        self.matrix_dir = self.base_output_dir / "matrices"
         
         # Create all directories
         self.base_output_dir.mkdir(parents=True, exist_ok=True)
         self.csv_dir.mkdir(parents=True, exist_ok=True)
         self.text_dir.mkdir(parents=True, exist_ok=True)
+        self.matrix_dir.mkdir(parents=True, exist_ok=True)
         
         logger.info(f"Initialized RollingWindowAnalyzer for {response_var}")
         logger.info(f"Output directory: {self.base_output_dir}")
@@ -406,6 +408,9 @@ class RollingWindowAnalyzer:
         # Generate summary
         self._generate_summary()
         
+        # Create p-value matrices and heatmaps
+        self.create_pvalue_matrices()
+        
         logger.info("=== ROLLING WINDOW ANALYSIS COMPLETE ===")
     
     def _generate_summary(self) -> None:
@@ -581,6 +586,190 @@ class RollingWindowAnalyzer:
             
         except Exception as e:
             logger.error(f"Error creating term significance visualization: {e}")
+    
+    def create_pvalue_matrices(self) -> None:
+        """Create p-value matrices and heatmaps for raw, FDR, and Bonferroni corrected results."""
+        logger.info("=== CREATING P-VALUE MATRICES AND HEATMAPS ===")
+        
+        if not self.results:
+            logger.warning("No results available for matrix creation")
+            return
+        
+        try:
+            # Collect all unique terms across all windows
+            all_terms = set()
+            for result in self.results:
+                if result.get('success', False) and 'granger_results' in result:
+                    granger_results = result['granger_results']
+                    all_terms.update(granger_results.term_significance_by_lag.keys())
+            
+            all_terms = sorted(list(all_terms))
+            
+            if not all_terms:
+                logger.warning("No terms found for matrix creation")
+                return
+            
+            # Create matrices for each correction method
+            correction_methods = ['RAW', 'fdr', 'bonferroni']
+            
+            for method in correction_methods:
+                logger.info(f"Creating {method} p-value matrix...")
+                
+                # Initialize matrix with NaN values
+                matrix_data = []
+                window_labels = []
+                
+                for result in self.results:
+                    if not result.get('success', False) or 'granger_results' not in result:
+                        continue
+                    
+                    # Create window label
+                    window_label = f"{result['start_year']}-{result['start_month']:02d} to {result['end_year']}-{result['end_month']:02d}"
+                    window_labels.append(window_label)
+                    
+                    # Get p-values for this window
+                    granger_results = result['granger_results']
+                    
+                    # Pre-calculate corrections for this window if needed
+                    corrected_pvals = {}
+                    if method in ['fdr', 'bonferroni']:
+                        # Get all p-values for this window
+                        all_pvals = []
+                        term_names = []
+                        for t, pval in granger_results.term_significance:
+                            all_pvals.append(pval)
+                            term_names.append(t)
+                        
+                        if all_pvals:
+                            from statsmodels.stats.multitest import multipletests
+                            if method == 'fdr':
+                                _, corrected_pvals_list, _, _ = multipletests(all_pvals, method='fdr_bh', alpha=0.05)
+                            else:  # bonferroni
+                                _, corrected_pvals_list, _, _ = multipletests(all_pvals, method='bonferroni', alpha=0.05)
+                            
+                            # Create mapping of term to corrected p-value
+                            for i, term_name in enumerate(term_names):
+                                corrected_pvals[term_name] = corrected_pvals_list[i]
+                    
+                    row_data = []
+                    
+                    for term in all_terms:
+                        if term in granger_results.term_significance_by_lag:
+                            # Get minimum p-value across all lags for this term
+                            term_lags = granger_results.term_significance_by_lag[term]
+                            min_pval = min(term_lags.values()) if term_lags else np.nan
+                            
+                            # Apply correction if needed
+                            if method == 'fdr' and term in corrected_pvals:
+                                min_pval = corrected_pvals[term]
+                            elif method == 'bonferroni' and term in corrected_pvals:
+                                min_pval = corrected_pvals[term]
+                            # For RAW, keep original p-value
+                            
+                            row_data.append(min_pval)
+                        else:
+                            row_data.append(np.nan)
+                    
+                    matrix_data.append(row_data)
+                
+                # Create DataFrame
+                matrix_df = pd.DataFrame(matrix_data, index=window_labels, columns=all_terms)
+                
+                # Calculate proportion of significant terms
+                significant_mask = matrix_df < 0.05
+                total_cells = significant_mask.size
+                significant_cells = significant_mask.sum().sum()
+                proportion_significant = significant_cells / total_cells if total_cells > 0 else 0
+                
+                # Add proportion information to the matrix
+                matrix_df.loc['Proportion_Significant'] = [proportion_significant] + [np.nan] * (len(all_terms) - 1)
+                
+                # Save CSV
+                csv_file = self.matrix_dir / f"pvalue_matrix_{method.lower()}.csv"
+                matrix_df.to_csv(csv_file)
+                
+                # Create heatmap
+                self._create_pvalue_heatmap(matrix_df, method, proportion_significant)
+                
+                logger.info(f"✓ {method} matrix saved to {csv_file}")
+                logger.info(f"  Proportion significant: {proportion_significant:.3f}")
+            
+        except Exception as e:
+            logger.error(f"Error creating p-value matrices: {e}")
+    
+    def _create_pvalue_heatmap(self, matrix_df: pd.DataFrame, method: str, proportion_significant: float) -> None:
+        """Create a heatmap visualization of the p-value matrix."""
+        try:
+            # Remove the proportion row for visualization
+            plot_df = matrix_df.drop('Proportion_Significant', errors='ignore')
+            
+            # Set up the plot style
+            plt.style.use('default')
+            sns.set_palette("husl")
+            
+            # Create figure with better proportions
+            fig_width = max(14, len(plot_df.columns) * 0.8)
+            fig_height = max(10, len(plot_df) * 0.6)
+            fig, ax = plt.subplots(figsize=(fig_width, fig_height))
+            
+            # Create a discrete colormap for binary significance
+            from matplotlib.colors import ListedColormap
+            colors = ['#2E86AB', '#C73E1D']  # Blue for non-significant, Red for significant
+            cmap = ListedColormap(colors)
+            
+            # Create significance mask with better color mapping
+            significance_mask = plot_df < 0.05
+            
+            # Plot heatmap with better styling
+            im = ax.imshow(significance_mask.astype(int), cmap=cmap, aspect='auto', vmin=0, vmax=1)
+            
+            # Add grid lines for better readability
+            ax.set_xticks(np.arange(-0.5, len(plot_df.columns), 1), minor=True)
+            ax.set_yticks(np.arange(-0.5, len(plot_df), 1), minor=True)
+            ax.grid(which="minor", color="white", linestyle='-', linewidth=1)
+            
+            # Set ticks and labels with better formatting
+            ax.set_xticks(range(len(plot_df.columns)))
+            ax.set_yticks(range(len(plot_df)))
+            ax.set_xticklabels(plot_df.columns, rotation=45, ha='right', fontsize=10, fontweight='bold')
+            ax.set_yticklabels(plot_df.index, fontsize=10, fontweight='bold')
+            
+            # Add title with better formatting
+            title = f"P-Value Heatmap - {method.upper()} Corrected\n"
+            title += f"Alabama ({self.data_file})\n"
+            title += f"Proportion Significant: {proportion_significant:.3f}"
+            ax.set_title(title, fontsize=14, fontweight='bold', pad=20)
+            
+            # Add colorbar with discrete colors
+            cbar = plt.colorbar(im, ax=ax, shrink=0.8, pad=0.02)
+            cbar.set_ticks([0.25, 0.75])  # Position ticks in the middle of each color block
+            cbar.set_ticklabels(['Not Significant\n(p ≥ 0.05)', 'Significant\n(p < 0.05)'])
+            cbar.ax.tick_params(labelsize=10)
+            cbar.ax.set_ylabel('Significance', fontsize=12, fontweight='bold')
+            
+            # Add value annotations on each cell for better readability
+            for i in range(len(plot_df)):
+                for j in range(len(plot_df.columns)):
+                    value = plot_df.iloc[i, j]
+                    if not np.isnan(value):
+                        # Add text annotation with p-value
+                        text = f'{value:.3f}' if value < 1.0 else '1.000'
+                        ax.text(j, i, text, ha="center", va="center", 
+                               color="white" if significance_mask.iloc[i, j] else "black",
+                               fontsize=8, fontweight='bold')
+            
+            # Improve layout and spacing
+            plt.tight_layout()
+            
+            # Save plot with high quality
+            plot_file = self.matrix_dir / f"pvalue_heatmap_{method.lower()}.png"
+            plt.savefig(plot_file, dpi=300, bbox_inches='tight', facecolor='white', edgecolor='none')
+            plt.close()
+            
+            logger.info(f"✓ {method} heatmap saved to {plot_file}")
+            
+        except Exception as e:
+            logger.error(f"Error creating {method} heatmap: {e}")
 
 
 def main():

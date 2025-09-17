@@ -1,36 +1,36 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-flu cold,1,0.010409788119091233,True,True,False
+is flu contagious,1,0.5968516060157103,False,True,True
+flu a,1,0.21260637545477687,False,False,False
+bronchitis,1,0.9975397637014802,False,True,False
 cold,1,0.0002115796370197592,True,True,True
 flu type,1,0.20202562721244666,False,True,True
-is flu contagious,1,0.5968516060157103,False,True,True
-bronchitis,1,0.9975397637014802,False,True,False
-flu a,1,0.21260637545477687,False,False,False
 the flu symptoms,1,0.03515893689109763,True,False,False
-flu cold,2,0.9505334909910322,False,True,False
+flu cold,1,0.010409788119091233,True,True,False
+is flu contagious,2,0.0007427719616427885,True,True,True
+flu a,2,0.2468631997641316,False,False,False
+bronchitis,2,0.12628625894549567,False,True,False
 cold,2,0.9908510481411379,False,True,True
 flu type,2,0.00042670588545962927,True,True,True
-is flu contagious,2,0.0007427719616427885,True,True,True
-bronchitis,2,0.12628625894549567,False,True,False
-flu a,2,0.2468631997641316,False,False,False
 the flu symptoms,2,0.5882921652884285,False,False,False
-flu cold,3,0.7301451935858834,False,True,False
+flu cold,2,0.9505334909910322,False,True,False
+is flu contagious,3,0.15443252197317497,False,True,True
+flu a,3,0.059275188592827155,False,False,False
+bronchitis,3,0.017070234015404747,True,True,False
 cold,3,0.4834358393511591,False,True,True
 flu type,3,0.008282608415608878,True,True,True
-is flu contagious,3,0.15443252197317497,False,True,True
-bronchitis,3,0.017070234015404747,True,True,False
-flu a,3,0.059275188592827155,False,False,False
 the flu symptoms,3,0.9780650255190313,False,False,False
-flu cold,4,0.23531629622509367,False,True,False
+flu cold,3,0.7301451935858834,False,True,False
+is flu contagious,4,0.13377984665059406,False,True,True
+flu a,4,0.0483520270604315,True,False,False
+bronchitis,4,0.8804337843839014,False,True,False
 cold,4,0.1482323349697348,False,True,True
 flu type,4,0.02968239598430162,True,True,True
-is flu contagious,4,0.13377984665059406,False,True,True
-bronchitis,4,0.8804337843839014,False,True,False
-flu a,4,0.0483520270604315,True,False,False
 the flu symptoms,4,0.9815232956046431,False,False,False
-flu cold,5,0.025101043453852067,True,True,False
+flu cold,4,0.23531629622509367,False,True,False
+is flu contagious,5,0.19661209666070237,False,True,True
+flu a,5,0.0365117567431405,True,False,False
+bronchitis,5,0.007022379907193449,True,True,False
 cold,5,0.2531555674870387,False,True,True
 flu type,5,0.0338111426665631,True,True,True
-is flu contagious,5,0.19661209666070237,False,True,True
-bronchitis,5,0.007022379907193449,True,True,False
-flu a,5,0.0365117567431405,True,False,False
 the flu symptoms,5,0.7803742421336575,False,False,False
+flu cold,5,0.025101043453852067,True,True,False

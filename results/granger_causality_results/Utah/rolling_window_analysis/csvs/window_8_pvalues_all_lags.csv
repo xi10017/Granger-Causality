@@ -1,31 +1,31 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
 influenza a,1,0.5268554551182802,False,True,False
-flu fever,1,0.1148518600571345,False,True,False
 flu symptoms,1,0.11501337856709277,False,True,True
-a influenza,1,0.526855454988371,False,True,False
+flu fever,1,0.1148518600571345,False,True,False
 rsv,1,0.09603704028093009,False,False,False
 the flu symptoms,1,0.00846314835645324,True,True,True
+a influenza,1,0.526855454988371,False,True,False
 influenza a,2,0.1860521039069334,False,True,False
-flu fever,2,0.46415425925898013,False,True,False
 flu symptoms,2,0.05295804317178239,False,True,True
-a influenza,2,0.186052103866727,False,True,False
+flu fever,2,0.46415425925898013,False,True,False
 rsv,2,0.5528130622628775,False,False,False
 the flu symptoms,2,0.19716438592329458,False,True,True
+a influenza,2,0.186052103866727,False,True,False
 influenza a,3,0.5216338515250452,False,True,False
-flu fever,3,0.012462192557102706,True,True,False
 flu symptoms,3,0.0007692792908187312,True,True,True
-a influenza,3,0.5216338515589329,False,True,False
+flu fever,3,0.012462192557102706,True,True,False
 rsv,3,0.047872809165825266,True,False,False
 the flu symptoms,3,0.12022291914592582,False,True,True
+a influenza,3,0.5216338515589329,False,True,False
 influenza a,4,0.003705406287836636,True,True,False
-flu fever,4,0.6657618048525037,False,True,False
 flu symptoms,4,0.7233080572267168,False,True,True
-a influenza,4,0.003705406287004555,True,True,False
+flu fever,4,0.6657618048525037,False,True,False
 rsv,4,0.4570657070449332,False,False,False
 the flu symptoms,4,0.0008395166788867531,True,True,True
+a influenza,4,0.003705406287004555,True,True,False
 influenza a,5,0.36088763927465595,False,True,False
-flu fever,5,0.20484363630476066,False,True,False
 flu symptoms,5,0.8079761593558884,False,True,True
-a influenza,5,0.36088763925276246,False,True,False
+flu fever,5,0.20484363630476066,False,True,False
 rsv,5,0.07190927239530659,False,False,False
 the flu symptoms,5,0.15833666402075047,False,True,True
+a influenza,5,0.36088763925276246,False,True,False

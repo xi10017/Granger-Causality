@@ -1,51 +1,51 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-flu cold,1,0.5982441673426053,False,True,False
-fever flu,1,0.04478537710325227,True,False,False
-pneumonia,1,0.23903248184885645,False,True,False
-the flu,1,0.6779977919117842,False,False,False
 how long does flu last,1,0.08646652983749481,False,True,True
 how long flu,1,0.03724950405872252,True,False,False
+the flu,1,0.6779977919117842,False,False,False
 symptoms of the flu,1,0.30542284070751646,False,True,False
-flu incubation,1,0.17812354821449983,False,False,False
+fever flu,1,0.04478537710325227,True,False,False
 flu how long,1,0.037249504024967045,True,False,False
+pneumonia,1,0.23903248184885645,False,True,False
+flu incubation,1,0.17812354821449983,False,False,False
 the flu symptoms,1,0.06550198452093854,False,True,False
-flu cold,2,0.02898499841065578,True,True,False
-fever flu,2,0.6742725080110685,False,False,False
-pneumonia,2,0.010380703958762776,True,True,False
-the flu,2,0.19419197087775855,False,False,False
+flu cold,1,0.5982441673426053,False,True,False
 how long does flu last,2,0.0014201367091310488,True,True,True
 how long flu,2,0.1722524286786833,False,False,False
+the flu,2,0.19419197087775855,False,False,False
 symptoms of the flu,2,0.9999908211744017,False,True,False
-flu incubation,2,0.03315163585265781,True,False,False
+fever flu,2,0.6742725080110685,False,False,False
 flu how long,2,0.17225242858117237,False,False,False
+pneumonia,2,0.010380703958762776,True,True,False
+flu incubation,2,0.03315163585265781,True,False,False
 the flu symptoms,2,0.08892819883013682,False,True,False
-flu cold,3,0.0027945896633765495,True,True,False
-fever flu,3,0.3281132031886823,False,False,False
-pneumonia,3,0.9428781811202199,False,True,False
-the flu,3,0.5256321087549527,False,False,False
+flu cold,2,0.02898499841065578,True,True,False
 how long does flu last,3,0.2011620033073365,False,True,True
 how long flu,3,0.282285776438688,False,False,False
+the flu,3,0.5256321087549527,False,False,False
 symptoms of the flu,3,0.007178834270309807,True,True,False
-flu incubation,3,0.36710220429815954,False,False,False
+fever flu,3,0.3281132031886823,False,False,False
 flu how long,3,0.2822857763419921,False,False,False
+pneumonia,3,0.9428781811202199,False,True,False
+flu incubation,3,0.36710220429815954,False,False,False
 the flu symptoms,3,0.00889824265972229,True,True,False
-flu cold,4,0.852550591406692,False,True,False
-fever flu,4,0.5513315015474303,False,False,False
-pneumonia,4,0.36964679142755685,False,True,False
-the flu,4,0.0237542119472139,True,False,False
+flu cold,3,0.0027945896633765495,True,True,False
 how long does flu last,4,0.4244138537874286,False,True,True
 how long flu,4,0.28091317434554974,False,False,False
+the flu,4,0.0237542119472139,True,False,False
 symptoms of the flu,4,0.4604187416693325,False,True,False
-flu incubation,4,0.9278870185836743,False,False,False
+fever flu,4,0.5513315015474303,False,False,False
 flu how long,4,0.28091317432332735,False,False,False
+pneumonia,4,0.36964679142755685,False,True,False
+flu incubation,4,0.9278870185836743,False,False,False
 the flu symptoms,4,0.014997612634196026,True,True,False
-flu cold,5,0.18167593040436716,False,True,False
-fever flu,5,0.8121549390293867,False,False,False
-pneumonia,5,0.816084024833616,False,True,False
-the flu,5,0.675489582571601,False,False,False
+flu cold,4,0.852550591406692,False,True,False
 how long does flu last,5,0.2387740057252184,False,True,True
 how long flu,5,0.13536037476791035,False,False,False
+the flu,5,0.675489582571601,False,False,False
 symptoms of the flu,5,0.019672364058143748,True,True,False
-flu incubation,5,0.0616036363287409,False,False,False
+fever flu,5,0.8121549390293867,False,False,False
 flu how long,5,0.1353603747625017,False,False,False
+pneumonia,5,0.816084024833616,False,True,False
+flu incubation,5,0.0616036363287409,False,False,False
 the flu symptoms,5,0.8174775496220795,False,True,False
+flu cold,5,0.18167593040436716,False,True,False
