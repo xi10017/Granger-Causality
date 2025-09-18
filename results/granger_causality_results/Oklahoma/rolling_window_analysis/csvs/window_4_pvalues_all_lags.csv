@@ -1,56 +1,56 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-flu symptoms,1,0.677382870363981,False,True,False
-type a flu,1,0.37611911766473505,False,True,False
+flu contagious,1,0.021349285120063788,True,True,False
 sinus,1,0.6993322931844004,False,False,False
+type a flu,1,0.37611911766473505,False,True,False
+flu type a,1,0.376119117677401,False,True,False
+pneumonia,1,0.036841239367600684,True,False,False
+the flu,1,0.0026485306582063094,True,True,False
+contagious flu,1,0.771968396680763,False,True,False
+flu symptoms,1,0.677382870363981,False,True,False
+symptoms of flu,1,0.020191448055672107,True,True,False
 fever flu,1,0.7258698130253711,False,True,True
 flu how long,1,0.7179525835986713,False,True,False
-flu contagious,1,0.021349285120063788,True,True,False
-symptoms of flu,1,0.020191448055672107,True,True,False
-pneumonia,1,0.036841239367600684,True,False,False
-contagious flu,1,0.771968396680763,False,True,False
-flu type a,1,0.376119117677401,False,True,False
-the flu,1,0.0026485306582063094,True,True,False
-flu symptoms,2,0.4654175546815329,False,True,False
-type a flu,2,0.06290071283279701,False,True,False
+flu contagious,2,0.8965678310884124,False,True,False
 sinus,2,0.15072258027876634,False,False,False
+type a flu,2,0.06290071283279701,False,True,False
+flu type a,2,0.06290071283420702,False,True,False
+pneumonia,2,0.17653714460234252,False,False,False
+the flu,2,0.8447189265067847,False,True,False
+contagious flu,2,0.003738835292609069,True,True,False
+flu symptoms,2,0.4654175546815329,False,True,False
+symptoms of flu,2,0.03470885735839988,True,True,False
 fever flu,2,0.0013644061278198828,True,True,True
 flu how long,2,0.6066814485610559,False,True,False
-flu contagious,2,0.8965678310884124,False,True,False
-symptoms of flu,2,0.03470885735839988,True,True,False
-pneumonia,2,0.17653714460234252,False,False,False
-contagious flu,2,0.003738835292609069,True,True,False
-flu type a,2,0.06290071283420702,False,True,False
-the flu,2,0.8447189265067847,False,True,False
-flu symptoms,3,0.6345717331244809,False,True,False
-type a flu,3,0.5340811839926533,False,True,False
+flu contagious,3,0.5391425612240586,False,True,False
 sinus,3,0.8024656510839769,False,False,False
+type a flu,3,0.5340811839926533,False,True,False
+flu type a,3,0.5340811839798308,False,True,False
+pneumonia,3,0.5963285698688588,False,False,False
+the flu,3,0.030975740074568846,True,True,False
+contagious flu,3,0.04873962978001977,True,True,False
+flu symptoms,3,0.6345717331244809,False,True,False
+symptoms of flu,3,0.8329745722582325,False,True,False
 fever flu,3,0.7539292453951157,False,True,True
 flu how long,3,0.01368511487559428,True,True,False
-flu contagious,3,0.5391425612240586,False,True,False
-symptoms of flu,3,0.8329745722582325,False,True,False
-pneumonia,3,0.5963285698688588,False,False,False
-contagious flu,3,0.04873962978001977,True,True,False
-flu type a,3,0.5340811839798308,False,True,False
-the flu,3,0.030975740074568846,True,True,False
-flu symptoms,4,0.02115376229524138,True,True,False
-type a flu,4,0.4349041964196545,False,True,False
+flu contagious,4,0.7226838320358064,False,True,False
 sinus,4,0.04297909703018886,True,False,False
+type a flu,4,0.4349041964196545,False,True,False
+flu type a,4,0.4349041964385446,False,True,False
+pneumonia,4,0.6731956617487994,False,False,False
+the flu,4,0.060798716150018466,False,True,False
+contagious flu,4,0.015377469590203812,True,True,False
+flu symptoms,4,0.02115376229524138,True,True,False
+symptoms of flu,4,0.7894171751109424,False,True,False
 fever flu,4,0.13707498114269623,False,True,True
 flu how long,4,0.15674985698623567,False,True,False
-flu contagious,4,0.7226838320358064,False,True,False
-symptoms of flu,4,0.7894171751109424,False,True,False
-pneumonia,4,0.6731956617487994,False,False,False
-contagious flu,4,0.015377469590203812,True,True,False
-flu type a,4,0.4349041964385446,False,True,False
-the flu,4,0.060798716150018466,False,True,False
-flu symptoms,5,0.9340754908264512,False,True,False
-type a flu,5,0.012987172143084456,True,True,False
+flu contagious,5,0.021410652463533315,True,True,False
 sinus,5,0.3053657881438463,False,False,False
+type a flu,5,0.012987172143084456,True,True,False
+flu type a,5,0.012987172142536675,True,True,False
+pneumonia,5,0.44839660751483457,False,False,False
+the flu,5,0.5714874293797858,False,True,False
+contagious flu,5,0.12551961016984522,False,True,False
+flu symptoms,5,0.9340754908264512,False,True,False
+symptoms of flu,5,0.5697296066400396,False,True,False
 fever flu,5,0.5349201238204835,False,True,True
 flu how long,5,0.5320750308875997,False,True,False
-flu contagious,5,0.021410652463533315,True,True,False
-symptoms of flu,5,0.5697296066400396,False,True,False
-pneumonia,5,0.44839660751483457,False,False,False
-contagious flu,5,0.12551961016984522,False,True,False
-flu type a,5,0.012987172142536675,True,True,False
-the flu,5,0.5714874293797858,False,True,False

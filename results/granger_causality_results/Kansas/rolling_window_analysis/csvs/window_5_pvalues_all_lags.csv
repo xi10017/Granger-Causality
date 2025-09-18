@@ -1,36 +1,36 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+influenza a symptoms,1,0.0057364356809121485,True,True,False
 influenza a,1,0.8077668954941792,False,False,False
 influenza b,1,0.08901071393065105,False,True,False
-stomach flu,1,0.0038435607223932743,True,True,False
-influenza a symptoms,1,0.0057364356809121485,True,True,False
 rsv,1,0.033122470949047925,True,False,False
 symptoms of flu,1,0.0034044612715377776,True,True,False
 a influenza,1,0.8077668962400144,False,False,False
+stomach flu,1,0.0038435607223932743,True,True,False
+influenza a symptoms,2,0.39811775831754626,False,True,False
 influenza a,2,0.47743983885485997,False,False,False
 influenza b,2,0.008267983975203631,True,True,False
-stomach flu,2,0.3451834679020064,False,True,False
-influenza a symptoms,2,0.39811775831754626,False,True,False
 rsv,2,0.8905633076535522,False,False,False
 symptoms of flu,2,0.11098979534493571,False,True,False
 a influenza,2,0.47743983860212114,False,False,False
+stomach flu,2,0.3451834679020064,False,True,False
+influenza a symptoms,3,0.7259956815372106,False,True,False
 influenza a,3,0.03935490124623258,True,False,False
 influenza b,3,0.2277022239332033,False,True,False
-stomach flu,3,0.4241902514562399,False,True,False
-influenza a symptoms,3,0.7259956815372106,False,True,False
 rsv,3,0.3332944289726515,False,False,False
 symptoms of flu,3,0.11105573740000528,False,True,False
 a influenza,3,0.039354901218284166,True,False,False
+stomach flu,3,0.4241902514562399,False,True,False
+influenza a symptoms,4,0.5848397208493173,False,True,False
 influenza a,4,0.19824539097706567,False,False,False
 influenza b,4,0.1178397144001744,False,True,False
-stomach flu,4,0.5398748377970165,False,True,False
-influenza a symptoms,4,0.5848397208493173,False,True,False
 rsv,4,0.4133285935691732,False,False,False
 symptoms of flu,4,0.4090276712994739,False,True,False
 a influenza,4,0.1982453911333419,False,False,False
+stomach flu,4,0.5398748377970165,False,True,False
+influenza a symptoms,5,0.7242176823685313,False,True,False
 influenza a,5,0.046155426750413335,True,False,False
 influenza b,5,0.7244033828291471,False,True,False
-stomach flu,5,0.7539624636927148,False,True,False
-influenza a symptoms,5,0.7242176823685313,False,True,False
 rsv,5,0.6149481478453381,False,False,False
 symptoms of flu,5,0.85709736623251,False,True,False
 a influenza,5,0.04615542678166165,True,False,False
+stomach flu,5,0.7539624636927148,False,True,False

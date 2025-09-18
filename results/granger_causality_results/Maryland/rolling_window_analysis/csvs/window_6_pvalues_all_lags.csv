@@ -1,51 +1,51 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-influenza a,1,0.6778706196485556,False,False,False
 flu fever,1,0.04424877268440342,True,False,False
-flu a,1,0.3695058924639416,False,False,False
-flu virus,1,0.7881071612416616,False,False,False
-symptoms of the flu,1,0.7704860330255697,False,False,False
 fever flu,1,0.02554136567856525,True,False,False
-flu how long,1,0.041811330179698354,True,False,False
+symptoms of the flu,1,0.7704860330255697,False,False,False
 contagious flu,1,0.7676172952598834,False,False,False
+influenza a,1,0.6778706196485556,False,False,False
 symptoms of flu,1,0.2982076765573234,False,False,False
+flu virus,1,0.7881071612416616,False,False,False
+flu how long,1,0.041811330179698354,True,False,False
 a influenza,1,0.6778706195722088,False,False,False
-influenza a,2,0.6807293978714797,False,False,False
+flu a,1,0.3695058924639416,False,False,False
 flu fever,2,0.7926141130063353,False,False,False
-flu a,2,0.18143019074950956,False,False,False
-flu virus,2,0.03936644335116399,True,False,False
-symptoms of the flu,2,0.9826631282261123,False,False,False
 fever flu,2,0.46952807500257143,False,False,False
-flu how long,2,0.2160539898857921,False,False,False
+symptoms of the flu,2,0.9826631282261123,False,False,False
 contagious flu,2,0.10847803875722006,False,False,False
+influenza a,2,0.6807293978714797,False,False,False
 symptoms of flu,2,0.030314974412784156,True,False,False
+flu virus,2,0.03936644335116399,True,False,False
+flu how long,2,0.2160539898857921,False,False,False
 a influenza,2,0.6807293978641937,False,False,False
-influenza a,3,0.08514232873888351,False,False,False
+flu a,2,0.18143019074950956,False,False,False
 flu fever,3,0.6294777235509394,False,False,False
-flu a,3,0.043932720346725095,True,False,False
-flu virus,3,0.8497014472778484,False,False,False
-symptoms of the flu,3,0.3398783382094307,False,False,False
 fever flu,3,0.8281115840269739,False,False,False
-flu how long,3,0.9648073745355502,False,False,False
+symptoms of the flu,3,0.3398783382094307,False,False,False
 contagious flu,3,0.4898129788186525,False,False,False
+influenza a,3,0.08514232873888351,False,False,False
 symptoms of flu,3,0.21654423347078444,False,False,False
+flu virus,3,0.8497014472778484,False,False,False
+flu how long,3,0.9648073745355502,False,False,False
 a influenza,3,0.08514232874295363,False,False,False
-influenza a,4,0.04444790978775874,True,False,False
+flu a,3,0.043932720346725095,True,False,False
 flu fever,4,0.0068077345824157105,True,False,False
-flu a,4,0.9345310268587959,False,False,False
-flu virus,4,0.6845582740716749,False,False,False
-symptoms of the flu,4,0.9686616609420649,False,False,False
 fever flu,4,0.891295256460902,False,False,False
-flu how long,4,0.5754543774652967,False,False,False
+symptoms of the flu,4,0.9686616609420649,False,False,False
 contagious flu,4,0.023650310848179746,True,False,False
+influenza a,4,0.04444790978775874,True,False,False
 symptoms of flu,4,0.29032045066770473,False,False,False
+flu virus,4,0.6845582740716749,False,False,False
+flu how long,4,0.5754543774652967,False,False,False
 a influenza,4,0.04444790978822292,True,False,False
-influenza a,5,0.5671793276021213,False,False,False
+flu a,4,0.9345310268587959,False,False,False
 flu fever,5,0.14924573815798917,False,False,False
-flu a,5,0.15395281643846828,False,False,False
-flu virus,5,0.795928252330716,False,False,False
-symptoms of the flu,5,0.039571509605461755,True,False,False
 fever flu,5,0.7311837249623676,False,False,False
-flu how long,5,0.8079377551056509,False,False,False
+symptoms of the flu,5,0.039571509605461755,True,False,False
 contagious flu,5,0.922389786616684,False,False,False
+influenza a,5,0.5671793276021213,False,False,False
 symptoms of flu,5,0.4597285215591599,False,False,False
+flu virus,5,0.795928252330716,False,False,False
+flu how long,5,0.8079377551056509,False,False,False
 a influenza,5,0.5671793276011283,False,False,False
+flu a,5,0.15395281643846828,False,False,False

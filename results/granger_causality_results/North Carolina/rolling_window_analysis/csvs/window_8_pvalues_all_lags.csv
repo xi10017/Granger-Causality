@@ -1,56 +1,56 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-flu symptoms,1,0.04144585298776035,True,True,False
-is flu contagious,1,0.040204705304224306,True,False,False
-how long flu,1,0.748327944014183,False,False,False
 bronchitis,1,0.048726508779730525,True,False,False
+flu contagious,1,0.13153865831266084,False,True,False
+flu type,1,0.07689952078154873,False,False,False
+how long flu,1,0.748327944014183,False,False,False
+is flu contagious,1,0.040204705304224306,True,False,False
+flu symptoms,1,0.04144585298776035,True,True,False
+contagious flu,1,0.17524439306548587,False,True,True
+how long contagious,1,0.46480497635654183,False,False,False
+symptoms of flu,1,0.7383301288574758,False,False,False
 fever flu,1,0.0304350247910631,True,False,False
 flu how long,1,0.5414060231685226,False,False,False
-flu type,1,0.07689952078154873,False,False,False
-flu contagious,1,0.13153865831266084,False,True,False
-how long contagious,1,0.46480497635654183,False,False,False
-contagious flu,1,0.17524439306548587,False,True,True
-symptoms of flu,1,0.7383301288574758,False,False,False
-flu symptoms,2,0.6924707345577006,False,True,False
-is flu contagious,2,0.17702882576395443,False,False,False
-how long flu,2,0.07896979612195686,False,False,False
 bronchitis,2,0.21641600973116829,False,False,False
+flu contagious,2,0.20991797765209594,False,True,False
+flu type,2,0.038173734856567686,True,False,False
+how long flu,2,0.07896979612195686,False,False,False
+is flu contagious,2,0.17702882576395443,False,False,False
+flu symptoms,2,0.6924707345577006,False,True,False
+contagious flu,2,0.3966215210483246,False,True,True
+how long contagious,2,0.2859910000037208,False,False,False
+symptoms of flu,2,0.7673648306277752,False,False,False
 fever flu,2,0.40128267942238083,False,False,False
 flu how long,2,0.29142718425816055,False,False,False
-flu type,2,0.038173734856567686,True,False,False
-flu contagious,2,0.20991797765209594,False,True,False
-how long contagious,2,0.2859910000037208,False,False,False
-contagious flu,2,0.3966215210483246,False,True,True
-symptoms of flu,2,0.7673648306277752,False,False,False
-flu symptoms,3,0.01157019839576848,True,True,False
-is flu contagious,3,0.7429698765464607,False,False,False
-how long flu,3,0.7932538782093712,False,False,False
 bronchitis,3,0.37181887607517716,False,False,False
+flu contagious,3,0.9420662526422822,False,True,False
+flu type,3,0.88117092817399,False,False,False
+how long flu,3,0.7932538782093712,False,False,False
+is flu contagious,3,0.7429698765464607,False,False,False
+flu symptoms,3,0.01157019839576848,True,True,False
+contagious flu,3,0.16557577191781647,False,True,True
+how long contagious,3,0.02242471494748418,True,False,False
+symptoms of flu,3,0.0462911562152063,True,False,False
 fever flu,3,0.6771103705323649,False,False,False
 flu how long,3,0.9730027063943352,False,False,False
-flu type,3,0.88117092817399,False,False,False
-flu contagious,3,0.9420662526422822,False,True,False
-how long contagious,3,0.02242471494748418,True,False,False
-contagious flu,3,0.16557577191781647,False,True,True
-symptoms of flu,3,0.0462911562152063,True,False,False
-flu symptoms,4,0.005741969935529224,True,True,False
-is flu contagious,4,0.02629865608659305,True,False,False
-how long flu,4,0.5226640246346983,False,False,False
 bronchitis,4,0.09391932660405135,False,False,False
+flu contagious,4,0.07976395991582155,False,True,False
+flu type,4,0.356142522462525,False,False,False
+how long flu,4,0.5226640246346983,False,False,False
+is flu contagious,4,0.02629865608659305,True,False,False
+flu symptoms,4,0.005741969935529224,True,True,False
+contagious flu,4,0.012041316234302005,True,True,True
+how long contagious,4,0.41397219276176145,False,False,False
+symptoms of flu,4,0.03264823167244478,True,False,False
 fever flu,4,0.5554708917105995,False,False,False
 flu how long,4,0.022164739981998863,True,False,False
-flu type,4,0.356142522462525,False,False,False
-flu contagious,4,0.07976395991582155,False,True,False
-how long contagious,4,0.41397219276176145,False,False,False
-contagious flu,4,0.012041316234302005,True,True,True
-symptoms of flu,4,0.03264823167244478,True,False,False
-flu symptoms,5,0.33251168498723205,False,True,False
-is flu contagious,5,0.8112788942258893,False,False,False
-how long flu,5,0.012055696862805556,True,False,False
 bronchitis,5,0.11287167978622605,False,False,False
+flu contagious,5,0.006342969881482422,True,True,False
+flu type,5,0.038791835892071885,True,False,False
+how long flu,5,0.012055696862805556,True,False,False
+is flu contagious,5,0.8112788942258893,False,False,False
+flu symptoms,5,0.33251168498723205,False,True,False
+contagious flu,5,0.0005342053822298589,True,True,True
+how long contagious,5,0.3060853686530975,False,False,False
+symptoms of flu,5,0.23422733458833267,False,False,False
 fever flu,5,0.02675272934810029,True,False,False
 flu how long,5,0.05533794173340844,False,False,False
-flu type,5,0.038791835892071885,True,False,False
-flu contagious,5,0.006342969881482422,True,True,False
-how long contagious,5,0.3060853686530975,False,False,False
-contagious flu,5,0.0005342053822298589,True,True,True
-symptoms of flu,5,0.23422733458833267,False,False,False

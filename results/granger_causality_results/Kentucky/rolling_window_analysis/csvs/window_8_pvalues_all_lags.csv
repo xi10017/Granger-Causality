@@ -1,11 +1,11 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-flu symptoms,1,0.3776836999624573,False,False,False
 the flu,1,0.6515349592562925,False,False,False
-flu symptoms,2,0.059142435583969685,False,False,False
+flu symptoms,1,0.3776836999624573,False,False,False
 the flu,2,0.03362650898900927,True,False,False
-flu symptoms,3,0.792397522588717,False,False,False
+flu symptoms,2,0.059142435583969685,False,False,False
 the flu,3,0.8708045955312077,False,False,False
-flu symptoms,4,0.9578646846553296,False,False,False
+flu symptoms,3,0.792397522588717,False,False,False
 the flu,4,0.08561392685492687,False,False,False
-flu symptoms,5,0.013911935647729613,True,False,False
+flu symptoms,4,0.9578646846553296,False,False,False
 the flu,5,0.46919198164956033,False,False,False
+flu symptoms,5,0.013911935647729613,True,False,False

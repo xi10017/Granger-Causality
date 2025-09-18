@@ -1,16 +1,16 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
 bronchitis,1,0.9134898672429216,False,False,False
-flu symptoms,1,0.7766066659041994,False,False,False
 symptoms of flu,1,0.8956698678425602,False,False,False
+flu symptoms,1,0.7766066659041994,False,False,False
 bronchitis,2,0.3744351933063661,False,False,False
-flu symptoms,2,0.7621927323579655,False,False,False
 symptoms of flu,2,0.333346362936646,False,False,False
+flu symptoms,2,0.7621927323579655,False,False,False
 bronchitis,3,0.0391187151433117,True,False,False
-flu symptoms,3,0.047177815164513186,True,False,False
 symptoms of flu,3,0.042208367025445684,True,False,False
+flu symptoms,3,0.047177815164513186,True,False,False
 bronchitis,4,0.9987453372088364,False,False,False
-flu symptoms,4,0.6379003739321536,False,False,False
 symptoms of flu,4,0.24381758114727325,False,False,False
+flu symptoms,4,0.6379003739321536,False,False,False
 bronchitis,5,0.7426334215345106,False,False,False
-flu symptoms,5,0.7661019132636381,False,False,False
 symptoms of flu,5,0.9275415957092024,False,False,False
+flu symptoms,5,0.7661019132636381,False,False,False

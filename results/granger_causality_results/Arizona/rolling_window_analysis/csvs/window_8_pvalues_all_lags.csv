@@ -1,26 +1,26 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+sinus,1,0.16402645528296034,False,False,False
 strep,1,0.7272320050503156,False,False,False
 how long flu,1,0.5702910609775258,False,False,False
-sinus,1,0.16402645528296034,False,False,False
-flu how long,1,0.22005477344052435,False,False,False
 pneumonia,1,0.20373316709205114,False,False,False
+flu how long,1,0.22005477344052435,False,False,False
+sinus,2,0.03903792698076756,True,False,False
 strep,2,0.7093177832068922,False,False,False
 how long flu,2,0.6352099423578903,False,False,False
-sinus,2,0.03903792698076756,True,False,False
-flu how long,2,0.008889760656010572,True,False,False
 pneumonia,2,0.22326564419908787,False,False,False
+flu how long,2,0.008889760656010572,True,False,False
+sinus,3,0.11061935191720833,False,False,False
 strep,3,0.7175178493545631,False,False,False
 how long flu,3,0.20858130386089568,False,False,False
-sinus,3,0.11061935191720833,False,False,False
-flu how long,3,0.024888033777686305,True,False,False
 pneumonia,3,0.042912907310612154,True,False,False
+flu how long,3,0.024888033777686305,True,False,False
+sinus,4,0.25955887641787495,False,False,False
 strep,4,0.7728511006574096,False,False,False
 how long flu,4,0.32959455724610065,False,False,False
-sinus,4,0.25955887641787495,False,False,False
-flu how long,4,0.1583475395329181,False,False,False
 pneumonia,4,0.5598918545615108,False,False,False
+flu how long,4,0.1583475395329181,False,False,False
+sinus,5,0.9738955491704829,False,False,False
 strep,5,0.03917320682356092,True,False,False
 how long flu,5,0.04831130234038732,True,False,False
-sinus,5,0.9738955491704829,False,False,False
-flu how long,5,0.047525303114336365,True,False,False
 pneumonia,5,0.20745781566591112,False,False,False
+flu how long,5,0.047525303114336365,True,False,False

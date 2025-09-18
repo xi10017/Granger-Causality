@@ -1,16 +1,16 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
 bronchitis,1,0.029669485665647602,True,False,False
-flu symptoms,1,0.005142804419887036,True,False,False
 contagious flu,1,0.36353258118100995,False,False,False
+flu symptoms,1,0.005142804419887036,True,False,False
 bronchitis,2,0.34699220258330177,False,False,False
-flu symptoms,2,0.26691248793543804,False,False,False
 contagious flu,2,0.909026407489763,False,False,False
+flu symptoms,2,0.26691248793543804,False,False,False
 bronchitis,3,0.036775657283430074,True,False,False
-flu symptoms,3,0.9688984549857058,False,False,False
 contagious flu,3,0.4550937892264081,False,False,False
+flu symptoms,3,0.9688984549857058,False,False,False
 bronchitis,4,0.31631421416272393,False,False,False
-flu symptoms,4,0.48072932071828955,False,False,False
 contagious flu,4,0.009279842422728448,True,False,False
+flu symptoms,4,0.48072932071828955,False,False,False
 bronchitis,5,0.35862629693707315,False,False,False
-flu symptoms,5,0.8047638318565988,False,False,False
 contagious flu,5,0.6470454551493875,False,False,False
+flu symptoms,5,0.8047638318565988,False,False,False

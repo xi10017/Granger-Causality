@@ -1,36 +1,36 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-flu symptoms,1,0.014584125066379326,True,False,False
-stomach flu,1,0.1262577798213647,False,False,False
-fever flu,1,0.05698676041107698,False,False,False
-cold,1,0.011321101027347161,True,True,True
 flu contagious,1,0.2870725680019364,False,False,False
+flu symptoms,1,0.014584125066379326,True,False,False
 contagious flu,1,0.28707256794698066,False,False,False
+cold,1,0.011321101027347161,True,True,True
+fever flu,1,0.05698676041107698,False,False,False
 a influenza,1,0.011701244530986412,True,False,False
-flu symptoms,2,0.8449379407001629,False,False,False
-stomach flu,2,0.009538200856853092,True,False,False
-fever flu,2,0.6044193966618133,False,False,False
-cold,2,0.1975951335642523,False,True,True
+stomach flu,1,0.1262577798213647,False,False,False
 flu contagious,2,0.540506983776245,False,False,False
+flu symptoms,2,0.8449379407001629,False,False,False
 contagious flu,2,0.540506983943376,False,False,False
+cold,2,0.1975951335642523,False,True,True
+fever flu,2,0.6044193966618133,False,False,False
 a influenza,2,0.949109428425804,False,False,False
-flu symptoms,3,0.8223900369125984,False,False,False
-stomach flu,3,0.8425367750241753,False,False,False
-fever flu,3,0.8834273011762361,False,False,False
-cold,3,0.0017991258065959293,True,True,True
+stomach flu,2,0.009538200856853092,True,False,False
 flu contagious,3,0.023370085040967086,True,False,False
+flu symptoms,3,0.8223900369125984,False,False,False
 contagious flu,3,0.023370085023363466,True,False,False
+cold,3,0.0017991258065959293,True,True,True
+fever flu,3,0.8834273011762361,False,False,False
 a influenza,3,0.82784950473459,False,False,False
-flu symptoms,4,0.9575305833649231,False,False,False
-stomach flu,4,0.8031875220515459,False,False,False
-fever flu,4,0.23440504789846248,False,False,False
-cold,4,0.06174385525164556,False,True,True
+stomach flu,3,0.8425367750241753,False,False,False
 flu contagious,4,0.07618573445725316,False,False,False
+flu symptoms,4,0.9575305833649231,False,False,False
 contagious flu,4,0.0761857344142081,False,False,False
+cold,4,0.06174385525164556,False,True,True
+fever flu,4,0.23440504789846248,False,False,False
 a influenza,4,0.37132087208367015,False,False,False
-flu symptoms,5,0.5299966681547779,False,False,False
-stomach flu,5,0.30898190245075546,False,False,False
-fever flu,5,0.009987378082020137,True,False,False
-cold,5,0.042100268326139126,True,True,True
+stomach flu,4,0.8031875220515459,False,False,False
 flu contagious,5,0.5922992546102415,False,False,False
+flu symptoms,5,0.5299966681547779,False,False,False
 contagious flu,5,0.5922992546224435,False,False,False
+cold,5,0.042100268326139126,True,True,True
+fever flu,5,0.009987378082020137,True,False,False
 a influenza,5,0.01172308818439563,True,False,False
+stomach flu,5,0.30898190245075546,False,False,False

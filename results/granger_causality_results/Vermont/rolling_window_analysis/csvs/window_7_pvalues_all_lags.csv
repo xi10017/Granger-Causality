@@ -1,36 +1,36 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-flu symptoms,1,0.16510255586129016,False,False,False
-flu a,1,0.5043217434960696,False,False,False
-stomach flu,1,0.01714803328179144,True,False,False
 flu contagious,1,0.12671879482639006,False,False,False
 pneumonia,1,0.03546036797954073,True,False,False
+flu symptoms,1,0.16510255586129016,False,False,False
 rsv,1,0.8602065924619897,False,False,False
 the flu symptoms,1,0.691706626913279,False,False,False
-flu symptoms,2,0.8678494256846301,False,False,False
-flu a,2,0.49827082615515506,False,False,False
-stomach flu,2,0.44780419811112493,False,False,False
+flu a,1,0.5043217434960696,False,False,False
+stomach flu,1,0.01714803328179144,True,False,False
 flu contagious,2,0.03048350450464038,True,False,False
 pneumonia,2,0.07108181233916992,False,False,False
+flu symptoms,2,0.8678494256846301,False,False,False
 rsv,2,0.21239605018975213,False,False,False
 the flu symptoms,2,0.8277146059377781,False,False,False
-flu symptoms,3,0.047726438283932734,True,False,False
-flu a,3,0.7851991030681145,False,False,False
-stomach flu,3,0.3610842757454401,False,False,False
+flu a,2,0.49827082615515506,False,False,False
+stomach flu,2,0.44780419811112493,False,False,False
 flu contagious,3,0.7863844602814924,False,False,False
 pneumonia,3,0.07222858524794168,False,False,False
+flu symptoms,3,0.047726438283932734,True,False,False
 rsv,3,0.00757502756426673,True,False,False
 the flu symptoms,3,0.16810501447713838,False,False,False
-flu symptoms,4,0.7356798061184981,False,False,False
-flu a,4,0.04003067528054796,True,False,False
-stomach flu,4,0.4204571199416881,False,False,False
+flu a,3,0.7851991030681145,False,False,False
+stomach flu,3,0.3610842757454401,False,False,False
 flu contagious,4,0.43311452209492984,False,False,False
 pneumonia,4,0.20741285083638217,False,False,False
+flu symptoms,4,0.7356798061184981,False,False,False
 rsv,4,0.42377501540137097,False,False,False
 the flu symptoms,4,0.015966951800246623,True,False,False
-flu symptoms,5,0.17630367447982442,False,False,False
-flu a,5,0.6520932430565474,False,False,False
-stomach flu,5,0.340920637106613,False,False,False
+flu a,4,0.04003067528054796,True,False,False
+stomach flu,4,0.4204571199416881,False,False,False
 flu contagious,5,0.2232868799791675,False,False,False
 pneumonia,5,0.1993868501578777,False,False,False
+flu symptoms,5,0.17630367447982442,False,False,False
 rsv,5,0.06871138417973324,False,False,False
 the flu symptoms,5,0.19610621620939564,False,False,False
+flu a,5,0.6520932430565474,False,False,False
+stomach flu,5,0.340920637106613,False,False,False

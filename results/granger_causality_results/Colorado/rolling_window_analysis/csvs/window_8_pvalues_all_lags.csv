@@ -1,51 +1,51 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-influenza a,1,0.12115974001989216,False,True,False
-flu fever,1,0.09578069401806455,False,False,False
-strep,1,0.19200939163613423,False,False,False
 flu cold,1,0.6306024181219563,False,True,False
-flu a,1,0.6562276508150251,False,False,False
+strep,1,0.19200939163613423,False,False,False
 how long flu,1,0.04241161540939943,True,False,False
+pneumonia,1,0.01798258782819163,True,False,False
+flu fever,1,0.09578069401806455,False,False,False
+influenza a,1,0.12115974001989216,False,True,False
 cold,1,0.009219590816743882,True,True,False
 flu how long,1,0.03324408688132394,True,False,False
-pneumonia,1,0.01798258782819163,True,False,False
 a influenza,1,0.12115974010080553,False,True,False
-influenza a,2,0.7246494789023554,False,True,False
-flu fever,2,0.9498386757913276,False,False,False
-strep,2,0.7081452767065517,False,False,False
+flu a,1,0.6562276508150251,False,False,False
 flu cold,2,0.4197135779618366,False,True,False
-flu a,2,0.31219423597441687,False,False,False
+strep,2,0.7081452767065517,False,False,False
 how long flu,2,0.2145109375089145,False,False,False
+pneumonia,2,0.2690678270375008,False,False,False
+flu fever,2,0.9498386757913276,False,False,False
+influenza a,2,0.7246494789023554,False,True,False
 cold,2,0.7319856072242479,False,True,False
 flu how long,2,0.08456820697770684,False,False,False
-pneumonia,2,0.2690678270375008,False,False,False
 a influenza,2,0.7246494788682893,False,True,False
-influenza a,3,0.008973155161031223,True,True,False
-flu fever,3,0.04132388684363993,True,False,False
-strep,3,0.6500802607411066,False,False,False
+flu a,2,0.31219423597441687,False,False,False
 flu cold,3,0.008678625245911235,True,True,False
-flu a,3,0.039723506869404734,True,False,False
+strep,3,0.6500802607411066,False,False,False
 how long flu,3,0.6109473726391597,False,False,False
+pneumonia,3,0.5011161418911296,False,False,False
+flu fever,3,0.04132388684363993,True,False,False
+influenza a,3,0.008973155161031223,True,True,False
 cold,3,0.12159330215869932,False,True,False
 flu how long,3,0.9883564083355848,False,False,False
-pneumonia,3,0.5011161418911296,False,False,False
 a influenza,3,0.008973155160745063,True,True,False
-influenza a,4,0.36703272806123655,False,True,False
-flu fever,4,0.48411549537676424,False,False,False
-strep,4,0.041775039912132134,True,False,False
+flu a,3,0.039723506869404734,True,False,False
 flu cold,4,0.7760606221680052,False,True,False
-flu a,4,0.8854774763977238,False,False,False
+strep,4,0.041775039912132134,True,False,False
 how long flu,4,0.8409364457895908,False,False,False
+pneumonia,4,0.7480180757058514,False,False,False
+flu fever,4,0.48411549537676424,False,False,False
+influenza a,4,0.36703272806123655,False,True,False
 cold,4,0.19216519598351445,False,True,False
 flu how long,4,0.42383028427153124,False,False,False
-pneumonia,4,0.7480180757058514,False,False,False
 a influenza,4,0.36703272815323484,False,True,False
-influenza a,5,0.8506437760185218,False,True,False
-flu fever,5,0.35354368367411826,False,False,False
-strep,5,0.2560482506501797,False,False,False
+flu a,4,0.8854774763977238,False,False,False
 flu cold,5,0.36532696682280796,False,True,False
-flu a,5,0.9754247550001357,False,False,False
+strep,5,0.2560482506501797,False,False,False
 how long flu,5,0.5440526994517196,False,False,False
+pneumonia,5,0.6866092954915366,False,False,False
+flu fever,5,0.35354368367411826,False,False,False
+influenza a,5,0.8506437760185218,False,True,False
 cold,5,0.9155254971676365,False,True,False
 flu how long,5,0.9934519036917907,False,False,False
-pneumonia,5,0.6866092954915366,False,False,False
 a influenza,5,0.8506437760350465,False,True,False
+flu a,5,0.9754247550001357,False,False,False

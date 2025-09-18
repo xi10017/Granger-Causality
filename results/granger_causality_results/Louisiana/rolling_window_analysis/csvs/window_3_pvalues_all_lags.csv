@@ -1,11 +1,11 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-cold,1,0.7291030331750981,False,False,False
 flu cold,1,0.898735214870217,False,False,False
-cold,2,0.2238389454110967,False,False,False
+cold,1,0.7291030331750981,False,False,False
 flu cold,2,0.4593186089545871,False,False,False
-cold,3,0.18555805287057608,False,False,False
+cold,2,0.2238389454110967,False,False,False
 flu cold,3,0.004218104054721156,True,False,False
-cold,4,0.005407540645572803,True,False,False
+cold,3,0.18555805287057608,False,False,False
 flu cold,4,0.578390708726606,False,False,False
-cold,5,0.38649174935393926,False,False,False
+cold,4,0.005407540645572803,True,False,False
 flu cold,5,0.9506499829919204,False,False,False
+cold,5,0.38649174935393926,False,False,False

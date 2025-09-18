@@ -1,16 +1,16 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-the flu,1,0.3380862482928859,False,False,False
 flu virus,1,0.020022598141179616,True,False,False
 how long does flu last,1,0.0026250947210712007,True,False,False
-the flu,2,0.6325477651484355,False,False,False
+the flu,1,0.3380862482928859,False,False,False
 flu virus,2,0.28548550838380954,False,False,False
 how long does flu last,2,0.3525773134749667,False,False,False
-the flu,3,0.5150309011292378,False,False,False
+the flu,2,0.6325477651484355,False,False,False
 flu virus,3,0.646001977246833,False,False,False
 how long does flu last,3,0.021943449723272966,True,False,False
-the flu,4,0.007500742833667335,True,False,False
+the flu,3,0.5150309011292378,False,False,False
 flu virus,4,0.5082941200163704,False,False,False
 how long does flu last,4,0.6885288015879891,False,False,False
-the flu,5,0.9483518184563113,False,False,False
+the flu,4,0.007500742833667335,True,False,False
 flu virus,5,0.5951000896418465,False,False,False
 how long does flu last,5,0.7129437858305637,False,False,False
+the flu,5,0.9483518184563113,False,False,False

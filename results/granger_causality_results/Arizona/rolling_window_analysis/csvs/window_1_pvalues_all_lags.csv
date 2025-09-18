@@ -1,16 +1,16 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
 bronchitis,1,0.8702680467688266,False,False,False
-cold,1,0.005828257106934377,True,False,False
 flu cold,1,0.008045073821434481,True,False,False
+cold,1,0.005828257106934377,True,False,False
 bronchitis,2,0.4645802259830547,False,False,False
-cold,2,0.5805178858116237,False,False,False
 flu cold,2,0.05640984086535392,False,False,False
+cold,2,0.5805178858116237,False,False,False
 bronchitis,3,0.37368798588985064,False,False,False
-cold,3,0.6492581260806424,False,False,False
 flu cold,3,0.1785946744987575,False,False,False
+cold,3,0.6492581260806424,False,False,False
 bronchitis,4,0.01614458651607967,True,False,False
-cold,4,0.22463482678140836,False,False,False
 flu cold,4,0.9652255127922145,False,False,False
+cold,4,0.22463482678140836,False,False,False
 bronchitis,5,0.5989497082001571,False,False,False
-cold,5,0.12137327001436966,False,False,False
 flu cold,5,0.7052532947639039,False,False,False
+cold,5,0.12137327001436966,False,False,False

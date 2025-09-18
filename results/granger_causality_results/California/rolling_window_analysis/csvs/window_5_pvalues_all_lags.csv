@@ -1,21 +1,21 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
 bronchitis,1,0.8955025753206178,False,False,False
 symptoms of pneumonia,1,0.03705820007624432,True,False,False
-stomach flu,1,0.7361380278936076,False,False,False
 sinus,1,0.6445052752103912,False,False,False
+stomach flu,1,0.7361380278936076,False,False,False
 bronchitis,2,0.04516414293093165,True,False,False
 symptoms of pneumonia,2,0.6318990661040111,False,False,False
-stomach flu,2,0.522653119084078,False,False,False
 sinus,2,0.7580840696837797,False,False,False
+stomach flu,2,0.522653119084078,False,False,False
 bronchitis,3,0.07984519751643437,False,False,False
 symptoms of pneumonia,3,0.15425363929841035,False,False,False
-stomach flu,3,0.9903516720086057,False,False,False
 sinus,3,0.5895696789238551,False,False,False
+stomach flu,3,0.9903516720086057,False,False,False
 bronchitis,4,0.5295790735228092,False,False,False
 symptoms of pneumonia,4,0.9972976633884753,False,False,False
-stomach flu,4,0.034537525214393294,True,False,False
 sinus,4,0.9062013190769415,False,False,False
+stomach flu,4,0.034537525214393294,True,False,False
 bronchitis,5,0.7896923480795116,False,False,False
 symptoms of pneumonia,5,0.9400490250840543,False,False,False
-stomach flu,5,0.36907276652959253,False,False,False
 sinus,5,0.040131127557261864,True,False,False
+stomach flu,5,0.36907276652959253,False,False,False

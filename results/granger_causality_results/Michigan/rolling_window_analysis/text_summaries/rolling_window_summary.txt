@@ -30,32 +30,32 @@ TERMS SIGNIFICANT ACROSS WINDOWS:
     is flu contagious: 5/8 windows
     flu contagious: 4/8 windows
     a influenza: 4/8 windows
-    strep: 3/8 windows
     bronchitis: 3/8 windows
     influenza symptoms: 3/8 windows
-    the flu symptoms: 3/8 windows
+    strep: 3/8 windows
     symptoms of flu: 3/8 windows
+    the flu symptoms: 3/8 windows
+    rsv: 3/8 windows
     flu a: 3/8 windows
     stomach flu: 3/8 windows
-    rsv: 3/8 windows
     the flu: 3/8 windows
-    flu symptoms: 2/8 windows
     flu cold: 2/8 windows
-    flu fever: 2/8 windows
+    flu symptoms: 2/8 windows
     how long flu: 2/8 windows
+    flu fever: 2/8 windows
     fever flu: 2/8 windows
     influenza a: 1/8 windows
 
   FDR significant terms (showing window counts out of 8 total):
-    strep: 1/8 windows
     flu symptoms: 1/8 windows
     the flu symptoms: 1/8 windows
+    strep: 1/8 windows
     influenza symptoms: 1/8 windows
 
   Bonferroni significant terms (showing window counts out of 8 total):
     strep: 1/8 windows
-    flu symptoms: 1/8 windows
     the flu symptoms: 1/8 windows
+    flu symptoms: 1/8 windows
     influenza symptoms: 1/8 windows
 
 DETAILED RESULTS BY WINDOW:

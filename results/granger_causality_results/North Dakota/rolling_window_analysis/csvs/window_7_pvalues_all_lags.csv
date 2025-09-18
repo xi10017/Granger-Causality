@@ -1,16 +1,16 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+bronchitis,1,0.30398627954457824,False,False,False
 pneumonia,1,0.7272591496347091,False,False,False
 flu symptoms,1,0.021168284775286136,True,False,False
-bronchitis,1,0.30398627954457824,False,False,False
+bronchitis,2,0.012747829591994619,True,False,False
 pneumonia,2,0.2739676284013532,False,False,False
 flu symptoms,2,0.9964396474115917,False,False,False
-bronchitis,2,0.012747829591994619,True,False,False
+bronchitis,3,0.5183563983551605,False,False,False
 pneumonia,3,0.003055673264238837,True,False,False
 flu symptoms,3,0.9514856659891541,False,False,False
-bronchitis,3,0.5183563983551605,False,False,False
+bronchitis,4,0.2839696146842222,False,False,False
 pneumonia,4,0.48038594949437907,False,False,False
 flu symptoms,4,0.7771892480589709,False,False,False
-bronchitis,4,0.2839696146842222,False,False,False
+bronchitis,5,0.36960594733887886,False,False,False
 pneumonia,5,0.7014364150437684,False,False,False
 flu symptoms,5,0.6674788378907432,False,False,False
-bronchitis,5,0.36960594733887886,False,False,False

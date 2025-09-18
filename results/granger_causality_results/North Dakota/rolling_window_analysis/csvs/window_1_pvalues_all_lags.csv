@@ -1,26 +1,26 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-flu symptoms,1,0.21878718797237973,False,False,False
 flu cold,1,0.8306960572211156,False,True,True
-how long flu,1,0.48560111219846214,False,True,False
-flu how long,1,0.48560111213807045,False,True,False
 how long does flu last,1,0.15264469835820582,False,True,False
-flu symptoms,2,0.6167005264284046,False,False,False
+how long flu,1,0.48560111219846214,False,True,False
+flu symptoms,1,0.21878718797237973,False,False,False
+flu how long,1,0.48560111213807045,False,True,False
 flu cold,2,0.9210091595977193,False,True,True
-how long flu,2,0.4470268127421987,False,True,False
-flu how long,2,0.4470268127617667,False,True,False
 how long does flu last,2,0.007444443328926717,True,True,False
-flu symptoms,3,0.1356892113634736,False,False,False
+how long flu,2,0.4470268127421987,False,True,False
+flu symptoms,2,0.6167005264284046,False,False,False
+flu how long,2,0.4470268127617667,False,True,False
 flu cold,3,0.8686752032101446,False,True,True
-how long flu,3,0.9494837183348325,False,True,False
-flu how long,3,0.9494837184597557,False,True,False
 how long does flu last,3,0.49855818294355736,False,True,False
-flu symptoms,4,0.6165168698056533,False,False,False
+how long flu,3,0.9494837183348325,False,True,False
+flu symptoms,3,0.1356892113634736,False,False,False
+flu how long,3,0.9494837184597557,False,True,False
 flu cold,4,0.7379191193237371,False,True,True
-how long flu,4,0.8835815559486736,False,True,False
-flu how long,4,0.883581555877841,False,True,False
 how long does flu last,4,0.2683715284148016,False,True,False
-flu symptoms,5,0.036548172361445856,True,False,False
+how long flu,4,0.8835815559486736,False,True,False
+flu symptoms,4,0.6165168698056533,False,False,False
+flu how long,4,0.883581555877841,False,True,False
 flu cold,5,0.00015890913116158262,True,True,True
-how long flu,5,0.009011558615777572,True,True,False
-flu how long,5,0.009011558615762796,True,True,False
 how long does flu last,5,0.5480646444602878,False,True,False
+how long flu,5,0.009011558615777572,True,True,False
+flu symptoms,5,0.036548172361445856,True,False,False
+flu how long,5,0.009011558615762796,True,True,False

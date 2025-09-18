@@ -1,11 +1,11 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-bronchitis,1,0.5176762204236344,False,False,False
 influenza a,1,0.2663301705413296,False,False,False
-bronchitis,2,0.048232032383809305,True,False,False
+bronchitis,1,0.5176762204236344,False,False,False
 influenza a,2,0.9648751770566302,False,False,False
-bronchitis,3,0.39079075702548616,False,False,False
+bronchitis,2,0.048232032383809305,True,False,False
 influenza a,3,0.02536839137909093,True,False,False
-bronchitis,4,0.8860297785404905,False,False,False
+bronchitis,3,0.39079075702548616,False,False,False
 influenza a,4,0.037754161662734625,True,False,False
-bronchitis,5,0.6484737868438186,False,False,False
+bronchitis,4,0.8860297785404905,False,False,False
 influenza a,5,0.7821330379001136,False,False,False
+bronchitis,5,0.6484737868438186,False,False,False

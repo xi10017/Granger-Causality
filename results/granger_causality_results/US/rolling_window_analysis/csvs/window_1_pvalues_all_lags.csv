@@ -1,11 +1,11 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-get rid of flu,1,0.2612908597757527,False,False,False
 tamiflu side effects,1,0.022582619811041395,True,False,False
-get rid of flu,2,0.03816392504200073,True,False,False
+get rid of flu,1,0.2612908597757527,False,False,False
 tamiflu side effects,2,0.6637155743959511,False,False,False
-get rid of flu,3,0.8989193986749098,False,False,False
+get rid of flu,2,0.03816392504200073,True,False,False
 tamiflu side effects,3,0.6705135083280664,False,False,False
-get rid of flu,4,0.43039893054376555,False,False,False
+get rid of flu,3,0.8989193986749098,False,False,False
 tamiflu side effects,4,0.41867736426638047,False,False,False
-get rid of flu,5,0.21728733434604644,False,False,False
+get rid of flu,4,0.43039893054376555,False,False,False
 tamiflu side effects,5,0.9715141449474304,False,False,False
+get rid of flu,5,0.21728733434604644,False,False,False

@@ -1,26 +1,26 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
 strep,1,0.21665868505299307,False,False,False
 how long flu,1,0.22239210147004626,False,True,False
+the flu,1,0.8353992617444542,False,False,False
 flu how long,1,0.22239210080955252,False,True,False
 the flu symptoms,1,0.6640062804705412,False,True,False
-the flu,1,0.8353992617444542,False,False,False
 strep,2,0.3441087227130811,False,False,False
 how long flu,2,0.24517658737377207,False,True,False
+the flu,2,0.032589756285927605,True,False,False
 flu how long,2,0.24517658756126928,False,True,False
 the flu symptoms,2,0.5128348002977752,False,True,False
-the flu,2,0.032589756285927605,True,False,False
 strep,3,0.14708756339808118,False,False,False
 how long flu,3,0.005414768359171691,True,True,False
+the flu,3,0.3996148812291781,False,False,False
 flu how long,3,0.005414768359899954,True,True,False
 the flu symptoms,3,0.0035315366030522527,True,True,False
-the flu,3,0.3996148812291781,False,False,False
 strep,4,0.4682423525848951,False,False,False
 how long flu,4,0.5740372103635041,False,True,False
+the flu,4,0.6703531016057017,False,False,False
 flu how long,4,0.5740372103304188,False,True,False
 the flu symptoms,4,0.9839125402572444,False,True,False
-the flu,4,0.6703531016057017,False,False,False
 strep,5,0.04792361436215657,True,False,False
 how long flu,5,0.9150973750907309,False,True,False
+the flu,5,0.09791698627095483,False,False,False
 flu how long,5,0.9150973752276264,False,True,False
 the flu symptoms,5,0.4241767785344065,False,True,False
-the flu,5,0.09791698627095483,False,False,False

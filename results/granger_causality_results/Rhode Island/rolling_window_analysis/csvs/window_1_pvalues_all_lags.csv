@@ -1,36 +1,36 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-influenza a,1,0.3545905173632571,False,False,False
-flu fever,1,0.11493174302843592,False,False,False
-how long flu,1,0.023186466123856744,True,True,True
 bronchitis,1,0.03811833399630282,True,True,True
-fever flu,1,0.1149317431412782,False,False,False
+how long flu,1,0.023186466123856744,True,True,True
 pneumonia,1,0.9584953929840971,False,False,False
+flu fever,1,0.11493174302843592,False,False,False
+influenza a,1,0.3545905173632571,False,False,False
+fever flu,1,0.1149317431412782,False,False,False
 the flu symptoms,1,0.24139673340734702,False,False,False
-influenza a,2,0.8730695622103435,False,False,False
-flu fever,2,0.4295987883718406,False,False,False
-how long flu,2,0.00025153729356205794,True,True,True
 bronchitis,2,0.113242578281892,False,True,True
-fever flu,2,0.4295987882667818,False,False,False
+how long flu,2,0.00025153729356205794,True,True,True
 pneumonia,2,0.935855874114932,False,False,False
+flu fever,2,0.4295987883718406,False,False,False
+influenza a,2,0.8730695622103435,False,False,False
+fever flu,2,0.4295987882667818,False,False,False
 the flu symptoms,2,0.15483757099490758,False,False,False
-influenza a,3,0.377370310502418,False,False,False
-flu fever,3,0.42556240643026433,False,False,False
-how long flu,3,0.5001854777208861,False,True,True
 bronchitis,3,0.0002916237262576237,True,True,True
-fever flu,3,0.4255624064395743,False,False,False
+how long flu,3,0.5001854777208861,False,True,True
 pneumonia,3,0.20444878082653103,False,False,False
+flu fever,3,0.42556240643026433,False,False,False
+influenza a,3,0.377370310502418,False,False,False
+fever flu,3,0.4255624064395743,False,False,False
 the flu symptoms,3,0.03841411832498513,True,False,False
-influenza a,4,0.8131220935853145,False,False,False
-flu fever,4,0.023573156580303654,True,False,False
-how long flu,4,0.08715362653569611,False,True,True
 bronchitis,4,0.8949447963347842,False,True,True
-fever flu,4,0.023573156560849243,True,False,False
+how long flu,4,0.08715362653569611,False,True,True
 pneumonia,4,0.0499562656828407,True,False,False
+flu fever,4,0.023573156580303654,True,False,False
+influenza a,4,0.8131220935853145,False,False,False
+fever flu,4,0.023573156560849243,True,False,False
 the flu symptoms,4,0.8097316170422066,False,False,False
-influenza a,5,0.03996844556697641,True,False,False
-flu fever,5,0.9936899343211316,False,False,False
-how long flu,5,0.5953713319921696,False,True,True
 bronchitis,5,2.2178601554029193e-07,True,True,True
-fever flu,5,0.9936899341930798,False,False,False
+how long flu,5,0.5953713319921696,False,True,True
 pneumonia,5,0.12501068939685764,False,False,False
+flu fever,5,0.9936899343211316,False,False,False
+influenza a,5,0.03996844556697641,True,False,False
+fever flu,5,0.9936899341930798,False,False,False
 the flu symptoms,5,0.9939851006543716,False,False,False

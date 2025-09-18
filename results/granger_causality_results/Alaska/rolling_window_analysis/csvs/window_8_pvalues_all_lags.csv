@@ -1,51 +1,51 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-influenza a,1,0.27417236725259286,False,True,False
+flu contagious,1,0.026844436944806264,True,True,False
+sinus,1,0.9396304061870309,False,True,False
 how long flu,1,0.27164900356564853,False,True,False
+pneumonia,1,0.015306346981202087,True,True,False
+the flu,1,0.18369530847503954,False,False,False
+contagious flu,1,0.02684443693716987,True,True,False
+influenza a,1,0.27417236725259286,False,True,False
+symptoms of flu,1,0.5299968282131917,False,True,False
 flu a,1,0.017622424375231944,True,True,False
 stomach flu,1,0.22396869591647864,False,True,False
-sinus,1,0.9396304061870309,False,True,False
-flu contagious,1,0.026844436944806264,True,True,False
-pneumonia,1,0.015306346981202087,True,True,False
-contagious flu,1,0.02684443693716987,True,True,False
-symptoms of flu,1,0.5299968282131917,False,True,False
-the flu,1,0.18369530847503954,False,False,False
-influenza a,2,0.1573816084007613,False,True,False
+flu contagious,2,0.004612316934623149,True,True,False
+sinus,2,0.8151238329212966,False,True,False
 how long flu,2,0.006667963983343741,True,True,False
+pneumonia,2,0.795476377039331,False,True,False
+the flu,2,0.24335269987558897,False,False,False
+contagious flu,2,0.004612316933478886,True,True,False
+influenza a,2,0.1573816084007613,False,True,False
+symptoms of flu,2,0.08585430917246294,False,True,False
 flu a,2,0.04408354752163013,True,True,False
 stomach flu,2,0.4409766869141766,False,True,False
-sinus,2,0.8151238329212966,False,True,False
-flu contagious,2,0.004612316934623149,True,True,False
-pneumonia,2,0.795476377039331,False,True,False
-contagious flu,2,0.004612316933478886,True,True,False
-symptoms of flu,2,0.08585430917246294,False,True,False
-the flu,2,0.24335269987558897,False,False,False
-influenza a,3,0.011002062133485448,True,True,False
+flu contagious,3,0.16052959485439183,False,True,False
+sinus,3,0.021114413825065292,True,True,False
 how long flu,3,0.870841016791883,False,True,False
+pneumonia,3,0.21786409525784597,False,True,False
+the flu,3,0.0489524171431249,True,False,False
+contagious flu,3,0.16052959485992327,False,True,False
+influenza a,3,0.011002062133485448,True,True,False
+symptoms of flu,3,0.020358151395375598,True,True,False
 flu a,3,0.5909582237553324,False,True,False
 stomach flu,3,0.0042334096108046625,True,True,False
-sinus,3,0.021114413825065292,True,True,False
-flu contagious,3,0.16052959485439183,False,True,False
-pneumonia,3,0.21786409525784597,False,True,False
-contagious flu,3,0.16052959485992327,False,True,False
-symptoms of flu,3,0.020358151395375598,True,True,False
-the flu,3,0.0489524171431249,True,False,False
-influenza a,4,0.006016659202766782,True,True,False
+flu contagious,4,0.5332470518709838,False,True,False
+sinus,4,0.9473454760420814,False,True,False
 how long flu,4,0.37426869694983045,False,True,False
+pneumonia,4,0.17535763209826616,False,True,False
+the flu,4,0.3674529807880228,False,False,False
+contagious flu,4,0.5332470518728272,False,True,False
+influenza a,4,0.006016659202766782,True,True,False
+symptoms of flu,4,0.8780744812017311,False,True,False
 flu a,4,0.6976948495103951,False,True,False
 stomach flu,4,0.6949890386321587,False,True,False
-sinus,4,0.9473454760420814,False,True,False
-flu contagious,4,0.5332470518709838,False,True,False
-pneumonia,4,0.17535763209826616,False,True,False
-contagious flu,4,0.5332470518728272,False,True,False
-symptoms of flu,4,0.8780744812017311,False,True,False
-the flu,4,0.3674529807880228,False,False,False
-influenza a,5,0.25938296641693864,False,True,False
+flu contagious,5,0.9800770906270602,False,True,False
+sinus,5,0.1318480358641623,False,True,False
 how long flu,5,0.7373150288432198,False,True,False
+pneumonia,5,0.5336531890324753,False,True,False
+the flu,5,0.3607043293436444,False,False,False
+contagious flu,5,0.9800770907621827,False,True,False
+influenza a,5,0.25938296641693864,False,True,False
+symptoms of flu,5,0.36993583032501,False,True,False
 flu a,5,0.4275996407785727,False,True,False
 stomach flu,5,0.4062511975432942,False,True,False
-sinus,5,0.1318480358641623,False,True,False
-flu contagious,5,0.9800770906270602,False,True,False
-pneumonia,5,0.5336531890324753,False,True,False
-contagious flu,5,0.9800770907621827,False,True,False
-symptoms of flu,5,0.36993583032501,False,True,False
-the flu,5,0.3607043293436444,False,False,False

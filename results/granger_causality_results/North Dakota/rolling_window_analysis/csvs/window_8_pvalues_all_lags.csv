@@ -1,16 +1,16 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-flu fever,1,0.6334908098099488,False,False,False
 fever flu,1,0.633490809893771,False,False,False
+flu fever,1,0.6334908098099488,False,False,False
 the flu,1,0.48792764102067865,False,False,False
-flu fever,2,0.021109843308089158,True,False,False
 fever flu,2,0.021109843316265708,True,False,False
+flu fever,2,0.021109843308089158,True,False,False
 the flu,2,0.9766102072049592,False,False,False
-flu fever,3,0.4901973373998809,False,False,False
 fever flu,3,0.4901973375259321,False,False,False
+flu fever,3,0.4901973373998809,False,False,False
 the flu,3,0.4907602211901265,False,False,False
-flu fever,4,0.10728494258897024,False,False,False
 fever flu,4,0.10728494260682778,False,False,False
+flu fever,4,0.10728494258897024,False,False,False
 the flu,4,0.3915734751044083,False,False,False
-flu fever,5,0.26310923749559484,False,False,False
 fever flu,5,0.2631092375223916,False,False,False
+flu fever,5,0.26310923749559484,False,False,False
 the flu,5,0.044749905493514555,True,False,False

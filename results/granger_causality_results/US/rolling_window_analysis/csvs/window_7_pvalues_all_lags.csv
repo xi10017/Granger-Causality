@@ -1,26 +1,26 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-get rid of the flu,1,0.5589788245566739,False,False,False
-get rid of flu,1,0.1525271337402057,False,False,False
-how long contagious,1,0.11623941106983049,False,False,False
 flu remedies,1,0.0017050954921067753,True,True,True
 how long is the flu contagious,1,0.6865166794957719,False,False,False
-get rid of the flu,2,0.7326777546204062,False,False,False
-get rid of flu,2,0.8925039782995404,False,False,False
-how long contagious,2,0.15465030583953618,False,False,False
+get rid of the flu,1,0.5589788245566739,False,False,False
+how long contagious,1,0.11623941106983049,False,False,False
+get rid of flu,1,0.1525271337402057,False,False,False
 flu remedies,2,0.8203887907184075,False,True,True
 how long is the flu contagious,2,0.150353979225216,False,False,False
-get rid of the flu,3,0.030687176533467746,True,False,False
-get rid of flu,3,0.005607852985902759,True,False,False
-how long contagious,3,0.26373300249047105,False,False,False
+get rid of the flu,2,0.7326777546204062,False,False,False
+how long contagious,2,0.15465030583953618,False,False,False
+get rid of flu,2,0.8925039782995404,False,False,False
 flu remedies,3,0.4546890589923467,False,True,True
 how long is the flu contagious,3,0.049748565255167077,True,False,False
-get rid of the flu,4,0.33103189818006384,False,False,False
-get rid of flu,4,0.15379844235445897,False,False,False
-how long contagious,4,0.03082794270222764,True,False,False
+get rid of the flu,3,0.030687176533467746,True,False,False
+how long contagious,3,0.26373300249047105,False,False,False
+get rid of flu,3,0.005607852985902759,True,False,False
 flu remedies,4,0.3095164940415452,False,True,True
 how long is the flu contagious,4,0.685054688899202,False,False,False
-get rid of the flu,5,0.6002598182017581,False,False,False
-get rid of flu,5,0.31113726939000014,False,False,False
-how long contagious,5,0.275836957590975,False,False,False
+get rid of the flu,4,0.33103189818006384,False,False,False
+how long contagious,4,0.03082794270222764,True,False,False
+get rid of flu,4,0.15379844235445897,False,False,False
 flu remedies,5,0.6700497202400002,False,True,True
 how long is the flu contagious,5,0.9999321877735314,False,False,False
+get rid of the flu,5,0.6002598182017581,False,False,False
+how long contagious,5,0.275836957590975,False,False,False
+get rid of flu,5,0.31113726939000014,False,False,False

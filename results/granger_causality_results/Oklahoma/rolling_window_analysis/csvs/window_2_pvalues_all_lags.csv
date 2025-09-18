@@ -1,56 +1,56 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-flu symptoms,1,0.23347986708701474,False,False,False
-how long flu,1,0.0031875185063368595,True,True,False
-type a flu,1,0.9798842153461556,False,True,False
-flu a,1,0.05895650500951388,False,False,False
 bronchitis,1,0.8306656266512249,False,False,False
+type a flu,1,0.9798842153461556,False,True,False
+flu type a,1,0.9798842152361156,False,True,False
+how long flu,1,0.0031875185063368595,True,True,False
+the flu,1,0.426847727791275,False,False,False
+flu symptoms,1,0.23347986708701474,False,False,False
+symptoms of flu,1,0.6915201045897685,False,False,False
 fever flu,1,0.23143097095535997,False,True,True
 flu how long,1,0.23944586577439017,False,False,False
+flu a,1,0.05895650500951388,False,False,False
 strep throat,1,0.509621174547773,False,False,False
-symptoms of flu,1,0.6915201045897685,False,False,False
-flu type a,1,0.9798842152361156,False,True,False
-the flu,1,0.426847727791275,False,False,False
-flu symptoms,2,0.5380104332042492,False,False,False
-how long flu,2,0.036792386611451094,True,True,False
-type a flu,2,0.006016633967517927,True,True,False
-flu a,2,0.03975079135635394,True,False,False
 bronchitis,2,0.500859076507102,False,False,False
+type a flu,2,0.006016633967517927,True,True,False
+flu type a,2,0.006016633967315948,True,True,False
+how long flu,2,0.036792386611451094,True,True,False
+the flu,2,0.18048966905077266,False,False,False
+flu symptoms,2,0.5380104332042492,False,False,False
+symptoms of flu,2,0.3149661043182533,False,False,False
 fever flu,2,0.000630444521082564,True,True,True
 flu how long,2,0.5379483793752129,False,False,False
+flu a,2,0.03975079135635394,True,False,False
 strep throat,2,0.9435392127499047,False,False,False
-symptoms of flu,2,0.3149661043182533,False,False,False
-flu type a,2,0.006016633967315948,True,True,False
-the flu,2,0.18048966905077266,False,False,False
-flu symptoms,3,0.026899951426818842,True,False,False
-how long flu,3,0.10639884577410871,False,True,False
-type a flu,3,0.6976811634197171,False,True,False
-flu a,3,0.9585791108089443,False,False,False
 bronchitis,3,0.04151361279826105,True,False,False
+type a flu,3,0.6976811634197171,False,True,False
+flu type a,3,0.697681163477745,False,True,False
+how long flu,3,0.10639884577410871,False,True,False
+the flu,3,0.7435917388118425,False,False,False
+flu symptoms,3,0.026899951426818842,True,False,False
+symptoms of flu,3,0.04041944923906098,True,False,False
 fever flu,3,0.7532739585667362,False,True,True
 flu how long,3,0.4197160679749493,False,False,False
+flu a,3,0.9585791108089443,False,False,False
 strep throat,3,0.12281216798256257,False,False,False
-symptoms of flu,3,0.04041944923906098,True,False,False
-flu type a,3,0.697681163477745,False,True,False
-the flu,3,0.7435917388118425,False,False,False
-flu symptoms,4,0.7328734241598844,False,False,False
-how long flu,4,0.30759021265546443,False,True,False
-type a flu,4,0.7718768623364605,False,True,False
-flu a,4,0.7571656395084015,False,False,False
 bronchitis,4,0.6143583302744091,False,False,False
+type a flu,4,0.7718768623364605,False,True,False
+flu type a,4,0.7718768623558552,False,True,False
+how long flu,4,0.30759021265546443,False,True,False
+the flu,4,0.9296493797068568,False,False,False
+flu symptoms,4,0.7328734241598844,False,False,False
+symptoms of flu,4,0.23246256516696137,False,False,False
 fever flu,4,0.05508591382644718,False,True,True
 flu how long,4,0.03929842322213028,True,False,False
+flu a,4,0.7571656395084015,False,False,False
 strep throat,4,0.09192575282461163,False,False,False
-symptoms of flu,4,0.23246256516696137,False,False,False
-flu type a,4,0.7718768623558552,False,True,False
-the flu,4,0.9296493797068568,False,False,False
-flu symptoms,5,0.6125317628428799,False,False,False
-how long flu,5,0.23158673228370413,False,True,False
-type a flu,5,0.9721744309075608,False,True,False
-flu a,5,0.4403750255102682,False,False,False
 bronchitis,5,0.758318955437349,False,False,False
+type a flu,5,0.9721744309075608,False,True,False
+flu type a,5,0.9721744309335483,False,True,False
+how long flu,5,0.23158673228370413,False,True,False
+the flu,5,0.026782145121079775,True,False,False
+flu symptoms,5,0.6125317628428799,False,False,False
+symptoms of flu,5,0.1738770611962553,False,False,False
 fever flu,5,0.4946961710366211,False,True,True
 flu how long,5,0.8906296611600233,False,False,False
+flu a,5,0.4403750255102682,False,False,False
 strep throat,5,0.03673892305564116,True,False,False
-symptoms of flu,5,0.1738770611962553,False,False,False
-flu type a,5,0.9721744309335483,False,True,False
-the flu,5,0.026782145121079775,True,False,False

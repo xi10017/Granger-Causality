@@ -1,26 +1,26 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
 influenza a,1,0.8278394192446881,False,False,False
-stomach flu,1,0.9961777335102437,False,False,False
 rsv,1,0.038517980632690026,True,False,False
 symptoms of influenza,1,0.010041418654907248,True,False,False
 a influenza,1,0.8278394204644822,False,False,False
+stomach flu,1,0.9961777335102437,False,False,False
 influenza a,2,0.6128971856171352,False,False,False
-stomach flu,2,0.779800816926075,False,False,False
 rsv,2,0.7465666725380291,False,False,False
 symptoms of influenza,2,0.05484715586010116,False,False,False
 a influenza,2,0.6128971855094612,False,False,False
+stomach flu,2,0.779800816926075,False,False,False
 influenza a,3,0.04378046904976679,True,False,False
-stomach flu,3,0.30713045027667124,False,False,False
 rsv,3,0.236099671056011,False,False,False
 symptoms of influenza,3,0.4681344547232289,False,False,False
 a influenza,3,0.043780469050054296,True,False,False
+stomach flu,3,0.30713045027667124,False,False,False
 influenza a,4,0.2693285644755998,False,False,False
-stomach flu,4,0.003062006939897359,True,False,False
 rsv,4,0.5013374670762546,False,False,False
 symptoms of influenza,4,0.8085937630164545,False,False,False
 a influenza,4,0.2693285643110548,False,False,False
+stomach flu,4,0.003062006939897359,True,False,False
 influenza a,5,0.271340908379883,False,False,False
-stomach flu,5,0.3901621769840087,False,False,False
 rsv,5,0.9044710686599569,False,False,False
 symptoms of influenza,5,0.36951500761735345,False,False,False
 a influenza,5,0.2713409082294056,False,False,False
+stomach flu,5,0.3901621769840087,False,False,False

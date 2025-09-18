@@ -1,66 +1,66 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-fever cough,1,0.14303720707627862,False,True,False
-how long are you contagious,1,0.03185425768525086,True,False,False
-flu type a,1,0.18493833195902937,False,False,False
+flu contagious,1,0.19651254200152785,False,True,True
 get rid of the flu,1,0.6460529133986683,False,True,False
-type a flu,1,0.1849383319560777,False,False,False
+flu remedies,1,0.2368240248091621,False,True,False
 flu type,1,0.052592228580881493,False,True,False
+type a flu,1,0.1849383319560777,False,False,False
+flu type a,1,0.18493833195902937,False,False,False
+how contagious is the flu,1,0.26885467595703266,False,True,False
 cough fever,1,0.03568601721757842,True,True,False
 contagious flu,1,0.9447751918033291,False,True,False
-flu contagious,1,0.19651254200152785,False,True,True
+how long are you contagious,1,0.03185425768525086,True,False,False
 how long contagious,1,0.598697535468101,False,True,False
+fever cough,1,0.14303720707627862,False,True,False
 tamiflu side effects,1,0.024499589936283903,True,True,False
-flu remedies,1,0.2368240248091621,False,True,False
-how contagious is the flu,1,0.26885467595703266,False,True,False
-fever cough,2,0.013751819826346209,True,True,False
-how long are you contagious,2,0.731102599148628,False,False,False
-flu type a,2,0.6057248167944738,False,False,False
+flu contagious,2,0.0018467881302357031,True,True,True
 get rid of the flu,2,0.5758699075634994,False,True,False
-type a flu,2,0.6057248167939866,False,False,False
+flu remedies,2,0.28332949093856924,False,True,False
 flu type,2,0.718728216484891,False,True,False
+type a flu,2,0.6057248167939866,False,False,False
+flu type a,2,0.6057248167944738,False,False,False
+how contagious is the flu,2,0.017784614014147212,True,True,False
 cough fever,2,0.00522747387643268,True,True,False
 contagious flu,2,0.017583610850355928,True,True,False
-flu contagious,2,0.0018467881302357031,True,True,True
+how long are you contagious,2,0.731102599148628,False,False,False
 how long contagious,2,0.01832892191087093,True,True,False
+fever cough,2,0.013751819826346209,True,True,False
 tamiflu side effects,2,0.5493584875758306,False,True,False
-flu remedies,2,0.28332949093856924,False,True,False
-how contagious is the flu,2,0.017784614014147212,True,True,False
-fever cough,3,0.1413063021651219,False,True,False
-how long are you contagious,3,0.8229662374475274,False,False,False
-flu type a,3,0.3292248568601106,False,False,False
+flu contagious,3,0.45180959294236034,False,True,True
 get rid of the flu,3,0.003354723164495644,True,True,False
-type a flu,3,0.3292248568616444,False,False,False
+flu remedies,3,0.39660466841939834,False,True,False
 flu type,3,0.004678046621126826,True,True,False
+type a flu,3,0.3292248568616444,False,False,False
+flu type a,3,0.3292248568601106,False,False,False
+how contagious is the flu,3,0.2672174516658909,False,True,False
 cough fever,3,0.15028914228646933,False,True,False
 contagious flu,3,0.8240884383288909,False,True,False
-flu contagious,3,0.45180959294236034,False,True,True
+how long are you contagious,3,0.8229662374475274,False,False,False
 how long contagious,3,0.655828930969907,False,True,False
+fever cough,3,0.1413063021651219,False,True,False
 tamiflu side effects,3,0.03345111455081946,True,True,False
-flu remedies,3,0.39660466841939834,False,True,False
-how contagious is the flu,3,0.2672174516658909,False,True,False
-fever cough,4,0.27699807634202156,False,True,False
-how long are you contagious,4,0.8609913248889124,False,False,False
-flu type a,4,0.03463331113117444,True,False,False
+flu contagious,4,0.07475119894013955,False,True,True
 get rid of the flu,4,0.5960145441042307,False,True,False
-type a flu,4,0.034633311131386686,True,False,False
+flu remedies,4,0.2511450787448408,False,True,False
 flu type,4,0.07967877296586404,False,True,False
+type a flu,4,0.034633311131386686,True,False,False
+flu type a,4,0.03463331113117444,True,False,False
+how contagious is the flu,4,0.42713539174884263,False,True,False
 cough fever,4,0.5822604018765236,False,True,False
 contagious flu,4,0.02390623108496094,True,True,False
-flu contagious,4,0.07475119894013955,False,True,True
+how long are you contagious,4,0.8609913248889124,False,False,False
 how long contagious,4,0.32548755619668124,False,True,False
+fever cough,4,0.27699807634202156,False,True,False
 tamiflu side effects,4,0.46059533662400887,False,True,False
-flu remedies,4,0.2511450787448408,False,True,False
-how contagious is the flu,4,0.42713539174884263,False,True,False
-fever cough,5,0.6608758380121149,False,True,False
-how long are you contagious,5,0.5408091784042832,False,False,False
-flu type a,5,0.9711555751339063,False,False,False
+flu contagious,5,0.9340689416877976,False,True,True
 get rid of the flu,5,0.6041355257889109,False,True,False
-type a flu,5,0.9711555751345856,False,False,False
+flu remedies,5,0.003304752846534992,True,True,False
 flu type,5,0.9560476775606161,False,True,False
+type a flu,5,0.9711555751345856,False,False,False
+flu type a,5,0.9711555751339063,False,False,False
+how contagious is the flu,5,0.0511403943360952,False,True,False
 cough fever,5,0.7741486642102198,False,True,False
 contagious flu,5,0.8299512851413482,False,True,False
-flu contagious,5,0.9340689416877976,False,True,True
+how long are you contagious,5,0.5408091784042832,False,False,False
 how long contagious,5,0.5140322721784054,False,True,False
+fever cough,5,0.6608758380121149,False,True,False
 tamiflu side effects,5,0.011761476707043333,True,True,False
-flu remedies,5,0.003304752846534992,True,True,False
-how contagious is the flu,5,0.0511403943360952,False,True,False

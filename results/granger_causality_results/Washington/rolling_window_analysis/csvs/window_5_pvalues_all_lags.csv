@@ -1,46 +1,46 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-flu symptoms,1,0.0026762947726353525,True,True,False
-how long flu,1,0.06523417235828691,False,False,False
 bronchitis,1,0.038253034107580096,True,False,False
-flu how long,1,0.06523417235121629,False,False,False
 flu contagious,1,0.06395703133125924,False,True,True
+how long flu,1,0.06523417235828691,False,False,False
+flu symptoms,1,0.0026762947726353525,True,True,False
 contagious flu,1,0.06395703134487914,False,True,True
+flu how long,1,0.06523417235121629,False,False,False
 rsv,1,0.427742410451566,False,False,False
-the flu symptoms,1,0.5352746176712667,False,True,False
 how long does flu last,1,0.6326529665798265,False,True,True
-flu symptoms,2,0.6335581249331919,False,True,False
-how long flu,2,0.8984823805291914,False,False,False
+the flu symptoms,1,0.5352746176712667,False,True,False
 bronchitis,2,0.7733526292095645,False,False,False
-flu how long,2,0.8984823804835151,False,False,False
 flu contagious,2,0.0018130035997492304,True,True,True
+how long flu,2,0.8984823805291914,False,False,False
+flu symptoms,2,0.6335581249331919,False,True,False
 contagious flu,2,0.0018130035999704467,True,True,True
+flu how long,2,0.8984823804835151,False,False,False
 rsv,2,0.864853241510745,False,False,False
-the flu symptoms,2,0.7342464410794716,False,True,False
 how long does flu last,2,0.08795588345507646,False,True,True
-flu symptoms,3,0.695552283341881,False,True,False
-how long flu,3,0.06444488462214652,False,False,False
+the flu symptoms,2,0.7342464410794716,False,True,False
 bronchitis,3,0.33043349913903775,False,False,False
-flu how long,3,0.06444488463161087,False,False,False
 flu contagious,3,0.2579927203884443,False,True,True
+how long flu,3,0.06444488462214652,False,False,False
+flu symptoms,3,0.695552283341881,False,True,False
 contagious flu,3,0.25799272037251697,False,True,True
+flu how long,3,0.06444488463161087,False,False,False
 rsv,3,0.6477712443675473,False,False,False
-the flu symptoms,3,0.15402631796932165,False,True,False
 how long does flu last,3,0.1387387821074307,False,True,True
-flu symptoms,4,0.4894222802450675,False,True,False
-how long flu,4,0.028607006784544906,True,False,False
+the flu symptoms,3,0.15402631796932165,False,True,False
 bronchitis,4,0.6686967864694874,False,False,False
-flu how long,4,0.028607006788160878,True,False,False
 flu contagious,4,0.09230234599292206,False,True,True
+how long flu,4,0.028607006784544906,True,False,False
+flu symptoms,4,0.4894222802450675,False,True,False
 contagious flu,4,0.09230234601173752,False,True,True
+flu how long,4,0.028607006788160878,True,False,False
 rsv,4,0.7462878214336026,False,False,False
-the flu symptoms,4,0.010155773208529143,True,True,False
 how long does flu last,4,0.000426309178804916,True,True,True
-flu symptoms,5,0.24470162409276686,False,True,False
-how long flu,5,0.42193834272775754,False,False,False
+the flu symptoms,4,0.010155773208529143,True,True,False
 bronchitis,5,0.7519758621517696,False,False,False
-flu how long,5,0.4219383427493426,False,False,False
 flu contagious,5,0.5456061752301296,False,True,True
+how long flu,5,0.42193834272775754,False,False,False
+flu symptoms,5,0.24470162409276686,False,True,False
 contagious flu,5,0.5456061752387169,False,True,True
+flu how long,5,0.4219383427493426,False,False,False
 rsv,5,0.03576826226441029,True,False,False
-the flu symptoms,5,0.33107779548379457,False,True,False
 how long does flu last,5,0.7149585691912774,False,True,True
+the flu symptoms,5,0.33107779548379457,False,True,False

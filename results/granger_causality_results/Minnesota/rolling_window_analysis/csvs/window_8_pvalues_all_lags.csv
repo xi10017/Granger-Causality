@@ -1,11 +1,11 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-symptoms of influenza,1,0.7753489588337695,False,False,False
 influenza b,1,0.0011050466163817164,True,True,True
-symptoms of influenza,2,0.5468936518449043,False,False,False
+symptoms of influenza,1,0.7753489588337695,False,False,False
 influenza b,2,0.006704467866421475,True,True,True
-symptoms of influenza,3,0.0219613764234094,True,False,False
+symptoms of influenza,2,0.5468936518449043,False,False,False
 influenza b,3,0.31774713820998507,False,True,True
-symptoms of influenza,4,0.6061466625224015,False,False,False
+symptoms of influenza,3,0.0219613764234094,True,False,False
 influenza b,4,0.4758670450010152,False,True,True
-symptoms of influenza,5,0.25363043874316327,False,False,False
+symptoms of influenza,4,0.6061466625224015,False,False,False
 influenza b,5,0.6890397591671142,False,True,True
+symptoms of influenza,5,0.25363043874316327,False,False,False

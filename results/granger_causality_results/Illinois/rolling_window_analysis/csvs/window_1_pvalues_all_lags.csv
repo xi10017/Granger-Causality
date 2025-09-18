@@ -1,26 +1,26 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
 bronchitis,1,0.7322918571855275,False,False,False
-stomach flu,1,0.8557985162521471,False,False,False
-sinus,1,0.4648269658154429,False,False,False
 flu contagious,1,0.044202284595377735,True,False,False
+sinus,1,0.4648269658154429,False,False,False
 how long does flu last,1,0.802675230654816,False,False,False
+stomach flu,1,0.8557985162521471,False,False,False
 bronchitis,2,0.16184593467950217,False,False,False
-stomach flu,2,0.048551515953908726,True,False,False
-sinus,2,0.04252972375818406,True,False,False
 flu contagious,2,0.09668443489440395,False,False,False
+sinus,2,0.04252972375818406,True,False,False
 how long does flu last,2,0.4015026147548809,False,False,False
+stomach flu,2,0.048551515953908726,True,False,False
 bronchitis,3,0.024584926058018722,True,False,False
-stomach flu,3,0.23919984766847566,False,False,False
-sinus,3,0.15917336395883555,False,False,False
 flu contagious,3,0.01629679537161648,True,False,False
+sinus,3,0.15917336395883555,False,False,False
 how long does flu last,3,0.04876984310676484,True,False,False
+stomach flu,3,0.23919984766847566,False,False,False
 bronchitis,4,0.8767777685220505,False,False,False
-stomach flu,4,0.48484629925630085,False,False,False
-sinus,4,0.5420030864076092,False,False,False
 flu contagious,4,0.17325152538163877,False,False,False
+sinus,4,0.5420030864076092,False,False,False
 how long does flu last,4,0.41999493102137897,False,False,False
+stomach flu,4,0.48484629925630085,False,False,False
 bronchitis,5,0.1380459820022036,False,False,False
-stomach flu,5,0.4080581514672761,False,False,False
-sinus,5,0.18588720132054082,False,False,False
 flu contagious,5,0.38373075985741634,False,False,False
+sinus,5,0.18588720132054082,False,False,False
 how long does flu last,5,0.02284084397927925,True,False,False
+stomach flu,5,0.4080581514672761,False,False,False

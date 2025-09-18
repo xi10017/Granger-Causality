@@ -1,41 +1,41 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-influenza a,1,0.09511188008587833,False,False,False
+bronchitis,1,0.8174430197688578,False,False,False
 flu fever,1,0.022727733540900706,True,False,False
 flu symptoms,1,0.7376067141333574,False,False,False
-flu a,1,0.31767768852600026,False,False,False
-bronchitis,1,0.8174430197688578,False,False,False
+influenza a,1,0.09511188008587833,False,False,False
 cold,1,0.005522124659621847,True,False,False
-the flu symptoms,1,0.9054151653748798,False,False,False
 a influenza,1,0.0951118798459744,False,False,False
-influenza a,2,0.3124148262572517,False,False,False
+flu a,1,0.31767768852600026,False,False,False
+the flu symptoms,1,0.9054151653748798,False,False,False
+bronchitis,2,0.27758036143791837,False,False,False
 flu fever,2,0.20643778738031457,False,False,False
 flu symptoms,2,0.5316775447869934,False,False,False
-flu a,2,0.7686992264615999,False,False,False
-bronchitis,2,0.27758036143791837,False,False,False
+influenza a,2,0.3124148262572517,False,False,False
 cold,2,0.5963374929325929,False,False,False
-the flu symptoms,2,0.31078071651898886,False,False,False
 a influenza,2,0.3124148264499414,False,False,False
-influenza a,3,0.40084860299849034,False,False,False
+flu a,2,0.7686992264615999,False,False,False
+the flu symptoms,2,0.31078071651898886,False,False,False
+bronchitis,3,0.042762018497229624,True,False,False
 flu fever,3,0.004313526048579806,True,False,False
 flu symptoms,3,0.019693160386877216,True,False,False
-flu a,3,0.3708667489533861,False,False,False
-bronchitis,3,0.042762018497229624,True,False,False
+influenza a,3,0.40084860299849034,False,False,False
 cold,3,0.5668564563385641,False,False,False
-the flu symptoms,3,0.699645854226155,False,False,False
 a influenza,3,0.40084860279716195,False,False,False
-influenza a,4,0.02216225481544731,True,False,False
+flu a,3,0.3708667489533861,False,False,False
+the flu symptoms,3,0.699645854226155,False,False,False
+bronchitis,4,0.5351176935521844,False,False,False
 flu fever,4,0.9976256024424117,False,False,False
 flu symptoms,4,0.736791128361749,False,False,False
-flu a,4,0.017684204351470632,True,False,False
-bronchitis,4,0.5351176935521844,False,False,False
+influenza a,4,0.02216225481544731,True,False,False
 cold,4,0.22948203357171373,False,False,False
-the flu symptoms,4,0.045654766144950024,True,False,False
 a influenza,4,0.022162254820469685,True,False,False
-influenza a,5,0.34428229772845276,False,False,False
+flu a,4,0.017684204351470632,True,False,False
+the flu symptoms,4,0.045654766144950024,True,False,False
+bronchitis,5,0.9342310551846178,False,False,False
 flu fever,5,0.7313577900695938,False,False,False
 flu symptoms,5,0.9543288109495269,False,False,False
-flu a,5,0.3967373082861604,False,False,False
-bronchitis,5,0.9342310551846178,False,False,False
+influenza a,5,0.34428229772845276,False,False,False
 cold,5,0.5520490469223249,False,False,False
-the flu symptoms,5,0.05427337229723685,False,False,False
 a influenza,5,0.34428229762524565,False,False,False
+flu a,5,0.3967373082861604,False,False,False
+the flu symptoms,5,0.05427337229723685,False,False,False

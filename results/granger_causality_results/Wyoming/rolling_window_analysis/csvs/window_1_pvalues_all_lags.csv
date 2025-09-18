@@ -1,31 +1,31 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-influenza a,1,0.8843088495195234,False,False,False
 flu symptoms,1,0.5052079747924655,False,False,False
-flu a,1,0.06394121481138246,False,True,True
+influenza a,1,0.8843088495195234,False,False,False
 rsv,1,0.054212247447715765,False,False,False
-the flu symptoms,1,0.6627187584994503,False,False,False
 how long does flu last,1,0.530618003176126,False,True,True
-influenza a,2,0.11578077132056257,False,False,False
+flu a,1,0.06394121481138246,False,True,True
+the flu symptoms,1,0.6627187584994503,False,False,False
 flu symptoms,2,0.8553403893363873,False,False,False
-flu a,2,0.009698651578595162,True,True,True
+influenza a,2,0.11578077132056257,False,False,False
 rsv,2,0.9750130911759951,False,False,False
-the flu symptoms,2,0.2799674716903886,False,False,False
 how long does flu last,2,0.000802675150729833,True,True,True
-influenza a,3,0.8131379611554517,False,False,False
+flu a,2,0.009698651578595162,True,True,True
+the flu symptoms,2,0.2799674716903886,False,False,False
 flu symptoms,3,0.06160620295915094,False,False,False
-flu a,3,0.34920536717414663,False,True,True
+influenza a,3,0.8131379611554517,False,False,False
 rsv,3,0.01312794413983466,True,False,False
-the flu symptoms,3,0.6385217561393091,False,False,False
 how long does flu last,3,0.4754416914922629,False,True,True
-influenza a,4,0.019588135998264207,True,False,False
+flu a,3,0.34920536717414663,False,True,True
+the flu symptoms,3,0.6385217561393091,False,False,False
 flu symptoms,4,0.03337429517081889,True,False,False
-flu a,4,0.00013677669022605951,True,True,True
+influenza a,4,0.019588135998264207,True,False,False
 rsv,4,0.05268716056787556,False,False,False
-the flu symptoms,4,0.9418169945516085,False,False,False
 how long does flu last,4,0.030696125062127853,True,True,True
-influenza a,5,0.3449071434084644,False,False,False
+flu a,4,0.00013677669022605951,True,True,True
+the flu symptoms,4,0.9418169945516085,False,False,False
 flu symptoms,5,0.21819483984222518,False,False,False
-flu a,5,0.000827797554714471,True,True,True
+influenza a,5,0.3449071434084644,False,False,False
 rsv,5,0.3317024922756763,False,False,False
-the flu symptoms,5,0.04064499730368899,True,False,False
 how long does flu last,5,0.008995432199523092,True,True,True
+flu a,5,0.000827797554714471,True,True,True
+the flu symptoms,5,0.04064499730368899,True,False,False

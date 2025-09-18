@@ -1,16 +1,16 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+b flu,1,0.7712845133179276,False,False,False
 how long does flu last,1,0.02191136118831059,True,False,False
 symptoms of flu,1,0.9763107258430386,False,False,False
-b flu,1,0.7712845133179276,False,False,False
+b flu,2,0.004717098596301689,True,False,False
 how long does flu last,2,0.33766104782846873,False,False,False
 symptoms of flu,2,0.6161987318795776,False,False,False
-b flu,2,0.004717098596301689,True,False,False
+b flu,3,0.7075731431198771,False,False,False
 how long does flu last,3,0.7998152599807192,False,False,False
 symptoms of flu,3,0.023497454972551353,True,False,False
-b flu,3,0.7075731431198771,False,False,False
+b flu,4,0.04959647695434532,True,False,False
 how long does flu last,4,0.04983828279101176,True,False,False
 symptoms of flu,4,0.41049754610820544,False,False,False
-b flu,4,0.04959647695434532,True,False,False
+b flu,5,0.2399431162042622,False,False,False
 how long does flu last,5,0.4742644629055742,False,False,False
 symptoms of flu,5,0.7086749040828635,False,False,False
-b flu,5,0.2399431162042622,False,False,False

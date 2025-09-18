@@ -33,14 +33,14 @@ TERMS SIGNIFICANT ACROSS WINDOWS:
     influenza a: 5/8 windows
     symptoms of influenza: 4/8 windows
     a influenza: 4/8 windows
+    influenza a symptoms: 4/8 windows
     flu symptoms: 4/8 windows
     flu a: 4/8 windows
-    influenza a symptoms: 4/8 windows
     the flu symptoms: 4/8 windows
     influenza b: 3/8 windows
     symptoms of flu: 3/8 windows
-    flu cold: 2/8 windows
     bronchitis: 2/8 windows
+    flu cold: 2/8 windows
     how long flu: 2/8 windows
     flu how long: 2/8 windows
     pneumonia: 1/8 windows
@@ -49,19 +49,19 @@ TERMS SIGNIFICANT ACROSS WINDOWS:
     strep: 1/8 windows
 
   FDR significant terms (showing window counts out of 8 total):
-    influenza symptoms: 3/8 windows
     the flu: 3/8 windows
-    influenza a: 3/8 windows
+    influenza symptoms: 3/8 windows
     contagious flu: 3/8 windows
-    flu symptoms: 2/8 windows
+    influenza a: 3/8 windows
     bronchitis: 2/8 windows
     influenza a symptoms: 2/8 windows
+    flu symptoms: 2/8 windows
     symptoms of influenza: 2/8 windows
-    flu a: 1/8 windows
     symptoms of flu: 1/8 windows
+    flu a: 1/8 windows
     stomach flu: 1/8 windows
-    the flu symptoms: 1/8 windows
     a influenza: 1/8 windows
+    the flu symptoms: 1/8 windows
     flu cold: 1/8 windows
     how long flu: 1/8 windows
     flu how long: 1/8 windows
@@ -69,11 +69,11 @@ TERMS SIGNIFICANT ACROSS WINDOWS:
   Bonferroni significant terms (showing window counts out of 8 total):
     influenza symptoms: 2/8 windows
     influenza a: 2/8 windows
-    flu a: 1/8 windows
     bronchitis: 1/8 windows
+    the flu: 1/8 windows
     contagious flu: 1/8 windows
     symptoms of flu: 1/8 windows
-    the flu: 1/8 windows
+    flu a: 1/8 windows
     a influenza: 1/8 windows
     symptoms of influenza: 1/8 windows
 

@@ -1,66 +1,66 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+bronchitis,1,0.0006476421173702586,True,True,True
+flu cold,1,0.5807061950538378,False,True,False
+flu fever,1,0.036203891983293525,True,False,False
+contagious flu,1,0.7387832254160862,False,True,True
 influenza a,1,0.4207931644866534,False,True,True
 flu symptoms,1,0.22467202301868086,False,True,False
-flu fever,1,0.036203891983293525,True,False,False
-flu cold,1,0.5807061950538378,False,True,False
+rsv,1,0.8013354792754367,False,True,False
 how long does the flu last,1,0.06652595776920459,False,True,False
-bronchitis,1,0.0006476421173702586,True,True,True
+symptoms of flu,1,0.17801827808268403,False,True,True
+fever flu,1,0.03620389196131949,True,False,False
+how long does flu last,1,0.029542552728423807,True,True,True
 a influenza,1,0.4207931641976218,False,True,True
 stomach flu,1,0.9531972953055992,False,True,True
-fever flu,1,0.03620389196131949,True,False,False
-contagious flu,1,0.7387832254160862,False,True,True
-rsv,1,0.8013354792754367,False,True,False
-symptoms of flu,1,0.17801827808268403,False,True,True
-how long does flu last,1,0.029542552728423807,True,True,True
+bronchitis,2,0.10268271511874782,False,True,True
+flu cold,2,0.0102582897978525,True,True,False
+flu fever,2,0.5037609712679676,False,False,False
+contagious flu,2,0.018543604842352034,True,True,True
 influenza a,2,0.43105158670117494,False,True,True
 flu symptoms,2,0.410718792291521,False,True,False
-flu fever,2,0.5037609712679676,False,False,False
-flu cold,2,0.0102582897978525,True,True,False
+rsv,2,0.16112172880497272,False,True,False
 how long does the flu last,2,0.014887365427529475,True,True,False
-bronchitis,2,0.10268271511874782,False,True,True
+symptoms of flu,2,0.9064314857894746,False,True,True
+fever flu,2,0.5037609713279845,False,False,False
+how long does flu last,2,0.13724841324828807,False,True,True
 a influenza,2,0.43105158660795695,False,True,True
 stomach flu,2,0.7489916611413316,False,True,True
-fever flu,2,0.5037609713279845,False,False,False
-contagious flu,2,0.018543604842352034,True,True,True
-rsv,2,0.16112172880497272,False,True,False
-symptoms of flu,2,0.9064314857894746,False,True,True
-how long does flu last,2,0.13724841324828807,False,True,True
+bronchitis,3,0.0895956108844612,False,True,True
+flu cold,3,0.5706164088434803,False,True,False
+flu fever,3,0.035118938581363564,True,False,False
+contagious flu,3,0.001656884628224242,True,True,True
 influenza a,3,0.15784780804505488,False,True,True
 flu symptoms,3,0.1701518008092506,False,True,False
-flu fever,3,0.035118938581363564,True,False,False
-flu cold,3,0.5706164088434803,False,True,False
+rsv,3,0.012081366882507867,True,True,False
 how long does the flu last,3,0.02376863110825072,True,True,False
-bronchitis,3,0.0895956108844612,False,True,True
+symptoms of flu,3,0.9572383938927089,False,True,True
+fever flu,3,0.03511893859618527,True,False,False
+how long does flu last,3,0.6871981979839351,False,True,True
 a influenza,3,0.15784780805112242,False,True,True
 stomach flu,3,0.002229814575986548,True,True,True
-fever flu,3,0.03511893859618527,True,False,False
-contagious flu,3,0.001656884628224242,True,True,True
-rsv,3,0.012081366882507867,True,True,False
-symptoms of flu,3,0.9572383938927089,False,True,True
-how long does flu last,3,0.6871981979839351,False,True,True
+bronchitis,4,0.030980006858412793,True,True,True
+flu cold,4,0.33437602027606517,False,True,False
+flu fever,4,0.09889272817336107,False,False,False
+contagious flu,4,0.39404524505945104,False,True,True
 influenza a,4,0.000639110167621472,True,True,True
 flu symptoms,4,0.0028775023853094615,True,True,False
-flu fever,4,0.09889272817336107,False,False,False
-flu cold,4,0.33437602027606517,False,True,False
+rsv,4,0.4028898433487088,False,True,False
 how long does the flu last,4,0.36380969847003364,False,True,False
-bronchitis,4,0.030980006858412793,True,True,True
+symptoms of flu,4,0.054178309778496754,False,True,True
+fever flu,4,0.09889272815526702,False,False,False
+how long does flu last,4,0.7912578964464044,False,True,True
 a influenza,4,0.0006391101676876331,True,True,True
 stomach flu,4,0.45386737851653325,False,True,True
-fever flu,4,0.09889272815526702,False,False,False
-contagious flu,4,0.39404524505945104,False,True,True
-rsv,4,0.4028898433487088,False,True,False
-symptoms of flu,4,0.054178309778496754,False,True,True
-how long does flu last,4,0.7912578964464044,False,True,True
+bronchitis,5,0.5020081832432723,False,True,True
+flu cold,5,0.5023706743508869,False,True,False
+flu fever,5,0.8867076141531613,False,False,False
+contagious flu,5,0.40543077030854247,False,True,True
 influenza a,5,0.4329983315697653,False,True,True
 flu symptoms,5,0.32266236362628054,False,True,False
-flu fever,5,0.8867076141531613,False,False,False
-flu cold,5,0.5023706743508869,False,True,False
+rsv,5,0.6019853336394596,False,True,False
 how long does the flu last,5,0.020039894388589077,True,True,False
-bronchitis,5,0.5020081832432723,False,True,True
+symptoms of flu,5,0.0005412085617601122,True,True,True
+fever flu,5,0.8867076143080224,False,False,False
+how long does flu last,5,0.0014272489432508373,True,True,True
 a influenza,5,0.43299833166323376,False,True,True
 stomach flu,5,0.7154465458146062,False,True,True
-fever flu,5,0.8867076143080224,False,False,False
-contagious flu,5,0.40543077030854247,False,True,True
-rsv,5,0.6019853336394596,False,True,False
-symptoms of flu,5,0.0005412085617601122,True,True,True
-how long does flu last,5,0.0014272489432508373,True,True,True

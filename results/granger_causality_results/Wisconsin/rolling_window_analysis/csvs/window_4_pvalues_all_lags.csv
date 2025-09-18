@@ -1,36 +1,36 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-influenza a,1,0.17111286518630897,False,False,False
-flu a,1,0.6431368788707197,False,False,False
-how long flu,1,0.15256090249568932,False,False,False
-cold,1,0.15935959322042217,False,False,False
 influenza a symptoms,1,0.5533291316750084,False,True,True
+how long flu,1,0.15256090249568932,False,False,False
 pneumonia,1,0.23180557672108376,False,False,False
+influenza a,1,0.17111286518630897,False,False,False
+cold,1,0.15935959322042217,False,False,False
 symptoms of flu,1,0.4840369202911108,False,False,False
-influenza a,2,0.5859058827322774,False,False,False
-flu a,2,0.6535127518552463,False,False,False
-how long flu,2,0.3173594670261487,False,False,False
-cold,2,0.40451403336510405,False,False,False
+flu a,1,0.6431368788707197,False,False,False
 influenza a symptoms,2,0.834347400920349,False,True,True
+how long flu,2,0.3173594670261487,False,False,False
 pneumonia,2,0.026615745235432794,True,False,False
+influenza a,2,0.5859058827322774,False,False,False
+cold,2,0.40451403336510405,False,False,False
 symptoms of flu,2,0.9995011686579647,False,False,False
-influenza a,3,0.029375176581628193,True,False,False
-flu a,3,0.4662163295041807,False,False,False
-how long flu,3,0.6948089843692554,False,False,False
-cold,3,0.6176360907422398,False,False,False
+flu a,2,0.6535127518552463,False,False,False
 influenza a symptoms,3,0.0013876177574502948,True,True,True
+how long flu,3,0.6948089843692554,False,False,False
 pneumonia,3,0.9584957785217705,False,False,False
+influenza a,3,0.029375176581628193,True,False,False
+cold,3,0.6176360907422398,False,False,False
 symptoms of flu,3,0.031122317338612173,True,False,False
-influenza a,4,0.8258803150222496,False,False,False
-flu a,4,0.35821921181939276,False,False,False
-how long flu,4,0.036113331895498285,True,False,False
-cold,4,0.043988744531343396,True,False,False
+flu a,3,0.4662163295041807,False,False,False
 influenza a symptoms,4,0.7038235696044539,False,True,True
+how long flu,4,0.036113331895498285,True,False,False
 pneumonia,4,0.6051651727612524,False,False,False
+influenza a,4,0.8258803150222496,False,False,False
+cold,4,0.043988744531343396,True,False,False
 symptoms of flu,4,0.6109040303270117,False,False,False
-influenza a,5,0.12985150246487684,False,False,False
-flu a,5,0.03366418496165731,True,False,False
-how long flu,5,0.6393501290963619,False,False,False
-cold,5,0.8784370529576699,False,False,False
+flu a,4,0.35821921181939276,False,False,False
 influenza a symptoms,5,0.761306371723023,False,True,True
+how long flu,5,0.6393501290963619,False,False,False
 pneumonia,5,0.0663716793818233,False,False,False
+influenza a,5,0.12985150246487684,False,False,False
+cold,5,0.8784370529576699,False,False,False
 symptoms of flu,5,0.9348618030055917,False,False,False
+flu a,5,0.03366418496165731,True,False,False

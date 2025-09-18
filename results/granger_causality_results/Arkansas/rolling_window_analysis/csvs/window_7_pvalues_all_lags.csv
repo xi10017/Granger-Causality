@@ -1,81 +1,81 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-strep,1,0.021441727244448133,True,True,False
-flu fever,1,0.4954444038690309,False,True,False
 b flu,1,0.7070051751630608,False,True,False
-how long flu,1,0.012819354790099066,True,True,False
-flu a,1,0.007543658357189843,True,True,False
-the flu,1,0.02019586916650217,True,True,False
-type a flu,1,0.9833177322544252,False,False,False
-fever flu,1,0.49544440301465487,False,True,False
-flu how long,1,0.01281935487386036,True,True,False
 flu contagious,1,0.0003378102016327511,True,True,True
+flu cold,1,0.09087167042663842,False,True,True
+type a flu,1,0.9833177322544252,False,False,False
+strep,1,0.021441727244448133,True,True,False
+flu type a,1,0.9833177325586926,False,False,False
+how long flu,1,0.012819354790099066,True,True,False
 pneumonia,1,0.5943661610159392,False,False,False
+flu fever,1,0.4954444038690309,False,True,False
+the flu,1,0.02019586916650217,True,True,False
 contagious flu,1,0.00033781020247040754,True,True,True
 rsv,1,0.037737466690615624,True,False,False
+fever flu,1,0.49544440301465487,False,True,False
+flu how long,1,0.01281935487386036,True,True,False
+flu a,1,0.007543658357189843,True,True,False
 the flu symptoms,1,0.9934114704132719,False,True,True
-flu type a,1,0.9833177325586926,False,False,False
-flu cold,1,0.09087167042663842,False,True,True
-strep,2,0.2790499106849791,False,True,False
-flu fever,2,0.4733647662968308,False,True,False
 b flu,2,0.005051730065591501,True,True,False
-how long flu,2,0.32434195239968455,False,True,False
-flu a,2,0.6989019914957282,False,True,False
-the flu,2,0.6684021557522104,False,True,False
-type a flu,2,0.1836585611705052,False,False,False
-fever flu,2,0.4733647660480773,False,True,False
-flu how long,2,0.32434195132522137,False,True,False
 flu contagious,2,0.09286100151726814,False,True,True
+flu cold,2,0.037616904798703756,True,True,True
+type a flu,2,0.1836585611705052,False,False,False
+strep,2,0.2790499106849791,False,True,False
+flu type a,2,0.18365856114771334,False,False,False
+how long flu,2,0.32434195239968455,False,True,False
 pneumonia,2,0.4930521626282822,False,False,False
+flu fever,2,0.4733647662968308,False,True,False
+the flu,2,0.6684021557522104,False,True,False
 contagious flu,2,0.09286100154610903,False,True,True
 rsv,2,0.26064997668211487,False,False,False
+fever flu,2,0.4733647660480773,False,True,False
+flu how long,2,0.32434195132522137,False,True,False
+flu a,2,0.6989019914957282,False,True,False
 the flu symptoms,2,0.2784506064415586,False,True,True
-flu type a,2,0.18365856114771334,False,False,False
-flu cold,2,0.037616904798703756,True,True,True
-strep,3,0.6297680025595156,False,True,False
-flu fever,3,0.3144958327029324,False,True,False
 b flu,3,0.09811221668847808,False,True,False
-how long flu,3,0.7848779435625352,False,True,False
-flu a,3,0.9103662208166559,False,True,False
-the flu,3,0.032906405585098,True,True,False
-type a flu,3,0.07944745937410372,False,False,False
-fever flu,3,0.31449583312449353,False,True,False
-flu how long,3,0.7848779426766765,False,True,False
 flu contagious,3,0.6917528362924318,False,True,True
+flu cold,3,0.001387473788295685,True,True,True
+type a flu,3,0.07944745937410372,False,False,False
+strep,3,0.6297680025595156,False,True,False
+flu type a,3,0.07944745936062829,False,False,False
+how long flu,3,0.7848779435625352,False,True,False
 pneumonia,3,0.046697999747768205,True,False,False
+flu fever,3,0.3144958327029324,False,True,False
+the flu,3,0.032906405585098,True,True,False
 contagious flu,3,0.6917528366134472,False,True,True
 rsv,3,0.43585275609487995,False,False,False
+fever flu,3,0.31449583312449353,False,True,False
+flu how long,3,0.7848779426766765,False,True,False
+flu a,3,0.9103662208166559,False,True,False
 the flu symptoms,3,7.789764203285173e-07,True,True,True
-flu type a,3,0.07944745936062829,False,False,False
-flu cold,3,0.001387473788295685,True,True,True
-strep,4,0.7144714790170485,False,True,False
-flu fever,4,0.4832506041907847,False,True,False
 b flu,4,0.02778600608999651,True,True,False
-how long flu,4,0.004353201340705377,True,True,False
-flu a,4,0.7110766053237135,False,True,False
-the flu,4,0.8481395025059584,False,True,False
-type a flu,4,0.0640097367063692,False,False,False
-fever flu,4,0.4832506038392924,False,True,False
-flu how long,4,0.004353201337156228,True,True,False
 flu contagious,4,0.0145421501372318,True,True,True
+flu cold,4,0.8085512275216928,False,True,True
+type a flu,4,0.0640097367063692,False,False,False
+strep,4,0.7144714790170485,False,True,False
+flu type a,4,0.06400973668948684,False,False,False
+how long flu,4,0.004353201340705377,True,True,False
 pneumonia,4,0.5378628784856292,False,False,False
+flu fever,4,0.4832506041907847,False,True,False
+the flu,4,0.8481395025059584,False,True,False
 contagious flu,4,0.014542150139415351,True,True,True
 rsv,4,0.7399067762546696,False,False,False
+fever flu,4,0.4832506038392924,False,True,False
+flu how long,4,0.004353201337156228,True,True,False
+flu a,4,0.7110766053237135,False,True,False
 the flu symptoms,4,0.4855008174618638,False,True,True
-flu type a,4,0.06400973668948684,False,False,False
-flu cold,4,0.8085512275216928,False,True,True
-strep,5,0.4059186853769652,False,True,False
-flu fever,5,0.014126682375966136,True,True,False
 b flu,5,0.07463555422642723,False,True,False
-how long flu,5,0.1342244334956088,False,True,False
-flu a,5,0.7568520122118972,False,True,False
-the flu,5,0.5967278518031724,False,True,False
-type a flu,5,0.047721727298152786,True,False,False
-fever flu,5,0.014126682382398387,True,True,False
-flu how long,5,0.13422443355157176,False,True,False
 flu contagious,5,0.9380553523369523,False,True,True
+flu cold,5,0.22190475230344248,False,True,True
+type a flu,5,0.047721727298152786,True,False,False
+strep,5,0.4059186853769652,False,True,False
+flu type a,5,0.047721727289892345,True,False,False
+how long flu,5,0.1342244334956088,False,True,False
 pneumonia,5,0.6466605968625153,False,False,False
+flu fever,5,0.014126682375966136,True,True,False
+the flu,5,0.5967278518031724,False,True,False
 contagious flu,5,0.9380553522041906,False,True,True
 rsv,5,0.1845633006728051,False,False,False
+fever flu,5,0.014126682382398387,True,True,False
+flu how long,5,0.13422443355157176,False,True,False
+flu a,5,0.7568520122118972,False,True,False
 the flu symptoms,5,0.3253712049752784,False,True,True
-flu type a,5,0.047721727289892345,True,False,False
-flu cold,5,0.22190475230344248,False,True,True

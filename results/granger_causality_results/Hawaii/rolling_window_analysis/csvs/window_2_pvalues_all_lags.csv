@@ -1,31 +1,31 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-how long flu,1,0.8928314244734636,False,False,False
-stomach flu,1,0.012393439827822183,True,False,False
-fever flu,1,0.00526445332836311,True,False,False
 flu contagious,1,0.7252675041526466,False,False,False
+how long flu,1,0.8928314244734636,False,False,False
 contagious flu,1,0.9829871024152059,False,False,False
+fever flu,1,0.00526445332836311,True,False,False
 a influenza,1,0.00305877161042424,True,False,False
-how long flu,2,0.6683490257909184,False,False,False
-stomach flu,2,0.555516168279276,False,False,False
-fever flu,2,0.692009616782574,False,False,False
+stomach flu,1,0.012393439827822183,True,False,False
 flu contagious,2,0.32338786091939975,False,False,False
+how long flu,2,0.6683490257909184,False,False,False
 contagious flu,2,0.8496915190888241,False,False,False
+fever flu,2,0.692009616782574,False,False,False
 a influenza,2,0.5040109436694244,False,False,False
-how long flu,3,0.026757941531807026,True,False,False
-stomach flu,3,0.22634953445897776,False,False,False
-fever flu,3,0.7010801057780318,False,False,False
+stomach flu,2,0.555516168279276,False,False,False
 flu contagious,3,0.6247875390326342,False,False,False
+how long flu,3,0.026757941531807026,True,False,False
 contagious flu,3,0.4001302252000246,False,False,False
+fever flu,3,0.7010801057780318,False,False,False
 a influenza,3,0.921190778600049,False,False,False
-how long flu,4,0.9618525352853986,False,False,False
-stomach flu,4,0.38137082164127034,False,False,False
-fever flu,4,0.48023441938617173,False,False,False
+stomach flu,3,0.22634953445897776,False,False,False
 flu contagious,4,0.7872084713211527,False,False,False
+how long flu,4,0.9618525352853986,False,False,False
 contagious flu,4,0.02754532784175134,True,False,False
+fever flu,4,0.48023441938617173,False,False,False
 a influenza,4,0.5425733540175322,False,False,False
-how long flu,5,0.8979943476952604,False,False,False
-stomach flu,5,0.8600076750617162,False,False,False
-fever flu,5,0.1296777418088684,False,False,False
+stomach flu,4,0.38137082164127034,False,False,False
 flu contagious,5,0.03194221805820625,True,False,False
+how long flu,5,0.8979943476952604,False,False,False
 contagious flu,5,0.38666791230929565,False,False,False
+fever flu,5,0.1296777418088684,False,False,False
 a influenza,5,0.4985239765891605,False,False,False
+stomach flu,5,0.8600076750617162,False,False,False

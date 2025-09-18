@@ -40,19 +40,19 @@ TERMS SIGNIFICANT ACROSS WINDOWS:
     pneumonia: 2/8 windows
     flu fever: 2/8 windows
     fever flu: 2/8 windows
-    flu symptoms: 1/8 windows
     flu cold: 1/8 windows
+    flu symptoms: 1/8 windows
     bronchitis: 1/8 windows
     sinus: 1/8 windows
 
   FDR significant terms (showing window counts out of 8 total):
-    the flu symptoms: 2/8 windows
-    flu how long: 2/8 windows
     how long flu: 2/8 windows
+    flu how long: 2/8 windows
+    the flu symptoms: 2/8 windows
     the flu: 2/8 windows
     stomach flu: 1/8 windows
-    contagious flu: 1/8 windows
     flu contagious: 1/8 windows
+    contagious flu: 1/8 windows
 
   Bonferroni significant terms (showing window counts out of 8 total):
     stomach flu: 1/8 windows

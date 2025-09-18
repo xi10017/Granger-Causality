@@ -1,26 +1,26 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-flu symptoms,1,2.259887725372266e-05,True,True,True
+sinus,1,0.009673076209629289,True,False,False
 flu fever,1,0.010614569895815315,True,False,False
+flu symptoms,1,2.259887725372266e-05,True,True,True
 flu a,1,0.005018999911216073,True,False,False
 stomach flu,1,0.8691142445767098,False,False,False
-sinus,1,0.009673076209629289,True,False,False
-flu symptoms,2,0.22112239680120757,False,True,True
+sinus,2,0.22989653565485996,False,False,False
 flu fever,2,0.09493720943264904,False,False,False
+flu symptoms,2,0.22112239680120757,False,True,True
 flu a,2,0.5268406254639844,False,False,False
 stomach flu,2,0.33374211851696434,False,False,False
-sinus,2,0.22989653565485996,False,False,False
-flu symptoms,3,0.533568705277528,False,True,True
+sinus,3,0.15609156450937903,False,False,False
 flu fever,3,0.3955289229946525,False,False,False
+flu symptoms,3,0.533568705277528,False,True,True
 flu a,3,0.19101479621105544,False,False,False
 stomach flu,3,0.04840654133544747,True,False,False
-sinus,3,0.15609156450937903,False,False,False
-flu symptoms,4,0.5944192103487957,False,True,True
+sinus,4,0.3434577577468394,False,False,False
 flu fever,4,0.7549390031056242,False,False,False
+flu symptoms,4,0.5944192103487957,False,True,True
 flu a,4,0.6522999352087266,False,False,False
 stomach flu,4,0.38358310656714467,False,False,False
-sinus,4,0.3434577577468394,False,False,False
-flu symptoms,5,0.8614269521121156,False,True,True
+sinus,5,0.7999798832873694,False,False,False
 flu fever,5,0.3549381527594344,False,False,False
+flu symptoms,5,0.8614269521121156,False,True,True
 flu a,5,0.6150060171638266,False,False,False
 stomach flu,5,0.2723512457564858,False,False,False
-sinus,5,0.7999798832873694,False,False,False

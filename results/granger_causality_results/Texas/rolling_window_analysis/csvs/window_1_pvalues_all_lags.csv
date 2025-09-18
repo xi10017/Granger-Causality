@@ -1,21 +1,21 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-the flu,1,0.5949898136461986,False,False,False
 how long is flu contagious,1,0.6639918669941944,False,False,False
-flu type a,1,0.040418087416854875,True,False,False
+the flu,1,0.5949898136461986,False,False,False
 how long does flu last,1,0.756714483570468,False,False,False
-the flu,2,0.09942107426531584,False,False,False
+flu type a,1,0.040418087416854875,True,False,False
 how long is flu contagious,2,0.012376218807379569,True,False,False
-flu type a,2,0.2067281735469765,False,False,False
+the flu,2,0.09942107426531584,False,False,False
 how long does flu last,2,0.03551553544401722,True,False,False
-the flu,3,0.5452397659777852,False,False,False
+flu type a,2,0.2067281735469765,False,False,False
 how long is flu contagious,3,0.36412735037974064,False,False,False
-flu type a,3,0.8797259459761595,False,False,False
+the flu,3,0.5452397659777852,False,False,False
 how long does flu last,3,0.5407690171912479,False,False,False
-the flu,4,0.511379278635536,False,False,False
+flu type a,3,0.8797259459761595,False,False,False
 how long is flu contagious,4,0.3438210083948362,False,False,False
-flu type a,4,0.3213840456998384,False,False,False
+the flu,4,0.511379278635536,False,False,False
 how long does flu last,4,0.6858256483483416,False,False,False
-the flu,5,0.045985266526797686,True,False,False
+flu type a,4,0.3213840456998384,False,False,False
 how long is flu contagious,5,0.4462274721866746,False,False,False
-flu type a,5,0.797735384479994,False,False,False
+the flu,5,0.045985266526797686,True,False,False
 how long does flu last,5,0.5614282129626246,False,False,False
+flu type a,5,0.797735384479994,False,False,False

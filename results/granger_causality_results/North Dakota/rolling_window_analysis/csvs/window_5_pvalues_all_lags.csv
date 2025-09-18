@@ -1,46 +1,46 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-influenza a,1,0.1764973346742459,False,False,False
-flu fever,1,0.8699592343716824,False,True,False
-flu symptoms,1,0.01355634817944255,True,True,False
-the flu,1,0.03797053975887816,True,False,False
-fever flu,1,0.8699592331531882,False,True,False
-contagious flu,1,0.47338232130533786,False,True,False
-the flu symptoms,1,0.20326863095066655,False,True,False
-symptoms of flu,1,0.29940192842835317,False,True,False
 flu cold,1,0.4280012765639336,False,True,False
-influenza a,2,0.3719856871349603,False,False,False
-flu fever,2,0.25450451610838515,False,True,False
-flu symptoms,2,0.10963368642897087,False,True,False
-the flu,2,0.1491635115334392,False,False,False
-fever flu,2,0.2545045162447312,False,True,False
-contagious flu,2,0.6930544860380617,False,True,False
-the flu symptoms,2,0.11479314772931071,False,True,False
-symptoms of flu,2,0.005605430947940107,True,True,False
+flu fever,1,0.8699592343716824,False,True,False
+the flu,1,0.03797053975887816,True,False,False
+contagious flu,1,0.47338232130533786,False,True,False
+flu symptoms,1,0.01355634817944255,True,True,False
+influenza a,1,0.1764973346742459,False,False,False
+symptoms of flu,1,0.29940192842835317,False,True,False
+fever flu,1,0.8699592331531882,False,True,False
+the flu symptoms,1,0.20326863095066655,False,True,False
 flu cold,2,0.1648667261797957,False,True,False
-influenza a,3,0.08976505662721951,False,False,False
-flu fever,3,0.020336184478194696,True,True,False
-flu symptoms,3,0.6456157455565372,False,True,False
-the flu,3,0.13724117991133536,False,False,False
-fever flu,3,0.02033618447636532,True,True,False
-contagious flu,3,0.3023729677923502,False,True,False
-the flu symptoms,3,0.4123982536635483,False,True,False
-symptoms of flu,3,0.8203439005022524,False,True,False
+flu fever,2,0.25450451610838515,False,True,False
+the flu,2,0.1491635115334392,False,False,False
+contagious flu,2,0.6930544860380617,False,True,False
+flu symptoms,2,0.10963368642897087,False,True,False
+influenza a,2,0.3719856871349603,False,False,False
+symptoms of flu,2,0.005605430947940107,True,True,False
+fever flu,2,0.2545045162447312,False,True,False
+the flu symptoms,2,0.11479314772931071,False,True,False
 flu cold,3,0.14632484680251936,False,True,False
-influenza a,4,0.048930067369279635,True,False,False
-flu fever,4,0.9425416216142959,False,True,False
-flu symptoms,4,0.6797528183386528,False,True,False
-the flu,4,0.7354885673180405,False,False,False
-fever flu,4,0.9425416214930955,False,True,False
-contagious flu,4,0.006230494019377827,True,True,False
-the flu symptoms,4,0.25575440626450097,False,True,False
-symptoms of flu,4,0.5773321921548453,False,True,False
+flu fever,3,0.020336184478194696,True,True,False
+the flu,3,0.13724117991133536,False,False,False
+contagious flu,3,0.3023729677923502,False,True,False
+flu symptoms,3,0.6456157455565372,False,True,False
+influenza a,3,0.08976505662721951,False,False,False
+symptoms of flu,3,0.8203439005022524,False,True,False
+fever flu,3,0.02033618447636532,True,True,False
+the flu symptoms,3,0.4123982536635483,False,True,False
 flu cold,4,0.0117193274817388,True,True,False
-influenza a,5,0.35902789073037666,False,False,False
-flu fever,5,0.00483868004993245,True,True,False
-flu symptoms,5,0.05143321877020925,False,True,False
-the flu,5,0.40525414916814695,False,False,False
-fever flu,5,0.004838680052686351,True,True,False
-contagious flu,5,0.8749433532674815,False,True,False
-the flu symptoms,5,0.00871450949809727,True,True,False
-symptoms of flu,5,0.49454773420568,False,True,False
+flu fever,4,0.9425416216142959,False,True,False
+the flu,4,0.7354885673180405,False,False,False
+contagious flu,4,0.006230494019377827,True,True,False
+flu symptoms,4,0.6797528183386528,False,True,False
+influenza a,4,0.048930067369279635,True,False,False
+symptoms of flu,4,0.5773321921548453,False,True,False
+fever flu,4,0.9425416214930955,False,True,False
+the flu symptoms,4,0.25575440626450097,False,True,False
 flu cold,5,0.6112224013251468,False,True,False
+flu fever,5,0.00483868004993245,True,True,False
+the flu,5,0.40525414916814695,False,False,False
+contagious flu,5,0.8749433532674815,False,True,False
+flu symptoms,5,0.05143321877020925,False,True,False
+influenza a,5,0.35902789073037666,False,False,False
+symptoms of flu,5,0.49454773420568,False,True,False
+fever flu,5,0.004838680052686351,True,True,False
+the flu symptoms,5,0.00871450949809727,True,True,False

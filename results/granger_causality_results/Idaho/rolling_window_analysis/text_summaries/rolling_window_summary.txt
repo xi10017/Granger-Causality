@@ -28,9 +28,9 @@ TERMS SIGNIFICANT AT LEAST ONCE:
 TERMS SIGNIFICANT ACROSS WINDOWS:
   Raw significant terms (showing window counts out of 8 total):
     stomach flu: 5/8 windows
+    how long does flu last: 4/8 windows
     how long flu: 4/8 windows
     flu how long: 4/8 windows
-    how long does flu last: 4/8 windows
     symptoms of flu: 3/8 windows
     rsv: 2/8 windows
     the flu symptoms: 2/8 windows
@@ -42,20 +42,20 @@ TERMS SIGNIFICANT ACROSS WINDOWS:
     flu contagious: 1/8 windows
     contagious flu: 1/8 windows
     influenza a: 1/8 windows
-    flu a: 1/8 windows
     a influenza: 1/8 windows
+    flu a: 1/8 windows
 
   FDR significant terms (showing window counts out of 8 total):
-    stomach flu: 1/8 windows
     symptoms of flu: 1/8 windows
-    flu how long: 1/8 windows
+    stomach flu: 1/8 windows
     how long flu: 1/8 windows
+    flu how long: 1/8 windows
 
   Bonferroni significant terms (showing window counts out of 8 total):
-    stomach flu: 1/8 windows
     symptoms of flu: 1/8 windows
-    flu how long: 1/8 windows
+    stomach flu: 1/8 windows
     how long flu: 1/8 windows
+    flu how long: 1/8 windows
 
 DETAILED RESULTS BY WINDOW:
   window_1 (2010-08 to 2013-08):

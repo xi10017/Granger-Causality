@@ -1,36 +1,36 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-influenza a,1,0.043572543664732025,True,False,False
-flu symptoms,1,0.47321064318295913,False,False,False
-how long flu,1,0.9667488059673451,False,False,False
-flu how long,1,0.44934513057294934,False,False,False
 flu contagious,1,0.28502897495679624,False,False,False
+how long flu,1,0.9667488059673451,False,False,False
+flu symptoms,1,0.47321064318295913,False,False,False
+influenza a,1,0.043572543664732025,True,False,False
 rsv,1,0.16173497605328668,False,False,False
+flu how long,1,0.44934513057294934,False,False,False
 a influenza,1,0.2282048657859634,False,False,False
-influenza a,2,0.08243731274896454,False,False,False
-flu symptoms,2,0.504387819405405,False,False,False
-how long flu,2,0.04482734429050134,True,False,False
-flu how long,2,0.2134534439991925,False,False,False
 flu contagious,2,0.34236044529275556,False,False,False
+how long flu,2,0.04482734429050134,True,False,False
+flu symptoms,2,0.504387819405405,False,False,False
+influenza a,2,0.08243731274896454,False,False,False
 rsv,2,0.6037896268320297,False,False,False
+flu how long,2,0.2134534439991925,False,False,False
 a influenza,2,0.5916532967729748,False,False,False
-influenza a,3,0.9688660622530041,False,False,False
-flu symptoms,3,0.015743412768124753,True,False,False
-how long flu,3,0.11256903117197725,False,False,False
-flu how long,3,0.47855222520961216,False,False,False
 flu contagious,3,0.6271387431186994,False,False,False
+how long flu,3,0.11256903117197725,False,False,False
+flu symptoms,3,0.015743412768124753,True,False,False
+influenza a,3,0.9688660622530041,False,False,False
 rsv,3,0.967831064669006,False,False,False
+flu how long,3,0.47855222520961216,False,False,False
 a influenza,3,0.6268549730961277,False,False,False
-influenza a,4,0.04135215512193675,True,False,False
-flu symptoms,4,0.3289087167926622,False,False,False
-how long flu,4,0.6843014291041529,False,False,False
-flu how long,4,0.026379891594815713,True,False,False
 flu contagious,4,0.030238289863981124,True,False,False
+how long flu,4,0.6843014291041529,False,False,False
+flu symptoms,4,0.3289087167926622,False,False,False
+influenza a,4,0.04135215512193675,True,False,False
 rsv,4,0.13797338525780822,False,False,False
+flu how long,4,0.026379891594815713,True,False,False
 a influenza,4,0.5678382554100134,False,False,False
-influenza a,5,0.6569513311647996,False,False,False
-flu symptoms,5,0.5678914587151284,False,False,False
-how long flu,5,0.9413584873386371,False,False,False
-flu how long,5,0.42045534214381575,False,False,False
 flu contagious,5,0.7174774985652133,False,False,False
+how long flu,5,0.9413584873386371,False,False,False
+flu symptoms,5,0.5678914587151284,False,False,False
+influenza a,5,0.6569513311647996,False,False,False
 rsv,5,0.03472646490179894,True,False,False
+flu how long,5,0.42045534214381575,False,False,False
 a influenza,5,0.02605484374489385,True,False,False

@@ -1,41 +1,41 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-how long flu,1,0.5031083859336831,False,False,False
 bronchitis,1,0.0077090790222059105,True,False,False
-stomach flu,1,0.008317623861795886,True,False,False
 sinus,1,0.45751864266090125,False,False,False
-flu how long,1,0.5031083861085153,False,False,False
+how long does flu last,1,0.5233686984879824,False,False,False
+how long flu,1,0.5031083859336831,False,False,False
 rsv,1,0.03468935462557093,True,False,False
 symptoms of flu,1,0.533252870942662,False,False,False
-how long does flu last,1,0.5233686984879824,False,False,False
-how long flu,2,0.3464199012505105,False,False,False
+flu how long,1,0.5031083861085153,False,False,False
+stomach flu,1,0.008317623861795886,True,False,False
 bronchitis,2,0.04979822299911623,True,False,False
-stomach flu,2,0.40652071698931813,False,False,False
 sinus,2,0.2893070380123676,False,False,False
-flu how long,2,0.3464199012709659,False,False,False
+how long does flu last,2,0.1918292199972727,False,False,False
+how long flu,2,0.3464199012505105,False,False,False
 rsv,2,0.8831697046063114,False,False,False
 symptoms of flu,2,0.8430746241068572,False,False,False
-how long does flu last,2,0.1918292199972727,False,False,False
-how long flu,3,0.26445818280329986,False,False,False
+flu how long,2,0.3464199012709659,False,False,False
+stomach flu,2,0.40652071698931813,False,False,False
 bronchitis,3,0.597236892096944,False,False,False
-stomach flu,3,0.739015724679773,False,False,False
 sinus,3,0.04380649026154535,True,False,False
-flu how long,3,0.2644581827126167,False,False,False
+how long does flu last,3,0.07647431113927271,False,False,False
+how long flu,3,0.26445818280329986,False,False,False
 rsv,3,0.5902459520203198,False,False,False
 symptoms of flu,3,0.04086689595705761,True,False,False
-how long does flu last,3,0.07647431113927271,False,False,False
-how long flu,4,0.34903653566978166,False,False,False
+flu how long,3,0.2644581827126167,False,False,False
+stomach flu,3,0.739015724679773,False,False,False
 bronchitis,4,0.4312003875522984,False,False,False
-stomach flu,4,0.27674875496910284,False,False,False
 sinus,4,0.7576170048657576,False,False,False
-flu how long,4,0.3490365357770945,False,False,False
+how long does flu last,4,0.5142461150364449,False,False,False
+how long flu,4,0.34903653566978166,False,False,False
 rsv,4,0.17955305003990363,False,False,False
 symptoms of flu,4,0.47795344128501327,False,False,False
-how long does flu last,4,0.5142461150364449,False,False,False
-how long flu,5,0.03887858077730887,True,False,False
+flu how long,4,0.3490365357770945,False,False,False
+stomach flu,4,0.27674875496910284,False,False,False
 bronchitis,5,0.1751183373004343,False,False,False
-stomach flu,5,0.11166565835999129,False,False,False
 sinus,5,0.23301245141508,False,False,False
-flu how long,5,0.03887858077311919,True,False,False
+how long does flu last,5,0.025299544441337675,True,False,False
+how long flu,5,0.03887858077730887,True,False,False
 rsv,5,0.05295237212935897,False,False,False
 symptoms of flu,5,0.2080923870215942,False,False,False
-how long does flu last,5,0.025299544441337675,True,False,False
+flu how long,5,0.03887858077311919,True,False,False
+stomach flu,5,0.11166565835999129,False,False,False

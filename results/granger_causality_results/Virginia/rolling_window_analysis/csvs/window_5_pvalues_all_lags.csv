@@ -1,16 +1,16 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-stomach flu,1,0.0315086035748269,True,False,False
 is flu contagious,1,0.7829314182504148,False,False,False
 rsv,1,0.0729593694740616,False,False,False
-stomach flu,2,0.3879557536693332,False,False,False
+stomach flu,1,0.0315086035748269,True,False,False
 is flu contagious,2,0.0030544842120707604,True,False,False
 rsv,2,0.9955790128683897,False,False,False
-stomach flu,3,0.9791784434121216,False,False,False
+stomach flu,2,0.3879557536693332,False,False,False
 is flu contagious,3,0.6535143450699927,False,False,False
 rsv,3,0.04079119563963419,True,False,False
-stomach flu,4,0.3621267348017061,False,False,False
+stomach flu,3,0.9791784434121216,False,False,False
 is flu contagious,4,0.23620211465212645,False,False,False
 rsv,4,0.2388315574818838,False,False,False
-stomach flu,5,0.8909683357113811,False,False,False
+stomach flu,4,0.3621267348017061,False,False,False
 is flu contagious,5,0.35898677577669125,False,False,False
 rsv,5,0.8526984579577654,False,False,False
+stomach flu,5,0.8909683357113811,False,False,False

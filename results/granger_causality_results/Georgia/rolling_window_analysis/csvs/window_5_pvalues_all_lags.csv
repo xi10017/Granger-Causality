@@ -1,31 +1,31 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-flu symptoms,1,0.9954404458368586,False,False,False
-is flu contagious,1,0.03568846115495955,True,False,False
-flu a,1,0.2727955987921323,False,False,False
-flu virus,1,0.43243730593635243,False,False,False
 flu type,1,0.024523637044630148,True,False,False
+is flu contagious,1,0.03568846115495955,True,False,False
+flu symptoms,1,0.9954404458368586,False,False,False
+flu virus,1,0.43243730593635243,False,False,False
 how long does flu last,1,0.701947990750421,False,False,False
-flu symptoms,2,0.5849275725603154,False,False,False
-is flu contagious,2,0.74617292006361,False,False,False
-flu a,2,0.035726138054241977,True,False,False
-flu virus,2,0.15787084519269123,False,False,False
+flu a,1,0.2727955987921323,False,False,False
 flu type,2,0.5745375317555983,False,False,False
+is flu contagious,2,0.74617292006361,False,False,False
+flu symptoms,2,0.5849275725603154,False,False,False
+flu virus,2,0.15787084519269123,False,False,False
 how long does flu last,2,0.4545634919358551,False,False,False
-flu symptoms,3,0.0157420072453091,True,False,False
-is flu contagious,3,0.2667812283974002,False,False,False
-flu a,3,0.6431852040306497,False,False,False
-flu virus,3,0.4805397007522336,False,False,False
+flu a,2,0.035726138054241977,True,False,False
 flu type,3,0.5990249625609807,False,False,False
+is flu contagious,3,0.2667812283974002,False,False,False
+flu symptoms,3,0.0157420072453091,True,False,False
+flu virus,3,0.4805397007522336,False,False,False
 how long does flu last,3,0.8144838260459549,False,False,False
-flu symptoms,4,0.32039648920058944,False,False,False
-is flu contagious,4,0.3478331838140736,False,False,False
-flu a,4,0.18256372948235502,False,False,False
-flu virus,4,0.8053546910658188,False,False,False
+flu a,3,0.6431852040306497,False,False,False
 flu type,4,0.5114884217101769,False,False,False
+is flu contagious,4,0.3478331838140736,False,False,False
+flu symptoms,4,0.32039648920058944,False,False,False
+flu virus,4,0.8053546910658188,False,False,False
 how long does flu last,4,0.01791078621005458,True,False,False
-flu symptoms,5,0.9022370412829595,False,False,False
-is flu contagious,5,0.8169702999312346,False,False,False
-flu a,5,0.6363030727453257,False,False,False
-flu virus,5,0.02497097323227459,True,False,False
+flu a,4,0.18256372948235502,False,False,False
 flu type,5,0.5005919283677938,False,False,False
+is flu contagious,5,0.8169702999312346,False,False,False
+flu symptoms,5,0.9022370412829595,False,False,False
+flu virus,5,0.02497097323227459,True,False,False
 how long does flu last,5,0.751241471920432,False,False,False
+flu a,5,0.6363030727453257,False,False,False

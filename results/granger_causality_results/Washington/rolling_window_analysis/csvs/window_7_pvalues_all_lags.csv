@@ -1,31 +1,31 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-influenza a,1,2.2600681242599184e-05,True,True,True
 flu fever,1,0.00014309335754431144,True,True,True
-a influenza,1,2.260068123820076e-05,True,True,True
+influenza a,1,2.2600681242599184e-05,True,True,True
 fever flu,1,0.000143093357476376,True,True,True
-the flu symptoms,1,0.021585205533475323,True,False,False
 how long does flu last,1,0.2934306568448329,False,True,False
-influenza a,2,0.42271916658458775,False,True,True
+a influenza,1,2.260068123820076e-05,True,True,True
+the flu symptoms,1,0.021585205533475323,True,False,False
 flu fever,2,0.0019183736931927952,True,True,True
-a influenza,2,0.4227191666103822,False,True,True
+influenza a,2,0.42271916658458775,False,True,True
 fever flu,2,0.001918373692774727,True,True,True
-the flu symptoms,2,0.7375574760479904,False,False,False
 how long does flu last,2,0.885801904781021,False,True,False
-influenza a,3,0.005550796423404288,True,True,True
+a influenza,2,0.4227191666103822,False,True,True
+the flu symptoms,2,0.7375574760479904,False,False,False
 flu fever,3,0.1471624860786956,False,True,True
-a influenza,3,0.005550796424228539,True,True,True
+influenza a,3,0.005550796423404288,True,True,True
 fever flu,3,0.14716248605598417,False,True,True
-the flu symptoms,3,0.6778347836522411,False,False,False
 how long does flu last,3,0.9803504772431478,False,True,False
-influenza a,4,0.5946684759345844,False,True,True
+a influenza,3,0.005550796424228539,True,True,True
+the flu symptoms,3,0.6778347836522411,False,False,False
 flu fever,4,0.8059514896299984,False,True,True
-a influenza,4,0.5946684759734591,False,True,True
+influenza a,4,0.5946684759345844,False,True,True
 fever flu,4,0.8059514896740867,False,True,True
-the flu symptoms,4,0.7813987743627857,False,False,False
 how long does flu last,4,0.4225490077876767,False,True,False
-influenza a,5,0.15659815911647493,False,True,True
+a influenza,4,0.5946684759734591,False,True,True
+the flu symptoms,4,0.7813987743627857,False,False,False
 flu fever,5,0.07415148023257305,False,True,True
-a influenza,5,0.15659815912399375,False,True,True
+influenza a,5,0.15659815911647493,False,True,True
 fever flu,5,0.07415148023978324,False,True,True
-the flu symptoms,5,0.03367088245877177,True,False,False
 how long does flu last,5,0.010189871684386976,True,True,False
+a influenza,5,0.15659815912399375,False,True,True
+the flu symptoms,5,0.03367088245877177,True,False,False

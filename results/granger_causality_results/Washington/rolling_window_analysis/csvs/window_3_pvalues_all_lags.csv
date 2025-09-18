@@ -1,31 +1,31 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-flu symptoms,1,0.013777920498457014,True,False,False
-flu fever,1,0.8387420505097564,False,False,False
-stomach flu,1,0.7232340915599704,False,False,False
-fever flu,1,0.838742050412026,False,False,False
 influenza symptoms,1,0.8836628377597385,False,False,False
+flu fever,1,0.8387420505097564,False,False,False
+flu symptoms,1,0.013777920498457014,True,False,False
+fever flu,1,0.838742050412026,False,False,False
 how long does flu last,1,0.8004847846193666,False,False,False
-flu symptoms,2,0.8125911236046272,False,False,False
-flu fever,2,0.5573784241889438,False,False,False
-stomach flu,2,0.7475156584640266,False,False,False
-fever flu,2,0.5573784242516893,False,False,False
+stomach flu,1,0.7232340915599704,False,False,False
 influenza symptoms,2,0.6265842622648518,False,False,False
+flu fever,2,0.5573784241889438,False,False,False
+flu symptoms,2,0.8125911236046272,False,False,False
+fever flu,2,0.5573784242516893,False,False,False
 how long does flu last,2,0.15256920806851224,False,False,False
-flu symptoms,3,0.5699309859656299,False,False,False
-flu fever,3,0.03197759666516607,True,False,False
-stomach flu,3,0.9263590662996323,False,False,False
-fever flu,3,0.03197759666487123,True,False,False
+stomach flu,2,0.7475156584640266,False,False,False
 influenza symptoms,3,0.015961374960384713,True,False,False
+flu fever,3,0.03197759666516607,True,False,False
+flu symptoms,3,0.5699309859656299,False,False,False
+fever flu,3,0.03197759666487123,True,False,False
 how long does flu last,3,0.04045393859144062,True,False,False
-flu symptoms,4,0.49467262312967086,False,False,False
-flu fever,4,0.3573434216745801,False,False,False
-stomach flu,4,0.04590919733559567,True,False,False
-fever flu,4,0.35734342167142674,False,False,False
+stomach flu,3,0.9263590662996323,False,False,False
 influenza symptoms,4,0.26507944277727236,False,False,False
+flu fever,4,0.3573434216745801,False,False,False
+flu symptoms,4,0.49467262312967086,False,False,False
+fever flu,4,0.35734342167142674,False,False,False
 how long does flu last,4,0.5693690414701402,False,False,False
-flu symptoms,5,0.46366955774894325,False,False,False
-flu fever,5,0.33715615315829295,False,False,False
-stomach flu,5,0.8579228847279873,False,False,False
-fever flu,5,0.3371561531420636,False,False,False
+stomach flu,4,0.04590919733559567,True,False,False
 influenza symptoms,5,0.17980770319992054,False,False,False
+flu fever,5,0.33715615315829295,False,False,False
+flu symptoms,5,0.46366955774894325,False,False,False
+fever flu,5,0.3371561531420636,False,False,False
 how long does flu last,5,0.8291664894983676,False,False,False
+stomach flu,5,0.8579228847279873,False,False,False

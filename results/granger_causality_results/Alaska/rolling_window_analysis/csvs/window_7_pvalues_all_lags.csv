@@ -1,21 +1,21 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-pneumonia,1,0.004180840829331131,True,False,False
-stomach flu,1,0.02858245959143115,True,False,False
-fever flu,1,0.05152991727616489,False,False,False
 how long flu,1,0.512719784322029,False,False,False
-pneumonia,2,0.5666140637792836,False,False,False
-stomach flu,2,0.24511470119649537,False,False,False
-fever flu,2,0.8748953751005367,False,False,False
+pneumonia,1,0.004180840829331131,True,False,False
+fever flu,1,0.05152991727616489,False,False,False
+stomach flu,1,0.02858245959143115,True,False,False
 how long flu,2,0.4118944070428886,False,False,False
-pneumonia,3,0.1597453607265789,False,False,False
-stomach flu,3,0.03945332140804699,True,False,False
-fever flu,3,0.04471195353464015,True,False,False
+pneumonia,2,0.5666140637792836,False,False,False
+fever flu,2,0.8748953751005367,False,False,False
+stomach flu,2,0.24511470119649537,False,False,False
 how long flu,3,0.4626311372780074,False,False,False
-pneumonia,4,0.46299400648929845,False,False,False
-stomach flu,4,0.7415084571471069,False,False,False
-fever flu,4,0.06701047618558668,False,False,False
+pneumonia,3,0.1597453607265789,False,False,False
+fever flu,3,0.04471195353464015,True,False,False
+stomach flu,3,0.03945332140804699,True,False,False
 how long flu,4,0.08411441015329058,False,False,False
-pneumonia,5,0.049204743912637156,True,False,False
-stomach flu,5,0.5519339324816096,False,False,False
-fever flu,5,0.4197524796398545,False,False,False
+pneumonia,4,0.46299400648929845,False,False,False
+fever flu,4,0.06701047618558668,False,False,False
+stomach flu,4,0.7415084571471069,False,False,False
 how long flu,5,0.030540947468852168,True,False,False
+pneumonia,5,0.049204743912637156,True,False,False
+fever flu,5,0.4197524796398545,False,False,False
+stomach flu,5,0.5519339324816096,False,False,False

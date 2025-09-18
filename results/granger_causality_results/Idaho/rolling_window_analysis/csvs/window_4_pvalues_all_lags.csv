@@ -1,16 +1,16 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-stomach flu,1,0.012180339420667654,True,False,False
-flu how long,1,0.9334506573069843,False,False,False
 how long flu,1,0.9334506580578323,False,False,False
-stomach flu,2,0.45685722843132315,False,False,False
-flu how long,2,0.44797703291648805,False,False,False
+flu how long,1,0.9334506573069843,False,False,False
+stomach flu,1,0.012180339420667654,True,False,False
 how long flu,2,0.4479770323872454,False,False,False
-stomach flu,3,0.8460173240837867,False,False,False
-flu how long,3,0.7231859001625223,False,False,False
+flu how long,2,0.44797703291648805,False,False,False
+stomach flu,2,0.45685722843132315,False,False,False
 how long flu,3,0.7231859002137591,False,False,False
-stomach flu,4,0.8715521560929468,False,False,False
-flu how long,4,0.6502495747790711,False,False,False
+flu how long,3,0.7231859001625223,False,False,False
+stomach flu,3,0.8460173240837867,False,False,False
 how long flu,4,0.6502495749484577,False,False,False
-stomach flu,5,0.35106259357351943,False,False,False
-flu how long,5,0.02036580189039006,True,False,False
+flu how long,4,0.6502495747790711,False,False,False
+stomach flu,4,0.8715521560929468,False,False,False
 how long flu,5,0.020365801881719988,True,False,False
+flu how long,5,0.02036580189039006,True,False,False
+stomach flu,5,0.35106259357351943,False,False,False

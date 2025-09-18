@@ -1,21 +1,21 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-rsv,1,0.006180644512599791,True,False,False
 flu cold,1,0.011950089304330221,True,False,False
-symptoms of flu,1,0.709642509697227,False,False,False
 how long does flu last,1,0.7746854221181332,False,True,True
-rsv,2,0.5710014643408845,False,False,False
+symptoms of flu,1,0.709642509697227,False,False,False
+rsv,1,0.006180644512599791,True,False,False
 flu cold,2,0.0815670133283139,False,False,False
-symptoms of flu,2,0.24540364841621307,False,False,False
 how long does flu last,2,0.14317037529520935,False,True,True
-rsv,3,0.6430348440880675,False,False,False
+symptoms of flu,2,0.24540364841621307,False,False,False
+rsv,2,0.5710014643408845,False,False,False
 flu cold,3,0.061035548425849316,False,False,False
-symptoms of flu,3,0.5593141623733362,False,False,False
 how long does flu last,3,0.11079955775539116,False,True,True
-rsv,4,0.027720691893652227,True,False,False
+symptoms of flu,3,0.5593141623733362,False,False,False
+rsv,3,0.6430348440880675,False,False,False
 flu cold,4,0.3985571915683034,False,False,False
-symptoms of flu,4,0.06253142400321732,False,False,False
 how long does flu last,4,0.0021291709996146897,True,True,True
-rsv,5,0.13813509439306712,False,False,False
+symptoms of flu,4,0.06253142400321732,False,False,False
+rsv,4,0.027720691893652227,True,False,False
 flu cold,5,0.73998499153797,False,False,False
-symptoms of flu,5,0.02620934004566435,True,False,False
 how long does flu last,5,0.6383862661107297,False,True,True
+symptoms of flu,5,0.02620934004566435,True,False,False
+rsv,5,0.13813509439306712,False,False,False

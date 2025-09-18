@@ -39,13 +39,13 @@ TERMS SIGNIFICANT ACROSS WINDOWS:
     flu how long: 1/8 windows
     pneumonia: 1/8 windows
     fever flu: 1/8 windows
-    influenza a: 1/8 windows
     flu contagious: 1/8 windows
     contagious flu: 1/8 windows
+    influenza a: 1/8 windows
     a influenza: 1/8 windows
     the flu: 1/8 windows
-    stomach flu: 1/8 windows
     sinus: 1/8 windows
+    stomach flu: 1/8 windows
 
   FDR significant terms (showing window counts out of 8 total):
     flu symptoms: 4/8 windows

@@ -29,11 +29,11 @@ TERMS SIGNIFICANT ACROSS WINDOWS:
   Raw significant terms (showing window counts out of 8 total):
     the flu symptoms: 4/8 windows
     cold: 4/8 windows
-    symptoms of the flu: 3/8 windows
     flu contagious: 3/8 windows
+    symptoms of the flu: 3/8 windows
     how long flu: 3/8 windows
-    flu how long: 3/8 windows
     rsv: 3/8 windows
+    flu how long: 3/8 windows
     sinus: 3/8 windows
     pneumonia: 3/8 windows
     bronchitis: 2/8 windows

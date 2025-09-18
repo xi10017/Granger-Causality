@@ -32,25 +32,25 @@ TERMS SIGNIFICANT ACROSS WINDOWS:
     a influenza: 5/8 windows
     symptoms of influenza: 5/8 windows
     influenza b: 4/8 windows
-    stomach flu: 3/8 windows
     influenza a symptoms: 3/8 windows
+    stomach flu: 3/8 windows
     influenza contagious: 2/8 windows
     pneumonia: 2/8 windows
     symptoms of flu: 2/8 windows
     strep: 2/8 windows
     the flu symptoms: 2/8 windows
     rsv: 2/8 windows
+    influenza symptoms: 1/8 windows
     how long flu: 1/8 windows
     flu how long: 1/8 windows
-    influenza symptoms: 1/8 windows
     the flu: 1/8 windows
 
   FDR significant terms (showing window counts out of 8 total):
     symptoms of influenza: 3/8 windows
     influenza a: 2/8 windows
     a influenza: 2/8 windows
-    the flu symptoms: 1/8 windows
     how long contagious: 1/8 windows
+    the flu symptoms: 1/8 windows
     influenza a symptoms: 1/8 windows
     influenza b: 1/8 windows
 

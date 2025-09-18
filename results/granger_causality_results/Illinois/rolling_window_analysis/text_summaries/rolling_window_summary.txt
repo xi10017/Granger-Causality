@@ -30,15 +30,15 @@ TERMS SIGNIFICANT ACROSS WINDOWS:
     flu contagious: 4/8 windows
     bronchitis: 3/8 windows
     flu fever: 3/8 windows
-    stomach flu: 2/8 windows
     sinus: 2/8 windows
     how long does flu last: 2/8 windows
+    stomach flu: 2/8 windows
     rsv: 2/8 windows
     flu symptoms: 2/8 windows
     influenza a: 1/8 windows
     pneumonia: 1/8 windows
-    strep throat: 1/8 windows
     how long flu: 1/8 windows
+    strep throat: 1/8 windows
 
   FDR significant terms (showing window counts out of 8 total):
 

@@ -1,71 +1,71 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-how long does flu last,1,0.8017952358047377,False,False,False
-influenza a,1,0.31389301425985644,False,False,False
-flu symptoms,1,0.04394364048859534,True,False,False
+flu contagious,1,0.7290958329112744,False,True,False
 flu cold,1,0.8320193312025992,False,False,False
+how long does flu last,1,0.8017952358047377,False,False,False
 how long flu,1,0.17943347742711258,False,True,False
-flu a,1,0.0004797057538472327,True,True,True
-a influenza,1,0.31389301423283006,False,False,False
+pneumonia,1,0.14979416474857538,False,True,False
+the flu,1,0.5191727380913187,False,False,False
+contagious flu,1,0.5286272622574726,False,True,True
+flu symptoms,1,0.04394364048859534,True,False,False
+influenza a,1,0.31389301425985644,False,False,False
+symptoms of flu,1,0.9135471176447338,False,False,False
 fever flu,1,0.08627269782482024,False,False,False
 flu how long,1,0.17943347744230415,False,True,False
-flu contagious,1,0.7290958329112744,False,True,False
-pneumonia,1,0.14979416474857538,False,True,False
-contagious flu,1,0.5286272622574726,False,True,True
-symptoms of flu,1,0.9135471176447338,False,False,False
-the flu,1,0.5191727380913187,False,False,False
-how long does flu last,2,0.03914366121790483,True,False,False
-influenza a,2,0.049325067613468686,True,False,False
-flu symptoms,2,0.47114450028019805,False,False,False
+a influenza,1,0.31389301423283006,False,False,False
+flu a,1,0.0004797057538472327,True,True,True
+flu contagious,2,0.014958982245492443,True,True,False
 flu cold,2,0.36115004482922886,False,False,False
+how long does flu last,2,0.03914366121790483,True,False,False
 how long flu,2,0.02059568655508562,True,True,False
-flu a,2,0.15894437616177948,False,True,True
-a influenza,2,0.0493250676146436,True,False,False
+pneumonia,2,0.2727868466762783,False,True,False
+the flu,2,0.7260889769417346,False,False,False
+contagious flu,2,0.7131193401248341,False,True,True
+flu symptoms,2,0.47114450028019805,False,False,False
+influenza a,2,0.049325067613468686,True,False,False
+symptoms of flu,2,0.5617405442917451,False,False,False
 fever flu,2,0.8559657635879003,False,False,False
 flu how long,2,0.020595686555101887,True,True,False
-flu contagious,2,0.014958982245492443,True,True,False
-pneumonia,2,0.2727868466762783,False,True,False
-contagious flu,2,0.7131193401248341,False,True,True
-symptoms of flu,2,0.5617405442917451,False,False,False
-the flu,2,0.7260889769417346,False,False,False
-how long does flu last,3,0.48715008611266697,False,False,False
-influenza a,3,0.15748317903600706,False,False,False
-flu symptoms,3,0.2708348131289119,False,False,False
+a influenza,2,0.0493250676146436,True,False,False
+flu a,2,0.15894437616177948,False,True,True
+flu contagious,3,0.872852407594383,False,True,False
 flu cold,3,0.2956254933430205,False,False,False
+how long does flu last,3,0.48715008611266697,False,False,False
 how long flu,3,0.7168232739962912,False,True,False
-flu a,3,0.8917510356419858,False,True,True
-a influenza,3,0.1574831790389317,False,False,False
+pneumonia,3,0.01081838327155355,True,True,False
+the flu,3,0.537251892686641,False,False,False
+contagious flu,3,0.5554052057314683,False,True,True
+flu symptoms,3,0.2708348131289119,False,False,False
+influenza a,3,0.15748317903600706,False,False,False
+symptoms of flu,3,0.22537990616630546,False,False,False
 fever flu,3,0.059647441508981866,False,False,False
 flu how long,3,0.7168232739455975,False,True,False
-flu contagious,3,0.872852407594383,False,True,False
-pneumonia,3,0.01081838327155355,True,True,False
-contagious flu,3,0.5554052057314683,False,True,True
-symptoms of flu,3,0.22537990616630546,False,False,False
-the flu,3,0.537251892686641,False,False,False
-how long does flu last,4,0.3397551452616542,False,False,False
-influenza a,4,0.32832518569632474,False,False,False
-flu symptoms,4,0.7328634904532589,False,False,False
+a influenza,3,0.1574831790389317,False,False,False
+flu a,3,0.8917510356419858,False,True,True
+flu contagious,4,0.9265079135161862,False,True,False
 flu cold,4,0.038918990455989996,True,False,False
+how long does flu last,4,0.3397551452616542,False,False,False
 how long flu,4,0.5935145597564586,False,True,False
-flu a,4,0.9256758619482749,False,True,True
-a influenza,4,0.32832518570597513,False,False,False
+pneumonia,4,0.007768951623328305,True,True,False
+the flu,4,0.030023376736149163,True,False,False
+contagious flu,4,0.0003993097775425737,True,True,True
+flu symptoms,4,0.7328634904532589,False,False,False
+influenza a,4,0.32832518569632474,False,False,False
+symptoms of flu,4,0.3036126272282594,False,False,False
 fever flu,4,0.045539565781410184,True,False,False
 flu how long,4,0.5935145597641309,False,True,False
-flu contagious,4,0.9265079135161862,False,True,False
-pneumonia,4,0.007768951623328305,True,True,False
-contagious flu,4,0.0003993097775425737,True,True,True
-symptoms of flu,4,0.3036126272282594,False,False,False
-the flu,4,0.030023376736149163,True,False,False
-how long does flu last,5,0.6551785112093325,False,False,False
-influenza a,5,0.9145083066801323,False,False,False
-flu symptoms,5,0.7953438256496513,False,False,False
+a influenza,4,0.32832518570597513,False,False,False
+flu a,4,0.9256758619482749,False,True,True
+flu contagious,5,0.6780610020464175,False,True,False
 flu cold,5,0.0905370602355646,False,False,False
+how long does flu last,5,0.6551785112093325,False,False,False
 how long flu,5,0.009305092789206814,True,True,False
-flu a,5,0.8553144173664443,False,True,True
-a influenza,5,0.9145083066673362,False,False,False
+pneumonia,5,0.18084500176164087,False,True,False
+the flu,5,0.06710884945967363,False,False,False
+contagious flu,5,0.2996264751718638,False,True,True
+flu symptoms,5,0.7953438256496513,False,False,False
+influenza a,5,0.9145083066801323,False,False,False
+symptoms of flu,5,0.019504316213336606,True,False,False
 fever flu,5,0.9998392660489283,False,False,False
 flu how long,5,0.009305092789433998,True,True,False
-flu contagious,5,0.6780610020464175,False,True,False
-pneumonia,5,0.18084500176164087,False,True,False
-contagious flu,5,0.2996264751718638,False,True,True
-symptoms of flu,5,0.019504316213336606,True,False,False
-the flu,5,0.06710884945967363,False,False,False
+a influenza,5,0.9145083066673362,False,False,False
+flu a,5,0.8553144173664443,False,True,True

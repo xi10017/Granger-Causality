@@ -1,16 +1,16 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+influenza b,1,0.08900497611712616,False,False,False
 rsv,1,0.4531735514723987,False,False,False
 the flu symptoms,1,0.49669917267744434,False,False,False
-influenza b,1,0.08900497611712616,False,False,False
+influenza b,2,0.32175879905105687,False,False,False
 rsv,2,0.411655051209205,False,False,False
 the flu symptoms,2,0.6040959006186211,False,False,False
-influenza b,2,0.32175879905105687,False,False,False
+influenza b,3,0.678806544256682,False,False,False
 rsv,3,0.044964689604581554,True,False,False
 the flu symptoms,3,0.2839832146464955,False,False,False
-influenza b,3,0.678806544256682,False,False,False
+influenza b,4,0.03752685649882944,True,False,False
 rsv,4,0.021995794295859013,True,False,False
 the flu symptoms,4,0.04999713215606588,True,False,False
-influenza b,4,0.03752685649882944,True,False,False
+influenza b,5,0.9932190788226822,False,False,False
 rsv,5,0.40147667094546746,False,False,False
 the flu symptoms,5,0.1377526769904583,False,False,False
-influenza b,5,0.9932190788226822,False,False,False

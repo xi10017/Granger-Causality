@@ -1,0 +1,250 @@
+================================================================================
+REGIONAL SIGNIFICANCE ANALYSIS REPORT
+================================================================================
+
+ANALYSIS OVERVIEW:
+  Total regions analyzed: 51
+  Regions: Alabama, Alaska, Arizona, Arkansas, California, Colorado, Connecticut, Delaware, Florida, Georgia, Hawaii, Idaho, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Maine, Maryland, Massachusetts, Michigan, Minnesota, Mississippi, Missouri, Montana, Nebraska, Nevada, New Hampshire, New Jersey, New Mexico, New York, North Carolina, North Dakota, Ohio, Oklahoma, Oregon, Pennsylvania, Rhode Island, South Carolina, South Dakota, Tennessee, Texas, US, Utah, Vermont, Virginia, Washington, West Virginia, Wisconsin, Wyoming
+  Analysis methods: RAW, FDR, Bonferroni
+
+METRIC EXPLANATIONS:
+--------------------------------------------------
+OVERALL PROPORTION: The proportion of unique terms (out of 63 total) that are
+  significant in at least one region.
+
+POOLED PROPORTION: The pooled significance rate across all individual region
+  analyses (the old calculation method).
+
+MEAN ACROSS REGIONS: The average proportion of significant terms per region.
+
+RANGE: The minimum and maximum proportions across all regions, showing
+  regional variation in significance rates.
+
+OVERALL STATISTICS BY METHOD:
+--------------------------------------------------
+
+RAW CORRECTED:
+  Overall proportion: 0.984 (62/63)
+    → Proportion of unique terms that are significant in at least one region
+  Pooled proportion: 0.927 (927/1000)
+    → Pooled significance rate across all individual region analyses
+  Mean across regions: 0.927 ± 0.074
+    → Average proportion of significant terms per region
+  Range: 0.600 - 1.000
+    → Minimum and maximum proportions across all regions
+  Regions analyzed: 50
+  Mean terms per region: 18.5/20.0
+    → Average number of significant terms per region
+
+FDR CORRECTED:
+  Overall proportion: 0.825 (52/63)
+    → Proportion of unique terms that are significant in at least one region
+  Pooled proportion: 0.560 (560/1000)
+    → Pooled significance rate across all individual region analyses
+  Mean across regions: 0.560 ± 0.259
+    → Average proportion of significant terms per region
+  Range: 0.000 - 0.950
+    → Minimum and maximum proportions across all regions
+  Regions analyzed: 50
+  Mean terms per region: 11.2/20.0
+    → Average number of significant terms per region
+
+BONFERRONI CORRECTED:
+  Overall proportion: 0.698 (44/63)
+    → Proportion of unique terms that are significant in at least one region
+  Pooled proportion: 0.267 (267/1000)
+    → Pooled significance rate across all individual region analyses
+  Mean across regions: 0.267 ± 0.160
+    → Average proportion of significant terms per region
+  Range: 0.000 - 0.600
+    → Minimum and maximum proportions across all regions
+  Regions analyzed: 50
+  Mean terms per region: 5.3/20.0
+    → Average number of significant terms per region
+
+DETAILED RESULTS BY REGION:
+--------------------------------------------------
+
+RAW CORRECTED:
+  Missouri       : 1.000 (20/20)
+  Alaska         : 0.900 (18/20)
+  New Hampshire  : 0.900 (18/20)
+  US             : 1.000 (20/20)
+  Illinois       : 0.600 (12/20)
+  Virginia       : 1.000 (20/20)
+  Washington     : 0.950 (19/20)
+  Vermont        : 0.950 (19/20)
+  South Dakota   : 0.900 (18/20)
+  Georgia        : 1.000 (20/20)
+  Connecticut    : 0.850 (17/20)
+  Alabama        : 1.000 (20/20)
+  Oklahoma       : 0.900 (18/20)
+  Colorado       : 0.950 (19/20)
+  Ohio           : 0.950 (19/20)
+  Maine          : 0.850 (17/20)
+  Mississippi    : 0.950 (19/20)
+  Utah           : 0.800 (16/20)
+  South Carolina : 1.000 (20/20)
+  Delaware       : 0.950 (19/20)
+  Indiana        : 0.950 (19/20)
+  Arkansas       : 0.950 (19/20)
+  Iowa           : 1.000 (20/20)
+  New Jersey     : 1.000 (20/20)
+  Wisconsin      : 0.850 (17/20)
+  Michigan       : 0.900 (18/20)
+  Arizona        : 0.850 (17/20)
+  Massachusetts  : 0.900 (18/20)
+  Montana        : 0.900 (18/20)
+  New York       : 0.950 (19/20)
+  Wyoming        : 0.900 (18/20)
+  Minnesota      : 0.850 (17/20)
+  West Virginia  : 0.950 (19/20)
+  North Dakota   : 0.950 (19/20)
+  Kentucky       : 0.950 (19/20)
+  Louisiana      : 1.000 (20/20)
+  Maryland       : 0.900 (18/20)
+  Texas          : 0.900 (18/20)
+  Hawaii         : 0.850 (17/20)
+  Rhode Island   : 0.950 (19/20)
+  Kansas         : 1.000 (20/20)
+  Pennsylvania   : 1.000 (20/20)
+  North Carolina : 0.950 (19/20)
+  Nebraska       : 0.950 (19/20)
+  Tennessee      : 0.800 (16/20)
+  Idaho          : 0.850 (17/20)
+  Oregon         : 1.000 (20/20)
+  Nevada         : 1.000 (20/20)
+  California     : 1.000 (20/20)
+  New Mexico     : 0.950 (19/20)
+
+FDR CORRECTED:
+  Missouri       : 0.650 (13/20)
+  Alaska         : 0.800 (16/20)
+  New Hampshire  : 0.600 (12/20)
+  US             : 0.600 (12/20)
+  Illinois       : 0.000 (0/20)
+  Virginia       : 0.950 (19/20)
+  Washington     : 0.550 (11/20)
+  Vermont        : 0.350 (7/20)
+  South Dakota   : 0.700 (14/20)
+  Georgia        : 0.750 (15/20)
+  Connecticut    : 0.350 (7/20)
+  Alabama        : 0.900 (18/20)
+  Oklahoma       : 0.700 (14/20)
+  Colorado       : 0.450 (9/20)
+  Ohio           : 0.800 (16/20)
+  Maine          : 0.050 (1/20)
+  Mississippi    : 0.900 (18/20)
+  Utah           : 0.700 (14/20)
+  South Carolina : 0.850 (17/20)
+  Delaware       : 0.200 (4/20)
+  Indiana        : 0.800 (16/20)
+  Arkansas       : 0.900 (18/20)
+  Iowa           : 0.800 (16/20)
+  New Jersey     : 0.800 (16/20)
+  Wisconsin      : 0.100 (2/20)
+  Michigan       : 0.200 (4/20)
+  Arizona        : 0.350 (7/20)
+  Massachusetts  : 0.100 (2/20)
+  Montana        : 0.550 (11/20)
+  New York       : 0.400 (8/20)
+  Wyoming        : 0.350 (7/20)
+  Minnesota      : 0.350 (7/20)
+  West Virginia  : 0.700 (14/20)
+  North Dakota   : 0.800 (16/20)
+  Kentucky       : 0.600 (12/20)
+  Louisiana      : 0.450 (9/20)
+  Maryland       : 0.450 (9/20)
+  Texas          : 0.300 (6/20)
+  Hawaii         : 0.250 (5/20)
+  Rhode Island   : 0.500 (10/20)
+  Kansas         : 0.900 (18/20)
+  Pennsylvania   : 0.900 (18/20)
+  North Carolina : 0.850 (17/20)
+  Nebraska       : 0.500 (10/20)
+  Tennessee      : 0.450 (9/20)
+  Idaho          : 0.200 (4/20)
+  Oregon         : 0.800 (16/20)
+  Nevada         : 0.700 (14/20)
+  California     : 0.400 (8/20)
+  New Mexico     : 0.700 (14/20)
+
+BONFERRONI CORRECTED:
+  Missouri       : 0.350 (7/20)
+  Alaska         : 0.050 (1/20)
+  New Hampshire  : 0.000 (0/20)
+  US             : 0.250 (5/20)
+  Illinois       : 0.000 (0/20)
+  Virginia       : 0.500 (10/20)
+  Washington     : 0.450 (9/20)
+  Vermont        : 0.150 (3/20)
+  South Dakota   : 0.300 (6/20)
+  Georgia        : 0.150 (3/20)
+  Connecticut    : 0.150 (3/20)
+  Alabama        : 0.500 (10/20)
+  Oklahoma       : 0.350 (7/20)
+  Colorado       : 0.150 (3/20)
+  Ohio           : 0.350 (7/20)
+  Maine          : 0.050 (1/20)
+  Mississippi    : 0.600 (12/20)
+  Utah           : 0.350 (7/20)
+  South Carolina : 0.500 (10/20)
+  Delaware       : 0.150 (3/20)
+  Indiana        : 0.400 (8/20)
+  Arkansas       : 0.550 (11/20)
+  Iowa           : 0.450 (9/20)
+  New Jersey     : 0.200 (4/20)
+  Wisconsin      : 0.100 (2/20)
+  Michigan       : 0.200 (4/20)
+  Arizona        : 0.300 (6/20)
+  Massachusetts  : 0.100 (2/20)
+  Montana        : 0.550 (11/20)
+  New York       : 0.200 (4/20)
+  Wyoming        : 0.200 (4/20)
+  Minnesota      : 0.100 (2/20)
+  West Virginia  : 0.350 (7/20)
+  North Dakota   : 0.350 (7/20)
+  Kentucky       : 0.450 (9/20)
+  Louisiana      : 0.100 (2/20)
+  Maryland       : 0.050 (1/20)
+  Texas          : 0.050 (1/20)
+  Hawaii         : 0.100 (2/20)
+  Rhode Island   : 0.400 (8/20)
+  Kansas         : 0.250 (5/20)
+  Pennsylvania   : 0.450 (9/20)
+  North Carolina : 0.300 (6/20)
+  Nebraska       : 0.150 (3/20)
+  Tennessee      : 0.350 (7/20)
+  Idaho          : 0.200 (4/20)
+  Oregon         : 0.250 (5/20)
+  Nevada         : 0.250 (5/20)
+  California     : 0.150 (3/20)
+  New Mexico     : 0.450 (9/20)
+
+KEY FINDINGS:
+--------------------------------------------------
+1. RAW (Uncorrected) Results:
+   - Overall: 0.984 (62/63) of unique terms significant in at least one region
+   - Regional variation: 0.600 - 1.000
+   - Pooled rate: 0.927 (927/1000) across all individual analyses
+
+2. FDR Corrected Results:
+   - Overall: 0.825 (52/63) of unique terms significant in at least one region
+   - Regional variation: 0.000 - 0.950
+   - Pooled rate: 0.560 (560/1000) across all individual analyses
+
+3. Bonferroni Corrected Results:
+   - Overall: 0.698 (44/63) of unique terms significant in at least one region
+   - Regional variation: 0.000 - 0.600
+   - Pooled rate: 0.267 (267/1000) across all individual analyses
+
+4. Correction Impact (Overall Proportions):
+   - RAW to FDR: 0.159 reduction
+   - FDR to Bonferroni: 0.127 reduction
+   - RAW to Bonferroni: 0.286 reduction
+
+FILES GENERATED:
+--------------------------------------------------
+  - Detailed summary: results/granger_causality_results/regional_significance_summary.csv
+  - Overall statistics: results/granger_causality_results/overall_statistics.csv
+  - This report: results/granger_causality_results/regional_significance_report.txt

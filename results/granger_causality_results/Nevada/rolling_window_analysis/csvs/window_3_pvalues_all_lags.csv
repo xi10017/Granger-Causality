@@ -1,41 +1,41 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-a influenza,1,0.02671542615879605,True,False,False
 bronchitis,1,0.24183848846922426,False,False,False
-cold,1,0.000885369667206128,True,True,True
-flu how long,1,0.9253321762582303,False,False,False
-rsv,1,0.022329518684918233,True,False,False
-the flu symptoms,1,0.9650226261921704,False,False,False
-symptoms of flu,1,0.024664132432760826,True,False,False
 flu cold,1,0.47585224739241305,False,False,False
-a influenza,2,0.7439596647803406,False,False,False
+rsv,1,0.022329518684918233,True,False,False
+cold,1,0.000885369667206128,True,True,True
+symptoms of flu,1,0.024664132432760826,True,False,False
+flu how long,1,0.9253321762582303,False,False,False
+a influenza,1,0.02671542615879605,True,False,False
+the flu symptoms,1,0.9650226261921704,False,False,False
 bronchitis,2,0.45403800447830645,False,False,False
-cold,2,0.01154653019858774,True,True,True
-flu how long,2,0.2740955288956006,False,False,False
-rsv,2,0.7450142988892007,False,False,False
-the flu symptoms,2,0.42367430618723334,False,False,False
-symptoms of flu,2,0.44153462790766573,False,False,False
 flu cold,2,0.9371413171852313,False,False,False
-a influenza,3,0.3650413177297813,False,False,False
+rsv,2,0.7450142988892007,False,False,False
+cold,2,0.01154653019858774,True,True,True
+symptoms of flu,2,0.44153462790766573,False,False,False
+flu how long,2,0.2740955288956006,False,False,False
+a influenza,2,0.7439596647803406,False,False,False
+the flu symptoms,2,0.42367430618723334,False,False,False
 bronchitis,3,0.6999839013290323,False,False,False
-cold,3,0.6033247922205293,False,True,True
-flu how long,3,0.03617301390801338,True,False,False
-rsv,3,0.7031082063668106,False,False,False
-the flu symptoms,3,0.4718164374727668,False,False,False
-symptoms of flu,3,0.8750798057768514,False,False,False
 flu cold,3,0.9136027811912799,False,False,False
-a influenza,4,0.9893649172563368,False,False,False
+rsv,3,0.7031082063668106,False,False,False
+cold,3,0.6033247922205293,False,True,True
+symptoms of flu,3,0.8750798057768514,False,False,False
+flu how long,3,0.03617301390801338,True,False,False
+a influenza,3,0.3650413177297813,False,False,False
+the flu symptoms,3,0.4718164374727668,False,False,False
 bronchitis,4,0.034614007961513746,True,False,False
-cold,4,0.963899406377639,False,True,True
-flu how long,4,0.06953907617255622,False,False,False
-rsv,4,0.4687003582226035,False,False,False
-the flu symptoms,4,0.9002044120366882,False,False,False
-symptoms of flu,4,0.1002507214083695,False,False,False
 flu cold,4,0.22119090153681442,False,False,False
-a influenza,5,0.43755963960980415,False,False,False
+rsv,4,0.4687003582226035,False,False,False
+cold,4,0.963899406377639,False,True,True
+symptoms of flu,4,0.1002507214083695,False,False,False
+flu how long,4,0.06953907617255622,False,False,False
+a influenza,4,0.9893649172563368,False,False,False
+the flu symptoms,4,0.9002044120366882,False,False,False
 bronchitis,5,0.7039511271624801,False,False,False
-cold,5,0.27262239081280787,False,True,True
-flu how long,5,0.23070552020777826,False,False,False
-rsv,5,0.6794392582824438,False,False,False
-the flu symptoms,5,0.02075733420438126,True,False,False
-symptoms of flu,5,0.23844954960543807,False,False,False
 flu cold,5,0.022234586092211368,True,False,False
+rsv,5,0.6794392582824438,False,False,False
+cold,5,0.27262239081280787,False,True,True
+symptoms of flu,5,0.23844954960543807,False,False,False
+flu how long,5,0.23070552020777826,False,False,False
+a influenza,5,0.43755963960980415,False,False,False
+the flu symptoms,5,0.02075733420438126,True,False,False

@@ -1,26 +1,26 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-flu a,1,0.9377808967893029,False,False,False
-cold,1,0.20936174542224562,False,False,False
-influenza a symptoms,1,0.032576446046978985,True,False,False
-symptoms of flu,1,0.7000616511464941,False,False,False
 flu cold,1,0.33918843377985597,False,False,False
-flu a,2,0.5328691608803985,False,False,False
-cold,2,0.0447024131152705,True,False,False
-influenza a symptoms,2,0.874200360509224,False,False,False
-symptoms of flu,2,0.5228886818348731,False,False,False
+influenza a symptoms,1,0.032576446046978985,True,False,False
+cold,1,0.20936174542224562,False,False,False
+symptoms of flu,1,0.7000616511464941,False,False,False
+flu a,1,0.9377808967893029,False,False,False
 flu cold,2,0.6666761601225013,False,False,False
-flu a,3,0.985417535948653,False,False,False
-cold,3,0.26860095759313474,False,False,False
-influenza a symptoms,3,0.05735833338703794,False,False,False
-symptoms of flu,3,0.024902390418862826,True,False,False
+influenza a symptoms,2,0.874200360509224,False,False,False
+cold,2,0.0447024131152705,True,False,False
+symptoms of flu,2,0.5228886818348731,False,False,False
+flu a,2,0.5328691608803985,False,False,False
 flu cold,3,0.28428951382976314,False,False,False
-flu a,4,0.10611595116498543,False,False,False
-cold,4,0.09089382327615546,False,False,False
-influenza a symptoms,4,0.6486085536542168,False,False,False
-symptoms of flu,4,0.23598332965713328,False,False,False
+influenza a symptoms,3,0.05735833338703794,False,False,False
+cold,3,0.26860095759313474,False,False,False
+symptoms of flu,3,0.024902390418862826,True,False,False
+flu a,3,0.985417535948653,False,False,False
 flu cold,4,0.02357212531580419,True,False,False
-flu a,5,0.02633740269140513,True,False,False
-cold,5,0.4490750446350109,False,False,False
-influenza a symptoms,5,0.09269346221869033,False,False,False
-symptoms of flu,5,0.5444219709872657,False,False,False
+influenza a symptoms,4,0.6486085536542168,False,False,False
+cold,4,0.09089382327615546,False,False,False
+symptoms of flu,4,0.23598332965713328,False,False,False
+flu a,4,0.10611595116498543,False,False,False
 flu cold,5,0.28456375868470707,False,False,False
+influenza a symptoms,5,0.09269346221869033,False,False,False
+cold,5,0.4490750446350109,False,False,False
+symptoms of flu,5,0.5444219709872657,False,False,False
+flu a,5,0.02633740269140513,True,False,False

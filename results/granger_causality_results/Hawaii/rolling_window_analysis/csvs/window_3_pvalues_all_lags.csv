@@ -1,41 +1,41 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-influenza a,1,0.5976997558909539,False,True,True
-stomach flu,1,0.6083833257579049,False,False,False
-flu how long,1,0.9848246006490142,False,False,False
 pneumonia,1,0.18102851718191923,False,False,False
 contagious flu,1,0.14428055167562923,False,False,False
+influenza a,1,0.5976997558909539,False,True,True
 rsv,1,0.010659370006821902,True,False,False
 symptoms of flu,1,0.11892065515385955,False,False,False
+flu how long,1,0.9848246006490142,False,False,False
 a influenza,1,0.006327946862513103,True,False,False
-influenza a,2,0.2804893024685694,False,True,True
-stomach flu,2,0.17438620439830121,False,False,False
-flu how long,2,0.33766423055471895,False,False,False
+stomach flu,1,0.6083833257579049,False,False,False
 pneumonia,2,0.0475866482551213,True,False,False
 contagious flu,2,0.037551570053302195,True,False,False
+influenza a,2,0.2804893024685694,False,True,True
 rsv,2,0.3703052039109438,False,False,False
 symptoms of flu,2,0.25415908690737576,False,False,False
+flu how long,2,0.33766423055471895,False,False,False
 a influenza,2,0.5936743739656425,False,False,False
-influenza a,3,0.027186938900571035,True,True,True
-stomach flu,3,0.3347068362700302,False,False,False
-flu how long,3,0.9386207427847799,False,False,False
+stomach flu,2,0.17438620439830121,False,False,False
 pneumonia,3,0.019573375575810258,True,False,False
 contagious flu,3,0.7941137734965666,False,False,False
+influenza a,3,0.027186938900571035,True,True,True
 rsv,3,0.8967755966467569,False,False,False
 symptoms of flu,3,0.04300324745612662,True,False,False
+flu how long,3,0.9386207427847799,False,False,False
 a influenza,3,0.5923219053320469,False,False,False
-influenza a,4,3.620473627401738e-05,True,True,True
-stomach flu,4,0.4308753603734906,False,False,False
-flu how long,4,0.008789254638842945,True,False,False
+stomach flu,3,0.3347068362700302,False,False,False
 pneumonia,4,0.5260131989341823,False,False,False
 contagious flu,4,0.33738276271366263,False,False,False
+influenza a,4,3.620473627401738e-05,True,True,True
 rsv,4,0.9291523321426,False,False,False
 symptoms of flu,4,0.5989085149385116,False,False,False
+flu how long,4,0.008789254638842945,True,False,False
 a influenza,4,0.5584004744495973,False,False,False
-influenza a,5,0.41365240861650077,False,True,True
-stomach flu,5,0.036295991188568875,True,False,False
-flu how long,5,0.5630743463097212,False,False,False
+stomach flu,4,0.4308753603734906,False,False,False
 pneumonia,5,0.20660979939946653,False,False,False
 contagious flu,5,0.29665184402041817,False,False,False
+influenza a,5,0.41365240861650077,False,True,True
 rsv,5,0.6284475997843633,False,False,False
 symptoms of flu,5,0.5080531111996367,False,False,False
+flu how long,5,0.5630743463097212,False,False,False
 a influenza,5,0.31780657062972195,False,False,False
+stomach flu,5,0.036295991188568875,True,False,False

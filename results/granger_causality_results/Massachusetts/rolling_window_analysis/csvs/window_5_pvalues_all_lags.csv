@@ -1,46 +1,46 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-flu fever,1,0.11788662245652054,False,False,False
-flu symptoms,1,0.03249748322427571,True,False,False
-how long flu,1,0.7888536737655973,False,False,False
-symptoms of the flu,1,0.7371794010043632,False,False,False
 sinus,1,0.10321329726581745,False,False,False
+how long flu,1,0.7888536737655973,False,False,False
+pneumonia,1,0.3611089944821707,False,False,False
+flu fever,1,0.11788662245652054,False,False,False
+symptoms of the flu,1,0.7371794010043632,False,False,False
+flu symptoms,1,0.03249748322427571,True,False,False
 fever flu,1,0.11788662248391638,False,False,False
 flu how long,1,0.7888536742004144,False,False,False
-pneumonia,1,0.3611089944821707,False,False,False
 the flu symptoms,1,0.4716561811436546,False,False,False
-flu fever,2,0.015832604136771573,True,False,False
-flu symptoms,2,0.23621399705004015,False,False,False
-how long flu,2,0.32676085655370446,False,False,False
-symptoms of the flu,2,0.6426083545327912,False,False,False
 sinus,2,0.8274677918271861,False,False,False
+how long flu,2,0.32676085655370446,False,False,False
+pneumonia,2,0.602562274050588,False,False,False
+flu fever,2,0.015832604136771573,True,False,False
+symptoms of the flu,2,0.6426083545327912,False,False,False
+flu symptoms,2,0.23621399705004015,False,False,False
 fever flu,2,0.015832604136230992,True,False,False
 flu how long,2,0.32676085660948384,False,False,False
-pneumonia,2,0.602562274050588,False,False,False
 the flu symptoms,2,0.009998812649474654,True,False,False
-flu fever,3,0.8825584660293123,False,False,False
-flu symptoms,3,0.1362521062169106,False,False,False
-how long flu,3,0.046808003827643045,True,False,False
-symptoms of the flu,3,0.744526518736718,False,False,False
 sinus,3,0.003951956611798541,True,False,False
+how long flu,3,0.046808003827643045,True,False,False
+pneumonia,3,0.06644636310900466,False,False,False
+flu fever,3,0.8825584660293123,False,False,False
+symptoms of the flu,3,0.744526518736718,False,False,False
+flu symptoms,3,0.1362521062169106,False,False,False
 fever flu,3,0.8825584659588387,False,False,False
 flu how long,3,0.04680800382687026,True,False,False
-pneumonia,3,0.06644636310900466,False,False,False
 the flu symptoms,3,0.3384202555580924,False,False,False
-flu fever,4,0.07916828292753858,False,False,False
-flu symptoms,4,0.6615927536353035,False,False,False
-how long flu,4,0.24620882483308384,False,False,False
-symptoms of the flu,4,0.7185088356252469,False,False,False
 sinus,4,0.7649288880143386,False,False,False
+how long flu,4,0.24620882483308384,False,False,False
+pneumonia,4,0.7374721355239013,False,False,False
+flu fever,4,0.07916828292753858,False,False,False
+symptoms of the flu,4,0.7185088356252469,False,False,False
+flu symptoms,4,0.6615927536353035,False,False,False
 fever flu,4,0.07916828293404439,False,False,False
 flu how long,4,0.24620882477511982,False,False,False
-pneumonia,4,0.7374721355239013,False,False,False
 the flu symptoms,4,0.21573644268104958,False,False,False
-flu fever,5,0.8403394104278513,False,False,False
-flu symptoms,5,0.24287437802094472,False,False,False
-how long flu,5,0.7704518099913048,False,False,False
-symptoms of the flu,5,0.02462413698387485,True,False,False
 sinus,5,0.0234226592371611,True,False,False
+how long flu,5,0.7704518099913048,False,False,False
+pneumonia,5,0.01669731881516502,True,False,False
+flu fever,5,0.8403394104278513,False,False,False
+symptoms of the flu,5,0.02462413698387485,True,False,False
+flu symptoms,5,0.24287437802094472,False,False,False
 fever flu,5,0.8403394104019704,False,False,False
 flu how long,5,0.7704518101003209,False,False,False
-pneumonia,5,0.01669731881516502,True,False,False
 the flu symptoms,5,0.7885777985610409,False,False,False

@@ -1,51 +1,51 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-how long does the flu last,1,0.14038992864223993,False,True,False
 bronchitis,1,0.18866203282300287,False,True,False
-how long is flu contagious,1,0.353296175145802,False,True,False
-flu incubation period,1,0.07523205584593316,False,False,False
 flu contagious,1,0.03683370946093917,True,False,False
-contagious flu,1,0.03683370945939575,True,False,False
-flu incubation,1,0.21834713125562052,False,False,False
-how long contagious,1,0.5472796234312551,False,False,False
 flu type a,1,0.25927179098866315,False,True,True
+flu incubation,1,0.21834713125562052,False,False,False
+flu incubation period,1,0.07523205584593316,False,False,False
+contagious flu,1,0.03683370945939575,True,False,False
+how long does the flu last,1,0.14038992864223993,False,True,False
+how long contagious,1,0.5472796234312551,False,False,False
+how long is flu contagious,1,0.353296175145802,False,True,False
 how long does flu last,1,0.18388021764945964,False,False,False
-how long does the flu last,2,0.3298326451288536,False,True,False
 bronchitis,2,0.21793384136759372,False,True,False
-how long is flu contagious,2,0.6398658035008906,False,True,False
-flu incubation period,2,0.022315818065874866,True,False,False
 flu contagious,2,0.892451023372906,False,False,False
-contagious flu,2,0.8924510233756935,False,False,False
-flu incubation,2,0.021137598294171597,True,False,False
-how long contagious,2,0.04623790841862517,True,False,False
 flu type a,2,0.07880797602581095,False,True,True
+flu incubation,2,0.021137598294171597,True,False,False
+flu incubation period,2,0.022315818065874866,True,False,False
+contagious flu,2,0.8924510233756935,False,False,False
+how long does the flu last,2,0.3298326451288536,False,True,False
+how long contagious,2,0.04623790841862517,True,False,False
+how long is flu contagious,2,0.6398658035008906,False,True,False
 how long does flu last,2,0.5737494981549732,False,False,False
-how long does the flu last,3,0.003522122398049556,True,True,False
 bronchitis,3,0.0071955302981255975,True,True,False
-how long is flu contagious,3,0.14329212330359634,False,True,False
-flu incubation period,3,0.9413522635221033,False,False,False
 flu contagious,3,0.6787753477082087,False,False,False
-contagious flu,3,0.6787753477069676,False,False,False
-flu incubation,3,0.2077744437594385,False,False,False
-how long contagious,3,0.4533898627706866,False,False,False
 flu type a,3,0.07565511836496308,False,True,True
+flu incubation,3,0.2077744437594385,False,False,False
+flu incubation period,3,0.9413522635221033,False,False,False
+contagious flu,3,0.6787753477069676,False,False,False
+how long does the flu last,3,0.003522122398049556,True,True,False
+how long contagious,3,0.4533898627706866,False,False,False
+how long is flu contagious,3,0.14329212330359634,False,True,False
 how long does flu last,3,0.27912486205164616,False,False,False
-how long does the flu last,4,0.4965333017742175,False,True,False
 bronchitis,4,0.8488100675688246,False,True,False
-how long is flu contagious,4,0.028714217711572215,True,True,False
-flu incubation period,4,0.9220514497041306,False,False,False
 flu contagious,4,0.03374670395703681,True,False,False
-contagious flu,4,0.033746703957048936,True,False,False
-flu incubation,4,0.3465042770312645,False,False,False
-how long contagious,4,0.2216733275348711,False,False,False
 flu type a,4,0.00032211895568101326,True,True,True
+flu incubation,4,0.3465042770312645,False,False,False
+flu incubation period,4,0.9220514497041306,False,False,False
+contagious flu,4,0.033746703957048936,True,False,False
+how long does the flu last,4,0.4965333017742175,False,True,False
+how long contagious,4,0.2216733275348711,False,False,False
+how long is flu contagious,4,0.028714217711572215,True,True,False
 how long does flu last,4,0.018400205079951958,True,False,False
-how long does the flu last,5,0.008968542221635512,True,True,False
 bronchitis,5,0.5163086500690862,False,True,False
-how long is flu contagious,5,0.004300539231827166,True,True,False
-flu incubation period,5,0.8019016260145125,False,False,False
 flu contagious,5,0.06875094449066049,False,False,False
-contagious flu,5,0.0687509444902118,False,False,False
-flu incubation,5,0.13750895010908248,False,False,False
-how long contagious,5,0.8679853368117023,False,False,False
 flu type a,5,0.2957827701727638,False,True,True
+flu incubation,5,0.13750895010908248,False,False,False
+flu incubation period,5,0.8019016260145125,False,False,False
+contagious flu,5,0.0687509444902118,False,False,False
+how long does the flu last,5,0.008968542221635512,True,True,False
+how long contagious,5,0.8679853368117023,False,False,False
+how long is flu contagious,5,0.004300539231827166,True,True,False
 how long does flu last,5,0.020521776160998234,True,False,False

@@ -1,51 +1,51 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-influenza a,1,0.7898691151329728,False,True,True
+bronchitis,1,0.018967087018027663,True,True,False
+flu cold,1,0.33366072215610254,False,True,False
+sinus,1,0.43176432239744145,False,False,False
 strep,1,0.6507218074619159,False,True,True
 how long flu,1,0.2110205569010175,False,True,False
-a influenza,1,0.7898691168507103,False,True,True
-bronchitis,1,0.018967087018027663,True,True,False
-stomach flu,1,0.2171159829479823,False,True,False
-sinus,1,0.43176432239744145,False,False,False
-cold,1,0.7847024246686156,False,False,False
 contagious flu,1,0.017272559803624167,True,True,False
-flu cold,1,0.33366072215610254,False,True,False
-influenza a,2,0.2153053818488928,False,True,True
+influenza a,1,0.7898691151329728,False,True,True
+cold,1,0.7847024246686156,False,False,False
+a influenza,1,0.7898691168507103,False,True,True
+stomach flu,1,0.2171159829479823,False,True,False
+bronchitis,2,0.9101457672880939,False,True,False
+flu cold,2,0.7142496524061724,False,True,False
+sinus,2,0.04884689462757977,True,False,False
 strep,2,0.9204920765123532,False,True,True
 how long flu,2,0.6557751719598235,False,True,False
-a influenza,2,0.21530538192938736,False,True,True
-bronchitis,2,0.9101457672880939,False,True,False
-stomach flu,2,0.5648051111969332,False,True,False
-sinus,2,0.04884689462757977,True,False,False
-cold,2,0.026874722017890425,True,False,False
 contagious flu,2,0.005616969861208954,True,True,False
-flu cold,2,0.7142496524061724,False,True,False
-influenza a,3,0.00020473351616966188,True,True,True
+influenza a,2,0.2153053818488928,False,True,True
+cold,2,0.026874722017890425,True,False,False
+a influenza,2,0.21530538192938736,False,True,True
+stomach flu,2,0.5648051111969332,False,True,False
+bronchitis,3,0.897356908917976,False,True,False
+flu cold,3,0.006214999287064132,True,True,False
+sinus,3,0.5480377439521825,False,False,False
 strep,3,0.2361220619328843,False,True,True
 how long flu,3,0.58202768082032,False,True,False
-a influenza,3,0.00020473351616221756,True,True,True
-bronchitis,3,0.897356908917976,False,True,False
-stomach flu,3,0.007100192899273424,True,True,False
-sinus,3,0.5480377439521825,False,False,False
-cold,3,0.5601343153361191,False,False,False
 contagious flu,3,0.6140004400238472,False,True,False
-flu cold,3,0.006214999287064132,True,True,False
-influenza a,4,0.6421858265924063,False,True,True
+influenza a,3,0.00020473351616966188,True,True,True
+cold,3,0.5601343153361191,False,False,False
+a influenza,3,0.00020473351616221756,True,True,True
+stomach flu,3,0.007100192899273424,True,True,False
+bronchitis,4,0.11122735639992082,False,True,False
+flu cold,4,0.505417855706924,False,True,False
+sinus,4,0.32801034075972557,False,False,False
 strep,4,0.0017768128602708533,True,True,True
 how long flu,4,0.06907550553018688,False,True,False
-a influenza,4,0.6421858264610454,False,True,True
-bronchitis,4,0.11122735639992082,False,True,False
-stomach flu,4,0.3446280768837807,False,True,False
-sinus,4,0.32801034075972557,False,False,False
-cold,4,0.9430145612159899,False,False,False
 contagious flu,4,0.07298978647867357,False,True,False
-flu cold,4,0.505417855706924,False,True,False
-influenza a,5,0.01394261463443646,True,True,True
+influenza a,4,0.6421858265924063,False,True,True
+cold,4,0.9430145612159899,False,False,False
+a influenza,4,0.6421858264610454,False,True,True
+stomach flu,4,0.3446280768837807,False,True,False
+bronchitis,5,0.36631712245941583,False,True,False
+flu cold,5,0.4410580895591997,False,True,False
+sinus,5,0.4865528329587496,False,False,False
 strep,5,0.03488234361814186,True,True,True
 how long flu,5,0.006483347295288218,True,True,False
-a influenza,5,0.013942614622098072,True,True,True
-bronchitis,5,0.36631712245941583,False,True,False
-stomach flu,5,0.24751991235024917,False,True,False
-sinus,5,0.4865528329587496,False,False,False
-cold,5,0.9832585083548872,False,False,False
 contagious flu,5,0.27123604444336247,False,True,False
-flu cold,5,0.4410580895591997,False,True,False
+influenza a,5,0.01394261463443646,True,True,True
+cold,5,0.9832585083548872,False,False,False
+a influenza,5,0.013942614622098072,True,True,True
+stomach flu,5,0.24751991235024917,False,True,False

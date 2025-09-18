@@ -1,21 +1,21 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
 bronchitis,1,0.021633192341677602,True,False,False
+how long flu,1,0.08855747181077835,False,False,False
 strep throat,1,0.04391554763933723,True,False,False
 flu symptoms,1,0.7148529933879157,False,False,False
-how long flu,1,0.08855747181077835,False,False,False
 bronchitis,2,0.2630633916275702,False,False,False
+how long flu,2,0.05905663461006171,False,False,False
 strep throat,2,0.8105503134432079,False,False,False
 flu symptoms,2,0.6659278708665516,False,False,False
-how long flu,2,0.05905663461006171,False,False,False
 bronchitis,3,0.5901676291666069,False,False,False
+how long flu,3,0.020125926972649033,True,False,False
 strep throat,3,0.5844549678472077,False,False,False
 flu symptoms,3,0.08523600928509466,False,False,False
-how long flu,3,0.020125926972649033,True,False,False
 bronchitis,4,0.8662294747712963,False,False,False
+how long flu,4,0.5273986454547006,False,False,False
 strep throat,4,0.38745766603093446,False,False,False
 flu symptoms,4,0.7599047984570572,False,False,False
-how long flu,4,0.5273986454547006,False,False,False
 bronchitis,5,0.42805978089786223,False,False,False
+how long flu,5,0.7872176239234701,False,False,False
 strep throat,5,0.7119958917261464,False,False,False
 flu symptoms,5,0.033082776939036995,True,False,False
-how long flu,5,0.7872176239234701,False,False,False

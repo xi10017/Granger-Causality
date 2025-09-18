@@ -1,61 +1,61 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-how long does flu last,1,0.1269874318616373,False,False,False
-flu symptoms,1,0.37219624524593753,False,False,False
-flu cold,1,0.004312364943176755,True,True,False
-how long does the flu last,1,0.04261586705255011,True,False,False
 b flu,1,0.09655941418316376,False,False,False
+flu type,1,0.9662931157346963,False,False,False
+flu cold,1,0.004312364943176755,True,True,False
+flu incubation,1,0.48429406213212967,False,False,False
+the flu,1,0.04456585354055903,True,True,False
+flu incubation period,1,0.2325848400239888,False,False,False
+flu symptoms,1,0.37219624524593753,False,False,False
+how long does the flu last,1,0.04261586705255011,True,False,False
 how long is flu contagious,1,0.23528582662647354,False,True,False
 fever flu,1,0.6878279734614521,False,False,False
-flu type,1,0.9662931157346963,False,False,False
-flu incubation period,1,0.2325848400239888,False,False,False
-flu incubation,1,0.48429406213212967,False,False,False
+how long does flu last,1,0.1269874318616373,False,False,False
 the flu symptoms,1,0.8929950757626973,False,False,False
-the flu,1,0.04456585354055903,True,True,False
-how long does flu last,2,0.5775755530714825,False,False,False
-flu symptoms,2,0.24359066596095036,False,False,False
-flu cold,2,0.05653588832544544,False,True,False
-how long does the flu last,2,0.10574795292935034,False,False,False
 b flu,2,0.14483721077533884,False,False,False
+flu type,2,0.46607560920776503,False,False,False
+flu cold,2,0.05653588832544544,False,True,False
+flu incubation,2,0.0426715138317652,True,False,False
+the flu,2,0.005260290722039547,True,True,False
+flu incubation period,2,0.48421564107511894,False,False,False
+flu symptoms,2,0.24359066596095036,False,False,False
+how long does the flu last,2,0.10574795292935034,False,False,False
 how long is flu contagious,2,0.6405858278569121,False,True,False
 fever flu,2,0.03847246237394974,True,False,False
-flu type,2,0.46607560920776503,False,False,False
-flu incubation period,2,0.48421564107511894,False,False,False
-flu incubation,2,0.0426715138317652,True,False,False
+how long does flu last,2,0.5775755530714825,False,False,False
 the flu symptoms,2,0.19093268657701074,False,False,False
-the flu,2,0.005260290722039547,True,True,False
-how long does flu last,3,0.8377030793625352,False,False,False
-flu symptoms,3,0.10592368977857397,False,False,False
-flu cold,3,0.4520330374808591,False,True,False
-how long does the flu last,3,0.2652294207870693,False,False,False
 b flu,3,0.01017067776208666,True,False,False
+flu type,3,0.38254520508842893,False,False,False
+flu cold,3,0.4520330374808591,False,True,False
+flu incubation,3,0.23903508327448328,False,False,False
+the flu,3,0.5210507905145547,False,True,False
+flu incubation period,3,0.4332523815397935,False,False,False
+flu symptoms,3,0.10592368977857397,False,False,False
+how long does the flu last,3,0.2652294207870693,False,False,False
 how long is flu contagious,3,0.0050761066605563,True,True,False
 fever flu,3,0.47573199887816897,False,False,False
-flu type,3,0.38254520508842893,False,False,False
-flu incubation period,3,0.4332523815397935,False,False,False
-flu incubation,3,0.23903508327448328,False,False,False
+how long does flu last,3,0.8377030793625352,False,False,False
 the flu symptoms,3,0.044796957773455715,True,False,False
-the flu,3,0.5210507905145547,False,True,False
-how long does flu last,4,0.02537107243882083,True,False,False
-flu symptoms,4,0.5171691111425687,False,False,False
-flu cold,4,0.5257292868981691,False,True,False
-how long does the flu last,4,0.17386277298907102,False,False,False
 b flu,4,0.9152971635265956,False,False,False
+flu type,4,0.1819833649024188,False,False,False
+flu cold,4,0.5257292868981691,False,True,False
+flu incubation,4,0.44572543850668367,False,False,False
+the flu,4,0.12496544857341198,False,True,False
+flu incubation period,4,0.019466509994493775,True,False,False
+flu symptoms,4,0.5171691111425687,False,False,False
+how long does the flu last,4,0.17386277298907102,False,False,False
 how long is flu contagious,4,0.8040810645015517,False,True,False
 fever flu,4,0.4079505638074963,False,False,False
-flu type,4,0.1819833649024188,False,False,False
-flu incubation period,4,0.019466509994493775,True,False,False
-flu incubation,4,0.44572543850668367,False,False,False
+how long does flu last,4,0.02537107243882083,True,False,False
 the flu symptoms,4,0.509844967917098,False,False,False
-the flu,4,0.12496544857341198,False,True,False
-how long does flu last,5,0.22646298287030167,False,False,False
-flu symptoms,5,0.017189574020580845,True,False,False
-flu cold,5,0.5264939324965614,False,True,False
-how long does the flu last,5,0.7119716295266605,False,False,False
 b flu,5,0.04279280396940677,True,False,False
+flu type,5,0.030663935214209348,True,False,False
+flu cold,5,0.5264939324965614,False,True,False
+flu incubation,5,0.1617925267781187,False,False,False
+the flu,5,0.09770884934102085,False,True,False
+flu incubation period,5,0.5039325402160244,False,False,False
+flu symptoms,5,0.017189574020580845,True,False,False
+how long does the flu last,5,0.7119716295266605,False,False,False
 how long is flu contagious,5,0.6692762472159391,False,True,False
 fever flu,5,0.934538782383022,False,False,False
-flu type,5,0.030663935214209348,True,False,False
-flu incubation period,5,0.5039325402160244,False,False,False
-flu incubation,5,0.1617925267781187,False,False,False
+how long does flu last,5,0.22646298287030167,False,False,False
 the flu symptoms,5,0.07285501879976829,False,False,False
-the flu,5,0.09770884934102085,False,True,False

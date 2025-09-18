@@ -1,21 +1,21 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-cold,1,0.28422844415779136,False,False,False
-symptoms of flu,1,0.0035689800956950624,True,False,False
 flu cold,1,0.04880693506731156,True,False,False
 flu a,1,0.015561146954586392,True,False,False
-cold,2,0.042208193335193864,True,False,False
-symptoms of flu,2,0.8223282662803264,False,False,False
+cold,1,0.28422844415779136,False,False,False
+symptoms of flu,1,0.0035689800956950624,True,False,False
 flu cold,2,0.2710999568699948,False,False,False
 flu a,2,0.9230636492406652,False,False,False
-cold,3,0.98469542353004,False,False,False
-symptoms of flu,3,0.1618114895477643,False,False,False
+cold,2,0.042208193335193864,True,False,False
+symptoms of flu,2,0.8223282662803264,False,False,False
 flu cold,3,0.4146976683675163,False,False,False
 flu a,3,0.8478089234294449,False,False,False
-cold,4,0.11115109656560478,False,False,False
-symptoms of flu,4,0.04955159887304196,True,False,False
+cold,3,0.98469542353004,False,False,False
+symptoms of flu,3,0.1618114895477643,False,False,False
 flu cold,4,0.29457935074959,False,False,False
 flu a,4,0.2097963915865378,False,False,False
-cold,5,0.23931282297428455,False,False,False
-symptoms of flu,5,0.9159226235525818,False,False,False
+cold,4,0.11115109656560478,False,False,False
+symptoms of flu,4,0.04955159887304196,True,False,False
 flu cold,5,0.497577969113678,False,False,False
 flu a,5,0.13750861350797056,False,False,False
+cold,5,0.23931282297428455,False,False,False
+symptoms of flu,5,0.9159226235525818,False,False,False

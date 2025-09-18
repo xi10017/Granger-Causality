@@ -1,76 +1,76 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-flu fever,1,0.4314951422857891,False,True,False
-flu symptoms,1,0.5069278718127117,False,False,False
+bronchitis,1,0.9274748519020382,False,True,True
+flu contagious,1,0.9918802737341952,False,True,True
 flu cold,1,0.037087201840196475,True,True,True
 b flu,1,0.9986374710302395,False,True,False
-bronchitis,1,0.9274748519020382,False,True,True
+flu type,1,0.8119775990063223,False,False,False
+pneumonia,1,0.47671918423167337,False,False,False
+the flu,1,0.1433158542184051,False,True,True
+flu fever,1,0.4314951422857891,False,True,False
+contagious flu,1,0.9918802732890618,False,True,True
+flu symptoms,1,0.5069278718127117,False,False,False
+rsv,1,0.4552885055297119,False,True,True
+symptoms of flu,1,0.13914435605583314,False,True,False
 stomach flu,1,0.6209063856290058,False,False,False
 flu how long,1,0.17057128824843246,False,True,False
-flu type,1,0.8119775990063223,False,False,False
-flu contagious,1,0.9918802737341952,False,True,True
-pneumonia,1,0.47671918423167337,False,False,False
-contagious flu,1,0.9918802732890618,False,True,True
-rsv,1,0.4552885055297119,False,True,True
 the flu symptoms,1,0.366437336420781,False,True,True
-symptoms of flu,1,0.13914435605583314,False,True,False
-the flu,1,0.1433158542184051,False,True,True
-flu fever,2,0.0644630293619201,False,True,False
-flu symptoms,2,0.03415693789527002,True,False,False
+bronchitis,2,0.09541938609292869,False,True,True
+flu contagious,2,0.0015463666226673682,True,True,True
 flu cold,2,0.0016592403426349427,True,True,True
 b flu,2,0.008758278754174668,True,True,False
-bronchitis,2,0.09541938609292869,False,True,True
+flu type,2,0.15796396221648612,False,False,False
+pneumonia,2,0.08889930083492191,False,False,False
+the flu,2,0.8796374773175526,False,True,True
+flu fever,2,0.0644630293619201,False,True,False
+contagious flu,2,0.0015463666219435728,True,True,True
+flu symptoms,2,0.03415693789527002,True,False,False
+rsv,2,0.23618606955229382,False,True,True
+symptoms of flu,2,0.017432254006760746,True,True,False
 stomach flu,2,0.1043904769769077,False,False,False
 flu how long,2,0.6375259574035085,False,True,False
-flu type,2,0.15796396221648612,False,False,False
-flu contagious,2,0.0015463666226673682,True,True,True
-pneumonia,2,0.08889930083492191,False,False,False
-contagious flu,2,0.0015463666219435728,True,True,True
-rsv,2,0.23618606955229382,False,True,True
 the flu symptoms,2,0.051597743601086175,False,True,True
-symptoms of flu,2,0.017432254006760746,True,True,False
-the flu,2,0.8796374773175526,False,True,True
-flu fever,3,0.016330682024446104,True,True,False
-flu symptoms,3,0.4886953290423499,False,False,False
+bronchitis,3,0.001632361304718246,True,True,True
+flu contagious,3,0.9683251971237365,False,True,True
 flu cold,3,0.004793052456003994,True,True,True
 b flu,3,0.3151678075910671,False,True,False
-bronchitis,3,0.001632361304718246,True,True,True
+flu type,3,0.046502984290894896,True,False,False
+pneumonia,3,0.9514410548775042,False,False,False
+the flu,3,0.00020118777602520102,True,True,True
+flu fever,3,0.016330682024446104,True,True,False
+contagious flu,3,0.968325196966265,False,True,True
+flu symptoms,3,0.4886953290423499,False,False,False
+rsv,3,0.48922883399369066,False,True,True
+symptoms of flu,3,0.17734201369127328,False,True,False
 stomach flu,3,0.1870572362408156,False,False,False
 flu how long,3,0.5973760913128441,False,True,False
-flu type,3,0.046502984290894896,True,False,False
-flu contagious,3,0.9683251971237365,False,True,True
-pneumonia,3,0.9514410548775042,False,False,False
-contagious flu,3,0.968325196966265,False,True,True
-rsv,3,0.48922883399369066,False,True,True
 the flu symptoms,3,0.6895861351527149,False,True,True
-symptoms of flu,3,0.17734201369127328,False,True,False
-the flu,3,0.00020118777602520102,True,True,True
-flu fever,4,0.5932052656109081,False,True,False
-flu symptoms,4,0.20624376241578865,False,False,False
+bronchitis,4,0.7001870240049004,False,True,True
+flu contagious,4,0.435030035385091,False,True,True
 flu cold,4,0.027031474711034724,True,True,True
 b flu,4,0.14499066527508592,False,True,False
-bronchitis,4,0.7001870240049004,False,True,True
+flu type,4,0.3626115325235426,False,False,False
+pneumonia,4,0.9723260839024339,False,False,False
+the flu,4,0.7294360189018696,False,True,True
+flu fever,4,0.5932052656109081,False,True,False
+contagious flu,4,0.4350300354037093,False,True,True
+flu symptoms,4,0.20624376241578865,False,False,False
+rsv,4,0.00015567636611900641,True,True,True
+symptoms of flu,4,0.0612889136748446,False,True,False
 stomach flu,4,0.03457684139046736,True,False,False
 flu how long,4,0.005832850367926023,True,True,False
-flu type,4,0.3626115325235426,False,False,False
-flu contagious,4,0.435030035385091,False,True,True
-pneumonia,4,0.9723260839024339,False,False,False
-contagious flu,4,0.4350300354037093,False,True,True
-rsv,4,0.00015567636611900641,True,True,True
 the flu symptoms,4,0.35601549536276944,False,True,True
-symptoms of flu,4,0.0612889136748446,False,True,False
-the flu,4,0.7294360189018696,False,True,True
-flu fever,5,0.4831791441100175,False,True,False
-flu symptoms,5,0.46596929762628125,False,False,False
+bronchitis,5,0.6906514821641814,False,True,True
+flu contagious,5,0.35164513834202993,False,True,True
 flu cold,5,0.1632320709902908,False,True,True
 b flu,5,0.257959194808603,False,True,False
-bronchitis,5,0.6906514821641814,False,True,True
+flu type,5,0.5682346768381078,False,False,False
+pneumonia,5,0.035691382012859554,True,False,False
+the flu,5,0.2817006741223753,False,True,True
+flu fever,5,0.4831791441100175,False,True,False
+contagious flu,5,0.35164513833649313,False,True,True
+flu symptoms,5,0.46596929762628125,False,False,False
+rsv,5,0.27731322727856134,False,True,True
+symptoms of flu,5,0.2793742584512091,False,True,False
 stomach flu,5,0.16807030348203833,False,False,False
 flu how long,5,0.011399228108638054,True,True,False
-flu type,5,0.5682346768381078,False,False,False
-flu contagious,5,0.35164513834202993,False,True,True
-pneumonia,5,0.035691382012859554,True,False,False
-contagious flu,5,0.35164513833649313,False,True,True
-rsv,5,0.27731322727856134,False,True,True
 the flu symptoms,5,0.00012572659559755475,True,True,True
-symptoms of flu,5,0.2793742584512091,False,True,False
-the flu,5,0.2817006741223753,False,True,True

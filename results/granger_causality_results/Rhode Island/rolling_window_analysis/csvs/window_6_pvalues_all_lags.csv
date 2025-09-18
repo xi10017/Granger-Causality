@@ -1,16 +1,16 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
 pneumonia,1,0.04383886654191039,True,False,False
-flu symptoms,1,0.3793191490126149,False,False,False
 the flu,1,0.003150411057189763,True,False,False
+flu symptoms,1,0.3793191490126149,False,False,False
 pneumonia,2,0.5150133424224017,False,False,False
-flu symptoms,2,0.007732614204034833,True,False,False
 the flu,2,0.009504292077380372,True,False,False
+flu symptoms,2,0.007732614204034833,True,False,False
 pneumonia,3,0.9752672665381934,False,False,False
-flu symptoms,3,0.40857427304933336,False,False,False
 the flu,3,0.94902091999616,False,False,False
+flu symptoms,3,0.40857427304933336,False,False,False
 pneumonia,4,0.6604469860089333,False,False,False
-flu symptoms,4,0.2000263887856782,False,False,False
 the flu,4,0.7528873629737849,False,False,False
+flu symptoms,4,0.2000263887856782,False,False,False
 pneumonia,5,0.4829332119569112,False,False,False
-flu symptoms,5,0.943080021292983,False,False,False
 the flu,5,0.931360900908058,False,False,False
+flu symptoms,5,0.943080021292983,False,False,False

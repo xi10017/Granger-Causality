@@ -1,0 +1,4 @@
+method,overall_proportion,overall_fraction,pooled_proportion,pooled_fraction,unique_terms_total,unique_terms_significant,mean_proportion,std_proportion,min_proportion,max_proportion,total_regions,mean_count,mean_total
+RAW,0.9841269841269841,62/63,0.927,927/1000,63,62,0.927,0.07362744053679986,0.6,1.0,50,18.54,20.0
+FDR,0.8253968253968254,52/63,0.56,560/1000,63,52,0.5599999999999999,0.25865034312755125,0.0,0.95,50,11.2,20.0
+BONFERRONI,0.6984126984126984,44/63,0.267,267/1000,63,44,0.267,0.15987807854737313,0.0,0.6,50,5.34,20.0

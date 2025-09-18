@@ -1,31 +1,31 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-flu symptoms,1,0.0017897123453249387,True,True,True
-flu fever,1,0.4033702348221526,False,False,False
 how long flu,1,0.0018717366710435629,True,True,True
+pneumonia,1,0.2838333605106482,False,False,False
+flu fever,1,0.4033702348221526,False,False,False
+flu symptoms,1,0.0017897123453249387,True,True,True
 fever flu,1,0.4033702347951904,False,False,False
 flu how long,1,0.0018717366683751345,True,True,True
-pneumonia,1,0.2838333605106482,False,False,False
-flu symptoms,2,0.07786527586499711,False,True,True
-flu fever,2,0.035887193595419246,True,False,False
 how long flu,2,0.4087751855839449,False,True,True
+pneumonia,2,0.14637200534957293,False,False,False
+flu fever,2,0.035887193595419246,True,False,False
+flu symptoms,2,0.07786527586499711,False,True,True
 fever flu,2,0.03588719360079078,True,False,False
 flu how long,2,0.40877518537829705,False,True,True
-pneumonia,2,0.14637200534957293,False,False,False
-flu symptoms,3,0.16412859513975248,False,True,True
-flu fever,3,0.015858649797580865,True,False,False
 how long flu,3,0.7117210234487152,False,True,True
+pneumonia,3,0.1886970652682041,False,False,False
+flu fever,3,0.015858649797580865,True,False,False
+flu symptoms,3,0.16412859513975248,False,True,True
 fever flu,3,0.01585864979438183,True,False,False
 flu how long,3,0.7117210234333655,False,True,True
-pneumonia,3,0.1886970652682041,False,False,False
-flu symptoms,4,0.7435856159675429,False,True,True
-flu fever,4,0.4958097036094037,False,False,False
 how long flu,4,0.6440326565298398,False,True,True
+pneumonia,4,0.9816778240827329,False,False,False
+flu fever,4,0.4958097036094037,False,False,False
+flu symptoms,4,0.7435856159675429,False,True,True
 fever flu,4,0.495809703616764,False,False,False
 flu how long,4,0.6440326564531322,False,True,True
-pneumonia,4,0.9816778240827329,False,False,False
-flu symptoms,5,0.41807628692311694,False,True,True
-flu fever,5,0.5707965700636248,False,False,False
 how long flu,5,0.012922362006118703,True,True,True
+pneumonia,5,0.010215569964023188,True,False,False
+flu fever,5,0.5707965700636248,False,False,False
+flu symptoms,5,0.41807628692311694,False,True,True
 fever flu,5,0.5707965700636248,False,False,False
 flu how long,5,0.012922362004861984,True,True,True
-pneumonia,5,0.010215569964023188,True,False,False

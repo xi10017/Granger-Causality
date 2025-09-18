@@ -1,41 +1,41 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-flu a,1,0.47516231949905974,False,False,False
-stomach flu,1,0.009972108628151162,True,False,False
-sinus,1,0.6857580260078938,False,False,False
 flu contagious,1,0.4071833408027795,False,False,False
+sinus,1,0.6857580260078938,False,False,False
+the flu,1,0.2492157329253655,False,False,False
 contagious flu,1,0.6761039417081562,False,True,True
 rsv,1,0.3617274902077491,False,True,True
 symptoms of flu,1,0.04890130441301939,True,False,False
-the flu,1,0.2492157329253655,False,False,False
-flu a,2,0.01575403303824182,True,False,False
-stomach flu,2,0.1814794197525522,False,False,False
-sinus,2,0.3477473685661492,False,False,False
+flu a,1,0.47516231949905974,False,False,False
+stomach flu,1,0.009972108628151162,True,False,False
 flu contagious,2,0.22625793162248098,False,False,False
+sinus,2,0.3477473685661492,False,False,False
+the flu,2,0.8812232303553359,False,False,False
 contagious flu,2,0.8507917209408771,False,True,True
 rsv,2,0.13106185164052878,False,True,True
 symptoms of flu,2,0.21561029161543743,False,False,False
-the flu,2,0.8812232303553359,False,False,False
-flu a,3,0.4380055630795183,False,False,False
-stomach flu,3,0.09636806414918143,False,False,False
-sinus,3,0.4442455894682036,False,False,False
+flu a,2,0.01575403303824182,True,False,False
+stomach flu,2,0.1814794197525522,False,False,False
 flu contagious,3,0.4033938541131018,False,False,False
+sinus,3,0.4442455894682036,False,False,False
+the flu,3,0.08598449072418103,False,False,False
 contagious flu,3,0.041993951360933646,True,True,True
 rsv,3,0.0014460896173317263,True,True,True
 symptoms of flu,3,0.9192893833016665,False,False,False
-the flu,3,0.08598449072418103,False,False,False
-flu a,4,0.015416845357394,True,False,False
-stomach flu,4,0.2147941175437082,False,False,False
-sinus,4,0.18625050866759188,False,False,False
+flu a,3,0.4380055630795183,False,False,False
+stomach flu,3,0.09636806414918143,False,False,False
 flu contagious,4,0.2610513212596379,False,False,False
+sinus,4,0.18625050866759188,False,False,False
+the flu,4,0.6708257497628788,False,False,False
 contagious flu,4,0.5594878007379989,False,True,True
 rsv,4,0.7825990655961539,False,True,True
 symptoms of flu,4,0.5212277678750221,False,False,False
-the flu,4,0.6708257497628788,False,False,False
-flu a,5,0.01741899421852787,True,False,False
-stomach flu,5,0.09207055763968554,False,False,False
-sinus,5,0.02154084331303525,True,False,False
+flu a,4,0.015416845357394,True,False,False
+stomach flu,4,0.2147941175437082,False,False,False
 flu contagious,5,0.03715974193208467,True,False,False
+sinus,5,0.02154084331303525,True,False,False
+the flu,5,0.04451037573254406,True,False,False
 contagious flu,5,0.0008839661884455992,True,True,True
 rsv,5,0.2305868363195759,False,True,True
 symptoms of flu,5,0.10840969971499559,False,False,False
-the flu,5,0.04451037573254406,True,False,False
+flu a,5,0.01741899421852787,True,False,False
+stomach flu,5,0.09207055763968554,False,False,False

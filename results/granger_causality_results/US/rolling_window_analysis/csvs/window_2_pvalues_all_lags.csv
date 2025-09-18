@@ -1,36 +1,36 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-incubation period flu,1,0.2134782342512322,False,False,False
-is flu contagious,1,0.3548078213093342,False,False,False
-flu remedies,1,0.023417969758621888,True,False,False
 flu type,1,0.10197488482856863,False,False,False
+how long is the flu contagious,1,0.8172974193453592,False,True,True
+flu remedies,1,0.023417969758621888,True,False,False
+is flu contagious,1,0.3548078213093342,False,False,False
+incubation period flu,1,0.2134782342512322,False,False,False
 how long contagious,1,0.046341035777840996,True,False,False
 tamiflu side effects,1,0.018546944230494765,True,False,False
-how long is the flu contagious,1,0.8172974193453592,False,True,True
-incubation period flu,2,0.2959201817756749,False,False,False
-is flu contagious,2,0.054835725027470646,False,False,False
-flu remedies,2,0.23113350223548823,False,False,False
 flu type,2,0.020026481927386004,True,False,False
+how long is the flu contagious,2,0.0010472603047777295,True,True,True
+flu remedies,2,0.23113350223548823,False,False,False
+is flu contagious,2,0.054835725027470646,False,False,False
+incubation period flu,2,0.2959201817756749,False,False,False
 how long contagious,2,0.6961490926987739,False,False,False
 tamiflu side effects,2,0.08401000747131343,False,False,False
-how long is the flu contagious,2,0.0010472603047777295,True,True,True
-incubation period flu,3,0.893603966529275,False,False,False
-is flu contagious,3,0.020380117578932586,True,False,False
-flu remedies,3,0.029310902849689957,True,False,False
 flu type,3,0.9942396053881,False,False,False
+how long is the flu contagious,3,0.33136568547374934,False,True,True
+flu remedies,3,0.029310902849689957,True,False,False
+is flu contagious,3,0.020380117578932586,True,False,False
+incubation period flu,3,0.893603966529275,False,False,False
 how long contagious,3,0.9448589834076078,False,False,False
 tamiflu side effects,3,0.7847865909646115,False,False,False
-how long is the flu contagious,3,0.33136568547374934,False,True,True
-incubation period flu,4,0.30140985656355296,False,False,False
-is flu contagious,4,0.4275696213478638,False,False,False
-flu remedies,4,0.340015743029341,False,False,False
 flu type,4,0.13757575681170267,False,False,False
+how long is the flu contagious,4,0.20173725108339793,False,True,True
+flu remedies,4,0.340015743029341,False,False,False
+is flu contagious,4,0.4275696213478638,False,False,False
+incubation period flu,4,0.30140985656355296,False,False,False
 how long contagious,4,0.019140008814701234,True,False,False
 tamiflu side effects,4,0.3754036548336427,False,False,False
-how long is the flu contagious,4,0.20173725108339793,False,True,True
-incubation period flu,5,0.02402340507969026,True,False,False
-is flu contagious,5,0.37928137189788,False,False,False
-flu remedies,5,0.24583262972566208,False,False,False
 flu type,5,0.8748965447223445,False,False,False
+how long is the flu contagious,5,0.6810683420112562,False,True,True
+flu remedies,5,0.24583262972566208,False,False,False
+is flu contagious,5,0.37928137189788,False,False,False
+incubation period flu,5,0.02402340507969026,True,False,False
 how long contagious,5,0.07923525496954831,False,False,False
 tamiflu side effects,5,0.7804794911365602,False,False,False
-how long is the flu contagious,5,0.6810683420112562,False,True,True

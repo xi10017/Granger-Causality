@@ -1,36 +1,36 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-influenza a,1,0.41351664959301193,False,False,False
-flu cold,1,0.41189550816782006,False,False,False
 bronchitis,1,0.13302932276136728,False,False,False
+flu cold,1,0.41189550816782006,False,False,False
 the flu,1,0.8198487789518514,False,False,False
-stomach flu,1,0.49078986637758903,False,False,False
+influenza a,1,0.41351664959301193,False,False,False
 rsv,1,0.014469684300506257,True,False,False
 a influenza,1,0.41351665138023797,False,False,False
-influenza a,2,0.09601735153549312,False,False,False
-flu cold,2,0.010138292827123915,True,False,False
+stomach flu,1,0.49078986637758903,False,False,False
 bronchitis,2,0.19382261331200135,False,False,False
+flu cold,2,0.010138292827123915,True,False,False
 the flu,2,0.37773835311190074,False,False,False
-stomach flu,2,0.27182860426132105,False,False,False
+influenza a,2,0.09601735153549312,False,False,False
 rsv,2,0.014264230756025576,True,False,False
 a influenza,2,0.09601735112586607,False,False,False
-influenza a,3,0.04360210807950552,True,False,False
-flu cold,3,0.22544715685610983,False,False,False
+stomach flu,2,0.27182860426132105,False,False,False
 bronchitis,3,0.039507796144850796,True,False,False
+flu cold,3,0.22544715685610983,False,False,False
 the flu,3,0.6457378700047847,False,False,False
-stomach flu,3,0.020834322349582865,True,False,False
+influenza a,3,0.04360210807950552,True,False,False
 rsv,3,0.23858348104649307,False,False,False
 a influenza,3,0.043602107888433786,True,False,False
-influenza a,4,0.7216624054163423,False,False,False
-flu cold,4,0.7589446922210776,False,False,False
+stomach flu,3,0.020834322349582865,True,False,False
 bronchitis,4,0.40923408405337214,False,False,False
+flu cold,4,0.7589446922210776,False,False,False
 the flu,4,0.049549180002045196,True,False,False
-stomach flu,4,0.5121594662371252,False,False,False
+influenza a,4,0.7216624054163423,False,False,False
 rsv,4,0.8475092361153425,False,False,False
 a influenza,4,0.7216624063314652,False,False,False
-influenza a,5,0.6881042476945398,False,False,False
-flu cold,5,0.276675096498417,False,False,False
+stomach flu,4,0.5121594662371252,False,False,False
 bronchitis,5,0.3225652524175012,False,False,False
+flu cold,5,0.276675096498417,False,False,False
 the flu,5,0.9809000922459506,False,False,False
-stomach flu,5,0.8753157199340705,False,False,False
+influenza a,5,0.6881042476945398,False,False,False
 rsv,5,0.07494431548439526,False,False,False
 a influenza,5,0.6881042476945396,False,False,False
+stomach flu,5,0.8753157199340705,False,False,False

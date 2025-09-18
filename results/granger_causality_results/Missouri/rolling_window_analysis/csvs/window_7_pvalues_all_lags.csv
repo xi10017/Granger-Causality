@@ -1,46 +1,46 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
+bronchitis,1,0.49231660841480507,False,False,False
+flu cold,1,0.2545995596901968,False,False,False
+influenza symptoms,1,0.46217506349295645,False,True,False
+pneumonia,1,0.9154878552814224,False,False,False
 influenza a,1,0.0018174675034014047,True,True,True
 rsv,1,0.04944936735856407,True,False,False
-a influenza,1,0.0018174675008888258,True,True,True
-bronchitis,1,0.49231660841480507,False,False,False
 cold,1,0.1724238467738809,False,True,False
 flu how long,1,0.02852189152429243,True,False,False
-pneumonia,1,0.9154878552814224,False,False,False
-influenza symptoms,1,0.46217506349295645,False,True,False
-flu cold,1,0.2545995596901968,False,False,False
+a influenza,1,0.0018174675008888258,True,True,True
+bronchitis,2,0.04635652470352422,True,False,False
+flu cold,2,0.021934760284154604,True,False,False
+influenza symptoms,2,0.26215477240592916,False,True,False
+pneumonia,2,0.5989843292615892,False,False,False
 influenza a,2,0.7684661829619557,False,True,True
 rsv,2,0.5852960843379296,False,False,False
-a influenza,2,0.7684661828623249,False,True,True
-bronchitis,2,0.04635652470352422,True,False,False
 cold,2,0.6368502167903323,False,True,False
 flu how long,2,0.31458919133661956,False,False,False
-pneumonia,2,0.5989843292615892,False,False,False
-influenza symptoms,2,0.26215477240592916,False,True,False
-flu cold,2,0.021934760284154604,True,False,False
+a influenza,2,0.7684661828623249,False,True,True
+bronchitis,3,0.580523405914855,False,False,False
+flu cold,3,0.5747784165023233,False,False,False
+influenza symptoms,3,0.022505171814137772,True,True,False
+pneumonia,3,0.03822777183535091,True,False,False
 influenza a,3,0.6664091076331483,False,True,True
 rsv,3,0.8392432875068134,False,False,False
-a influenza,3,0.6664091076515106,False,True,True
-bronchitis,3,0.580523405914855,False,False,False
 cold,3,0.00568134702917975,True,True,False
 flu how long,3,0.09671787376484688,False,False,False
-pneumonia,3,0.03822777183535091,True,False,False
-influenza symptoms,3,0.022505171814137772,True,True,False
-flu cold,3,0.5747784165023233,False,False,False
+a influenza,3,0.6664091076515106,False,True,True
+bronchitis,4,0.23600389251992634,False,False,False
+flu cold,4,0.8421748716105129,False,False,False
+influenza symptoms,4,0.008102037906877422,True,True,False
+pneumonia,4,0.6078503106660748,False,False,False
 influenza a,4,0.7720449206473674,False,True,True
 rsv,4,0.8575687418745267,False,False,False
-a influenza,4,0.7720449206422804,False,True,True
-bronchitis,4,0.23600389251992634,False,False,False
 cold,4,0.011072419870081245,True,True,False
 flu how long,4,0.8660160124590685,False,False,False
-pneumonia,4,0.6078503106660748,False,False,False
-influenza symptoms,4,0.008102037906877422,True,True,False
-flu cold,4,0.8421748716105129,False,False,False
+a influenza,4,0.7720449206422804,False,True,True
+bronchitis,5,0.8016601672965558,False,False,False
+flu cold,5,0.23124937121630101,False,False,False
+influenza symptoms,5,0.6033854529489855,False,True,False
+pneumonia,5,0.8876746719413792,False,False,False
 influenza a,5,0.003034141170190288,True,True,True
 rsv,5,0.3304359577207113,False,False,False
-a influenza,5,0.0030341411712900526,True,True,True
-bronchitis,5,0.8016601672965558,False,False,False
 cold,5,0.09410779787241849,False,True,False
 flu how long,5,0.03869641413800666,True,False,False
-pneumonia,5,0.8876746719413792,False,False,False
-influenza symptoms,5,0.6033854529489855,False,True,False
-flu cold,5,0.23124937121630101,False,False,False
+a influenza,5,0.0030341411712900526,True,True,True

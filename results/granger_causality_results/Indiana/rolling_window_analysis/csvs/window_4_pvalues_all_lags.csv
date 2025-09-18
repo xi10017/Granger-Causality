@@ -1,41 +1,41 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-influenza a,1,0.0020540050952119852,True,True,True
+flu type,1,0.1635512507098781,False,True,True
+strep,1,0.017976649251982505,True,True,False
 flu fever,1,0.6791121142234755,False,True,True
 flu symptoms,1,0.004649368301374167,True,True,False
-strep,1,0.017976649251982505,True,True,False
-fever flu,1,0.6791121142105627,False,True,True
-flu type,1,0.1635512507098781,False,True,True
+influenza a,1,0.0020540050952119852,True,True,True
 rsv,1,0.018728469106269078,True,True,False
+fever flu,1,0.6791121142105627,False,True,True
 a influenza,1,0.31788445797470205,False,True,False
-influenza a,2,0.07889703083704742,False,True,True
+flu type,2,0.0003973033530201954,True,True,True
+strep,2,0.029069176143901167,True,True,False
 flu fever,2,0.7930866945598072,False,True,True
 flu symptoms,2,0.2106240723869782,False,True,False
-strep,2,0.029069176143901167,True,True,False
-fever flu,2,0.79308669455267,False,True,True
-flu type,2,0.0003973033530201954,True,True,True
+influenza a,2,0.07889703083704742,False,True,True
 rsv,2,0.8480493606241566,False,True,False
+fever flu,2,0.79308669455267,False,True,True
 a influenza,2,0.0178344427550933,True,True,False
-influenza a,3,0.06397239992906059,False,True,True
+flu type,3,0.1378701449281429,False,True,True
+strep,3,0.36661399092095837,False,True,False
 flu fever,3,0.9759832290411492,False,True,True
 flu symptoms,3,0.9578041640713271,False,True,False
-strep,3,0.36661399092095837,False,True,False
-fever flu,3,0.9759832289908914,False,True,True
-flu type,3,0.1378701449281429,False,True,True
+influenza a,3,0.06397239992906059,False,True,True
 rsv,3,0.3427621452374501,False,True,False
+fever flu,3,0.9759832289908914,False,True,True
 a influenza,3,0.9856720989276158,False,True,False
-influenza a,4,0.53009914311825,False,True,True
+flu type,4,0.06602593845296319,False,True,True
+strep,4,0.9785698756129647,False,True,False
 flu fever,4,0.0020721045825519762,True,True,True
 flu symptoms,4,0.3850962604709244,False,True,False
-strep,4,0.9785698756129647,False,True,False
-fever flu,4,0.002072104582443195,True,True,True
-flu type,4,0.06602593845296319,False,True,True
+influenza a,4,0.53009914311825,False,True,True
 rsv,4,0.7094407698402649,False,True,False
+fever flu,4,0.002072104582443195,True,True,True
 a influenza,4,0.15118981705438464,False,True,False
-influenza a,5,0.08946190888993705,False,True,True
+flu type,5,0.07572150133131157,False,True,True
+strep,5,0.06968270694770859,False,True,False
 flu fever,5,0.49294448604072827,False,True,True
 flu symptoms,5,0.08222084259157686,False,True,False
-strep,5,0.06968270694770859,False,True,False
-fever flu,5,0.492944486025936,False,True,True
-flu type,5,0.07572150133131157,False,True,True
+influenza a,5,0.08946190888993705,False,True,True
 rsv,5,0.6713364557714628,False,True,False
+fever flu,5,0.492944486025936,False,True,True
 a influenza,5,0.1188737690420982,False,True,False

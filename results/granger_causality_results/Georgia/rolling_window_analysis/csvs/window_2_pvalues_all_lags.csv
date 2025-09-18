@@ -1,16 +1,16 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
 bronchitis,1,0.9237174179398386,False,False,False
-flu how long,1,0.10039946319355846,False,False,False
 how long flu,1,0.02671750911783784,True,False,False
+flu how long,1,0.10039946319355846,False,False,False
 bronchitis,2,0.018621215727640077,True,False,False
-flu how long,2,0.395867826585085,False,False,False
 how long flu,2,0.0756767496989794,False,False,False
+flu how long,2,0.395867826585085,False,False,False
 bronchitis,3,0.7228573439208481,False,False,False
-flu how long,3,0.0598073340486881,False,False,False
 how long flu,3,0.656553269364629,False,False,False
+flu how long,3,0.0598073340486881,False,False,False
 bronchitis,4,0.756500853800024,False,False,False
-flu how long,4,0.008065742025460896,True,False,False
 how long flu,4,0.6236680777703658,False,False,False
+flu how long,4,0.008065742025460896,True,False,False
 bronchitis,5,0.5396029526363535,False,False,False
-flu how long,5,0.13852657582785285,False,False,False
 how long flu,5,0.004594685450097875,True,False,False
+flu how long,5,0.13852657582785285,False,False,False

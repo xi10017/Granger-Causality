@@ -1,41 +1,41 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-flu symptoms,1,0.2095708460942899,False,False,False
-flu how long,1,0.07708560325429978,False,False,False
-flu type,1,0.34415945407044735,False,False,False
 flu contagious,1,0.028217352786041858,True,False,False
+flu cold,1,0.017728910468172147,True,False,False
+flu type,1,0.34415945407044735,False,False,False
 contagious flu,1,0.028217351982975522,True,False,False
+flu symptoms,1,0.2095708460942899,False,False,False
 rsv,1,0.09701022949409221,False,False,False
 symptoms of flu,1,0.1860265758469006,False,False,False
-flu cold,1,0.017728910468172147,True,False,False
-flu symptoms,2,0.1917741123285356,False,False,False
-flu how long,2,0.01361195652018143,True,False,False
-flu type,2,0.9291636832177578,False,False,False
+flu how long,1,0.07708560325429978,False,False,False
 flu contagious,2,0.3676207079047237,False,False,False
+flu cold,2,0.4257644970110529,False,False,False
+flu type,2,0.9291636832177578,False,False,False
 contagious flu,2,0.36762071894010107,False,False,False
+flu symptoms,2,0.1917741123285356,False,False,False
 rsv,2,0.10933025429346328,False,False,False
 symptoms of flu,2,0.8308810288526889,False,False,False
-flu cold,2,0.4257644970110529,False,False,False
-flu symptoms,3,0.15675971700132846,False,False,False
-flu how long,3,0.2944050436231353,False,False,False
-flu type,3,0.04636974735388154,True,False,False
+flu how long,2,0.01361195652018143,True,False,False
 flu contagious,3,0.02951754888118917,True,False,False
+flu cold,3,0.9835811115099695,False,False,False
+flu type,3,0.04636974735388154,True,False,False
 contagious flu,3,0.029517547231724364,True,False,False
+flu symptoms,3,0.15675971700132846,False,False,False
 rsv,3,0.5971549235238638,False,False,False
 symptoms of flu,3,0.07859986890808209,False,False,False
-flu cold,3,0.9835811115099695,False,False,False
-flu symptoms,4,0.029071907906835254,True,False,False
-flu how long,4,0.8992769259631709,False,False,False
-flu type,4,0.6095232059164338,False,False,False
+flu how long,3,0.2944050436231353,False,False,False
 flu contagious,4,0.47966227604645295,False,False,False
+flu cold,4,0.24002443931957868,False,False,False
+flu type,4,0.6095232059164338,False,False,False
 contagious flu,4,0.4796622794149791,False,False,False
+flu symptoms,4,0.029071907906835254,True,False,False
 rsv,4,0.5258338434608056,False,False,False
 symptoms of flu,4,0.03513438833411009,True,False,False
-flu cold,4,0.24002443931957868,False,False,False
-flu symptoms,5,0.7657591796311096,False,False,False
-flu how long,5,0.7811721230953836,False,False,False
-flu type,5,0.18483569418329346,False,False,False
+flu how long,4,0.8992769259631709,False,False,False
 flu contagious,5,0.7117422398938961,False,False,False
+flu cold,5,0.2521792102740941,False,False,False
+flu type,5,0.18483569418329346,False,False,False
 contagious flu,5,0.7117422533075877,False,False,False
+flu symptoms,5,0.7657591796311096,False,False,False
 rsv,5,0.017620460710458186,True,False,False
 symptoms of flu,5,0.6075434976430232,False,False,False
-flu cold,5,0.2521792102740941,False,False,False
+flu how long,5,0.7811721230953836,False,False,False

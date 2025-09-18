@@ -1,56 +1,56 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-is flu contagious,1,0.013204080426711664,True,True,False
-flu incubation,1,0.6288945371235962,False,True,False
 bronchitis,1,0.09464788768944471,False,True,False
-stomach flu,1,0.9575614745053326,False,False,False
-fever flu,1,0.1983996126266842,False,True,False
 flu contagious,1,0.04328653147312301,True,False,False
+is flu contagious,1,0.013204080426711664,True,True,False
 pneumonia,1,0.013966045270390704,True,True,False
+flu incubation,1,0.6288945371235962,False,True,False
+the flu,1,0.015628599564389025,True,True,False
 contagious flu,1,0.04328653144546352,True,False,False
 rsv,1,0.021762540871160498,True,True,True
 symptoms of flu,1,0.8586033470169028,False,True,False
-the flu,1,0.015628599564389025,True,True,False
-is flu contagious,2,0.13911963550345968,False,True,False
-flu incubation,2,0.005596655852397875,True,True,False
+fever flu,1,0.1983996126266842,False,True,False
+stomach flu,1,0.9575614745053326,False,False,False
 bronchitis,2,0.7450539694972707,False,True,False
-stomach flu,2,0.03205151991489432,True,False,False
-fever flu,2,0.015912935580634082,True,True,False
 flu contagious,2,0.572293245772131,False,False,False
+is flu contagious,2,0.13911963550345968,False,True,False
 pneumonia,2,0.5045046008645881,False,True,False
+flu incubation,2,0.005596655852397875,True,True,False
+the flu,2,0.4805699881843759,False,True,False
 contagious flu,2,0.5722932458119367,False,False,False
 rsv,2,0.5403305273145236,False,True,True
 symptoms of flu,2,0.8628177761402911,False,True,False
-the flu,2,0.4805699881843759,False,True,False
-is flu contagious,3,0.154311505796493,False,True,False
-flu incubation,3,0.7501665521948033,False,True,False
+fever flu,2,0.015912935580634082,True,True,False
+stomach flu,2,0.03205151991489432,True,False,False
 bronchitis,3,0.07677463176617695,False,True,False
-stomach flu,3,0.4877804607435464,False,False,False
-fever flu,3,0.9166675718390119,False,True,False
 flu contagious,3,0.5893107557625317,False,False,False
+is flu contagious,3,0.154311505796493,False,True,False
 pneumonia,3,0.11238525098092225,False,True,False
+flu incubation,3,0.7501665521948033,False,True,False
+the flu,3,0.023063795904974243,True,True,False
 contagious flu,3,0.5893107559010832,False,False,False
 rsv,3,0.49073185835497735,False,True,True
 symptoms of flu,3,0.010387723885550497,True,True,False
-the flu,3,0.023063795904974243,True,True,False
-is flu contagious,4,0.7167790264783929,False,True,False
-flu incubation,4,0.04818392584057505,True,True,False
+fever flu,3,0.9166675718390119,False,True,False
+stomach flu,3,0.4877804607435464,False,False,False
 bronchitis,4,0.017214691349090507,True,True,False
-stomach flu,4,0.1238649562596624,False,False,False
-fever flu,4,0.08441188395141946,False,True,False
 flu contagious,4,0.5165868603098192,False,False,False
+is flu contagious,4,0.7167790264783929,False,True,False
 pneumonia,4,0.9108447239596199,False,True,False
+flu incubation,4,0.04818392584057505,True,True,False
+the flu,4,0.5687549886200781,False,True,False
 contagious flu,4,0.5165868603962387,False,False,False
 rsv,4,0.6042504785790734,False,True,True
 symptoms of flu,4,0.04021145003560041,True,True,False
-the flu,4,0.5687549886200781,False,True,False
-is flu contagious,5,0.06892529353177014,False,True,False
-flu incubation,5,0.45355541262001775,False,True,False
+fever flu,4,0.08441188395141946,False,True,False
+stomach flu,4,0.1238649562596624,False,False,False
 bronchitis,5,0.7588810458237311,False,True,False
-stomach flu,5,0.08934316614905143,False,False,False
-fever flu,5,0.9201757870393245,False,True,False
 flu contagious,5,0.12595792256271374,False,False,False
+is flu contagious,5,0.06892529353177014,False,True,False
 pneumonia,5,0.4203067539559543,False,True,False
+flu incubation,5,0.45355541262001775,False,True,False
+the flu,5,0.2728819001612129,False,True,False
 contagious flu,5,0.12595792257499208,False,False,False
 rsv,5,0.002204603000849623,True,True,True
 symptoms of flu,5,0.6938184501146605,False,True,False
-the flu,5,0.2728819001612129,False,True,False
+fever flu,5,0.9201757870393245,False,True,False
+stomach flu,5,0.08934316614905143,False,False,False

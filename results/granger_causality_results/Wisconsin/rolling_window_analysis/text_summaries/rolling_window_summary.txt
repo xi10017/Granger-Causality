@@ -38,9 +38,9 @@ TERMS SIGNIFICANT ACROSS WINDOWS:
     strep throat: 1/8 windows
     flu cold: 1/8 windows
     pneumonia: 1/8 windows
-    stomach flu: 1/8 windows
     sinus: 1/8 windows
     flu how long: 1/8 windows
+    stomach flu: 1/8 windows
     the flu symptoms: 1/8 windows
     influenza symptoms: 1/8 windows
     a influenza: 1/8 windows

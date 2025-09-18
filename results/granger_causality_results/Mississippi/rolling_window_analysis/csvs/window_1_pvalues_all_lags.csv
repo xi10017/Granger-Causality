@@ -1,31 +1,31 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-influenza a,1,7.661144284864888e-05,True,True,True
 type a flu,1,0.010298709861425465,True,False,False
-flu how long,1,0.8456628946066822,False,False,False
 pneumonia,1,0.006271127953107894,True,False,False
+influenza a,1,7.661144284864888e-05,True,True,True
 rsv,1,0.4009483926195794,False,False,False
 symptoms of flu,1,0.6415867458058457,False,False,False
-influenza a,2,0.02740778767451129,True,True,True
+flu how long,1,0.8456628946066822,False,False,False
 type a flu,2,0.5795255103064704,False,False,False
-flu how long,2,0.6302688179647273,False,False,False
 pneumonia,2,0.26183378946476366,False,False,False
+influenza a,2,0.02740778767451129,True,True,True
 rsv,2,0.7265639225295949,False,False,False
 symptoms of flu,2,0.036427011637678586,True,False,False
-influenza a,3,0.6065205873141026,False,True,True
+flu how long,2,0.6302688179647273,False,False,False
 type a flu,3,0.2001637445262502,False,False,False
-flu how long,3,0.03351233615356325,True,False,False
 pneumonia,3,0.2599966598056119,False,False,False
+influenza a,3,0.6065205873141026,False,True,True
 rsv,3,0.28005199692268495,False,False,False
 symptoms of flu,3,0.49949183096948013,False,False,False
-influenza a,4,0.24029878906107321,False,True,True
+flu how long,3,0.03351233615356325,True,False,False
 type a flu,4,0.7864145883625739,False,False,False
-flu how long,4,0.9983355150968495,False,False,False
 pneumonia,4,0.4582430107672524,False,False,False
+influenza a,4,0.24029878906107321,False,True,True
 rsv,4,0.11433431111393591,False,False,False
 symptoms of flu,4,0.27580102649634003,False,False,False
-influenza a,5,0.5897606336721011,False,True,True
+flu how long,4,0.9983355150968495,False,False,False
 type a flu,5,0.3269528500982396,False,False,False
-flu how long,5,0.6493496454023391,False,False,False
 pneumonia,5,0.3378928377869357,False,False,False
+influenza a,5,0.5897606336721011,False,True,True
 rsv,5,0.0143185734807615,True,False,False
 symptoms of flu,5,0.5959599191586701,False,False,False
+flu how long,5,0.6493496454023391,False,False,False

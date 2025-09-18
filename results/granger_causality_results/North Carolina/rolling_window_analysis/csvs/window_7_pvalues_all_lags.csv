@@ -1,41 +1,41 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-flu symptoms,1,0.04852360283663586,True,False,False
-is flu contagious,1,0.0008892345995167756,True,True,True
-flu virus,1,0.06689148530618161,False,True,False
-symptoms of the flu,1,0.12752868578331358,False,True,False
-fever flu,1,0.00876716675728758,True,True,False
 flu type,1,0.25505831205615725,False,True,False
 flu contagious,1,0.3226792233245418,False,True,False
+is flu contagious,1,0.0008892345995167756,True,True,True
+symptoms of the flu,1,0.12752868578331358,False,True,False
+fever flu,1,0.00876716675728758,True,True,False
+flu symptoms,1,0.04852360283663586,True,False,False
+flu virus,1,0.06689148530618161,False,True,False
 the flu symptoms,1,0.01589988305069286,True,True,False
-flu symptoms,2,0.10358222461733733,False,False,False
-is flu contagious,2,0.4505229798038507,False,True,True
-flu virus,2,0.0049035493956190584,True,True,False
-symptoms of the flu,2,0.12089701574601984,False,True,False
-fever flu,2,0.48836029619693977,False,True,False
 flu type,2,0.17244007035693334,False,True,False
 flu contagious,2,0.009066553932310465,True,True,False
+is flu contagious,2,0.4505229798038507,False,True,True
+symptoms of the flu,2,0.12089701574601984,False,True,False
+fever flu,2,0.48836029619693977,False,True,False
+flu symptoms,2,0.10358222461733733,False,False,False
+flu virus,2,0.0049035493956190584,True,True,False
 the flu symptoms,2,0.4239130428580007,False,True,False
-flu symptoms,3,0.2040608749409554,False,False,False
-is flu contagious,3,0.9443989869779171,False,True,True
-flu virus,3,0.5881628093853108,False,True,False
-symptoms of the flu,3,0.006983906118001168,True,True,False
-fever flu,3,0.783813832846489,False,True,False
 flu type,3,0.23256116366311508,False,True,False
 flu contagious,3,0.08513834979953007,False,True,False
+is flu contagious,3,0.9443989869779171,False,True,True
+symptoms of the flu,3,0.006983906118001168,True,True,False
+fever flu,3,0.783813832846489,False,True,False
+flu symptoms,3,0.2040608749409554,False,False,False
+flu virus,3,0.5881628093853108,False,True,False
 the flu symptoms,3,0.003999180106294394,True,True,False
-flu symptoms,4,0.07701619889827083,False,False,False
-is flu contagious,4,0.4686766853239236,False,True,True
-flu virus,4,0.9884920799890025,False,True,False
-symptoms of the flu,4,0.5325307317635852,False,True,False
-fever flu,4,0.8267740329925706,False,True,False
 flu type,4,0.00576763535820147,True,True,False
 flu contagious,4,0.010016420328396405,True,True,False
+is flu contagious,4,0.4686766853239236,False,True,True
+symptoms of the flu,4,0.5325307317635852,False,True,False
+fever flu,4,0.8267740329925706,False,True,False
+flu symptoms,4,0.07701619889827083,False,False,False
+flu virus,4,0.9884920799890025,False,True,False
 the flu symptoms,4,0.6076610705527907,False,True,False
-flu symptoms,5,0.19354409853840027,False,False,False
-is flu contagious,5,0.9004076449169972,False,True,True
-flu virus,5,0.007969696368855132,True,True,False
-symptoms of the flu,5,0.446986762895733,False,True,False
-fever flu,5,0.007491995999137523,True,True,False
 flu type,5,0.6529716179292184,False,True,False
 flu contagious,5,0.2604104160821828,False,True,False
+is flu contagious,5,0.9004076449169972,False,True,True
+symptoms of the flu,5,0.446986762895733,False,True,False
+fever flu,5,0.007491995999137523,True,True,False
+flu symptoms,5,0.19354409853840027,False,False,False
+flu virus,5,0.007969696368855132,True,True,False
 the flu symptoms,5,0.42253842717025347,False,True,False

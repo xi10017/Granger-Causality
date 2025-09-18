@@ -675,14 +675,14 @@ class RollingWindowAnalyzer:
                 # Create DataFrame
                 matrix_df = pd.DataFrame(matrix_data, index=window_labels, columns=all_terms)
                 
-                # Calculate proportion of significant terms
+                # Calculate proportion of terms that have ever been significant
                 significant_mask = matrix_df < 0.05
-                total_cells = significant_mask.size
-                significant_cells = significant_mask.sum().sum()
-                proportion_significant = significant_cells / total_cells if total_cells > 0 else 0
+                terms_ever_significant = significant_mask.any(axis=0).sum()  # Count terms that are significant in at least one window
+                total_terms = len(all_terms)
+                proportion_significant = terms_ever_significant / total_terms if total_terms > 0 else 0
                 
                 # Add proportion information to the matrix
-                matrix_df.loc['Proportion_Significant'] = [proportion_significant] + [np.nan] * (len(all_terms) - 1)
+                matrix_df.loc['Proportion_Significant'] = [f"{proportion_significant:.3f} ({terms_ever_significant}/{total_terms})"] + [np.nan] * (len(all_terms) - 1)
                 
                 # Save CSV
                 csv_file = self.matrix_dir / f"pvalue_matrix_{method.lower()}.csv"
@@ -734,10 +734,16 @@ class RollingWindowAnalyzer:
             ax.set_xticklabels(plot_df.columns, rotation=45, ha='right', fontsize=10, fontweight='bold')
             ax.set_yticklabels(plot_df.index, fontsize=10, fontweight='bold')
             
+            # Calculate proportion for title display
+            significant_mask = plot_df < 0.05
+            terms_ever_significant = significant_mask.any(axis=0).sum()
+            total_terms = len(plot_df.columns)
+            proportion_significant = terms_ever_significant / total_terms if total_terms > 0 else 0
+            
             # Add title with better formatting
             title = f"P-Value Heatmap - {method.upper()} Corrected\n"
             title += f"Alabama ({self.data_file})\n"
-            title += f"Proportion Significant: {proportion_significant:.3f}"
+            title += f"Proportion Significant: {proportion_significant:.3f} ({terms_ever_significant}/{total_terms})"
             ax.set_title(title, fontsize=14, fontweight='bold', pad=20)
             
             # Add colorbar with discrete colors

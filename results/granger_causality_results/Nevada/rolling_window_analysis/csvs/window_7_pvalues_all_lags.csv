@@ -1,21 +1,21 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-the flu,1,0.9252877811325837,False,False,False
-contagious flu,1,0.1573850128529323,False,False,False
-cold,1,0.0001706674378299695,True,True,True
 flu contagious,1,0.15738501280332462,False,False,False
-the flu,2,0.01692910927936773,True,False,False
-contagious flu,2,0.008534921581133753,True,False,False
-cold,2,0.8820714781043958,False,True,True
+the flu,1,0.9252877811325837,False,False,False
+cold,1,0.0001706674378299695,True,True,True
+contagious flu,1,0.1573850128529323,False,False,False
 flu contagious,2,0.008534921579110174,True,False,False
-the flu,3,0.8117583721975801,False,False,False
-contagious flu,3,0.316541552242399,False,False,False
-cold,3,0.0028211621195072907,True,True,True
+the flu,2,0.01692910927936773,True,False,False
+cold,2,0.8820714781043958,False,True,True
+contagious flu,2,0.008534921581133753,True,False,False
 flu contagious,3,0.3165415522671656,False,False,False
-the flu,4,0.8806421926006825,False,False,False
-contagious flu,4,0.20342271299220965,False,False,False
-cold,4,0.032617215503338584,True,True,True
+the flu,3,0.8117583721975801,False,False,False
+cold,3,0.0028211621195072907,True,True,True
+contagious flu,3,0.316541552242399,False,False,False
 flu contagious,4,0.20342271296106962,False,False,False
-the flu,5,0.3061729426431604,False,False,False
-contagious flu,5,0.8904781979440041,False,False,False
-cold,5,0.24041724132729544,False,True,True
+the flu,4,0.8806421926006825,False,False,False
+cold,4,0.032617215503338584,True,True,True
+contagious flu,4,0.20342271299220965,False,False,False
 flu contagious,5,0.8904781979477249,False,False,False
+the flu,5,0.3061729426431604,False,False,False
+cold,5,0.24041724132729544,False,True,True
+contagious flu,5,0.8904781979440041,False,False,False

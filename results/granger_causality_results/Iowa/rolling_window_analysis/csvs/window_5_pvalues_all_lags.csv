@@ -1,51 +1,51 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-influenza a,1,0.651948895518732,False,False,False
-flu symptoms,1,0.07107326298337562,False,False,False
-influenza b,1,0.8656820825545435,False,False,False
-flu a,1,0.5012664697631104,False,False,False
 influenza a symptoms,1,0.08874280429169241,False,False,False
-pneumonia,1,0.7845139172847528,False,False,False
 influenza symptoms,1,0.12115222663150624,False,False,False
-the flu symptoms,1,0.11352807629484327,False,False,False
-symptoms of flu,1,0.06457715273536792,False,False,False
+pneumonia,1,0.7845139172847528,False,False,False
 the flu,1,0.7424163337856082,False,False,False
-influenza a,2,0.3513162405180016,False,False,False
-flu symptoms,2,0.06989523752128333,False,False,False
-influenza b,2,0.005624190350511122,True,False,False
-flu a,2,0.7336549120138915,False,False,False
+flu symptoms,1,0.07107326298337562,False,False,False
+influenza a,1,0.651948895518732,False,False,False
+influenza b,1,0.8656820825545435,False,False,False
+symptoms of flu,1,0.06457715273536792,False,False,False
+flu a,1,0.5012664697631104,False,False,False
+the flu symptoms,1,0.11352807629484327,False,False,False
 influenza a symptoms,2,0.5883772103157632,False,False,False
-pneumonia,2,0.03814726214502489,True,False,False
 influenza symptoms,2,0.9513699446393566,False,False,False
-the flu symptoms,2,0.7030339117866872,False,False,False
-symptoms of flu,2,0.023341599069746997,True,False,False
+pneumonia,2,0.03814726214502489,True,False,False
 the flu,2,0.6150276954608399,False,False,False
-influenza a,3,0.01621288326810523,True,False,False
-flu symptoms,3,0.6434751433277318,False,False,False
-influenza b,3,0.9607619011381914,False,False,False
-flu a,3,0.26454946486130215,False,False,False
+flu symptoms,2,0.06989523752128333,False,False,False
+influenza a,2,0.3513162405180016,False,False,False
+influenza b,2,0.005624190350511122,True,False,False
+symptoms of flu,2,0.023341599069746997,True,False,False
+flu a,2,0.7336549120138915,False,False,False
+the flu symptoms,2,0.7030339117866872,False,False,False
 influenza a symptoms,3,0.0372989000428846,True,False,False
-pneumonia,3,0.5960350489101445,False,False,False
 influenza symptoms,3,0.04632112196258169,True,False,False
-the flu symptoms,3,0.8624568532660829,False,False,False
-symptoms of flu,3,0.3798738841953736,False,False,False
+pneumonia,3,0.5960350489101445,False,False,False
 the flu,3,0.7824461344893214,False,False,False
-influenza a,4,0.27806704853444575,False,False,False
-flu symptoms,4,0.022536071636620848,True,False,False
-influenza b,4,0.03482756583074299,True,False,False
-flu a,4,0.009153629194256108,True,False,False
+flu symptoms,3,0.6434751433277318,False,False,False
+influenza a,3,0.01621288326810523,True,False,False
+influenza b,3,0.9607619011381914,False,False,False
+symptoms of flu,3,0.3798738841953736,False,False,False
+flu a,3,0.26454946486130215,False,False,False
+the flu symptoms,3,0.8624568532660829,False,False,False
 influenza a symptoms,4,0.3335276991673918,False,False,False
-pneumonia,4,0.9628109783949746,False,False,False
 influenza symptoms,4,0.44197696827960165,False,False,False
-the flu symptoms,4,0.02619637965070856,True,False,False
-symptoms of flu,4,0.3675714853696517,False,False,False
+pneumonia,4,0.9628109783949746,False,False,False
 the flu,4,0.22293236144133585,False,False,False
-influenza a,5,0.04548650207924147,True,False,False
-flu symptoms,5,0.28654853121860774,False,False,False
-influenza b,5,0.11596197321653394,False,False,False
-flu a,5,0.34213851335622936,False,False,False
+flu symptoms,4,0.022536071636620848,True,False,False
+influenza a,4,0.27806704853444575,False,False,False
+influenza b,4,0.03482756583074299,True,False,False
+symptoms of flu,4,0.3675714853696517,False,False,False
+flu a,4,0.009153629194256108,True,False,False
+the flu symptoms,4,0.02619637965070856,True,False,False
 influenza a symptoms,5,0.42056051140259765,False,False,False
-pneumonia,5,0.34892619467362707,False,False,False
 influenza symptoms,5,0.8669677455237468,False,False,False
-the flu symptoms,5,0.15290157957858777,False,False,False
-symptoms of flu,5,0.9670370294284926,False,False,False
+pneumonia,5,0.34892619467362707,False,False,False
 the flu,5,0.006375446405267038,True,False,False
+flu symptoms,5,0.28654853121860774,False,False,False
+influenza a,5,0.04548650207924147,True,False,False
+influenza b,5,0.11596197321653394,False,False,False
+symptoms of flu,5,0.9670370294284926,False,False,False
+flu a,5,0.34213851335622936,False,False,False
+the flu symptoms,5,0.15290157957858777,False,False,False

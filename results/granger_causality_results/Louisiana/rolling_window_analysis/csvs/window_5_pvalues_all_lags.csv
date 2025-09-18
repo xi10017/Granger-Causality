@@ -1,46 +1,46 @@
 term,lag,pvalue,significant_raw,significant_fdr,significant_bonferroni
-flu symptoms,1,0.013287245944092956,True,False,False
-flu fever,1,0.048045017211312935,True,False,False
-how long does the flu last,1,0.27254468066648097,False,False,False
-flu a,1,0.6384321190088678,False,False,False
-fever flu,1,0.192579643352075,False,False,False
 flu type,1,0.9367491933771428,False,False,False
 oscillococcinum,1,0.9354509111213357,False,False,False
-the flu symptoms,1,0.7014677747783686,False,False,False
 the flu,1,0.8425685593465153,False,False,False
-flu symptoms,2,0.16821312932203225,False,False,False
-flu fever,2,0.29240578863683986,False,False,False
-how long does the flu last,2,0.9922898669395495,False,False,False
-flu a,2,0.024226609218012406,True,False,False
-fever flu,2,0.47532803633490894,False,False,False
+flu fever,1,0.048045017211312935,True,False,False
+flu symptoms,1,0.013287245944092956,True,False,False
+how long does the flu last,1,0.27254468066648097,False,False,False
+fever flu,1,0.192579643352075,False,False,False
+flu a,1,0.6384321190088678,False,False,False
+the flu symptoms,1,0.7014677747783686,False,False,False
 flu type,2,0.6619464721202917,False,False,False
 oscillococcinum,2,0.04928671783145042,True,False,False
-the flu symptoms,2,0.09111046104175852,False,False,False
 the flu,2,0.018173155734740185,True,False,False
-flu symptoms,3,0.7949388484520004,False,False,False
-flu fever,3,0.516316355608222,False,False,False
-how long does the flu last,3,0.023947796942383408,True,False,False
-flu a,3,0.37367919805226124,False,False,False
-fever flu,3,0.008099680396435356,True,False,False
+flu fever,2,0.29240578863683986,False,False,False
+flu symptoms,2,0.16821312932203225,False,False,False
+how long does the flu last,2,0.9922898669395495,False,False,False
+fever flu,2,0.47532803633490894,False,False,False
+flu a,2,0.024226609218012406,True,False,False
+the flu symptoms,2,0.09111046104175852,False,False,False
 flu type,3,0.9231323933143645,False,False,False
 oscillococcinum,3,0.4065529098386417,False,False,False
-the flu symptoms,3,0.039276185878304684,True,False,False
 the flu,3,0.59012859853528,False,False,False
-flu symptoms,4,0.7966631095538826,False,False,False
-flu fever,4,0.13598817000277005,False,False,False
-how long does the flu last,4,0.8882516819826578,False,False,False
-flu a,4,0.8136895376733442,False,False,False
-fever flu,4,0.728084759597922,False,False,False
+flu fever,3,0.516316355608222,False,False,False
+flu symptoms,3,0.7949388484520004,False,False,False
+how long does the flu last,3,0.023947796942383408,True,False,False
+fever flu,3,0.008099680396435356,True,False,False
+flu a,3,0.37367919805226124,False,False,False
+the flu symptoms,3,0.039276185878304684,True,False,False
 flu type,4,0.907223725060014,False,False,False
 oscillococcinum,4,0.5596397450146491,False,False,False
-the flu symptoms,4,0.8328541413451176,False,False,False
 the flu,4,0.8549904313336931,False,False,False
-flu symptoms,5,0.911181407349239,False,False,False
-flu fever,5,0.9325121688569713,False,False,False
-how long does the flu last,5,0.8293258054542687,False,False,False
-flu a,5,0.429545641924833,False,False,False
-fever flu,5,0.09788990438356387,False,False,False
+flu fever,4,0.13598817000277005,False,False,False
+flu symptoms,4,0.7966631095538826,False,False,False
+how long does the flu last,4,0.8882516819826578,False,False,False
+fever flu,4,0.728084759597922,False,False,False
+flu a,4,0.8136895376733442,False,False,False
+the flu symptoms,4,0.8328541413451176,False,False,False
 flu type,5,0.018539255987144464,True,False,False
 oscillococcinum,5,0.6670271711423909,False,False,False
-the flu symptoms,5,0.6270787914476952,False,False,False
 the flu,5,0.3174347431437555,False,False,False
+flu fever,5,0.9325121688569713,False,False,False
+flu symptoms,5,0.911181407349239,False,False,False
+how long does the flu last,5,0.8293258054542687,False,False,False
+fever flu,5,0.09788990438356387,False,False,False
+flu a,5,0.429545641924833,False,False,False
+the flu symptoms,5,0.6270787914476952,False,False,False
