@@ -21,22 +21,32 @@ This system performs **Granger causality analysis** to determine whether predict
 - **Batch Processing**: Analyze multiple datasets automatically
 - **Comprehensive Reports**: Detailed statistical summaries and CSV exports
 - **Generalized**: Works with any response variable (states, regions, countries, etc.)
+- **Rolling Window Analysis**: Time-varying Granger causality analysis
+- **Regional Significance Analysis**: Cross-region statistical comparisons
+- **Advanced Statistics**: Both proportions and fractions with clear explanations
 
 ## System Architecture
 
-The system consists of 5 main Python scripts that work together:
+The system consists of multiple Python scripts that work together to provide comprehensive Granger causality analysis:
 
 ### Core Analysis Scripts
 1. **`granger_causality_pipeline.py`** - Main Granger causality analysis
-2. **`create_comprehensive_significant_terms_summary.py`** - Creates summary of significant terms
-3. **`time_series_analysis.py`** - Generates time series visualizations
-4. **`analyze_comprehensive_results.py`** - Creates comprehensive analysis with bar graphs
-5. **`analyze_multiple_data_files.py`** - Orchestrates complete pipeline for multiple files
+2. **`granger_causality_pipeline_refactored.py`** - Refactored version with improved structure
+3. **`create_comprehensive_significant_terms_summary.py`** - Creates summary of significant terms
+4. **`time_series_analysis.py`** - Generates time series visualizations
+5. **`analyze_comprehensive_results.py`** - Creates comprehensive analysis with bar graphs
+6. **`analyze_multiple_data_files.py`** - Orchestrates complete pipeline for multiple files
+
+### Advanced Analysis Scripts
+7. **`rolling_window_analysis.py`** - Rolling window Granger causality analysis
+8. **`run_rolling_window_analysis.py`** - Orchestrates rolling window analysis for multiple regions
+9. **`calculate_regional_significance_proportions.py`** - Calculates regional significance statistics
 
 ### Configuration & Documentation
 - **`confs.py`** - Central configuration file
 - **`requirements.txt`** - Python dependencies
 - **`README.md`** - This documentation
+- **`REFACTORING_SUMMARY.md`** - Details of system improvements
 
 ## Configuration (`confs.py`)
 
@@ -130,6 +140,21 @@ python analyze_comprehensive_results.py
 python analyze_multiple_data_files.py
 ```
 
+#### Rolling Window Analysis
+```bash
+# Run rolling window analysis for a single region
+python rolling_window_analysis.py
+
+# Run rolling window analysis for multiple regions
+python run_rolling_window_analysis.py
+```
+
+#### Regional Significance Analysis
+```bash
+# Calculate regional significance proportions across all regions
+python calculate_regional_significance_proportions.py
+```
+
 ## Complete Analysis Pipeline
 
 The system runs a comprehensive 4-step analysis:
@@ -160,10 +185,34 @@ The system runs a comprehensive 4-step analysis:
 - Creates CSV summary tables
 - Provides comprehensive statistical analysis
 
+## Advanced Analysis Features
+
+### Rolling Window Analysis (`rolling_window_analysis.py`)
+- **Time-varying Granger causality**: Analyzes how Granger causality changes over time
+- **Sliding window approach**: Tests causality in overlapping time windows
+- **Dynamic significance tracking**: Shows which terms are significant in each window
+- **Comprehensive visualizations**: Heatmaps, time series plots, and trend analysis
+- **Matrix outputs**: P-value matrices for further analysis
+
+### Regional Significance Analysis (`calculate_regional_significance_proportions.py`)
+- **Cross-region comparisons**: Analyzes significance patterns across multiple regions
+- **Overall proportions**: Calculates proportion of unique terms significant in at least one region
+- **Pooled statistics**: Provides both individual and pooled significance rates
+- **Clear metric explanations**: Distinguishes between different types of proportions
+- **Fraction reporting**: Shows both decimal proportions and exact fractions (e.g., "62/63")
+- **Comprehensive reports**: Detailed text reports with statistical summaries
+
+### Multi-Dataset Rolling Analysis (`run_rolling_window_analysis.py`)
+- **Batch processing**: Runs rolling window analysis across multiple regions
+- **Automated workflow**: Processes all data files in sequence
+- **Consistent parameters**: Ensures uniform analysis across all regions
+- **Progress tracking**: Shows analysis progress and completion status
+
 ## Output Structure
 
 The system creates a well-organized folder structure:
 
+### Standard Analysis Output
 ```
 results/
 └── granger_causality_results/
@@ -188,6 +237,33 @@ results/
             └── comprehensive_analysis_summary.csv
 ```
 
+### Rolling Window Analysis Output
+```
+results/
+└── granger_causality_results/
+    └── {response_var}/
+        └── rolling_window_analysis/
+            ├── matrices/
+            │   ├── pvalue_matrix_raw.csv
+            │   ├── pvalue_matrix_fdr.csv
+            │   ├── pvalue_matrix_bonferroni.csv
+            │   ├── pvalue_heatmap_raw.png
+            │   ├── pvalue_heatmap_fdr.png
+            │   └── pvalue_heatmap_bonferroni.png
+            ├── term_significance_across_windows.png
+            ├── rolling_window_summary.txt
+            └── rolling_window_analysis_report.txt
+```
+
+### Regional Significance Analysis Output
+```
+results/
+└── granger_causality_results/
+    ├── regional_significance_summary.csv
+    ├── overall_statistics.csv
+    └── regional_significance_report.txt
+```
+
 ## Output Files Explained
 
 ### Granger Causality Results
@@ -205,6 +281,17 @@ results/
 - **9 Bar Graphs**: Count, mean p-value, and median p-value for each significance type
 - **Comparison Plot**: Overview of significant terms by category
 - **CSV Summary**: Detailed statistics table for further analysis
+
+### Rolling Window Analysis Files
+- **P-value Matrices**: CSV files with p-values for each term and time window
+- **Heatmap Visualizations**: Color-coded heatmaps showing significance patterns over time
+- **Term Significance Plots**: Line plots showing how term significance changes across windows
+- **Summary Reports**: Text files with detailed analysis results
+
+### Regional Significance Analysis Files
+- **Overall Statistics CSV**: Summary statistics across all regions with both proportions and fractions
+- **Regional Summary CSV**: Detailed results for each individual region
+- **Comprehensive Report**: Text report with clear metric explanations and statistical summaries
 
 ## Visualization Features
 
@@ -228,12 +315,27 @@ results/
 
 ## Example Results
 
+### Standard Analysis Results
 For a typical analysis with max lag = 3:
 - **Overall Granger causality**: F = 2.6456, p < 0.001 (highly significant)
 - **R² improvement**: 0.0340 (3.4% improvement in prediction)
 - **FDR-significant terms**: 3 terms including "symptoms of flu" and "how long does flu last"
 - **Bonferroni-significant terms**: 1 term with very strong evidence
 - **Uncorrected significant terms**: 15 terms (may include false positives)
+
+### Regional Significance Analysis Results
+For analysis across 50 US states with 63 unique search terms:
+- **RAW (Uncorrected)**: 98.4% (62/63) of unique terms significant in at least one region
+- **FDR Corrected**: 82.5% (52/63) of unique terms significant in at least one region
+- **Bonferroni Corrected**: 69.8% (44/63) of unique terms significant in at least one region
+- **Pooled significance rates**: 92.7% (RAW), 56.0% (FDR), 26.7% (Bonferroni)
+- **Regional variation**: High variation across regions, with some showing 100% significance and others showing 0%
+
+### Rolling Window Analysis Results
+- **Time-varying patterns**: Shows how Granger causality changes over time
+- **Window-by-window significance**: Tracks which terms are significant in each time window
+- **Trend analysis**: Identifies periods of high and low predictive power
+- **Matrix outputs**: P-value matrices for detailed statistical analysis
 
 ## Customization
 
@@ -332,6 +434,24 @@ This system implements:
 - Automated data quality assessment
 - Professional visualization and reporting
 
+## Recent Updates and Improvements
+
+### Version 2.0 Features
+- **Rolling Window Analysis**: Added time-varying Granger causality analysis capabilities
+- **Regional Significance Analysis**: Cross-region statistical comparisons and reporting
+- **Enhanced Statistics**: Both decimal proportions and exact fractions (e.g., "62/63")
+- **Clear Metric Explanations**: Distinguishes between overall proportions and pooled statistics
+- **Improved Reporting**: Professional text reports with comprehensive explanations
+- **Refactored Code**: Better code organization and maintainability
+- **Advanced Visualizations**: Heatmaps, time series plots, and trend analysis
+
+### Key Improvements
+- **Fixed Data Type Issues**: Resolved string/float comparison errors in matrix processing
+- **Enhanced Error Handling**: Better error messages and debugging capabilities
+- **Improved Documentation**: Clear explanations of all metrics and calculations
+- **Professional Output**: Publication-ready reports and visualizations
+- **Batch Processing**: Automated analysis across multiple regions and time periods
+
 ## Support
 
 For issues or questions:
@@ -340,7 +460,8 @@ For issues or questions:
 3. Review error messages and warnings
 4. Check output directory permissions
 5. Ensure all dependencies are installed correctly
+6. Check the `REFACTORING_SUMMARY.md` for recent changes
 
 ---
 
-This system provides everything you need for comprehensive Granger causality analysis with professional-quality outputs.
+This system provides everything you need for comprehensive Granger causality analysis with professional-quality outputs, including advanced time-varying and cross-regional analysis capabilities.
