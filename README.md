@@ -92,7 +92,7 @@ results_prefix = "granger_significant_terms_data"
 visualization_prefix = "granger_pvalues_data"
 summary_prefix = "summary_data"
 time_series_prefix = "time_series_plots"
-granger_causality_prefix = "states"  # Per-state results in results/states/
+granger_causality_prefix = "granger_causality_results"  # Per-state results folder
 comprehensive_analysis_prefix = "comprehensive_analysis"
 
 # Visualization settings
