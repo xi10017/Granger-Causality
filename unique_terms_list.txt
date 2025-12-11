@@ -1,0 +1,65 @@
+Total unique terms across all regions: 63
+==================================================
+ 1. a influenza
+ 2. b flu
+ 3. bronchitis
+ 4. cold
+ 5. cold and flu
+ 6. cold symptoms
+ 7. contagious flu
+ 8. cough fever
+ 9. fever and cough
+10. fever cough
+11. fever flu
+12. flu a
+13. flu a symptoms
+14. flu cold
+15. flu contagious
+16. flu cough
+17. flu fever
+18. flu how long
+19. flu incubation
+20. flu incubation period
+21. flu medicine
+22. flu remedies
+23. flu symptoms
+24. flu test
+25. flu type
+26. flu type a
+27. flu virus
+28. get rid of flu
+29. get rid of the flu
+30. how contagious is the flu
+31. how long are you contagious
+32. how long contagious
+33. how long does flu last
+34. how long does the flu last
+35. how long flu
+36. how long is flu contagious
+37. how long is the flu contagious
+38. incubation period flu
+39. influenza a
+40. influenza a symptoms
+41. influenza b
+42. influenza contagious
+43. influenza symptoms
+44. is flu contagious
+45. is the flu contagious
+46. oscillococcinum
+47. pneumonia
+48. robitussin
+49. rsv
+50. sinus
+51. stomach flu
+52. stomach flu symptoms
+53. strep
+54. strep throat
+55. symptoms of flu
+56. symptoms of influenza
+57. symptoms of pneumonia
+58. symptoms of the flu
+59. tamiflu side effects
+60. the flu
+61. the flu symptoms
+62. type a flu
+63. walking pneumonia

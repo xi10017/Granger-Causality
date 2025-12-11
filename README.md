@@ -1,6 +1,15 @@
-# Comprehensive Granger Causality Analysis System
+# Granger Causality Analysis of Google Search Trends & Flu Outbreaks
 
-A complete, generalized system for performing Granger causality analysis on time series data with comprehensive visualization and statistical analysis capabilities. This system can analyze any response variable (states, regions, countries, etc.) to determine if search trends or other predictors Granger-cause changes in the target variable.
+**Overcoming the CDC's 2-week reporting lag by validating real-time Google search queries as leading indicators for influenza-like illness (ILI) forecasting.**
+
+A complete statistical pipeline for performing Granger causality analysis on time series data, analyzing whether Google search volumes can predict CDC ILI rates across all 50 U.S. states (2010–2020).
+
+## Sample Results
+
+### Rolling Window Heatmap (Bonferroni-Corrected P-Values)
+![Bonferroni Heatmap](results/granger_causality_results/supporting_information/pvalue_heatmap_bonferroni_50x20.png)
+
+*This heatmap tracks the temporal stability of search term predictive power across 3-year rolling windows. Red indicates significant Granger-causal relationships; the decay pattern demonstrates that predictive reliability is highly sensitive to temporal shifts.*
 
 ## Overview
 
@@ -27,9 +36,9 @@ This system performs **Granger causality analysis** to determine whether predict
 
 ## System Architecture
 
-The system consists of multiple Python scripts that work together to provide comprehensive Granger causality analysis:
+The system consists of multiple Python scripts in the `src/` directory that work together to provide comprehensive Granger causality analysis:
 
-### Core Analysis Scripts
+### Core Analysis Scripts (`src/`)
 1. **`granger_causality_pipeline.py`** - Main Granger causality analysis
 2. **`granger_causality_pipeline_refactored.py`** - Refactored version with improved structure
 3. **`create_comprehensive_significant_terms_summary.py`** - Creates summary of significant terms
@@ -37,16 +46,15 @@ The system consists of multiple Python scripts that work together to provide com
 5. **`analyze_comprehensive_results.py`** - Creates comprehensive analysis with bar graphs
 6. **`analyze_multiple_data_files.py`** - Orchestrates complete pipeline for multiple files
 
-### Advanced Analysis Scripts
+### Advanced Analysis Scripts (`src/`)
 7. **`rolling_window_analysis.py`** - Rolling window Granger causality analysis
 8. **`run_rolling_window_analysis.py`** - Orchestrates rolling window analysis for multiple regions
 9. **`calculate_regional_significance_proportions.py`** - Calculates regional significance statistics
 
 ### Configuration & Documentation
-- **`confs.py`** - Central configuration file
+- **`src/confs.py`** - Central configuration file
 - **`requirements.txt`** - Python dependencies
 - **`README.md`** - This documentation
-- **`REFACTORING_SUMMARY.md`** - Details of system improvements
 
 ## Configuration (`confs.py`)
 

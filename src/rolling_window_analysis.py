@@ -691,6 +691,9 @@ class RollingWindowAnalyzer:
                 # Create heatmap
                 self._create_pvalue_heatmap(matrix_df, method, proportion_significant)
                 
+                # Create ARGO-style coefficient heatmap
+                self.create_argo_coefficient_heatmap(matrix_df, method, lim=0.1, na_grey=True, scale=1.0)
+                
                 logger.info(f"✓ {method} matrix saved to {csv_file}")
                 logger.info(f"  Proportion significant: {proportion_significant:.3f}")
             
@@ -698,41 +701,66 @@ class RollingWindowAnalyzer:
             logger.error(f"Error creating p-value matrices: {e}")
     
     def _create_pvalue_heatmap(self, matrix_df: pd.DataFrame, method: str, proportion_significant: float) -> None:
-        """Create a heatmap visualization of the p-value matrix."""
+        """Create an ARGO-style heatmap visualization of the p-value matrix."""
         try:
             # Remove the proportion row for visualization
             plot_df = matrix_df.drop('Proportion_Significant', errors='ignore')
             
-            # Set up the plot style
-            plt.style.use('default')
-            sns.set_palette("husl")
+            # ARGO-style parameters
+            lim = 0.1  # Limit to truncate large coefficients for better presentation
+            na_grey = True  # Whether to plot grey for NA values
+            scale = 1.0  # Margin scale
             
-            # Create figure with better proportions
-            fig_width = max(14, len(plot_df.columns) * 0.8)
-            fig_height = max(10, len(plot_df) * 0.6)
+            # Set up the plot style with ARGO-inspired styling
+            plt.style.use('default')
+            sns.set_palette("viridis")
+            
+            # Create figure with ARGO-style proportions (similar to the R example)
+            fig_width = max(12, len(plot_df.columns) * 0.6)  # ARGO uses width=12
+            fig_height = max(11, len(plot_df) * 0.5)  # ARGO uses height=11
             fig, ax = plt.subplots(figsize=(fig_width, fig_height))
             
-            # Create a discrete colormap for binary significance
-            from matplotlib.colors import ListedColormap
-            colors = ['#2E86AB', '#C73E1D']  # Blue for non-significant, Red for significant
-            cmap = ListedColormap(colors)
+            # Prepare data for ARGO-style visualization
+            # Convert p-values to -log10 scale for better visualization (like ARGO coefficients)
+            plot_data = plot_df.copy()
             
-            # Create significance mask with better color mapping
-            significance_mask = plot_df < 0.05
+            # Apply truncation limit (similar to ARGO's lim parameter)
+            # For p-values, we'll use 1-p as our "coefficient" and apply truncation
+            coefficient_data = 1 - plot_data  # Convert p-values to "coefficient" scale
+            coefficient_data = np.clip(coefficient_data, -lim, lim)  # Truncate large values
             
-            # Plot heatmap with better styling
-            im = ax.imshow(significance_mask.astype(int), cmap=cmap, aspect='auto', vmin=0, vmax=1)
+            # Create ARGO-style colormap (similar to the R heatmap)
+            from matplotlib.colors import LinearSegmentedColormap, ListedColormap
             
-            # Add grid lines for better readability
+            # ARGO-style color scheme: blue-white-red gradient
+            colors_argo = ['#2166AC', '#4393C3', '#92C5DE', '#D1E5F0', '#F7F7F7', 
+                          '#FDDBC7', '#F4A582', '#D6604D', '#B2182B']
+            n_bins = 256
+            cmap_argo = LinearSegmentedColormap.from_list('argo', colors_argo, N=n_bins)
+            
+            # Handle NA values with grey color (ARGO feature)
+            if na_grey:
+                # Create a mask for NaN values
+                na_mask = plot_data.isna()
+                # Set NaN values to a special value for grey coloring
+                coefficient_data = coefficient_data.fillna(-999)  # Special value for NaN
+            
+            # Plot heatmap with ARGO styling
+            im = ax.imshow(coefficient_data.values, cmap=cmap_argo, aspect='auto', 
+                          vmin=-lim, vmax=lim, interpolation='nearest')
+            
+            # Add grid lines for better readability (ARGO style)
             ax.set_xticks(np.arange(-0.5, len(plot_df.columns), 1), minor=True)
             ax.set_yticks(np.arange(-0.5, len(plot_df), 1), minor=True)
-            ax.grid(which="minor", color="white", linestyle='-', linewidth=1)
+            ax.grid(which="minor", color="white", linestyle='-', linewidth=0.5, alpha=0.8)
             
-            # Set ticks and labels with better formatting
+            # Set ticks and labels with ARGO-style formatting
             ax.set_xticks(range(len(plot_df.columns)))
             ax.set_yticks(range(len(plot_df)))
-            ax.set_xticklabels(plot_df.columns, rotation=45, ha='right', fontsize=10, fontweight='bold')
-            ax.set_yticklabels(plot_df.index, fontsize=10, fontweight='bold')
+            
+            # Rotate x-axis labels like ARGO
+            ax.set_xticklabels(plot_df.columns, rotation=45, ha='right', fontsize=9)
+            ax.set_yticklabels(plot_df.index, fontsize=9)
             
             # Calculate proportion for title display
             significant_mask = plot_df < 0.05
@@ -740,42 +768,173 @@ class RollingWindowAnalyzer:
             total_terms = len(plot_df.columns)
             proportion_significant = terms_ever_significant / total_terms if total_terms > 0 else 0
             
-            # Add title with better formatting
-            title = f"P-Value Heatmap - {method.upper()} Corrected\n"
-            title += f"Alabama ({self.data_file})\n"
-            title += f"Proportion Significant: {proportion_significant:.3f} ({terms_ever_significant}/{total_terms})"
-            ax.set_title(title, fontsize=14, fontweight='bold', pad=20)
+            # ARGO-style title formatting
+            title = f"ARGO-Style P-Value Heatmap - {method.upper()} Corrected\n"
+            title += f"Rolling Window Analysis ({self.data_file})\n"
+            title += f"Significant Terms: {proportion_significant:.3f} ({terms_ever_significant}/{total_terms})"
+            ax.set_title(title, fontsize=13, fontweight='bold', pad=15)
             
-            # Add colorbar with discrete colors
+            # Add ARGO-style colorbar
             cbar = plt.colorbar(im, ax=ax, shrink=0.8, pad=0.02)
-            cbar.set_ticks([0.25, 0.75])  # Position ticks in the middle of each color block
-            cbar.set_ticklabels(['Not Significant\n(p ≥ 0.05)', 'Significant\n(p < 0.05)'])
-            cbar.ax.tick_params(labelsize=10)
-            cbar.ax.set_ylabel('Significance', fontsize=12, fontweight='bold')
+            cbar.set_ticks([-lim, -lim/2, 0, lim/2, lim])
+            cbar.set_ticklabels([f'High p-value\n(≥{1-lim:.1f})', f'Medium p-value\n({1-lim/2:.1f})', 
+                               'Threshold\n(0.5)', f'Low p-value\n({1-lim/2:.1f})', f'Very Low p-value\n(≤{1-lim:.1f})'])
+            cbar.ax.tick_params(labelsize=8)
+            cbar.ax.set_ylabel('P-Value Scale (1-p)', fontsize=10, fontweight='bold')
             
-            # Add value annotations on each cell for better readability
+            # Add value annotations with ARGO-style formatting
             for i in range(len(plot_df)):
                 for j in range(len(plot_df.columns)):
                     value = plot_df.iloc[i, j]
                     if not np.isnan(value):
-                        # Add text annotation with p-value
-                        text = f'{value:.3f}' if value < 1.0 else '1.000'
+                        # Format p-values like ARGO coefficients
+                        if value < 0.001:
+                            text = f'{value:.2e}'
+                        elif value < 0.01:
+                            text = f'{value:.3f}'
+                        else:
+                            text = f'{value:.2f}'
+                        
+                        # Color text based on significance (ARGO style)
+                        text_color = "white" if value < 0.05 else "black"
                         ax.text(j, i, text, ha="center", va="center", 
-                               color="white" if significance_mask.iloc[i, j] else "black",
-                               fontsize=8, fontweight='bold')
+                               color=text_color, fontsize=7, fontweight='bold')
             
-            # Improve layout and spacing
+            # Handle NaN values with grey background (ARGO feature)
+            if na_grey:
+                for i in range(len(plot_df)):
+                    for j in range(len(plot_df.columns)):
+                        if plot_df.iloc[i, j] is np.nan or pd.isna(plot_df.iloc[i, j]):
+                            # Add grey rectangle for NaN values
+                            rect = plt.Rectangle((j-0.5, i-0.5), 1, 1, 
+                                               facecolor='grey', alpha=0.7, 
+                                               edgecolor='white', linewidth=0.5)
+                            ax.add_patch(rect)
+                            ax.text(j, i, 'NA', ha="center", va="center", 
+                                   color="white", fontsize=7, fontweight='bold')
+            
+            # ARGO-style layout improvements
             plt.tight_layout()
             
-            # Save plot with high quality
-            plot_file = self.matrix_dir / f"pvalue_heatmap_{method.lower()}.png"
+            # Save plot with ARGO-style quality settings
+            plot_file = self.matrix_dir / f"argo_style_heatmap_{method.lower()}.png"
             plt.savefig(plot_file, dpi=300, bbox_inches='tight', facecolor='white', edgecolor='none')
             plt.close()
             
-            logger.info(f"✓ {method} heatmap saved to {plot_file}")
+            logger.info(f"✓ ARGO-style {method} heatmap saved to {plot_file}")
             
         except Exception as e:
-            logger.error(f"Error creating {method} heatmap: {e}")
+            logger.error(f"Error creating ARGO-style {method} heatmap: {e}")
+    
+    def create_argo_coefficient_heatmap(self, matrix_df: pd.DataFrame, method: str, lim: float = 0.1, na_grey: bool = True, scale: float = 1.0) -> None:
+        """Create an ARGO-style coefficient heatmap similar to the R heatmap_argo function."""
+        try:
+            # Remove the proportion row for visualization
+            plot_df = matrix_df.drop('Proportion_Significant', errors='ignore')
+            
+            # Set up the plot style with ARGO-inspired styling
+            plt.style.use('default')
+            
+            # Create figure with ARGO-style proportions (height=11, width=12 from R example)
+            fig_width = max(12, len(plot_df.columns) * scale)
+            fig_height = max(11, len(plot_df) * scale)
+            fig, ax = plt.subplots(figsize=(fig_width, fig_height))
+            
+            # Prepare data for ARGO-style visualization
+            # Convert p-values to coefficient-like scale (1-p) for better visualization
+            coefficient_data = 1 - plot_df
+            
+            # Apply truncation limit (ARGO feature)
+            coefficient_data = np.clip(coefficient_data, -lim, lim)
+            
+            # Create ARGO-style colormap (blue-white-red gradient)
+            from matplotlib.colors import LinearSegmentedColormap
+            
+            # ARGO color scheme: blue to white to red
+            colors_argo = ['#2166AC', '#4393C3', '#92C5DE', '#D1E5F0', '#F7F7F7', 
+                          '#FDDBC7', '#F4A582', '#D6604D', '#B2182B']
+            n_bins = 256
+            cmap_argo = LinearSegmentedColormap.from_list('argo', colors_argo, N=n_bins)
+            
+            # Handle NA values with grey color (ARGO feature)
+            if na_grey:
+                # Create a mask for NaN values and set them to a special value
+                na_mask = plot_df.isna()
+                coefficient_data = coefficient_data.fillna(-999)  # Special value for NaN
+            
+            # Plot heatmap with ARGO styling
+            im = ax.imshow(coefficient_data.values, cmap=cmap_argo, aspect='auto', 
+                          vmin=-lim, vmax=lim, interpolation='nearest')
+            
+            # Add grid lines for better readability (ARGO style)
+            ax.set_xticks(np.arange(-0.5, len(plot_df.columns), 1), minor=True)
+            ax.set_yticks(np.arange(-0.5, len(plot_df), 1), minor=True)
+            ax.grid(which="minor", color="white", linestyle='-', linewidth=0.5, alpha=0.8)
+            
+            # Set ticks and labels with ARGO-style formatting
+            ax.set_xticks(range(len(plot_df.columns)))
+            ax.set_yticks(range(len(plot_df)))
+            
+            # Rotate x-axis labels like ARGO
+            ax.set_xticklabels(plot_df.columns, rotation=45, ha='right', fontsize=9)
+            ax.set_yticklabels(plot_df.index, fontsize=9)
+            
+            # ARGO-style title
+            title = f"ARGO Coefficient Heatmap - {method.upper()} Corrected\n"
+            title += f"Rolling Window Analysis ({self.data_file})\n"
+            title += f"Coefficient Scale: 1-p (truncated at ±{lim})"
+            ax.set_title(title, fontsize=13, fontweight='bold', pad=15)
+            
+            # Add ARGO-style colorbar
+            cbar = plt.colorbar(im, ax=ax, shrink=0.8, pad=0.02)
+            cbar.set_ticks([-lim, -lim/2, 0, lim/2, lim])
+            cbar.set_ticklabels([f'High p-value\n(≥{1-lim:.1f})', f'Medium p-value\n({1-lim/2:.1f})', 
+                               'Threshold\n(0.5)', f'Low p-value\n({1-lim/2:.1f})', f'Very Low p-value\n(≤{1-lim:.1f})'])
+            cbar.ax.tick_params(labelsize=8)
+            cbar.ax.set_ylabel('Coefficient Value (1-p)', fontsize=10, fontweight='bold')
+            
+            # Add value annotations with ARGO-style formatting
+            for i in range(len(plot_df)):
+                for j in range(len(plot_df.columns)):
+                    value = plot_df.iloc[i, j]
+                    if not np.isnan(value):
+                        # Format values like ARGO coefficients
+                        coeff_value = 1 - value
+                        if abs(coeff_value) < 0.01:
+                            text = f'{coeff_value:.3f}'
+                        else:
+                            text = f'{coeff_value:.2f}'
+                        
+                        # Color text based on value magnitude (ARGO style)
+                        text_color = "white" if abs(coeff_value) > lim/2 else "black"
+                        ax.text(j, i, text, ha="center", va="center", 
+                               color=text_color, fontsize=7, fontweight='bold')
+            
+            # Handle NaN values with grey background (ARGO feature)
+            if na_grey:
+                for i in range(len(plot_df)):
+                    for j in range(len(plot_df.columns)):
+                        if plot_df.iloc[i, j] is np.nan or pd.isna(plot_df.iloc[i, j]):
+                            # Add grey rectangle for NaN values
+                            rect = plt.Rectangle((j-0.5, i-0.5), 1, 1, 
+                                               facecolor='grey', alpha=0.7, 
+                                               edgecolor='white', linewidth=0.5)
+                            ax.add_patch(rect)
+                            ax.text(j, i, 'NA', ha="center", va="center", 
+                                   color="white", fontsize=7, fontweight='bold')
+            
+            # ARGO-style layout improvements
+            plt.tight_layout()
+            
+            # Save plot with ARGO-style quality settings
+            plot_file = self.matrix_dir / f"argo_coefficient_heatmap_{method.lower()}.png"
+            plt.savefig(plot_file, dpi=300, bbox_inches='tight', facecolor='white', edgecolor='none')
+            plt.close()
+            
+            logger.info(f"✓ ARGO coefficient heatmap saved to {plot_file}")
+            
+        except Exception as e:
+            logger.error(f"Error creating ARGO coefficient heatmap: {e}")
 
 
 def main():
