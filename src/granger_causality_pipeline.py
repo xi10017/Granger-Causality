@@ -1,3 +1,14 @@
+"""
+Granger Causality Analysis Pipeline
+
+Core statistical pipeline for testing Granger causality between Google search
+term volumes and CDC ILI rates. Implements F-statistic testing with Bonferroni
+and Benjamini-Hochberg (FDR) corrections for multiple comparisons.
+
+Author: Xi Chen
+Date: September 2025
+"""
+
 import numpy as np
 import pandas as pd
 import statsmodels.api as sm
@@ -527,7 +538,6 @@ def main():
     print(f"Configuration loaded from confs.py")
     print(f"Data directory: {data_dir}")
     print(f"Results directory: {result_dir}")
-    print(f"Granger causality subfolder: {granger_causality_prefix}")
     print(f"Data file to analyze: {file_name}")
     print(f"Max lags to test: {max_lags_to_test}")
     

@@ -4,8 +4,8 @@ Refactored Granger Causality Analysis Pipeline
 This module provides a comprehensive, well-structured implementation of Granger causality
 testing with improved code quality, error handling, and maintainability.
 
-Author: Refactored from original implementation
-Date: 2024
+Author: Xi Chen
+Date: September 2025
 """
 
 import logging

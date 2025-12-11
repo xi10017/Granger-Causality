@@ -4,8 +4,8 @@ Rolling Window Granger Causality Analysis
 This module implements rolling window analysis for Granger causality testing
 using configurable time periods and sliding windows.
 
-Author: Rolling Window Analysis Implementation
-Date: 2024
+Author: Xi Chen
+Date: September 2025
 """
 
 import logging

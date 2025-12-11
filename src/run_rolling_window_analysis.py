@@ -4,8 +4,8 @@ Comprehensive Rolling Window Analysis Runner
 This script runs rolling window Granger causality analysis across multiple states
 using configuration from confs.py and generates comprehensive reports.
 
-Author: Rolling Window Analysis Implementation
-Date: 2024
+Author: Xi Chen
+Date: September 2025
 """
 
 import logging
@@ -280,13 +280,13 @@ class MultiStateRollingAnalysis:
             f.write("  3. Results show variation in significance across datasets and time windows\n")
             f.write("  4. FDR correction provides intermediate results between raw and Bonferroni\n")
             f.write("  5. Some terms appear significant across multiple windows, suggesting robust signals\n")
-            f.write("  6. Results saved in respective granger_causality_prefix/response_var folders\n\n")
+            f.write("  6. Results saved in respective results/states/response_var folders\n\n")
             
             f.write("FILES GENERATED:\n")
             f.write(f"  - Comparative summary: {output_dir}/comparative_summary.csv\n")
             f.write(f"  - Aggregate statistics: {output_dir}/aggregate_statistics.csv\n")
-            f.write(f"  - Individual dataset results: {granger_causality_prefix}/*/\n")
-            f.write(f"  - Window-specific results: {granger_causality_prefix}/*/window_*_significant_terms_summary.txt\n")
+            f.write(f"  - Individual dataset results: results/states/*/\n")
+            f.write(f"  - Window-specific results: results/states/*/window_*_significant_terms_summary.txt\n")
         
         logger.info(f"Final report saved to {report_path}")
 
@@ -302,7 +302,7 @@ def main():
     print("="*80)
     print(f"Datasets analyzed: {len(analyzer.states_to_analyze)}")
     print(f"Successful analyses: {len([r for r in analyzer.results.values() if r.get('success', False)])}")
-    print(f"Results saved to: {result_dir}/granger_causality_results/*/")
+    print(f"Results saved to: {result_dir}/*/")
     print(f"Comparative analysis: {result_dir}/multi_dataset_rolling_analysis/")
     print("="*80)
 

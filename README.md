@@ -7,7 +7,7 @@ A complete statistical pipeline for performing Granger causality analysis on tim
 ## Sample Results
 
 ### Rolling Window Heatmap (Bonferroni-Corrected P-Values)
-![Bonferroni Heatmap](results/figures/pvalue_heatmap_bonferroni_50x20.png)
+![Bonferroni Heatmap](results/heatmaps/pvalue_heatmap_bonferroni_50x20.png)
 
 *This heatmap tracks the temporal stability of search term predictive power across 3-year rolling windows. Red indicates significant Granger-causal relationships; the decay pattern demonstrates that predictive reliability is highly sensitive to temporal shifts.*
 
@@ -92,7 +92,7 @@ results_prefix = "granger_significant_terms_data"
 visualization_prefix = "granger_pvalues_data"
 summary_prefix = "summary_data"
 time_series_prefix = "time_series_plots"
-granger_causality_prefix = "granger_causality_results"
+granger_causality_prefix = "states"  # Per-state results in results/states/
 comprehensive_analysis_prefix = "comprehensive_analysis"
 
 # Visualization settings
@@ -223,53 +223,34 @@ The system creates a well-organized folder structure:
 ### Standard Analysis Output
 ```
 results/
-└── granger_causality_results/
-    └── {response_var}/
-        ├── granger_pvalues_data_{response_var}_lag{1-5}.png
-        ├── granger_significant_terms_data_{response_var}_lag{1-5}.txt
-        ├── summary_data_{response_var}.txt
-        ├── time_series_plots/
-        │   └── {term_name}/
-        │       └── {term_name}_{response_var}_analysis.png
-        └── comprehensive_analysis/
-            ├── bonferroni_count_bar_graph.png
-            ├── bonferroni_mean_pval_bar_graph.png
-            ├── bonferroni_median_pval_bar_graph.png
-            ├── fdr_count_bar_graph.png
-            ├── fdr_mean_pval_bar_graph.png
-            ├── fdr_median_pval_bar_graph.png
-            ├── uncorrected_count_bar_graph.png
-            ├── uncorrected_mean_pval_bar_graph.png
-            ├── uncorrected_median_pval_bar_graph.png
-            ├── significance_category_comparison.png
-            └── comprehensive_analysis_summary.csv
+├── heatmaps/                             ← Cross-state aggregate heatmaps
+│   ├── pvalue_heatmap_bonferroni_50x20.png
+│   ├── pvalue_heatmap_fdr_50x20.png
+│   └── pvalue_heatmap_raw_50x20.png
+├── states/                               ← Per-state results
+│   ├── Alabama/
+│   ├── Alaska/
+│   └── .../
+│       ├── granger_pvalues_data_{state}_lag{1-5}.png
+│       ├── granger_significant_terms_data_{state}_lag{1-5}.csv
+│       ├── summary_data_{state}.txt
+│       ├── time_series_plots/
+│       └── comprehensive_analysis/
+├── regional_significance_summary.csv
+├── overall_statistics.csv
+└── regional_significance_report.txt
 ```
 
 ### Rolling Window Analysis Output
 ```
-results/
-└── granger_causality_results/
-    └── {response_var}/
-        └── rolling_window_analysis/
-            ├── matrices/
-            │   ├── pvalue_matrix_raw.csv
-            │   ├── pvalue_matrix_fdr.csv
-            │   ├── pvalue_matrix_bonferroni.csv
-            │   ├── pvalue_heatmap_raw.png
-            │   ├── pvalue_heatmap_fdr.png
-            │   └── pvalue_heatmap_bonferroni.png
-            ├── term_significance_across_windows.png
-            ├── rolling_window_summary.txt
-            └── rolling_window_analysis_report.txt
-```
-
-### Regional Significance Analysis Output
-```
-results/
-└── granger_causality_results/
-    ├── regional_significance_summary.csv
-    ├── overall_statistics.csv
-    └── regional_significance_report.txt
+results/{response_var}/rolling_window_analysis/
+├── matrices/
+│   ├── pvalue_matrix_raw.csv
+│   ├── pvalue_matrix_fdr.csv
+│   └── pvalue_matrix_bonferroni.csv
+├── term_significance_across_windows.png
+└── text_summaries/
+    └── rolling_window_summary.txt
 ```
 
 ## Output Files Explained

@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 """
-Script to analyze comprehensive significant terms analysis results across all response variables
-and generate bar graphs for individual terms across different significance categories.
+Comprehensive Results Analysis
 
-This script works with any response variable (states, regions, etc.) and creates comprehensive
-analysis visualizations for each response variable individually.
+Analyzes significant terms from Granger causality tests and generates bar graphs
+for individual terms across different significance categories (Raw, FDR, Bonferroni).
+
+Author: Xi Chen
+Date: September 2025
 """
 
 import os

@@ -1,3 +1,13 @@
+"""
+Significant Terms Summary Generator
+
+Parses Granger causality results and creates consolidated summaries of significant
+search terms organized by correction method (Raw, FDR, Bonferroni).
+
+Author: Xi Chen
+Date: September 2025
+"""
+
 import os
 import glob
 import re

@@ -1,3 +1,13 @@
+"""
+Configuration Module for Granger Causality Analysis
+
+Central configuration file containing all parameters for data paths, statistical
+thresholds, visualization settings, and rolling window analysis options.
+
+Author: Xi Chen
+Date: September 2025
+"""
+
 # Data configuration
 data_dir = "data/"
 result_dir = "results/"
@@ -28,7 +38,7 @@ results_prefix = "granger_significant_terms_data"
 visualization_prefix = "granger_pvalues_data"
 summary_prefix = "summary_data"
 time_series_prefix = "time_series_plots"
-granger_causality_prefix = "granger_causality_results"
+granger_causality_prefix = "states"  # Per-state results go into results/states/
 comprehensive_analysis_prefix = "comprehensive_analysis"
 
 # Rolling window analysis configuration

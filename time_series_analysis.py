@@ -1,3 +1,19 @@
+"""
+Time Series Visualization for Granger Causality Analysis
+
+This module generates dual-axis time series plots comparing lagged search term
+volumes against ILI rates for significant Granger-causal relationships.
+
+For each significant search term identified by the Granger causality pipeline,
+this script creates publication-quality visualizations showing:
+- Primary axis: ILI rate time series
+- Secondary axis: Lagged search term volume
+- Highlighted significant lag periods
+
+Author: Xi Chen
+Date: September 2025
+"""
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates

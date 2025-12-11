@@ -1,8 +1,12 @@
 #!/usr/bin/env python3
 """
-Script to demonstrate analyzing multiple data files using the generalized Granger causality pipeline.
+Multi-Dataset Batch Analysis
 
-This script shows how to modify the configuration and run analysis for different data files.
+Orchestrates the Granger causality pipeline across all 51 datasets (50 states + US national).
+Iterates through each state's data file and runs the complete 4-stage analysis.
+
+Author: Xi Chen
+Date: September 2025
 """
 
 import os
@@ -159,7 +163,7 @@ def main():
         print("  - Comprehensive significant terms summary")
         print("  - Time series analysis plots")
         print("  - Comprehensive results analysis (bar graphs and statistics)")
-        print(f"  - All files organized in: {result_dir}/granger_causality_results/")
+        print(f"  - All files organized in: {result_dir}/")
     
     print(f"\nConfiguration restored to: file_name = {file_name}, response_var = {response_var}")
 

@@ -4,8 +4,8 @@ Calculate Regional Significance Proportions
 This script analyzes the rolling window analysis results across all regions
 to calculate the proportion of terms that were ever significant.
 
-Author: Regional Analysis Implementation
-Date: 2024
+Author: Xi Chen
+Date: September 2025
 """
 
 import logging
@@ -186,7 +186,7 @@ class RegionalSignificanceAnalyzer:
         """Save analysis results to files."""
         logger.info("=== SAVING RESULTS ===")
         
-        # Save results directly in granger_causality_results directory
+        # Save results directly in results directory
         output_dir = Path(result_dir) / granger_causality_prefix
         
         # Save detailed summary
@@ -335,7 +335,7 @@ def main():
     print("REGIONAL SIGNIFICANCE ANALYSIS COMPLETE")
     print("="*80)
     print(f"Regions analyzed: {len(analyzer.regions)}")
-    print(f"Results saved to: {result_dir}/granger_causality_results/")
+    print(f"Results saved to: {result_dir}/")
     print("="*80)
 
 

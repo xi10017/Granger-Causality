@@ -38,6 +38,9 @@ MAX_TEXT_LINES : int
     Maximum lines per cell before truncation (default: 2)
 MIN_FONT_SIZE / MAX_FONT_SIZE : int
     Bounds for dynamic font sizing (default: 6 / 12)
+
+Author: Xi Chen
+Date: September 2025
 """
 
 import os
@@ -54,10 +57,10 @@ from matplotlib.colors import LinearSegmentedColormap, Normalize
 # -----------------------------
 
 # Root that contains state folders (each has rolling_window_analysis/matrices/pvalue_matrix_raw.csv)
-ROOT_DIR = os.path.expanduser("results/granger_causality_results")
+ROOT_DIR = "results/states"
 
-# Where to save outputs (flattened for easy access)
-OUT_DIR = "results/figures"
+# Where to save outputs
+OUT_DIR = "results/heatmaps"
 OUT_PNG_RAW = os.path.join(OUT_DIR, "pvalue_heatmap_raw_50x20.png")
 OUT_PNG_FDR = os.path.join(OUT_DIR, "pvalue_heatmap_fdr_50x20.png")
 OUT_PNG_BONFERRONI = os.path.join(OUT_DIR, "pvalue_heatmap_bonferroni_50x20.png")
