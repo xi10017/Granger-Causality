@@ -39,12 +39,11 @@ This system performs **Granger causality analysis** to determine whether predict
 The system consists of multiple Python scripts in the `src/` directory that work together to provide comprehensive Granger causality analysis:
 
 ### Core Analysis Scripts (`src/`)
-1. **`granger_causality_pipeline.py`** - Main Granger causality analysis
-2. **`granger_causality_pipeline_refactored.py`** - Refactored version with improved structure
-3. **`create_comprehensive_significant_terms_summary.py`** - Creates summary of significant terms
-4. **`time_series_analysis.py`** - Generates time series visualizations
-5. **`analyze_comprehensive_results.py`** - Creates comprehensive analysis with bar graphs
-6. **`analyze_multiple_data_files.py`** - Orchestrates complete pipeline for multiple files
+1. **`granger_causality_pipeline_refactored.py`** - Main Granger causality analysis pipeline
+2. **`create_comprehensive_significant_terms_summary.py`** - Creates summary of significant terms
+3. **`time_series_analysis.py`** - Generates time series visualizations
+4. **`analyze_comprehensive_results.py`** - Creates comprehensive analysis with bar graphs
+5. **`analyze_multiple_data_files.py`** - Orchestrates complete pipeline for multiple files
 
 ### Advanced Analysis Scripts (`src/`)
 7. **`rolling_window_analysis.py`** - Rolling window Granger causality analysis
@@ -136,7 +135,7 @@ Edit `confs.py` to match your analysis requirements:
 #### Single File Analysis
 ```bash
 # Run complete 4-step pipeline for one file
-python granger_causality_pipeline.py
+python granger_causality_pipeline_refactored.py
 python create_comprehensive_significant_terms_summary.py
 python time_series_analysis.py
 python analyze_comprehensive_results.py
@@ -167,7 +166,7 @@ python calculate_regional_significance_proportions.py
 
 The system runs a comprehensive 4-step analysis:
 
-### Step 1: Granger Causality Analysis (`granger_causality_pipeline.py`)
+### Step 1: Granger Causality Analysis (`granger_causality_pipeline_refactored.py`)
 - Loads and prepares data
 - Creates lagged variables
 - Performs Granger causality tests for multiple lags
