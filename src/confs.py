@@ -8,9 +8,9 @@ Author: Xi Chen
 Date: September 2025
 """
 
-# Data configuration
-data_dir = "data/"
-result_dir = "results/"
+# Data configuration (paths relative to src/ directory)
+data_dir = "../data/"
+result_dir = "../results/"
 
 # Analysis configuration
 max_terms = None  # Maximum number of search terms to use (None = use all)

@@ -44,6 +44,7 @@ The system consists of multiple Python scripts in the `src/` directory that work
 3. **`time_series_analysis.py`** - Generates time series visualizations
 4. **`analyze_comprehensive_results.py`** - Creates comprehensive analysis with bar graphs
 5. **`analyze_multiple_data_files.py`** - Orchestrates complete pipeline for multiple files
+6. **`plot.py`** - Generates cross-state p-value heatmaps
 
 ### Advanced Analysis Scripts (`src/`)
 7. **`rolling_window_analysis.py`** - Rolling window Granger causality analysis
@@ -134,7 +135,8 @@ Edit `confs.py` to match your analysis requirements:
 
 #### Single File Analysis
 ```bash
-# Run complete 4-step pipeline for one file
+# Run from the src/ directory
+cd src/
 python granger_causality_pipeline_refactored.py
 python create_comprehensive_significant_terms_summary.py
 python time_series_analysis.py
@@ -143,7 +145,8 @@ python analyze_comprehensive_results.py
 
 #### Multiple Files Analysis
 ```bash
-# Run complete pipeline for multiple files automatically
+# Run from the src/ directory
+cd src/
 python analyze_multiple_data_files.py
 ```
 
