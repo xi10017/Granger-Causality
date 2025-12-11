@@ -1,4 +1,45 @@
-# scripts/make_pvalue_heatmap.py
+"""
+P-Value Heatmap Generator for Granger Causality Analysis
+
+This module generates publication-quality heatmaps visualizing p-values across
+50 U.S. states and their top significant keywords from rolling-window Granger
+causality tests.
+
+Dynamic Text Fitting Algorithm
+------------------------------
+To ensure readable labels within each cell regardless of grid dimensions:
+
+1. Cell Size Calculation:
+   - cell_width = fig_width / n_cols
+   - cell_height = fig_height / n_rows
+
+2. Font Size Derivation:
+   - target_text_height = cell_height * TEXT_FIT_RATIO (default 0.7)
+   - font_size = target_text_height * DPI / 72 * 1.2
+   - Clamped between MIN_FONT_SIZE (6) and MAX_FONT_SIZE (12)
+
+3. Wrap Width Calculation:
+   - chars_per_inch ≈ 6-8 depending on font size
+   - target_chars = cell_width * chars_per_inch * TEXT_WIDTH_RATIO (default 0.8)
+   - Clamped between 8 and 20 characters
+
+4. Text Processing Pipeline:
+   - Wrap keyword with textwrap.fill(keyword, width=wrap_width)
+   - If wrapped text > MAX_TEXT_LINES (2), truncate and append "..."
+   - Render centered in cell with calculated font size
+
+Configuration Parameters
+------------------------
+TEXT_FIT_RATIO : float
+    Fraction of cell height to allocate for text (default: 0.7)
+TEXT_WIDTH_RATIO : float
+    Fraction of cell width to use for text wrapping (default: 0.8)
+MAX_TEXT_LINES : int
+    Maximum lines per cell before truncation (default: 2)
+MIN_FONT_SIZE / MAX_FONT_SIZE : int
+    Bounds for dynamic font sizing (default: 6 / 12)
+"""
+
 import os
 import textwrap
 from typing import List, Tuple, Dict, Optional
@@ -13,10 +54,10 @@ from matplotlib.colors import LinearSegmentedColormap, Normalize
 # -----------------------------
 
 # Root that contains state folders (each has rolling_window_analysis/matrices/pvalue_matrix_raw.csv)
-ROOT_DIR = os.path.expanduser("~/Workspace/Granger-Causality/results/granger_causality_results")
+ROOT_DIR = os.path.expanduser("results/granger_causality_results")
 
-# Where to save outputs
-OUT_DIR = os.path.join(ROOT_DIR, "supporting_information")
+# Where to save outputs (flattened for easy access)
+OUT_DIR = "results/figures"
 OUT_PNG_RAW = os.path.join(OUT_DIR, "pvalue_heatmap_raw_50x20.png")
 OUT_PNG_FDR = os.path.join(OUT_DIR, "pvalue_heatmap_fdr_50x20.png")
 OUT_PNG_BONFERRONI = os.path.join(OUT_DIR, "pvalue_heatmap_bonferroni_50x20.png")

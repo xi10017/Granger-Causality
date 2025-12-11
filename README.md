@@ -7,7 +7,7 @@ A complete statistical pipeline for performing Granger causality analysis on tim
 ## Sample Results
 
 ### Rolling Window Heatmap (Bonferroni-Corrected P-Values)
-![Bonferroni Heatmap](results/granger_causality_results/supporting_information/pvalue_heatmap_bonferroni_50x20.png)
+![Bonferroni Heatmap](results/figures/pvalue_heatmap_bonferroni_50x20.png)
 
 *This heatmap tracks the temporal stability of search term predictive power across 3-year rolling windows. Red indicates significant Granger-causal relationships; the decay pattern demonstrates that predictive reliability is highly sensitive to temporal shifts.*
 
